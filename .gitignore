@@ -8,3 +8,4 @@
 **/.directory
 *.hash
 *.map
+bin/debug/css/style.min.css

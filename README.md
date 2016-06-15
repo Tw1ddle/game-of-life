@@ -1,4 +1,4 @@
-[![Project logo](https://github.com/Tw1ddle/game-of-life/blob/master/screenshots/gameoflife_logo.png?raw=true "Game Of Life WebGL logo")](http://www.samcodes.co.uk/project/game-of-life/)
+[![Project logo](https://github.com/Tw1ddle/game-of-life/blob/master/screenshots/logo.png?raw=true "Game Of Life WebGL logo")](http://www.samcodes.co.uk/project/game-of-life/)
 
 **Conway's Game of Life** written in Haxe with three.js, running almost entirely on the graphics card. Try it now [in your browser](http://www.samcodes.co.uk/project/game-of-life/).
 

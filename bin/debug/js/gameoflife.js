@@ -133,7 +133,13 @@ Array.__name__ = true;
 Main.WEBSITE_URL = "http://www.samcodes.co.uk/project/game-of-life/";
 Main.REPO_URL = "https://github.com/Tw1ddle/game-of-life/";
 Main.header = "header";
+Main.accordion = "accordion";
+Main.controls = "controls";
+Main.runstop = "runstop";
+Main.step = "step";
+Main.clear = "clear";
 Main.game = "game";
-Main.options = "options";
 Main.main();
 })(typeof console != "undefined" ? console : {log:function(){}});
+
+//# sourceMappingURL=gameoflife.js.map

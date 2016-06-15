@@ -6,16 +6,16 @@
 		<meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1,maximum-scale=1">
 		<title>The Game of Life - John Conway's cellular automaton simulation in WebGL</title>
 		<meta name="author" content="Sam Twidale">
-        <meta name="description" content="This random name generator procedurally generates original names for animals, babies, characters, towns, or anything that needs a name.">
-        <meta name="keywords" content="random name, name generator, name creator, procedural name generator, generator, procedural, markov, markov chain, names, boy names, girl names, baby names, list, dictionary">
-        <meta name="subject" content="Name Generator">
+        <meta name="description" content="This Game of Life cellular automaton is written using WebGL (three.js) and Haxe, with interactive glider patterns and more.">
+        <meta name="keywords" content="John Conway,Conway,Game of Life,Conway's Game of Life,Life,cellular automaton,automaton,glider gun,glider,still life,oscillator,spaceship">
+        <meta name="subject" content="Conway's Game of Life">
         <meta name="robots" content="index, follow">
-        <link rel="canonical" href="https://www.samcodes.co.uk/project/markov-namegen/" />
-        <meta property="og:title" content="Procedural Name Generator">
-        <meta property="og:description" content="Generate original names using Markov chains.">
+        <link rel="canonical" href="https://www.samcodes.co.uk/project/game-of-life/" />
+        <meta property="og:title" content="Conway's Game of Life">
+        <meta property="og:description" content="WebGL/three.js implementation of Conway's Game of Life.">
         <meta property="og:site_name" content="Samcodes">
-        <meta name="twitter:title" content="Procedural Name Generator">
-        <meta name="twitter:description" content="Generate original names using Markov chains.">
+        <meta name="twitter:title" content="Conway's Game of Life">
+        <meta name="twitter:description" content="WebGL/three.js implementation of Conway's Game of Life.">
 		<link rel="icon" type="image/x-icon" href="icon/favicon.png">
 		<link rel="apple-touch-icon-precomposed" type="image/x-icon" href="icon/apple-touch-icon-precomposed.png">
 		<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="icon/favicon.ico"><![endif]-->
@@ -38,14 +38,17 @@
 				<p>Interact with <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Conway's Game of Life</a> in this simulation. Free and <a href="https://github.com/Tw1ddle/game-of-life" target="_blank">open source</a>, written in <a href="http://haxe.org/" target="_blank">Haxe</a> by <a href="https://twitter.com/Sam_Twidale" target="_blank">Sam Twidale</a>.</p>
 			</div>
 		</section>
-				
+		
 		<!-- THE WEBGL BODY -->
+		<div id="game"></div>
 		
 		<!-- THE OPTIONS SECTIONS -->
+		<div id="options"></div>
 		
 		<script type="text/javascript" src="js/wNumb.min.js"></script>
 		<script type="text/javascript" src="js/nouislider.min.js"></script>
+		<script type="text/javascript" src="js/three.min.js"></script>
+		<script type="text/javascript" src="js/webgldetector.min.js"></script>
 		<script type="text/javascript" src="js/gameoflife.js"></script>
-    </body>
-	
+	</body>
 </html>

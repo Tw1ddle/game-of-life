@@ -41,7 +41,7 @@ p a {
     color: #000000;
     text-decoration: none;
 }
-html { 
+html {
 	user-select: none;
 	-moz-user-select: none;
 	-khtml-user-select: none;
@@ -105,21 +105,21 @@ input, textarea {
     margin: 10px;
     border: solid 1px #E5E5E5;
     outline: 0;
-    width: 150px; 
-    background: #FFFFFF url('bg_form.png') left top repeat-x; 
-    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF)); 
-    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px); 
-    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
-    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    width: 150px;
+    background: #FFFFFF url('bg_form.png') left top repeat-x;
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
     -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
 }
-input:hover, textarea:hover, input:focus, textarea:focus { 
-    border-color: #C9C9C9; 
-    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px; 
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #C9C9C9;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
 }
-label { 
-    margin-left: 10px; 
-    color: #999999; 
+label {
+    margin-left: 10px;
+    color: #999999;
 }
 body {
     text-align: center;
@@ -130,12 +130,12 @@ select {
     margin: 10px;
     border: solid 1px #E5E5E5;
     outline: 0;
-    width: 240px; 
-    background: #FFFFFF url('bg_form.png') left top repeat-x; 
-    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF)); 
-    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px); 
-    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
-    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    width: 240px;
+    background: #FFFFFF url('bg_form.png') left top repeat-x;
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
     -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
 }
 
@@ -257,7 +257,7 @@ a:hover {
     -moz-column-gap: 20px;
     -moz-column-width: 150px;
 	column-count: 6;
-	column-gap: 20px;    
+	column-gap: 20px;
     column-width: 150px;
     overflow: hidden;
 	max-width: 100vw;
@@ -285,4 +285,9 @@ a:hover {
     padding: 5px;
     background-position: bottom right;
     background-repeat: no-repeat;
+}
+
+#game {
+    width: 75vw;
+    height: 75vw;
 }

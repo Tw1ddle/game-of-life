@@ -1,0 +1,3 @@
+[submodule "lib/three"]
+	path = lib/three
+	url = https://github.com/Tw1ddle/three-js-haxe-externs

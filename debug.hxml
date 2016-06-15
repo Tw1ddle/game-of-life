@@ -1,3 +1,7 @@
 -debug
 
+-cp lib
+
+-lib sure
+
 -js bin/debug/js/gameoflife.js
