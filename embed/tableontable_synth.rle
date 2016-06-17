@@ -1,0 +1,19 @@
+#N Table on table_synth
+#O Mark D. Niemiec
+#C Glider syntheses of table on tables.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 118, y = 103, rule = 23/3
+42bo75b$42bobo73b$42b2o74b$95bo22b$37b3o3bo50bo23b$16bobo20bo2b2o50b3o
+21b$16b2o20bo3bobo73b$17bo6bo2bo36bo2bo35b2o9bo2bo$24b4o36b4o4b3o2b2o
+24b2o9b4o$74bob2o40b$24b4o36b4o5bo4bo35b4o$b2o21bo2bo4b3o29bo2bo46bo2b
+o$obo31bo83b$2bo2b2o26bo18b2o64b$4b2o6b3o37bobo63b$6bo5bo39bo65b$13bo
+104b3$81b2o35b$82b2o34b$81bo36b17$33b2o2b2o79b$32bobob2o80b$34bo3bo79b
+$96bo21b$94bobo21b$95b2o21b$89bo28b$90b2o5bo20b$89b2o6bobo18b$64bo2bo
+29b2o15bo2bo$64b4o46b4o2$64b4o46b4o$64bo2bo29b2o15bo2bo$89b2o6bobo18b$
+90b2o5bo20b$89bo28b$95b2o21b$94bobo21b$96bo21b5$55b3o29bobo12bobo13b$
+55bo32b2o12b2o14b$56bo31bo14bo14b$94bo2bo20b$92bobo2bobo18b$93b2o2b2o
+15bo2bo$114b4o2$114b4o$93b2o2b2o15bo2bo$92bobo2bobo18b$94bo2bo20b$88bo
+14bo14b$88b2o12b2o14b$87bobo12bobo13b2$b3o114b$3bo114b$2bo115b12$70b2o
+18b2o26b$49bobo17bo2bo16bo2bo25b$50b2o17bo2bo16bo2bo25b$50bo19b2o18b2o
+26b$95bo22b$49b2o40bo2bo19bo2bo$48bobo39b2o2b3o17b4o$50bo39bobo25b$98b
+2o14b4o$97b2o15bo2bo$99bo!

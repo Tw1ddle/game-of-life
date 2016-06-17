@@ -1,0 +1,6 @@
+#N Maze period 2
+#C Small period 2 oscillators in the maze rule.
+#C www.conwaylife.com/wiki/index.php?title=Maze
+x = 28, y = 5, rule = 12345/3
+2obo3b2obo4b2ob2o3b2ob2o$bobo4bobo5bobo5bob2o$o6bo2b2o3bo2b2o3bo2bob$o
+2bo3bo3bo3bo3bo3bo3bo$2b2o5b2o6b2o6b2o!

@@ -1,0 +1,7 @@
+#N Beehive and long hook eating tub
+#O Robert Wainwright
+#C A period 3 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Beehive_and_long_hook_eatin
+#C g_tub
+x = 11, y = 5, rule = b3/s23
+5bo3bob$bob2obobobo$obo3bobobo$bo4bo2bob$5b2o!

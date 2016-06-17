@@ -1,0 +1,5 @@
+#N Beehive at beehive
+#C A simple 12-cell still life composed of two beehive.
+#C www.conwaylife.com/wiki/index.php?title=Beehive_at_beehive
+x = 6, y = 6, rule = 23/3
+4bob$3bobo$3bobo$b2obob$o2bo2b$b2o!

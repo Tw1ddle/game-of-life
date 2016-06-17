@@ -1,0 +1,7 @@
+#N Turning toads
+#O Dean Hickerson
+#C An orthogonal period 4 wick that was found in October 1989.
+#C www.conwaylife.com/wiki/index.php?title=Turning_toads
+x = 37, y = 8, rule = 23/3
+15bo6bo14b$14b2o5b2o6b2o6b$6b3obobob2obobob2obobo10b$2b2obo6bobo4bobo
+4bobo2bob2o2b$o2bobo3bo18b4obo2bo$2obobo27bob2o$3bo29bo3b$3b2o27b2o!

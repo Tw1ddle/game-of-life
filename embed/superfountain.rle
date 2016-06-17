@@ -1,0 +1,16 @@
+#N Superfountain
+#O Noam Elkies
+#C A period 4 sparker with a lone spark separated from the rest of the
+#C oscillator by two full rows of dead cells.
+#C www.conwaylife.com/wiki/index.php?title=Superfountain
+x = 46, y = 25, rule = 23/3
+15b2o6b2o6b2o2b2o9b$9b2o5bo6bo5bo2bo2bo2bob2o4b$4bo4bobob3o4b2obo5b2o
+5b3obobo3b$3bobo5bobo5bo2bo8b5o4bo2bo2b$4bo5bo2bo4bobo6b4o2bo3b2o2bobo
+2b$4bo7b4o2bob2o4bo4b5o3bobo2b2o$4b3o3bo5bobo2bo4b2o2bo3bo2b2obobobob$
+8b2o2bob2obob2o4b2o2bo4bo6b2obob$4bo3bo6bobo3b2ob2o3b4o4b2obo2bo2b$3bo
+5bobo5bo3bobob5obo6bob3o3b$4bo3b3o5bo4bo10b3o2bo8b$4b3ob2o2b2o2bo2b4o
+2bobob2obobo2bob2o5b$o3bo9bo3b2ob2obo2bo6bo2bo2bo5b$4b3ob2o2b2o2bo2bo
+3b3o6b2o4b2o6b$4bo3b3o5bo3bo3bo21b$3bo5bobo5bo5bo3bo18b$4bo3bo6bobo2b
+3o3b2o18b$8b2o2bob2obobo3b2o21b$4b3o3bo5bo2bobo3b3o18b$4bo7b4o3bob4o2b
+o18b$4bo5bo2bo6bo4bo20b$3bobo5bobo8bo2b2o19b$4bo4bobob3o5b2o23b$9b2o5b
+o29b$15b2o!

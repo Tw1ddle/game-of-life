@@ -1,0 +1,9 @@
+#N Trans-beacon and cap_synth
+#O Mark D. Niemiec
+#C Glider synthesis of trans-beacon and cap.
+#C http://home.interserv.com/~mniemiec/p2osc.htm
+x = 108, y = 12, rule = 23/3
+4bo17b2o18b2o18b2o18b2o18b2o4b$4bobo15bo19bo19bo19bo19bo5b$o3b2o19bo
+19bo19bo19bo19bo2b$b2o21b2o18b2o18b2o18b2o18b2o2b$2o106b$49bo14b2o18b
+2o18b4o$2o45b2o15bobo17bobo6bo10bo2bo$b2o45b2o15bo19bo7bobo9b2ob$o42b
+2o48b2o13b$41bobobo44b2o16b$39bobobo45b2o17b$40b2o49bo!

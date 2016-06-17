@@ -1,0 +1,18 @@
+#N Pi orbital
+#O Noam Elkies
+#C A period 168 oscillator found in August 1995.
+#C www.conwaylife.com/wiki/index.php?title=Pi_orbital
+x = 59, y = 59, rule = 23/3
+14b2o10b2o31b$13bo2bo8bo2bo30b$13b3o2b6o2b3o30b$16b2o6b2o33b$15bo10bo
+32b$15b2obo4bob2o32b$20b2o37b$12bo25b2o10bo8b$7b4o3bo4bo6bo11b2o10bo8b
+$10bo3bo2b5o2bo3b4o18bo8b$14bo2b5o2bo3bo20b2o8b$11bo6b3o3bo22bo11b$12b
+2o5bo7bo18bo4bo7b$25b2o19bo9b2ob$48b3o5bobo$53b2obobo$53bobobob$55bo3b
+$35b2o11bo5bo2bob$7b2o26bobo10b2o4bo4b$7b2o28b2o9bo5bo3bo$35bobo16bo3b
+o$20b2o13b2o17bo4b$23bobo28bo2bob$25bo21b3o5bo3b$23bo21bo7bobobob$19bo
+25bo4bo2b2obobo$9bo10b2o24bo9bobo$9bo38b2o6b2ob$9bo39bo9b$b2o6b2o38bo
+9b$obo9bo36bo9b$obob2o2bo4bo45b$bobobo7bo45b$3bo5b3o47b$bo2bo54b$4bo
+54b$o3bo54b$o3bo5bo39b2o7b$4bo4b2o39b2o7b$bo2bo5bo48b$3bo55b$bobobo53b
+$obob2o53b$obo5b3o48b$b2o9bo19b2o25b$7bo4bo18bo7bo5b2o12b$11bo22bo3b3o
+6bo11b$8b2o20bo3bo2b5o2bo14b$8bo18b4o3bo2b5o2bo3bo10b$8bo10b2o11bo6bo
+4bo3b4o7b$8bo10b2o25bo12b$37b2o20b$32b2obo4bob2o15b$32bo10bo15b$33b2o
+6b2o16b$30b3o2b6o2b3o13b$30bo2bo8bo2bo13b$31b2o10b2o!

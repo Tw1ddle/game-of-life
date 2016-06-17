@@ -1,0 +1,5 @@
+#N Long long boat
+#C A 9-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Long_long_boat
+x = 5, y = 5, rule = 23/3
+bo3b$obo2b$bobob$2bobo$3b2o!

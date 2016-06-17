@@ -1,0 +1,8 @@
+#N Twin bees shuttle v2
+#O David Bell, Bill Gosper and Heinrich Koenig
+#C Some alternate stabilizations of the period 46 twin bees shuttle os
+#C cillator.
+#C www.conwaylife.com/wiki/index.php?title=Twin_bees_shuttle
+x = 27, y = 17, rule = b3/s23
+b2o24b$b2o24b2$15b2o10b$2o13bobo9b$2o15bo9b$15b3o5bo3b$23b3ob$26bo$23b
+3ob$15b3o5bo3b$2o15bo9b$2o13bobo9b$15b2o10b2$b2o24b$b2o!

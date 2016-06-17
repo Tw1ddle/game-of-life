@@ -1,0 +1,7 @@
+#N Figure eight on 36P22
+#C A small non-trivial period 88 oscillator
+#C www.conwaylife.com/wiki/index.php?title=Figure_eight_on_36P22
+x = 27, y = 21, rule = b3/s23
+13b2o12b$13b2obo10b$17bo9b$14bo12b$15bob2o8b$17b2o8b6$2o17bo7b$bo16b3o
+6b$bobo17bo5b$2b2o12bobo8b$8b3o4bo2bo8b$8bo2bo4b3o8b$8bobo12b2o2b$5bo
+17bobob$6b3o16bob$7bo17b2o!

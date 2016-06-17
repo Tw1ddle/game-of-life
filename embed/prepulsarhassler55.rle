@@ -1,0 +1,14 @@
+#N Pre-pulsar hassler 55
+#O David Buckingham
+#C The smallest known period 55 oscillator, discovered on January 26,
+#C 1986
+#C http://www.conwaylife.com/wiki/index.php?title=Pre-pulsar_hassler_5
+#C 5
+x = 43, y = 27, rule = b3/s23
+8bo25bo8b$7bobo23bobo7b$8bo25bo8b$13bo15bo13b$6b5o2b3o11b3o2b5o6b$5bo
+4bo5bo9bo5bo4bo5b$4bo2bo7b2o9b2o7bo2bo4b$bo2bob2o27b2obo2bob$obobo5bo
+21bo5bobobo$bo2bo4bobo19bobo4bo2bob$4b2o2bo2bo6bo5bo6bo2bo2b2o4b$9b2o
+6b3o3b3o6b2o9b4$9b2o21b2o9b$4b2o2bo2bo19bo2bo2b2o4b$bo2bo4bobo19bobo4b
+o2bob$obobo5bo21bo5bobobo$bo2bob2o27b2obo2bob$4bo2bo27bo2bo4b$5bo4bo3b
+2o11b2o3bo4bo5b$6b5o4bo11bo4b5o6b$13bobobo7bobobo13b$8bo3bobob2o7b2obo
+bo3bo8b$7bobo2bobo13bobo2bobo7b$8bo4b2o13b2o4bo!

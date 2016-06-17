@@ -1,0 +1,10 @@
+#N 98P25
+#O Noam Elkies
+#C A period-25 oscillator
+#C http://www.conwaylife.com/wiki/index.php?title=98P25
+x = 38, y = 23, rule = b3/s23
+9b2o4b2o7b2o12b$9bobo2bobo7b2o12b$11bo2bo23b$10bo4bo22b$10b2o2b2o22b$
+12b2o24b2$36b2o$2o24bo6b2o2bo$o2b2o19b2obo5bob2ob$b2obo19bo2bo4bo5b$5b
+o5b3o10b3o5bo5b$5bo4bo2bo19bob2ob$b2obo5bob2o19b2o2bo$o2b2o6bo24b2o$2o
+36b2$24b2o12b$22b2o2b2o10b$22bo4bo10b$23bo2bo11b$12b2o7bobo2bobo9b$12b
+2o7b2o4b2o!

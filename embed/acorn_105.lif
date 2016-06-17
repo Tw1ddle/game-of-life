@@ -1,0 +1,10 @@
+#Life 1.05
+#D Name: Acorn
+#D Author: Charles Corderman
+#D A methuselah that stabilizes after 5206 generations.
+#D www.conwaylife.com/wiki/index.php?title=Acorn
+#N
+#P -3 -1
+.*
+...*
+**..***

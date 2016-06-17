@@ -1,0 +1,6 @@
+#N Honeybit
+#O Brice Due
+#C www.conwaylife.com/wiki/Honeybit
+x = 34, y = 14, rule = B3/S23
+o2bo$4bo$o3bo$b4o3$10b2o19bo$9bo2bo18bobo$9bo2bo18b2o$10b2o2$31b2o$11b
+2o17bo2bo$11b2o18b2o!

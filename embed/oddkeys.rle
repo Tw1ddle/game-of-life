@@ -1,0 +1,6 @@
+#N Odd keys
+#O Dean Hickerson
+#C A period 3 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Odd_keys
+x = 12, y = 5, rule = B3/S23
+10bob$bo7bobo$ob3o2b2obob$bo2bo2bo4b$4bo2bo!

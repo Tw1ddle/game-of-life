@@ -1,0 +1,21 @@
+!Name: Harbor
+!Author: David Buckingham
+!A period 5 oscillator found in September 1978.
+!www.conwaylife.com/wiki/index.php?title=Harbor
+.....OO...OO
+.....O.O.O.O
+......O...O
+
+.....OO...OO
+OO..O.O...O.O..OO
+O.O.OO.....OO.O.O
+.O.............O
+
+.O.............O
+O.O.OO.....OO.O.O
+OO..O.O...O.O..OO
+.....OO...OO
+
+......O...O
+.....O.O.O.O
+.....OO...OO

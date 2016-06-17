@@ -1,0 +1,12 @@
+!Name: Gray counter
+!A period 4 oscillator.
+!http://www.conwaylife.com/wiki/index.php?title=Gray_counter
+......O
+.....O.O
+....O.O.O
+.O..O...O..O
+O.O.O...O.O.O
+.O..O...O..O
+....O.O.O
+.....O.O
+......O

@@ -1,0 +1,10 @@
+#N Edna
+#O Erik de Neve
+#C A methuselah with lifespan 31,192.
+#C www.conwaylife.com/wiki/index.php?title=Edna
+x = 20, y = 20, rule = b3/s23
+2bo2bo2bo5bo4bo$2b2o4bo2bo2b2obo2b$b4ob2ob4obobobob$2obo5b2ob2o2b3ob$
+8bo2bo2b3o3b$3ob2o3bo2bo2bo3bo$b4o5bo2b3o2b2o$obo2bo3bo5bobo2b$2obob2o
+b3obo7b$2bo2b2o5bobo2bobo$2o2bobob2o3bo2b2o2b$4bobo3bobo4b2ob$bo2bobo
+4bo2b2o4b$3o3bo3bo4b4ob$2ob2o6bo4bo2bo$5bo3bobo6b2o$6bo2bo5bobo2b$8bo
+2bo2bobo3b$2b4obo2bob2o5bo$ob2o2bo6b2ob3o!

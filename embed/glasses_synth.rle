@@ -1,0 +1,16 @@
+#N Glasses_synth
+#O Mark D. Niemiec
+#C Glider synthesis of glasses.
+#C http://home.interserv.com/~mniemiec/objname.htm#G
+x = 132, y = 39, rule = 23/3
+23bo14bo93b$22bo13b2o94b$22b3o12b2o93b2$10bo121b$11bo120b$9b3o14bo105b
+$27bo104b$25b3o12bo63bo27b$38b2o63bo28b$39b2o62b3o26b$69b3o27b3o30b2$
+55b2ob2o25b2ob2o25b2ob2o12b$obo23bo28bo3bo7bo17bo3bo7bo17bo3bo7bo4b$b
+2o21b2o30b3o8b3o16b3o8b3o16b3o8b3o2b$bo23b2o43bo29bo29bob$58b3o4b3o2bo
+17b3o4b3o2bo17b3o4b3o2bob$57bo3bo2bo3bob2o15bo3bo2bo3bob2o15bo3bo2bo3b
+ob2o$57bo3b4o3bo18bo3b4o3bo18bo3b4o3bo3b$54b2obo3bo2bo3bo15b2obo3bo2bo
+3bo15b2obo3bo2bo3bo3b$17b2o3b2o31bo2b3o4b3o17bo2b3o4b3o17bo2b3o4b3o4b$
+18b2o2bobo19bo10bo29bo29bo16b$17bo4bo20b2o11b3o8b3o16b3o8b3o16b3o8b3o
+2b$43bobo12bo7bo3bo17bo7bo3bo17bo7bo3bob$66b2ob2o25b2ob2o25b2ob2ob2$
+54b3o27b3o45b$5b2o73b3o49b$6b2o74bo49b$5bo12b3o60bo50b$18bo113b$19bo
+14b3o95b$34bo97b$35bo96b2$7b2o12b3o108b$8b2o13bo108b$7bo14bo!

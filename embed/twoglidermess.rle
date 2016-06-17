@@ -1,0 +1,5 @@
+#N Two-glider mess
+#C The longest-lived two-glider collision and a methuselah with lifespan 530.
+#C www.conwaylife.com/wiki/index.php?title=Two-glider_mess
+x = 6, y = 6, rule = 23/3
+3bobo$4b2o$4bob$3o3b$2bo3b$bo!

@@ -1,0 +1,9 @@
+#N Enterprise
+#O Dean Hickerson
+#C A period 4 diagonal spaceship with speed c/4 found in March 1993.
+#C www.conwaylife.com/wiki/index.php?title=Enterprise
+x = 21, y = 21, rule = B3/S23
+8bo12b$6b2obo11b$4b2o3bo11b$3bo3b2o12b$2bo4b2obo10b$bo2b2ob3obo9b$bo
+19b$3bobo3b2o10b$2o3bobo13b$o3bo3b2o11b$bo2b2o2bo2bo9b$4b2o3bo8bo2b$
+10bobo3bobobo$12b2ob3o2bo$12b2o4b2ob$13bob2o4b2$11bobo7b$11bo9b$11b3o
+7b$12bobo!

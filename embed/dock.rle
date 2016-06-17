@@ -1,0 +1,5 @@
+#N Dock
+#C An induction coil.
+#C www.conwaylife.com/wiki/index.php?title=Dock
+x = 6, y = 3, rule = B3/S23
+b4ob$o4bo$2o2b2o!

@@ -1,0 +1,8 @@
+#N Long canoe_synth
+#O Mark D. Niemiec
+#C Glider syntheses of long canoe.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 74, y = 16, rule = 23/3
+46bo27b$47bo26b$45b3o26b$obo25b2o38b2o4b$b2o25bobo37bobo3b$bo8bo20bo
+39bo2b$9b2o21bo19bo19bob$5b2o2bobo21bo17bo21bo$6b2o24b2o17b3o18b2o$5bo
+43bo24b$16bo30bobo24b$15b2o31b2o24b$15bobo56b$48b2o24b$47bobo24b$49bo!

@@ -1,0 +1,23 @@
+#N Heavyweight emulator_synth
+#O Mark D. Niemiec
+#C Glider synthesis of heavyweight emulator.
+#C http://home.interserv.com/~mniemiec/objname.htm#H
+x = 128, y = 64, rule = 23/3
+86bo41b$87b2o39b$86b2o40b$92bo35b$4bo85bobo35b$5bo85b2o3bo31b$3b3o3bo
+84b2o32b$7b2o86b2o31b$8b2o118b2$24b2o18b2o18b2o18b2o28b2o8b2o2b$7b2o
+15bo2bo16bo2bo16bo2bo16bo2bo26bo2bo4bo2bo2b$2bo4bobo15b3o17b3o17b3o17b
+3o27b3o4b3o3b$obo4bo14b3o17b3o17b3o17b3o27b3o10b3o$b2o19bo2bo16bo2bo
+16bo2bo16bo2bo26bo2bo8bo2bo$24b2o18b2o17b2o18b2o28b2o9b2o2b2$2o46b2o
+78b$b2o45bobo42b2o33b$o3b3o41bo45b2o32b$4bo39b3o46bo3b2o29b$5bo40bo50b
+obo28b$45bo51bo30b$102b2o24b$101b2o25b$103bo24b10$60bo67b$58b2o68b$59b
+2o67b$52bo75b$50b2o76b$48bo2b2o75b$46bobo29bobo18bobo26b$47b2o30b2o18b
+2o27b$79bo20bo27b$84bo10bo32b$82bobo10bobo30b$69b2o8b2o2b2o4b2o4b2o2b
+2o27b$68bo2bo6bobo7bo2bo7bobo26b$68bo2bo8bo7bo2bo7bo28b$69b2o18b2o18b
+2o17b$4b2o8b2o8b2o8b2o8b2o8b2o8b2o8b2o8b2o8b2o8b2obo4bob2o12b$4bo2bo4b
+o2bo8bo2bo4bo2bo8bo2bo4bo2bo8bo2bo4bo2bo8bo2bo4bo2bo8bo10bo12b$5b3o4b
+3o10b3o4b3o10b3o4b3o10b3o4b3o10b3o4b3o10b2o6b2o13b$2b3o10b3o4b3o10b3o
+4b3o10b3o4b3o10b3o4b3o10b3o4b3o2b6o2b3o10b$2bo2bo8bo2bo4bo2bo8bo2bo4bo
+2bo8bo2bo4bo2bo3b2o3bo2bo4bo2bo3b2o3bo2bo4bo2bo8bo2bo10b$3b2o9b2o7b2o
+10b2o6b2o5b2o3b2o6b2o3bo2bo3b2o6b2o3bo2bo3b2o6b2o10b2o11b$50bobo16b2o
+18b2o37b$10b2o38bo77b$9bobo35b2o79b$11bo34bobo79b$13b3o32bo79b$13bo76b
+2o36b$14bo74b2o37b$91bo!

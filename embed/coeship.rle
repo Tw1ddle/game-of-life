@@ -1,0 +1,6 @@
+#N Coe ship
+#O Tim Coe
+#C An orthogonal period 16 c/2 spaceship discovered in October 1995 that can act as a puffer engine.
+#C www.conwaylife.com/wiki/index.php?title=Coe_ship
+x = 10, y = 9, rule = b3/s23
+4b6o$2b2o5bo$2obo5bo$4bo3bob$6bo3b$6b2o2b$5b4ob$5b2ob2o$7b2o!

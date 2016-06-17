@@ -1,0 +1,25 @@
+!Name: 145P20
+!Author: Noam Elkies
+!An unnamed period 20 oscillator. Found on March 22, 1995.
+!www.conwaylife.com/wiki/index.php?title=145P20
+....OO....O....OO
+...O..O.O...O.O..O
+...OOO.........OOO
+.OO...OO.....OO
+O.O..O..OOOOO..O....OO
+O.O.O.O.......OO...O..O
+.O.O.O.............O.O..O..O
+...O..............OO.O.OOOOO
+..O..O...........O...O
+..O.........O....O....O.OO
+..O...O...OO.OO..O...OO...O
+..O.........O....O....O.O.O
+..O..O...........O...O...O
+...O..............OO.O.OO
+.O.O.O.............O.O.O
+O.O.O.O.......OO...O.O..O
+O.O..O..OOOOO..O....O..OO
+.OO...OO.....OO
+...OOO.........OOO
+...O..O.O...O.O..O
+....OO....O....OO

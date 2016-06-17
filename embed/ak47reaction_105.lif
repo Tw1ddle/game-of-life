@@ -1,0 +1,21 @@
+#Life 1.05
+#D Name: AK47 reaction
+#D Author: Rich Schroeppel and David Buckingham
+#D A reaction in which a honey farm predecessor catalysed by an eater and a bloc
+#D k reappears at another location 47 generations later, having produced a glide
+#D r and a traffic light.
+#D www.conwaylife.com/wiki/index.php?title=AK47_reaction
+#N
+#P -5 -6
+.....*
+....*.*
+...*...*
+...*...*
+...*...*
+....*.*
+.....*
+.
+..**
+...*
+***.....**
+*.......**

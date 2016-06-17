@@ -1,0 +1,12 @@
+#N 117P18
+#O David Buckingham
+#C The first period 18 oscillator to be found. Found no later than May
+#C 1991.
+#C www.conwaylife.com/wiki/index.php?title=117P18
+x = 39, y = 30, rule = b3/s23
+37b2o$8b2o27bob$9bo25bobob$9bobo23b2o2b$10b2o13bobo2bobo6b$14bobo2bobo
+2bo2bo2bo2bo5b$13bo2bo2bo2bo2bobo2bobo6b$14bobo2bobo13b2o2b$10b2o23bob
+ob$9bobo25bob$9bo27b2o$8b2o29b$23b2o14b$19b2o2b2o14b$18b2o19b$19bo19b$
+14b2o23b$14b2o23b$29b2o8b$2o27bo9b$bo25bobo9b$bobo23b2o10b$2b2o13bobo
+2bobo14b$6bobo2bobo2bo2bo2bo2bo13b$5bo2bo2bo2bo2bobo2bobo14b$6bobo2bob
+o13b2o10b$2b2o23bobo9b$bobo25bo9b$bo27b2o8b$2o!

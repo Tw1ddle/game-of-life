@@ -1,0 +1,9 @@
+#N 47P72
+#O Robert Wainwright
+#C The first period 72 oscillator to be discovered. Found in July 1990
+#C .
+#C www.conwaylife.com/wiki/index.php?title=47P72
+x = 30, y = 15, rule = b3/s23
+11bo18b$9b2obo17b$9b2obo17b$10b2o18b2$7b2o12b2o7b$7b2o12b2o7b3$21bobo
+6b$4b2o18bo5b$2obo2bob2o10bo4bo2b2o$o4bo2b2o10b2obo2bob2o$4bo19b2o4b$b
+obo!

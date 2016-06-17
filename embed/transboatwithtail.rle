@@ -1,0 +1,5 @@
+#N Trans-boat with tail
+#C A 9-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Trans-boat_with_tail
+x = 5, y = 5, rule = B3/S23
+2o3b$obo2b$bobob$3bob$3b2o!

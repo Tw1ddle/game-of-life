@@ -1,0 +1,5 @@
+#N Heptapole
+#C The barberpole of length 7 and thus a period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Heptapole
+x = 10, y = 10, rule = B3/S23
+2o8b$obo7b2$2bobo5b2$4bobo3b2$6bobob$9bo$8b2o!

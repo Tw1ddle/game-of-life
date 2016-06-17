@@ -1,0 +1,7 @@
+#N Block-laying switch engine
+#O Charles Corderman
+#C A diagonal period 288 c/12 block-laying puffer.
+#C www.conwaylife.com/wiki/index.php?title=Block-laying_switch_engine
+x = 29, y = 28, rule = 23/3
+18bo10b$b3o8bo5bo10b$o3bo6bo7bo9b$b2o9b4o2b2o9b$3b2ob2o9b3o9b$5b2o11bo
+bo8b$19bo7b2o$19bo7b2o11$7b2o20b$7b2o20b7$15b2o12b$15b2o!

@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Pentant
+#D Author: David Buckingham
+#D A period 5 oscillator found in July 1976.
+#D www.conwaylife.com/wiki/index.php?title=Pentant
+#N
+#P -5 -6
+**
+.*
+.*.*
+..**....**
+.........*
+.....****
+.....*
+..*...***
+..****..*
+.....*
+....*
+....**

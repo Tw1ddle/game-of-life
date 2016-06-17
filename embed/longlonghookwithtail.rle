@@ -1,0 +1,5 @@
+#N Long long hook with tail
+#C A 10-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Long_long_hook_with_tail
+x = 7, y = 4, rule = B3/S23
+2o3b2o$bo2bobo$bobo3b$2bo!

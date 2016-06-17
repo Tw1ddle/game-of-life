@@ -1,0 +1,6 @@
+#N Eater/block frob
+#O David Buckingham
+#C A period 4 oscillator found in 1976 or earlier.
+#C www.conwaylife.com/wiki/index.php?title=Eater/block_frob
+x = 10, y = 10, rule = B3/S23
+b2o7b$2bo7b$2bobo5b$3bobo4b$5b2ob2o$8b2o$2b2o6b$3bo6b$3o7b$o!

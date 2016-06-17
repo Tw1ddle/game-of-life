@@ -1,0 +1,8 @@
+#N 70P5H2V0
+#O Hartmut Holzwart
+#C The first known 2c/5 spaceship that was not based on 44P5H2V0
+#C http://www.conwaylife.com/wiki/index.php?title=70P5H2V0
+x = 18, y = 16, rule = b3/s23
+2bo12bo2b$bobo10bobob$2ob2o8b2ob2o$2o14b2o$2bo12bo2b$2b4o6b4o2b$2bo2b
+2o4b2o2bo2b$3b2o2bo2bo2b2o3b$4b2ob4ob2o4b$5bobo2bobo5b$6bo4bo6b2$5bo6b
+o5b$3b2ob2o2b2ob2o3b$4bo8bo4b$4b2o6b2o!

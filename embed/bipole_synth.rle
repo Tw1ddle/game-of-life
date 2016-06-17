@@ -1,0 +1,17 @@
+#N Bipole_synth
+#O Mark D. Niemiec
+#C Glider synthesis of bipole.
+#C http://home.interserv.com/~mniemiec/objname.htm#B
+x = 157, y = 49, rule = 23/3
+14bo79bo62b$13bo79bo63b$13b3o77b3o61b$27bo129b$14bo3b2o6bo67bo3b2o17b
+2o18b2o18b$14b2o2bobo5b3o65b2o2bobo15bo2bo16bo2bo17b$13bobo2bo13b2o18b
+2o18b2o19bobo2bo13b2o3bobo12b2o3bobo12b2o3b$32bobo17bobo17bobo37bobo3b
+o13bobo3bo13bobo2b$140b2o15b$34bobo17bobo17bobo37bobo17bobo3bobo11bobo
+$35b2o18b2o18b2o38b2o18b2o3bo14b2o2$39b2o18b2o96b$39b2o18b2o96b2$57b2o
+98b$56bobo48b2o48b$58bo47b2o49b$108bo48b10$94bobo60b$81bo12b2o38bo22b$
+79bobo13bo38bobo20b$80b2o52b2o21b2$26bo85b2o18b2o23b$26bobo83b2o18b2o
+23b$26b2o129b$32b2o38b2o3b2o33b2o18b2o18b2o3b$bobo22bo4bo2bo20b2o14bo
+2bo2bobo15b2o15bobo17bobo17bobo2b$2b2o21b2o4bo2bo19bo2bo13bo2bo2bo13bo
+2bo2bo59b$2bo22bobo4b2o20bo2bo14b2o15bobo2bo2bo16bobo17bobo17bobo$55b
+2o33b2o3b2o18b2o18b2o18b2o$b2o154b$obo112b2o18b2o20b$2bo112b2o18b2o20b
+2$87b2o44b2o22b$73bo13bobo42bobo22b$73b2o12bo46bo22b$72bobo!

@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: OWSS
+#D A would-be spaceship similar to the LWSS, MWSS and HWSS, but longer. It is un
+#D stable by itself, but can be escorted by other spaceships to produce a flotil
+#D la.
+#D www.conwaylife.com/wiki/index.php?title=Overweight_spaceship
+#N
+#P -3 -2
+...***
+.*.....*
+*
+*......*
+*******

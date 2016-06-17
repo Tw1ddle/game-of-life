@@ -1,0 +1,17 @@
+#C This pattern demonstrates the existence of oscillators of all
+#C periods greater than or equal to 43.
+#C This pattern is period-43. To increase the period by N:
+#C 1. Remove the gliders
+#C 2. Move the two Northwest reflectors to the Northwest by N cells
+#C 3. Repopulate the glider stream with a separation of 43+N
+#C    generations between gliders
+x = 65, y = 65, rule = B3/S23
+20b2o$20bobo$22bo4b2o$18b4ob2o2bo2bo$18bo2bobobobob2o$21bobobobo$22b2o
+bobo$26bo2$12b2o$13bo7b2o$13bobo5b2o$14b2o2$27bobo$28b2o$28bo$18b2o$
+17bobo$19bo4b2o$3b2o19bo$4bo20b3o$2bo24bo$2b5o14b2o$7bo13bo17bo$4b3o
+12bobo18bo$3bo15b2o17b3o14bo$3b4o7b2o37b3o$b2o3bo3b2ob2o37bo$o2b3o4b2o
+3bo36b2o$2obo$3bo$3b2o55b2o$61bo$61bob2o$11b2o36bo3b2o4b3o2bo$12bo37b
+2ob2o3bo3b2o$9b3o37b2o7b4o$9bo14b3o17b2o15bo$24bo18bobo12b3o$25bo17bo
+13bo$42b2o14b5o$37bo24bo$37b3o20bo$40bo19b2o$39b2o4bo$45bobo$45b2o$36b
+o$35b2o$35bobo2$49b2o$42b2o5bobo$42b2o7bo$51b2o2$38bo$37bobob2o$37bobo
+bobo$34b2obobobobo2bo$34bo2bo2b2ob4o$36b2o4bo$42bobo$43b2o!

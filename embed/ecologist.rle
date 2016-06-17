@@ -1,0 +1,7 @@
+#N Ecologist
+#C A period 20 c/2 orthogonal spaceship based on one of the classic puffer trains.
+#C www.conwaylife.com/wiki/index.php?title=Ecologist
+x = 27, y = 18, rule = b3/s23
+bo2bo5b2o15b$o8b4o14b$o3bo3b2ob2o14b$4o5b2o16b4$11b2o14b$2b3o7b2o13b$
+2bo6bo2bo14b$2bobo6bo15b$3b2o3b2o17b$25b2o$25bob$bo2bo18b3ob$o26b$o3bo
+22b$4o!

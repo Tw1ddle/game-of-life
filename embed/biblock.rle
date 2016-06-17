@@ -1,0 +1,5 @@
+#N Bi-block
+#C An 8-cell pseudo still life.
+#C www.conwaylife.com/wiki/index.php?title=Bi-block
+x = 5, y = 2, rule = B3/S23
+2ob2o$2ob2o!

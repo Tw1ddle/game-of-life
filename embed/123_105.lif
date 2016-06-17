@@ -1,0 +1,17 @@
+#Life 1.05
+#D Name: 1-2-3
+#D Author: Dave Buckingham
+#D Found in August 1972.
+#D This is one of only three essentially different p3 oscillators with only thre
+#D e cells in the rotor. The others are stillater and cuphook.
+#N
+#P -5 -4
+..**
+*..*
+**.*.**
+.*.*..*
+.*....*.**
+..***.*.**
+.....*
+....*
+....**

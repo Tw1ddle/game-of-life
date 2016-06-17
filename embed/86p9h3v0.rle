@@ -1,0 +1,8 @@
+#N 86P9H3V0
+#O David Bell
+#C A period 9 spaceship related to 117P9H3V0
+#C http://www.conwaylife.com/wiki/index.php?title=117P9H3V0
+x = 37, y = 13, rule = b3/s23
+14bo7bo14b$10b2obobo5bobob2o10b$10b2o4bo3bo4b2o10b$10b2o4bo3bo4b2o10b$
+12b2o9b2o12b$b2ob3ob2o3bob3ob3obo3b2ob3ob2ob$b2o4bo4bo11bo4bo4b2ob$o2b
+ob2o23b2obo2bo$15b3ob3o15b$15b7o15b$13b2o7b2o13b2$13bo2bobobo2bo!

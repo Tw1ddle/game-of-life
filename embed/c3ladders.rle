@@ -1,0 +1,27 @@
+#N c/3 ladders
+#O Dean Hickerson
+#C Some uncommon c/3 ladders in Life without death.
+#C www.conwaylife.com/wiki/index.php?title=Life_without_death
+x = 14, y = 213, rule = b3/s012345678
+3bobo8b$b7o6b$b3ob3o6b$9o5b$b8o5b$bob3obo6b$6o8b$bobo10b$b3o10b$2ob3o
+8b$bob3o8b$b7o6b$8o6b$b3ob3o6b$b6o7b$3bo10b4$3bobo8b$b7o6b$bob3ob2o5b$
+10o4b$b8o5b$b3ob3o6b$8o6b$bobobo8b$b5o8b$3obo9b$b6o7b$b6o7b$2obobo8b$b
+6o7b$b6o7b$2obobo8b$b6o7b$b6o7b$3obo9b$b5o8b$b5o8b$3obo9b$b6o7b$b6o7b$
+2obobo8b$b6o7b$b6o7b$2obobo8b$b6o7b$b6o7b$3obo9b$b5o8b$b5o8b$3obo9b$b
+6o7b$b6o7b$2obobo8b$b6o7b$b6o7b$2obobo8b$b6o7b$b6o7b$3obo9b$b5o8b$b5o
+8b$3obo9b$b6o7b$b6o7b$2obobo8b$b6o7b$b6o7b$2obobo8b$b6o7b$b6o7b$3obo9b
+$b5o8b$bobobo8b$8o6b$b3ob3o6b$b8o5b$10o4b$bob3ob2o5b$b7o6b$3bobo8b4$3b
+o10b$b5o8b$bob3o8b$7o7b$b5o8b$b3o10b$4o10b$bo12b$bo12b$3o11b$b3o10b$bo
+b2o9b$6o8b$bob3o8b$b6o7b$3obobo7b$b7o6b$b2ob3o7b$9o5b$b9o4b$bob2o2b2o
+5b$3ob3obo5b$b7o6b$b2ob3o7b$5obo7b$b6o7b$b4obo7b$3ob3o7b$b7o6b$b2ob3o
+7b$5obo7b$b5o8b$b4o9b$3ob3o7b$b6o7b$b2ob3o7b$5o9b$b5o8b$b4o9b$3ob2o8b$
+b5o8b$b2ob2o8b$5o9b$b5o8b$b4o9b$3obo9b$b3o10b$b2obo9b$5o9b$b5o8b$b4o9b
+$3obo9b$b3o10b$b2o11b$4o10b$b4o9b$b3o10b$3o11b$b3o10b$b2o11b$4o10b$b3o
+10b$bo12b$3o11b$b2obo9b$6o8b$b5o8b$b4o9b$2b3o9b$2bo11b4$b2obobobo5b$b
+10o3b$3ob3ob3o3b$b12ob$b13o$5ob3ob3ob$b5ob3ob2ob$b3ob3ob3o2b$12o2b$b2o
+b3ob3o3b$b4ob3obo3b$10o4b$b4ob3obo3b$b2ob3ob3o3b$12o2b$b2ob3ob3o3b$bob
+2o2b2o2b2ob$13ob$b12ob$b2ob3ob3o3b$11o3b$b2obobobobo3b$b9o4b$2ob3ob3o
+4b$b8o5b$bobobobo6b$8o6b$b2obobobo5b$b10o3b$3ob3ob3o3b$b11o2b$b11o2b$
+2obo3bo6b$b10o3b$b10o3b$2ob3ob3o4b$b9o4b$bobobobo6b$8o6b$b4obo7b$b5o8b
+$3obo9b$b4o9b$b3o10b$2ob2o9b$b4o9b$b2obo9b$5o9b$b3ob2o7b$b6o7b$7o7b$bo
+b3o8b$b5o8b$3bo!

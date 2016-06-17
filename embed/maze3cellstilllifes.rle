@@ -1,0 +1,5 @@
+#N Maze 3-cell still lifes
+#C All 3-cell still lifes in the maze (12345/3) rule.
+#C www.conwaylife.com/wiki/index.php?title=Maze
+x = 3, y = 3, rule = 12345/3
+o2b$bob$2bo!

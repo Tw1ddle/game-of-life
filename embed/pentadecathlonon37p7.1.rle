@@ -1,0 +1,8 @@
+#N Pentadecathlon on 37P7.1
+#C A small non-trivial period 105 oscillator
+#C www.conwaylife.com/wiki/index.php?title=Pentadecathlon_on_37
+#C P7.1
+x = 17, y = 16, rule = b3/s23
+bo15b$bo15b$obo14b$bo15b$bo6b2o5bob$bo5bo5b3ob$bo8bobo4b$obo10bo3b$bo
+6bo2b3o2bo$bo6bo5b3o$8bo3b2o3b$7b2o5bo2b$7bo2bob2o3b$8bobobo4b$9b2o2bo
+3b$12b2o!

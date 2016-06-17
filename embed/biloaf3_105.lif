@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: Bi-loaf 3
+#D A small pure glider generator.
+#D www.conwaylife.com/wiki/index.php?title=Bi-loaf_3
+#N
+#P -2 -3
+..*
+.*.*
+*..*
+.**
+*..*
+*.*
+.*

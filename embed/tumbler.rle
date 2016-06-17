@@ -1,0 +1,6 @@
+#N Tumbler
+#O George Collins
+#C The smallest known period 14 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Tumbler
+x = 9, y = 5, rule = B3/S23
+bo5bob$obo3bobo$o2bobo2bo$2bo3bo2b$2b2ob2o!

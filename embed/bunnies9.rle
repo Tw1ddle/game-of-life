@@ -1,0 +1,7 @@
+#N Bunnies 9
+#O Paul Callahan
+#C A methuselah with lifespan 17410 that evolves similarly to bunnies 
+#C after generation 91.
+#C www.conwaylife.com/wiki/index.php?title=Bunnies_9
+x = 8, y = 7, rule = B3/S23
+bo6b$2o5bo$6bob$6bob$5bo2b$4bo3b$4bo!

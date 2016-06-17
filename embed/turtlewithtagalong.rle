@@ -1,0 +1,10 @@
+#N Turtle with tagalong
+#O David Bell and Dean Hickerson
+#C An extensible tagalong for the c/3 orthogonal turtle spaceship.
+#C www.conwaylife.com/wiki/index.php?title=Turtle
+x = 70, y = 11, rule = b3/s23
+19b2o10bo21b2o15b$b3o7bo18b2o9b3o14bo11b$b2o2bob2ob2o5b2o2bo6b5o7bo10b
+2o2bo2b3o7bob$3b3o4bo5bo10bo6bo3b2o4bo5bo6bobo2bobob2o2b$bo2bobo3bo4b
+2o4b3o3bobo2b2o4b3o3bobo2b2o4b2o2bobo2bo3b2o$o4bo4bo3bo2bo3b2o4bo5bo
+10bo6bo3b3o2b3o7b$o4bo4bo12bo10b2o2bo6b5o10bo9b$bo2bobo3bo13b3o20b2o
+21b$3b3o4bo25b2o10bo21b$b2o2bob2ob2o58b$b3o7bo!

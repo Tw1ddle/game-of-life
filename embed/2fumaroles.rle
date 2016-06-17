@@ -1,0 +1,8 @@
+#N 2 fumaroles
+#O Noam Elkies
+#C A period 10 oscillator that is a non-trivial combination of two fumaroles and a blinker, found on 
+#C September 1, 1995.
+#C www.conwaylife.com/wiki/index.php?title=Fumarole
+x = 15, y = 12, rule = b3/s23
+2o13b$o2b2o4bo5b$b2ob2o3bo5b$4b2o3bo5b$4b2o9b$b2ob2o4b2o3b$o2b2o3bo4bo
+b$2o6bo4bob$8bo4bob$9bo2bo2b$7bobo2bobo$7b2o4b2o!

@@ -1,0 +1,8 @@
+#N x66
+#O Hartmut Holzwart
+#C A period 4 speed c/2 orthogonal spaceship found in July 1992 via a 
+#C search for spaceships containing cells with no more than 6 alive neighbours.
+#C www.conwaylife.com/wiki/index.php?title=X66
+x = 9, y = 11, rule = 23/3
+2bo6b$2o7b$o2b3o2bo$o4b3ob$b3o2b2ob2$b3o2b2ob$o4b3ob$o2b3o2bo$2o7b$2bo
+!

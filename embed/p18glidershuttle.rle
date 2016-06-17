@@ -1,0 +1,20 @@
+#N p18 glider shuttle
+#O Dean Hickerson
+#C A period-18 glider shuttle based on the p42 glider shuttle
+#C http://www.conwaylife.com/wiki/index.php?title=P42_glider_shuttle
+x = 55, y = 55, rule = b3/s23
+31bo23b$30bobo22b$30bobo22b$29b2ob2o21b$29bo5bo19b$30bobob4o17b$25bo2b
+obobo5bo16b$25b4obo2b2o2b2o16b$30b2o3bo19b$24bob2obo5bob2o16b$24b2obob
+3obob2obo16b$33b2o20b$28b4o4b2o17b$27bo2bob2obo2bo16b$27b2o4bo3b2o16b$
+23bo9bo21b$22bobo5b2o8b2o2b2ob2o6b$23bo6b3o7bobo2bobobo5b$33b3o6bobo4b
+o5b$21b5o4b2o8bobob3o2b2o4b$20bo4bo6bobo5bo2bo3bobo5b$19bob2o10bo3b2o
+2bo3bobo3bo3b$16bo2bobo11b2ob3ob2o3bobobob3ob$15bobobo9bo6b3obobobo9bo
+$9b2o5bo2bo4b3o3b2o10bobob4ob3ob$6b2o2bo8b2o3b2o3b2o11bob2o4b2o3b$7bob
+o14bo15bobo4b2o6b$7bob2o2b2o25b2o2b2obo7b$6b2o4bobo14b2o14bobo7b$3b2o
+4b2obo10bobo2bo2bo2b2o8bo2b2o6b$b3ob4obob2o2b2obo4b2o2bobo4bo2bo5b2o9b
+$o7bobobo3b2obo4bo4bo5bobobo15b$b3ob2o6bo3bo2bo11b2obo2bo16b$3bo3bo2b
+2ob3o2bo2b2o9bo2bo19b$5bobo3bo6bobobo6bo4bo20b$4b2o2b3o2bo4bo10b5o21b$
+5bo4bobo9b2o31b$5bobobo2bobo6b3o7bo23b$6b2ob2o2b2o6b3o6bobo22b$31bo23b
+$16b2ob2ob2o2b2o27b$16bo4b2o4bo27b$17b3o3b4o28b$20bo34b$16bob2o3b3obob
+2o24b$16b2obob2o2bob2obo24b$19bo4bo30b$16b2o2b3obob4o25b$16bo7bobo2bo
+25b$17b4obobo30b$19bo5bo29b$21b2ob2o29b$22bobo30b$22bobo30b$23bo!

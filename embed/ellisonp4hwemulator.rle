@@ -1,0 +1,8 @@
+#N Ellison p4 HW emulator
+#O Scot Ellison
+#C A period 4 oscillator that provides a spark like a heavyweight spac
+#C eship.
+#C www.conwaylife.com/wiki/Ellison_P4_HW_emulator
+x = 24, y = 9, rule = b3/s23
+11b2o11b$4bo3bo6bo3bo4b$3bobo12bobo3b$3bobo12bobo3b$2obobob10obobob2o$
+2obo16bob2o$3bo16bo3b$3bobo4b2obo4bobo3b$4b2o4bob2o4b2o!

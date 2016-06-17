@@ -1,0 +1,6 @@
+#N Unidimensional four gliders
+#C A solid 56-by-1 rectangle that is the shortest solid rectangle to p
+#C roduce a glider.
+#C www.conwaylife.com/wiki/index.php?title=Unidimensional_pattern
+x = 56, y = 1, rule = b3/s23
+56o!

@@ -1,0 +1,24 @@
+#N Slide gun
+#O Jason Summers
+#C A diagonal slide gun constructed on September 3, 1999
+#C http://www.conwaylife.com/wiki/index.php?title=Slide_gun
+x = 109, y = 59, rule = b3/s23
+56b2o51b$56b2o51b2$78bo30b$78bobo28b$81b2o6b2o18b$38b2o27b2o12b2o4bo3b
+o17b$38b2o16b3o8b2o12b2o3bo5bo8b2o6b$78bobo4b2obo3bo8b2o6b$56bobo19bo
+7bo5bo16b$55b5o27bo3bo17b$54b2o3b2o4b2o22b2o18b$54b2o3b2o3bo2bo11bo29b
+$64bo12b2o30b$64bo13b2o29b$64bob2o41b$66b2o41b2$83b2o24b$59b2o4b2o15b
+2o10bobo12b$59bo5b2o17bo8bo2bo12b$60b3o16b2o11b2o10b2o3b$62bo16bobo8b
+2o3bo8b2o3b$74b2o6bo9b2o5b2o8b$73bo2bo2bo2bo10bo2bo4bo7b$73b3o6bo11bob
+o12b$46b3o22b3o5bobo27b$48bo15bo5bobo6b2o28b$47bo14b2o6bo38b$63b2o4b2o
+38b$55bo53b$35b2o17bobo52b$35bo18b2obo14b2o35b$24bo8bobo18b2ob2o14bo
+35b$24b4o5b2o19b2obo15bobo10bo22b$8bo16b4o15b2o8bobo4b2o11b2o9b4o20b$
+7bobo5b2o8bo2bo14bobo9bo5bobo7bo12b2ob4o5b2o11b$5b2o3bo14b4o14bo19bo6b
+2o11b3ob2o3bo3bo2bo9b$2o3b2o3bo4bobob2o3b4o14b2o19b2o5bobo11b2ob2o3bo
+7bo8b$2o3b2o3bo5b2o3bo2bo60b5o3bo6bo6b2o$7bobo10bo18b2o45bo3b3o7bo6b2o
+$8bo8bo2bo10b3o4bobo27b2o26bo2bo9b$33bo3b3o28bo2bo24b2o11b$32bo4b2o70b
+$40b2o26bo2bo12bo24b$27bo11b3o25bo2bo11b2o25b$28bo38bobo12b3o24b$28bo
+39bo11b3o26b$24bo2bo11b2o39b2o27b$6bo5b2o9bo15b2o27b2o39b$4bo3bo3b3o
+10bo42b2o16b2o9bo11b$8bo5b2obo11bo55b4o7bobo10b$3bo5bo4bo2bo10b2o50bob
+o2bo2b3o5b2obo9b$3b2o9b2obo9b2o4b2o2b2o40bo2bo2b2o9b2ob2o3b2o3b$12b3o
+11b3o4b2o2b2o31b2o6b2o9bo6b2obo4b2o3b$12b2o13b2o4b2o35b2o4b2o3bo8bo5bo
+bo10b$28b2o48b2o10bo6bo11b$29bo49bo2bo26b$80bobo!

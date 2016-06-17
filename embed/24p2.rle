@@ -1,0 +1,5 @@
+#N 24P2
+#C A period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=24P2
+x = 8, y = 7, rule = b3/s23
+4bo3b$2o2b3ob$o6bo$b5obo$6bob$3bo4b$3b2o!

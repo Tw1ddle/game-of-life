@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Biting off more than they can chew
+#D Author: Peter Raynham
+#D A period 3 oscillator found in July 1972.
+#D www.conwaylife.com/wiki/index.php?title=Biting_off_more_than_they_can_chew
+#N
+#P -6 -6
+*
+***
+...*
+..**
+...**
+....**
+...*..*
+...*..**
+....**.***
+........*.*
+..........*
+..........**

@@ -1,0 +1,20 @@
+#N Loaf_synth
+#O Mark D. Niemiec
+#C Glider syntheses of loaves.
+#C http://home.interserv.com/~mniemiec/2gliders.htm
+x = 148, y = 111, rule = 23/3
+5bo39bo102b$5bobo17b2o18bo19b2o38b2o38b2ob$b3ob2o17bo2bo17bo18bo2bo18b
+o17bo2bo20bo15bo2bo$3bo20bobo37bobo19b2o2b3o11bobo16b2o2bo16bobob$2bo
+22bo18b2o19bo19bobo2bo14bo18b2ob3o15bo2b$43bobo45bo31bo24b$45bo81b3o
+18b$88b3o36bo20b$90bo37bo19b$89bo58b18$16bo131b$14b2o132b$15b2o131b2$
+11bo13b2o38b2o38b2o38b2ob$10bo13bo2bo36bo2bo36bo2bo36bo2bo$10b3o11bobo
+37bobo37bobo37bobob$25bo39bo22bo16bo39bo2b$85bo2bobo37b3o17b$11b3o31b
+3o35bobo2b2o38bo19b$11bo29b2o2bo38b2o43bo18b$12bo27b2o4bo74b3o24b$42bo
+80bo4bo19b$38b2o43bo38bo4b2o19b$37bobo43b2o42bobo18b$39bo42bobo63b16$
+75bo72b$76bo71b$74b3o50bobo18b$25b2o22bobo13b2o38b2o20b2o16b2ob$24bo2b
+o21b2o13bo2bo36bo2bo20bo15bo2bo$24bobo23bo13bobo37bobo37bobob$9b2o14bo
+17b2o20bo16bobo20bo39bo2b$5b2o2bobo32b2o5b2o29b2o42bobo19b$6b2obo33bo
+6b2o31bo42b2o20b$5bo46bo74bo20b$82b2o64b$2o80bobo43b2o18b$b2o79bo44b2o
+19b$o128bo18b16$86bobo31b2o26b$87b2o30bobobo7bo16b$87bo33bobobo5bobo
+14b$123b2o6b2o15b$105b2o21b2o15b2ob$88bo15bo2bo19b2o15bo2bo$88b2o14bob
+o22bo14bobob$87bobo15bo39bo2b14$96b2o50b$96bobo49b$96bo!

@@ -1,0 +1,8 @@
+!Name: Queen bee
+!A pattern that lays a beehive on either side of itself before exploding.
+!www.conwaylife.com/wiki/index.php?title=Queen_bee
+...O
+..O.O
+.O...O
+..OOO
+OO...OO

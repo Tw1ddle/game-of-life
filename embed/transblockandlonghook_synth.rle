@@ -1,0 +1,24 @@
+#N Trans-block and long hook_synth
+#C Glider syntheses of Trans-block and long hook
+#C http://www.conwaylife.com/wiki/index.php?title=Trans-block_and_long
+#C _hook
+x = 147, y = 113, rule = b3/s23
+117bo29b$118bo28b$116b3o28b$120bo26b$120bobo24b$111bobo6b2o25b$112b2o
+33b$112bo34b$119bobo25b$119b2o26b$34bo85bo8bo17b$35bo88bo4bobo15b$33b
+3o86b2o5b2o16b$26b3o94b2o22b$28bo3b3o10b2o48b2o48b2o$27bo4bo9bo3bo45bo
+3bo45bo3bo$33bo8b4o46b4o46b4ob$77bo69b$42b2o31bobo2bo11b2o48b2o3b$42b
+2o32b2o2bobo9b2o32b2o4b2o8b2o3b$80b2o43b2o5bobo12b$127bo4bo14b3$74b2o
+71b$75b2o70b$74bo72b5$9b2o136b$8bobo47b2o87b$10bo46bobo87b$37b2o20bo
+87b$37bobo48b2o57b$37bo50bobo56b$88bo58b13$49bo79bo17b$48bo69bo9bo18b$
+o3bo43b3o65bobo9b3o16b$b2obobo110b2o28b$2o2b2o16bo19bo3b2o17b2o34b2o
+18b2o3b2o17b2o$21bobo17bobo2bobo13bo3bo13b2o18bo2bo16bo2bo2bobo13bo3bo
+$6b3o13bo19bo3bo15b4o13bobo19b2o18b2o3bo15b4ob$6bo74bo65b$7bo54b2o19b
+2o57b2o3b$41b2o19b2o19bobo38bo17b2o3b$40bobo40bo39b2o22b$42bo80bobo21b
+$45b2o72bo27b$45bobo71b2o26b$45bo72bobo26b5$131bo15b$78b2o49b2o16b$77b
+obobo48b2o15b$79bobobo63b$81b2o45bo18b$86b2o15bo19bo3b2o16b2o$85b2o15b
+obo17bobo2bobo12bo3bo$87bo14b2o18b2o18b4ob$42bo104b$40bobo19b2o18b2o
+18b2o18b2o7b2o9b2o3b$41b2o19b2o18b2o18b2o18b2o3bo2b2o10b2o3b$38b2o87b
+2o3bo14b$37bobo86bobo18b$39bo107b10$124bo22b$123bo23b$119bo3b3o21b$
+120b2o7bo17b$119b2o6b2o18b$128b2o17b2$131bo15b$130bo16b$130b3o14b3$
+123bo21b2o$122bobo17bo3bo$122b2o18b4ob2$122b2o18b2o3b$122b2o18b2o3b$
+134bo12b$133b2o12b$133bobo!

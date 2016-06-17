@@ -1,0 +1,7 @@
+#N P18 honey farm hassler
+#O Nico Brown
+#C A period 18 oscillator found in January 2015.
+#C www.conwaylife.com/wiki/index.php?title=P18_honey_farm_hassler
+x = 30, y = 18, rule = B3/S23
+26bo$3bo20b3o$3b3o17bo$6bo16b2o$5b2o21b2o$28bo$8b2o16bobo$8bo17b2o$20b
+3o$7b3o$2b2o17bo$bobo16b2o$bo$2o21b2o$5b2o16bo$6bo17b3o$3b3o20bo$3bo!

@@ -1,0 +1,22 @@
+#Life 1.05
+#D Name: Hammerhead
+#D An orthogonal c/2 spaceship with many different possible rear ends.
+#D www.conwaylife.com/wiki/index.php?title=Hammerhead
+#N
+#P -35 -8
+*****
+*....*.......**
+*...........**.***
+.*.........**.****
+...**...**.**..**
+.....*....*..*
+......*.*.*.*
+.......*
+.......*
+......*.*.*.*
+.....*....*..*
+...**...**.**..**
+.*.........**.****
+*...........**.***
+*....*.......**
+*****

@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: Mathematician
+#D Author: David Buckingham
+#D A period 5 oscillator found in 1972.
+#D http://www.conwaylife.com/wiki/index.php?title=Mathematician
+#N
+#P -4 -5
+....*
+...*.*
+...*.*
+..**.**
+*.......*
+***...***
+.
+*********
+*.......*
+...****
+...*..**

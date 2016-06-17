@@ -1,0 +1,11 @@
+#N Cis-boat and long hook eating tub_synth
+#O Mark D. Niemiec
+#C A 13-glider synthesis of cis-boat and long hook eating tub
+x = 147, y = 20, rule = b3/s23
+80bobo64b$81b2o5bo36bo21b$81bo7bo33bobo21b$87b3o30b2o2b2o21b$40bobo78b
+2o7bo16b$40b2o48bo29bo7b2o14bo2b$bo3bo35bo37b2o9bobo12bo19bo3b2o12bobo
+b$2bobo75b2o8b2o12bobo17bobo17bo2b$3ob3o14b2ob2o15b2ob2o33bo24bo2bo16b
+o2bo17bob$21b2ob2o15b2ob2o19b2o18b2o18bobo17bobo17bob$62bo3bo15bo3bo
+15bo3bo15bo3bo15bo3bo$62b4o16b4o16b4o16b4o16b4ob2$46bo15b2o18b2o18b2o
+18b2o18b2o3b$46bobo13bobo17bobo17bobo17bobo17bobo2b$46b2o15bo19bo19bo
+19bo19bo3b$42bo104b$37bobob2o104b$38b2obobo103b$38bo!

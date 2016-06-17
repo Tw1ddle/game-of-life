@@ -1,0 +1,10 @@
+#N Integral with tub_synth
+#O Mark D. Niemiec
+#C Glider synthesis of integral with tub.
+#C http://home.interserv.com/~mniemiec/objname.htm#I
+x = 116, y = 15, rule = 23/3
+46bobo67b$5bo41b2o38bo28b$6bo40bo40bo27b$4b3o79b3o27b$45b2o69b$46b2o
+42bo25b$30b2o13bo5bo18b2o17bobo18b2o4b$16bo13bobo17bobo17bobo17bobo17b
+obo3b$17bo14bo18b2o19bo18b2o19bo3b$15b3o14bobo37bobo37bobob$bo31bobo
+37bobo14bo3b2o17bobo$b2o13bo17bo20b2o17bo15b2ob2o19bob$obo13b2o3bo26b
+3o4bobo31bobo3bo20b$15bobob2o29bo4bo60b$20b2o27bo!

@@ -1,0 +1,6 @@
+#N Spiral
+#O Robert Wainwright
+#C A 20-cell still life consisting of a tub with four tails.
+#C http://www.conwaylife.com/wiki/index.php?title=Spiral
+x = 7, y = 7, rule = B3/S23
+2o4bo$bo2b3o$bobo3b$2bobo2b$3bobob$3o2bob$o4b2o!

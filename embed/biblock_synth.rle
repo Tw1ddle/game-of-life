@@ -1,0 +1,14 @@
+#N Bi-block_synth
+#O Mark D. Niemiec
+#C Glider syntheses of bi-blocks.
+#C http://home.interserv.com/~mniemiec/2gliders.htm
+x = 105, y = 92, rule = 23/3
+81bo23b$43bo37b2o22b$3bo38bo37bobo22b$bobo19b2o17b3o18b2o20b3o15b2o$2b
+2o19b2o14b2o22b2o20bo17b2o$38bobo45bo18b$2b2o19b2o15bo3bo18b2o18b2o18b
+2o$bobo19b2o18b2o18b2o17bobo18b2o$3bo39bobo38bo20b19$81bo23b$82bo22b$
+80b3o22b$84bo20b$o9b2o27bo8bo34bo21b$b2o4bo2bobo10b2o15b2o4b2o15b2o18b
+3o17b2o$2o3bobo2bo12b2o14b2o6b2o14b2o38b2o$6b2o28b2o12b2o53b$23b2o10bo
+bo12bobo10b2o38b2o$23b2o12bo12bo12b2o18b3o17b2o$83bo21b$84bo20b$80b3o
+22b$82bo22b$81bo23b21$43bo61b$41bobo19b2o18b2o18b2o$42b2o19b2o18b2o18b
+2o$39b2o64b$38bobo62b2o$40bo62b2o2$83bobo19b$83b2o20b$84bo20b2$83b3o
+19b$83bo21b$84bo20b14$68b2o35b$67bobo35b$69bo!

@@ -1,0 +1,19 @@
+#N Honeythieves_synth
+#O Mark Niemiec
+#C Glider synthesis of the Honey thieves.
+#C www.conwaylife.com/wiki/Honey_thieves
+x = 135, y = 84, rule = B3/S23
+40b2o38b2o38b2o$41bo39bo39bo$2o39bobo37bobo37bobo$b2o39b2o38b2o38b2o$o
+3b2o$4bobo$4bo79bo$84bobo$80bo3b2o$81b2o39b2o$80b2o39bobo$121bo$120b2o
+16$84bobo$85b2o$2o38b2o38b2o3bo10bo23b2o$bo39bo39bo7bo5bo25bo$bobo37bo
+bo37bobo5bobo3b3o23bobo9b2o$2b2o6bo31b2o38b2o5b2o31b2o9bo$9bo121bobo$
+9b3o34bo39bo4b2o33bo4b2o$45bobo37bobo3bobo31bobo$6b3o36bobo37bobo3bo
+33bobo$6bo39bo39bo39bo$2b2o3bo34b2o38b2o38b2o$bobo37bobo37bobo37bobo$b
+o39bo39bo39bo$2o38b2o38b2o38b2o18$2o38b2o38b2o21bo16b2o$bo39bo39bo19b
+2o18bo$bobo9b2o26bobo9b2o26bobo9b2o7b2o17bobo9b2o$2b2o9bo28b2o9bo28b2o
+9bo28bobo8bo$11bobo37bobo37bobo37bobo$6bo4b2o33bo4b2o33bo4b2o38b2o$5bo
+bo37bobo37bobo37b2o$5bobo37bobo37bobo37b2ob2o$6bo39bo39bo41b2o$2b2o38b
+2o38b2o38b2o$bobo37bobo37bobo37bobo$bo39bo39bo39bo8bobo$2o38b2o20b2o
+16b2o20b2o16b2o9bobo$22bobo36bo2bo36bo2bo28bo$22b2o37bo2bo36bo2bo28b2o
+$23bo38b2o38b2o2$23b2o$23bobo55b2o$23bo58b2o14b2o10b3o$81bo15b2o11bo$
+85b3o11bo11bo$87bo$86bo!

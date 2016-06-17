@@ -1,0 +1,17 @@
+#N Trans-boat with tail_synth
+#O Mark D. Niemiec
+#C Glider syntheses of trans-boat with tails.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 148, y = 73, rule = 23/3
+2bo42bobo100b$obo43b2o100b$b2o3bo39bo101b$4b2o17b2o24bobo11b2o38b2o18b
+2o18b2o3b$5b2o4b2o11bo24b2o13bo39bo19bo19bo3b$11bobo10bobo17bobo3bo13b
+obo16b2o19bobo17bobo6bo10bobob$11bo13bobo16b2o19bobo16b2o19b2o18b2o6bo
+bo9bobo$26b2o17bo20b2o15bo3b2o40b2o2b2o11b2o$8bo24b3o51bobo39bobo16b$
+7b2o26bo9b2o40bo41bo18b$7bobo24bo10bobo77b2o21b$45bo80b2o20b$125bo22b
+12$120bo27b$119bo28b$119b3o26b2$116bobo29b$117b2o5bo23b$117bo6bobo21b$
+124b2o22b2$118bobo22b2o3b$84bobo32b2o23bo3b$85b2o19bo12bo6bo17bobob$
+85bo19bobo17bobo17bobo$106b2o18b2o18b2o$85b3o60b$85bo62b$86bo61b19$93b
+o54b$85bo5b2o55b$86b2o4b2o54b$85b2o61b$103b2o18b2o18b2o3b$50bo36bo16bo
+19bo19bo3b$48bobo36b2o15bobo17bobo17bobob$49b2o3bo31bobo16bobo17bobo
+17bobo$52b2o17b2o18b2o13b2o18b2o18b2o$53b2o16bobo17bobo17b2o18b2o15b$
+73bo19bo17b2o18b2o15b$73b2o18b2o39b3o11b$134bo13b$135bo!

@@ -1,0 +1,20 @@
+#N Lightweight spaceship_synth
+#O Mark D. Niemiec
+#C Glider synthesis of lightweight spaceships.
+#C http://home.interserv.com/~mniemiec/3gliders.htm
+x = 149, y = 103, rule = 23/3
+87bobo59b$83bo3b2o30bo29b$48b2o34bo3bo31b2o27b$7b2o39bobo31b3o34b2o28b
+$7bobo29bo8bo38b3o59b$obo4bo32b2o45bo61b$b2o22b3o11b2o3bo20b3o20bo16b
+3o41b$bo3bo19bo2bo15b2o19bo2bo36bo2bo40b$5b2o18bo17bobo19bo39bo43b$4bo
+bo18bo39bo39bo43b$26bobo37bobo37bobo40b12$131bo17b$126bo3bo18b$127bo2b
+3o16b$125b3o21b6$83bobo63b$84b2o63b$84bo64b$4bobo37bobo102b$5b2o38b2o
+102b$5bo19b3o17bo19b3o37b3o37b3ob$25bo2bo36bo2bo16b3o17bo2bo36bo2bo$5b
+2o18bo19b2o18bo39bo39bo3b$5b2o18bo19b2o18bo39bo39bo3b$b3o22bobo13b2o
+22bobo14b3o20bobo37bobo$3bo37bobo41bo63b$2bo40bo40bo64b16$2bobo144b$3b
+2o144b$3bo145b$43bobo37bobo63b$44b2o38b2o63b$44bo39bo64b$5b2o72bobo67b
+$4bobo73b2o67b$5bo19b3o17b2o18b3o12bo4b2o18b3o41b$25bo2bo15bobo18bo2bo
+17bo18bo2bo40b$25bo18b2o19bo17b3o19bo43b$5b2o18bo39bo17bo21bo43b$4bobo
+19bobo37bobo37bobo40b$6bo34b3o105b$43bo105b$42bo106b18$3bobo37bobo103b
+$4b2o38b2o103b$4bo31bobo5bo104b$37b2o110b$37bo111b$5b2o18b3o17b2o18b3o
+81b$6bo18bo2bo17bo18bo2bo80b$5bo19bo14bobo2bo19bo83b$5b2o18bo15b2o2b2o
+18bo83b$b2o23bobo12bo24bobo80b$obo146b$2bo!

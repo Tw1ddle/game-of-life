@@ -1,0 +1,8 @@
+#N 30P5H2V0
+#O Paul Tooke
+#C An orthogonal spaceship with period 5. The smallest known 2c/5 spac
+#C eship.
+#C www.conwaylife.com/wiki/index.php?title=30P5H2V0
+x = 13, y = 11, rule = b3/s23
+4bo8b$3b3o7b$2b2ob2o6b2$bobobobo2bo2b$2o3bo3b3ob$2o3bo6bo$10bobo$8bobo
+2b$9bo2bo$12bo!

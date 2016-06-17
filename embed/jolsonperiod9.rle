@@ -1,0 +1,9 @@
+#N Jolson (period 9)
+#C A period 9 modification of the Jolson oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Jolson
+x = 22, y = 24, rule = b3/s23
+2o16b2o2b$bo16bo3b$bob2o10b2obo3b$2bo3bo6bo3bo4b$7bo4bo9b$3bo3bo4bo3bo
+5b$7bo4bo9b$2bo3bo6bo3bo4b$bob2o10b2obo3b$bo16bo3b$2o9bo6b2o2b$9bo2bob
+2o6b$10b2o2b2o6b$2b2o16b2o$3bo16bob$3bobo4b4o4bobob$4b2o3b6o3b2o2b$8b
+8o6b$7b2o6b2o5b$8b8o6b$4b2o3b6o3b2o2b$3bobo4b4o4bobob$3bo16bob$2b2o16b
+2o!

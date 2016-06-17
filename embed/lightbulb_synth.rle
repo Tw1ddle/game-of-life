@@ -1,0 +1,11 @@
+#N Light bulb_synth
+#C Glider synthesis of light bulb.
+#C www.conwaylife.com/wiki/index.php?title=Light_bulb
+x = 71, y = 30, rule = b3/s23
+17bobo35bobo7bo5b$17b2o36b2o8bobo3b$18bo37bo8b2o4b$6bo37bo24bob$4bobo
+35bobo23bo2b$5b2o36b2o16bobo4b3o$61b2o8b$62bo8b$18bobo35bobo12b$18b2o
+36b2o13b$19bo37bo13b2$6bobo35bobo24b$6b2o9bo26b2o9bo15b$7bo9bobo25bo9b
+obo13b$o16b2o19bo16b2o14b$b2o36b2o30b$2o36b2o31b$65b3o3b$65bo5b$13bo
+37bo14bo4b$6bo6b2o29bo6b2o18b$6b2o4bobo29b2o4bobo18b$5bobo35bobo25b$
+67b3ob$67bo3b$15bobo35bobo12bo2b$6bo3b3o2b2o27bo3b3o2b2o16b$6b2o4bo3bo
+27b2o4bo3bo16b$5bobo3bo31bobo3bo!

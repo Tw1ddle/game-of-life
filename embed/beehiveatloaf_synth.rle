@@ -1,0 +1,8 @@
+#N Beehive at loaf_synth
+#O Dean Hickerson
+#C Glider synthesis of beehive at loaf.
+#C www.conwaylife.com/wiki/index.php?title=Beehive_at_loaf
+x = 40, y = 20, rule = b3/s23
+25bo14b$obo22bobo12b$b2o22b2o13b$bo38b6$17bo22b$17bobo20b$17b2o21b3$
+37b2ob$19b3o14bo2bo$19bo15bob2ob$2o4b2o5b3o4bo13bobo3b$b2o4b2o4bo19bo
+2bo3b$o5bo7bo19b2o!

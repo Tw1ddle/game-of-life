@@ -1,0 +1,20 @@
+#N Middleweight emulator_synth
+#O Mark D. Niemiec
+#C Glider synthesis of middleweight emulator.
+#C http://home.interserv.com/~mniemiec/objname.htm#M
+x = 127, y = 54, rule = 23/3
+85bo41b$86b2o39b$85b2o40b$91bo35b$4bo84bobo35b$5bo84b2o3bo31b$3b3o3bo
+83b2o32b$7b2o85b2o31b$8b2o117b2$24b2o18b2o18b2o18b2o28b2o7b2o2b$7b2o
+15bo2bo16bo2bo16bo2bo16bo2bo26bo2bo3bo2bo2b$2bo4bobo15b3o17b3o17b3o17b
+3o27b3o3b3o3b$obo4bo14b3o17b3o17b3o17b3o27b3o9b3o$b2o19bo2bo16bo2bo16b
+o2bo16bo2bo26bo2bo7bo2bo$24b2o18b2o17b2o18b2o28b2o8b2o2b2$2o46b2o77b$b
+2o45bobo41b2o33b$o3b3o41bo44b2o32b$4bo39b3o45bo3b2o29b$5bo40bo49bobo
+28b$45bo50bo30b$101b2o24b$100b2o25b$102bo24b6$89bo37b$88bo38b$88b3o36b
+$86bo40b$84bobo40b$85b2o40b3$109bo17b$4b2o7b2o9b2o7b2o9b2o7b2o9b2o7b2o
+9b2o7b2o9b2obo3bob2o12b$4bo2bo3bo2bo9bo2bo3bo2bo9bo2bo3bo2bo9bo2bo3bo
+2bo9bo2bo3bo2bo9bo9bo12b$5b3o3b3o11b3o3b3o11b3o3b3o11b3o3b3o11b3o3b3o
+11b2o5b2o13b$2b3o9b3o5b3o9b3o5b3o9b3o5b3o9b3o5b3o9b3o5b3o2b5o2b3o10b$
+2bo2bo7bo2bo5bo2bo7bo2bo5bo2bo7bo2bo5bo2bo3bo3bo2bo5bo2bo3bo3bo2bo5bo
+2bo7bo2bo10b$3b2o8b2o8b2o9b2o7b2o9b2o7b2o4bo4b2o7b2o4bo4b2o7b2o9b2o11b
+$69bo19bo37b$9b2o116b$8bobo34b2o80b$10bo33bobo80b$12b3o31bo80b$12bo35b
+3o76b$13bo34bo78b$49bo!

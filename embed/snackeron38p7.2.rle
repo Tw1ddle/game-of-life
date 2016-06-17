@@ -1,0 +1,8 @@
+#N Snacker on 38P7.2
+#C A small non-trivial period 63 oscillator
+#C www.conwaylife.com/wiki/index.php?title=Snacker_on_38P7.2
+x = 24, y = 20, rule = b3/s23
+o9bo13b$3o5b3o13b$3bo3bo16b$2b2o3b2o6bo3bo4b$11bo2bobobobo2bo$5bo5bobo
+2bobo2bobo$5bo6bo2b2ob2o2bob$4bobo9bobo5b$5bo7b2o5b2o2b$5bo7bo7bo2b$5b
+o9bo3bo4b$5bo18b$4bobo5bo2bo3bo2bob$5bo7b2o5b2o2b$5bo18b2$2b2o3b2o15b$
+3bo3bo16b$3o5b3o13b$o9bo!

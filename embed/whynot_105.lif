@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Why not
+#D Author: David Buckingham
+#D A period 2 oscillator found in July 1977 that is very similar to by flops.
+#D www.conwaylife.com/wiki/index.php?title=Why_not
+#N
+#P -3 -3
+...*
+...*.*
+.*
+*.*****
+.*
+...*.*
+...*

@@ -1,0 +1,7 @@
+#N Justyna
+#O Andrzej Okrasinski
+#C A methuselah with lifespan 26458 that was found in May 2004.
+#C www.conwaylife.com/wiki/index.php?title=Justyna
+x = 22, y = 17, rule = 23/3
+17bo4b$16bo2bo2b$17b3o2b$17bo2bob2$2o16bo3b$bo16bo3b$18bo3b8$19b3o$11b
+3o!

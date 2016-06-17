@@ -1,0 +1,5 @@
+#N Cis-hook and R-bee
+#C A 14-cell still life composed of a bookend and a bun.
+#C http://www.conwaylife.com/wiki/index.php?title=Cis-hook_and_R-bee
+x = 4, y = 7, rule = B3/S23
+2b2o$o2bo$3ob2$3ob$o2bo$b2o!

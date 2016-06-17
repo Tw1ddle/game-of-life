@@ -1,0 +1,34 @@
+!Name: 92P33.1
+!Author: Jason Summers
+!The smallest known period 33 oscillator as of April 2009. Found on August 31, 2000.
+!www.conwaylife.com/wiki/index.php?title=92P33.1
+.....................O
+....O..O...OOOOO..OOO.O
+....O..O.......O..O..O
+.O.OO..OOOOO...O..O
+O.O
+.O
+
+
+
+
+
+
+......O.O...OOOO
+......O..O..O..O
+......O.....OOO..........OO
+.......OO..........OOO.....O
+..................O..O..O..O
+..................OOOO...O.O
+
+
+
+
+
+
+................................O
+...............................O.O
+...............O..O...OOOOO..OO.O
+............O..O..O.......O..O
+...........O.OOO..OOOOO...O..O
+............O

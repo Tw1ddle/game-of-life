@@ -1,0 +1,9 @@
+#N True period 22 gun
+#O David Eppstein
+#C The first true period 22 gun constructed. Found in August 2000.
+#C www.conwaylife.com/wiki/index.php?title=True_period_22_gun
+x = 45, y = 21, rule = 23/3
+18b2o25b$19bo7bo17b$19bobo14b2o7b$20b2o12b2o2bo6b$24b3o7b2ob2o6b$24b2o
+b2o7b3o6b$24bo2b2o12b2o2b$25b2o14bobob$35bo7bob$43b2o2$2o23bo19b$bo21b
+obo19b$bobo13b3o4b2o19b$2b2o3bo8bo3bo24b$6bob2o6bo4bo23b$5bo4bo6b2obo
+9bo14b$6bo3bo8bo3b2o6bo13b$7b3o13bobo3b3o13b$25bo19b$25b2o!

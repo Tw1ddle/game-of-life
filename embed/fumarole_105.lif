@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Fumarole
+#D Author: Dean Hickerson
+#D A period 5 oscillator found in September 1989.
+#D www.conwaylife.com/wiki/index.php?title=Fumarole
+#N
+#P -4 -3
+...**
+.*....*
+.*....*
+.*....*
+..*..*
+*.*..*.*
+**....**

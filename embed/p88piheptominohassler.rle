@@ -1,0 +1,9 @@
+#N p88 pi-heptomino hassler
+#O Dean Hickerson
+#C The first period 88 oscillator to be discovered
+x = 43, y = 44, rule = b3/s23
+21b2o4b2o4b2o8b$20bo2bobo4bobo2bo7b$20b3o10b3o7b$23b2o6b2o10b$22bo2b6o
+2bo9b$22b2o8b2o9b5$4bo38b$2b2obo37b$bo41b$obo2bo37b$o2bo39b$b2o40b2$
+26b3o12b2o$25bo3bo11b2o$25b2ob2o13b5$25b2ob2o13b$25bo3bo11b2o$26b3o12b
+2o2$b2o40b$o2bo39b$obo2bo37b$bo41b$2b2obo37b$4bo38b5$22b2o8b2o9b$22bo
+2b6o2bo9b$23b2o6b2o10b$20b3o10b3o7b$20bo2bobo4bobo2bo7b$21b2o4b2o4b2o!

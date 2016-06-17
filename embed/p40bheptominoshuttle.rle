@@ -1,0 +1,8 @@
+#N P40 B-heptomino shuttle
+#O David Buckingham
+#C The first period 40 oscillator to be discovered
+x = 26, y = 23, rule = b3/s23
+b2o20b2ob$o2bo19b2ob$o25b$o25b$ob2o20b2o$2b2o18bob2o$22bo3b$22bo3b$b2o
+13b2o4bo2bo$b2o12bo2bo4b2ob$15bo2bo7b$14b2ob2o7b$15b2o9b2$7bo10bo7b$6b
+obo8bobo6b$7bo4b2o4bo7b$10bo4bo10b$10bo4bo10b$10bo4bo10b$11bo2bo11b$9b
+obo2bobo9b$9b2o4b2o!

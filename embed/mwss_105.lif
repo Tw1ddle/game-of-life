@@ -1,0 +1,12 @@
+#Life 1.05
+#D Name: MWSS
+#D Author: John Conway
+#D The third most common spaceship (after the glider and lightweight spaceship).
+#D www.conwaylife.com/wiki/index.php?title=Middleweight_spaceship
+#N
+#P -3 -2
+...*
+.*...*
+*
+*....*
+*****

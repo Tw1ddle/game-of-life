@@ -1,0 +1,7 @@
+#N Cis-boat and long hook eating tub
+#O Robert Wainwright
+#C A period 3 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Cis-boat_and_long_hook_eati
+#C ng_tub
+x = 11, y = 5, rule = b3/s23
+5bo5b$bob2obob2ob$obo3bobobo$bo4bo2bob$5b2o!

@@ -1,0 +1,7 @@
+#N Unix on 41P7.2
+#C A small non-trivial period 42 oscillator
+#C www.conwaylife.com/wiki/index.php?title=Unix_on_41P7.2
+x = 18, y = 18, rule = b3/s23
+bo2bo13b$4bo13b$o4bo12b$2o2bobo11b$5bob2o5b2o2b$14bo3b$15bo2b$5bo2bo5b
+2o2b$5b2o6bo4b$14b2o2b$13bo2bob$8bob5o2bo$6b3obo4b2ob$5bo4bobobo3b$6b
+4o4bo3b$10b4o4b$8bo2bo6b$8b2o!

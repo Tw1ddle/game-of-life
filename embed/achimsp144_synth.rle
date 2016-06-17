@@ -1,0 +1,19 @@
+#N Achim's p144_synth
+#O Mark D. Niemiec
+#C Glider syntheses of Achim's p144.
+#C http://home.interserv.com/~mniemiec/objname.htm#a
+x = 106, y = 109, rule = 23/3
+4bo17bo37bo45b$5bo17bo35bo46b$3b3o15b3o35b3o44b$50bo55b$49bo56b$49b3o
+54b3$17bobo86b$18b2o86b$18bo87b5$62bo15b2o24b2o$61bo16b2o24b2o$61b3o
+22b2o18b$85bo2bo17b$6bo79b2o18b$7bo83bo14b$5b3o82bobo13b$89bo3bo12b$
+90bo2bo12b2$90bo2bo12b$90bo3bo11b$56b3o32bobo12b$56bo35bo13b$57bo38b2o
+8b$95bo2bo7b$3o93b2o8b$2bo75b2o24b2o$bo76b2o24b2o4$45b3o58b$15b3o27bo
+60b$17bo28bo59b$16bo89b3$12b3o91b$14bo91b$13bo92b$2b3o35b3o15b3o45b$4b
+o35bo17bo47b$3bo37bo17bo46b12$4bo17bo37bo45b$5bo17bo35bo46b$3b3o15b3o
+35b3o44b$50bo55b$49bo56b$49b3o54b$41bo64b$41bobo62b$41b2o63b$16bo89b$
+17bo88b$15b3o88b4$62bo15b2o24b2o$61bo16b2o24b2o$61b3o22b2o18b$85bo2bo
+17b$6bo79b2o18b$7bo83bo14b$5b3o82bobo13b$89bo3bo12b$90bo2bo12b2$90bo2b
+o12b$90bo3bo11b$56b3o32bobo12b$56bo35bo13b$57bo38b2o8b$95bo2bo7b$3o93b
+2o8b$2bo75b2o24b2o$bo76b2o24b2o4$46b3o57b$46bo59b$47bo58b$21b2o83b$20b
+obo83b$22bo83b$12b3o91b$14bo91b$13bo92b$2b3o35b3o15b3o45b$4bo35bo17bo
+47b$3bo37bo17bo!

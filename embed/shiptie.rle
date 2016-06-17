@@ -1,0 +1,5 @@
+#N Ship-tie
+#C A simple 12-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Ship-tie
+x = 6, y = 6, rule = B3/S23
+2o4b$obo3b$b2o3b$3b2ob$3bobo$4b2o!

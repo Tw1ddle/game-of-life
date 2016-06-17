@@ -1,0 +1,9 @@
+#N Original P56 B-heptomino shuttle
+#O David Buckingham
+#C The original form of P56 B-heptomino shuttle, discovered sometime b
+#C efore May, 1991
+x = 40, y = 21, rule = b3/s23
+31b4o5b$30bo4bob2ob$30bo4bo3bo$33b2o4bo$13b2o15b2o4bo2bo$13b2o14bo2bo
+3bo2bo$29bo2bo4b2ob$29bo4b2o4b$29bo3bo4bob$13bo16b2obo4bob$6b2o4bob2o
+18b4o2b$3bo8bo2bo24b$2bobo2b2o6bo24b$obob3o2bo30b$o2b6o31b$3b2ob2o17b
+2o13b$2b6o2bo14b2o13b$bo2b3obobo29b$2b2o2bobo31b$7bo32b$3b2o!

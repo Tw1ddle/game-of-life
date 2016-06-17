@@ -1,0 +1,10 @@
+#Life 1.05
+#D Name: Die hard
+#D A methuselah that vanishes at generation 130, which is conjectured to be maxi
+#D mal for patterns of 7 or fewer cells.
+#D http://www.conwaylife.com/wiki/index.php?title=Die_hard
+#N
+#P -4 -1
+......*
+**
+.*...***

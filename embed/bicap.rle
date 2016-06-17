@@ -1,0 +1,5 @@
+#N Bi-cap
+#C A 16-cell still life consisting of two caps.
+#C www.conwaylife.com/wiki/index.php?title=Bi-cap
+x = 4, y = 7, rule = B3/S23
+b2ob$o2bo$4o2$4o$o2bo$b2o!

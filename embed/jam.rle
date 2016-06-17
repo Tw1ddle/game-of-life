@@ -1,0 +1,6 @@
+#N Jam
+#O Achim Flammenkamp
+#C A period 3 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Jam
+x = 6, y = 7, rule = B3/S23
+3b2ob$2bo2bo$o2bobo$o3bob$o5b$3bo2b$b2o!

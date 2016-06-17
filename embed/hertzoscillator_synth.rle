@@ -1,0 +1,20 @@
+#N Hertz oscillator_synth
+#O Mark D. Niemiec
+#C Glider synthesis of Hertz oscillator.
+#C http://home.interserv.com/~mniemiec/objname.htm#H
+x = 137, y = 73, rule = 23/3
+42bo59bo34b$40b2o58b2o35b$41b2o46bobo9b2o34b$90b2o45b$35bo54bo4bo41b$
+36b2o58b2o39b$35b2o58b2o40b$88bo48b$89bo47b$51bo15b2ob2o15b3o21bo18b2o
+5b$51bobo13bo3bo39bobo14bo2bo5b$51b2o15b3o40b2o15b3o6b$40bo59bo36b$41b
+2o27b3o28b2o27b3o4b$40b2o27bo3bob2o23b2o27bo3bob2o$44b2o20bo2bo3bob2o
+27b2o23bo3bob2o$43bobo19bobobo3bo29bobo20b2obo3bo3b$45bo20b2obobobo31b
+o20b2obobobo3b$55b2o13b3o42b2o13b3o4b$55bobo57bobo19b$30b3o22bo16b3o
+15b3o22bo16b3o2b$32bo3b3o5b3o24bo3bo16bo3b3o5b3o24bo2bo2b$31bo6bo7bo
+24b2ob2o15bo6bo7bo24b2o4b$37bo7bo51bo7bo31b3$47b2o58b2o28b$46b2o58b2o
+29b$48bo59bo4bo23b$112b2o23b$39b2o58b2o11bobo22b$40b2o58b2o35b$39bo59b
+o37b8$42bo94b$40b2o95b$41b2o94b2$35bo101b$36b2o99b$35b2o100b3$51bo15b
+2ob2o65b$51bobo13bo3bo65b$51b2o15b3o66b$4bo132b$2bobo65b3o64b$3b2o17b
+2o18b2o25bo3bob2o60b$21bobo17bobo22bo2bo3bob2o60b$2o3bo14bobo17bobo22b
+obobo3bo63b$b2ob2o15bo19bo24b2obobobo63b$o3bobo48b2o13b3o64b$55bobo79b
+$30b3o22bo16b3o62b$32bo11b3o24bo3bo61b$31bo6b3o5bo24b2ob2o61b$40bo4bo
+91b$39bo97b2$47b2o88b$46b2o89b$48bo88b2$39b2o96b$40b2o95b$39bo!

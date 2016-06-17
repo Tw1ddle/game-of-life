@@ -1,0 +1,5 @@
+#N Block and glider
+#C A methuselah with lifespan 106.
+#C www.conwaylife.com/wiki/index.php?title=Block_and_glider
+x = 4, y = 3, rule = B3/S23
+2o2b$obob$2b2o!

@@ -1,0 +1,15 @@
+#N p53 glider loop
+#O Mike Playle
+#C A period-53 oscillator based on a stable reflector
+#C Discovered on 25 Apr 2013
+#C www.conwaylife.com/wiki/P53_glider_loop
+x = 75, y = 75, rule = B3/S23
+32b2o$32bobo$34bo4b2o$30b4ob2o2bo2bo$30bo2bo3bobob2o$33bobobobo$34b2ob
+obo$38bo2$24b2o$25bo8bo$25bobo5b2o$26b2o$40bo$41bo$39b3o4$36b2o$27b2o
+7bo$28b2o7b3o$27bo11bo2$65bo$63b3o$62bo$52bobo7b2o$53b2o$53bo$70b2o$
+71bo$3b2o66bob2o$4bo9b2o47bo5b3o2bo$2bo10bobo47b2o3bo3b2o$2b5o8bo5b2o
+45b2obo$7bo13bo32b2o15bo$4b3o12bobo31bobo12b3o$3bo15b2o32bo13bo$3bob2o
+45b2o5bo8b5o$b2o3bo3b2o47bobo10bo$o2b3o5bo47b2o9bo$2obo66b2o$3bo$3b2o$
+21bo$20b2o$11b2o7bobo$12bo$9b3o$9bo2$35bo11bo$35b3o7b2o$38bo7b2o$37b2o
+4$33b3o$33bo$34bo$47b2o$40b2o5bobo$40bo8bo$49b2o2$36bo$35bobob2o$35bob
+obobo$32b2obobo3bo2bo$32bo2bo2b2ob4o$34b2o4bo$40bobo$41b2o!

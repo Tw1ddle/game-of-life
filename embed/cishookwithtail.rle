@@ -1,0 +1,5 @@
+#N Cis-hook with tail
+#C A 10-cell still life similar to the long long hook with tail.
+#C http://www.conwaylife.com/wiki/index.php?title=Cis-hook_with_tail
+x = 5, y = 6, rule = B3/S23
+3b2o$2bobo$bo3b$o4b$b3ob$3bo!

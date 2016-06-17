@@ -1,0 +1,10 @@
+#N Long long snake_synth
+#O Mark D. Niemiec
+#C Glider synthesis of long long snake.
+#C www.conwaylife.com/wiki/index.php?title=Long_long_snake
+x = 114, y = 26, rule = 23/3
+79bo34b$77bobo34b$78b2o34b5$95bo18b$94bo19b$94b3o17b2$obo25b2o18bo19b
+2o27bo10b2o4b$b2o25bobo17bobo17bobo12bobo10b2o10bobo3b$bo8bo20bobo14b
+2o21bobo10b2o10bobo12bobo$9b2o21b2o38b2o10bo27b2o$5b2o2bobo29b3ob3o7bo
+58b$6b2o35bobo8b2o29b3o26b$5bo9b3o24bo3bo7bobo30bo26b$15bo70bo27b$16bo
+33bo63b$50b2o62b$8b3o38bobo62b$10bo103b$9bo92b2o10b$102bobo9b$102bo!

@@ -1,0 +1,8 @@
+#N Swine
+#O Scot Ellison
+#C extensible p5 oscillator; name short for Scot's p5 With INsErt.
+#C http://www.conwaylife.com/wiki/Swine
+x = 37, y = 10, rule = B3/S23
+33bo$9bo2b2o7bo10bobo$o2b2o2bobobo5bo3bo7bo2b2o$o10bo2bobo3bo4bo2bobob
+2ob2o$o3bo4bo4b2obobo2bob2obo4b2o$3b2o4bob2obo2bobob2o4bo4bo3bo$2ob2ob
+obo2bo4bo3bobo2bo10bo$3b2o2bo7bo3bo5bobobo2b2o2bo$2bobo10bo7b2o2bo$3bo!

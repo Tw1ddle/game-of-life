@@ -1,0 +1,8 @@
+#N mold on 36P22
+#O Jason Summers
+#C The smallest known non-trivial period 44 oscillator
+#C http://www.conwaylife.com/wiki/index.php?title=Mold_on_36P22
+x = 27, y = 16, rule = b3/s23
+23b2o2b$22bo2bob$22bobo2b$23bob2o$24b3o$25b2o$2o25b$bo25b$bobo13b3o7b$
+2b2o3bo8bo3bo6b$6bob2o6bo4bo5b$5bo4bo6b2obo6b$6bo3bo8bo3b2o2b$7b3o13bo
+bob$25bob$25b2o!

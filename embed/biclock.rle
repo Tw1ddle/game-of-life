@@ -1,0 +1,5 @@
+#N Bi-clock
+#C A pure glider generator made up of two clocks.
+#C www.conwaylife.com/wiki/index.php?title=Bi-clock
+x = 7, y = 7, rule = B3/S23
+2bo4b$2o5b$2b2o3b$bo3bob$3b2o2b$5b2o$4bo!

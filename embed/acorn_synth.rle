@@ -1,0 +1,7 @@
+#N Acorn_synth
+#O Mark D. Niemiec
+#C Glider synthesis of an acorn.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 42, y = 7, rule = 23/3
+obo5bo5bobo16bo8b$b2o6b2o3b2o15bo4bo5b$bo6b2o5bo14bo5bob3ob$31bo4bobo
+2bo$2b2o29bo5b2ob$b2o39b$3bo!

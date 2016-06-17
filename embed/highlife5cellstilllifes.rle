@@ -1,0 +1,5 @@
+#N HighLife 5-cell still lifes
+#C The only 5-cell still life in the HighLife (23/36) rule.
+#C www.conwaylife.com/wiki/index.php?title=HighLife
+x = 3, y = 3, rule = 23/36
+2ob$obo$bo!

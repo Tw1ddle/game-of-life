@@ -1,0 +1,16 @@
+#N Pre-pulsar shuttle 47 v2
+#O Nicolay Beluchenko
+#C A period 47 oscillator. An extension of the classic period 47 pre-pulsar shuttle, found in 
+#C March 2009.
+#C www.conwaylife.com/wiki/index.php?title=Pre-pulsar_shuttle_47
+x = 79, y = 30, rule = 23/3
+11bo7bo39bo7bo11b$10bobo5bobo37bobo5bobo10b$11bo7bo9b2o17b2o9bo7bo11b$
+29bo19bo29b$27bobo19bobo27b$27b2o21b2o27b$6bo17bo29bo17bo6b$6bo17bo12b
+o3bo12bo17bo6b$6bo17bo11bobobobo11bo17bo6b$2b2o31bo2bobo2bo31b2o2b$bob
+o7b3o3b3o15bo7bo15b3o3b3o7bobob$bo8bo3bobo3bo14bo2bobo2bo14bo3bobo3bo
+8bob$2o34bobobobo34b2o$37bo3bo37b$7b2o13b2o31b2o13b2o7b$7b2o13b2o31b2o
+13b2o7b$37bo3bo37b$2o34bobobobo34b2o$bo8bo3bobo3bo14bo2bobo2bo14bo3bob
+o3bo8bob$bobo7b3o3b3o15bo7bo15b3o3b3o7bobob$2b2o31bo2bobo2bo31b2o2b$6b
+o17bo11bobobobo11bo17bo6b$6bo17bo12bo3bo12bo17bo6b$6bo17bo29bo17bo6b$
+27b2o21b2o27b$27bobo19bobo27b$29bo19bo29b$11bo7bo9b2o17b2o9bo7bo11b$
+10bobo5bobo37bobo5bobo10b$11bo7bo39bo7bo!

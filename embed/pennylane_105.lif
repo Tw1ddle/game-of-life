@@ -1,0 +1,17 @@
+#Life 1.05
+#D Name: Penny lane
+#D Author: David Buckingham
+#D A period 4 oscillator that was found in 1972.
+#D www.conwaylife.com/wiki/index.php?title=Penny_lane
+#N
+#P -7 -5
+...**.....**
+...*.......*
+**.*..*.*..*.**
+**.*.*...*.*.**
+....*..*..*
+.....*****
+.
+.......*
+......*.*
+.......*

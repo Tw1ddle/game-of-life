@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: Cheshire cat
+#D Author: C. R. Tompkins
+#D A block predecessor.
+#D http://www.conwaylife.com/wiki/index.php?title=Cheshire_cat
+#N
+#P -3 -3
+.*..*
+.****
+*....*
+*.**.*
+*....*
+.****

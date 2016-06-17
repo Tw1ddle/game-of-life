@@ -1,0 +1,7 @@
+#N Crab tubstretcher
+#O Nicolay Beluchenko
+#C A small tubstretcher based on the crab.
+#C www.conwaylife.com/wiki/index.php?title=Crab
+x = 13, y = 15, rule = b3/s23
+8b2o3b$7b2o4b$9bo3b$11b2o$10bo2b2$9bo2bo$b2o5b2o3b$2o5bo5b$2bo4bobo3b$
+4b2o2bo4b$4b2o7b$8bo4b$7bobo3b$8bo!

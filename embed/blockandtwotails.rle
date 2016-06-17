@@ -1,0 +1,5 @@
+#N Block and two tails
+#C A 12-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Block_and_two_tails
+x = 5, y = 5, rule = B3/S23
+2ob2o$2obob$3bob$3o2b$o!

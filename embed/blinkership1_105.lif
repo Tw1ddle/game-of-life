@@ -1,0 +1,22 @@
+#Life 1.05
+#D Name: Blinker ship 1
+#D Author: Paul Schick
+#D A blinker ship created by Paul Schick based on his Schick engine.
+#D www.conwaylife.com/wiki/index.php?title=Blinker_ship_1
+#N
+#P -13 -7
+..........****
+..........*...*
+..........*
+.**........*..*
+**.**
+.****...*
+..**...*.**........*....***
+......*...*........*....*.*
+..**...*.**........*....***
+.****...*
+**.**
+.**........*..*
+..........*
+..........*...*
+..........****

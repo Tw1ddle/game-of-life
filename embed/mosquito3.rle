@@ -1,0 +1,11 @@
+#N Mosquito 3
+#O Nick Gotts
+#C A 75-cell quadratic growth pattern
+#C http://www.conwaylife.com/wiki/index.php?title=Mosquito_3
+x = 2754, y = 650, rule = b3/s23
+2620b4o130b$2619bo3bo130b$2623bo130b$2622bo131b29$2750b4o$2749bo3bo$
+2753bo$2752bob3$2750bo3b$2751bo2b$2751bo2b$2750b2o2b$2749bo4b4$2750b4o
+$2749bo3bo$2753bo$2752bob356$94bob3o2655b$95b4o2655b$94bo2659b$99bo
+2654b29$b4o2749b$o3bo2749b$4bo2749b$3bo2750b130$621b6o2127b$622b3o
+2129b$625bo2128b59$308bo2445b$309bo2444b$304bo4bo2444b$305b5o2444b12$
+278b4o2472b$277bo3bo2472b$281bo2472b$280bo!

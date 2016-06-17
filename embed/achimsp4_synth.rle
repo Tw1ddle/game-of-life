@@ -1,0 +1,21 @@
+#N Achim's p4_synth
+#C 7-glider synthesis based on a predecessor by Lewis Patterson
+#C http://www.conwaylife.com/wiki/index.php?title=Achim's_p4
+x = 116, y = 95, rule = b3/s23
+70bo19bo25b$69bobo17bobo24b$69bobo17bobo24b$70bo19bo25b$92b2o22b$29b2o
+18b2o41bobo21b$18b3o8b2o18b2o41bo23b$20bo95b$19bo96b$21b3o92b$21bo94b$
+22bo44b2o3b2o13b2o3b2o13b2o3b2o2b$50b2o14bo2bobo2bo11bo2bobo2bo11bo2bo
+bo2bob$49b2o15bob2ob2obo11bob2ob2obo11bob2ob2obob$51bo13b2o7b2o9b2o7b
+2o9b2o7b2o$46b3o18bobobobo13bobobobo13bobobobo2b$48bo16b2o7b2o9b2o7b2o
+9b2o7b2o$47bo18bob2ob2obo11bob2ob2obo11bob2ob2obob$66bo2bobo2bo11bo2bo
+bo2bo11bo2bobo2bob$67b2o3b2o13b2o3b2o13b2o3b2o2b8$42bo73b$42b2o72b$41b
+obo72b2$56b3o57b$56bo59b$57bo58b7$76bo39b$77b2o10bo17b2o3b2o2b$76b2o
+11bobo14bo2bobo2bob$89b2o15bob2ob2obob$97bo7b2o7b2o$95b2o10bobobobo2b$
+82bo3bobo7b2o7b2o7b2o$83bo3b2o17bob2ob2obob$81b3o3bo18bo2bobo2bob$107b
+2o3b2o2b3$96b3o17b$96bo19b$97bo18b4$97b3o16b$97bo18b$80b2o16bo17b$79bo
+bo34b$81bo34b9$107b2o3b2o2b$5bo9bo90bo2bobo2bob$6bo7bo12b2o3b2o33b2o3b
+2o32bob2ob2obob$4b3o7b3o10bobobobo33bobobobo31b2o7b2o$3o15b3o8bobo26bo
+10bobo10bo24bobobobo2b$2bo15bo8bobobobo25b2o6bobobobo6b2o23b2o7b2o$bo
+17bo7b2o3b2o24b2o7b2o3b2o7b2o23bob2ob2obob$106bo2bobo2bob$107b2o3b2o2b
+$58b3o19b3o33b$60bo19bo35b$59bo21bo34b10$41b2o55b2o16b$40bobo55bobo15b
+$42bo55bo!

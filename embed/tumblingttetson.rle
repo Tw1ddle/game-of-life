@@ -1,0 +1,8 @@
+#N Tumbling T-tetson
+#O Robert Wainwright
+#C A period 8 oscillator consisting of two figure eights hassling a T-
+#C tetromino.
+#C www.conwaylife.com/wiki/index.php?title=Tumbling_T-tetson
+x = 21, y = 10, rule = 23/3
+b3o17b$o18b2o$o3bo12bob2o$o2bobo10bo4b$2bobo2bo11bob$3bo3bo7b2obo2b$7b
+o7b2o4b$4b3o4bo9b$9b2o10b$11bo!

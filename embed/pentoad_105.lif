@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Pentoad
+#D Author: Bill Gosper
+#D A period 5 oscillator found in June 1977.
+#D www.conwaylife.com/wiki/index.php?title=Pentoad
+#N
+#P -6 -6
+...........**
+...........*
+.........*.*
+.........**
+.....**
+......*
+......*
+......**
+..**
+.*.*
+.*
+**

@@ -1,0 +1,9 @@
+#N 1 beacon_synth
+#O Mark D. Niemiec
+#C A 10-glider synthesis of 1 beacon
+#C http://www.conwaylife.com/wiki/index.php?title=1_beacon
+x = 35, y = 30, rule = b3/s23
+10bo24b$8bobo24b$9b2o3bobo18b$4bobo7b2o19b$5b2o8bo19b$5bo29b2$16bo18b$
+14b2o6bo12b$3bo11b2o3b2o13b$4bo16b2o12b$2b3o25b2o3b$29bobo3b$28bo2bob
+2o$28b2obo2bo$obo26bobo3b$b2o2bobo21bo2bo2b$bo3b2o23b2o3b$6bo28b$18b2o
+15b$17b2o16b$19bo15b6$9b3o23b$9bo25b$10bo!

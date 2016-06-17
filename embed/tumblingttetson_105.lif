@@ -1,0 +1,17 @@
+#Life 1.05
+#D Name: Tumbling T-tetson
+#D Author: Robert Wainwright
+#D A period 8 oscillator consisting of two figure eights hassling a T-tetromino.
+#D www.conwaylife.com/wiki/index.php?title=Tumbling_T-tetson
+#N
+#P -10 -5
+.***
+*..................**
+*...*............*.**
+*..*.*..........*
+..*.*..*...........*
+...*...*.......**.*
+.......*.......**
+....***....*
+.........**
+...........*

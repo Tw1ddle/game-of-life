@@ -1,0 +1,7 @@
+#N Beehive fuse
+#C A diagonal 3c/32 period 128 fuse.
+#C www.conwaylife.com/wiki/index.php?title=Beehive_fuse
+x = 30, y = 32, rule = b3/s23
+2ob2o25b$o3bo25b$b3o26b3$3b2o25b$2bo2bo24b$3b2o25b6$7bo22b$6bobo21b$6b
+obo21b$7bo22b$15b2o13b$14bo2bo12b$15b2o13b6$19bo10b$18bobo9b$18bobo9b$
+19bo10b$27b2ob$26bo2bo$27b2o!

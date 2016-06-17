@@ -1,0 +1,7 @@
+#N Unidimensional nothing
+#O Paul Callahan
+#C A unidimensional pattern that dies out completely. Found in October
+#C  1998.
+#C www.conwaylife.com/wiki/index.php?title=Unidimensional_pattern
+x = 149, y = 1, rule = b3/s23
+6ob4ob3ob7ob5ob4ob4o71b4ob4ob5ob7ob3ob4ob6o!

@@ -1,0 +1,5 @@
+#N Boat on spark coil
+#C A period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Boat_on_spark_coil
+x = 8, y = 11, rule = B3/S23
+2ob2o3b$o3bo3b$b3o4b3$b3o4b$o3bo3b$2ob2o3b$5b2ob$5bobo$6bo!

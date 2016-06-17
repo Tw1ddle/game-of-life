@@ -1,0 +1,10 @@
+#N 3-engine Cordership_synth
+#O Jason Summers and Paul Tooke
+#C Glider synthesis of 3-engine Cordership.
+#C www.conwaylife.com/wiki/index.php?title=3-engine_Cordership
+x = 98, y = 106, rule = b3/s23
+55bo42b$56bo41b$54b3o41b36$2bo95b$obo95b$b2o95b6$95bo2b$44bo48b2o3b$
+42bobo49b2o2b$43b2o40bo12b$83bobo12b$84b2o12b2$97bo$95b2ob$96b2o$61bo
+36b$62b2o34b$61b2o35b2$73bo18bo5b$72bo19b2o4b$72b3o16bobo4b2$57b2o39b$
+58b2o38b$57bo40b$50bo18b2o27b$51bo16bobo27b$49b3o18bo27b6$86bo11b$84b
+2o12b$85b2o11b24$47bo50b$47b2o49b$46bobo5bo43b$54b2o42b$53bobo!

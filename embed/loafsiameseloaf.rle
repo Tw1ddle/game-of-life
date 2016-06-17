@@ -1,0 +1,5 @@
+#N Loaf siamese loaf
+#C An 11-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Loaf_siamese_loaf
+x = 5, y = 5, rule = 23/3
+2b2ob$bo2bo$obobo$o2bob$b2o!

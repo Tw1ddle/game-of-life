@@ -1,0 +1,10 @@
+#N 123P27.1
+#O Noam Elkies
+#C The first period 27 oscillator to be found. Found on November 12, 2002.
+#C www.conwaylife.com/wiki/index.php?title=123P27.1
+x = 20, y = 22, rule = b3/s23
+b2ob2o14b$2bobobob2o10b$bo2bobobo11b$ob2o2bobobo9b$o9b3obo5b$b3o9b2o5b
+$3bobobo2b2o3b2o3b$5bobobo2b2o3bo2b$4b2obo2b2o2b2obo2b$3bo3bobo2bobobo
+3b$4b3o2bo2bo6bo$7b2o3bo2b5o$6bo2b4obo5b$5bob2o3bobo2b3o$6bo2b3o2bo4bo
+$7b2o5bob2o2b$9b3o2bobo3b$9bo2bobobo3b$10b5ob2o2b$15bo2bob$9bob4o2b2ob
+$9b2obo!

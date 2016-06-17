@@ -1,0 +1,18 @@
+#N Claw with tail_synth
+#O Mark D. Niemiec
+#C Glider syntheses of claw with tail.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 106, y = 98, rule = 23/3
+60b2o18b2o18b2o4b$61bo19bo19bo4b$40b2o19bobo17bobo17bob2ob$41b2o19b2o
+18b2o18bo2bo$40bo3b2o40bobo15b2o$44bobo39b2o18b$44bo42bo18b2$88b2o16b$
+87b2o17b$89bo16b20$2o18b2o18b2o18b2o18b2o18b2o4b$bo19bo19bo19bo19bo19b
+o4b$bobo17bob2o16bob2o16bob2o16bob2o16bob2ob$2b2o18bobo17bobo17bo2bo
+16bo2bo16bo2bo$7bo15bo19bo20b2o18b2o18b2o$7bobo41bo54b$4b2ob2o42bobo
+10b2o18b2o20b$3bobo45b2o11b2o18b2o20b$5bo100b$48b3o35b3o17b$48bo37bo
+19b$49bo37bo18b16$85bobo18b$86b2o3bo14b$86bo2b2o15b$40b2o18b2o18b2o8b
+2o8b2o4b$41bo8bo10bo19bo19bo4b$41bobo5bo11bob2o16bob2o16bob2ob$42b2o5b
+3o10bobo17bobo17bo2bo$104b2o$46b3o37bo19b$46bo39b2o3bo14b$47bo37bobo3b
+obo12b$40bo50b2o13b$40b2o64b$39bobo64b15$75bo30b$76b2o3bo24b$75b2o2b2o
+25b$80b2o24b2$100b2o4b$44bobo15bo14bobo2bo18bo4b$44b2o16b3o13b2o2b3o
+16bob2ob$45bo19bo12bo6bo16bo2bo$64b2o18b2o18b2o$46b3o30b3o24b$46bo32bo
+26b$47bo32bo!

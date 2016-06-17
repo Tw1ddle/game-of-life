@@ -1,0 +1,12 @@
+#N 132P37
+#O Nicolay Beluchenko
+#C The second unique p37 oscillator to be found.
+#C http://www.conwaylife.com/wiki/index.php?title=132P37
+x = 47, y = 47, rule = b3/s23
+18bo28b$18b3o26b$21bo25b$20b2o25b2$32b2o13b$32b2o13b$26bobo18b$28bo18b
+2$22b3o22b$15b2o5bo2bo21b$15b2o5bo3bo20b$5b2o19bo20b$5b2o15bo3bo20b$
+22bo2bo8b2o11b$22b3o9b2o11b2$7b2o36b2o$45bob$7bo4b3o28bobob$11bo3bo27b
+2o2b$10bo5bo13b3ob3o10b$10bo5bo13bo5bo10b$10b3ob3o13bo5bo10b$2b2o27bo
+3bo11b$bobo28b3o4bo7b$bo45b$2o36b2o7b2$11b2o9b3o22b$11b2o8bo2bo22b$20b
+o3bo15b2o5b$20bo19b2o5b$20bo3bo5b2o15b$21bo2bo5b2o15b$22b3o22b2$18bo
+28b$18bobo26b$13b2o32b$13b2o32b2$25b2o20b$25bo21b$26b3o18b$28bo!

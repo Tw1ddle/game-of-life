@@ -1,0 +1,9 @@
+#N Bi-cap_synth
+#O Dean Hickerson
+#C Glider synthesis of bi-cap.
+#C www.conwaylife.com/wiki/index.php?title=Bi-cap
+x = 63, y = 48, rule = b3/s23
+11bobo49b$11b2o17bo32b$12bo16bo33b$9bo19b3o31b$7b2o54b$8b2o53b11$60b2o
+b$59bo2bo$o58b4o$obo60b$2o57b4o$59bo2bo$60b2ob$5b2o56b$4b2o57b$6bo56b
+3$3b2o58b$3bobo57b$3bo59b5$25b3o35b$12bo12bo37b$11b2o13bo36b$11bobo49b
+7$44b2o17b$44bobo16b$44bo!

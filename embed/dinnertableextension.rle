@@ -1,0 +1,11 @@
+#N Dinner table extension
+#C An extension of dinner table
+#C http://www.conwaylife.com/wiki/index.php?title=Dinner_table
+x = 34, y = 34, rule = b3/s23
+13bo20b$13b3o7b2o9b$16bo6bo10b$9bo5b2o4bobo10b$9b3o9b2o11b$12bo4b3o6b
+2o6b$5bo5b2o4b3o6bo7b$5b3o16bobo7b$8bo15b2o8b$bo5b2o4b3o13b2o3b$b3o9b
+3o4b3o6bo4b$4bo4b3o8b3o4bobo4b$3b2o4b3o4b3o8b2o5b$16b3o4b3o6b2o$23b3o
+6bob$5b3o22bobob$5b3o4b3o15b2o2b$2b2o8b3o4b3o12b$bobo4b3o8b3o4b3o5b$bo
+6b3o4b3o8b3o5b$2o13b3o4b3o9b$5b2o15b3o4b2o3b$4bobo22bo4b$4bo6b3o16b3ob
+$3b2o6b3o4b3o4b2o5bob$8b2o8b3o4bo8b$7bobo4b3o9b3o5b$7bo6b3o4b2o5bo5b$
+6b2o13bo12b$11b2o9b3o9b$10bobo4b2o5bo9b$10bo6bo16b$9b2o7b3o13b$20bo!

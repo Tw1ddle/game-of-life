@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Pseudo-barberpole
+#D Author: Achim Flammenkamp
+#D Found in August 1994. In terms of its minimum population of 15, this is the s
+#D mallest known period 5 oscillator (as of January 2009).
+#N
+#P -6 -6
+..........**
+...........*
+.........*
+.......*.*
+.
+.....*.*
+.
+...*.*
+.
+..**
+*
+**

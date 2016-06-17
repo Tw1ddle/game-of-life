@@ -1,0 +1,20 @@
+#Life 1.05
+#D Name: Pushalong 1
+#D Author: David Bell
+#D A pushalong that attaches to the front of a middleweight spaceship. Found in 
+#D 1992.
+#D www.conwaylife.com/wiki/index.php?title=Pushalong_1
+#N
+#P -20 -7
+...*
+.*..*
+*...*
+*...*
+**.*
+.....**
+..*..**
+....*
+.......***
+......*****
+.....**.***
+......**

@@ -1,0 +1,15 @@
+!Name: Non-monotonic spaceship 1
+!Author: Hartmut Holzwart
+!The first non-monotonic spaceship to be discovered.
+!www.conwaylife.com/wiki/index.php?title=Non-monotonic_spaceship_1
+..........OO.O
+......OOO.O.OOO
+..O.O..........O...OO
+OO....OO.....O...OOOO
+..O.OO..O....OOO.O
+........O....O
+..O.OO..O....OOO.O
+OO....OO.....O...OOOO
+..O.O..........O...OO
+......OOO.O.OOO
+..........OO.O

@@ -1,0 +1,6 @@
+#N Two pulsar quadrants
+#O David Buckingham
+#C A period 3 oscillator found in July 1973.
+#C www.conwaylife.com/wiki/index.php?title=Two_pulsar_quadrants
+x = 9, y = 9, rule = B3/S23
+4bo4b$4bo4b$3b2o4b$2bo6b$o2bo2b3o$o3bobo2b$o4bo3b2$2b3o!

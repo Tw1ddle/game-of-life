@@ -1,0 +1,21 @@
+#N Elkies' p5_synth
+#O Mark D. Niemiec
+#C Glider synthesis of Elkies' p5.
+#C http://home.interserv.com/~mniemiec/objname.htm#E
+x = 158, y = 70, rule = 23/3
+4bo153b$5bo152b$3b3o152b$43bo114b$b2o41b2o112b$obo24b3o13b2o2b3o18b2o
+18b2o18b2o18b2o18b2o8b$2bo64bo2bo16bo2bo16bo2bo16bo2bo5bobo8bo2bo7b$
+40b3o25bobo17bobo17bobo17bobo5b2o10bobo7b$42bo6b2o16b2ob2o15b2ob2o15b
+2ob2o15b2ob2o5bo2b3o4b2ob2o6b$41bo7bobo88bo8bo2bo5b$49bo66b2o18b2o3bo
+7bobo6b$96bobo5b2o9bo2bo5b2o9bo2bo11bo7b$83bobo10b2o5bo2bo8bo2bo4bo2bo
+3bo4bo2bo19b$84b2o11bo5bo2bo9b2o5bo2bo2b2o5b2o20b$84bo19b2o18b2o3bobo
+26b$97b2o38bo20b$83b2o12bobo36b2o20b$82bobo12bo29b3o6bobo19b$84bo44bo
+28b$128bo29b5$155b2ob$154bo2bo$155b2ob11$117bobo11bobo24b$118b2o7bo3b
+2o25b$112bo5bo6b2o5bo25b$113b2o11b2o30b$112b2o44b$106b2o50b$105bobo50b
+$107bo3b3o32bo11b$28b2o18b2o18b2o6bo11b2o23bo4b2o25bo2b3o7b$27bo2bo16b
+o2bo16bo2bo5bobo8bo2bo4b2o15bo4bo2bo4b2o20bo10b$28bobo17bobo17bobo5b2o
+10bobo4b2o21bobo4b2o21bobo2bo4b$27b2ob2o15b2ob2o15b2ob2o7b2o6b2ob2o25b
+2ob2o11bo13b2ob4o4b$29bo2bo16bo2bo16bo2bo6bobo7bo2bo26bo2bo9b2o15bo8b$
+29bobo17bobo17bobo7bo9bobo27bobo10bobo14bobo6b$30bo19bo19bo19bo29bo29b
+2o6b3$128b3o27b$128bo29b$129bo28b8$35b2o121b$34bo2bo120b$35b2o121b$38b
+3o117b$38bo119b$39bo!

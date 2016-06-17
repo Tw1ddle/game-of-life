@@ -1,0 +1,18 @@
+#N Block and cap_synth
+#O Mark D. Niemiec
+#C Glider syntheses of block and caps.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 107, y = 113, rule = 23/3
+70b2o35b$70bobo34b$40bo25bo4bobo33b$38b2o25bobo4b2o33b$39b2o24bobo39b$
+66bo40b$38bo68b$39bo31b2o34b$37b3o31b2o34b5$40b3o44bobo17b$42bo38bo5b
+2o18b$41bo22b2o13bobo6bo15b2ob$59bo3bo2bo13b2o21bo2bo$59bo3b4o36b4o$
+59bo47b$65b2o38b2o$65b2o38b2o2$83bobo21b$84b2o2b2o17b$84bo2b2o18b$89bo
+17b13$11b2o94b$12b2o93b$11bo95b$79bo27b$80b2o25b$79b2o26b$43bo32b2o29b
+$44b2o19bo9bobo7bo18b2ob$43b2o19bobo10bo6bobo16bo2bo$65b2o18b2o16b4o2$
+65b2o18b2o18b2o$44b3o18b2o18b2o18b2o$46bo60b$45bo61b$47b3o57b$47bo59b$
+48bo58b16$49b2o56b$47bobobo55b$45bobobo57b$46b2o59b$41b2o22bo41b$42b2o
+20bobo40b$41bo23b2o40b$5bo101b$3bobo19b2o18b2o18b2o40b$4b2o19b2o18b2o
+18b2o40b$b2o104b$obo104b$2bo104b11$86bo20b$84b2o21b$85b2o20b2$80bo26b$
+81b2o24b$44bo35b2o3bo21b$44bobo36b2o22b$44b2o38b2o21b2$43bo63b$41bobo
+60b2ob$42b2o6b2o11bo2bo16bo2bo16bo2bo$49b2o12b4o16b4o16b4o$51bo55b$65b
+2o18b2o18b2o$48bo16b2o18b2o18b2o$47b2o58b$47bobo!

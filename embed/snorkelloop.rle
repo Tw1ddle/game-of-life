@@ -1,0 +1,5 @@
+#N Snorkel loop
+#C A 12-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Snorkel_loop
+x = 6, y = 5, rule = B3/S23
+2b2o2b$bo2bob$2bobob$obob2o$2o!

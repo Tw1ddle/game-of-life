@@ -1,0 +1,7 @@
+#N Swan
+#O Tim Coe
+#C A diagonal period 4 c/4 spaceship that produces some useful sparks.
+#C http://www.conwaylife.com/wiki/index.php?title=Swan
+x = 24, y = 12, rule = B3/S23
+bo10b2o10b$5o6b2o11b$o2b2o8bo7b2ob$2b2obo5b2o6b3obo$11b2o3bob2o4b$5bob
+o6b2o8b$10b3obo4bo4b$7b3o3bo4bo5b$8bo7bo7b$8bo6bo8b2$11bo!

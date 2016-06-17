@@ -1,0 +1,15 @@
+!Name: aVerage
+!Author: David Buckingham
+!The average number of live rotor cells is five (V), which is also the period.
+!www.conwaylife.com/wiki/index.php?title=AVerage
+...OO
+....OOO
+..O....O
+.O.OOOO.O
+.O.O....O..O
+OO.OOO..O.O.O
+.O.O....O..O
+.O.OOOO.O
+..O....O
+....OOO
+...OO

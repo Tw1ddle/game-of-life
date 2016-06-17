@@ -1,0 +1,9 @@
+#N Washing machine_synth
+#O Mark D. Niemiec
+#C Glider synthesis of washing machine.
+#C http://home.interserv.com/~mniemiec/objname.htm#W
+x = 37, y = 27, rule = 23/3
+10bo26b$8bobo26b$9b2o26b3$16bo20b$15bo21b$15b3o19b$bo35b$2bo15bo18b$3o
+14b2o12b2ob2ob$17bobo10bob2o2bo$30b2o4bo$31bo3bob$30bo4b2o$7bobo20bo2b
+2obo$8b2o14b3o4b2ob2ob$8bo15bo12b$25bo11b$9b3o25b$11bo25b$10bo26b3$16b
+2o19b$16bobo18b$16bo!

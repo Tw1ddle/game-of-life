@@ -1,0 +1,7 @@
+#N 48P31
+#O Matthias Merzenich
+#C The first known period-31 oscillator
+#C http://www.conwaylife.com/wiki/index.php?title=48P31
+x = 24, y = 13, rule = b3/s23
+7b2obo2bob2o7b$2o4bo2bo4bo2bo4b2o$2o5bobo4bobo5b2o$8bo6bo8b6$8bo6bo8b$
+2o5bobo4bobo5b2o$2o4bo2bo4bo2bo4b2o$7b2obo2bob2o!

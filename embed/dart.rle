@@ -1,0 +1,7 @@
+#N Dart
+#O David Bell
+#C An orthogonal period 3 spaceship with speed c/3 that was found in May 1992.
+#C www.conwaylife.com/wiki/index.php?title=Dart
+x = 15, y = 10, rule = B3/S23
+7bo7b$6bobo6b$5bo3bo5b$6b3o6b2$4b2o3b2o4b$2bo3bobo3bo2b$b2o3bobo3b2ob$
+o5bobo5bo$bob2obobob2obo!

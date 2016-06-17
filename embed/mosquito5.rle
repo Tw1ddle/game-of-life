@@ -1,0 +1,11 @@
+#N Mosquito 5
+#O Nick Gotts
+#C A 71-cell pattern that exhibits quadratic growth.
+#C www.conwaylife.com/wiki/index.php?title=Mosquito_5
+x = 2754, y = 650, rule = b3/s23
+2622bo131b$2623bo130b$2619bo3bo130b$2620b4o130b29$2752bob$2753bo$2749b
+o3bo$2750b4o4$2749bo4b$2750b2o2b$2751bo2b$2751bo2b$2750bo3b3$2752bob$
+2753bo$2749bo3bo$2750b4o345$175bo2578b$173bo2b2o2576b$173b3o2578b$174b
+o2579b40$3bo2750b$4bo2749b$o3bo2749b$b4o2749b140$793bo1960b$792b2o
+1960b$791bobo1960b17$824b3o1927b34$305b5o2444b$304bo4bo2444b$309bo
+2444b$308bo2445b10$280bo2473b$281bo2472b$277bo3bo2472b$278b4o!

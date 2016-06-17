@@ -1,0 +1,24 @@
+!Name: Fly
+!Author: David Bell
+!A tagalong for an edge-repair spaceship that was found in April 1992.
+!www.conwaylife.com/wiki/index.php?title=Fly
+..O
+.O.O
+.O.O......................O.O...O
+.O.......................OO.O.O..O
+...........OOO........O.........O
+OO.........OO..O.OO...O..OOOO
+.O.O.........OOOO..O.O..OO....OO
+.OO........O..O...OOO.....OOO
+..O.......O....O..OO..OO..O..O
+...O..O...O....O..OOO.O.O....OO
+.......O.OO....O..OOOO.....O
+....OO...OO....O..OOOO.....O
+....O.O...O....O..OOO.O.O....OO
+...OO.....O....O..OO..OO..O..O
+....O.O....O..O...OOO.....OOO
+.....O.......OOOO..O.O..OO....OO
+...........OO..O.OO...O..OOOO
+...........OOO........O.........O
+.........................OO.O.O..O
+..........................O.O...O

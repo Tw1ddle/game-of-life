@@ -1,0 +1,11 @@
+#N mold on 36P22_synth
+#C A 16-glider synthesis of mold on 36P22
+#C http://www.conwaylife.com/wiki/index.php?title=Mold_on_36P22
+x = 88, y = 39, rule = b3/s23
+39bo48b$38bo49b$13bo24b3o7bo39b$14b2o31bo40b$13b2o29bo2b3o38b$42b2o44b
+$43b2o43b$3bobo82b$4b2o82b$4bo83b$12bo75b$13bo74b$11b3o19bo50b2o2b$31b
+2o50bo2bob$32b2o49bobo2b$14bo69bob2o$15b2o68b3o$14b2o70b2o$21bobo37b2o
+25b$22b2o38bo25b$22bo9bo29bobo13b3o7b$32bobo28b2o3bo8bo3bo6b$32b2o33bo
+b2o6bo4bo5b$b2o63bo4bo6b2obo6b$obo64bo3bo8bo3b2o2b$2bo9bo33b2o20b3o13b
+obob$11b2o33bobo37bob$11bobo32bo39b2o$19b2o67b$18b2o68b$20bo67b$b2o85b
+$2b2o84b$bo19b3o64b$21bo66b$22bo65b$30bo57b$29b2o57b$29bobo!

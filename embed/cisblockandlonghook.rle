@@ -1,0 +1,5 @@
+#N Cis-block and long hook
+#C A 12-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Cis-block_and_long_hook
+x = 5, y = 6, rule = B3/S23
+3b2o$o3bo$4ob2$2b2ob$2b2o!

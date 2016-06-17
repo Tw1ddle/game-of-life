@@ -1,0 +1,9 @@
+#N New gun 2
+#O Bill Gosper
+#C A true period 144 glider gun that consists of a block factory whose output is converted into gliders by a period 72 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=New_gun_2
+x = 51, y = 24, rule = B3/S23
+23b2o24b2o$23b2o24b2o$41b2o8b$40bo2bo7b$41b2o8b2$36b3o12b$36bobo12b$9b
+2o25b3o12b$9b2o25b2o13b$8bo2bo23b3o13b$8bo2bob2o20bobo13b$8bo4b2o20b3o
+13b$10b2ob2o36b$31b2o18b$21b2o7bo2bo17b$21b2o8b2o18b$49b2o$49b2o2$4b2o
+18bo26b$2o4b4o10b2o2b2ob3o21b$2o2b2ob3o10b2o4b4o21b$4bo19b2o!

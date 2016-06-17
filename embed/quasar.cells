@@ -1,0 +1,33 @@
+!Name: Quasar
+!Author: Robert Wainwright
+!A period 3 oscillator found in August 1971 that is quite similar to the pulsar.
+!www.conwaylife.com/wiki/index.php?title=Quasar
+..........OOO...OOO
+
+........O....O.O....O
+........O....O.O....O
+........O....O.O....O
+..........OOO...OOO
+
+........OOO.......OOO
+..OOO..O....O...O....O..OOO
+.......O....O...O....O
+O....O.O....O...O....O.O....O
+O....O.................O....O
+O....O..OOO.......OOO..O....O
+..OOO...................OOO
+
+..OOO...................OOO
+O....O..OOO.......OOO..O....O
+O....O.................O....O
+O....O.O....O...O....O.O....O
+.......O....O...O....O
+..OOO..O....O...O....O..OOO
+........OOO.......OOO
+
+..........OOO...OOO
+........O....O.O....O
+........O....O.O....O
+........O....O.O....O
+
+..........OOO...OOO

@@ -1,0 +1,7 @@
+#N Sparky
+#C An orthogonal c/4 period 4 tagalong.
+#C www.conwaylife.com/wiki/index.php?title=Sparky
+x = 30, y = 11, rule = 23/3
+10b2obo12b2o2b$6b3obob3o8bob3o2b$2bobo10bo3b2obo4bo2b$2o4b2o5bo3b4obo
+3b2o2b$2bob2o2bo4b3obo5b4obob$8bo4bo13b3o$2bob2o2bo4b3obo5b4obob$2o4b
+2o5bo3b4obo3b2o2b$2bobo10bo3b2obo4bo2b$6b3obob3o8bob3o2b$10b2obo12b2o!

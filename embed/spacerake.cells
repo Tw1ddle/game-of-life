@@ -1,0 +1,22 @@
+!Name: Space rake
+!An orthogonal period 20 c/2 forward glider rake.
+!www.conwaylife.com/wiki/index.php?title=Space_rake
+...........OO.....OOOO
+.........OO.OO...O...O
+.........OOOO........O
+..........OO.....O..O
+
+........O
+.......OO........OO
+......O.........O..O
+.......OOOOO....O..O
+........OOOO...OO.OO
+...........O....OO
+
+
+
+..................OOOO
+O..O.............O...O
+....O................O
+O...O............O..O
+.OOOO

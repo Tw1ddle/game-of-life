@@ -1,0 +1,14 @@
+#N Pentapole_synth
+#O Mark D. Niemiec
+#C Glider synthesis of pentapole.
+#C http://home.interserv.com/~mniemiec/p2osc.htm
+x = 108, y = 55, rule = 23/3
+78bo29b$77bo30b$35bobo39b3o28b$36b2o34bobo14bo18b$36bo5bo30b2o12b2o19b
+$43b2o28bo14b2o18b$42b2o64b$38b2o68b$39b2o32b3o32b$38bo36bo32b$74bo25b
+2o6b$61b2o18b2o17bobo5b$61bo19bo26b$62bobo17bobo17bobo3b2$25b2o18b2o
+17bobo17bobo17bobob$3bo21bobo17bobo19bo19bo19bo$bobo3bo18b2o18b2o18b2o
+18b2o18b2o$2b2o2b2o100b$6bobo99b$bo106b$2o106b$obo105b12$73bo15bo18b$
+71bobo14bo19b$72b2o14b3o17b3$77bobobobo10bo13b$78b2ob2o10bo6b2o6b$78bo
+3bo10b3o4bobo5b$80bo27b$79b2o21bobo3b$79bobo5bobo18b$88b2o14bobob$88bo
+18bo$72b3o11bo3bo15b2o$74bo11b2ob2o17b$73bo11bobobobo16b3$78b3o27b$80b
+o27b$79bo!

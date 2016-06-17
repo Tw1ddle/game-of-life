@@ -1,0 +1,7 @@
+#N Eater 2
+#O David Buckingham
+#C A well-known eater and 19-cell still life that can eat gliders that approach it along four
+#C different paths.
+#C http://www.conwaylife.com/wiki/index.php?title=Eater_2
+x = 7, y = 7, rule = B3/S23
+3bob2o$b3ob2o$o6b$b3ob2o$3bobob$3bobob$4bo!

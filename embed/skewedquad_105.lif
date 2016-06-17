@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: Skewed quad
+#D A period 2 oscillator and muttering moat.
+#D www.conwaylife.com/wiki/index.php?title=Skewed_quad
+#N
+#P -3 -3
+.**
+.*...**
+..*.*.*
+.
+*.*.*
+**...*
+....**

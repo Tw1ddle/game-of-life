@@ -1,0 +1,8 @@
+#N Dead spark coil_synth
+#O Mark D. Niemiec
+#C Glider synthesis of a dead spark coil.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 74, y = 8, rule = 23/3
+50bo23b$5bo9bo35b2o21b$6bo7bo12b2o3b2o7bo8b2o15b2o3b2o$4b3o7b3o10bobob
+obo8bo11b2o11bobobobo$3o15b3o8bobo8b3o10bobo13bobo2b$2bo15bo8bobobobo
+10b3o8bo11bobobobo$bo17bo7b2o3b2o12bo20b2o3b2o$45bo!

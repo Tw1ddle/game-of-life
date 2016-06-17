@@ -1,0 +1,15 @@
+#N Great on off_synth
+#O Mark D. Niemiec
+#C Glider synthesis of pincers.
+#C http://home.interserv.com/~mniemiec/objname.htm#P
+x = 80, y = 98, rule = 23/3
+76bo3b$25b3o17b3o28b3ob$6bo72bo$4bobo16bo5bo13bo5bo26b2obo$b2o2b2o16bo
+5bo13bo5bo22b2obo2bob$obo20bo5bo13bo5bo23bobo4b$2bo70bo2bo3b$25b3o17b
+3o26b2o4b2$56bo23b$55b2o23b$51b2o2bobo22b$50bobo27b$52bo27b13$66b3o11b
+$66bo13b$67bo12b12$76bo3b$45b3o28b3ob$79bo$43bo5bo26b2obo$43bo5bo22b2o
+bo2bob$43bo5bo23bobo4b$73bo2bo3b$45b3o26b2o4b2$56bo23b$55b2o23b$51b2o
+2bobo22b$50bobo27b$52bo27b11$67b2o11b$66b2o12b$68bo11b11$42bobo35b$43b
+2o3bo31b$43bo2b2o32b$39bo7b2o27bo3b$40b2o34b3ob$39b2o38bo$5bo19b2o18b
+2o29b2obo$3bobo2b3o14bobo13bo3bobo24b2obo2bob$4b2o2bo17b2o13b2o3b2o25b
+obo4b$9bo18b2o10bobo5b2o23bo2bo3b$4bo23bobo17bobo23b2o4b$4b2o23bo19bo
+30b$3bobo74b6$3b2o75b$4b2o74b$3bo!

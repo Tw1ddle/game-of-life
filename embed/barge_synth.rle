@@ -1,0 +1,17 @@
+#N Barge_synth
+#O Mark D. Niemiec
+#C Glider synthesis of barges.
+#C http://home.interserv.com/~mniemiec/3gliders.htm
+x = 147, y = 86, rule = 23/3
+49bo97b$49bobo95b$43bobo3b2o96b$44b2o101b$44bo84bo17b$3bo78bo41bobo2bo
+bo15b$b2o40b3o37bo40b2o3b2o16b$2b2o20bo20bo18bo16b3o20bo20bo18bo2b$23b
+obo18bo18bobo37bobo37bobob$bo3b2o17bobo37bobo10b2o4b3o18bobo19b2o16bob
+o$b2ob2o19bo39bo12b2o3bo21bo20bobo16bob$obo3bo70bo6bo41bo20b21$80bo66b
+$81bo65b$52bo26b3o65b$51bo95b$8b2o41b3o69bo23b$7bobo2b2o10bo24bo14bo
+39bo19b2o18bo2b$9bob2o10bobo22b2o13bobo25b2o10bobo17b2o2bo15bobob$13bo
+10bobo21bobo13bobo24bobo10bobo20bobo14bobo$25bo39bo21b2o2bo13bo21b2o
+16bob$3b3o82b2o57b$5bo81bo59b$4bo142b$120b2o25b$121b2o24b$47b2o71bo26b
+$48b2o97b$47bo99b14$54bo92b$52b2o93b$53b2o26bo65b$80bo66b$80b3o64b$24b
+o39bo39bo42b$23bobo37bobo15bo21bobo41b$24bobo37bobo13b2o22bobo40b$25bo
+39bo14bobo22bo41b3$41bobo103b$6bo34b2o104b$2bob2o36bo104b$obo2b2o140b$
+b2o37b3o104b$40bo106b$41bo105b4$3b2o98b2o42b$2bobo98bobo41b$4bo98bo!

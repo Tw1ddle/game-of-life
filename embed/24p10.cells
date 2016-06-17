@@ -1,0 +1,13 @@
+!Name: 24P10
+!Author: Matthias Merzenich
+!the smallest known period-10 oscillator
+!http://www.conwaylife.com/wiki/index.php?title=24P10
+.......OO
+.......O..O
+...O....O...O
+....OO...O.OO
+
+OO.O...OO
+O...O....O
+..O..O
+....OO

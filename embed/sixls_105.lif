@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Six Ls
+#D A period 3 oscillator that has the same rotor as loading dock.
+#D www.conwaylife.com/wiki/index.php?title=Six_Ls
+#N
+#P -3 -4
+...*
+.***..*
+*...***
+***
+....***
+***...*
+*..***
+...*

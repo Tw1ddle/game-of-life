@@ -1,0 +1,15 @@
+!Name: Negentropy
+!A period 2 oscillator that is very similar to the Hertz oscillator.
+!http://www.conwaylife.com/wiki/index.php?title=Negentropy
+...OO.O
+...O.OO
+
+....OOO
+...O.O.O.OO
+...OO..O.OO
+OO.O...O
+OO.O...O
+....OOO
+
+....OO.O
+....O.OO

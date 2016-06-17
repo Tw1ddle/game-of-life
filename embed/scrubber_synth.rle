@@ -1,0 +1,9 @@
+#N Scrubber_synth
+#C A 10-glider synthesis of scrubber
+#C http://www.conwaylife.com/wiki/index.php?title=Scrubber
+x = 50, y = 35, rule = b3/s23
+20bo29b$18b2o30b$19b2o29b4$15bo34b$14bo35b$5bo8b3o33b$6b2o16bobo23b$5b
+2o17b2o24b$25bo24b$43bo6b$41b3o6b$32bobo5bo9b$32b2o6bo2b3o4b$33bo5b2ob
+o3bo3b$42bo3bo3b$bo40bo3bob2o$b2o40b3o2bob$obo45bob$21b3o21b3o2b$21bo
+23bo4b$22bo27b$28b2o20b$27b2o21b$18b3o8bo20b$20bo29b$19bo30b4$14b2o34b
+$15b2o33b$14bo!

@@ -1,0 +1,12 @@
+#N Diuresis
+#O David Eppstein and Dean Hickerson
+#C A period 90 oscillator originally discovered by David Eppstein and 
+#C supported by pentadecathlons; the still life stabilization was foun
+#C d by Dean Hickerson
+#C http://www.conwaylife.com/wiki/index.php?title=Diuresis
+x = 29, y = 25, rule = b3/s23
+5b2o16b2o4b$6bo16bo5b$6bobo12bobo5b$7b2o12b2o6b2$4b2o18b2o3b$4bobo10b
+2o4bobo3b$5bo10bobo5bo4b$2bo13b2o9bob$2b6o8bo5b6ob$7bo14bo6b$4b2o18b2o
+3b$4bo20bo3b$5bo18bo4b$2b3o2bo14bo2b3ob$2bo2b3o8bo5b3o3bo$3bo12b2o7b3o
+b$4b2o10bobo5bo4b$6bo10b2o4bo2b2ob$4b2o18b2obob$bo2bo20bo3b$obobo2b2o
+12b2o2bo3b$bo2bobobo12bobob2o2b$4bobo16bo2bo2b$5b2o16b2o!

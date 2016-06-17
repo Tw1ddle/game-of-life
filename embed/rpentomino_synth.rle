@@ -1,0 +1,21 @@
+#N R-pentomino_synth
+#O Mark D. Niemiec
+#C Glider synthesis of R-pentominoes.
+#C http://home.interserv.com/~mniemiec/3gliders.htm
+x = 113, y = 108, rule = 23/3
+49bo63b$50bo62b$48b3o62b4$28b3o19b3o15b3o42b$28bo2bo18bo17bo2bo41b$11b
+obo15bo21bo17bo43b$7bo3b2o100b$8b2o2bo35b3o62b$7b2o41bo62b$49bo63b2$
+12bo100b$11b2o100b$11bobo99b8$50bo62b$4bobo42bo63b$5b2o42b3o61b$5bo17b
+o4b3o37b3o37b3o2b$22b2o5bo23bo15bo3bo12b2o21bo3b$3b2o6b2o9bo7bo22bobo
+14bo16b2o21bo2b$4b2o4b2o11bo25b3ob2o19bo11bo4b2o20b$3bo8bo38bo20b2o18b
+2o2bo16b$50bo40bo3b2o16b$95bobo15b12$11bo41bo59b$9b2o18bo24bo14bo39bo
+3b$5b3o2b2o16b3o21b3o13b3o37b3o2b$7bo20bo39bo39bo4b$6bo45bo60b$9b2o40b
+2o60b$8bobo40bobo59b$10bo34bo67b$45b2o64bob$44bobo66b$87bo23b2o$85bobo
+2bo22b$86b2o2bobo20b$90b2o21b7$94b2o17b$94bobo16b$94bo18b6$91bo21b$51b
+o39bobo19b$50bo4bobo33b2o20b$28b3o19b3o2b2o11b3o37b3o2b$8bo19bobo25bo
+11bobo18b2o17bobo2b$6bobo19bo39bo19bo2bo16bo4b$7b2o44b3o33b2o22b$10b3o
+19bo20bo59b$10bo43bo58b$11bo13b2o3b2o81b$7b2o16b3o85b$7bobo103b$7bo
+105b9$83bobo27b$2bo81b2o3bo23b$obo25b3o37b3o13bo2b2o19b3o2b$b2o2b2o21b
+o2bo36bo2bo16b2o3bo14bo2bob$4bo2bo19bo3bo35bo3bo20bo14bo3bob$5b2o21bo
+2bo36bo2bo20b3o13bo2bob$28bobo37bobo37bobo2b$49bo63b$47bobo63b$48b2o4b
+2o57b$54bobo56b$50b2o2bo58b$49bobo61b$51bo!

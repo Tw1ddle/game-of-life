@@ -1,0 +1,21 @@
+#Life 1.05
+#D Name: Mold on fumarole
+#D The smallest known period 20 oscillator. It is non-trivial because of a singl
+#D e cell that oscillates at period 20.
+#D www.conwaylife.com/wiki/index.php?title=Mold_on_fumarole
+#N
+#P -4 -7
+...**
+..*..*
+.*.*.*
+.*..*
+*
+.*.*
+.
+....**
+..*....*
+..*....*
+..*....*
+...*..*
+.*.*..*.*
+.**....**

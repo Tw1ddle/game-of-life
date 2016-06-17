@@ -1,0 +1,8 @@
+#N 64P2H1V0
+#O Dean Hickerson
+#C The smallest period 2 spaceship, discovered on July 28, 1989. Has speed c/2.
+#C http://www.conwaylife.com/wiki/index.php?title=64P2H1V0
+x = 31, y = 8, rule = b3/s23
+5b3o15b3o5b$4bo3bo13bo3bo4b$3b2o4bo11bo4b2o3b$2bobob2ob2o3b3o3b2ob2obo
+bo2b$b2obo4bob2ob3ob2obo4bob2ob$o4bo3bo4bobo4bo3bo4bo$12bo5bo12b$2o7b
+2o9b2o7b2o!

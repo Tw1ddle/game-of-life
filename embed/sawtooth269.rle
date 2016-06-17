@@ -1,0 +1,20 @@
+#N Sawtooth 269
+#O David Bell
+#C A sawtooth created on July 7, 2005 that has a minimum repeating population of 269.
+#C www.conwaylife.com/wiki/index.php?title=Sawtooth_262
+x = 151, y = 107, rule = B3/S23
+44b2o105b$30bo9bo3b3o104b$30b4o5bobo2bo106b$30bo3bo5bo3bo2bo103b$48bo
+102b$32b3o10bobo103b$46b2o7b2o94b$55b2o94b5$56b2o93b$56b2o93b$55bo2bo
+4b2o86b$55bob2o4b2o86b$52b3o96b$53b2o96b$35b2o9b2o2bo100b$35b2o8bo4b2o
+99b$46bobob2o99b$48b2o101b$39b3o109b$38b2o111b$23bobo11b2obo110b$22b2o
+b2o11b2o111b$23bob2o12bo111b$27bo123b$26bo124b$26bo124b$14b2o135b$o9bo
+3b3o134b$4o5bobo2bo136b$o3bo5bo3bo2bo133b$18bo132b$2b3o10bobo133b$16b
+2o133b5$83bo67b$21b2o59bobo66b$24b2o55bo3bo65b$21b3ob2o55bo3bo64b$25bo
+57bo3bo63b$15b2o4bo3bo58bo3bo62b$17bo3bob2o60bobo63b$5b2o6bo2bo69bo64b
+$5b2o5bo12bobo123b$25b2o124b$26bo124b5$13b2o136b$13b2o136b$118b2o31b$
+111b2o5b2o31b$111b2o38b$78b2o71b$76bob2o71b$75bo37b2o27b2o7b$78bo34b2o
+18b2obo5b2o7b$74b2obo29b2o24bob2o14b$74b2o31b2o42b$148b2ob$148b2ob$
+144b2o5b$144b2o5b4$149b2o$149b2o14$102b2o39b2o6b$102b2o40bo6b$143bo7b$
+143b2o6b$123bo27b$107b2o15b3o24b$107b2o18bob2o20b$103b2o20bo4bo20b$
+103b2o22b3o21b$144b2o5b$116b2obo24b2o5b$109b2o5bob2o18b2o11b$109b2o27b
+2o11b3$140b2o9b$133b2o5b2o9b$133b2o!

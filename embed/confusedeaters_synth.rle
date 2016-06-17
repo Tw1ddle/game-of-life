@@ -1,0 +1,23 @@
+#N Confused eaters_synth
+#O Mark D. Niemiec
+#C Glider synthesis of confused eaters.
+#C http://home.interserv.com/~mniemiec/objname.htm#C
+x = 131, y = 104, rule = 23/3
+89bobo39b$80bo8b2o40b$81bo8bo3bo6bo29b$79b3o11bo6bo30b$93b3o4b3o28b2$
+78bo52b$76bobo52b$77b2o52b$83bo47b$81bobo47b$obo73bobo3b2o47b$b2o19bo
+19bo19bo14b2o13bo27b2o9b$bo19bobo17bobo17bobo13bo13bobo27bo9b$22b2o18b
+2o5bo12b2o28b2o12bo14bobo7b$b3o43b2o17b2o28b2o7bo16b2o2b2o3b$bo46b2o
+15bobo27bobo7b3o17bobo3b$2bo62b2o28b2o28bo5b$125bo2bo2b$46b3o60bobo16b
+o2b$48bo3bo31b2o23b2o16bo3b$47bo2b2o33b2o5bo17bo17b3o$51b2o31bo7b2o36b
+o$91bobo18bo18b$96b2o14bobo16b$95b2o15b2o17b$97bo4bo28b$101b2o28b$101b
+obo27b3$111bo19b$110b2o19b$110bobo18b6$41bobo87b$obo38b2o88b$2o40bo88b
+$bo60bo68b$6bobo30bo21bobo67b$2b2o2b2o32bo21b2o67b$bobo3bo18b2o10b3o5b
+2o18b2o63b$3bo21bobo17bobo17bobo63b$25b2o10b3o5b2o18b2o64b$37bo93b$38b
+o92b23$87bobo41b$82bo4b2o42b$83bo4bo3bo6bo31b$81b3o7bo6bo32b$91b3o4b3o
+30b2$80bo50b$78bobo50b$79b2o50b$85bo45b$42bo19bo20bobo6bo13bo13b2o9b$
+41bobo17bobo14bobo3b2o5bobo11bo15bo9b$42b2o18b2o15b2o11b2o11b3o13bobo
+7b$46b2o18b2o11bo16b2o24b2o2b2o3b$45bobo17bobo27bobo27bobo3b$45b2o18b
+2o28b2o28bo5b$86b2o37bo2bo2b$53bo14b2o17b2o9b2o6bo21bo2b$51b2o15bobo
+15bo11bobo4bo21bo3b$52b2o15bo29bo5b3o20b3o$47b2o81bo$45bobobo81b$43bob
+obo45b2o13bobo20b$44b2o48b2o12b2o21b$93bo5b2o8bo21b$99bobo29b$99bo31b$
+106b3o22b$106bo24b$98bo3b2o3bo23b$97b2o3bobo26b$97bobo2bo!

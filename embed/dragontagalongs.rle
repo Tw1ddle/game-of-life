@@ -1,0 +1,13 @@
+#N Dragon tagalongs
+#C Tagalongs for the dragon, a c/6 orthogonal period 6 spaceship.
+#C http://www.conwaylife.com/wiki/Dragon
+x = 70, y = 36, rule = B3/S23
+56b3o4b3o$56b3o4b3o4$55b5o2b5o$59bo2bo$21bo6bo28bo2b2o2bo$20bobo4bobo
+26b2o6b2o$20bobo4bobo25bo10bo$21bo6bo25bo12bo$5b2o$2bobo15b3o4b3o22b3o
+12b3o$2obo3bo12b4o2b4o11b6o6b3o10b3o$2b5o16bo2bo13bo6bo7bo10bo$9b2o9b
+3ob2ob3o9bo8bo6b3o6b3o$9b2o9b2o6b2o10bo2b2o2bo10bo4bo$11bo7b2o8b2o25bo
+8bo$10bo2bo22b3o10b3o3bo2bo4bo2bo$14bo3bo12bo3bo3bo8bo3bobo2bo6bo2bo$
+11bobo2bo2bo10bo2bo2bo14bo8b2o$16bo2bo10bo2bo4b2o8b2o4bo2bobo2bobo2bo$
+60b2o$19b3o6b3o24b3o6b3o$19bo10bo25bo8bo$21bo6bo27bo8bo$19b3o6b3o23bo
+3bo4bo3bo$54bo3bo4bo3bo$22bob2obo25bo2bo2bo2bo2bo2bo$23bo2bo$19bob2ob
+2ob2obo$19b3o6b3o2$19bobo6bobo$19bobo6bobo$17b3ob3o2b3ob3o!

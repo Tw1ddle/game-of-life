@@ -1,0 +1,21 @@
+#N Cuphook_synth
+#O Mark D. Niemiec
+#C Glider synthesis of cuphook.
+#C http://home.interserv.com/~mniemiec/objname.htm#C
+x = 120, y = 77, rule = 23/3
+31b2o18b2o18b2o18b2o18b2o7b$32bo19bo19bo19bo19bo7b$11b2o19bobo17bobo
+17bob2o16bob2o16bob2o4b$12b2o19b2o18b2o18bo2bo16bo2bo16bo2bo3b$11bo3b
+2o40bobo15b2o18b2o19bo3b$15bobo39b2o57bob2o$15bo42bo55bobob2o$114b2o4b
+$59b2o59b$58b2o30b2o28b$60bo28bobo28b$91bo13bo14b$93b3o8b2o14b$93bo10b
+obo13b$94bo25b9$2bo117b$obo93bo23b$b2o91bobo23b$95b2o23b2$98bobo19b$
+98b2o20b$31b2o18b2o18b2o18b2o6bo11b2o7b$32bo19bo19bo19bo19bo7b$2bo3bo
+25bob2o16bob2o4bo11bob2o16bob2o7bo8bob2o4b$3b2obobo24bo2bo16bo2bo3bobo
+10bo2bob2o13bo2bob2o3bobo7bo2bo3b$2b2o2b2o26b2o18b2o4b2o14bobobo15bobo
+bo2b2o11bo3b$76bo2bo16bo2bo16bob2o$74bobo17bobo17bobob2o$55b3o16b2o18b
+2o18b2o4b$21bo33bo43b3o18b$20b2o34bo42bo20b$20bobo29b3o45bo19b$54bo43b
+o21b$53bo44b2o20b$97bobo20b14$50bo3bo65b$51b2obobo63b$50b2o2b2o64b$71b
+2o18b2o11bo6b2o7b$72bo19bo10bo8bo7b$54bobo15bob2o16bob2o7b3o6bob2o4b$
+54b2o17bo2bo10bo5bo2bo16bo2bo3b$55bo18bobo11b2o4bobo19bo3b$75bo11b2o6b
+o20bob2o$51b2o61bobob2o$50bobo47b3o11b2o4b$52bo34b2o11bo19b$86bobo6b3o
+3bo18b$88bo6bo24b$96bo23b$92bo27b$87b2o3b2o26b$86bobo2bobo2b3o21b$88bo
+7bo23b$97bo!

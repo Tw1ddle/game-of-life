@@ -1,0 +1,14 @@
+#N Two eaters_synth
+#O Mark D. Niemiec
+#C Glider synthesis of two eaters.
+#C http://home.interserv.com/~mniemiec/objname.htm#E
+x = 155, y = 28, rule = 23/3
+39bobo113b$40b2o113b$40bo114b2$obo152b$b2o2bo41bo4bo79bobo20b$bo3bobo
+38bo4bo81b2o20b$5b2o4bo34b3o2b3o79bo21b$9b2o15b2o38b2o38b2o18b2o18b2o
+7b$10b2o15bo39bo39bo19bo19bo7b$13b2o12bobo14b2o21bobo16b2o19bobo17bobo
+17bobo5b$7bo5bobo12b2o14bobo9bo11b2o17b2o19b2o18b2o18b2o5b$5bobo5bo17b
+2o11bo9bobo14b2o13bo3b2o59b2o2b$6b2o23bobo21b2o14bobo16bobo45bo12bobob
+$9b2o22bo39bo16bo46b2o14bob$10b2o21b2o38b2o62bobo13b2o$9bo4b2o31b3o2b
+3o100b$13bobo3bo29bo4bo100b$15bo2b2o28bo4bo75b2o24b$18bobo107bobo24b$
+130bo24b$60bo94b$59b2o72b2o20b$59bobo72b2o6b2o11b$133bo7b2o12b$137b3o
+3bo11b$139bo15b$138bo!

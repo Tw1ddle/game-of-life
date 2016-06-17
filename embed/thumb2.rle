@@ -1,0 +1,7 @@
+#N Thumb 2
+#O David Eppstein
+#C A thumb sparker found in June 2000.
+#C www.conwaylife.com/wiki/index.php?title=Thumb
+x = 11, y = 11, rule = 23/3
+5bo5b$b2o3bo4b$bo5bo3b$2b3obob2ob$7b2obo$6o4bo$o4b5ob$3bo7b$2bob4o3b$
+2bobo2bo3b$3bo!

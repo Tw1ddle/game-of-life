@@ -1,0 +1,13 @@
+#N Jam_synth
+#O Mark D. Niemiec
+#C Glider synthesis of jam.
+#C http://home.interserv.com/~mniemiec/objname.htm#J
+x = 149, y = 22, rule = 23/3
+133bo15b$4bo85bobo38b2o16b$4bobo17b2o18b2o18b2o18b2o5b2o11b2o18b2o6b2o
+10b2o3b$3ob2o17bo2bo16bo2bo16bo2bo16bo2bo4bo11bo2bo16bo2bo16bo2bo2b$2b
+o20bobo17bobo8bobo6bobo2bo14bobo17bobo2bo14bobo9bo7bobo2bo$bo22bo19bo
+9b2o8bo3bo15bo19bo3bo15bo9b2o8bo3bo$55bo12bo24b2o13bo25bobo11bo$65bo
+26b2o11bo39bo3b$52b2o12b2o26bo11b2o38b2ob$51b2o96b$48bo4bo74bo20b$46b
+2o40b3o35b2o21b$47b2o39bo38b2o20b$85bo3bo59b$51b3o29b2o46b3o15b$51bo
+32b2o45bo17b$52bo34b3o42bo16b$87bo61b$88bo60b$50b3o77b3o16b$50bo79bo
+18b$51bo79bo!

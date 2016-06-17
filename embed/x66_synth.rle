@@ -1,0 +1,12 @@
+#N x66_synth.rle
+#O Chris Cain
+#C 13-glider synthesis of x66 and 9-glider synthesis of x66-half on HWSS
+#C Syntheses found 8 March 2015, based on initial apgsearch soup:
+#C http://conwaylife.com/forums/viewtopic.php?f=2&t=1452&p=17576#p17570
+#C www.conwaylife.com/wiki/X66
+x = 27, y = 79, rule = B3/S23
+17bo$18bo$16b3o2$10bo$8bobo$9b2o4bobo$16b2o$16bo$19bo$10bo8bobo4bo$8bo
+bo8b2o3b2o$9b2o14b2o5$9b2o$8bobo$10bo$25b2o$19b2o3b2o$19bobo4bo$3o16bo
+$2bo13bo$bo3b3o8b2o$7bo7bobo$6bo3$16b3o$18bo$17bo18$17bo$18bo$16b3o4$
+15bobo$16b2o$6bobo7bo$7b2o10bo$7bo11bobo4bo$19b2o3b2o$25b2o3$11bo$12b
+2o$11b2o5$5b3o$7bo$6bo17b2o$24bobo$19b2o3bo$19bobo$19bo!

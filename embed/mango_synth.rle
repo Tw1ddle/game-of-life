@@ -1,0 +1,31 @@
+#N Mango_synth
+#O Mark D. Niemiec
+#C Glider synthesis of mangos.
+#C http://home.interserv.com/~mniemiec/3gliders.htm
+x = 157, y = 106, rule = 23/3
+137bo19b$113b2o21bo16b2o2b$112bo2bo17b2ob3o13bo2bob$93bo19bo2bo15bobo
+18bo2bo$89bob2o21b2o18bo19b2ob$87bobo2b2o63b$47bo40b2o67b$48b2o84b3o
+20b$47b2o85bo22b$100b2o33bo21b$100bobo54b$13bobo84bo56b$14b2o141b$14bo
+142b$134bo22b$13b3o119b2o20b$15bo118b2o21b$14bo76bo4bo60b$92bob2o61b$
+90b3o2b2o35b2o23b$100bo30b2o24b$33b2o38b2o24bobo11b2o13bo4bo19b2o2b$
+32bo2bo36bo2bo23bobo10bo2bo13b2o21bo2bob$33bo2bo36bo2bo23bo12bo2bo11b
+2o23bo2bo$34b2o38b2o38b2o38b2ob$62bo94b$63bo93b$61b3o93b2$62bo94b$62b
+2o93b$61bobo93b2$97b2o58b$96b2o59b$92bobo3bo58b$93b2o62b$93bo44bo18b$b
+2o135bobo16b$obo53bo81b2o17b$2bo54bo78bo20b$33b2o20b3o15b2o38b2o19bobo
+16b2o2b$19b2o11bo2bo15b3o6bo11bo2bo20bo15bo2bo19b2o15bo2bob$18b2o13bo
+2bo16bo5bo13bo2bo18bobo15bo2bo15bo9bo10bo2bo$15bo4bo13b2o16bo6b3o12b2o
+3bo16b2o16b2o16b2o7b2o11b2ob$16b2o61bo51bobo7bobo13b$15b2o62bo77b3$13b
+2o142b$12b2o143b$14bo142b6$49bobo46bo30bo27b$50b2o46bobo29b2o25b$50bo
+4bo42b2o29b2o26b$9bo44bo41bo60b$10bo22b2o19b3o16b2o19bobo16b2o38b2o2b$
+8b3o21bo2bo25bo10bo2bo19b2o15bo2bo16b2o7bo10bo2bob$14b2o17bo2bo22b2o
+12bo2bo15bo20bo2bo14bobo5b2o12bo2bo$13b2o19b2o24b2o12b2o16b2o8bo11b2o
+17bo6b2o12b2ob$5b2o8bo75bobo7b2o54b$6b2o2b3o46bo41bobo35bo17b$5bo6bo
+45b2o78b2o17b$11bo46bobo77bobo16b6$101bo55b$101bobo53b$101b2o54b$47bo
+109b$45bobo109b$46b2o109b$53bobo101b$33b2o18b2o18b2o24bobo11b2o38b2o2b
+$32bo2bo13bo4bo17bo2bo15bo7b2o11bo2bo36bo2bob$33bo2bo13b2o21bo2bo12bob
+o8bo12bo2bo36bo2bo$14bo19b2o13b2o23b2o14b2o3bo18b2o38b2ob$13bo38b2o39b
+2o62b$9b2o2b3o36bobo39b2o61b$9bobo40bo104b$b3o5bo147b$3bo119b2o32b$2bo
+11bo109b2o3b2o26b$13b2o108bo4bobo26b$13bobo114bo2b2o22b$132b2o23b$134b
+o22b$141b2o14b$141bobo13b$141bo15b$48bo108b$46bobo4bo14bo88b$47b2o2b2o
+14bobo87b$52b2o14b2o3b2o82b$72bo2bo81b$51bo3b2o16bo2bo80b$51b2ob2o18b
+2o81b$50bobo3bo!

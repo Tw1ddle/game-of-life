@@ -1,0 +1,15 @@
+#N p67 glider loop
+#O Mike Playle
+#C A period-67 oscillator based on a stable reflector
+#C Discovered on 25 Apr 2013
+x = 89, y = 89, rule = B3/S23
+39b2o$39bobo$41bo4b2o$37b4ob2o2bo2bo$37bo2bo3bobob2o$40bobobobo$41b2ob
+obo$45bo2$31b2o$32bo8bo$32bobo5b2o$33b2o$47bo$48bo$46b3o4$43b2o$43bo$
+44b3o$46bo$31bo$31b2o$30bobo5$63bo$64b2o13bo$63b2o12b3o$76bo$76b2o3$
+84b2o$85bo$3b2o80bob2o$4bo9b2o61bo5b3o2bo$2bo10bobo61b2o3bo3b2o$2b5o8b
+o5b2o59b2obo$7bo13bo46b2o15bo$4b3o12bobo45bobo12b3o$3bo15b2o46bo13bo$
+3bob2o59b2o5bo8b5o$b2o3bo3b2o61bobo10bo$o2b3o5bo61b2o9bo$2obo80b2o$3bo
+$3b2o3$11b2o$12bo$9b3o12b2o$9bo13b2o$25bo5$56bobo$56b2o$57bo$42bo$42b
+3o$45bo$44b2o4$40b3o$40bo$41bo$54b2o$47b2o5bobo$47bo8bo$56b2o2$43bo$
+42bobob2o$42bobobobo$39b2obobo3bo2bo$39bo2bo2b2ob4o$41b2o4bo$47bobo$
+48b2o!

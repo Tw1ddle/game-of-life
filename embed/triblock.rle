@@ -1,0 +1,5 @@
+#N Tri-block
+#C A relatively common pseudo still life.
+#C www.conwaylife.com/wiki/index.php?title=Bi-block
+x = 8, y = 2, rule = 23/3
+2ob2ob2o$2ob2ob2o!

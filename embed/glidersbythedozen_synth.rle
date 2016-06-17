@@ -1,0 +1,9 @@
+#N Gliders by the dozen_synth
+#O Mark D. Niemiec
+#C Glider synthesis of gliders by the dozen.
+#C http://home.interserv.com/~mniemiec/metheus.htm
+x = 110, y = 15, rule = 23/3
+46bo63b$44bobo63b$8bo36b2o63b$6bobo39bo61b$7b2o17b3o19bobo15b3o37b3ob$
+25bo3bo18b2o15bo3bo13b2o20bo3bo$9bo15b5o35b5o13bobobo17b5o$8bo77b2o22b
+$8b3o14b5o35b5o35b5o$25bo3bo15b2o18bo3bo18bo16bo3bo$26b3o15bobo19b3o
+19b2o16b3ob$bo44bo40bobo20b$b2o45b2o60b$obo45bobo59b$48bo!

@@ -1,0 +1,5 @@
+#N Long long barge
+#C A 10-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Long_long_barge
+x = 6, y = 6, rule = B3/S23
+bo4b$obo3b$bobo2b$2bobob$3bobo$4bo!

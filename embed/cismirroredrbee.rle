@@ -1,0 +1,5 @@
+#N Cis-mirrored R-bee
+#C A 14-cell still life made up of two buns facing each other.
+#C http://www.conwaylife.com/wiki/index.php?title=Cis-mirrored_R-bee
+x = 7, y = 4, rule = B3/S23
+b2ob2ob$obobobo$obobobo$bo3bo!

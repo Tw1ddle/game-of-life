@@ -1,0 +1,9 @@
+#N 86P5H1V1
+#O Jason Summers
+#C The second c/5 diagonal spaceship to be discovered
+#C http://www.conwaylife.com/wiki/index.php?title=86P5H1V1
+x = 23, y = 23, rule = b3/s23
+9b3o11b$8bo14b$7bo15b$11b2o10b$8b2obo11b$14b3o6b$11bo2b2o2b2o3b$2bo8b
+2obo3b2o3b$bo2bo6bo2b2o7b$o3bo18b$o11bo2bo7b$o2b2ob3o3bo3b2ob2o2b$3bo
+3bo2b2o2bo2bo5b$17b2o2bob$5b4o3bo5bo3bo$5b2obobo10bob$5bo5bo6b2o3b$11b
+3o9b$6b2o5b2obo6b$6b2o3bo4bo6b$11bo11b$13bobo7b$14bo!

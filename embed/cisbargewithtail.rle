@@ -1,0 +1,5 @@
+#N Cis-barge with tail
+#C A 10-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Cis-barge_with_tail
+x = 6, y = 5, rule = B3/S23
+3bo2b$2bobob$bobobo$bo2bob$2o!

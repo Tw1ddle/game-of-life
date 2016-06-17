@@ -1,0 +1,5 @@
+#N c/3 ladder
+#C A naturally-occurring c/3 ladder in the Life without death rule.
+#C www.conwaylife.com/wiki/index.php?title=Life_without_death
+x = 5, y = 8, rule = b3/s012345678
+o4b$3o2b$b3ob$ob3o$ob2ob$b2o2b$3o2b$o!

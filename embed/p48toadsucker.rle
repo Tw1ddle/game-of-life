@@ -1,0 +1,17 @@
+#N P48 toad sucker
+#O Bill Gosper
+#C A period 48 toad sucker
+#C http://www.conwaylife.com/wiki/index.php?title=P48_toad_hassler
+x = 37, y = 54, rule = b3/s23
+3b2o9b2o2b2o9b2o6b$4bo9bo4bo9bo7b$3bo11bo2bo11bo6b$3b2o9b2o2b2o9b2o6b$
+4bo4bo4bo4bo4bo4bo7b$b3ob9ob4ob9ob3o4b$o2bo3bobobo3bo2bo3bobobo3bo2bo
+3b$2o30b2o3b$6b2o3b2o8b2o3b2o9b2$4b2ob2ob2ob2o4b2ob2ob2ob2o7b$3bo5bo5b
+o2bo5bo5bo6b$3b2obo5bob2o2b2obo5bob2o6b2$9bo14bo12b2$16b2o19b$10bo4bo
+2bo4bo13b$10bo5b2o5bo13b$9bobo10bobo12b$10bo12bo13b$10bo12bo13b$27b2o
+8b$4b3o19bobo8b$4b3o19b2o9b$4b3o11bo14b3ob$b3o13bo2bo12b3ob$b3o13bo2bo
+12b3ob$b3o15bo10b3o4b$9b2o19b3o4b$8bobo19b3o4b$8b2o27b$13bo12bo10b$13b
+o12bo10b$12bobo10bobo9b$13bo5b2o5bo10b$13bo4bo2bo4bo10b$19b2o16b2$12bo
+14bo9b2$6b2obo5bob2o2b2obo5bob2o3b$6bo5bo5bo2bo5bo5bo3b$7b2ob2ob2ob2o
+4b2ob2ob2ob2o4b2$9b2o3b2o8b2o3b2o6b$3b2o30b2o$3bo2bo3bobobo3bo2bo3bobo
+bo3bo2bo$4b3ob9ob4ob9ob3ob$7bo4bo4bo4bo4bo4bo4b$6b2o9b2o2b2o9b2o3b$6bo
+11bo2bo11bo3b$7bo9bo4bo9bo4b$6b2o9b2o2b2o9b2o!

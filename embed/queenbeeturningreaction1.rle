@@ -1,0 +1,7 @@
+#N Queen bee turning reaction 1
+#O David Bell
+#C A reaction in which two gliders collide with a queen bee, causing i
+#C t to rotate by 90 degrees.
+#C www.conwaylife.com/wiki/index.php?title=Queen_bee
+x = 10, y = 11, rule = b3/s23
+bo8b$2b2o6b$b2o7b2$o9b$obo7b$bobo6b$bo2bo5b$bobo4b2o$obo4b2ob$o8bo!

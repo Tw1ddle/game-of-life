@@ -1,0 +1,12 @@
+#N beehive and table_synth
+#C Glider syntheses of beehive and table
+#C http://www.conwaylife.com/wiki/index.php?title=Beehive_and_table
+x = 106, y = 49, rule = b3/s23
+80bo25b$42bo35bobo25b$42bobo34b2o25b$42b2o40bo21b$84bobo19b$41bo20b2o
+20b2o16b2o2b$39bobo19bo2bo36bo2bob$40b2o20b2o38b2o2b$77bo28b$62b4o12b
+2o22b4o$62bo2bo11b2o6b2o15bo2bo$44b3o38bobo18b$44bo40bo20b$45bo60b$83b
+2o21b$82bobo21b$36b2o46bo21b$37b2o67b$36bo69b13$4bo101b$4bobo99b$4b2o
+100b$2bo103b$obo19b2o18b2o18b2o18b2o18b2o2b$b2o18bo2bo16bo2bo16bo2bo
+16bo2bo16bo2bob$22b2o18b2o18b2o18b2o18b2o2b2$47bo14b2o18b2o18b4o$45b2o
+15bobo17bobo6bo10bo2bo$46b2o15bo19bo7bobo12b$41b2o48b2o13b$39bobobo44b
+2o16b$37bobobo45b2o17b$38b2o49bo16b$80b3o23b$82bo23b$81bo!

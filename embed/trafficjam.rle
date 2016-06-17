@@ -1,0 +1,5 @@
+#N Traffic jam
+#C In this reaction, two traffic lights interact in such a way as to reappear after 25 generations with an extra 6 spaces between them.
+#C www.conwaylife.com/wiki/index.php?title=Traffic_jam
+x = 16, y = 8, rule = B3/S23
+2b3o11b$11b3o2b$o5bo9b$o5bo2bo5bo$o5bo2bo5bo$9bo5bo$2b3o11b$11b3o!

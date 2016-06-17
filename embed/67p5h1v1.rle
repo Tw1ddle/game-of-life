@@ -1,0 +1,8 @@
+#N 67P5H1V1
+#O Nicolay Beluchenko
+#C The smallest known c/5 diagonal spaceship. Has period 5. Found in July 2006.
+#C www.conwaylife.com/wiki/index.php?title=67P5H1V1
+x = 22, y = 20, rule = 23/3
+5b3o14b$4bo3b2o12b$3b2o3bo13b$2bo5bo13b$bob2o4b2o11b$2o2bo6bo10b$3b2o
+2bo14b$3b2ob2o14b$4bo17b$5b5o12b$6bo2b3o2b2o6b$9bob2o2bob2o3b$9bo3bobo
+2bo3b$10b5o5bob$9bo2bo2bo5bo$21bo$16b3o3b$16bo5b$15bo6b$16b2o!

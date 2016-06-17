@@ -1,0 +1,20 @@
+#N Double X
+#O Robert Wainwright
+#C A period 46 oscillator based on the twin bees shuttle.
+#C www.conwaylife.com/wiki/index.php?title=Double_X
+x = 131, y = 63, rule = b3/s23
+b2o125b2ob$b2o125b2ob$7b3o111b3o7b$6bo3bo109bo3bo6b$6b2ob2o41b2o23b2o
+41b2ob2o6b$30b2o19b4o21b4o19b2o30b$6b2ob2o17b2ob2o18b2ob2o19b2ob2o18b
+2ob2o17b2ob2o6b$8bo19b4o21b2o21b2o21b4o19bo8b$16b2o11b2o69b2o11b2o16b$
+16bobo93bobo16b$16bo97bo16b$bo7bo111bo7bob$o2bo3bo2bo45bobo13bobo45bo
+2bo3bo2bo$4bobo49b2o15b2o49bobo4b$4bobo50bo15bo50bobo4b$4bobo117bobo4b
+$o2bo3bo2bo109bo2bo3bo2bo$b3o3b3o111b3o3b3ob3$27b3o71b3o27b$27bo75bo
+27b$28bo73bo28b$46bo37bo46b$44b2o39b2o44b$45b2o37b2o45b2$b2o125b2ob$b
+2o125b2ob3$39b2o49b2o39b$39bobo47bobo39b$39bo51bo39b$b2o125b2ob$b2o30b
+obo59bobo30b2ob$7b3o23b2o61b2o23b3o7b$6bo3bo23bo61bo23bo3bo6b$6b2ob2o
+109b2ob2o6b2$6b2ob2o109b2ob2o6b$8bo113bo8b2$50b3o25b3o50b$50bo29bo50b$
+bo7bo41bo27bo41bo7bob$o2bo3bo2bo12bo83bo12bo2bo3bo2bo$4bobo14b2o85b2o
+14bobo4b$4bobo15b2o83b2o15bobo4b$4bobo117bobo4b$o2bo3bo2bo109bo2bo3bo
+2bo$b3o3b3o111b3o3b3ob3$16bo2bo42b2o3b2o42bo2bo16b$20bo19b4o18bobobobo
+18b4o19bo20b$16bo3bo18bo3bo18bo5bo18bo3bo18bo3bo16b$17b4o22bo43bo22b4o
+17b$39bo2bo45bo2bo39b3$b2o125b2ob$b2o125b2o!

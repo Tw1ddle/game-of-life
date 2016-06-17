@@ -1,0 +1,10 @@
+#Life 1.05
+#D Name: Gliders by the dozen
+#D A methuselah with lifespan 184 that emits exactly 12 gliders over the course 
+#D of its evolution.
+#D www.conwaylife.com/wiki/index.php?title=Gliders_by_the_dozen
+#N
+#P -2 -1
+**..*
+*...*
+*..**

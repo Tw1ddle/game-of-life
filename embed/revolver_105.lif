@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Revolver
+#D A period 2 oscillator and flipper.
+#D www.conwaylife.com/wiki/index.php?title=Revolver
+#N
+#P -7 -4
+*............*
+***....*...***
+...*.*.*..*
+..*......*.*
+..*.*......*
+...*..*.*.*
+***...*....***
+*............*

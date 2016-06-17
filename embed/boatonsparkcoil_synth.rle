@@ -1,0 +1,16 @@
+#N Boat on spark coil_synth
+#C Glider syntheses of boat on spark coil
+#C http://www.conwaylife.com/wiki/index.php?title=Boat_on_spark_coil
+x = 73, y = 87, rule = b3/s23
+42bo30b$40bobo30b$41b2o30b2$47bo25b$47bobo23b$47b2o24b3$62b2ob2o6b$62b
+o3bo6b$63b3o7b3$63b3o7b$45bo16bo3bo6b$44bo17b2ob2o6b$44b3o20b2o4b$41b
+2o24bobo3b$40b2o26bo4b$42bo30b5$37b2o34b$36bobo34b$38bo34b10$3b3o67b$
+3bo69b$4bo17b2ob2o15b2ob2o15b2ob2o6b$bo20bo3bo15bo3bo15bo3bo6b$b2o20b
+3o17b3o17b3o4b2ob$obo47bobo16bo2bo$50b2o17bo2bo$23b3o17b3o5bo11b3o4b2o
+b$22bo3bo15bo3bo15bo3bo6b$22b2ob2o15b2ob2o4b2o9b2ob2o6b$5b2o32bo11bobo
+19b$5bobo32bo10bo21b$5bo32b3o22bo9b$62bobo8b$3b2o36b3o18bobo8b$2bobo
+38bo19bo9b$4bo37bo30b16$42b2ob2o15b2ob2o6b$42bo3bo15bo3bo6b$43b3o4b2o
+11b3o7b$49bo2bo20b$49bo2bo20b$43b3o4b2o11b3o7b$35bo6bo3bo8bo6bo3bo6b$
+36b2o4b2ob2o4bo2bo7b2ob2o6b$35b2o13b2o2b3o10b2o4b$50bobo14bobo3b$43bo
+24bo4b$38b2o2bobo2b2o24b$39b2obobob2o25b$38bo4bo4bo24b2$46b2o25b$45bob
+o25b$47bo!

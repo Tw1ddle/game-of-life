@@ -1,0 +1,7 @@
+#N Candelabra
+#O Charles Trawick
+#C A period 3 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Candelabra
+x = 16, y = 6, rule = B3/S23
+4b2o4b2o4b$bo2bo6bo2bob$obobo6bobobo$bo2bob4obo2bob$4bobo2bobo4b$5bo4b
+o!

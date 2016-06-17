@@ -1,0 +1,20 @@
+#N Trans-barge with tail_synth
+#C Glider syntheses of Trans-barge with tail
+#C http://www.conwaylife.com/wiki/index.php?title=Trans-barge_with_tai
+#C l
+x = 106, y = 133, rule = b3/s23
+92bo13b$92bobo11b$92b2o12b$81bo24b$82bo23b$80b3o4b3o16b$87bo12b2o4b$
+88bo12bo4b$101bobo2b$102bobob$88b2o13bobo$88bobo13bob$88bo17b14$74bo
+31b$72bobo31b$73b2o31b3$47bo58b$48bo57b$46b3o57b2$51bobo37bo14b$51b2o
+7b2o28bo9b2o4b$52bo8bo28b3o8bo4b$40b2o19bobo24bo12bobo2b$41b2o19bobo
+22b2o13bobob$40bo3b2o17bobo21bobo13bobo$44bobo17bo39bob$44bo26b2o33b$
+50bo21b2o32b$49b2o20bo34b$49bobo54b2$86b2o18b$87b2o17b$86bo19b14$38bob
+o65b$39b2o65b$39bo4bo61b$43bo16b2o18b2o18b2o4b$43b3o15bo19bo19bo4b$61b
+obo17bobo17bobo2b$62bobo17bobo17bobob$63bo19bo19bobo$88bo15bob$39b2o
+45b2o18b$40b2o2bo38b2o2b2o17b$39bo3bo39bobo20b$43b3o37bo22b21$20b2o18b
+2o18b2o44b$21bo19bo19bo44b$2o19bobo17bobo6bo10bobo42b$b2o19b2o18b2o6bo
+bo9bobo41b$o3b2o44b2o11bo42b$4bobo40b2o57b$4bo41b2o58b$48bo57b$42b2o
+62b$41bobo62b$43bo62b11$77bo28b$76bo29b$76b3o27b2$73bobo30b$74b2o5bo
+24b$74bo6bobo22b$81b2o23b2$42bo32bobo22b2o4b$40b2o34b2o23bo4b$41b2o20b
+o12bo6bo17bobo2b$62bobo17bobo17bobob$40bo3b2o17bobo17bobo17bobo$40b2ob
+2o19bo19bo19bob$39bobo3bo!

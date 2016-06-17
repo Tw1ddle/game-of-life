@@ -1,0 +1,7 @@
+#N Turtle
+#O Dean Hickerson
+#C A period 3 c/3 orthogonal spaceship.
+#C www.conwaylife.com/wiki/index.php?title=Turtle
+x = 12, y = 10, rule = B3/S23
+b3o7bo$b2o2bob2ob2o$3b3o4bob$bo2bobo3bob$o4bo4bob$o4bo4bob$bo2bobo3bob
+$3b3o4bob$b2o2bob2ob2o$b3o7bo!

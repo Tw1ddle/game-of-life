@@ -1,0 +1,16 @@
+#N Glider-producing switch engine_synth
+#O Mark D. Niemiec
+#C Glider synthesis for a glider-producing switch engine.
+#C http://home.interserv.com/~mniemiec/objname.htm#G
+x = 158, y = 87, rule = 23/3
+bo156b$2bo155b$3o155b7$55bo102b$55bobo100b$55b2o101b13$155bo2b$154bobo
+b2$153bo2bob$153b2o3b$153bo4b2$139bo18b$139bo3b2o13b$139bo3b2o13b$140b
+2o13b2ob$140b2ob2o9bo3b$55b3o85bo10b2o2b$55bo98b3ob$56bo98b2ob$28b2o
+123bob3o$29b2o121bo3bob$28bo122bo2bo3b$152b3o3b$53b2o97b2o4b$52b2o104b
+$54bo103b$122b2o34b$122b2o34b3$134bo23b$133bobo22b$134b2o22b2$114b2o
+42b$114b2o42b3$142b2o14b$142b2o14b5$118b2o38b$107b2o7b2o2bo37b$106bobo
+7b6o36b$107bo9bob2o37b$118bo39b$119bo9bo28b$117b3o8bobo27b$116b2o3bo5b
+o2bo27b$113b2ob3o2bo6b2o28b$113b2o3bo2bo13bo22b$113bo2bo2b2o13b3o2bo
+18b$114bo2b2o15b2o3bobo16b$115b4o20bobo16b$137bobob2o15b$136b2o3bo16b$
+134b2o4bo17b2$133bo5bo18b2$134bo4bo18b$116bo19bo2bo18b$115bobo18b3o19b
+$116b2o!

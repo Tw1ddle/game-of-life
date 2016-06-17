@@ -1,0 +1,7 @@
+#N Diamond ring
+#O David Buckingham
+#C A period 3 oscillator found in 1972.
+#C www.conwaylife.com/wiki/index.php?title=Diamond_ring
+x = 13, y = 13, rule = b3/s23
+6bo6b$5bobo5b$4bobobo4b$4bo3bo4b$2b2o2bo2b2o2b$bo4bo4bob$obob2ob2obobo
+$bo4bo4bob$2b2o2bo2b2o2b$4bo3bo4b$4bobobo4b$5bobo5b$6bo!

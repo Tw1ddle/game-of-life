@@ -1,0 +1,6 @@
+#N Multum in parvo
+#O Charles Corderman
+#C A methuselah with lifespan 3933.
+#C www.conwaylife.com/wiki/index.php?title=Multum_in_parvo
+x = 6, y = 4, rule = B3/S23
+3b3o$2bo2bo$bo4b$o!

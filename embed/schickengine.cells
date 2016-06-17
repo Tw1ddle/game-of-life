@@ -1,0 +1,15 @@
+!Name: Schick engine
+!Author: Paul Schick
+!An orthogonal c/2 tagalong found in 1972.
+!www.conwaylife.com/wiki/index.php?title=Schick_engine
+.O..O
+O
+O...O
+OOOO.........OO
+......OOO.....OO
+......OO.OO......OOO
+......OOO.....OO
+OOOO.........OO
+O...O
+O
+.O..O

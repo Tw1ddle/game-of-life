@@ -1,0 +1,7 @@
+#N Tubber
+#O Robert Wainwright
+#C A period 3 oscillator that was found no later than June 1972.
+#C www.conwaylife.com/wiki/index.php?title=Tubber
+x = 13, y = 13, rule = B3/S23
+4bobo6b$4b2obo5b$7b3o3b$4b2o4bo2b$2obo2b2o2bo2b$bobo4bob2ob$o3bo3bo3bo
+$b2obo4bobob$2bo2b2o2bob2o$2bo4b2o4b$3b3o7b$5bob2o4b$6bobo!

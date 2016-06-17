@@ -1,0 +1,17 @@
+#N P56 B-heptomino shuttle_synth
+#O Mark D. Niemiec
+#C A 19-glider synthesis of the P56 B-heptomino shuttle
+x = 111, y = 79, rule = b3/s23
+76bo34b$74b2o35b$75b2o34b$63bobo45b$64b2o45b$64bo46b3$108b2ob$108b2ob$
+73bo37b$73bobo35b$12bo53bo6b2o34b2o$10b2o52bobo40bob2o$11b2o52b2o40bo
+3b$107bo3b$107bo2bo$74b2o32b2ob$2bo71bobo34b$obo23b2o18b2o26bo11b2o23b
+$b2o23b2o18b2o38b2o23b$8b2o101b$8bobo100b$2b2o4bo18b2o18b2o13b2o23b2o
+22b$bobo21bob2o16bob2o14b2o20bob2o22b$3bo21bo19bo16bo22bo25b$25bo19bo
+39bo25b$25bo2bo16bo2bo36bo2bo22b$26b2o18b2o38b2o23b2$10bo100b$9b2o100b
+$9bobo99b$2o109b$b2o108b$o110b7$59bo51b$58bo52b$58b3o50b$46bo64b$47bo
+63b$45b3o63b$68b2o38b2ob$68b2o38b2ob2$53bobo55b$54b2o13b2o20b2o16b2o$
+54bo12bob2o20b2o14bob2o$67bo39bo3b$67bo39bo3b$67bo2bo36bo2bo$68b2o21bo
+16b2ob$90bob2o17b$46b2o38b2o2bo2bo17b$46b2o38b2o5bo17b3$47b2o38b2o14b
+2o6b$45bob2o36bob2o14b2o6b$45bo39bo25b$45bo39bo25b$45bo2bo7bo28bo2bo
+22b$46b2o8b2o14b2o12b2o23b$55bobo13b2o38b$73bo37b3$53b2o56b$52bobo56b$
+54bo56b$75b2o34b$75bobo33b$75bo!

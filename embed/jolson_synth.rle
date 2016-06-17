@@ -1,0 +1,19 @@
+#N Jolson_synth
+#O Mark D. Niemiec
+#C Glider syntheses of Jolson.
+#C http://home.interserv.com/~mniemiec/objname.htm#a
+x = 100, y = 100, rule = 23/3
+64bo35b$64bobob3o22b2o2b2ob$64b2o2bo24b2o2b2ob$69bo30b2$59b2o39b$58bob
+o39b$60bo39b10$7bo92b$5b2o93b$6b2o44bo47b$bobo49b2o45b$2b2o48b2o46b$2b
+o97b$88b2o6b2o2b$44b2o41bo2bo4bo2bob$35b3o5bobo19b3o19bo2bo4bo2bob$45b
+o3bo37bo2bo4bo2bob$49b2o37b2o6b2o2b$48bobo49b2$94bo5b$3b2o2b2o24b2o2b
+2o24b2o2b2o23bo2bob2ob$3b2o2b2o24b2o2b2o24b2o2b2o24b2o2b2ob2$78bo21b$
+78bobo12b4o3b$78b2o4bo7b6o2b$31bo29bo20b2o7b8ob$31bo29bo21b2o5b2o6b2o$
+31bo29bo29b8ob$92b6o2b$4b2o87b4o3b$4bobo93b$4bo69b3o23b$3o71bo25b$2bo
+72bo24b$bo98b19$61bo38b$59bobo38b$60b2o38b$53bo46b$54b2o44b$53b2o45b2$
+76bo23b$75bo12b2o6b2o2b$75b3o9bo2bo4bo2bob$57b2o3bobo22bo2bo4bo2bob$
+58b2o2b2o23bo2bo4bo2bob$57bo5bo24b2o6b2o2b2$72bobo25b$13bo58b2o20bo5b$
+11bobo19b2o28b2o8bo18bo2bob2ob$12b2o19b2o19b3o6b2o28b2o2b2ob$9b2o45bo
+43b$8bobo44bo44b$10bo59bo22b4o3b$69bo22b6o2b$63b2o4b3o19b8ob$62bobo25b
+2o6b2o$64bo26b8ob$92b6o2b$78b3o12b4o3b$78bo21b$79bo20b$73b3o24b$73bo
+26b$74bo25b$67b2o31b$66b2o32b$68bo!

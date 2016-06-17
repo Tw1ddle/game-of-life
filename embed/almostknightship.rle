@@ -1,0 +1,8 @@
+#N Almost knightship
+#O Eugene Langvagen
+#C A pattern that is "almost" a period-6 knightship; only two cells
+#C are incorrect after six generations.
+x = 13, y = 19, rule = b3/s23
+11bob$6b2o2bo2b$6bob2o3b$5bo5b2o$bobo2bo6b$o12b$o3bo2b3ob2o$o3bo4bo3b$
+5bob2o4b$bo3bob2o4b$2ob3o7b$4b2obo5b$2o2b3o6b$2obo9b$3b2o4b2o2b$b3o9b$
+2bo2b3ob2o2b$3b2o2b2o4b$4b3o!

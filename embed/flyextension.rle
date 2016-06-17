@@ -1,0 +1,15 @@
+#N Fly extension
+#O Dean Hickerson and David Bell
+#C Two flies attached to each other at the back of a c/3 spaceship.
+#C www.conwaylife.com/wiki/index.php?title=Fly
+x = 60, y = 28, rule = b3/s23
+2bo57b$bobo56b$bobo22bobo3bo27b$bo23b2obobo2bo26b$11b3o8bo9bo27b$2o9b
+2o2bob2o3bo2b4o31b$bobo9b4o2bobo2b2o4b2o28b$b2o8bo2bo3b3o5b3o31b$2bo7b
+o4bo2b2o2b2o2bo2bo30b$3bo2bo3bo4bo2b3obobo4b2o29b$7bob2o4bo2b4o5bo24b
+2o3bobo$4b2o3b2o4bo2b4o5bo11bo12b3obo2bo$4bobo3bo4bo2b3obobo4b2o7bo10b
+2o4b2obob$3b2o5bo4bo2b2o2b2o2bo2bo7b2o2bob2o3b7ob2o2b$4bobo4bo2bo3b3o
+5b3o12b2o2bobo8bo3b$5bo7b4o2bobo2b2o4b2o5b2obo3bo3bo4b2o5b$11b2o2bob2o
+3bo2b4o8b4o4bo6b2o4bob$11b3o8bo9bo3bo2b2o4bo2b2o4b2obo2b$25b2obobo2bo
+2bob3o4bo2b3o3b2o4b$26bobo3bo3bob3o4bo2b3o3b2o4b$36bo2b2o4bo2b2o4b2obo
+2b$37b4o4bo6b2o4bob$37b2obo3bo3bo4b2o5b$41b2o2bobo8bo3b$37b2o2bob2o3b
+7ob2o2b$38bo10b2o4b2obob$39bo12b3obo2bo$52b2o3bobo!

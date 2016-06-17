@@ -1,0 +1,9 @@
+#N Barge 2 (spaceship)
+#O Hartmut Holzwart
+#C A period 2 c/2 orthogonal extendable spaceship.
+#C www.conwaylife.com/wiki/index.php?title=Barge_2_(spaceship)
+x = 35, y = 15, rule = b3/s23
+14b3ob3o14b$13bo2bobo2bo13b$12bo3bobo3bo12b$7b3obo2bobobobo2bob3o7b$6b
+o2bobo4bobo4bobo2bo6b$5bo3bobobobo3bobobobo3bo5b$5bo23bo5b$7bo19bo7b$
+4bobo21bobo4b$3b2obob3o13b3obob2o3b$2bobobo3bo13bo3bobobo2b$b2obo25bob
+2ob$o3bo5b2o11b2o5bo3bo2$2ob2o25b2ob2o!

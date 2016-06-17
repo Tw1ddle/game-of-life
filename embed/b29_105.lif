@@ -1,0 +1,24 @@
+#Life 1.05
+#D Name: B29
+#D Author: Hartmut Holzwart
+#D A small c/4 diagonal spaceship with an isolated domino spark; discovered in S
+#D eptember 2004
+#D http://www.conwaylife.com/wiki/index.php?title=B29
+#N
+#P -4 -8
+...**
+..**
+....*
+......**
+.....*
+.
+....*..*
+.**.*
+**....*
+..*.*..*
+.......*
+....*..*
+.....*.*
+.....*.*
+......**
+......*

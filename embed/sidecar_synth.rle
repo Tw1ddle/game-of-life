@@ -1,0 +1,9 @@
+#N Sidecar_synth
+#O Mark D. Niemiec
+#C Glider synthesis of sidecar.
+#C http://home.interserv.com/~mniemiec/sship.htm
+x = 65, y = 14, rule = 23/3
+44bo20b$42b2o21b$2bo40b2o20b$bo63b$b3o57b3ob$22b2o11b3o4b2o11b3o3bo2bo
+$bo19bobo11bo2bo2bobo11bo2bo2bo3b$b2o19bo12bo6bo3b2o7bo5bo3b$obo32bo3b
+o6bobo6bo3bobo3b$35bo3bo6bo8bo3bo5b$35bo19bo5b3ob$36bobo4b2o11bobo6b$
+42b2o21b$44bo!

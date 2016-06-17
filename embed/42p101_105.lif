@@ -1,0 +1,20 @@
+#Life 1.05
+#D Name: 42P10.1
+#D Author: David Buckingham
+#D The first period 10 oscillator to be found. Found no later than 1976.
+#D www.conwaylife.com/wiki/index.php?title=42P10.1
+#N
+#P -6 -6
+.....**
+....*..*
+...*..*
+..*.**.***
+..*..*....*.*
+...*...*.*.**
+***......*
+*..*****.*
+...*....*
+....****
+.
+......**
+......**

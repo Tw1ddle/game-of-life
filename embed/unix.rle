@@ -1,0 +1,6 @@
+#N Unix
+#O David Buckingham
+#C A period 6 oscillator that consists of two blocks eating a barge.
+#C http://www.conwaylife.com/wiki/index.php?title=Unix
+x = 8, y = 8, rule = B3/S23
+b2o5b$b2o5b2$bo6b$obo5b$o2bo2b2o$4bob2o$2b2o!

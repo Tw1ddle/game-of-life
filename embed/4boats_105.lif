@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: 4 boats
+#D A period 2 oscillator made up of 4 boats.
+#N
+#P -4 -4
+...*
+..*.*
+.*.**
+*.*..**
+.**..*.*
+...**.*
+...*.*
+....*

@@ -1,0 +1,10 @@
+#N Mazing_synth
+#O Mark D. Niemiec
+#C Glider synthesis of mazing.
+#C http://home.interserv.com/~mniemiec/objname.htm#M
+x = 70, y = 22, rule = 23/3
+6bo63b$7bo34bo27b$5b3o35bo26b$41b3o26b2$25bo39bo4b$24bobo37bobo3b$46bo
+23b$23b2o3bo17bobo14b2o3bob$23bo5bo5bo10b2o15bo5bo$26bobo4bobo8bo21bob
+ob$6bo18b2o7b2o7b2o6b2o7b2o3b2o3b$6b2o9b2o24bobo5bobo4bobo9b$5bobo9bob
+o31bo5bo5bo6b$17bo40bo3b2o6b$10bo59b$9b2o49bobo7b$bo7bobo49bo8b$b2o67b
+$obo40b3o24b$43bo26b$44bo!

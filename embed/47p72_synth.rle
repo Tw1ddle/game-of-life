@@ -1,0 +1,20 @@
+#N 47P72_synth
+#O Mark D. Niemiec
+#C Glider synthesis of 47P72, a period 72 oscillator
+#C www.conwaylife.com/wiki/index.php?title=47P72
+x = 150, y = 90, rule = 23/3
+115bo34b$34bo66bo11b2o35b$35b2o62bobo2bo9b2o34b$34b2o15bobo46b2o2bobo
+43b$42bo8b2o51b2o44b$42bobo7bo11b2o18b2o38b2o19bo4b$42b2o16b4o4b2o10b
+4o4b2o30b4o4b2o10b3ob2o2b2o$60b3ob2o2b2o10b3ob2o2b2o12b2o16b3ob2o2b2o
+10b4o4b2o$65bo19bo16bobo7bo12bo18b2o4b$44b2o56bo8b2o37b$40b2o2bobo47b
+2o15bobo36b$39bobo2bo9b2o39b2o53b$41bo11b2o39bo55b$55bo94b22$4b2o19bo
+18b2o19bo18b2o19bo18b2o19bo4b$4o4b2o10b3ob2o2b2o10b4o4b2o10b3ob2o2b2o
+10b4o4b2o10b3ob2o2b2o10b4o4b2o10b3ob2o2b2o$3ob2o2b2o10b4o4b2o10b3ob2o
+2b2o10b4o4b2o10b3ob2o2b2o10b4o4b2o10b3ob2o2b2o10b4o4b2o$5bo18b2o19bo
+18b2o19bo18b2o19bo18b2o4b4$61b2o38b2o24b2o12b2o7b$20b3o38b2o24b3o11b2o
+24b2o12b2o7b$22bo64bo62b$21bo66bo61b$23b3o58b3o63b$23bo62bo63b$24bo60b
+o64b17$84b2o19bo18b2o19bo4b$80b4o4b2o10b3ob2o2b2o10b4o4b2o10b3ob2o2b2o
+$80b3ob2o2b2o10b4o4b2o10b3ob2o2b2o10b4o4b2o$85bo18b2o19bo18b2o4b2$77bo
+72b$75bobo72b$76b2o9b2o12b2o24b2o12b2o7b$87b2o12b2o24b2o12b2o7b2$138b
+3o9b$137bo12b$137bo2bo9b$138b2o10b6$97b2o51b$96b2o52b$98bo51b$80b2o68b
+$79bobo68b$81bo!

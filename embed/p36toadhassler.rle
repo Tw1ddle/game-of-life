@@ -1,0 +1,8 @@
+#N P36 toad hassler
+#O Robert Wainwright
+#C The first period 36 oscillator to be discovered
+x = 20, y = 26, rule = b3/s23
+2o16b2o$bo16bob$bobo12bobob$2b2o12b2o2b$7bo4bo7b$5b2ob4ob2o5b$7bo4bo7b
+$2b2o12b2o2b$bobo12bobob$bo16bob$2o16b2o$11bo8b$9bo2bo7b$9bo2bo7b$10bo
+9b$2o16b2o$bo16bob$bobo12bobob$2b2o12b2o2b$7bo4bo7b$5b2ob4ob2o5b$7bo4b
+o7b$2b2o12b2o2b$bobo12bobob$bo16bob$2o16b2o!

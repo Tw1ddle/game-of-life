@@ -1,0 +1,11 @@
+#N 134P39.1
+#O Noam Elkies and David Buckingham
+#C The first period 39 oscillator to be found. Discovered on July 24, 
+#C 2000.
+#C www.conwaylife.com/wiki/index.php?title=134P39.1
+x = 25, y = 29, rule = b3/s23
+14b2o9b$14b2o9b2$12b4o9b$11bo4bo4b2o2b$12bob3o5bo2b$9b3ob2o5bo4b$8bo4b
+2o4bob4o$8b3obo6bobo2bo$12bob2o2b2o5b$8b2obo2bo2bo2bobo2b$8b2obobo2bo
+2bo3bob$2b2o8bob3o4bo2bo$2bobo8bo5b2ob3o$3bo10b3o2bo5b$5bobo8b3o2b2o2b
+$b6o12bobo3b$o15b2obobo3b$b6o9b2ob2o4b$5bobo17b$3bo21b$2bobo20b$2b2o
+21b$8b2obo13b$8b2ob3o11b$14bo10b$8b2ob3o11b$6bo2bobo13b$6b2o!

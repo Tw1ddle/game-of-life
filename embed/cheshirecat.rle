@@ -1,0 +1,6 @@
+#N Cheshire cat
+#O C. R. Tompkins
+#C A block predecessor.
+#C http://www.conwaylife.com/wiki/index.php?title=Cheshire_cat
+x = 6, y = 6, rule = B3/S23
+bo2bob$b4ob$o4bo$ob2obo$o4bo$b4o!

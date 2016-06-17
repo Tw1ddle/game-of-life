@@ -1,0 +1,5 @@
+#N Eater on boat
+#C A 12-cell still life consisting of an eater 1 and a boat.
+#C http://www.conwaylife.com/wiki/index.php?title=Eater_on_boat
+x = 5, y = 7, rule = B3/S23
+b2o2b$bobob$3bob$3b2o$b2o2b$obo2b$bo!

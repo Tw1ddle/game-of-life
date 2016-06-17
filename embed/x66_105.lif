@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: x66
+#D Author: Hartmut Holzwart
+#D A period 4 speed c/2 orthogonal spaceship found in July 1992 via a search for
+#D  spaceships containing cells with no more than 6 alive neighbours.
+#D www.conwaylife.com/wiki/index.php?title=X66
+#N
+#P -26 -5
+..*
+**
+*..***..*
+*....***
+.***..**
+.
+.***..**
+*....***
+*..***..*
+**
+..*

@@ -1,0 +1,11 @@
+#N Karel's p15_synth
+#O Mark D. Niemiec
+#C An 18-glider synthesis of Karel's p15
+#C http://www.conwaylife.com/wiki/index.php?title=Karel's_p15
+x = 64, y = 33, rule = b3/s23
+6bo28bobo7bo18b$7b2o26b2o8bobo16b$6b2o28bo8b2o17b$29bobo32b$4bo24b2o
+33b$5bo24bo33b$3b3o58b2$32bo31b$30b2o32b$24bobo4b2o31b$24b2o38b$25bo
+38b$15bobo46b$16b2o46b$16bo39bo4bo2b$56b6o2b$56bo4bo2b$30b2o32b$15bo
+14bobo31b$16b2o12bo8b2o23b$15b2o22bobo14b6o2b$39bo15bo6bob$54bo8bo$35b
+2o5b3o10bo6bob$25b3o7bobo4bo13b6o2b$27bo7bo7bo20b$26bo37b$3o13bo47b$2b
+o13b2o46b$bo8bo4bobo19bo26b$10b2o24b2o26b$9bobo24bobo!

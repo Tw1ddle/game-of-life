@@ -1,0 +1,15 @@
+#N Long long shillelagh_synth
+#O Mark D. Niemiec
+#C Glider synthesis of long long shillelagh.
+#C http://home.interserv.com/~mniemiec/still.htm
+x = 107, y = 56, rule = 23/3
+84bo22b$3bobo39bo36b2o23b$4b2o37b2o38b2o22b$4bo39b2o61b$34bo72b$8bo26b
+2o70b$7bo26b2o71b$7b3o35bo61b$11b3o29bobo35b2o24b$11bo13b2o17b2o19b2o
+13bobo7b3o12b2o$obo9bo13bo39bo15bo3bo3bo15bo$b2o22bo20bo18bo21b2o2bo
+13bob$bo22bo20bo18bo21b2o16bo2b$23bo21b3o15bo19bo19bo3b$23bobo37bobo
+17b2o9b2o7bobob$5bobo16b2o38b2o16bobo9bobo7b2ob$5b2o31b2o54bo12b$6bo
+30bobo67b$39bo67b$51b2o37b3o14b$5b2o44bobo36bo16b$5bobo43bo31bo7bo15b$
+5bo77b2o22b$39b2o41bobo22b$40b2o65b$39bo67b18$85bobo19b$85b2o20b$86bo
+20b$84bo6bo15b$51bo33bo4bo16b$42bo6b2o32b3o4b3o14b$43b2o5b2o53b2o$42b
+2o44b2o16bo$63b2o18b2o2b2o16bob$43bo3b2o15bo19bo4bo14bo2b$43b2o2bobo
+13bo19bo19bo3b$42bobo2bo15bobo17bobo17bobob$64b2o18b2o18b2o!

@@ -1,0 +1,22 @@
+#N Sawtooth 260
+#O David Bell
+#C The smallest sawtooth in terms of its minimum repeating population 
+#C of 260
+#C discovered on March 19, 2010
+#C http://www.conwaylife.com/wiki/index.php?title=Sawtooth_260
+x = 154, y = 100, rule = b3/s23
+46bo107b$45bobo106b2$45bo2bo3bob3o97b$47bo4bo101b$48bob2obobo98b$49b2o
+3bo99b$50bo15b2o86b$66b2o86b7$74b2o78b$57bo16b2o78b$57b3o94b$49bo6bo3b
+o93b$49bo3b3o4bo93b$49bo3b3obob2o93b$53b2o3bo95b2$39bo114b$39bo114b$
+39bo8bo105b$46bobo105b$40b3o2bo3bo104b$41bob5o106b$47bo106b$42b2o110b
+9$23b3o128b$27bo126b$27b2o125b$27bo2bo123b$28bobo123b$28bo125b$bobo23b
+2o125b$o25bobo125b$bo2bo23b2o124b$3bobo19b2o127b$6bo11b3o6bo126b$5b3o
+94bo51b$5bo95bobo17b2o31b$3b2o95bo3bo9b2o5b2o31b$5bo13b3o79bo3bo8b2o
+38b$3bo2bo12b3o80bo3bo47b$3bobo13b2o82bo3bo46b$3bo14bo85bobo9b2o27b2o
+7b$16b2o2bo84bo10b2o18b2obo5b2o7b$17bo3bo88b2o24bob2o14b$17bo2bo89b2o
+42b$18b3o130b2ob$151b2ob$147b2o5b$147b2o5b3$7b2o145b$7b2o143b2o$152b2o
+2$97b2o55b$95bob2o55b$94bo59b$97bo56b$15b2o76b2obo57b$15b2o76b2o59b7$
+105b2o39b2o6b$105b2o40bo6b$146bo7b$146b2o6b$126bo27b$110b2o15b3o24b$
+110b2o18bob2o20b$106b2o20bo4bo20b$106b2o22b3o21b$147b2o5b$119b2obo24b
+2o5b$112b2o5bob2o18b2o11b$112b2o27b2o11b3$143b2o9b$136b2o5b2o9b$136b2o
+!

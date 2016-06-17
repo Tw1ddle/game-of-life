@@ -1,0 +1,16 @@
+#Life 1.05
+#D Name: Ellison p4 HW emulator hybrid
+#D Author: Scot Ellison
+#D A period 4 oscillator that produces a domino spark.
+#D www.conwaylife.com/wiki/Ellison_P4_HW_Emulator_Hybrid
+#N
+#P -10 -4
+...........**
+....*...*.....*.**
+...*.*...........*
+...*.*.........**
+**.*.*.********..***
+**.*............*..*
+...*.............**
+...*.*....**
+....**....**

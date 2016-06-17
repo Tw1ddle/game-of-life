@@ -1,0 +1,10 @@
+#Life 1.05
+#D Name: Teardrop
+#D An induction coil that evolves into two beehives after 20 generations.
+#D http://www.conwaylife.com/wiki/index.php?title=Teardrop
+#N
+#P -6 -5
+.***
+*..*
+*..*
+.**

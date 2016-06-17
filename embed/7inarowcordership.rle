@@ -1,0 +1,21 @@
+#N 7-in-a-row Cordership
+#O Dean Hickerson
+#C A Cordership that uses 7 switch engines. Found no later than 1998.
+#C www.conwaylife.com/wiki/index.php?title=7-in-a-row_Cordership
+x = 114, y = 113, rule = b3/s23
+95bo18b$78b3o8bo5bo18b$77bo3bo6bo7bo17b$78b2o9b4o2b2o17b$80b2ob2o9b3o
+17b$82b2o11bobo16b$96bo7b2o8b$96bo7b2o8b3$88bo25b$87bobo24b$87bobo24b$
+74b3o11bo25b$75bo36b2o$75bo2bo33b2o$75bo2bo35b$76bobo35b$96bo17b$95bob
+o16b$95bobo16b$96bo17b2$75b2o37b$53bobo18b2o38b$52bo19b3o39b$53bo2bo
+57b$55bobo14b2o40b$58bo55b$57b3o54b$57bo56b$39bo15b2o57b$39bo5b3o9bo
+13b3o40b$38bobo3b2o2bo6bo2bo12b3o40b$39bo3bo5bo5bobo13b2o41b$39bo3bo
+11bo14bo21b3o19b$44bo2b2o19b2o2bo21bo19b$45b2o22bo3bo19bo20b$69bo2bo
+41b$70b3o41b5$55b2o57b$55b2o57b$42b2o70b$42b2o70b$41b2obo69b$28bobo13b
+o69b$27bo16b2ob3o64b$28bo2bo12bob2obo64b$30bobo9b2o3b2o14b2o49b$33bo8b
+2o19b2o49b$32b3o4bob3o9b2o59b$32bo6bo13b2o59b$30b2o82b$32bo81b$30bo2bo
+80b$30bobo81b$30bo83b2$54bobo57b$54bo2bo56b2$22b3o30bobo56b$23bo31b3o
+56b$23bo2bo29bobo55b$23bo2bo30b2obo53b$24bobo31b3o53b2$48bo65b$48bobo
+63b$48b2o64b2$23b2o89b3$b3o8b2o100b$o3bo6bo2bo99b$b2o9b2o100b$3b2ob2o
+106b$5b2o107b4$20b2o92b$19bo2bo91b$20b2o92b6$26b2o86b$7b2o15bo3bob2o
+82b$7b2o15bo3bob2o82b$24bo3b2o84b$25b3o86b$25b3o86b4$15b2o15bo81b$15b
+2o15bobo79b$32b2o80b6$23b2o89b$23b2o!

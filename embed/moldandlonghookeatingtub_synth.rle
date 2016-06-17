@@ -1,0 +1,16 @@
+#N Mold and long hook eating tub_synth
+#C A 20-glider synthesis of mold and long hook eating tub
+x = 111, y = 52, rule = b3/s23
+88bo22b$87bo23b$83bo3b3o21b$84b2o7bo17b$83b2o6b2o18b$92b2o17b2$95bo15b
+$42b2o50bo16b$41bobobo48b3o14b$43bobobo63b$45b2o64b$50b2o15bo19bo21b2o
+$10bo38b2o15bobo17bobo17bo3bo$8b2o41bo14b2o18b2o18b4ob$2bo6b2o8bo91b$o
+bo14b2o7b2o18b2o18b2o18b2o18b2o3b$b2o10bo4b2o5bo2bo16bo2bo16bo2bo16bo
+2bo16bo2bo2b$13bobo9bobo2bo14bobo2bo14bobo2bo14bobo2bo7bo6bobo2bo$13b
+2o11bo19bo19bo19bo10b2o7bo4b$17bo9b2obo16b2obo16b2obo16b2obo6bobo7b2ob
+o$16b2o11bo19bo19bo19bo19bob$16bobo92b11$44bobo64b$45b2o5bo36bo21b$45b
+o7bo33bobo21b$51b3o30b2o2b2o21b$85b2o7bo16b$54bo29bo7b2o14bo2b$43b2o9b
+obo12bo19bo3b2o12bobob$44b2o8b2o12bobo17bobo17bo2b$43bo24bo2bo16bo2bo
+17bob$49b2o18bobo17bobo17bob$46bo3bo15bo3bo15bo3bo15bo3bo$46b4o16b4o
+16b4o16b4ob2$46b2o18b2o18b2o18b2o3b$45bo2bo16bo2bo16bo2bo16bo2bo2b$45b
+obo2bo14bobo2bo14bobo2bo14bobo2bo$46bo19bo19bo19bo4b$47b2obo16b2obo16b
+2obo16b2obo$49bo19bo19bo19bo!

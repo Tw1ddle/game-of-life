@@ -1,0 +1,6 @@
+#N Chemist
+#C A period 5 oscillator.
+#C http://www.conwaylife.com/wiki/index.php?title=Chemist
+x = 15, y = 13, rule = B3/S23
+7bo7b$7b3o5b$10bo4b$5b3o2bo2b2o$4bobobobobobo$4bo3bobobo2b$b2obo5bob2o
+b$2bobobo3bo4b$obobobobobo4b$2o2bo2b3o5b$4bo10b$5b3o7b$7bo!

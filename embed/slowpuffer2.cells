@@ -1,0 +1,25 @@
+!Name: Slow puffer 2
+!Author: David Bell
+!A puffer that moves fast but creates relatively little debris.
+!www.conwaylife.com/wiki/index.php?title=Slow_puffer_2
+...O.........OO
+.O...O......OO.OOO
+O............OOOOO
+O....O........OOO
+OOOOO
+
+
+....................O
+.OO..........OO.O..O.O
+OO.OOO......O.O.OOOO.O
+.OOOO...OOO.O
+..OO........O.O.OOOO.O
+.............OO.O..O.O
+.....OO.............O
+...O....O
+..O
+..O.....O
+..OOOOOO......OOO
+.............OOOOO
+............OO.OOO
+.............OO

@@ -1,0 +1,5 @@
+#N Trans-beacon and cap
+#C A period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Trans-beacon_and_cap
+x = 6, y = 8, rule = B3/S23
+4b2o$5bo$2bo3b$2b2o2b2$4o2b$o2bo2b$b2o!

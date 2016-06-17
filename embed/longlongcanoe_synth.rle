@@ -1,0 +1,18 @@
+#N Long long canoe_synth
+#O Mark D. Niemiec
+#C Glider syntheses of long long canoes.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 110, y = 78, rule = 23/3
+72bo16bobo18b$73b2o14b2o19b$72b2o16bo19b$29bobo78b$30b2o53bobo7bo14b$
+30bo54b2o6b2o15b$53b2o31bo7b2o7b2o5b$53bobo47bobo4b$56bo28b3o18bo3b$
+32bobo22bo29bo19bo2b$33b2o23bo27bo21bob$33bo25bo49bo$58b2o48b2o$34b3o
+73b$36bo4b2o67b$35bo4b2o68b$42bo67b2$71b3o36b$73bo36b$72bo37b$94bo15b$
+76b2o15b2o15b$75bobo15bobo14b$77bo32b7$93bo16b$91b2o17b$6bobo83b2o16b$
+7b2o101b$7bo102b$9bo13b2obo16b2obo16b2obo16b2obo3b2o11b2o5b$4b2o2bo14b
+ob2o16bob2o16bob2o16bob2o2b2o12bobo4b$3b2o3b3o80bo14bo3b$5bo101bo2b$2o
+65b2o12bo5b2o19bob$b2o44b2o17bo2bo12bo3bo2bo19bo$o47b2ob3o12bo2bo10b3o
+3bo2bo18b2o$47bo3bo15b2o18b2o21b$52bo57b$86bo23b$86b2o22b$85bobo22b18$
+39bo70b$40bo3bo18b2o18b2o18b2o5b$38b3ob2o18bo2bo16bo2bo17bobo4b$43b2o
+17bo2bo12b2o2bo2bo20bo3b$63b2o14b2o2b2o22bo2b$67b2o9bo8b2o19bob$47b2o
+17bo2bo16bo2bo19bo$48b2ob3o12bo2bo16bo2bo18b2o$47bo3bo15b2o18b2o21b$
+52bo57b$86bo23b$86b2o22b$85bobo!

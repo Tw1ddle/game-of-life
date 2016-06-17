@@ -1,0 +1,9 @@
+#N Dragon
+#O Paul Tooke
+#C An orthogonal period 6 spaceship. The first c/6 spaceship to be constructed.
+#C www.conwaylife.com/wiki/index.php?title=Dragon
+x = 29, y = 18, rule = B3/S23
+12bo16b$12b2o14bo$10bob2o5bobo4b2ob$5bo3bo3b3o2bo4bo5b$2o3bo2bo6bobo5b
+3o2bo$2o3bob2o6bo3bobobo5b$2o3bo10bobo7b2ob$5b2o14bo6bo$7bo12bobo6b$7b
+o12bobo6b$5b2o14bo6bo$2o3bo10bobo7b2ob$2o3bob2o6bo3bobobo5b$2o3bo2bo6b
+obo5b3o2bo$5bo3bo3b3o2bo4bo5b$10bob2o5bobo4b2ob$12b2o14bo$12bo!

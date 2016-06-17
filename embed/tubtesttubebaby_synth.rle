@@ -1,0 +1,14 @@
+#N Tub test tube baby_synth
+#C A 14-glider synthesis of tub test tube baby
+#C http://www.conwaylife.com/wiki/index.php?title=Tub_test_tube_baby
+x = 138, y = 40, rule = b3/s23
+43bo18bo75b$44bo16bo76b$42b3o16b3o74b3$79b2o4b2o22b2o4b2o12b2o4b2ob$
+79bobo2bobo22bobo2bobo12bobo2bobob$81bo2bo26bo2bo16bo2bo3b$22b2o28b2o
+27bo2bo26bo2bo16bo2bo3b$b2o18bo2bo26bo2bo27b2o28b2o18b2o4b$obo19b2o28b
+2o84b$2bo135b$4b2o99bo14bo17b$4bobo96bobo14bobo15b$4bo45b2o2b2o48b2o
+14b2o16b$49bobo2bobo20b2o8b2o18b2o8b2o19b$51bo2bo22b2o8b2o18b2o8b2o19b
+12$76bo32bo28b$74bobo32bobo26b$75b2o32b2o27b$81bo22bo33b$79b2o24b2o31b
+$80b2o22b2o32b$83b2o11bo4b2o13bo12bo6bob$69b2o4b2o6bobo3b2o4bobo2bobo
+6b2o4bobo10bobo4bobo$69bobo2bobo6bo5bobo2bobo5bo6bobo2bobo12bobo2bobob
+$71bo2bo16bo2bo16bo2bo16bo2bo3b$71bo2bo16bo2bo16bo2bo16bo2bo3b$72b2o
+18b2o18b2o18b2o!

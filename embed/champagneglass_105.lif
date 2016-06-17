@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Champagne glass
+#D Author: Dean Hickerson
+#D A period 22 oscillator found in the mid-1990s.
+#D www.conwaylife.com/wiki/index.php?title=Champagne_glass
+#N
+#P -7 -6
+...**.....**
+...*.......*
+**.*.......*.**
+*..**.....**..*
+.**......*..**
+...***....**
+...*....*..*
+....*******
+.
+......***
+......*..*
+........**

@@ -1,0 +1,5 @@
+#N Extra extra long snake
+#C A 10-cell still life that is the extra extra long version of a snake.
+#C http://www.conwaylife.com/wiki/index.php?title=Extra_extra_long_snake
+x = 8, y = 6, rule = B3/S23
+2o6b$obo5b$3bo4b$4bo3b$5bobo$6b2o!

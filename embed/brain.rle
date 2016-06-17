@@ -1,0 +1,8 @@
+#N Brain
+#O David Bell
+#C An orthogonal period 3 c/3 spaceship.
+#C www.conwaylife.com/wiki/index.php?title=Brain
+x = 17, y = 11, rule = B3/S23
+b3o9b3ob$obob2o5b2obobo$obobo7bobobo$bob2ob2ob2ob2obob$5bobobobo5b$3bo
+bobobobobo3b$2b2obobobobob2o2b$2b3o2bobo2b3o2b$2b2o2bo3bo2b2o2b$bo4b2o
+b2o4bob$bo13bo!

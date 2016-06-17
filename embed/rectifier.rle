@@ -1,0 +1,10 @@
+#N Rectifier
+#O Adam P. Goucher
+#C A 180-degree stable reflector with a recovery time of 106 generatio
+#C ns.
+#C www.conwaylife.com/wiki/index.php?title=Rectifier
+x = 41, y = 33, rule = s23/b3
+bobo7bo29b$2b2o6bobo28b$2bo7bobo28b$11bo29b12$20b2o19b$20b2o19b2$2b2o
+37b$bobo37b$bo39b$2o39b$31b2o8b$30bo2bo2b2o3b$30bobo4bo3b$11b2o18bo5bo
+b2o$10bobo21b2obobob$10bo23bo2bo2bo$9b2o20bo4bo2b2o$31b5o5b2$33b2obo4b
+$33bob2o!

@@ -1,0 +1,20 @@
+!Name: 44P7.2
+!Author: David Buckingham
+!A period 7 oscillator that supplies two accessible domino sparks, discovered on June 19, 1977
+!www.conwaylife.com/wiki/index.php?title=44P7.2
+...........O
+..........O.O
+..........O.O
+.........OO.O.OO
+............OO.O
+........O.OO
+...........O
+........OOO
+.....O.O
+...O...O.OO
+.OOO.O.O.OO
+O....OO
+.OOOO
+....O
+...O
+...OO

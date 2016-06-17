@@ -1,0 +1,5 @@
+#N 1-2-3
+#O Dave Buckingham
+#C A period 3 oscillator that was found in August 1972.
+x = 10, y = 9, rule = B3/S23
+2b2o6b$o2bo6b$2obob2o3b$bobo2bo3b$bo4bob2o$2b3obob2o$5bo4b$4bo5b$4b2o!

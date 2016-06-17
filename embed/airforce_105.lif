@@ -1,0 +1,23 @@
+#Life 1.05
+#D Name: Airforce
+#D Author: David Buckingham
+#D A period 7 oscillator in which the rotor consists of two copies of that used 
+#D in the burloaferimeter.
+#D www.conwaylife.com/wiki/index.php?title=Airforce
+#N
+#P -7 -7
+.......*
+......*.*
+.......*
+.
+.....*****
+....*.....*.**
+...*.**...*.**
+...*.*..*.*
+**.*...**.*
+**.*.....*
+....*****
+.
+......*
+.....*.*
+......*

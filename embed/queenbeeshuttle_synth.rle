@@ -1,0 +1,23 @@
+#N Queen bee shuttle_synth
+#O Mark D. Niemiec
+#C Glider synthesis of queen bee shuttle.
+#C http://home.interserv.com/~mniemiec/objname.htm#Q
+x = 157, y = 98, rule = 23/3
+5bo110bo40b$3bobo49b2o38b2o19bobo16b2o18b2o$4b2o49b2o38b2o19b2o17b2o
+18b2o$b2o116b2o36b$obo116bobo35b$2bo116bo37b9$13bo143b$14b2o141b$13b2o
+90bo51b$18bo11bo75bo50b$17bo12bobo71b3o50b$17b3o10b2o32bo79bo12b$62bob
+o42bo34bobo12b$5b2o48b2o4bobo11b2o18b2o10b2o6b2o18b2o4bobo11b2o$5b2o
+48b2o3bo2bo11b2o18b2o9bobo6b2o18b2o3bo2bo11b2o$61bobo77bobo13b$20b3o
+39bobo77bobo12b$20bo43bo79bo12b$21bo87b2o46b$108b2o47b$110bo46b6$53bo
+103b$52bo104b$52b3o102b3$144bo12b$142bobo12b$95b2o18b2o18b2o4bobo11b2o
+$95b2o9bobo6b2o18b2o3bo2bo11b2o$107b2o32bobo13b$107bo34bobo12b$103b3o
+38bo12b$105bo51b$104bo52b$22bo134b$6bo15bobo132b$4bobo15b2o133b$5b2o
+103b2o45b$109b2o46b$111bo45b6$64bo79bo12b$62bobo77bobo12b$5b2o16b2o30b
+2o4bobo11b2o18b2o18b2o18b2o4bobo11b2o$5b2o15b2o31b2o3bo2bo11b2o18b2o9b
+obo6b2o18b2o3bo2bo11b2o$24bo36bobo43b2o32bobo13b$62bobo42bo34bobo12b$
+64bo38b3o38bo12b$105bo51b$104bo52b4$104b2o51b$105b2o50b$44bo59bo52b$
+43bo113b$43b3o111b10$31bobo123b$31b2o68bobo53b$32bo69b2o53b$102bo54b$
+64bo79bo12b$62bobo77bobo12b$5b2o13bo34b2o4bobo11b2o18b2o18b2o18b2o4bob
+o11b2o$5b2o14b2o32b2o3bo2bo11b2o18b2o18b2o18b2o3bo2bo11b2o$20b2o4bo34b
+obo77bobo13b$26bobo33bobo35b2o40bobo12b$26b2o36bo36b2o9bo31bo12b$100bo
+10b2o44b$111bobo!

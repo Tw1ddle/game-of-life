@@ -1,0 +1,7 @@
+#N Pentadecathlon on snacker
+#C A small period 45 oscillator
+#C www.conwaylife.com/wiki/index.php?title=Pentadecathlon_on_snacker
+x = 20, y = 17, rule = b3/s23
+6bo4bo8b$4b2ob4ob2o6b$6bo4bo8b4$2o16b2o$bo16bob$bobo12bobob$2b2o12b2o
+2b$7bo4bo7b$5b2ob4ob2o5b$7bo4bo7b$2b2o12b2o2b$bobo12bobob$bo16bob$2o
+16b2o!

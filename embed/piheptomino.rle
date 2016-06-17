@@ -1,0 +1,5 @@
+#N Pi-heptomino
+#C One of 108 heptominoes.
+#C www.conwaylife.com/wiki/index.php?title=Pi-heptomino
+x = 3, y = 3, rule = B3/S23
+3o$obo$obo!

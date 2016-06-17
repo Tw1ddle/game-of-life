@@ -1,0 +1,5 @@
+#N Boat on quadpole
+#C A period 2 oscillator.
+#C http://www.conwaylife.com/wiki/index.php?title=Boat_on_quadpole
+x = 10, y = 10, rule = B3/S23
+bo8b$obo7b$b2o7b$3b2o5b$3bobo4b2$5bobo2b2$7bobo$8b2o!

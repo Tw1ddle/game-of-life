@@ -1,0 +1,14 @@
+#N Figure eight_synth
+#O Mark D. Niemiec
+#C Glider syntheses of figure eights.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 82, y = 98, rule = 23/3
+57bo24b$56bo25b$56b3o23b4$71b2o9b$71b2obo7b$59bo15bo6b$58b2o12bo9b$58b
+obo12bob2o5b$75b2o5b2$43b2o37b$42bobo37b$44bo37b3$47b3o32b$49bo32b$48b
+o33b12$66bobo13b$66b2o14b$67bo14b6$58bo23b$56bobo23b$57b2o5bo17b$63bo
+18b$63b3o16b2$76b2o4b$76b2obo2b$80bob$77bo4b$78bob2o$80b2o11$40b2o40b$
+41b2o39b$40bo41b$44bo37b$44b2o36b$43bobo36b13$54bo27b$55bo26b$53b3o26b
+$63bo18b$4bo3bo53bo19b$2bobob2o54b3o17b$3b2o2b2o17bo29bo19b2o4b$16bo8b
+obo22b2o3bobo18b2obo2b$3o12bo10bo22bobo4bo9bo13bob$2bo12b3o13bo19bo9bo
+4bobo8bo4b$bo28bobo27bobo3b2o10bob2o$9b2o2b2o16bo29bo18b2o$10b2obobo
+37b3o26b$9bo3bo41bo26b$54bo27b$62b3o17b$62bo19b$63bo!

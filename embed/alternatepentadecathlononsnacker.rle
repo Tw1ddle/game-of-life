@@ -1,0 +1,7 @@
+#N Alternate_PD_on_snacker
+#C An alternate form of pentadecathlon on snacker, with a smaller boun
+#C ding box of 20x18
+x = 20, y = 15, rule = b3/s23
+7bo4bo7b$5b2ob4ob2o5b$7bo4bo7b2$2o16b2o$bo16bob$bobo12bobob$2b2o12b2o
+2b$7bo4bo7b$5b2ob4ob2o5b$7bo4bo7b$2b2o12b2o2b$bobo12bobob$bo16bob$2o
+16b2o!

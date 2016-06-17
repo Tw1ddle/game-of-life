@@ -1,0 +1,16 @@
+#N Octagon 2_synth
+#O Mark D. Niemiec
+#C Glider synthesis of octagon 2.
+#C http://home.interserv.com/~mniemiec/objname.htm#O
+x = 153, y = 79, rule = 23/3
+105bobo45b$106b2o45b$106bo46b2$111b2o40b$110b2o41b$112bo40b4$95bo57b$
+96b2o55b$95b2o51bo2bob$147bob2obo$148bo2bob$100bo47bo2bob$99b2o46bob2o
+bo$99bobo46bo2bob10$138b2o13b$137b2o14b$139bo13b13$123bo29b$122b2o29b$
+122bobo28b7$59bo93b$57b2o94b$58b2o93b2$61bobo89b$61b2o63bo26b$62bo61bo
+bo26b$11bo113b2o4bo21b$10bo119bo6bo15b$10b3o117b3o3bo16b$136b3o14b$13b
+o13b2o18b2o19bo2bo53bo22bo2bob$12b2o13b2obo16b2obo16bob2obo16bo33bobo
+21bob2obo$12bobo16bo19bo16bo2bo15bobo19b2o13b2o3b2o17bo2bob$28bo19bo
+19bo2bo16b2o19b2o18b2o3b2o12bo2bob$29bob2o16bob2o14bob2obo12b2o47bobo
+10bob2obo$b2o28b2o18b2o15bo2bo12bobo47bo13bo2bob$obo83bo34b3o29b$2bo
+120bo3b3o23b$122bo6bo23b$128bo4b2o18b$5b3o29bo95bobo17b$7bo29b2o94bo
+19b$6bo29bobo114b2$40b2o111b$41b2o110b$40bo!

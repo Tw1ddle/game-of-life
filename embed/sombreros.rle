@@ -1,0 +1,7 @@
+#N Sombreros
+#O David Buckingham
+#C A period 6 oscillator found in 1972. If the two halves are moved closer by 3 cells, a period 4 oscillator results.
+#C www.conwaylife.com/wiki/index.php?title=Sombreros
+x = 18, y = 11, rule = B3/S23
+3b2o8b2o3b$3bobo6bobo3b$5bo6bo5b$3bob2o4b2obo3b$b3o10b3ob$o3bobo4bobo
+3bo$b3o10b3ob$3bob2o4b2obo3b$5bo6bo5b$3bobo6bobo3b$3b2o8b2o!

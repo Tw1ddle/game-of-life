@@ -1,0 +1,6 @@
+#N 46P4H1V0
+#C The smallest known c/4 orthogonal spaceship. Has period 4.
+#C www.conwaylife.com/wiki/index.php?title=46P4H1V0
+x = 19, y = 10, rule = b3/s23
+3bo11bo3b$3bo11bo3b$2bobo9bobo2b2$bo3bo7bo3bob$bob6ob6obob$o7bobo7bo$o
+7bobo7bo$o17bo$bob2ob2o3b2ob2obo!

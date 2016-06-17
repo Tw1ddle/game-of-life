@@ -1,0 +1,12 @@
+#N P144 Hans Leo hassler
+#O Noam Elkies
+#C A period 144 version of the Hans Leo hassler oscillator.
+#C www.conwaylife.com/wiki/P156_Hans_Leo_hassler
+x = 33, y = 40, rule = b3/s23
+15b2o4b2o4b2o4b$14bo2bobo4bobo2bo3b$14b3o10b3o3b$17b2o6b2o6b$16bo2b6o
+2bo5b$16b2o8b2o5b2$13bo19b$8b4o3bo11bo5b$11bo3bo4bo4bo3b4o$15bo3b3o3bo
+3bo3b$12bo12bo7b$13b2o13bo4b$26b2o5b2$30b2ob$30bo2b$28bobo2b$17b3o8b2o
+3b$17bobo13b$17b3o13b$3b2o28b$2bobo28b$2bo30b$b2o30b2$5b2o26b$4bo13b2o
+13b$7bo12bo12b$3bo3bo3b3o3bo15b$4o3bo4bo4bo3bo11b$5bo11bo3b4o8b$19bo
+13b2$5b2o8b2o16b$5bo2b6o2bo16b$6b2o6b2o17b$3b3o10b3o14b$3bo2bobo4bobo
+2bo14b$4b2o4b2o4b2o!

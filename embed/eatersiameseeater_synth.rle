@@ -1,0 +1,19 @@
+#N Eater siamese eater_synth
+#C Glider syntheses of eater siamese eater
+#C http://www.conwaylife.com/wiki/index.php?title=Eater_siamese_eater
+x = 107, y = 102, rule = b3/s23
+40bo47bo18b$39bo47bo19b$39b3o45b3o17b$60b2o18b2o18b2o3b2o$39bo19bobo
+17bobo4bo14bo4bo$39b2o19bo19bo4b2o14bob3ob$38bobo44bobo14b2o3b3$80b3o
+24b$80bo26b$81bo25b16$84bobo20b$84b2o21b$81bo3bo21b$8bo73bo24b$7bo72b
+3o24b$7b3o97b$25b2o18b2o18b2o18b2o13b2o3b2o$6bo19bo19bo19bo19bo14bo4bo
+$5b2o16b3o17b3o14b2ob3o14b2ob3o15bob3ob$5bobo15bo15b2o2bo15bobobo11b3o
+bobobo18b2o3b$40b2o18bo16bo2bo26b$39bo36bo30b18$45bo61b$40bobo2bobo59b
+$41b2o2b2o41bo18b$41bo46bobo16b$45bo42b2o17b$46bo19bo19bo20b$44b3o18bo
+bo17bobo19b$20b2o18b2o18b2o3bobo12b2o3bobo12b2o3b2o$21bo19bo19bo4bo14b
+o4bo14bo4bo$2o19bobo17bobo4bobo10bob3o15bob3o15bob3ob$b2o19b2o18b2o4b
+2o12b2o18b2o18b2o3b$o3b2o43bo57b$4bobo100b$4bo102b2$49b3o55b$49bo57b$
+50bo56b17$90bo16b$89bo17b$46bobo17bo19bo2b3o15b$2o18b2o18b2o4b2o12b2o
+3bobo12b2o3bobo12b2o3b2o$bo19bo19bo5bo13bo4bo14bo4bo2b3o9bo4bo$bobo17b
+ob2o16bob2o16bob3o15bob3o3bo11bob3ob$2b2o18bobo17bobo2b2o13b2o18b2o6bo
+11b2o3b$7bo15bo19bo2b2o59b$7bobo38bo58b$4b2ob2o33b2o63b$3bobo35bobo63b
+$5bo37bo!

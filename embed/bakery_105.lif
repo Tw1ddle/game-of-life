@@ -1,0 +1,16 @@
+#Life 1.05
+#D Name: Bakery
+#D A common formation of two bi-loaves.
+#D www.conwaylife.com/wiki/index.php?title=Bakery
+#N
+#P -5 -5
+....**
+...*..*
+...*.*
+.**.*...*
+*..*...*.*
+*.*...*..*
+.*...*.**
+....*.*
+...*..*
+....**

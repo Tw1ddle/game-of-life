@@ -1,0 +1,7 @@
+#N Caterer on 36P22
+#C A small non-trivial period 66 oscillator
+#C www.conwaylife.com/wiki/index.php?title=Caterer_on_36P22
+x = 33, y = 13, rule = b3/s23
+27bo5b$25bo3b4o$25bo3bo3b$2o23bo7b$bo26bo4b$bobo13b3o6b2o5b$2b2o3bo8bo
+3bo12b$6bob2o6bo4bo11b$5bo4bo6b2obo12b$6bo3bo8bo3b2o8b$7b3o13bobo7b$
+25bo7b$25b2o!

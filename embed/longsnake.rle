@@ -1,0 +1,5 @@
+#N Long snake
+#C A 7-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Long_snake
+x = 5, y = 3, rule = B3/S23
+2o3b$obobo$3b2o!

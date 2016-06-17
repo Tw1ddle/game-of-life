@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Edge-repair spaceship 2
+#D Author: Stephen Silver
+#D An edge-repair spaceship that uses a T-tetromino reaction to destroy beehives
+#D .
+#D www.conwaylife.com/wiki/index.php?title=Edge-repair_spaceship_2
+#N
+#P -15 -5
+*.*
+*
+*.*..*..*
+...*
+....*.**.*
+.....***.*
+....*....*..*.**
+.*...**...*.****
+.**..*..*.**....*....*
+.*........**....*..***
+......**...**...*..**

@@ -1,0 +1,13 @@
+!Name: Boat on quadpole
+!A period 2 oscillator.
+!http://www.conwaylife.com/wiki/index.php?title=Boat_on_quadpole
+.O
+O.O
+.OO
+...OO
+...O.O
+
+.....O.O
+
+.......O.O
+........OO

@@ -1,0 +1,5 @@
+#N 20P2
+#C The 34th most common oscillator.
+#C www.conwaylife.com/wiki/index.php?title=20P2
+x = 8, y = 11, rule = b3/s23
+b2o5b$bo6b$4bo3b$3b2o3b2$b4o3b$o4bo2b$2o2bobob$4bo2bo$5bobo$6bo!

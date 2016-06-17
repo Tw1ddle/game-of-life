@@ -1,0 +1,5 @@
+#N Beehive and dock
+#C A 16-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Beehive_and_dock
+x = 6, y = 7, rule = B3/S23
+3b2ob$2bo2bo$3b2ob2$b4ob$o4bo$2o2b2o!

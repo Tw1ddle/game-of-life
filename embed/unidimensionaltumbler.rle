@@ -1,0 +1,7 @@
+#N Unidimensional tumbler
+#O Paul Callahan
+#C A 1-cell-thick pattern that creates a tumbler. Found in October 199
+#C 8.
+#C www.conwaylife.com/wiki/index.php?title=Unidimensional_pattern
+x = 36, y = 1, rule = b3/s23
+5o2b3o3b3ob7ob5o2b4o!

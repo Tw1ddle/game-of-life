@@ -1,0 +1,9 @@
+#N Queen bee loop
+#O Bill Gosper
+#C Period 30 oscillator originally found in 1970, similar to the queen
+#C  bee shuttle.
+#C www.conwaylife.com/wiki/index.php?title=Queen_bee_shuttle
+x = 24, y = 24, rule = b3/s23
+12bo11b$12bobo9b$13bobo8b$13bo2bo7b$13bobo8b$12bobo9b$12bo11b$3bo20b$
+2bobo19b$bo3bo18b$2b3o19b$2o3b2o17b$17b2o3b2o$19b3o2b$18bo3bob$19bobo
+2b$20bo3b$11bo12b$9bobo12b$8bobo13b$7bo2bo13b$8bobo13b$9bobo12b$11bo!

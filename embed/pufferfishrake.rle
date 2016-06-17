@@ -1,0 +1,19 @@
+#N Pufferfish rake
+#O Nico Brown
+#C A c/2 rake with no parts of periods 2 or 4, found in December 2014.
+#C http://www.conwaylife.com/wiki/Pufferfish
+x = 58, y = 79, rule = B3/S23
+34b3o5b3o$34bo2bo3bo2bo$33bo3bo3bo3bo$33bobo7bobo$33bobob2ob2obobo$34b
+o2b2ob2o2bo$35b2obobob2o$36b2o3b2o$32b2o2bo5bo2b2o$32b2o11b2o$37bo3bo$
+36bo5bo$36b2o3b2o3$30b3o$30bo2bo12b3o$29bo2b2o2b2o3b2o3bo2bo$28b3o5b2o
+3b2o2bo3bo$28bo20b2o$28b2o18b2o$29bo$44bo$44bo$33bo$8bo7bo14b3o$7b3o5b
+3o14b2o$6b2o2bo3bo2b2o29b3o$8b3o3b3o31b3o$48b3o$9bo5bo32b3o$7bo2bo3bo
+2bo$5bo5bobo5bo$5b2o4bobo4b2o$11bobo13b2o$8bobo3bobo10b2o$9bo5bo4$20bo
+21bo7bo$4bo4b2o3b2o3b3o19b3o5b3o$3b3o3b2o3b2o3bob2o17b2o2bo3bo2b2o$3bo
+b2o12b3o20b3o3b3o$4b3o12b2o$19bo23bo5bo$3o20b2o16bo2bo3bo2bo$39bo5bobo
+5bo$b2o2b2o32b2o4bobo4b2o$45bobo$b2obo37bobo3bobo$4b2obob2o32bo5bo$3b
+2o2b2ob2o$2bo5bo2bo$bobo5bobob3o8b2o$bo2bo5b6o5b5o12bo$15bo21b3o3b2o3b
+2o4bo$3b2o31b2o2bo2b2o3b2o3b3o$36bo3bo11b2o2bo$36bo15bo3bo$37bo13bo2b
+2o$40bobo8bo$40bo10bo$50b3o$39b2o9b2o$40bobo7bo2bo$41bo9bo3b2o$56b2o$
+22b2o29bo2b2o$23bob2o28b2o$23bo3bo$24bo3bo$24b2o3bo3bo$26bobo2bo3bo$
+31bo3bo$32bob2o3$43b2o!

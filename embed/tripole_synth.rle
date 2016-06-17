@@ -1,0 +1,8 @@
+#N Tripole_synth
+#O Mark D. Niemiec
+#C Glider synthesis of tripole.
+#C http://home.interserv.com/~mniemiec/p2osc.htm
+x = 34, y = 24, rule = 23/3
+13bobo18b$13b2o19b$14bo19b4$12bo21b$13b2o7bo11b$12b2o2bo3b2o12b$16bobo
+2b2o5b2o4b$16b2o10bobo3b2$30bobob$33bo$32b2o3$3o8b2o21b$2bo8bobo20b$bo
+9bo22b2$4bo29b$4b2o28b$3bobo!

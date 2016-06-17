@@ -1,0 +1,15 @@
+#N sawtooth181.rle
+#O Chris Cain
+#C Sawtooth with minimum population 181, found on 28 April 2015,
+#C   based on a suggestion by Dongook Lee and shotgun by Brett Berger.
+#C Population 181 at T=0, 6960, 849120, 102750480, ..., 58*(121^n-1),
+#C  ..., giving an expansion factor of 121.
+#C http://www.conwaylife.com/wiki/Sawtooth_181
+x = 78, y = 87, rule = B3/S23
+5bob2o$5b2obo3$69b2obo$69bob2o$6bo$2o3bo3b3o$2o2bo6bo$5bo5bo$6b2ob2o$
+69b2o5b2o$69b2o5b2o2$72b2o$27b2o43b2o$27b2o2$24b2o5b2o$24b2o5b2o16b2o$
+18bo30b2o9bobo$16bobo41bobobo$17b2o26b2o5b2o11b2o$45b2o5b2o10bo20$50bo
+$39bo8b3o$39bobo5bo$39b2o6b2o3$45bo$44bobo$39bo3bo3bo$37b2o5b3o$38b2o
+2b2o3b2o11$17b4o24b2o$15b2o4b2o22b2o$15b2o5bo$17b2obobo$22bo9bo4bo$18b
+o3bo7b2ob4ob2o$18bo4bo8bo4bo$20b3o3bo$20b2o4bo$26b2o$28bo$28b3o3$31bo$
+30bob5o$29b2o5bo$29b2o3bo2bo$37bo$31b2obo2bo$34bo2bo$35b2o$35b2o!

@@ -1,0 +1,5 @@
+#N Ship
+#C A common 6-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Ship
+x = 3, y = 3, rule = B3/S23
+2ob$obo$b2o!

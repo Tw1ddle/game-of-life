@@ -1,0 +1,15 @@
+#N 6-engine Cordership
+#O Dean Hickerson
+#C A c/12 period 96 diagonal Cordership discovered in July 1998 that uses 6 switch engines.
+#C www.conwaylife.com/wiki/index.php?title=6-engine_Cordership
+x = 66, y = 61, rule = 23/3
+32bo33b$30b2ob2o31b$32bo33b$47b2o17b$46bo2bo16b$33b2o11b2ob2o15b$32bo
+2bo11bo18b$31b2o3bo10b3o16b$31bo4bo19b2o8b$31bo3bo20b2o8b$32bo2bo30b$
+33bo32b3$21bo7bo14b2o20b$20b3o5bobo12bob2o19b$19b2ob4o2bo2bo10b2o20b2o
+$20b3o2bo18bo19b2o$21bo2b2o2bo37b$25b2obobo35b$29bo10b2o24b$40b2o24b2$
+3o49b3o11b$4bo28bo22bo9b$4b2o13bo12bobo21b2o8b$4bo2bo11bo12bobo21bo2bo
+6b$5bobo11bo13bo23bobo6b$5bo51bo8b$4b2o15bo34b2o8b$3bobo14bobo32bobo8b
+$5b2o14bo35b2o7b$2b2o50b2o10b$4bo37bo13bo9b$42bo23b$42bo8bo14b$49bobo
+14b$43b3o2bo3bo13b$44bob5o15b$50bo15b$45b2o19b3$7b2o57b$7b2o57b3$24b3o
+39b$28bo37b$28b2o36b$28bo2bo34b$15b2o12bobo34b$15b2o12bo36b$28b2o36b$
+27bobo36b$29b2o35b$26b2o38b$28bo37b2$23b2o41b$23b2o!

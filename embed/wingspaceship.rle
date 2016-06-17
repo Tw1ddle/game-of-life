@@ -1,0 +1,9 @@
+#N Wing (spaceship)
+#O Hartmut holzwart
+#C The first extensible c/4 spaceship. Diagonal and period 4. Found in 1993.
+#C www.conwaylife.com/wiki/index.php?title=Wing_(spaceship)
+x = 23, y = 23, rule = b3/s23
+4b2o17b$4bobo16b$4bo18b$7bo15b$3o4bobo13b$o6bo2bo3b3o6b$bo7b2o2bo2b2o
+5b$3b3o7bo5b2o2b$13b2o4b3ob$4bobo3b3o9bo$5b2o2bo2bo6bo2bo$9bo9bo3b$9b
+2o8bobob$6b3o14b$5bo2bo14b$5bo17b$5b2o16b$6bo16b2$7b2ob3o10b$7b2o14b$
+8bo3bo10b$9b2o!

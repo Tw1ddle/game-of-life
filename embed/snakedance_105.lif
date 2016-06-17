@@ -1,0 +1,16 @@
+#Life 1.05
+#D Name: Snake dance
+#D Author: Robert Wainwright
+#D A period 3 oscillator found in May 1972.
+#D www.conwaylife.com/wiki/index.php?title=Snake_dance
+#N
+#P -4 -4
+...**.*
+...*.**
+**.*
+.*..*.***
+*..*.*..*
+***.*..*
+.....*.**
+..**.*
+..*.**

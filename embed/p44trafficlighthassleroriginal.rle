@@ -1,0 +1,22 @@
+#N P44 traffic light hassler (original)
+#O Matthias Merzenich
+#C A period 44 oscillator found in April 2010.
+#C http://www.conwaylife.com/wiki/P44_traffic_light_hassler
+x = 36, y = 86, rule = b3/s23
+23b2o11b$22bobo11b$21bo14b$22b5o9b$19b3o2bo2bo8b$18bo4bo2b2o8b$17bobo
+3bo12b$15bo2bob2o14b$15b2obob2o4b2o8b$18bo8bo8b$18b3o3b2obob2o5b$21b7o
+2bo5b$18b4o3bo2bo7b$17bo9b2obo5b$17bo2b2o3bo3b2o5b$16b2obob2obob2o8b$
+15bo3b3o2bobo9b$15b2obo7bo9b$16bob3o3bobobo7b$16bo5b2obob2o7b$12bob2ob
+ob2o4bo10b$12b2obobo3bo2b2o10b$17bobob2o13b$16b3ob2ob3o10b$13bo7bo4bo
+9b$12bob3o7b2o2bo7b$13bo3bo4b2obob2o7b$14bo5bob2obobo8b$15bob4obo2bobo
+8b$16b4o2bobobo3b2o4b$17b3o5bo4bobo3b$17bo3b3o8bo3b$17bo4bobo2b2o2b2ob
+2o$19b2obo9bob2o$21b3o3b4obo3b$24b3o3bobo3b$31bo4b2$6b2o28b$5bobo28b$
+5b2o29b$24b3o9b$9b3o12bobo9b$9bobo12b3o9b$9b3o24b$29b2o5b$28bobo5b$28b
+2o6b2$4bo31b$3bobo3b3o24b$3bob4o3b3o21b$2obo9bob2o19b$2ob2o2b2o2bobo4b
+o17b$3bo8b3o3bo17b$3bobo4bo5b3o17b$4b2o3bobobo2b4o16b$8bobo2bob4obo15b
+$8bobob2obo5bo14b$7b2obob2o4bo3bo13b$7bo2b2o7b3obo12b$9bo4bo7bo13b$10b
+3ob2ob3o16b$13b2obobo17b$10b2o2bo3bobob2o12b$10bo4b2obob2obo12b$7b2obo
+b2o5bo16b$7bobobo3b3obo16b$9bo7bob2o15b$9bobo2b3o3bo15b$8b2obob2obob2o
+16b$5b2o3bo3b2o2bo17b$5bob2o9bo17b$7bo2bo3b4o18b$5bo2b7o21b$5b2obob2o
+3b3o18b$8bo8bo18b$8b2o4b2obob2o15b$14b2obo2bo15b$12bo3bobo17b$8b2o2bo
+4bo18b$8bo2bo2b3o19b$9b5o22b$14bo21b$11bobo22b$11b2o!

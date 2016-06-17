@@ -1,0 +1,17 @@
+#Life 1.05
+#D Name: Montana
+#D Author: Scot Ellison
+#D A period 5 oscillator found in June 2011.
+#D http://www.conwaylife.com/wiki/Montana
+#N
+#P -6 -5
+.........**
+........*..*
+.*.......*.*
+*...*.**.**
+.*.*.*.**
+...*..*..**
+......*.*..*
+....*.*.*.*
+...*.*...*
+...**

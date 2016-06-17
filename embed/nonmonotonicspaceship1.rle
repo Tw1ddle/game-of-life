@@ -1,0 +1,8 @@
+#N Non-monotonic spaceship 1
+#O Hartmut Holzwart
+#C An orthogonal period 4 c/4 spaceship that was the first non-monotonic spaceship to be discovered.
+#C www.conwaylife.com/wiki/index.php?title=Non-monotonic_spaceship_1
+x = 21, y = 11, rule = B3/S23
+10b2obo7b$6b3obob3o6b$2bobo10bo3b2o$2o4b2o5bo3b4o$2bob2o2bo4b3obo3b$8b
+o4bo7b$2bob2o2bo4b3obo3b$2o4b2o5bo3b4o$2bobo10bo3b2o$6b3obob3o6b$10b2o
+bo!

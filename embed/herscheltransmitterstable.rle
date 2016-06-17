@@ -1,0 +1,7 @@
+#N Herschel transmitter (stable)
+#O Paul Callahan
+#C A stable Herschel transmitter that was found in May 1997.
+#C www.conwaylife.com/wiki/index.php?title=Herschel_transmitter
+x = 19, y = 18, rule = 23/3
+6b2o11b$5bobo11b$3b3o13b$2bo3bo6bo5b$2b2ob2o6b3o3b$13bobo3b$15bo3b3$2o
+bo15b$ob2o15b4$15b2o2b$15bo3b$16b3o$18bo!

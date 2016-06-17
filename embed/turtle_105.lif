@@ -1,0 +1,17 @@
+#Life 1.05
+#D Name: Turtle
+#D Author: Dean Hickerson
+#D A period 3 c/3 orthogonal spaceship.
+#D www.conwaylife.com/wiki/index.php?title=Turtle
+#N
+#P -10 -5
+.***.......*
+.**..*.**.**
+...***....*
+.*..*.*...*
+*....*....*
+*....*....*
+.*..*.*...*
+...***....*
+.**..*.**.**
+.***.......*

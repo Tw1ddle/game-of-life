@@ -1,0 +1,15 @@
+!Name: Snacker 2
+!Author: Dean Hickerson
+!Two pentadecathlons with stabilizers which force it into a lower period (from 15 to 9).
+!www.conwaylife.com/wiki/index.php?title=Snacker_2
+OO
+.O
+.O.O.........................OO
+..OO.......................O..O
+.......O....O..............OOO
+.....OO.OOOO.OO...O....O......OOO
+.......O....O...OO.OOOO.OO...O...O
+..OO..............O....O......OOO
+.O.O.......................OOO
+.O.........................O..O
+OO...........................OO

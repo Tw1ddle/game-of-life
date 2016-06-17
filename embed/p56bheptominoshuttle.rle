@@ -1,0 +1,7 @@
+#N P56 B-heptomino shuttle
+#O David Buckingham
+#C The smallest known period 56 oscillator
+x = 26, y = 21, rule = b3/s23
+23b2ob$23b2ob3$6b2o16b2o$6b2o14bob2o$22bo3b$22bo3b$22bo2bo$6bo16b2ob$
+5bob2o17b$b2o2bo2bo17b$b2o5bo17b3$2b2o14b2o6b$ob2o14b2o6b$o25b$o25b$o
+2bo22b$b2o!

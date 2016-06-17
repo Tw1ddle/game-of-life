@@ -1,0 +1,16 @@
+#N Paperclip_synth
+#O Mark D. Niemiec
+#C Glider synthesis of paperclips.
+#C http://home.interserv.com/~mniemiec/3gliders.htm
+x = 149, y = 57, rule = 23/3
+45bo103b$44bo104b$44b3o41bo60b$87bo61b$87b3o59b$131bo17b$84bobo42bo3bo
+15b$7bo17b2o13bobo22b2o18b2o18b2o21bo16b2o2b$8b2o14bo2bo12b2o22bo2bo
+17bo18bo2bo17bo2bo4bo10bo2bob$7b2o15b2obo13bo22b2obo36b2obo16b2o2b5o
+11b2obob$25bob2o36bob2o36bob2o15bobo18bob2o$12bo12bo2bo11b2o23bo2bo18b
+o17bo2bo36bo2bo$8b2o2bobo11b2o12bobo23b2o18b2o18b2o38b2ob$9b2ob2o26bo
+45bobo60b$8bo117b2o21b$83b3o41b2o20b$85bo40bo22b$84bo64b6$35bo113b$33b
+obo113b$34b2o113b8$65bo83b$64bobo82b$65b2o82b$47bo101b$25b2o21b2ob2o
+12b2o82b$6b2o2b3o11bo2bo19b2o2bobo10bo2bo81b$5bo2bobo13b2obo23bo12b2ob
+o81b$3obo2bo3bo13bob2o12bo23bob2o80b$2bo2b2o18bo2bo10bobo2b2o19bo2bo
+80b$bo24b2o12b2ob2o21b2o81b$45bo103b$66b2o81b$66bobo80b$67bo81b8$57b2o
+90b$57bobo89b$57bo!

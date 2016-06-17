@@ -1,0 +1,10 @@
+#N Eater 2_synth
+#O Mark D. Niemiec
+#C A 9-glider synthesis of a variation of eater 2
+#C http://www.conwaylife.com/wiki/index.php?title=Eater_2
+x = 67, y = 34, rule = b3/s23
+o66b$b2o21bo19bo19bo2b$2o21bobo17bobo17bobob$23bobo17bobo17bobob$22b2o
+b2o15b2ob2o4bo10b2ob2o$50bo16b$10bo39b3o9b2ob2o$4b2o2b2o30b3o3b3o12bob
+ob2o$5b2o2b2o31bo3bo15bo4b$4bo36bo5bo19b12$44bo19bo2b$43bobo17bobob$
+35bo7bobo17bobob$36bo5b2ob2o15b2ob2o$34b3o30b$42b2ob2o13b4ob2o$37b2o2b
+obob2o13bo2bob2o$38b2o2bo24b$37bo29b2$38b2o27b$38bobo26b$38bo!

@@ -1,0 +1,62 @@
+#N 30P5H2V0 Synthesis
+#O Martin Grant, Tanner Jacobi, Chris Cain
+#C 65-glider synthesis 30P5H2V0
+#C Original syntheses found 1 January 2015 by Martin Grant:
+#C http://www.conwaylife.com/forums/viewtopic.php?f=2&t=1556#p15474
+#C Based on a predecessor found by Tanner Jacobi:
+#C http://www.conwaylife.com/forums/viewtopic.php?f=2&t=1556#p15453
+#C Improvements by Chris Cain:
+#C http://www.conwaylife.com/forums/viewtopic.php?f=2&t=1556#p15555
+#C www.conwaylife.com/wiki/30P5H2V0
+x = 1386, y = 338, rule = B3/S23
+583bo$584b2o$583b2o$784bo$782b2o$783b2o2$580bo$581bo$574bobo2b3o199bob
+o$575b2o204b2o7bobo$575bo206bo7b2o$791bo$784bo$783bo$783b3o3$782bo$
+781bo$770bo6bo3b3o$769bo5b2o$769b3o4b2o4$764bo$764bobo$764b2o2$762bo$
+760b2o$761b2o12$753bo$751b2o$752b2o5$615bo$613bobo$614b2o8$721bo$720bo
+$720b3o$663bobo$664b2o$660bo3bo62bo$661bo64bo$659b3o64b3o10$655bo$656b
+o$654b3o4$705bo$704bo$704b3o4$699bo$698bo$698b3o3$664bobo30bo$665b2o
+28b2o$665bo30b2o3$675b3o$677bo$676bo$689bo$688b2o$688bobo5$674b2o$673b
+obo$675bo2$686b2o$686bobo$686bo3$690b2o$662b2o26bobo3bo$661bobo26bo4b
+2o$663bo31bobo2$653b3o3bo$655bo3b2o$654bo3bobo33b2o$694bobo$694bo$658b
+2o$657bobo$659bo2$654b2o$655b2o$654bo50b2o$649b3o52b2o$651bo54bo$650bo
+4b2o$654bobo$656bo2$636b3o67bo$638bo66b2o$637bo67bobo$632b3o$634bo$
+633bo84b2o$717b2o$719bo3$639b2o$638bobo$640bo2$726b3o$726bo$727bo5$
+747bo$746b2o$627b2o117bobo$626bobo$617b2o9bo$618b2o$617bo$731b2o$731bo
+bo$731bo5$616b2o141b2o$615bobo140b2o4b3o$617bo142bo3bo$621b3o141bo$
+623bo$622bo$767b2o$767bobo$767bo3$768b2o$767b2o$769bo2$771bo$770b2o4bo
+$770bobo2b2o$775bobo$607b3o$609bo$608bo2$577b3o$579bo204b3o$578bo205bo
+$586bo198bo$586b2o$580b3o2bobo$582bo$581bo2$780bo$597bo181b2o$597b2o
+180bobo5b2o$596bobo187b2o$788bo4$786b3o$786bo$787bo76$1296bo$1296bobo
+54bobo$1292bo3b2o56b2o$1293b2o59bo$1292b2o82bobo$1289bo86b2o$1287bobo
+87bo$2b3o1283b2o81bo$4bo1346bo18bobo$3bo77b2ob2o75b2ob2o75b2ob2o75b2ob
+2o75b2ob2o75b2ob2o75b2ob2o75b2ob2o75b2ob2o75b2ob2o75b2ob2o75b2ob2o75b
+2ob2o75b2ob2o75b2ob2o75b2ob2o59bo3bobo9b2ob2o4b2o4bo$6bo74bo3bo75bo3bo
+75bo3bo75bo3bo75bo3bo75bo3bo75bo3bo75bo3bo75bo3bo75bo3bo75bo3bo75bo3bo
+75bo3bo75bo3bo75bo3bo75bo3bo60b2o2b2o9bo3bo8b2o9bo$5b2o75b3o77b3o73bo
+3b3o77b3o77b3o77b3o77b3o77b3o77b3o77b3o77b3o77b3o77b3o77b3o77b3o77b3o
+60b2o15b3o10b2o6b2o$5bobo163bo64bobo1145b2o$90bo80bobo63b2o732bo$82b3o
+5bobo69b3o6b2o69b3o77b3o77b3o77b3o77b3o77b3o77b3o77b3o6bobo68b3o77b3o
+6bobo68b3o77b3o77b3o77b3o77b3o12bo$81bo3bo4b2o69bo3bo3bo66b2o3bo3bo75b
+o3bo75bo3bo75bo3bo75bo3bo75bo3bo75bo3bo75bo3bo5b2o68bo3bo3bo71bo3bo5b
+2o68bo3bo75bo3bo75bo3bo75bo3bo75bo3bo11bobo$81b2ob2o74bobobobobobo64bo
+bo2bobobobo74b2obobo74b2obobo74b2obobo74b2obobo74b2obo76b2obo76b2ob2o
+6bo68b2ob2o3bobo69b2ob2o2b2o71b2ob2o75b2ob2o75b2ob2o75b2ob2o75b2ob2o
+11b2o$b2o74bo82bobob2o3b2o66bo2bobob2o76bob2o76bob2o76bob2o76bob2o76bo
+bobo75bobobo75bobo5bo71bobo4b2o71bobo3b2o72bobo77bobo8bobo66bobo77bobo
+77bobo$obo75b2o7bobo71bo79bo79bo79bo77b3o77b3o9b2o59bo6b3o3b2o72b3o3b
+2o72b3o2bo4b2o4b2o62b3o2bo7b2o65b3o2bo74b3o2bo74b3o2bo8b2o64b3o2bo74b
+3o2bo74b3o2bo$2bo74b2o8b2o231bo79bo78bo78bo11b2o61bo4bo79bo79bo5b2o3bo
+bo3bobo60bo5bobo5bobo63bo5bobo3bo67bo5bobob2o68bo5bobob2o4bo63bo5bobob
+2o68bo5bobob2o68bo5bobob2o$88bo150bo79bo80b2o85bo70b2o6b3o3bo58b3o4b2o
+77bobo77bobo15bo61bobo5b2o5bo64bobo5b2o2b2o66bobo5b2obobo66bobo5b2obob
+o66bobo5b2obo5bo62bobo5b2obo68bobo5b2obo$3b2o76b3o72b2o80bobo78b2o70b
+2o93bo81bo149bo79bo79bo79bo10bobo66bo10bo68bo9bobo2b2o63bo9bo5bobo61bo
+9bo4b2o63bo9bo4b2o$3bobo68b3o4bo5b2o68b2o80bobo148bobo2b2o86b2ob3o78bo
+160bobo397b2o2b2o74bobo3b2o72bobo2b2o73bobo2b2o$3bo72bo5bo3b2o68bo3b3o
+77bo83bo67bob2o86bobo150bo92b2o404bo74b2o6b2o70b2o57b2o19b2o$75bo12bo
+71bo76bo77b2o6b2o62b2o7bo87bo150b2o86b3o3bo323bo163bobo127bobo$161bo
+75b2o75bobo6bobo60bobo245bobo88bo326b2o163bo131bo$155b3o78bobo77bo71bo
+19bo77b3o235bo4b2o321bobo$157bo162b3o84b2o77bo150b3o88bobo625b2o$156bo
+165bo84bobo77bo149bo92bo318b3o299b2o4b2o$321bo316bo412bo298bobo3bo$
+1050bo301bo3$1373b2o$1367b2o3b2o7bo$1368b2o4bo5b2o$1367bo12bobo4$1380b
+2o$1380bobo$1380bo!

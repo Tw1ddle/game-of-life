@@ -1,0 +1,6 @@
+#N Muttering moat 1
+#O Dean Hickerson
+#C A period 2 oscillator and a muttering moat, found in May 1993.
+#C www.conwaylife.com/wiki/index.php?title=Muttering_moat_1
+x = 7, y = 7, rule = B3/S23
+2o5b$o3b2ob$bobobob2$b2o2bob$3bo2bo$5b2o!

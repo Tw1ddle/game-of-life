@@ -1,0 +1,6 @@
+#N 34P13
+#C The smallest known period 13 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=34P13
+x = 16, y = 16, rule = 23/3
+4b3o9b2$6bo9b$6b2o8b$5bo10b$8bo7b$4bo3bo7b$9b2o5b$2o2b3o5bo3b$2o5bo4b
+2obo$7bo3bo3bo$7bobo5bo3$6b2o8b$6b2o!

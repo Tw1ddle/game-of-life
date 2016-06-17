@@ -1,0 +1,5 @@
+#N 2x2 block oscillators
+#C Some block oscillators in the 2x2 rule.
+#C www.conwaylife.com/wiki/index.php?title=2x2
+x = 26, y = 2, rule = 125/36
+8o6b12o$8o6b12o!

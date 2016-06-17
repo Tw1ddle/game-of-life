@@ -1,0 +1,8 @@
+#N 38P11.1
+#O David Buckingham
+#C The first period 11 oscillator to be found, and still the smallest 
+#C known. Found on June 20, 1977.
+#C www.conwaylife.com/wiki/index.php?title=38P11.1
+x = 12, y = 12, rule = b3/s23
+2b2ob2o5b$3bobobo4b$3bo4bo3b$2obo5bo2b$2obo6bob$3bobo5bo$3bob2o3b2o$4b
+o7b$5b7o$11bo$7b2o3b$7b2o!

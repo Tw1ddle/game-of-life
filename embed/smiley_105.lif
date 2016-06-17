@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Smiley
+#D Author: Achim Flammenkamp
+#D A period 8 oscillator found in July 1994.
+#D www.conwaylife.com/wiki/index.php?title=Smiley
+#N
+#P -3 -3
+***.***
+.*.*.*
+.
+.*...*
+.
+*.*.*.*
+..*.*

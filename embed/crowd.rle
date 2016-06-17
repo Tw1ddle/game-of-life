@@ -1,0 +1,7 @@
+#N Crowd
+#O David Buckingham
+#C A period 3 oscillator found in January 1973.
+#C www.conwaylife.com/wiki/index.php?title=Crowd
+x = 14, y = 14, rule = B3/S23
+11bo2b$9b3o2b$5b2obo5b$5bo3bo4b$7b2obo3b$3b4o3bo3b$obo5bobob2o$2obobo
+5bobo$3bo3b4o3b$3bob2o7b$4bo3bo5b$5bob2o5b$2b3o9b$2bo!

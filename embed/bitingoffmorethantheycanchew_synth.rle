@@ -1,0 +1,29 @@
+#N Biting off more than they can chew_synth
+#O Mark D. Niemiec
+#C Glider synthesis of biting off more than they can chew.
+#C http://home.interserv.com/~mniemiec/objname.htm#B
+x = 122, y = 108, rule = 23/3
+98bo23b$98bobo21b$98b2o2b2o18b$30b2o18b2o18b2o18b2o9b2o7b2o10b$31bo19b
+o19bo19bo11bo7bo7bo2b$10b2o19bobo17bobo17bobo4bo12bobo4bo12bobo4bobob$
+11b2o19b2o18b2o18b2o3bobo12b2o3bobo12b2o3bobo2b$10bo3b2o41bobo16bobo
+17bobo17bobo3b$14bobo40b2o16bobo17bobo17bobo4b$14bo43bo17bo19bo19bo5b
+2$58b2o3bo58b$57bobo2b2o58b$59bo2bobo57b7$97bobo22b$97b2o23b$98bo23b$
+40b2o28b2o18b2o18b2o10b$41bo7bo21bo7bo11bo7bo11bo10b$41bobo4bobo20bobo
+4bobo10bobo4bobo3bo6bobo8b$42b2o3bobo22b2o3bobo12b2o3bobo2b2o8b2o2b2o
+4b$46bobo27bobo17bobo4b2o10bo2bo3b$45bobo27bobo17bobo17bo2bo3b$46bo3bo
+5bo19bo19bo19b2o4b$50bobob2o66b$50b2o3b2o21b2o18b2o18b2o2b$78bo19bo19b
+o3b$54bo24b3o17b3o17b3o$53b2o26bo19bo19bo$53bobo3b3o60b$59bo62b$60bo
+61b12$101bobo18b$101b2o19b$102bo19b2$90b2o11b2o5b2o10b$91bo10b2o7bo10b
+$91bobo4bo5bo6bobo4b2o2b$92b2o3bobo12b2o3bobo2b$96bobo17bobo3b$95bobo
+17bobo4b$96bo19bo5b4$89bo32b$87bobo32b$88b2o32b3$93bobo26b$89bo3b2o27b
+$90b2o2bo27b$89b2o31b$58bo35bo27b$56bobo34bo16b2o10b$57b2o34b3o15bo10b
+$78b2o18b2o11bobo4b2o2b$58bo18bobo17bobo12b2o3bobo2b$58b2o3bo12bobo17b
+obo17bobo3b$57bobo3bobo9bobo17bobo17bobo4b$63b2o11bo19bo19bo5b9$103bo
+18b$103bobo16b$58bo44b2o17b$59b2o19b2o18b2o20b$58b2o20b2o18b2o20b$2o
+28b2o18b2o18b2o10b2o6b2o10b2o6b2o10b$bo29bo19bo11bo7bo10b2o7bo10b2o7bo
+10b$bobo4b2o21bobo4b2o11bobo4b2o2b2o7bobo17bobo17bobo8b$2b2o3bobo22b2o
+3bobo12b2o3bobo2bobo7b2o3bo14b2o3bo14b2o3bo4b$6bobo27bobo17bobo16b2obo
+16b2obo16b2obo3b$5bobo27bobo17bobo17bobo17bobo17bobo4b$6bo3bo5bo19bo
+19bo19b2o18b2o18b2o4b$10bobob2o106b$10b2o3b2o21b2o18b2o18b2o18b2o18b2o
+2b$38bo19bo19bo19bo19bo3b$14bo24b3o17b3o17b3o17b3o17b3o$13b2o26bo19bo
+19bo19bo19bo$13bobo3b3o100b$19bo102b$20bo!

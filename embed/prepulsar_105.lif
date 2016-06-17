@@ -1,0 +1,11 @@
+#Life 1.05
+#D Name: Pre-pulsar
+#D A common predecessor of the pulsar. It duplicates itself after 15 generations
+#D , although it fails to be a true replicator because of the way the that two c
+#D opies then interact.
+#D www.conwaylife.com/wiki/index.php?title=Pre-pulsar
+#N
+#P -4 -1
+***...***
+*.*...*.*
+***...***

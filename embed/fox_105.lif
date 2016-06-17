@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Fox
+#D Author: David Buckingham
+#D The smallest asymmetric period 2 oscillator.
+#D www.conwaylife.com/wiki/index.php?title=Fox
+#N
+#P -3 -3
+....*
+....*
+..*..*
+**
+....*.*
+..*.*.*
+......*

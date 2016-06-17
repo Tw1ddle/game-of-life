@@ -1,0 +1,12 @@
+#Life 1.05
+#D Name: Conduit 1
+#D Author: David Buckingham
+#D A conduit that transforms a B-heptomino into a Herschel after 59 generations.
+#D www.conwaylife.com/wiki/index.php?title=Conduit_1
+#N
+#P -6 -2
+*.**
+**.*
+.
+.........**
+.........**

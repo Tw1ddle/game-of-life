@@ -1,0 +1,6 @@
+#N Lightweight emulator
+#O Robert Wainwright
+#C A period 4 oscillator that produces sparks similar to that of the lightweight spaceship.
+#C www.conwaylife.com/wiki/index.php?title=Lightweight_emulator
+x = 14, y = 6, rule = B3/S23
+2b2obo2bob2o2b$2bo8bo2b$3b2o4b2o3b$3o2b4o2b3o$o2bo6bo2bo$b2o8b2o!

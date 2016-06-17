@@ -1,0 +1,39 @@
+!Name: 144P24
+!Author: Noam Elkies
+!One of the first period 24 oscillators to be found. Discovered on November 20, 1994.
+!www.conwaylife.com/wiki/index.php?title=144P24
+....OO..........OO
+...O..O..OOOO..O..O
+...OOO..OOOOOO..OOO
+......OOOOOOOOOO
+.....O..........O
+.....OO........OO
+
+...........O.......O
+.....O......O.....OO
+.....OO...O...O
+................OOO..O.O
+.O.O..OOO.O...O...O.OOOO
+.OOOO.O....OOO........OO
+.OO
+
+
+...........OOO
+
+
+
+
+.....O
+OOOO...O...........O
+...O...O.........O...OOOO
+.......O...OOO...O...O
+....O.......O....O
+.....OO.............O
+..................OO
+
+.....OO........OO
+.....O..OOOOOO..O
+......OO......OO
+...OOO..........OOO
+...O..O.O....O.O..O
+....OO....OO....OO

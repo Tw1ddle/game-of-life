@@ -1,0 +1,17 @@
+#Life 1.05
+#D Name: Scrubber
+#D A period 2 oscillator found in 1971.
+#D www.conwaylife.com/wiki/index.php?title=Scrubber
+#N
+#P -5 -5
+....*
+..***
+.*
+.*..***
+**.*...*
+...*...*
+...*...*.**
+....***..*
+.........*
+......***
+......*

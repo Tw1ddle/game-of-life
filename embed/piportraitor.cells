@@ -1,0 +1,28 @@
+!Name: Pi portraitor
+!Author: Robert Wainwright
+!A period 32 oscillator that was found in 1984 or 1985.
+!www.conwaylife.com/wiki/index.php?title=Pi_portraitor
+...........OO
+......OO.O....O.OO
+......O..........O
+.......OO......OO
+....OOO..OOOOOO..OOO
+....O..O........O..O
+.OO.O.O..........O.O.OO
+.O.O.O............O.O.O
+...O................O
+.O..O..............O..O
+....O.......OOO....O
+O...O.......O.O....O...O
+O...O.......O.O....O...O
+....O..............O
+.O..O..............O..O
+...O................O
+.O.O.O............O.O.O
+.OO.O.O..........O.O.OO
+....O..O........O..O
+....OOO..OOOOOO..OOO
+.......OO......OO
+......O..........O
+......OO.O....O.OO
+...........OO

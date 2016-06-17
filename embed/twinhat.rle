@@ -1,0 +1,5 @@
+#N Twin hat
+#C A 17-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Twin_hat
+x = 9, y = 5, rule = B3/S23
+2bo3bo2b$bobobobob$bobobobob$2obobob2o$4bo!

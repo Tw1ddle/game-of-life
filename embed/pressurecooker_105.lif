@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: Pressure cooker
+#D A period 3 oscillator found by the MIT group in September 1971.
+#D www.conwaylife.com/wiki/index.php?title=Pressure_cooker
+#N
+#P -5 -6
+.....*
+....*.*
+....*.*
+...**.**
+*.*.....*.*
+**.*.*.*.**
+...*...*
+...*...*
+....***
+.
+...*.**
+...**.*

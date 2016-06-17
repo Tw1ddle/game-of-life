@@ -1,0 +1,7 @@
+#N Windmill
+#O Dean Hickerson
+#C A period 4 oscillator found in November 1989.
+#C www.conwaylife.com/wiki/index.php?title=Windmill
+x = 18, y = 18, rule = B3/S23
+11bo6b$9b2obo5b$7b2o9b$10b2o6b$7b3o8b2$3o15b$3b2o2b3ob2o5b$10b7ob$b7o
+10b$5b2ob3o2b2o3b$15b3o2$8b3o7b$6b2o10b$9b2o7b$5bob2o9b$6bo!

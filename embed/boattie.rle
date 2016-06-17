@@ -1,0 +1,5 @@
+#N Boat-tie
+#C A 10-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Boat-tie
+x = 6, y = 6, rule = B3/S23
+bo4b$obo3b$b2o3b$3b2ob$3bobo$4bo!

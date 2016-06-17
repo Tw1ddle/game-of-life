@@ -1,0 +1,8 @@
+#N Twirling T-tetsons 2
+#O Robert Wainwright
+#C A period 60 oscillator made up of a pre-pulsar hassled by killer toads.
+#C www.conwaylife.com/wiki/index.php?title=Twirling_T-tetsons_2
+x = 24, y = 24, rule = B3/S23
+7b2o3b2o10b$6bo7bo9b$9bobo12b$7b2o3b2o10b4$21b3o$20b3ob$13bo10b$3o9b3o
+9b$b3o20b$20b3ob$21b3o2$b3o20b$3o9b3o9b$13bo10b3$10b2o3b2o7b$12bobo9b$
+9bo7bo6b$10b2o3b2o!

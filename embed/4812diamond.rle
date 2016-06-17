@@ -1,0 +1,4 @@
+#N 4-8-12_diamond
+#C A pure glider generator.
+x = 12, y = 9, rule = B3/S23
+4b4o4b2$2b8o2b2$12o2$2b8o2b2$4b4o!

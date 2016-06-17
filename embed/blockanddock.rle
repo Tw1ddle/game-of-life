@@ -1,0 +1,5 @@
+#N Block and dock
+#C A 14-cell still life made up of a block and a dock.
+#C www.conwaylife.com/wiki/index.php?title=Block_and_dock
+x = 6, y = 6, rule = B3/S23
+3b2ob$3b2ob2$b4ob$o4bo$2o2b2o!

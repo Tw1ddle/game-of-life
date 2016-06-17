@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: Triple caterer
+#D Author: Dean Hickerson
+#D A period 3 oscillator.
+#D http://www.conwaylife.com/wiki/index.php?title=Triple_caterer
+#N
+#P -8 -5
+.....**
+....*..*..**
+....**.*...*
+......*.***....*
+..***.*.*....***
+.*..*..*....*
+*.*..*...*..**
+.*
+..**.**.**.**
+...*...*...*
+...*...*...*

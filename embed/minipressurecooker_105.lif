@@ -1,0 +1,17 @@
+#Life 1.05
+#D Name: Mini pressure cooker
+#D Author: Robert Wainwright
+#D A period 3 oscillator found no later than June 1972.
+#D www.conwaylife.com/wiki/index.php?title=Mini_pressure_cooker
+#N
+#P -5 -5
+.....*
+....*.*
+....*.*
+...**.**
+*.*.....*.*
+**.*.*.*.**
+...*...*
+...*.*.*
+....*.*
+.....*

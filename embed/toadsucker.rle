@@ -1,0 +1,6 @@
+#N Toad sucker
+#C A period 60 oscillator that shifts a toad by applying domino sparks to it.
+#C www.conwaylife.com/wiki/index.php?title=Toad
+x = 18, y = 11, rule = 23/3
+bo16b$bo14bob$obo13bob$bo13bobo$bo6bo7bob$bo6b2o6bob$bo6b2o6bob$obo6bo
+6bob$bo13bobo$bo14bob$16bo!

@@ -1,0 +1,9 @@
+#N Welded geese
+#O Stephen Silver
+#C A pair of Canada geese that have been welded together.
+#C www.conwaylife.com/wiki/index.php?title=Canada_goose
+x = 23, y = 22, rule = b3/s23
+10b3o10b$10bo9b2ob$11bo6b3obo$13b2o2b2o4b$14bo8b$18bo4b$14b2o3bo3b$13b
+obob2o4b$12bo2bo2bob2ob$13bo3b2o4b$3o10bo9b$o9b4o9b$bo6bo14b$3b2o2b2o
+4bo9b$4bo18b$8bo14b$4b2o3bo13b$3bobob2o14b$3bobo2bob2o11b$2bo4b2o14b$
+2b2o19b$2b2o!

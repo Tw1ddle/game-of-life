@@ -1,0 +1,20 @@
+#N Block and dock_synth
+#O Mark D. Niemiec
+#C Glider syntheses of block on docks.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 120, y = 106, rule = 23/3
+96bo23b$94bobo23b$95b2o23b2$97bo6bo15b$97bobo2b2o16b$97b2o4b2o15b$55bo
+2bo15b2o2b2o34b2o2b2o$53bobo2bobo13bo4bo34bo4bo$54b2o2b2o15b4o36b4ob$
+106b3o11b$54b2o19b2o29bo8b2o3b$53bobo19b2o30bo7b2o3b$55bo64b$58b2o32b
+2o26b$57b2o32bobo26b$59bo33bo26b$100b2o18b$100bobo17b$100bo19b14$102bo
+17b$55bo45bo18b$56bo44b3o16b$54b3o63b$74b2o18b2o3b2o13b2o2b2o$56bo17bo
+bo17bobo2bobo12bo4bo$55b2o18bo19bo3bo15b4ob$55bobo62b$115b2o3b$94b2o
+19b2o3b$93bobo24b$95bo24b$98b2o20b$98bobo19b$98bo21b18$14bo47bo57b$15b
+o19bo19bo6bobo55b$13b3o18bobo17bobo5b2o10b2o2b2o14b2o2b2o14b2o2b2o$34b
+obo17bobo2b2o13bo4bo14bo4bo14bo4bo$10b3o22bo19bo3bobo13b4o16b4o16b4ob$
+12bo46bo60b$11bo63b2o18b2o18b2o3b$75bobo17bobo17b2o3b$54b3o19bo19bo23b
+$56bo63b$55bo38b2o24b$94bobo23b$94bo25b13$104bobo13b$104b2o14b$47bo48b
+o8bo14b$46bo49bobo21b$46b3o47b2o22b$44bo75b$45bo48b2o24b$43b3o18b2o18b
+2o7b2o19b2o2b2o$64b2o18b2o9bo18bo4bo$115b4ob$5bo114b$3bobo19b2o18b2o
+18b2o18b2o5b3o20b2o3b$4b2o19b2o18b2o18b2o18b2o5bo22b2o3b$b2o90bo26b$ob
+o117b$2bo!

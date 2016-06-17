@@ -1,0 +1,13 @@
+!Name: Figure eight on pentadecathlon
+!The smallest known period 120 oscillator.
+!http://www.conwaylife.com/wiki/index.php?title=Figure_eight_on_pentadecathlon
+.O......OO
+.O......OO.O
+O.O.........O
+.O.......O
+.O........O.OO
+.O..........OO
+.O
+O.O
+.O
+.O

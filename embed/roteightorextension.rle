@@ -1,0 +1,11 @@
+#N roteightor extension
+#C An extension of roteightor
+#C http://www.conwaylife.com/wiki/index.php?title=Roteightor
+x = 32, y = 32, rule = b3/s23
+11bo20b$11b3o8b2o8b$14bo7bo9b$13b2o5bobo9b$6bo13b2o10b$6b3o23b$9bo5b3o
+8b2o4b$8bo6bo2bo7bo5b$bo6bo3bo2bo8bobo5b$b3o9bo2bo4bo2b2o6b$4bo5bo2bo
+8bo9b$3b2o6b3o5bo2bo7b2o$20b3o7bob$28bobob$5b3o20b2o2b$5bo2bo5b3o15b$
+5bo8bo2bo5b3o6b$2b2o2bo4bo2bo8bo2bo5b$bobo8bo2bo4bo2bo8b$bo7bo2bo8bo2b
+o3bo3b$2o8b3o5bo2bo6bo3b$19b3o5bo4b$6b2o20b3ob$5bobo22bob$5bo7b3o6b2o
+8b$4b2o7bo2bo5bo9b$13bo9b3o6b$10b2o2bo3bo6bo6b$9bobo6bo13b$9bo7bo14b$
+8b2o8b3o11b$20bo!

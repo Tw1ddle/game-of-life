@@ -1,0 +1,25 @@
+#Life 1.05
+#D Name: Windmill
+#D Author: Dean Hickerson
+#D A period 4 oscillator found in November 1989.
+#D www.conwaylife.com/wiki/index.php?title=Windmill
+#N
+#P -9 -9
+...........*
+.........**.*
+.......**
+..........**
+.......***
+.
+***
+...**..***.**
+..........*******
+.*******
+.....**.***..**
+...............***
+.
+........***
+......**
+.........**
+.....*.**
+......*

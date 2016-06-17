@@ -1,0 +1,13 @@
+#N Block on table_synth
+#O Mark D. Niemiec
+#C Glider syntheses of block on table.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 109, y = 51, rule = 23/3
+87bo21b$85bobo21b$86b2o21b2$88bo20b$88bobo18b$80b2o6b2o15bo2bo$81b2o
+22b4o$80bo28b$105b2o2b$83bo21b2o2b$83b2o24b$82bobo24b8$90bo18b$41b2o
+45bobo18b$40bobobo44b2o18b$42bobobo62b$44b2o45bo17b$49b2o15bo19bo2b2o
+18b$48b2o15bobo17bobo2b2o13bo2bo$50bo14b2o18b2o18b4o$5bo86b3o14b$3bobo
+19b2o18b2o18b2o18b2o5bo12b2o2b$4b2o19b2o18b2o18b2o18b2o6bo11b2o2b$b2o
+106b$obo106b$2bo106b5$84bo24b$85bo23b$83b3o23b$92bo16b$90b2o17b$91b2o
+16b$94b2o13b$86bo7bobo12b$85bobo6bo10bo2bo$85b2o18b4o2$85b2o18b2o2b$
+85b2o18b2o!

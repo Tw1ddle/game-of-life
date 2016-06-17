@@ -1,0 +1,7 @@
+#N $rats
+#O David Buckingham
+#C A period 6 oscillator found in 1972.
+#C www.conwaylife.com/wiki/index.php?title=$rats
+x = 12, y = 11, rule = B3/S23
+5b2o5b$6bo5b$4bo7b$2obob4o3b$2obo5bobo$3bo2b3ob2o$3bo4bo3b$4b3obo3b$7b
+o4b$6bo5b$6b2o!

@@ -1,0 +1,25 @@
+#Life 1.05
+#D Name: 22P36
+#D Author: Noam Elkies
+#D A period 36 oscillator, discovered on January 29, 1995.
+#D www.conwaylife.com/wiki/index.php?title=22P36
+#N
+#P -7 -9
+**
+.*
+.*.*
+..**
+........*
+.......**
+........*
+.
+.
+.
+.
+.....*
+.....**
+.....*
+..........**
+..........*.*
+............*
+............**

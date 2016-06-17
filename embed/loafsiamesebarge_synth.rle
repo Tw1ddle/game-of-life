@@ -1,0 +1,22 @@
+#N Loaf siamese barge_synth
+#O Mark D. Niemiec
+#C Glider synthesis of loaf siamese barge.
+#C http://home.interserv.com/~mniemiec/objname.htm#L
+x = 148, y = 104, rule = 23/3
+129b2o17b$127bobobo16b$125bobobo18b$40bobo83b2o20b$41b2o19bo19bo19bo
+19bo25b$41bo19bobo17bobo17bobo17bobo24b$62b2o18b2o3bo14b2o18b2o20b2o2b
+$41b3o43bobo16bo19bo16bo2bob$41bo45b2o16bobo11bo5bobo15bobobo$42bo61bo
+bo13bo3bobo17bobob$86bo18bo12b3o4bo19bo2b$85b2o3b2o56b$85bobo2bobo24b
+3o28b$90bo26bo30b$118bo29b6$86b2o60b$84bobobo59b$82bobobo61b$83b2o63b$
+78b2o22bo45b$79b2o20bobo44b$41bobo3bo30bo23b2o44b$42b2ob2o19bo19bo19bo
+41b$42bo3b2o17bobo17bobo17bobo40b$64bobo17bobo17bobo41b$43b2o20bo19bo
+19bo42b$42b2o104b$44bo103b8$119bo9b2o17b$117bobo7bobobo16b$118b2o5bobo
+bo18b$126b2o20b$82bo65b$80bobo19b2o18b2o24b$81b2o19b2o18b2o20b2o2b$78b
+2o6bo19bo19bo16bo2bob$77bobo5bobo17bobo11bo5bobo15bobobo$79bo4bobo17bo
+bo13bo3bobo17bobob$85bo19bo12b3o4bo19bo2b2$117b3o28b$117bo30b$118bo29b
+11$4bo143b$4bobo17b2o18b2o18b2o38b2o38b2o2b$3ob2o17bo2bo16bo2bo16bo2bo
+36bo2bo36bo2bob$2bo20bobo17bobo17bobo37bobo37bobobo$bo22bo19bo19bo39bo
+39bobob$145bo2b2$65b2o38b2o41b$45b2o17bo2bo36bo2bo8b2o30b$46b2ob3o12bo
+2bo36bo2bo7b2o31b$45bo3bo15b2o38b2o10bo30b$50bo62b2o33b$112bobo33b$
+114bo33b6$126bo21b$125b2o21b$125bobo20b12$75b2o71b$76b2o70b$75bo58b3o
+11b$125b2o7bo13b$125bobo7bo12b$125bo!

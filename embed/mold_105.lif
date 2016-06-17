@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: Mold
+#D Author: Achim Flammenkamp
+#D The smallest period 4 oscillator.
+#D http://www.conwaylife.com/wiki/index.php?title=Mold
+#N
+#P -7 -6
+...**
+..*..*
+*..*.*
+....*
+*.**
+.*

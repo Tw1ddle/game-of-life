@@ -1,0 +1,9 @@
+#N Ship maker
+#C A period 4 diagonal lightspeed fuse that makes ships as it burns.
+#C www.conwaylife.com/wiki/index.php?title=Ship_maker
+x = 41, y = 40, rule = B3/S23
+39b2o$38bobo$37bo3b$36bo4b$35bo5b$34bo6b$33bo7b$32bo8b$31bo9b$30bo10b$
+29bo11b$28bo12b$27bo13b$26bo14b$25bo15b$24bo16b$23bo17b$22bo18b$21bo
+19b$20bo20b$19bo21b$18bo22b$17bo23b$16bo24b$15bo25b$14bo26b$13bo27b$
+12bo28b$11bo29b$10bo30b$9bo31b$8bo32b$7bo33b$6bo34b$6o35b$5bo35b$5bo
+35b$5bo35b$5bo35b$5bo!

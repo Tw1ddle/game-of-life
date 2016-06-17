@@ -1,0 +1,7 @@
+#N Pentoad
+#O Bill Gosper
+#C A period 5 oscillator found in June 1977.
+#C www.conwaylife.com/wiki/index.php?title=Pentoad
+x = 13, y = 12, rule = B3/S23
+11b2o$11bob$9bobob$9b2o2b$5b2o6b$6bo6b$6bo6b$6b2o5b$2b2o9b$bobo9b$bo
+11b$2o!

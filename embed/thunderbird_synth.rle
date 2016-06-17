@@ -1,0 +1,7 @@
+#N Thunderbird_synth
+#O Mark D. Niemiec
+#C Glider syntheses of thunderbirds.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 48, y = 11, rule = 23/3
+3bo44b$4b2o42b$3b2o43b$35bo12b$bo15bo15bo4bo9b$b2o14bobo12bo5bob3o3b2o
+$obo14b2o14bo4bo9b$35bo12b$14b3o31b$14bo33b$15bo!

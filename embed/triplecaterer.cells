@@ -1,0 +1,15 @@
+!Name: Triple caterer
+!Author: Dean Hickerson
+!A period 3 oscillator.
+!http://www.conwaylife.com/wiki/index.php?title=Triple_caterer
+.....OO
+....O..O..OO
+....OO.O...O
+......O.OOO....O
+..OOO.O.O....OOO
+.O..O..O....O
+O.O..O...O..OO
+.O
+..OO.OO.OO.OO
+...O...O...O
+...O...O...O

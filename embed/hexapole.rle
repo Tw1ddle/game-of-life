@@ -1,0 +1,5 @@
+#N Hexapole
+#C The barberpole of length 6 and thus a period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Hexapole
+x = 9, y = 9, rule = B3/S23
+2o7b$obo6b2$2bobo4b2$4bobo2b2$6bobo$7b2o!

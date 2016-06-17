@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Mold on pentadecathlon
+#D A small non-trivial period 60 oscillator
+#D www.conwaylife.com/wiki/index.php?title=Mold_on_PD
+#N
+#P -5 -6
+..*....*
+**.****.**
+..*....*
+.
+.
+.
+.
+......*.*
+.........*
+.....*..*
+....*.*.*
+....*..*
+.....**

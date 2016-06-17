@@ -1,0 +1,7 @@
+#N Pentant
+#O David Buckingham
+#C A period 5 oscillator found in July 1976.
+#C www.conwaylife.com/wiki/index.php?title=Pentant
+x = 10, y = 12, rule = B3/S23
+2o8b$bo8b$bobo6b$2b2o4b2o$9bo$5b4ob$5bo4b$2bo3b3ob$2b4o2bob$5bo4b$4bo
+5b$4b2o!

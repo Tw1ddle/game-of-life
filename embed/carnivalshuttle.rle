@@ -1,0 +1,7 @@
+#N Carnival shuttle
+#O Robert Wainwright
+#C A period 12 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Carnival_shuttle
+x = 38, y = 7, rule = B3/S23
+33bo3bo$2o3b2o26b5o$bobobo3bo2bo6b2o3bo2bo7bo2b$b2ob2o2b2o3b2o4b2o2b2o
+3b2o4bobob$bobobo3bo2bo6b2o3bo2bo7bo2b$2o3b2o26b5o$33bo3bo!

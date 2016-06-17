@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Lightweight emulator
+#D Author: Robert Wainwright
+#D A period 4 oscillator that produces sparks similar to that of the lightweight
+#D  spaceship.
+#D www.conwaylife.com/wiki/index.php?title=Lightweight_emulator
+#N
+#P -7 -3
+..**.*..*.**
+..*........*
+...**....**
+***..****..***
+*..*......*..*
+.**........**

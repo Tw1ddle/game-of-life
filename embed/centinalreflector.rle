@@ -1,0 +1,10 @@
+#N Centinal reflector
+#O Bill Gosper
+#C Centinal about to reflect a glider 90 degrees
+#C http://www.conwaylife.com/wiki/index.php?title=Centinal
+x = 52, y = 22, rule = b3/s23
+25bo26b$23b2o27b$24b2o26b3$2o48b2o$bo48bob$bobo36bo7bobob$2b2o7b2o5b2o
+13bo5bo2bo5b2o2b$18bobo11b2o5bo12b$12b2o6bo10b2o10bo8b$8bobo2bo4b3o11b
+2o4b2o3bo8b$9b3obo24b5o9b2$9b3obo24b5o9b$8bobo2bo4b3o11b2o4b2o3bo8b$
+12b2o6bo10b2o10bo8b$18bobo11b2o5bo12b$2b2o7b2o5b2o13bo5bo2bo5b2o2b$bob
+o36bo7bobob$bo48bob$2o48b2o!

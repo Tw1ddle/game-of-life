@@ -1,0 +1,13 @@
+#N Griddle and boat_synth
+#C A 17-glider synthesis of griddle and boat
+#C http://www.conwaylife.com/wiki/index.php?title=Griddle_and_boat
+x = 159, y = 71, rule = b3/s23
+65bo93b$64bo94b$64b3o92b2$12bo146b$10bobo146b$11b2o146b$56bo102b$54b2o
+103b$55b2o102b3$66bobo90b$2bo63b2o91b$obo64bo91b$b2o156b2$6bo152b$4bob
+o152b$5b2o152b5$51bo107b$51bobo105b$51b2o106b3$91bobo65b$92b2o65b$92bo
+66b$75b2o18b2o18bo19bo19bo3b$75b2o18b2o18bobo17bobo17bobob$113bo4bo14b
+o4bo14bo4bo$73b6o14b6o14b6o14b6o14b6o$73bo4bo14bo4bo60b$75b3o17b3o2b3o
+12b2o18b2o18b2o2b$74b2o14b2o2b2o4bo14b2o18b2o18bobob$89bobo9bo27bo26bo
+2b$91bo38b2o27b$129b2o2b2o3b2o19b$132bobo2b2o20b$134bo4bo19b$33bobo
+123b$33b2o124b$34bo124b2$33b3o123b$33bo125b$34bo124b17$65b2o92b$58b3o
+3b2o93b$58bo7bo92b$59bo!

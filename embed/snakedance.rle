@@ -1,0 +1,7 @@
+#N Snake dance
+#O Robert Wainwright
+#C A period 3 oscillator found in May 1972.
+#C www.conwaylife.com/wiki/index.php?title=Snake_dance
+x = 9, y = 9, rule = B3/S23
+3b2obo2b$3bob2o2b$2obo5b$bo2bob3o$o2bobo2bo$3obo2bob$5bob2o$2b2obo3b$
+2bob2o!

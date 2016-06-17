@@ -1,0 +1,5 @@
+#N Light bulb
+#C A period 2 oscillator that was found in 1971.
+#C www.conwaylife.com/wiki/index.php?title=Light_bulb
+x = 7, y = 9, rule = B3/S23
+b2obo2b$bob2o2b2$2b3o2b$bo3bob$bo3bob$2bobo2b$obobobo$2o3b2o!

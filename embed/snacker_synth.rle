@@ -1,0 +1,25 @@
+#N Snacker_synth
+#O Mark D. Niemiec
+#C Glider synthesis of snacker.
+#C http://home.interserv.com/~mniemiec/objname.htm#S
+x = 150, y = 137, rule = 23/3
+20b2o18b2o18b2o88b$21bo19bo19bo88b$2o19bobo17bobo17bobo86b$b2o19b2o18b
+2o18b2o86b$o3b2o113bo30b$4bobo111bo31b$4bo113b3o29b$62b2o86b$61bobo86b
+$43b3o15bo88b$43bo16b2o88b$44bo105b$39b2o72bobo34b$40b2o2bo68b2o35b$
+39bo3b2o69bo35b$43bobo104b3$38b2o56bo53b$37bobo54bobo53b$39bo55b2o53b$
+103bo46b$101b2o47b$83bo18b2o46b$81bobo66b$82b2o24bobo39b$108b2o40b$
+109bo40b3$2o38b2o38b2o48b2o16b2o$bo39bo39bo49bo16bob$bobo37bobo37bobo
+47bobo12bobob$2b2o38b2o38b2o48b2o12b2o2b$28bo108bo4bo7b$28bobo104b2ob
+4ob2o5b$28b2o107bo4bo7b$2b2o38b2o38b2o48b2o12b2o2b$bobo24bo12bobo23b2o
+12bobo23b2o22bobo12bobob$bo25b2o12bo24bo2bo11bo24bo2bo21bo16bob$2o25bo
+bo10b2o24bo2bo10b2o24bo2bo20b2o16b2o$67b2o38b2o41b2$103b3o44b$103bo46b
+$97b2o5bo45b$96b2o19b2o31b$98bo18bobo30b$117bo32b6$38bobo78bobo28b$39b
+2o78b2o29b$39bo80bo29b5$45bo68bo35b$43bobo68bobo33b$44b2o68b2o34b4$85b
+o64b$83b2o7bo57b$84b2o5bo58b$56bo34b3o9bo46b$57bo44bo47b$55b3o44b3o45b
+16$96b2o52b$95b2o53b$97bo32b2o16b2o$9bobo119bo16bob$9b2o120bobo12bobob
+$10bo5bo115b2o12b2o2b$16bobo8bo4bo44bo4bo54bo4bo7b$16b2o7b2ob4ob2o40b
+2ob4ob2o50b2ob4ob2o5b$27bo4bo44bo4bo54bo4bo7b$132b2o12b2o2b$9b3o119bob
+o12bobob$11bo119bo16bob$10bo51bo67b2o16b2o$63b2o85b$62b2o86b16$55b3o
+44b3o45b$57bo44bo47b$56bo9b3o34bo46b$68bo5b2o74b$67bo7b2o73b$74bo75b4$
+44b2o68b2o34b$43bobo68bobo33b$45bo68bo35b5$39bo80bo29b$39b2o78b2o29b$
+38bobo78bobo!

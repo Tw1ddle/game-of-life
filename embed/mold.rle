@@ -1,0 +1,6 @@
+#N Mold
+#O Achim Flammenkamp
+#C The smallest period 4 oscillator.
+#C http://www.conwaylife.com/wiki/index.php?title=Mold
+x = 6, y = 6, rule = B3/S23
+3b2ob$2bo2bo$o2bobo$4bob$ob2o2b$bo!

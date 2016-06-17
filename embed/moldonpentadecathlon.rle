@@ -1,0 +1,5 @@
+#N Mold on pentadecathlon
+#C A small non-trivial period 60 oscillator
+#C www.conwaylife.com/wiki/index.php?title=Mold_on_PD
+x = 10, y = 13, rule = b3/s23
+2bo4bo2b$2ob4ob2o$2bo4bo2b5$6bobob$9bo$5bo2bob$4bobobob$4bo2bo2b$5b2o!

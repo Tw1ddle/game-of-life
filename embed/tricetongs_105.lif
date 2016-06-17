@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Trice tongs
+#D Author: Robert Wainwright
+#D A period 3 oscillator found in February 1982.
+#D www.conwaylife.com/wiki/index.php?title=Trice_tongs
+#N
+#P -3 -3
+..*
+..***
+**...*
+.*.*.*
+.*
+..**..*
+.....**

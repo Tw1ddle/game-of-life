@@ -1,0 +1,7 @@
+#N centuryeater2.rle
+#O Ivan Fomichev
+#C http://conwaylife.com/forums/viewtopic.php?p=8177#p8177
+x = 52, y = 42, rule = B3/S23
+34bob2o$34b2obo2$o31b5o$b2o28bo2bo2bo$2o29b2o3bobo$37b2o6$38bo$37b3o$
+39b2o8$50b2o$37bobo10b2o$38b2o$38bo2$38bo$37bobo$38b2o9$26b2o$25bobo$
+25bo$24b2o!

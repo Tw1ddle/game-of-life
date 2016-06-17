@@ -1,0 +1,11 @@
+#N Cis-barge with tail_synth
+#O Mark D. Niemiec
+#C Glider synthesis of cis-barge with tail.
+#C http://home.interserv.com/~mniemiec/p2osc.htm
+x = 77, y = 52, rule = 23/3
+51bo25b$49b2o26b$50b2o25b2$28bobo46b$29b2o46b$29bo47b9$71b2o4b$72bo2bo
+b$72bobobo$44bo28bobob$45bo28bo2b$43b3o31b2$44bo32b$44b2o31b$43bobo3b
+2o26b$49bobo25b$49bo27b10$38bo38b$37bo39b$37b3o37b2$34bobo40b$35b2o5bo
+34b$35bo6bobo32b$42b2o33b2$obo3bo29bobo32b2o4b$b2ob2o19bo11b2o6bo26bo
+2bob$bo3b2o17bobo10bo6bobo25bobobo$23bobo17bobo27bobob$2b2o20bo19bo29b
+o2b$b2o74b$3bo!

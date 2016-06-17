@@ -1,0 +1,5 @@
+#N Table
+#C A simple induction coil.
+#C www.conwaylife.com/wiki/index.php?title=Table
+x = 4, y = 2, rule = B3/S23
+4o$o2bo!

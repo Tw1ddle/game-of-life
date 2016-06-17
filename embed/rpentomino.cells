@@ -1,0 +1,6 @@
+!Name: R-pentomino
+!The most active polyomino with less than six cells; all of the others stabilize in at most 10 generations, but the R-pentomino does not do so until generation 1103, by which time it has a population of 116.
+!www.conwaylife.com/wiki/index.php?title=R-pentomino
+.OO
+OO
+.O

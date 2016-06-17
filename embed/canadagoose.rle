@@ -1,0 +1,8 @@
+#N Canada goose
+#O Jason Summers
+#C A c/4 period 4 spaceship. At the time of its discovery, the Canada goose was the smallest known diagonal spaceship other than the glider, but this record has since been beaten,
+#C first by Orion 2, and more recently by the crab.
+#C www.conwaylife.com/wiki/index.php?title=Canada_goose
+x = 13, y = 12, rule = B3/S23
+3o10b$o9b2ob$bo6b3obo$3b2o2b2o4b$4bo8b$8bo4b$4b2o3bo3b$3bobob2o4b$3bob
+o2bob2ob$2bo4b2o4b$2b2o9b$2b2o!

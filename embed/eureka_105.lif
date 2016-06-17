@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: Eureka
+#D Author: David Buckingham
+#D A period 30 pre-pulsar shuttle found in August 1980.
+#D www.conwaylife.com/wiki/index.php?title=Eureka
+#N
+#P -9 -5
+.*..............*
+*.*....*.......*.*
+.*...**.**......*
+.......*
+.
+.
+.
+.......*
+.*...**.**......*
+*.*....*.......*.*
+.*..............*

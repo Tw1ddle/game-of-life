@@ -1,0 +1,16 @@
+!Name: AK47 reaction
+!Author: Rich Schroeppel and David Buckingham
+!A reaction in which a honey farm predecessor catalysed by an eater and a block reappears at another location 47 generations later, having produced a glider and a traffic light.
+!www.conwaylife.com/wiki/index.php?title=AK47_reaction
+.....O
+....O.O
+...O...O
+...O...O
+...O...O
+....O.O
+.....O
+
+..OO
+...O
+OOO.....OO
+O.......OO

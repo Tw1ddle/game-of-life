@@ -1,0 +1,24 @@
+#N Ship-tie_synth
+#O Mark D. Niemiec
+#C Glider syntheses of ship-ties.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 151, y = 116, rule = 23/3
+99bo51b$97b2o52b$98b2o51b3$42bo108b$40bobo108b$41b2o108b$74bo76b$72bob
+o76b$73b2o76b$119bo31b$40bobo77bo30b$40b2o13b2o25bo22b2o11b3o24b2o4b$
+41bo13bobo24bobo20bobo37bobo3b$36bo19b2o24b2o22b2o13b2o23b2o3b$37bo2b
+2o16b2o18b3o27b2o10b4o24b2ob$35b3o2bobo15bobo19bo27bobo9b2ob2o23bobo$
+40bo18b2o18bo29b2o11b2o25b2o10$140bo10b$138bobo10b$139b2o10b$112bo29bo
+8b$111bobo27bobo7b$111bobo27bobo7b$112bo29bo8b$71bo79b$71b2o78b$70bobo
+78b2$77bo73b$76bo74b$76b3o72b2$77bo17b2o28b2o18b2o4b$76b2o17bobo27bobo
+17bobo3b$76bobo17b2o28b2o18b2o3b$98b2o28b2o18b2ob$98bobo27bobo17bobo$
+99b2o28b2o18b2o21$119bobo29b$120b2o3bo25b$120bo2b2o26b$124b2o25b$145b
+2o4b$145bobo3b$106b2o18b2o18b2o3b$85bobo17bo2bo16bo2bo19b2ob$86b2o17bo
+2bo16bo2bo19bobo$86bo19b2o18b2o3bobo15b2o$131b2o18b$85b2o35b2o8bo18b$
+84bobo34bobo27b$86bo36bo9b2o16b$132b2o17b$134bo16b16$71b2o18b2o58b$51b
+obo16bo2bo16bo2bo57b$51b2o17bo2bo16bo2bo57b$25b2o18b2o5bo12b2o4b2o12b
+2o4b2o12b2o18b2o18b2o4b$3bo21bobo17bobo17bobo17bobo8bo8bobo17bobo17bob
+o3b$bobo3bo18b2o18b2o4b2o12b2o18b2o4bo2bo10b2o18b2o18b2o3b$2b2o2b2o44b
+obo36b2o2b3o10b2o18b2o18b2ob$6bobo43bo38bobo14bobo17bobo17bobo$bo61b2o
+18b2o24bo19bo19b2o$2o41b2o17bo2bo16bo2bo2b2o61b$obo41b2ob3o12bo2bo16bo
+2bob2o46b2o14b$43bo3bo15b2o18b2o4bo41bo2b2o15b$48bo82b2o3bo14b$87b2o
+41bobo18b$86bobo62b$88bo!

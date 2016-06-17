@@ -1,0 +1,29 @@
+!Name: Superfountain
+!Author: Noam Elkies
+!A period 4 sparker with a lone spark separated from the rest of the oscillator by two full rows of dead cells.
+!www.conwaylife.com/wiki/index.php?title=Superfountain
+...............OO......OO......OO..OO
+.........OO.....O......O.....O..O..O..O.OO
+....O....O.O.OOO....OO.O.....OO.....OOO.O.O
+...O.O.....O.O.....O..O........OOOOO....O..O
+....O.....O..O....O.O......OOOO..O...OO..O.O
+....O.......OOOO..O.OO....O....OOOOO...O.O..OO
+....OOO...O.....O.O..O....OO..O...O..OO.O.O.O
+........OO..O.OO.O.OO....OO..O....O......OO.O
+....O...O......O.O...OO.OO...OOOO....OO.O..O
+...O.....O.O.....O...O.O.OOOOO.O......O.OOO
+....O...OOO.....O....O..........OOO..O
+....OOO.OO..OO..O..OOOO..O.O.OO.O.O..O.OO
+O...O.........O...OO.OO.O..O......O..O..O
+....OOO.OO..OO..O..O...OOO......OO....OO
+....O...OOO.....O...O...O
+...O.....O.O.....O.....O...O
+....O...O......O.O..OOO...OO
+........OO..O.OO.O.O...OO
+....OOO...O.....O..O.O...OOO
+....O.......OOOO...O.OOOO..O
+....O.....O..O......O....O
+...O.O.....O.O........O..OO
+....O....O.O.OOO.....OO
+.........OO.....O
+...............OO

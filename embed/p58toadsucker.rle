@@ -1,0 +1,17 @@
+#N P58 toadsucker
+#O Bill Gosper
+#C The first known period 58 oscillator
+#C http://www.conwaylife.com/wiki/index.php?title=P58_toadsucker
+x = 67, y = 56, rule = b3/s23
+15bo32bo18b$13b3o32b3o16b$12bo38bo15b$12b2o36b2o15b2$bo60bo4b$obo4bo
+48bo4bobo3b$bo5b2o6b2o30b2o6b2o5bo4b$7bo7b2o30b2o7bo10b3$19b2o22b2o22b
+$7bo11b2o5b2o8b2o5b2o11bo10b$bo5b2o17bo10bo17b2o5bo4b$obo4bo16bobo10bo
+bo16bo4bobo3b$bo22b2o12b2o22bo4b4$14bo5bo5bo2bob2obo2bo5bo5bo17b$13b3o
+3b3o3b2o2bo4bo2b2o3b3o3b3o16b$26bo2bob2obo2bo29b4$13bo7bo20bo7bo16b$
+12bobo5bobo10bo7bobo5bobo15b$13bo7bo10bo2bo6bo7bo16b$16bo7bo7bo2bo9bo
+7bo13b$15bobo5bobo8bo9bobo5bobo12b$16bo7bo20bo7bo13b4$29bo2bob2obo2bo
+26b$16b3o3b3o3b2o2bo4bo2b2o3b3o3b3o13b$17bo5bo5bo2bob2obo2bo5bo5bo14b
+4$4bo22b2o12b2o22bob$3bobo4bo16bobo10bobo16bo4bobo$4bo5b2o17bo10bo17b
+2o5bob$10bo11b2o5b2o8b2o5b2o11bo7b$22b2o22b2o19b3$10bo7b2o30b2o7bo7b$
+4bo5b2o6b2o30b2o6b2o5bob$3bobo4bo48bo4bobo$4bo60bob2$15b2o36b2o12b$15b
+o38bo12b$16b3o32b3o13b$18bo32bo!

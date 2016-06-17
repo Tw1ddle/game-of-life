@@ -1,0 +1,10 @@
+#N 88P28
+#O Karel Suhajda
+#C A period 28 oscillator discovered on June 12, 2007
+#C www.conwaylife.com/wiki/index.php?title=88P28
+x = 36, y = 36, rule = b3/s23
+10b2o12b2o10b$10b2o12b2o10b5$12b2o8b2o12b$11bo2bo6bo2bo11b$11bo12bo11b
+$11bo12bo11b$2o10bo10bo10b2o$2o5b3o16b3o5b2o$6bo3bo14bo3bo6b$6bo22bo6b
+$7bo20bo7b7$7bo20bo7b$6bo22bo6b$6bo3bo14bo3bo6b$2o5b3o16b3o5b2o$2o10bo
+10bo10b2o$11bo12bo11b$11bo12bo11b$11bo2bo6bo2bo11b$12b2o8b2o12b5$10b2o
+12b2o10b$10b2o12b2o!

@@ -1,0 +1,16 @@
+#Life 1.05
+#D Name: Spider
+#D Author: David Bell
+#D A c/5 period 5 orthogonal spaceship found in April 1997. It is the smallest k
+#D nown c/5 spaceship.
+#D www.conwaylife.com/wiki/index.php?title=Spider
+#N
+#P -13 -11
+.........*.......*
+...**.*.*.**...**.*.*.**
+***.*.***.........***.*.***
+*...*.*.....*.*.....*.*...*
+....**......*.*......**
+.**.........*.*.........**
+.**.**...............**.**
+.....*...............*

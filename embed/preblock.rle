@@ -1,0 +1,5 @@
+#N Pre-block
+#C A block parent.
+#C http://www.conwaylife.com/wiki/index.php?title=Pre-block
+x = 2, y = 2, rule = B3/S23
+ob$2o!

@@ -1,0 +1,21 @@
+#N Eureka_synth
+#O Mark D. Niemiec
+#C Glider syntheses of Eureka
+#C http://www.conwaylife.com/wiki/index.php?title=Eureka
+x = 114, y = 114, rule = b3/s23
+25bo3bo84b$26b2obobo82b$25b2o2b2o16bo19bo29bo16b$46bobo17bobo27bobo15b
+$31b3o13bo19bo29bo16b$31bo82b$32bo81b2$72bo41b$71bo42b$71b3o23bo16b$
+96bobo15b$65b2o2b2o26bo16b$66b2obobo42b$65bo3bo44b16$20bo3bo89b$21b2ob
+obo87b$7bo12b2o2b2o11bo14bo14bo14bo14bo14bob$6bobo27bobo12bobo12bobo
+12bobo12bobo12bobo$7bo18b3o8bo14bo14bo14bo14bo14bob$26bo87b$27bo86b2$
+87bo26b$86bo27b$7bo29bo29bo18b3o8bo14bob$6bobo27bobo27bobo27bobo12bobo
+$7bo29bo29bo12b2o2b2o11bo14bob$81b2obobo27b$80bo3bo29b16$20bo3bo89b$
+21b2obobo87b$7bo12b2o2b2o11bo14bo44bo14bob$6bobo27bobo12bobo42bobo12bo
+bo$7bo18b3o8bo14bo44bo14bob$26bo46bo2bo37b$27bo43bobo2bobo35b$72b2o2b
+2o36b6$60b2o26b2o24b$61b2o24b2o25b$60bo28bo24b13$76b2o36b$76b3o35b$76b
+3o35b$75bob2o35b$7bo14bo14bo14bo14bo7b3o4bo14bo14bob$6bobo12bobo12bobo
+12bobo12bobo7bo4bobo12bobo4bo7bobo$7bo14bo14bo14bo14bo14bo14bo3b2ob2o
+6bob$103bo10b4$103bo10b$37bo14bo14bo14bo14bo3b2ob2o6bob$36bobo12bobo
+12bobo7bo4bobo12bobo4bo7bobo$37bo14bo14bo7b3o4bo14bo14bob$12b2o2b2o57b
+ob2o35b$11bobo2bobo57b3o35b$13bo2bo59b3o35b$76b2o36b5$2o26b2o84b$b2o
+24b2o85b$o28bo!

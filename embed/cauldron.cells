@@ -1,0 +1,17 @@
+!Name: Cauldron
+!Author: Robert Wainwright and Don Woods
+!A period 8 oscillator found in 1971.
+!http://www.conwaylife.com/wiki/index.php?title=Cauldron
+.....O
+....O.O
+.....O
+
+...OOOOO
+O.O.....O.O
+OO.O...O.OO
+...O...O
+...O...O
+....OOO
+
+....OO.O
+....O.OO

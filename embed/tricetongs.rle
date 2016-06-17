@@ -1,0 +1,6 @@
+#N Trice tongs
+#O Robert Wainwright
+#C A period 3 oscillator found in February 1982.
+#C www.conwaylife.com/wiki/index.php?title=Trice_tongs
+x = 7, y = 7, rule = B3/S23
+2bo4b$2b3o2b$2o3bob$bobobob$bo5b$2b2o2bo$5b2o!

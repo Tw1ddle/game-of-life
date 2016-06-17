@@ -1,0 +1,6 @@
+#N Lake 2
+#C A 24-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Lake_2
+x = 10, y = 10, rule = B3/S23
+4b2o4b$3bo2bo3b$3bo2bo3b$b2o4b2ob$o8bo$o8bo$b2o4b2ob$3bo2bo3b$3bo2bo3b
+$4b2o!

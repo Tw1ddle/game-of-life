@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: 25P3H1V0.2
+#D Author: Dean Hickerson
+#D A c/3 orthogonal period 3 spaceship with 25 cells in each generation -- the l
+#D owest number of cells known for any c/3 spaceship.
+#D www.conwaylife.com/wiki/index.php?title=25P3H1V0.2
+#N
+#P -8 -2
+.......**.*
+....**.*.**.***
+.****..**......*
+*....*...*...**
+.**

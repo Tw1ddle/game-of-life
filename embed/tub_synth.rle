@@ -1,0 +1,19 @@
+#N Tub_synth
+#O Mark D. Niemiec
+#C Glider synthesis of tubs.
+#C http://home.interserv.com/~mniemiec/3gliders.htm
+x = 147, y = 74, rule = 23/3
+125bo21b$126b2o19b$3bo3bo35bo3bo77b2o20b$4b2obobo34b2obobo97b$3b2o2b2o
+16bo17b2o2b2o16bo39bo18bo4b3o13bob$24bobo37bobo18bobo16bobo17b2o3bo14b
+obo$9b3o13bo23b2o14bo19b2o18bo17bobo4bo14bob$9bo38bobo35bo60b$10bo39bo
+37b2o57b$83bo4bobo56b$83b2o3bo58b$82bobo62b6$129bo17b$127bobo17b$128b
+2o3bo13b$131b2o14b$12bo119b2o13b$11bo34bo100b$11b3o25bo6bobo98b$25bo
+14b2o4b2o17bo39bo21b3o15bob$3b3o2b3o13bobo12b2o23bobo12bo3bo20bobo22bo
+14bobo$5bo2bo16bo10b2o27bo11bobob2o22bo22bo16bob$4bo4bo25bobo35b3o2b2o
+2b2o63b$37bo37bo71b$74bo72b8$b2o39bo104b$obo37bobo43bobo58b$2bo3bo34b
+2o3bo39b2o59b$4b2o38b2o41bo59b$5b2o38b2o100b$82bo44bo19b$83b2o40b2o20b
+$25bo39bo16b2o21bo14b2o4b2o17bob$3bo20bobo16bo20bobo12b2o23bobo12bobo
+22bobo$3b2o20bo17b2o20bo12bobo24bo15bo3bo19bob$2bobo37bobo35bo43b2o21b
+$124bobo20b8$91bo55b$92bo54b$90b3o54b3$91b3o53b$93bo24b2o27b$92bo24bo
+2bo26b$105bo11bo2bo24bob$104bobo11b2o24bobo$105bo39bob$120bo26b$120b2o
+25b$119bobo25b2$67b2o78b$68b2o77b$67bo!

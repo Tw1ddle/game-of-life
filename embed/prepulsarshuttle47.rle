@@ -1,0 +1,8 @@
+#N Pre-pulsar shuttle 47
+#C A period 47 shuttle oscillator that works by hassling two pre-pulsars.
+#C www.conwaylife.com/wiki/index.php?title=Pre-pulsar_shuttle_47
+x = 31, y = 30, rule = b3/s23
+11bo7bo11b$10bobo5bobo10b$11bo7bo11b4$6bo17bo6b$6bo17bo6b$6bo17bo6b$2b
+2o23b2o2b$bobo7b3o3b3o7bobob$bo8bo3bobo3bo8bob$2o27b2o2$7b2o13b2o7b$7b
+2o13b2o7b2$2o27b2o$bo8bo3bobo3bo8bob$bobo7b3o3b3o7bobob$2b2o23b2o2b$6b
+o17bo6b$6bo17bo6b$6bo17bo6b4$11bo7bo11b$10bobo5bobo10b$11bo7bo!

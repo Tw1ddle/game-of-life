@@ -1,0 +1,27 @@
+#Life 1.05
+#D Name: Jolson
+#D Author: Robert Wainwright
+#D A period 15 oscillator consisting of two blocks hassled by two pentadecathlon
+#D s. It was found in November 1984.
+#D www.conwaylife.com/wiki/index.php?title=Jolson
+#N
+#P -6 -9
+.**......**
+*..*....*..*
+*..*....*..*
+*..*....*..*
+.**......**
+.
+.
+.......*
+.....*..*.**
+......**..**
+.
+.
+......****
+.....******
+....********
+...**......**
+....********
+.....******
+......****

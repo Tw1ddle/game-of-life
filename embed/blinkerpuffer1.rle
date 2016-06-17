@@ -1,0 +1,7 @@
+#N Blinker puffer 1
+#O Robert Wainwright
+#C An orthogonal period 8 c/2 blinker puffer. The first blinker puffer to be found.
+#C www.conwaylife.com/wiki/index.php?title=Blinker_puffer_1
+x = 9, y = 18, rule = B3/S23
+3bo5b$bo3bo3b$o8b$o4bo3b$5o4b4$b2o6b$2ob3o3b$b4o4b$2b2o5b2$5b2o2b$3bo
+4bo$2bo6b$2bo5bo$2b6o!

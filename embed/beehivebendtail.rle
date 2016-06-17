@@ -1,0 +1,5 @@
+#N Beehive bend tail
+#C A 12-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Beehive_bend_tail
+x = 5, y = 6, rule = B3/S23
+b2o2b$o2bob$b2obo$4bo$b3ob$bo!

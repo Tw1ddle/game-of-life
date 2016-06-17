@@ -1,0 +1,7 @@
+#N Weekender
+#O David Eppstein
+#C An orthogonal period 7 spaceship with speed 2c/7.
+#C www.conwaylife.com/wiki/index.php?title=Weekender
+x = 16, y = 11, rule = B3/S23
+bo12bob$bo12bob$obo10bobo$bo12bob$bo12bob$2bo3b4o3bo2b$6b4o6b$2b4o4b4o
+2b2$4bo6bo4b$5b2o2b2o!

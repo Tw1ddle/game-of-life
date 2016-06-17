@@ -1,0 +1,6 @@
+#N Trans-queen bee shuttle
+#O Bill Gosper
+#C A period 30 oscillator that is a queen bee shuttle with its blocks offset.
+#C www.conwaylife.com/wiki/index.php?title=Queen_bee_shuttle
+x = 22, y = 7, rule = b3/s23
+9bo12b$7bobo12b$6bobo11b2o$2o3bo2bo11b2o$2o4bobo13b$7bobo12b$9bo!

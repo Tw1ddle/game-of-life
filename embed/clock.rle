@@ -1,0 +1,6 @@
+#N Clock
+#O Simon Norton
+#C A period 2 oscillator that was found in May 1970. This is the fifth or sixth most common oscillator, being about as frequent as the pentadecathlon, but much less frequent than the blinker, toad, beacon or pulsar.
+#C www.conwaylife.com/wiki/index.php?title=Clock
+x = 4, y = 4, rule = B3/S23
+2bob$obob$bobo$bo!

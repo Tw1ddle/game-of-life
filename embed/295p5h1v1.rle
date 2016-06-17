@@ -1,0 +1,17 @@
+#N 295P5H1V1
+#O Jason Summers
+#C The first c/5 diagonal spaceship to be found. Has period 5. Discovered on November 22, 2000.
+#C www.conwaylife.com/wiki/index.php?title=295P5H1V1
+x = 52, y = 52, rule = b3/s23
+13b2o37b$5b2o4b2obobo35b$4b3o4b4o37b$3b2o6b2o5bo33b$2b2o2b2o3bo2bo2bo
+34b$b2o5bo7bo2b2o31b$b2obo3b4o40b$4bo3b2o2b2obo36b$5b3o4bobo37b$6b2o3b
+2o2bo36b$6bo5bo39b$b4obo2bo2bo3bo35b$b3o3b5o2b7obo29b$obo4bo10bo2b2o
+29b$3obo3bo3bo5b3o31b$7bobo2bo7b2o30b$bo3bo5b2o8b2o2bobo24b$4bo7bo8b3o
+bob3o22b$3bo8b3o6bo4bo25b$5bo6bobo5bobo29b$5bo6bob2o3bo4bo27b$13bob4o
+3bo5bo2bo20b$12b2o2b2obobo3bob3o22b$17bo6bo2b3o3b3o16b$20bo2bo6b2o20b$
+16b2o4bo2bo10b2o14b$18bo13bo3bo15b$16b2o4b2o8bo19b$17bo3b3o8bobobobo
+13b$17bo4b2o8bo5b2o12b$24bo8bo2b3o13b$21bo2bo8bo8bo9b$26b4o8b2o3bo8b$
+23bo6b2o6b2o3bo8b$23bo4bo12bo10b$23bo15bo12b$25b2obobo7bo2bo10b$25bo4b
+o9b3o9b$28b3ob2o2bo3bo3bob2o4b$29bo2b2obo5bo3bo2bo3b$37b2o2bo3bo6b$34b
+ob2ob2obo2b2o3bob$31bo5bo3bo7bobo$32b2o12b2o3bo$38bo7b2o4b$39b3o3b2o2b
+o2b$38bo2bob3o6b$38bo4b2o7b$39bo12b$42bo2bo6b$41bo10b$42b2o!

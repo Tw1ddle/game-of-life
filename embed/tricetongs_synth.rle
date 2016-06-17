@@ -1,0 +1,22 @@
+#N Trice tongs_synth
+#O Mark D. Niemiec
+#C Glider synthesis of trice tongs.
+#C http://home.interserv.com/~mniemiec/objname.htm#T
+x = 146, y = 66, rule = 23/3
+40bo105b$40bobo15b2o18b2o18b2o18b2o18b2o6b$35b2o3b2o15bo2bo2b2o12bo2bo
+2b2o12bo2bo2b2o12bo2bo2b2o12bo2bo2b2ob$36b2o5b3o11bo2bo2b2o12bo2bo2b2o
+12bo2bo2b2o12bo2bo2b2o12bo2bo2b2ob$35bo7bo14b2o18b2o18b2o18b2o18b2o6b$
+44bo101b$102b2o18b2o18b2o2b$102bo19bo15b2o2bo3b$105bo11b3o5bo12b2o5bo$
+104b2o13bo4b2o18b2o$78b2o38bo27b$79b2o39b3o23b$78bo4bo36bo25b$82bo38bo
+24b$82b3o61b3$85b2o59b$84b2o60b$86bo59b11$83bo62b$78bo3bo15b2o18b2o4bo
+13b2o6b$79b2ob3o12bo2bo16bo2bo3bobo10bo2bo2b2ob$78b2o17bo2bo16bo2bo3b
+2o11bo2bo2b2ob$35bo62b2o18b2o7b2o9b2o6b$33bobo91bobo16b$4bo17b2o10b2o
+6b2o18b2o18b2o18b2o18b2o3bo14b2o2b$4bobo15bo14b2o3bo15b2o2bo15b2o2bo
+15b2o2bo15b2o2bo15b2o2bo3b$o3b2o19bo10bobo6bo12b2o5bo12b2o5bo12b2o5bo
+12b2o5bo12b2o5bo$b2o21b2o12bo5b2o18b2o18b2o18b2o18b2o18b2o$2o144b2$2o
+144b$b2o143b$o145b3$79bobo64b$80b2o64b$80bo49bo15b$129bo16b$78b2o49b3o
+14b$77bo2bo2b2o18b2o18b2o21b$73bo3bo2bo2b2o16bo2bo16bo2bo2b2o12bo4b$
+74b2o2b2o21b3o17b3o2b2o13b3o2b$73b2o24b2o18b2o7bo10b2o3bob$82b2o16bob
+2o16bob2o16bobobob$78b2o2bo15bobobo15bobobo17bo5b$78b2o5bo12b2o5bo12b
+2o5bo15b2o2bo$84b2o18b2o18b2o18b2o$120bo25b$119b2o25b$119bobo24b$116b
+2o28b$115bobo28b$117bo!

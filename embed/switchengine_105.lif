@@ -1,0 +1,12 @@
+#Life 1.05
+#D Name: Switch engine
+#D Author: Charles Corderman
+#D A methuselah that is unstable by itself, but can be used to make c/12 diagona
+#D l puffers and spaceships.
+#D www.conwaylife.com/wiki/index.php?title=Switch_engine
+#N
+#P -3 -2
+.*.*
+*
+.*..*
+...***

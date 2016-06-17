@@ -1,0 +1,7 @@
+#N Biting off more than they can chew
+#O Peter Raynham
+#C A period 3 oscillator found in July 1972.
+#C www.conwaylife.com/wiki/index.php?title=Biting_off_more_than_they_can_chew
+x = 12, y = 12, rule = B3/S23
+o11b$3o9b$3bo8b$2b2o8b$3b2o7b$4b2o6b$3bo2bo5b$3bo2b2o4b$4b2ob3o2b$8bob
+ob$10bob$10b2o!

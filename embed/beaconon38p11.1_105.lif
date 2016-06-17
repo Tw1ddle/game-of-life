@@ -1,0 +1,21 @@
+#Life 1.05
+#D Name: Beacon on 38P11.1
+#D The smallest known period 22 oscillator, though it is usually considered triv
+#D ial because it consists of a period 2 oscillator and a period 11 oscillator.
+#D www.conwaylife.com/wiki/index.php?title=Beacon_on_38P11.1
+#N
+#P -6 -7
+.**
+.*
+....*
+...**
+*
+*******
+.......*
+**...**.*
+*.....*.*
+.*......*.**
+..*.....*.**
+...*....*
+....*.*.*
+.....**.**

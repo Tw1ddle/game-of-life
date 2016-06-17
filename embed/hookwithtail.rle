@@ -1,0 +1,5 @@
+#N Hook with tail
+#C An 8-cell still life that went for a long time with no well-established name.
+#C http://www.conwaylife.com/wiki/index.php?title=Hook_with_tail
+x = 5, y = 4, rule = B3/S23
+2o3b$bo3b$bob2o$2bobo!

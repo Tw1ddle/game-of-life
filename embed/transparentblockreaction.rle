@@ -1,0 +1,6 @@
+#N Transparent block reaction
+#O David Buckingham
+#C A reaction in which a B-heptomino passes through a block.
+#C www.conwaylife.com/wiki/index.php?title=Transparent_debris_effect
+x = 14, y = 4, rule = 23/3
+o13b$2o10b2o$b2o9b2o$2o!

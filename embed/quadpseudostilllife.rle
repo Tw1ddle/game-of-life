@@ -1,0 +1,7 @@
+#N Quad pseudo still life
+#O Gabriel Nivasch
+#C A 34-cell pseudo still life that can be decomposed into four stable subpatterns, but can not be decomposed into two or three stable subpatterns.
+#C http://www.conwaylife.com/wiki/index.php?title=Quad_pseudo_still_life
+x = 11, y = 9, rule = B3/S23
+8b2ob$3b2obo2bob$3bob2obo2b$8b2ob$3bob2o3bo$b3ob2ob2ob$o7bo2b$b3ob2obo
+2b$3bobobo!

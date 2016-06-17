@@ -1,0 +1,5 @@
+#N Block and cap
+#C A 12-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Block_and_cap
+x = 4, y = 6, rule = B3/S23
+b2ob$o2bo$4o2$2o2b$2o!

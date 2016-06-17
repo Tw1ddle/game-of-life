@@ -1,0 +1,18 @@
+!Name: Roteightor
+!Author: Robert Wainwright
+!A period 8 oscillator that was found in 1972.
+!www.conwaylife.com/wiki/index.php?title=Roteightor
+.O
+.OOO........OO
+....O.......O
+...OO.....O.O
+..........OO
+
+......OO
+.....OO.O
+......OOO
+..OO...OOO
+.O.O.....OO
+.O.......O
+OO........OOO
+............O

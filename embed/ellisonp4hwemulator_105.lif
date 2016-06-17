@@ -1,0 +1,16 @@
+#Life 1.05
+#D Name: Ellison p4 HW emulator
+#D Author: Scot Ellison
+#D A period 4 oscillator that provides a spark like a heavyweight spaceship.
+#D www.conwaylife.com/wiki/Ellison_P4_HW_emulator
+#N
+#P -12 -4
+...........**
+....*...*......*...*
+...*.*............*.*
+...*.*............*.*
+**.*.*.**********.*.*.**
+**.*................*.**
+...*................*
+...*.*....**.*....*.*
+....**....*.**....**

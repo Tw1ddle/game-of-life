@@ -1,0 +1,9 @@
+#N 21P2_synth
+#O Mark D. Niemiec
+#C An 11-glider synthesis of a 16-bit period 2 oscillator
+#C http://www.conwaylife.com/wiki/index.php?title=21P2
+x = 41, y = 27, rule = b3/s23
+23bo17b$22bo18b$22b3o16b2$14bo26b$12b2o27b$13b2o3bo22b$18bobo20b$18b2o
+6bo10bo3b$12b2o10b2o9b3o3b$11b2o12b2o7bo5bo$13bo20bob5o$28bo6bo5b$b2o
+24bo10bo2b$obo24b3o7b2o2b$2bo38b3$21bo4b2o13b$20b2o3b2o14b$20bobo4bo
+13b$9bo31b$9b2o30b$8bobo30b$20bo20b$19b2o20b$19bobo!

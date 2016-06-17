@@ -1,0 +1,15 @@
+#N 7-engine Cordership
+#O Dean Hickerson
+#C A diagonal period 96 c/12 Cordership that uses 7 switch engines, found on August 23, 1993.
+#C www.conwaylife.com/wiki/index.php?title=7-engine_Cordership
+x = 71, y = 65, rule = 23/3
+27bobo41b$26bo44b$27bo2bo40b$29bobo39b$32bo11b3o24b$31b3o37b$31bo39b$
+29b2o40b$31bo13b3o23b$14bo14bo2bo12b3o5b2o16b$13bobo13bobo13b2o6b2o16b
+$29bo14bo26b$13bo2bo3bob3o17b2o2bo24b$15bo4bo22bo3bo23b$16bob2obobo19b
+o2bo24b$17b2o3bo21b3o24b$18bo52b$61b2o8b$61b2o8b2$25bo45b$25bo5b3o37b$
+24bobo3b2o2bo36b$25bo3bo5bo35b$25bo3bo41b$30bo2b2o25bo8b2o$bobo27b2o
+26bobo7b2o$o58bobo9b$bo2bo54bo2bo8b$3bobo54bobo8b$6bo56bo7b$5b3o54b2o
+7b$5bo56bo8b$3b2o66b$5bo65b$3bo2bo31bo32b$3bobo31bob2o30b$3bo36b2o29b$
+35bo6bo28b$34bo3b4o29b$35bo4bo30b4$41b3o27b$40bo3bo26b$41b2o28b$7b2o
+34b2ob2o23b$7b2o36b2o24b3$34bo36b$33bobo35b$33bobo35b$33bo2bo34b$15b2o
+17bobo34b$15b2o20bo33b$36b2o33b$36bo34b5$23b2o46b$23b2o!

@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: Weekender
+#D Author: David Eppstein
+#D A period 7 spaceship with speed 2c/7.
+#D www.conwaylife.com/wiki/index.php?title=Weekender
+#N
+#P -8 -17
+.*............*
+.*............*
+*.*..........*.*
+.*............*
+.*............*
+..*...****...*
+......****
+..****....****
+.
+....*......*
+.....**..**

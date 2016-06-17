@@ -1,0 +1,8 @@
+#N Fumarole on 34P13
+#O Nicolay Beluchenko
+#C The smallest known non-trivial period 65 oscillator
+#C http://www.conwaylife.com/wiki/index.php?title=Fumarole_on_34P13
+x = 21, y = 18, rule = b3/s23
+19b2o$15b3o2bo$9b3o6b2ob$14bo6b$9bo4bo6b$8b2o8b2ob$10bo4b3o2bo$7bo11b
+2o$7bo3bo9b$5b2o14b$3bo5b3o2b2o5b$ob2o4bo5b2o5b$o3bo3bo12b$o5bobo12b3$
+8b2o11b$8b2o!

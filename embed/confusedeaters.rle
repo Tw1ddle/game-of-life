@@ -1,0 +1,7 @@
+#N Confused eaters
+#O David Buckingham
+#C A period 4 oscillator found no later than 1972.
+#C www.conwaylife.com/wiki/index.php?title=Confused_eaters
+x = 11, y = 11, rule = B3/S23
+o10b$3o8b$3bo7b$2bo8b$2bo2bo5b$5bo5b$3bobo5b$3b2o2b2o2b$7bobob$9bob$9b
+2o!

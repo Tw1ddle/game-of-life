@@ -1,0 +1,14 @@
+#N Pond on pond_synth
+#O Mark D. Niemiec
+#C Glider syntheses of pond on ponds.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 105, y = 70, rule = 23/3
+78bo26b$79bo3bo18b2ob$77b3ob2o18bo2bo$82b2o17bo2bo$102b2ob2$102b2ob$
+82b2o17bo2bo$77b3ob2o18bo2bo$79bo3bo18b2ob$78bo26b15$40bo43bo20b$41bo
+40bobo17b2ob$39b3o41b2o16bo2bo$101bo2bo$37b2o25bo19bo17b2ob$36bobo25bo
+19bo20b$38bo25bo19bo17b2ob$101bo2bo$83b2o16bo2bo$82bobo17b2ob$84bo20b
+21$22b2o18b2o18b2o18b2o18b2ob$bobo17bo2bo16bo2bo16bo2bo16bo2bo16bo2bo$
+2b2o17bo2bo16bo2bo16bo2bo16bo2bo16bo2bo$2bo19b2o18b2o18b2o18b2o18b2ob
+2$b2o99b2ob$obo98bo2bo$2bo59b2o18b2o17bo2bo$41b2o18bo2bo12b3obo2bob3o
+13b2ob$40bobo19b2o15bo2b2o2bo18b$42bo35bo8bo17b$44b2o59b$44bobo58b$44b
+o!

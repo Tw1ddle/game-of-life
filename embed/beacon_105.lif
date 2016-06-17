@@ -1,0 +1,11 @@
+#Life 1.05
+#D Name: Beacon
+#D Author: John Conway
+#D The third most common oscillator (after the blinker and toad).
+#D www.conwaylife.com/wiki/index.php?title=Beacon
+#N
+#P -2 -2
+**
+*
+...*
+..**

@@ -1,0 +1,5 @@
+#N Grin
+#C A common parent of the block.
+#C http://www.conwaylife.com/wiki/index.php?title=Grin
+x = 4, y = 2, rule = B3/S23
+o2bo$b2o!

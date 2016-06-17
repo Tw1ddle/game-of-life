@@ -1,0 +1,10 @@
+#N 104P177
+#O Karel Suhajda
+#C A period 177 oscillator discovered by Karel Suhajda in June 2007
+#C http://www.conwaylife.com/wiki/index.php?title=104P177
+x = 46, y = 46, rule = b3/s23
+16bo12bo16b$9b2o24b2o9b$8b3o3b2o14b2o3b3o8b$14b2ob2o8b2ob2o14b$16bo12b
+o16b4$2bo40bo2b$b2o40b2ob$b2o40b2ob4$2b2o38b2o2b$2b2o38b2o2b$o3bo36bo
+3bo$3bo38bo3b$3bo38bo3b9$3bo38bo3b$3bo38bo3b$o3bo36bo3bo$2b2o38b2o2b$
+2b2o38b2o2b4$b2o40b2ob$b2o40b2ob$2bo40bo2b4$16bo12bo16b$14b2ob2o8b2ob
+2o14b$8b3o3b2o14b2o3b3o8b$9b2o24b2o9b$16bo12bo!

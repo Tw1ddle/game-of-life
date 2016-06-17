@@ -1,0 +1,6 @@
+#N Babbling brook 1
+#O Dean Hickerson
+#C A period 4 oscillator that was discovered in August 1997. It is the only known babbling brook with more than 4 cells in its rotor. 
+x = 16, y = 10, rule = B3/S23
+7bo8b$5b3o4b2o2b$4bo3b2o2bo3b$bo2bob2o2bobo3b$obobo4b2o2b2ob$b2o2b2o4b
+obobo$3bobo2b2obo2bob$3bo2b2o3bo4b$2b2o4b3o5b$8bo!

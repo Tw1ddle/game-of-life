@@ -1,0 +1,16 @@
+!Name: 101
+!Author: Achim Flammenkamp
+!Found in August 1994.
+!The name was suggested by Bill Gosper, noting that the phase shown below displays the period in binary.
+....OO......OO
+...O.O......O.O
+...O..........O
+OO.O..........O.OO
+OO.O.O..OO..O.O.OO
+...O.O.O..O.O.O
+...O.O.O..O.O.O
+OO.O.O..OO..O.O.OO
+OO.O..........O.OO
+...O..........O
+...O.O......O.O
+....OO......OO

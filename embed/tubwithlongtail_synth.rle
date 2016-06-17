@@ -1,0 +1,26 @@
+#N Tub with long tail_synth
+#O Mark D. Niemiec
+#C Glider synthesis of tub with long tail.
+#C http://home.interserv.com/~mniemiec/objname.htm#T
+x = 145, y = 105, rule = 23/3
+83bobo59b$83b2o60b$84bo60b$80bo48bo15b$81bo38bo6b2o16b$79b3o39b2o5b2o
+15b$120b2o23b$101b2o38b2o2b$102bo18bo3b2o15bo2b$101bo19b2o2bobo13bo3b$
+79b2o20bobo16bobo2bo15bobob$80b2o20bobo37bobo$79bo3b3o17bo39bob$83bo
+61b$84bo38b2o20b$78b3o43b2o19b$80bo42bo21b$79bo47b3o15b$127bo17b$128bo
+16b14$9bo73bo61b$o6b2o37bobo32bobo61b$b2o5b2o36b2o30b2o2b2o61b$2o45bo
+31b2o64b$21b2o18b2o18b2o15bo22b2o18b2o18b2o2b$bo3b2o15bo19bo5b2o12bo
+19bobo17bo19bo19bo2b$b2o2bobo13bo19bo5b2o12bo20b2o17bo19bo19bo3b$obo2b
+o15bobo17bobo5bo11bobo19bo17b2o18b2o18bobob$22b2o18b2o18bobo21bo29bo
+13bo11bobo$53bo9bo21b2o30b2o6b2o2bo13bob$45bo7bobo29bobo28b2o6b2o3b3o
+13b$45b2o6b2o71bo6b3o9b$44bobo3b2o66bo14bo11b$50bobo65b2o8b2o4bo10b$
+50bo66bobo4b2o2bobo14b$125b2obo16b$124bo20b10$117bo27b$107bo8bo28b$
+107bobo6b3o26b$107b2o36b2$109bo35b$109b2o6b2o26b$108bobo5b2ob2o24b$72b
+o44b4o20b2o2b$72bobo17b2o18b2o4b2o22bo2b$68b3ob2o17bo2bo16bo2bo26bo3b$
+70bo20bobo17bobo27bobob$69bo22bo19bo29bobo$116bo26bob$116bobo26b$113bo
+2b2o27b$112b2o31b$112bobo30b12$121bo23b$120bo24b$82bobo35b3o22b$82b2o
+42bo18b$49bo33bo33bobo6bobo16b$48bo32bo36b2o6b2o17b$48b3o31bo35bo26b$
+66b2o12b3o3b2o57b$47bo19bo19bo14b2o18b2o21b$46b2o16b3o17b3o16bo19bo17b
+2o2b$bo3bo34b2o4bobo11b2o2bo15b2o2bo17bo19bo19bo2b$2b2obobo33bo19bo19b
+o5b3o11bo19bo19bo3b$b2o2b2o16bo17bobo17bobo17bobo3bo13bobo17bobo17bobo
+b$22bobo17bobo17bobo17bobo3bo13bobo17bobo17bobo$7b3o13bo19bo19bo19bo
+19bo19bo19bob$7bo137b$8bo!

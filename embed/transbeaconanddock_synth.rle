@@ -1,0 +1,13 @@
+#N Trans-beacon and dock_synth
+#C Glider syntheses of trans-beacon and dock
+x = 120, y = 53, rule = b3/s23
+91bo28b$90bo29b$90b3o27b2$39b2o79b$38b2o48bobo5bo23b$35b2o3bo48b2o4bo
+24b$34bobo8bo14bo28bo5b3o22b$36bo7b2o14bobo10b2o25bo12b2o5b$44bobo13b
+2o11bo12b2o4b2o5b2o12bo6b$76bo10b2o4b2o4bobo14bo3b$75b2o9bo5bo22b2o3b
+2$75b4o36b4ob$74bo4bo13b2o4b2o13bo4bo$74b2o2b2o14b2o2b2o14b2o2b2o$93bo
+6bo19b3$57bo62b$50b3o3b2o62b$50bo5bobo61b$51bo68b2$41b3o76b$43bo76b$
+42bo77b12$5bobo15b2o18b2o18b2o18b2o28b2o5b$5b2o16bo19bo19bo19bo9bo19bo
+6b$2bo3bo19bo19bo19bo19bo5bo23bo3b$obo22b2o18b2o18b2o18b2o5b3o20b2o3b$
+b2o117b$115b4ob$b2o61b2o18b2o9bo18bo4bo$obo40b3o18b2o18b2o7b2o19b2o2b
+2o$2bo42bo48b2o24b$44bo75b$46b3o47b2o22b$46bo49bobo21b$47bo48bo8bo14b$
+104b2o14b$104bobo!

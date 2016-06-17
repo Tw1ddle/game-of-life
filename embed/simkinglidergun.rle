@@ -1,0 +1,7 @@
+#N Simkin glider gun
+#O Michael Simkin
+#C A true period 120 glider gun, found on April 28, 2015.
+#C www.conwaylife.com/wiki/Simkin_glider_gun
+x = 33, y = 21, rule = B3/S23
+2o5b2o$2o5b2o2$4b2o$4b2o5$22b2ob2o$21bo5bo$21bo6bo2b2o$21b3o3bo3b2o$
+26bo4$20b2o$20bo$21b3o$23bo!

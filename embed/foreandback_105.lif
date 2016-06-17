@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Fore and back
+#D Author: Achim Flammenkamp
+#D A period 2 oscillator found in July 1994.
+#D www.conwaylife.com/wiki/index.php?title=Fore_and_back
+#N
+#P -3 -3
+**.**
+**.*.*
+......*
+***.***
+*
+.*.*.**
+..**.**

@@ -1,0 +1,6 @@
+#N Achim's p16
+#O Achim Flammenkamp
+#C A period 16 oscillator that was found in July 1994.
+x = 13, y = 13, rule = B3/S23
+7b2o4b$7bobo3b$2bo4bob2o2b$b2o5bo4b$o2bo9b$3o10b2$10b3o$9bo2bo$4bo5b2o
+b$2b2obo4bo2b$3bobo7b$4b2o!

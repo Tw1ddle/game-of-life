@@ -1,0 +1,9 @@
+#N Hebdarole
+#O Noam Elkies
+#C A period 7 oscillator found in November 1997.
+#C www.conwaylife.com/wiki/index.php?title=Hebdarole
+x = 24, y = 18, rule = B3/S23
+4b2o3bo4bo3b2o4b$bo2bo2bo2bo2bo2bo2bo2bob$obobob2obo4bob2obobobo$bo2bo
+2bobob2obobo2bo2bob$4b2o3b2o2b2o3b2o4b$8bo6bo8b$7bo8bo7b$6bo10bo6b$7b
+2o6b2o7b2$3b2o2b2o6b2o2b2o3b$3bo2bo10bo2bo3b$4bobo3bo2bo3bobo4b$3b2obo
+bob4obobob2o3b$7b2o6b2o7b$9b2o2b2o9b$9bo2bobo9b$10b2o!

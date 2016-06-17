@@ -1,0 +1,14 @@
+#N Snark_synth
+#O Ivan Fomichev
+#C Continuous synthesis of the snark, with improvements by Mark Niemiec.
+#C http://www.conwaylife.com/wiki/Snark
+x = 152, y = 148, rule = B3/S23
+130bo8bo$130bobo4b2o12bo$130b2o6b2o9b2o$150b2o11$127bo$125b2o$126b2o2$
+13bobo$14b2o$14bo2$114bo$113bo$2bo110b3o$obo$b2o7$4bobo8bo85bo$5b2o9b
+2o81b2o$5bo9b2o83b2o4$94bo$93bo$93b3o5$29bo$30b2o54bobo$29b2o55b2o$87b
+o$35bo61bo5bo$33bobo56bo3bo5bo$34b2o54b2o4b3o3b3o$91b2o2$37bo$35bobo$
+36b2o18$74bo$72bobo$69bo3b2o$67bobo$68b2o3$81b3o$81bo$82bo$74b2o$74bob
+o$66bo7bo$66b2o$65bobo3$63b2o$64b2o6b2o$63bo8bobo$72bo4$72b2o$71b2o$
+73bo$100bo$99b2o$99bobo4$27bo$27b2o$26bobo6$19bo9b3o$19b2o10bo$18bobo
+9bo61b2o$92bobo$23b2o67bo$22bobo$24bo7$22b2o$23b2o$22bo110bo$132b2o$
+132bobo5$142b2o$142bobo$142bo3$117b3o$117bo$4b2o112bo$3bobo$5bo!

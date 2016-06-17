@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: Brain
+#D Author: David Bell
+#D An orthogonal period 3 spaceship.
+#D www.conwaylife.com/wiki/index.php?title=Brain
+#N
+#P -8 -5
+.***.........***
+*.*.**.....**.*.*
+*.*.*.......*.*.*
+.*.**.**.**.**.*
+.....*.*.*.*
+...*.*.*.*.*.*
+..**.*.*.*.*.**
+..***..*.*..***
+..**..*...*..**
+.*....**.**....*
+.*.............*

@@ -1,0 +1,20 @@
+#N 13-engine Cordership
+#O Dean Hickerson
+#C The first c/12 diagonal spaceship to be found
+x = 97, y = 98, rule = b3/s23
+54b3o40b$53bo2bo40b$52bo4bo39b$52bo2b3o39b$52bo5bo38b$53b7o37b$59bo37b
+$59bo37b$57b2o12b2o24b$71b2o24b7$79b2o16b$79b2o16b$36b3o58b$35bo3bo57b
+$34bo4bo57b$34bo2bobo35bo21b$34b2obobo34bo22b$36b2obo2bo32bo21b$38b2o
+2bo44b2o8b$39b3o45b2o8b$28b3o38bo27b$27bo2bo36bobo27b$26bo4bo34b2o29b$
+26bo2b3o65b$26bo5bo14b3o7bobo37b$27b7o16b3o5bo38b$33bo16b3o42b2o$33bo
+17bo34bo8b2o$31b2o53bo10b$86bo10b$87b2o8b$87b3o7b$39bo47b2o8b$39bo57b$
+39bo57b$40b2o55b$40b3o54b$40b2o44bo10b$10b3o74bo9b$9bo3bo72bo10b$8bo4b
+o52b2o29b$8bo2bobo52b2o29b$8b2obobo25bo27bo29b$10b2obo2bo21bobo56b$12b
+2o2bo21bo2bo55b$13b3o81b$2b3o62b3o7bobo17b$bo2bo32bo2bo29b3o5bo18b$o4b
+o31b2ob3o27b3o24b$o2b3o33b2o2bo27bo25b$o5bo27b2o4bo2bo53b$b7o22b2o3bo
+4bobo12b2o40b$7bo11b3o7bo6bo18b3o39b$7bo14b3o5bo3b5o21bo36b$5b2o15b3o
+6bo3bo24bo36b$23bo11bo2bo21bo36b$36b2o23b2o34b$61b3o33b$4bo56b2o34b$3b
+obo91b$2b2obo91b$2b2o93b$3b3o91b$4bo55bo36b$5bo2bo52bo35b$2bo6bo50bo
+36b$2bo6bo87b$2bo4b3o87b5$41b3o7bobo43b$44b3o5bo44b$7b2o35b3o50b$7b2o
+36bo51b4$34bo62b$34bo62b$34bo62b$15b2o18b2o60b$15b2o18b3o59b$35b2o60b
+5$34bo62b$23b2o10bo61b$23b2o9bo!

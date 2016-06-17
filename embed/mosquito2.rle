@@ -1,0 +1,12 @@
+#N Mosquito 2
+#O Nick Gotts
+#C An 85-cell quadratic growth pattern
+#C http://www.conwaylife.com/wiki/index.php?title=Mosquito_2
+x = 1644, y = 315, rule = b3/s23
+1510b4o130b$1509bo3bo130b$1513bo130b$1512bo131b29$1640b4o$1639bo3bo$
+1643bo$1642bob3$1640bo3b$1641bo2b$1641bo2b$1640b2o2b$1639bo4b4$1640b4o
+$1639bo3bo$1643bo$1642bob126$94bob3o1545b$95b4o1545b$94bo1549b$99bo
+1544b29$b4o1639b$o3bo1639b$4bo1639b$3bo1640b60$411b6o1227b$412b3o1229b
+$415bo1228b15$393bo1250b$388bo1255b$389b4o1251b$388bob3o1251b6$203bo
+1440b$204bo1439b$199bo4bo1439b$200b5o1439b12$173b4o1467b$172bo3bo1467b
+$176bo1467b$175bo!

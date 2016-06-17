@@ -1,0 +1,12 @@
+#N 35P52_synth
+#C A 17-glider synthesis of 35P52
+#C http://www.conwaylife.com/wiki/index.php?title=35P52
+x = 94, y = 79, rule = b3/s23
+62bo31b$61bo32b$61b3o30b6$56bobo35b$56b2o36b$3bo53bo36b$bobo90b$2b2o
+90b2$15bo78b$13bobo78b$14b2o78b$46bo47b$44b2o48b$36bobo6b2o47b$36b2o
+56b$37bo56b2$24bo69b$15bo6b2o70b$13bobo7b2o10bobo56b$2bo11b2o19b2o57b$
+obo33bo57b$b2o91b8$79bo14b$79b3o12b$82bo9b2o$81b2o9bob$90bobob$85b2o3b
+2o2b$20bo63bo9b$20bobo60bo10b$12bo7b2o62bobo7b$13b2o69bo9b$12b2o80b$
+79b2o13b$78bobo13b$78bo9b2o4b$77b2o9bo5b$89b3o2b$29bo61bo2b$28bo65b$
+28b3o63b5$35b3o56b$35bo58b$36bo57b$24b2o68b$25b2o67b$24bo69b3$7bo86b$
+7b2o85b$6bobo85b7$41b2o51b$41bobo50b$41bo!

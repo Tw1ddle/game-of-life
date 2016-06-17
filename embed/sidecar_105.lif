@@ -1,0 +1,17 @@
+#Life 1.05
+#D Name: Sidecar
+#D Author: Hartmut Holzwart
+#D A tagalong for a heavyweight spaceship that was found in 1992.
+#D www.conwaylife.com/wiki/index.php?title=Sidecar
+#N
+#P -18 -5
+.*
+*.....*
+*.....*
+*****.*
+.
+....**
+..*....*
+.*
+.*.....*
+.******

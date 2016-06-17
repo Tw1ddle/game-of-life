@@ -1,0 +1,10 @@
+#N Beacon and two tails_synth
+#O Mark D. Niemiec
+#C Glider synthesis of beacon and two tails.
+#C http://home.interserv.com/~mniemiec/p2osc.htm
+x = 106, y = 18, rule = 23/3
+38bo43bo23b$36bobo41bobo23b$37b2o42b2o23b2$38bo19b2o18b2o3bo22b$38b2o
+17bo2bo16bo2bo2bobo20b$37bobo17bo2bo16bo2bo2b2o18bo2b$58b2o14bo3b2o21b
+3o2b$75bo24bo5b$4bo17b2o18b2o18b2o9b3o6b2o16bob2o2b$4bobo15bo19bo19bo
+14b3o2bo16b2obo3b$o3b2o19bo19bo19bo13bo5bo19bo$b2o21b2o18b2o18b2o12bo
+5b2o18b2o$2o104b2$2o104b$b2o103b$o!

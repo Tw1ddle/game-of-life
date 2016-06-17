@@ -1,0 +1,20 @@
+#Life 1.05
+#D Name: Unicycle
+#D A period 6 oscillator made up of four copies of unix.
+#D www.conwaylife.com/wiki/index.php?title=Unicycle
+#N
+#P -7 -7
+..**...****
+..**..*....*
+**.*..*...*.*
+***....*...*.*
+.............*
+.............*
+.**.......*..*
+*..*.......**
+*
+*
+*.*...*....***
+.*.*...*..*.**
+..*....*..**
+...****...**

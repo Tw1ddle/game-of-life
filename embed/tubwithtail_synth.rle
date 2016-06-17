@@ -1,0 +1,18 @@
+#N Tub with tail_synth
+#O Mark D. Niemiec
+#C Glider syntheses of tub with tails.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 107, y = 104, rule = 23/3
+100b2o5b$99bo2bo4b$76bo23b2o5b$74bobo30b$obo38bo33b2o30b$b2o39b2o38bo
+24b$bo4bo34b2o40bo23b$5bo16b2o21bo16b2o13bo3b3o18b2o3b$5b3o15bo21bobo
+15bo14bo24bo3b$23bobo19b2o16bobo10b3o24bobob$24bobo37bobo13b2o22bobo$
+25bo39bo15b2o22bob$80bo26b$b2o39bo64b$2b2o2bo36bo63b$bo3bo35b3o63b$5b
+3o99b$40b3o64b$40bo66b$41bo65b3$59bo47b$60bo46b$58b3o46b12$26bo80b$27b
+o19bo39bo14b2o3b$25b3o18bobo37bobo14bo3b$46bobo28bo8bobo14bobob$22b3o
+22bo29bobo7bo16bobo$24bo52b2o26bob$23bo83b$74bobo30b$75b2o30b$75bo31b
+22$62b2o18b2o18b2o3b$63bo19bo19bo3b$42b2o19bobo17bobo6bo10bobob$43b2o
+19b2o18b2o6bobo9bobo$42bo3b2o44b2o11bob$46bobo40b2o16b$46bo41b2o17b$
+90bo16b$84b2o21b$83bobo21b$85bo21b11$79bo27b$78bo28b$78b3o26b2$75bobo
+29b$76b2o5bo23b$76bo6bobo21b$83b2o22b2$43bo3bo29bobo22b2o3b$44b2obobo
+28b2o23bo3b$43b2o2b2o16bo12bo6bo17bobob$64bobo17bobo17bobo$49b3o13bo
+19bo19bob$49bo57b$50bo!

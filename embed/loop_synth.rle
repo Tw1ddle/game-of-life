@@ -1,0 +1,18 @@
+#N Loop_synth
+#O Mark D. Niemiec
+#C Glider synthesis of loop.
+#C http://home.interserv.com/~mniemiec/objname.htm#C
+x = 79, y = 111, rule = 23/3
+13bo42bo22b$14bo39bobo7bo14b$12b3o40b2o6bo10b2ob2o$63b3o9bobob$10b2o
+63bo2bo$9bobo24b3o17b3o2b2o13b2ob$11bo48b2o17b$62bo16b10$11b2o66b$10bo
+bobo64b$12bobobo62b$14b2o63b$61bo17b$34b2ob2o15b2ob2obo13b2ob2o$18b2o
+15bobo17bobo2b3o12bobob$18bobo14bobo17bobo17bo2bo$18bo17bo19bo19b2ob$
+62bo16b$60b2o17b$57b2o2b2o16b$57bobo19b$57bo21b3$52bo26b$51bo27b$51b3o
+25b2$60bo18b$59bo19b$59b3o17b2$50b2o27b$51b2o9b3o9b2ob2o$50bo5bobo3bo
+12bobob$57b2o4bo11bo2bo$57bo18b2ob2$56b2o21b$57b2o20b$56bo22b12$58bo
+20b$56bobo20b$57b2o20b5$40bo38b$40b2o4bo32b$39bobo5bo31b$45b3o31b$74b
+2ob2o$26b2o28b2o6bo10bobob$5b2o18bo2bo15b3o8bo2bo4b2o10bo2bo$4bobo19b
+2o18bo9b2o5bobo10b2ob$6bo38bo33b$8b2o69b$8bobo68b$8bo70b12$44bo34b$44b
+obo32b$44b2o33b5$62bo16b$56bo4b2o16b$55bo5bobo15b$55b3o21b$74b2ob2o$
+25b2o11bo6b2o28bobob$3bo21bobo10b2o5bobo8b3o16bo2bo$bobo3bo18b2o9bobo
+6b2o8bo19b2ob$2b2o2b2o49bo21b$6bobo70b$bo77b$2o77b$obo!

@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Silver's p5
+#D Author: Stephen Silver
+#D A period 5 oscillator found in February 2000.
+#D www.conwaylife.com/wiki/index.php?title=Silver's_p5
+#N
+#P -5 -3
+**
+*
+.*..*
+...**
+...*...*.**
+..*....**.*
+..**

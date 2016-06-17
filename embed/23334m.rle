@@ -1,0 +1,6 @@
+#N 23334M
+#O Tomas Rokicki
+#C A methuselah with lifespan 23334 found on February 20, 2005.
+#C www.conwaylife.com/wiki/index.php?title=23334M
+x = 5, y = 8, rule = B3/S23
+2bo2b$2o3b$bo3b$o2bob$4bo$bo2bo$2bobo$bo!

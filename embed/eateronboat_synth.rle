@@ -1,0 +1,21 @@
+#N Eater on boat_synth
+#O Mark D. Niemiec
+#C Glider synthesis of eater on boat.
+#C www.conwaylife.com/wiki/index.php?title=Eater_on_boat
+x = 143, y = 100, rule = 23/3
+79bobo61b$79b2o62b$80bo62b2$79b3o61b$79bo63b$80bo45bobo14b$118bo7b2o
+15b$119b2o6bo15b$118b2o23b$101bo39bob$100bobo37bobo$100b2o24bo13b2ob$
+98b2o25b2o11b2o3b$99bo25bobo11bo3b$99bobo16b2o19bobob$100b2o17b2o19b2o
+b$118bo3b2o19b$122bobo18b$122bo20b8$66b2o75b$65bobo75b$67bo27bo47b$94b
+2o47b$94bobo46b16$55b2o18b2o66b$34bobo17bo2bo16bo2bo65b$bobo31b2o17bo
+2bo16bo2bo65b$b2o18bo13bo5bo13b2o4bo13b2o4bo19bo19bo19bob$2bo17bobo17b
+obo17bobo8bo8bobo17bobo17bobo17bobo$20b2o12b2o4b2o18b2o10bo2bo4b2o18b
+2o18b2o5bo12b2ob$3o30bobo34b3o2b2o21b2o11bo6b2o7bobo8b2o3b$2bo32bo38bo
+bo20bobo12b2o3bobo7b2o10bo3b$bo61b2o18b2o13bo12b2o5bo20bobob$43b2o17bo
+2bo12b2o2bo2bo38bo15b2ob$38b3ob2o18bo2bo13b2obo2bo28bobo6b2o18b$40bo3b
+o18b2o13bo4b2o30b2o6bobo17b$39bo75bo27b$79b2o62b$79bobo31b2o28b$79bo
+34b2o27b$113bo29b11$114bo28b$115b2o26b$114b2o27b2$120bo22b$120bobo20b$
+120b2o21b$117bo25b$118b2o23b$117b2o24b2$115bo27b$116bo8bo17b$114b3o6b
+2o18b$124b2o17b2$141bob$140bobo$140b2ob$98b2o11bo6b2o18b2o3b$99bo11b2o
+6bo7b2o10bo3b$78b2o19bobo8bobo6bobo4b2o11bobob$79b2o19b2o18b2o6bo11b2o
+b$78bo3b2o59b$82bobo58b$82bo!

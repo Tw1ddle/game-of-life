@@ -1,0 +1,11 @@
+#Life 1.05
+#D Name: Blinker fuse
+#D A fuse that burns cleanly through blinkers.
+#D www.conwaylife.com/wiki/index.php?title=Blinker_fuse
+#N
+#P -14 -3
+**..*.**
+*****.*.*
+........*.***.***.***.***
+*****.*.*
+**..*.**

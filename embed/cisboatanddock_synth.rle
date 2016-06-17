@@ -1,0 +1,20 @@
+#N Cis-boat and dock_synth
+#O Mark D. Niemiec
+#C Glider syntheses of cis-boat and docks.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 115, y = 101, rule = 23/3
+91bo23b$90bo24b$50bobo37b3o22b$47bo2b2o17b2o2b2o13bo20b2o2b2o$45bobo3b
+o17bo4bo11bobo20bo4bo$46b2o22b4o13b2o21b4ob$52b3o60b$54bo15b2o38b2o3b$
+53bo16bobo37bobo2b$71bo18b2o19bo3b$48b2o41b2o22b$49b2o39bo24b$48bo37b
+2o27b$87b2o26b$86bo28b17$49bo47bo17b$50bo19bo19bo6bobo15b$48b3o18bobo
+17bobo5b2o10b2o2b2o$69bobo17bobo2b2o13bo4bo$45b3o22bo19bo3bobo13b4ob$
+47bo46bo20b$46bo63b2o3b$110bobo2b$89b3o19bo3b$91bo23b$90bo24b11$18bobo
+94b$18b2o95b$19bo95b4$95bo19b$94bo20b$31bo19bo19bo19bo2b3o18b$30bobo
+17bobo17bobo17bobo22b$30bobo17bobo17bobo17bobo22b$31bo19bo19bo19bo17b
+2o2b2o$10bo3bo21b3o17b3o17b3o17b3o10bo4bo$8bobob2o96b4ob$9b2o2b2o100b$
+73bo19bo16b2o3b$73bo19bo16bobo2b$73bo19bo17bo3b2$49b2o64b$48bobo64b$
+50bo64b$52b3o60b$52bo62b$53bo61b10$99bobo13b$99b2o14b$42bo48bo8bo14b$
+41bo49bobo21b$41b3o47b2o22b$39bo75b$40bo48b2o24b$38b3o18b2o18b2o7b2o
+19b2o2b2o$bo57b2o18b2o9bo18bo4bo$2bo107b4ob$3o112b$20b2o18b2o18b2o18b
+2o5b3o20b2o3b$2bo17bobo17bobo17bobo17bobo4bo22bobo2b$b2o18bo19bo19bo
+19bo6bo22bo3b$bobo!

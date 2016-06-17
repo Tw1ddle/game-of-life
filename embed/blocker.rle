@@ -1,0 +1,6 @@
+#N Blocker
+#O Robert Wainwright
+#C A period 8 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Blocker
+x = 10, y = 5, rule = B3/S23
+6bobob$5bo4b$2o2bo4bo$2obo2bob2o$4b2o!

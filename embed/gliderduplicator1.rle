@@ -1,0 +1,10 @@
+#N Glider duplicator 1
+#C A glider duplicator made up of two Gosper glider guns.
+#C www.conwaylife.com/wiki/index.php?title=Glider_duplicator
+x = 50, y = 47, rule = b3/s23
+44b2o4b$44b2o4b9$41b2obob2o2b2$41bo5bo2b2$42b2ob2o3b$44bo5b3$38b2o6bo
+3b$37bobo5bobo2b$12bo26bo4bo3bob$13bo30b5ob$11b3o29b2o3b2o$44b5ob$45b
+3o2b$46bo3b$24b2o4b3o17b$24b2o6bo17b$31bo18b5$23b2o25b$22bobo21b2o2b$
+24bo21b2o2b$13bo36b$12b4o34b$11b2obobo6bobo24b$2o8b3obo2bo3bo3bo24b$2o
+9b2obobo4bo28b$12b4o4bo4bo24b$13bo7bo28b$21bo3bo6b2o16b$23bobo6bobo15b
+$34bo15b$34b2o!

@@ -1,0 +1,9 @@
+#N Hexapole_synth
+#O Mark D. Niemiec
+#C Glider synthesis of hexapole.
+#C http://home.interserv.com/~mniemiec/p2osc.htm
+x = 38, y = 21, rule = 23/3
+2bo15bo19b$obo14bo20b$b2o14b3o18b3$6bobobobo11bo13b$7b2ob2o11bo5b2o7b$
+7bo3bo11b3o3bobo6b$9bo28b$8b2o21bobo4b$8bobo5bobo19b$17b2o14bobo2b$17b
+o20b$b3o11bo3bo15bobo$3bo11b2ob2o16b2o$2bo11bobobobo17b3$7b3o14b2o12b$
+9bo14bobo11b$8bo15bo!

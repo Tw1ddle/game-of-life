@@ -1,0 +1,12 @@
+#N 134P25
+#O Noam Elkies
+#C The first period 25 oscillator to be found. Found on September 23, 
+#C 1994.
+#C www.conwaylife.com/wiki/index.php?title=134P25
+x = 35, y = 23, rule = b3/s23
+21bo13b$19b3o13b$18bo8bo2b2o3b$9b2o7b2o6bobo2bo3b$10bo15bobobo4b$10bob
+o12b2obob2o3b$11b2o11bo3bo3bo2b$19bo4bo4bobobob$6b2o9b2ob2o2bo3b2o3bob
+$5bo2bo10bo4bo4bob2o2b$o2bo2bobo15bo3bo6b$5obob2o15b2obob5o$6bo3bo15bo
+bo2bo2bo$2b2obo4bo4bo10bo2bo5b$bo3b2o3bo2b2ob2o9b2o6b$bobobo4bo4bo19b$
+2bo3bo3bo11b2o11b$3b2obob2o12bobo10b$4bobobo15bo10b$3bo2bobo6b2o7b2o9b
+$3b2o2bo8bo18b$13b3o19b$13bo!

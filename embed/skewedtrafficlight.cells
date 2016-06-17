@@ -1,0 +1,26 @@
+!Name: Skewed traffic light
+!Author: Robert Wainwright
+!A period 3 oscillator found in August 1989.
+!www.conwaylife.com/wiki/index.php?title=Skewed_traffic_light
+.............OO
+............O..O
+.............O.O
+.........OO...O
+..........O.OO
+............O
+............O
+
+OO........OOO......O
+OOOO.O........O...OO
+O.O..OOO.O....O
+.........O....O.OOO..O.O
+....OO...O........O.OOOO
+....O......OOO........OO
+
+...........O
+...........O
+..........OO.O
+.........O...OO
+........O.O
+........O..O
+.........OO

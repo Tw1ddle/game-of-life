@@ -1,0 +1,8 @@
+#N 56P6H1V0
+#O Hartmut Holzwart
+#C Period 6 c/6 orthogonal spaceship. Discovered in May 2009.
+#C www.conwaylife.com/wiki/index.php?title=56P6H1V0
+x = 26, y = 12, rule = 23/3
+5b3o10b3o5b$3obo7b2o7bob3o$4bo3bo2bo2bo2bo3bo4b$4bo5bo4bo5bo4b$10b2o2b
+2o10b$7bo3bo2bo3bo7b$7bobo6bobo7b$8b10o8b$10bo4bo10b$8bo8bo8b$7bo10bo
+7b$8bo8bo!

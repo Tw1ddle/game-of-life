@@ -1,0 +1,16 @@
+#Life 1.05
+#D Name: Boat on quadpole
+#D A period 2 oscillator.
+#D http://www.conwaylife.com/wiki/index.php?title=Boat_on_quadpole
+#N
+#P -5 -5
+.*
+*.*
+.**
+...**
+...*.*
+.
+.....*.*
+.
+.......*.*
+........**

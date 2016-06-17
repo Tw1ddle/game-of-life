@@ -1,0 +1,20 @@
+#Life 1.05
+#D Name: 101
+#D Author: Achim Flammenkamp
+#D Found in August 1994.
+#D The name was suggested by Bill Gosper, noting that the phase shown below disp
+#D lays the period in binary.
+#N
+#P -9 -6
+....**......**
+...*.*......*.*
+...*..........*
+**.*..........*.**
+**.*.*..**..*.*.**
+...*.*.*..*.*.*
+...*.*.*..*.*.*
+**.*.*..**..*.*.**
+**.*..........*.**
+...*..........*
+...*.*......*.*
+....**......**

@@ -1,0 +1,22 @@
+#Life 1.05
+#D Name: One per generation
+#D Author: Nicolay Beluchenko
+#D A tubstretcher that grows by exactly one cell every generation.
+#D www.conwaylife.com/wiki/index.php?title=One_per_generation
+#N
+#P -8 -7
+........**
+.......**
+.........*
+...........**
+..........*
+.
+.........*..**
+.**.....**....*
+**.....*.....*
+..*....*.*...**
+....*..*....**.*
+....**.......**
+........*....*.**
+.......*.*..*.**
+........*

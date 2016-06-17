@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Mazing
+#D Author: David Buckingham
+#D A period 4 oscillator.
+#D www.conwaylife.com/wiki/index.php?title=Mazing
+#N
+#P -3 -3
+...**
+.*.*
+*.....*
+.*...**
+.
+...*.*
+....*

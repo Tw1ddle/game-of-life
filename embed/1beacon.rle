@@ -1,0 +1,5 @@
+#N 1 beacon
+#C Approximately the 32nd-most common oscillator.
+#C www.conwaylife.com/wiki/index.php?title=1_beacon
+x = 7, y = 7, rule = b3/s23
+2b2o3b$bobo3b$o2bob2o$2obo2bo$bobo3b$bo2bo2b$2b2o!

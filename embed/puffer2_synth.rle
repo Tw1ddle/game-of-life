@@ -1,0 +1,17 @@
+#N Puffer 2_synth
+#O Mark D. Niemiec
+#C Glider synthesis of puffer 2.
+#C http://home.interserv.com/~mniemiec/objname.htm#P
+x = 105, y = 117, rule = 23/3
+78bo26b$76b2o27b$77b2o26b2$69bobo33b$69b2o34b$70bo34b2$12bo92b$10bobo
+29b2o28b2o31b$11b2o29b2o28b2o31b$8b2o95b$7bobo95b$9bo95b2$80b2o23b$57b
+3o9b2o9bobo4b3o11b3ob$57bo2bo8bobo8bo6bo2bo10bo2bo$57bo11bo17bo6b3o4bo
+3b$57bo29bo5bo2bo4bo3b$58bobo27bobo2b2obo5bobo25$60bo44b$61b2o42b$60b
+2o43b3$4bobo98b$4b2o99b$5bo99b$34b2o28b2o39b$36bo29bo38b$2b2o29bo29bo
+41b$3b2o29b2o21b3o4b2o5b3o13b3o11b3ob$2bo54bo2bo10bo2bo12bo2bo10bo2bo$
+57bo13bo15bo6b3o4bo3b$5b2o50bo13bo15bo5bo2bo4bo3b$4b2o52bobo11bobo13bo
+bo2b2obo5bobo$6bo98b4$93bo11b$94bo10b14$55bo49b$56b2o47b$55b2o48b7$5bo
+99b$3bobo29b2o28b2o38b$4b2o29b2o28b2o38b$b2o102b$obo102b$2bo102b4$64bo
+40b$63b3o39b$63bob2o38b$64b3o38b$64b2o39b4$57b3o11b3o13b3o11b3ob$57bo
+2bo10bo2bo12bo2bo10bo2bo$57bo13bo15bo6b3o4bo3b$57bo13bo15bo5bo2bo4bo3b
+$58bobo11bobo13bobo2b2obo5bobo5$93bo11b$94bo!

@@ -1,0 +1,12 @@
+#N Trans-loaf with tail_synth
+#O Mark D. Niemiec
+#C Glider syntheses of trans-loaf with tails.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 67, y = 39, rule = 23/3
+o3bo38bobo21b$b2obobo37b2o21b$2o2b2o38bo22b$21b2o24bobo11b2o4b$22bo24b
+2o13bo4b$4bobo15bob2o16bobo3bo13bob2ob$4b2o17bo2bo15b2o19bo2bo$5bo18bo
+bo16bo20bobo$25bo5b3o31bob$b2o30bo9b2o22b$obo29bo10bobo21b$2bo40bo9bo
+13b$52b2o13b$52bobo12b11$38bo28b$37bo29b$37b3o27b2$34bobo30b$35b2o5bo
+24b$35bo6bobo22b$42b2o23b2$36bobo22b2o4b$5bo31b2o23bo4b$3bobo18b2o11bo
+6b2o16bob2ob$4b2ob3o13bo2bo16bo2bo16bo2bo$7bo16bobo17bobo17bobo$8bo16b
+o19bo19bo!

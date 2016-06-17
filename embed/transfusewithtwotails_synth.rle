@@ -1,0 +1,11 @@
+#N Trans-fuse with two tails_synth
+#O Mark D. Niemiec
+#C Glider synthesis of trans-fuse with two tails.
+#C http://home.interserv.com/~mniemiec/objname.htm#F
+x = 68, y = 34, rule = 23/3
+42bo2bobo20b$40bobo2b2o21b$41b2o3bo21b$62b2o4b$46bo16bo4b$45bo17bobo2b
+$45b3o16bobob$66bob$66b2o$42bo5b2o18b$42b2o5b2ob2o14b$41bobo4bo3bobo
+13b$52bo15b8$obo65b$b2o65b$bo4bo61b$5bo16b2o18b2o18b2o4b$5b3o15bo19bo
+19bo4b$23bobo17bobo17bobo2b$24bobo17bobo17bobob$25bo19bo5b2o13bob$50b
+2o14b2o$b2o49bo15b$2b2o2bo48b2o11b$bo3bo36b2o6b2o2b2o12b$5b3o35b2o4bob
+o4bo11b$42bo8bo!

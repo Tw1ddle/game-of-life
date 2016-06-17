@@ -1,0 +1,10 @@
+#N Pulsar quadrant_synth
+#O Mark D. Niemiec
+#C Glider synthesis of pulsar quadrant.
+#C http://home.interserv.com/~mniemiec/objname.htm#P
+x = 78, y = 25, rule = 23/3
+22bo55b$20b2o56b$21b2o55b3$7bobo68b$8b2o68b$8bo69b$61bo16b$5b2o25bo19b
+o7bo11bo5b$5bobo24b3o17b3o5b3o9b3o3b$bo3bo24b2o3bo14b2o3bo14b2o3bo2b$b
+2o28bo2bo16bo2bo8b2o6bo2bo2bo$obo14bo13bobo17bobo9bobo5bobo3bo$15bobo
+14bo19bo10bo8bo4bo$16b2o60b$12b2o59b3o2b$11bobo64b$13bo64b$2bo47b2o26b
+$2b2o10b2o33bobo26b$bobo10bobo34bo26b$14bo38b3o22b$53bo24b$54bo!

@@ -1,0 +1,15 @@
+#N c/4 diagonal puffer 1
+#O Hartmut Holzwart
+#C The first known c/4 diagonal puffer; found on February 9, 2004
+x = 84, y = 60, rule = b3/s23
+74b2o6b2o$73b2o4b2obob$74bobo2b2o3b$74bobo2b2o3b$69b3o4bo7b$69bo14b$
+72b5o7b$69bo3b4o7b$70bob4o8b$71bo12b$63b3o18b$63bo2b3ob3o11b$64bobo17b
+$66bo3b2o12b$63b3o4bobo11b$63b2o5bo13b$66b3obo13b$61b2o3bo17b$61b2o3bo
+17b$61bo3bo18b$62b2obo18b$59b5o20b$54b3obo2bo22b$54bo2bo2bo23b$57bo26b
+$53bo30b$50b5obo27b$50bo33b2$50bo33b$50bobo31b$33bo16bobo31b$32b2o14bo
+2bo32b$32bobo6bo3bo2bo35b$30bobo8bo2b4o3bo32b$29b4obo3b2obobo2bo2b2o
+33b$29bob5ob2o5bo39b$27b2o9bo45b$23bobob2o2b3o6bobo41b$21b2obo6b3o6b2o
+42b$20b2ob9o9bo42b$21bo3b5o54b$18b3o63b$18bo2bo62b$18bobo9bo53b$12b2o
+2b2o11bobo52b$11b2o5bo11bo5b2o46b$12bobo3bo16bo2bo45b$12b2ob3o18b2o46b
+$12b3o69b2$37bo46b$13bo22bobo45b$10bob2o23bo5b2o39b$9b3o30bo2bo38b$2o
+6b3o32b2o39b$obo3b2o76b$o5b3o75b$3bo80b$3b2o!

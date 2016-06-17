@@ -1,0 +1,19 @@
+#N B-heptomino_synth
+#O Mark D. Niemiec
+#C Glider syntheses of B-heptominoes.
+#C http://home.interserv.com/~mniemiec/2gliders.htm
+x = 147, y = 79, rule = 23/3
+3bobo17bo19bobo17bo83b$3b2o17b3o18b2o17b3o38b3o41b$4bo16b2obo19bo16b2o
+bo20bo16bo2bo41b$85bobo13bo45b$3b2o38b2o40b2o60b$3bobo36bobo60bo41b$3b
+o40bo57bo44b$102bobo42b2$82b2o63b$81bobo2b2o59b$83bob2o60b$87bo16bobo
+40b$105bo41b$105b2o40b$106bo40b$107bo39b$106bo40b14$22b3o37b3o37b3o33b
+3o6b$22bo2bo36bo2bo36bo2bo32bo2bo5b$5bo16bo2bo20bo15bo2bo36bo2bo32bo2b
+o5b$4b2o39bobo99b$o3bobo17bo2bo13b2o2b2o29bo27bo2bo32bo2bo3b$b2o24bo
+14b2o17bo2bo10bo28bo38bo3b$2o20b2o2bo14bo20bo12b3o26bo33b2o2bo4b$25bo
+79bobo33bo5b$23b2o94bo19b2o6b$76b3o40bobo25b$76bo42b2o26b$77bo14b2o21b
+3o29b$92bobo20bo31b$92bo23bo30b4$119b3o25b$119bo27b$120bo26b10$2bo39bo
+39bo64b$obo19b3o18b2o17b3o17b2o18b3o26bo10b3o2b$b2o19bo2bo16b2o4bo13bo
+2bo15bobo18bo2bo24bo11bo2bob$5bo16bo23b2o14bo22b3o14bo27b3o9bo4b$3b3o
+19bo21b2o17bo18bo20bo21bo18b$2bo60bo22bo19bo20b2o17bo$2b2o18b2o24bo19b
+o15bo19b2o21bobo12bo2bob$47b2o16bo2bo15b2o61b$47bobo15bo17bobo61b8$
+138b3o6b$138bo8b$139bo!

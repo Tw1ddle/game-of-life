@@ -1,0 +1,6 @@
+#N Switch engine
+#O Charles Corderman
+#C A methuselah with lifespan 3911 that can be used to make c/12 diagonal puffers and spaceships.
+#C www.conwaylife.com/wiki/index.php?title=Switch_engine
+x = 6, y = 4, rule = B3/S23
+bobo2b$o5b$bo2bob$3b3o!

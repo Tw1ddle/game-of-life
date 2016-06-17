@@ -1,0 +1,8 @@
+#N Pre-beehive_synth
+#C Glider synthesis of pre-beehive.
+#C www.conwaylife.com/wiki/index.php?title=Pre-beehive
+x = 144, y = 13, rule = b3/s23
+46bobo95b$47b2o95b$47bo96b2$48bo95b$22b2o25bo12b2o38b2o38b2o$b2o19b2o
+23b3o12b2o12bo12bo12b2o19b2o17b2o$obo19b2o38b2o13b2o8b2o13b2o14b2o2bo
+2bo16b2o$2bo45bo27b2o10b2o29b2o2b2o19b$4b2o41b2o31b2o2b2o32bo8b2o15b$
+4bobo40bobo29bobo2bobo35bo3b2o16b$4bo76bo2bo36b2o5bo15b$121bobo!

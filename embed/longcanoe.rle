@@ -1,0 +1,5 @@
+#N Long canoe
+#C A 9-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Long_canoe
+x = 6, y = 6, rule = B3/S23
+4b2o$5bo$4bob$3bo2b$obo3b$2o!

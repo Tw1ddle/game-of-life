@@ -1,0 +1,19 @@
+!Name: One per generation
+!Author: Nicolay Beluchenko
+!A tubstretcher that grows by exactly one cell every generation.
+!www.conwaylife.com/wiki/index.php?title=One_per_generation
+........OO
+.......OO
+.........O
+...........OO
+..........O
+
+.........O..OO
+.OO.....OO....O
+OO.....O.....O
+..O....O.O...OO
+....O..O....OO.O
+....OO.......OO
+........O....O.OO
+.......O.O..O.OO
+........O

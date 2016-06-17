@@ -1,0 +1,8 @@
+#N New gun 1
+#O Bill Gosper
+#C A true period 46 gun. The second known basic gun.
+#C www.conwaylife.com/wiki/index.php?title=New_gun_1
+x = 34, y = 34, rule = B3/S23
+25b2o5b2o$25b2o5b2o12$27b2ob2o2b$26bo5bob2$25bo7bo$25bo2bobo2bo$25b3o
+3b3o5$17bo16b$2o15b2o15b$2o16b2o14b$13b2o2b2o15b4$13b2o2b2o15b$2o16b2o
+7b2o5b$2o15b2o8b2o5b$17bo!

@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: Negentropy
+#D A period 2 oscillator that is very similar to the Hertz oscillator.
+#D http://www.conwaylife.com/wiki/index.php?title=Negentropy
+#N
+#P -5 -6
+...**.*
+...*.**
+.
+....***
+...*.*.*.**
+...**..*.**
+**.*...*
+**.*...*
+....***
+.
+....**.*
+....*.**

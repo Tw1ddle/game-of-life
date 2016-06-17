@@ -1,0 +1,25 @@
+#N Jack_synth
+#O Mark D. Niemiec
+#C Glider synthesis of jack.
+#C http://home.interserv.com/~mniemiec/objname.htm#J
+x = 114, y = 106, rule = 23/3
+90bo23b$90bobo21b$82bobo5b2o22b$44bo33bo3b2o30b$40bo3bobo32b2o2bo30b$
+41b2ob2o32b2o34b$5bo34b2o24b2o18b2o26b$6bo12bo7b2o3b2o13b2o3b2o11bo2bo
+3b2o11bo2bo3b2o10bo2b2o3b2o$4b3o11bo8bobobobo13bobobobo11b3obobobo11b
+3obobobo10b4obobobo$3o15b3o8bobo17bobo17bobo17bobo17bobo2b$2bo11b3o10b
+obobobo13bobobobo11b3obobobo11b3obobobo10b4obobobo$bo12bo12b2o3b2o13b
+2o3b2o11bo2bo3b2o11bo2bo3b2o10bo2b2o3b2o$15bo24b2o24b2o18b2o26b$41b2ob
+2o32b2o34b$40bo3bobo32b2o2bo30b$44bo33bo3b2o30b$82bobo5b2o22b$90bobo
+21b$90bo23b2$50bo63b$48bobo63b$49b2o5bobo55b$16bo40b2o3bo51b$14bobo3bo
+36bo2b2o52b$15b2ob2o41b2o51b$19b2o12b2o18b2o59b$4bo2b2o3b2o10bo2b2o3bo
+2bo8bo2b2o3bo2bo18bo2b2o3b2o2bo27b$4b4obobobo10b4obobob3o8b4obobob3o
+18b4obobob4o27b$9bobo17bobo17bobo27bobo32b$4b4obobobo10b4obobob3o8b4ob
+obob3o18b4obobob4o27b$4bo2b2o3b2o10bo2b2o3bo2bo8bo2b2o3bo2bo18bo2b2o3b
+2o2bo27b$19b2o12b2o18b2o59b$15b2ob2o41b2o51b$14bobo3bo36bo2b2o52b$16bo
+40b2o3bo51b$49b2o5bobo55b$48bobo63b$50bo63b15$43bo70b$4bo38bobo10bo57b
+$5b2o36b2o9b2o58b$4b2o49b2o57b3$31bobo80b$31b2o81b$32bo81b2$31b3o80b$
+31bo82b$32bo81b10$67bo5bo40b$67b2o3b2o40b$24bo2b2o3b2o2bo27bo2b2o3b2o
+2bo37b$24b4obobob4o27b3o2bobo2b3o37b$29bobo37bobo42b$24b4obobob4o27b3o
+2bobo2b3o37b$24bo2b2o3b2o2bo27bo2b2o3b2o2bo37b$67b2o3b2o40b$67bo5bo40b
+10$28bo85b$29bo84b$27b3o84b2$28bo85b$28b2o84b$27bobo84b3$4b2o49b2o57b$
+5b2o9b2o36b2o58b$4bo10bobo38bo57b$17bo!

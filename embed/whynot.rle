@@ -1,0 +1,6 @@
+#N Why not
+#O David Buckingham
+#C A period 2 oscillator found in July 1977 that is very similar to by flops.
+#C www.conwaylife.com/wiki/index.php?title=Why_not
+x = 7, y = 7, rule = B3/S23
+3bo3b$3bobob$bo5b$ob5o$bo5b$3bobob$3bo!

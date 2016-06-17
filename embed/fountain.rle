@@ -1,0 +1,8 @@
+#N Fountain
+#O Dean Hickerson
+#C A period 4 oscillator found in November 1994.
+#C www.conwaylife.com/wiki/index.php?title=Fountain
+x = 19, y = 15, rule = B3/S23
+9bo9b2$3b2obo5bob2o3b$3bo5bo5bo3b$4b2ob2ob2ob2o4b2$6b2o3b2o6b$2o15b2o$
+o2bo3bobobo3bo2bo$b3ob9ob3ob$4bo4bo4bo4b$3b2o9b2o3b$3bo11bo3b$5bo7bo5b
+$4b2o7b2o!

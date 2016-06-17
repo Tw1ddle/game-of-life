@@ -1,0 +1,9 @@
+#N Short keys_synth
+#O Jason Summers
+#C A 10-glider synthesis of short keys
+#C http://www.conwaylife.com/wiki/index.php?title=Short_keys
+x = 55, y = 31, rule = b3/s23
+16bo38b$14bobo38b$15b2o10bo27b$26bo28b$26b3o26b$o54b$b2o52b$2o3bo18bo
+20bo6bo2b$6b2o16bobo17bo2bo2bo2bob$5b2o17b2o9bobo5bo10bo$35b2o7b2ob4ob
+2ob$36bo11b2o5b$18bobo34b$19b2o34b$19bo35b$24bobo28b$24b2o29b$25bo29b
+5$28b2o25b$29b2o24b$28bo26b4$24bo30b$24b2o29b$23bobo!

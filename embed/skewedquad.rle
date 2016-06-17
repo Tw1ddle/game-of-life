@@ -1,0 +1,5 @@
+#N Skewed quad
+#C A period 2 oscillator and muttering moat.
+#C www.conwaylife.com/wiki/index.php?title=Skewed_quad
+x = 7, y = 7, rule = B3/S23
+b2o4b$bo3b2o$2bobobo2$obobo2b$2o3bob$4b2o!

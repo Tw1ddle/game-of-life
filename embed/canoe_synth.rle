@@ -1,0 +1,9 @@
+#N Canoe_synth
+#O Mark D. Niemiec
+#C Glider syntheses of canoes.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 73, y = 21, rule = 23/3
+42bo30b$43b2o28b$42b2o29b3$3bobo67b$4b2o67b$4bo68b2$28b2o21b2o15b2o3b$
+28bobo19b2o16bobo2b$31bo20bo18bob$32bo39bo$31b2o15bobo20b2o$8bo40b2o
+22b$8b2o39bo23b$7bobo3bo59b$11b2o36b2o22b$b2o9b2o34b2o23b$obo47bo22b$
+2bo!

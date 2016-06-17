@@ -1,0 +1,20 @@
+#N B29_synth.rle
+#O Tanner Jacobi, Martin Grant, Bob Shemyakin, Matthias Merzenich
+#C Original 54-glider synthesis found by Tanner Jacobi, 5 April 2015;
+#C   incremental reductions by Martin Grant and Matthias Merzenich,
+#C   using a new base still life synthesis by Bob Shemyakin.
+#C   Current 27-glider synthesis completed 11 June 2015.
+#C http://conwaylife.com/forums/viewtopic.php?f=2&t=1557&p=18531#p18531
+#C http://conwaylife.com/forums/viewtopic.php?f=2&t=1394&p=20339#p20339
+#C http://conwaylife.com/wiki/B29
+x = 273, y = 29, rule = B3/S23
+256bobo$257b2o$257bo3$249bo$250bo10bobo$243bo4b3o10b2o$207bo36b2o16bo$
+205bobo35b2o19b3o$160bo5bo39b2o56bo$67bobo90bobob2o82bo5b2o9bo$67b2o
+91b2o3b2o36b2o3b2o36bobo5bobob2o$68bo135b2o2bo38b2o6b2obo11bo$164bo38b
+o5b3o47b3o8bobo$163b2o46bo49bo8b2o$64b3o96bobo3b3o$4bo164bo96b2o$2bobo
+4bo49b2o48b2o48b2o9bo38b2o39b3o6b2o5bobo$3b2o5bo47bobo47bobo47bobo47bo
+bo35bo5bo5bobo5bo$8b3o2b2o41b3obobo43b3obobo43b3obob2o42b3obob2o32b2o
+3bo4b3obob2o7bo$12bobo40bo5b2o42bo5b2o42bo5bo2bo40bo5bo2bo30bobo7bo5bo
+2bo5b2o$14bo40b2o48b2o48b2o5bo2bo39b2o5bo2bo39b2o5bo2bo4bobo$114b2o47b
+2o48b2o48b2o$bo113b2o2bo$b2o111bo3b2o130b2o$obo115bobo130b2o7b2o6b3o$
+250bo8b2o7bo$261bo7bo!

@@ -1,0 +1,8 @@
+#N Partial queen bee loop
+#O Bill Gosper
+#C Period 30 oscillator based on the queen bee loop.
+#C www.conwaylife.com/wiki/index.php?title=Queen_bee_shuttle
+x = 24, y = 24, rule = b3/s23
+20b2o2b$20b2o2b$2b2o20b$2b2o20b4$3bo20b$2bobo19b$bo3bo18b$2b3o19b$2o3b
+2o17b$17b2o3b2o$19b3o2b$18bo3bob$19bobo2b$20bo3b$11bo12b$9bobo12b$8bob
+o13b$7bo2bo13b$8bobo13b$9bobo12b$11bo!

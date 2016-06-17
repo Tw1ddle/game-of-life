@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Queen bee shuttle
+#D Author: Bill Gosper
+#D A period 30 oscillator.
+#D www.conwaylife.com/wiki/index.php?title=Queen_bee_shuttle
+#N
+#P -11 -4
+.........*
+.......*.*
+......*.*
+**...*..*...........**
+**....*.*...........**
+.......*.*
+.........*

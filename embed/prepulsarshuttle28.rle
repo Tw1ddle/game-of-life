@@ -1,0 +1,7 @@
+#N Pre-pulsar shuttle 28
+#C A period 28 shuttle oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Pre-pulsar_shuttle_28
+x = 22, y = 16, rule = b3/s23
+7b2o13b$2o5b2o8bo4b$bo14bob2o2b$bobo16bob$2b2o12bo2bobo$18bo2bo$19b2ob
+2$7bo5bo8b$6b3o3b3o4b2ob$18bo2bo$2b2o13bobobo$bobo13bo2bob$bo14bo5b$2o
+5b2o8bobo2b$7b2o!

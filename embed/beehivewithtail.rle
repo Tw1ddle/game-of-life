@@ -1,0 +1,5 @@
+#N Beehive with tail
+#C A 10-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Beehive_with_tail
+x = 6, y = 5, rule = B3/S23
+b2o3b$o2bo2b$b2obob$4bob$4b2o!

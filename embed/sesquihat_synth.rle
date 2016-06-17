@@ -1,0 +1,20 @@
+#N Sesquihat_synth
+#C Glider syntheses of sesquihat
+#C http://www.conwaylife.com/wiki/index.php?title=Sesquihat
+x = 111, y = 103, rule = b3/s23
+67bo43b$66bo44b$66b3o42b5$85bo25b$86b2o23b$25bo59b2o24b$26b2o83b$25b2o
+84b2$93bo17b$91b2o18b$92b2o17b$88b3o20b$84bo5bo20b$85bo3bo21b$83b3o25b
+3$52b3o23bo29bo2b$52bo21b2obobo24b2obobob$43bo9bo21bobobo16bobo6bobobo
+b$41bobo2bo28bobob2o15b2o7bobob2o$42b2o2bobo27bo20bo8bo4b$46b2o51b2o
+10b$99bobo9b$99bo11b2$91b2o18b$90bobo18b$92bo18b8$58bo52b$57b2o52b$57b
+obo51b9$47bobo61b$48b2o61b$48bo62b4$b2o51bo56b$obobo48bo57b$2bobobo46b
+3o55b$4b2o105b$56b2o10bo19bo19bo2b$24b2ob2o15b2ob2o7bobo5b2obobo14b2ob
+obo14b2obobob$8b2o15bobo17bobo8bo8bobobo15bobobo15bobobob$8bobo14bobo
+17bobo17bobob2o14bobob2o14bobob2o$8bo17bo19bo19bo19bo19bo4b3$54bo56b$
+53b2o56b$53bobo14b2o18b2o19b$49b2o19b2o18b2o19b$50b2o59b$49bo10b2o30b
+2o17b$59b2o31bobo16b$61bo30bo18b9$3bo107b$b2o52bo55b$2b2o51bobo53b$51b
+o3b2o38bo15b$10bo41b2o41bobo13b$10bobo38b2o42b2o14b$2o4bo3b2o99b$b2o4b
+2o19b2o18b2o18bo19bo19bo2b$o5b2o16b2obobo14b2obobo14b2obobobo12b2obobo
+bo12b2obobob$25bobo17bobo17bobo2b2o13bobo2b2o13bobobob$25bobo17bobo17b
+obo17bobo8bobo6bobob2o$26bo19bo9b2o8bo19bo9b2o8bo4b$4bo47bo2b2o40bo13b
+$4b2o46b2o3bo32b2o19b$3bobo45bobo37b2o18b$90bo3b2o15b$94bobo14b$94bo!

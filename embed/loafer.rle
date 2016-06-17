@@ -1,0 +1,7 @@
+#N loafer.rle
+#O Josh Ball
+#C small c/7 orthogonal spaceship found 17 February 2013
+#C http://www.conwaylife.com/forums/viewtopic.php?f=2&t=1031#p7450
+#C http://conwaylife.com/wiki/Loafer
+x = 9, y = 9, rule = B3/S23
+b2o2bob2o$o2bo2b2o$bobo$2bo$8bo$6b3o$5bo$6bo$7b2o!

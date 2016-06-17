@@ -1,0 +1,7 @@
+#N Still life tagalong
+#C An orthogonal c/2 period 4 spaceship that pulls a pond.
+#C www.conwaylife.com/wiki/index.php?title=Tagalong
+x = 19, y = 17, rule = b3/s23
+2b2o15b$b2ob2o13b$2b4o13b$3b2o14b2$3b5o11b$2b7o10b$b2ob5o10b$2b2o15b2$
+8bobo5b2ob$6bo4bo3bo2bo$6b2o5bobo2bo$bo2bo2b4obo3b2ob$o7b2o9b$o3bo14b$
+4o!

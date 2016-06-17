@@ -1,0 +1,6 @@
+#N Eater 5
+#C A 12-cell still life and eater composed of a tub with tail and a block that is capable of
+#C eating gliders that approach from the top-right.
+#C http://www.conwaylife.com/wiki/index.php?title=Eater_5
+x = 9, y = 6, rule = B3/S23
+7b2o$3bo3b2o$2bobo4b$bobo5b$bo7b$2o!

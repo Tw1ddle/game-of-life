@@ -1,0 +1,8 @@
+#N P44 pi-heptomino hassler
+#O David Buckingham
+#C The first period 44 oscillator to be discovered.
+x = 31, y = 44, rule = b3/s23
+9b2o4b2o4b2o8b$8bo2bobo4bobo2bo7b$8b3o10b3o7b$11b2o6b2o10b$10bo2b6o2bo
+9b$10b2o8b2o9b12$2o12b3o12b2o$2o11bo3bo11b2o$13b2ob2o13b5$13b2ob2o13b$
+2o11bo3bo11b2o$2o12b3o12b2o12$10b2o8b2o9b$10bo2b6o2bo9b$11b2o6b2o10b$
+8b3o10b3o7b$8bo2bobo4bobo2bo7b$9b2o4b2o4b2o!

@@ -1,0 +1,6 @@
+#N Hustler II
+#C A period 4 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Hustler_II
+x = 16, y = 13, rule = B3/S23
+4bo11b$4b3o9b$7bo8b$6bo2b2o5b$ob2obob2o2bo4b$2obobo5bo4b$5bo4bo5b$4bo
+5bobob2o$4bo2b2obob2obo$5b2o2bo6b$8bo7b$9b3o4b$11bo!

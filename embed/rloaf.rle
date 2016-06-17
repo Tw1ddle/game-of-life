@@ -1,0 +1,5 @@
+#N R-loaf
+#C A small induction coil.
+#C www.conwaylife.com/wiki/index.php?title=R-loaf
+x = 4, y = 4, rule = B3/S23
+3ob$o2bo$bobo$2bo!

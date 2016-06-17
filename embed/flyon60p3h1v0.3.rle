@@ -1,0 +1,12 @@
+#N Fly on 60P3H1V0.3
+#O Dean Hickerson and David Bell
+#C The fly tagalong attached to the back of a 60P3H1V0.3.
+#C www.conwaylife.com/wiki/index.php?title=Fly
+x = 34, y = 33, rule = b3/s23
+3bo30b$2bobo29b$2bobo29b$2bo31b2$b2o31b$2bobo29b$bobo30b$b3o30b2$2bobo
+29b$2b2o30b$3bo30b$3bobo28b$3b2o29b$b3o22bobo3bob$obo22b2obobo2bo$o2bo
+7b3o8bo9bob$ob2o7b2o2bob2o3bo2b4o5b$3bo9b4o2bobo2b2o4b2o2b$o2bo7bo2bo
+3b3o5b3o5b$b2o7bo4bo2b2o2b2o2bo2bo4b$2bo3bo3bo4bo2b3obobo4b2o3b$3b2o2b
+ob2o4bo2b4o5bo6b$3b2o4b2o4bo2b4o5bo6b$4bo5bo4bo2b3obobo4b2o3b$3b2o5bo
+4bo2b2o2b2o2bo2bo4b$2bo3bo4bo2bo3b3o5b3o5b$b2ob2o7b4o2bobo2b2o4b2o2b$
+2bo8b2o2bob2o3bo2b4o5b$2b2o7b3o8bo9bob$3bo21b2obobo2bo$4bo21bobo3bo!

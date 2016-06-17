@@ -1,0 +1,9 @@
+#N Jason's p11
+#C A period 11 oscillator.
+#C http://www.conwaylife.com/wiki/Jason%27s_p11
+x = 25, y = 25, rule = B3/S23
+8bob2ob2obo$8b2obobob2o2$8b3o3b3o$7bo3bobo3bo$7bobobobobobo$11bobo$4b
+2o2b3o3b3o2b2o$2obo3bo9bo3bob2o$bobobobo9bobobobo$o2bo3bo9bo3bo2bo$2o
+2b3o11b3o2b2o2$2o2b3o11b3o2b2o$o2bo3bo9bo3bo2bo$bobobobo9bobobobo$2obo
+3bo9bo3bob2o$4b2o2b3o3b3o2b2o$11bobo$7bobobobobobo$7bo3bobo3bo$8b3o3b
+3o2$8b2obobob2o$8bob2ob2obo!

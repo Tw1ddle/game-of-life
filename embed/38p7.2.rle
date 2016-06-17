@@ -1,0 +1,7 @@
+#N 38P7.2
+#O Nicolay Beluchenko
+#C A period 7 oscillator discovered on February 17, 2009
+#C http://www.conwaylife.com/wiki/index.php?title=38P7.2
+x = 13, y = 11, rule = b3/s23
+4bo3bo4b$o2bobobobo2bo$obo2bobo2bobo$bo2b2ob2o2bob$5bobo5b$2b2o5b2o2b$
+2bo7bo2b$4bo3bo4b2$bo2bo3bo2bob$2b2o5b2o!

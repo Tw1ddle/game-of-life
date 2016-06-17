@@ -1,0 +1,15 @@
+#N Diamond ring_synth
+#C A 28-glider synthesis of a variation of diamond ring
+#C http://www.conwaylife.com/wiki/index.php?title=Diamond_ring
+x = 92, y = 73, rule = b3/s23
+59bo32b$58bo33b$53bo4b3o31b$53bobo36b$12bobo38b2o37b$13b2o77b$13bo78b
+6$4bo65bo21b$5b2o43bo19bobo19b$4b2o44bobo17b2o20b$50b2o40b2$45bo23bo
+22b$43b2o23bo23b$44b2o22b3o21b$58bo33b$57bo34b$57b3o32b$20bo71b$18bobo
+71b$19b2o71b2$24bobo13b3o49b$25b2o13bo51b$25bo15bo50b2$27bo57b2ob2o2b$
+27bobo54bobobo3b$27b2o10b2o43bo3bo2bo$38b2o42b2o2bo2b3o$40bo40bo4bo5b$
+81b2ob2ob2ob2o$32bo53bo4bo$33b2o46b3o2bo2b2ob$32b2o10b2o35bo2bo3bo3b$
+43bobo38bobobo3b$45bo37b2ob2o4b2$31bo15bo44b$32bo13b2o44b$30b3o13bobo
+43b2$52b2o38b$52bobo37b$52bo39b$13b3o76b$15bo76b$14bo77b$2b3o22b2o63b$
+4bo23b2o62b$3bo23bo64b2$21b2o69b$b2o17bobo44b2o23b$obo19bo43b2o24b$2bo
+65bo23b6$59bo32b$58b2o32b$18b2o38bobo31b$17bobo72b$12b3o4bo72b$14bo77b
+$13bo!

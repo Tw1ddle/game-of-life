@@ -1,0 +1,8 @@
+#N Inline inverter
+#C A reaction in which the Gosper glider gun can be used to invert the
+#C  presence or absence of a glider in a period 30 glider stream.
+#C www.conwaylife.com/wiki/index.php?title=Gosper_glider_gun
+x = 36, y = 20, rule = b3/s23
+9bo26b$7bobo26b$8b2o26b5$16bo19b$17bo18b$15b3o18b2$23bobo10b$21bo3bo
+10b$13bo7bo14b$12b4o4bo4bo8b2o$11b2obobo4bo12b2o$2o8b3obo2bo3bo3bo10b$
+2o9b2obobo6bobo10b$12b4o20b$13bo!

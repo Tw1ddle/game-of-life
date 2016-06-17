@@ -1,0 +1,5 @@
+#N Griddle and block
+#C A period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Griddle_and_block
+x = 6, y = 7, rule = B3/S23
+3bo2b$bobo2b$o4bo$6o2$2b2o2b$2b2o!

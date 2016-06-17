@@ -1,0 +1,14 @@
+#N Blinker_synth
+#O Mark D. Niemiec
+#C Glider syntheses of blinkers.
+#C http://home.interserv.com/~mniemiec/2gliders.htm
+x = 150, y = 75, rule = 23/3
+47bo102b$4bo43b2o100b$5bo41b2o101b$3b3o77bo66b$47bo36bo65b$b2o44b2o33b
+3o65b$obo24b3o16bobo18b3o37b3o40b$2bo147b$84b2o64b$84bobo63b$84bo65b
+16$3b2ob2o15b2ob2o15b2ob2o19b3o80b$2bobobobo14b2ob2o15b2ob2o102b$4bobo
+143b$40b3o107b$42bo107b$41bo108b11$7b2o118bo22b$7bobo117bo22b$8bo118bo
+22b$48bo39bo61b$6b2o19b3o17bobo17b3o17bobo17b3o16b2o19b3o$5bobo39b2o
+38b2o38b2o21b$7bo118bo23b$45b2o37b3o63b$44bobo39bo63b$46bo38bo64b15$
+27b3o37b3o17b3o17b3o40b$7bo142b$b3obobo14b2o13bo24b2o18b2o66b$3bo2b2o
+13bo2bo13bo22bo2bo16bo2bo65b$2bo19bobo11b3o2b2o19bobo17bobo65b$23bo16b
+obo20bo19bo66b$42bo36b3o68b$81bo68b$80bo!

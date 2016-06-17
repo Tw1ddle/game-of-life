@@ -1,0 +1,6 @@
+#N Puffer 2
+#O Bill Gosper
+#C An orthogonal period 140 c/2 puffer. The second puffer to be found. It uses two lightweight spaceships to escort a B-heptomino.
+#C www.conwaylife.com/wiki/index.php?title=Puffer_2
+x = 18, y = 5, rule = b3/s23
+b3o11b3o$o2bo10bo2bo$3bo4b3o6bo$3bo4bo2bo5bo$2bo4bo8bo!

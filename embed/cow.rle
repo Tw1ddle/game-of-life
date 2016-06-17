@@ -1,0 +1,7 @@
+#N Cow
+#C An orthogonal speed c period 8 fuse.
+#C http://www.conwaylife.com/wiki/index.php?title=Cow
+x = 40, y = 7, rule = 23/3
+2o7b2o2b2o2b2o2b2o2b2o2b2o2b2o5b$2o4bob3o2b2o2b2o2b2o2b2o2b2o2b2o3b2o$
+4b2obo29bobo$4b2o3b29o2b$4b2obo30bob$2o4bob3o2b2o2b2o2b2o2b2o2b2o2b2o
+2b2ob$2o7b2o2b2o2b2o2b2o2b2o2b2o2b2o!

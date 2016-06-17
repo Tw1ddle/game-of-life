@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Pentadecathlon on 38P7.2
+#D A small non-trivial period 105 oscillator
+#D www.conwaylife.com/wiki/index.php?title=Pentadecathlon_on_38
+#D P7.2
+#N
+#P -10 -6
+...........*...*
+.......*..*.*.*.*..*
+.*.....*.*..*.*..*.*
+.*......*..**.**..*
+*.*.........*.*
+.*.......**.....**
+.*.......*.......*
+.*.........*...*
+.*
+*.*.....*..*...*..*
+.*.......**.....**
+.*

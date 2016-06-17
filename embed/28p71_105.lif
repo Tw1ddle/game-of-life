@@ -1,0 +1,15 @@
+#Life 1.05
+#D Name: 28P7.1
+#D An unnamed period 7 oscillator that is tied as the smallest known.
+#D www.conwaylife.com/wiki/index.php?title=28P7.1
+#N
+#P -7 -3
+..**
+..*
+.......*
+******.*
+*
+.**.**...**
+..*.*....*.*
+..*.*......*
+...*.......**

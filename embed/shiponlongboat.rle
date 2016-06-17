@@ -1,0 +1,5 @@
+#N Ship on long boat
+#C A 13-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Ship_on_long_boat
+x = 7, y = 7, rule = B3/S23
+2o5b$obo4b$b2o4b$3b2o2b$3bobob$4bobo$5bo!

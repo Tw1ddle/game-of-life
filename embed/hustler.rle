@@ -1,0 +1,7 @@
+#N Hustler
+#O Robert Wainwright
+#C A period 3 oscillator found in June 1971.
+#C www.conwaylife.com/wiki/index.php?title=Hustler
+x = 11, y = 12, rule = B3/S23
+5b2o4b$5b2o4b2$3b4o4b$obo4bo3b$2obo3bo3b$3bo3bob2o$3bo4bobo$4b4o3b2$4b
+2o5b$4b2o!

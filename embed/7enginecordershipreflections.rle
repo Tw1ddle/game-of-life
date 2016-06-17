@@ -1,0 +1,16 @@
+#N 7-engine Cordership reflections
+#C A c/12 period 96 diagonal 7-engine Cordership being used to reflect
+#C  gliders in a variety of ways.
+#C www.conwaylife.com/wiki/index.php?title=7-engine_Cordership
+x = 78, y = 86, rule = b3/s23
+27bobo48b$26bo51b$27bo2bo47b$29bobo46b$32bo11b3o31b$31b3o44b$31bo46b$
+29b2o47b$31bo13b3o30b$14bo14bo2bo12b3o5b2o23b$13bobo13bobo13b2o6b2o23b
+$29bo14bo33b$13bo2bo3bob3o17b2o2bo31b$15bo4bo22bo3bo26bo3b$16bob2obobo
+19bo2bo27bobob$17b2o3bo21b3o27b2o2b$18bo59b$61b2o15b$61b2o15b2$25bo52b
+$25bo5b3o44b$24bobo3b2o2bo43b$25bo3bo5bo42b$25bo3bo48b$30bo2b2o25bo8b
+2o7b$bobo27b2o26bobo7b2o7b$o58bobo16b$bo2bo54bo2bo15b$3bobo54bobo15b$
+6bo56bo14b$5b3o54b2o14b$5bo56bo15b$3b2o73b$5bo72b$3bo2bo31bo39b$3bobo
+31bob2o37b$3bo36b2o36b$35bo6bo35b$34bo3b4o36b$35bo4bo37b4$41b3o34b$40b
+o3bo33b$41b2o35b$7b2o34b2ob2o30b$7b2o36b2o31b3$34bo43b$33bobo42b$33bob
+o42b$33bo2bo41b$15b2o17bobo41b$15b2o20bo40b$36b2o37b3o$36bo38bo2b$76bo
+b4$23b2o29b2o22b$23b2o28b2o23b$55bo22b18$52bo25b$51b2o25b$51bobo!

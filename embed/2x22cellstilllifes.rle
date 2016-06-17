@@ -1,0 +1,5 @@
+#N 2x2 2-cell still lifes
+#C All 2-cell still lifes in the 2x2 (125/36) rule.
+#C www.conwaylife.com/wiki/index.php?title=2x2
+x = 5, y = 2, rule = 125/36
+o2bob$o3bo!

@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: Star
+#D Author: Hartmut Holzwart
+#D A period 3 oscillator found in February 1993.
+#D www.conwaylife.com/wiki/index.php?title=Star
+#N
+#P -5 -5
+....***
+.
+..*.*.*.*
+.
+*.*.....*.*
+*.........*
+*.*.....*.*
+.
+..*.*.*.*
+.
+....***

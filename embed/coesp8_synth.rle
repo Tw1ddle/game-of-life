@@ -1,0 +1,14 @@
+#N Coe's p8_synth
+#C 8-glider synthesis by 'Extrementhusiast' with Lewis Patterson
+#C 16-glider synthesis by Mark Niemiec
+#C http://www.conwaylife.com/wiki/index.php?title=Coe's_p8
+x = 63, y = 88, rule = b3/s23
+4bobo56b$5b2o56b$5bo57b4$21bo41b$21bobo39b$21b2o40b5$31bo19b2o10b$29b
+2o20b2o2b2o6b$30b2o24b2o5b$55bo2bo4b$2o4bo25bo25bo2b2o$b2o3b2o24b2o22b
+obo2b2o$o4bobo23bobo29b$11b2o50b$10bobo50b$12bo50b2$36b3o24b$36bo26b$
+37bo25b16$3bo59b$4b2o57b$3b2o58b$24bo38b$22b2o39b$23b2o38b2$5bo57b$6bo
+26bobo27b$4b3o26b2o28b$34bo28b2$34bo28b$33bo29b$24bo8b3o27b$22b2o39b$
+23b2o38b$8bo54b$9bo53b$7b3o53b2$51b2o10b$51b2o2b2o6b$17b2o37b2o5b$16bo
+bo36bo2bo4b$18bo39bo2b2o$4b3o49bobo2b2o$6bo56b$5bo16b2o39b$22bobo38b$
+22bo40b$9b2o52b$8bobo52b$10bo52b3$9b2o52b$10b2o14b3o34b$9bo16bo36b$27b
+o8b3o24b$36bo26b$37bo25b$3b2o58b$2bobo7b2o49b$4bo8b2o48b$12bo!

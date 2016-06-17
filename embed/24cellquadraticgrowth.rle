@@ -1,0 +1,8 @@
+#N 24-cell quadratic growth
+#O Michael Simkin
+#C It had been the smallest known pattern, that exhibits quadratic population
+#C growth, before it was superseded by switch engine ping-pong.
+#C www.conwaylife.com/wiki/24-cell_quadratic_growth
+x = 39786, y = 143, rule = B3/S23
+39782bo$39782bo$39783b2o$39785bo$39785bo$39738bo46bo$39739bo45bo$
+39740bo$39739bo$39738bo$39740b3o101$2o$o28$19bo$18b3o$20bo!

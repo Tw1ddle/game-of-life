@@ -1,0 +1,6 @@
+#N Queen bee shuttle
+#O Bill Gosper
+#C A period 30 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Queen_bee_shuttle
+x = 22, y = 7, rule = b3/s23
+9bo12b$7bobo12b$6bobo13b$2o3bo2bo11b2o$2o4bobo11b2o$7bobo12b$9bo!

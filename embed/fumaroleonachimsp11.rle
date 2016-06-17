@@ -1,0 +1,8 @@
+#N Fumarole on Achim's p11
+#C A small non-trivial period 55 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Fumarole_on_Achim's_p11
+x = 29, y = 22, rule = b3/s23
+10b2o17b$10b2o17b$5bo10bo12b$4bobo8bobo11b$3bobo10bobo10b$2bobo3b6o3bo
+bo9b$3bo14bo10b2$5bo10bo12b$5bo10bo12b$2o3bo10bo3b2o7b$2o3bo10bo3b2o7b
+$5bo10bo12b$5bo10bo10b2o$23b3o2bo$3bo14bo7b2ob$2bobo3b6o3bobo2bo6b$3bo
+bo10bobo3bo6b$4bobo8bobo8b2ob$5bo10bo6b3o2bo$10b2o15b2o$10b2o!

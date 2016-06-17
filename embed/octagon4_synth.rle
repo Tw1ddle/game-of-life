@@ -1,0 +1,19 @@
+#N Octagon 4_synth
+#O Mark Niemiec and Jason Summers
+#C A 34-glider synthesis of Octagon 4
+#C http://www.conwaylife.com/wiki/index.php?title=Octagon_4
+x = 142, y = 118, rule = b3/s23
+88bo53b$88bobo51b$88b2o52b3$107bo34b$107bobo32b$107b2o33b$6bo135b$7bo
+82bo51b$5b3o82bobo4bo44b$90b2o3b2o45b$96b2o44b8$10bobo129b$11b2o129b$
+11bo130b3$10bo131b$11bo130b$bo7b3o130b$2bo139b$3o139b5$95bo46b$93b2o
+47b$94b2o46b6$80bo5bo55b$80bobo2bo56b$80b2o3b3o54b2$68bobo71b$68b2o72b
+$44bobo22bo72b$45b2o95b$45bo12bobo81b$58b2o73b2o7b$59bo72bo2bo6b$132bo
+2bo6b2$71b2o58bo4bo5b$60b3o7b2o58bob4obo4b$60bo11bo54b2o2bo4bo2b2ob$
+61bo64bo4bo4bo4bo$126bo4bo4bo4bo$58b2o67b2o2bo4bo2b2ob$59b2o69bob4obo
+4b$58bo72bo4bo5b2$132bo2bo6b$132bo2bo6b$45b2o86b2o7b$46b2o94b$45bo96b
+2$41b3o98b$43bo98b$42bo17b2o80b$60bobo79b$60bo81b4$79b3o60b$34b2o34bo
+8bo62b$35b2o32b2o9bo61b$34bo34bobo70b6$83b2o57b$83bobo29b3o24b$83bo31b
+o26b$106b3o7bo25b$98b2o6bo35b$97b2o8bo34b$99bo42b2$106bo35b$93b3o9b2o
+35b$93bo11bobo34b$94bo47b7$20b2o120b$21b2o3b2o114b$20bo4bobo82b3o29b$
+27bo82bo31b$111bo30b$9b2o131b$8bobo131b$10bo131b3$28b2o112b$27bobo112b
+$29bo!

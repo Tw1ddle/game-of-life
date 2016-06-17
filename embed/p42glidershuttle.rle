@@ -1,0 +1,12 @@
+#N p42 glider shuttle
+#O Noam Elkies
+#C The first period-42 oscillator to be discovered
+#C http://www.conwaylife.com/wiki/index.php?title=P42_glider_shuttle
+x = 32, y = 32, rule = b3/s23
+22b2o8b$21bo2bo7b$10bo13bo7b$9bobo12bo7b$10bo7bo3bobo7b$17bo3bobo8b$8b
+5o4bo4bo9b$7bo4bo5b4o4b2o4b$6bob2o16b2o2b2o$3bo2bobo15b2obo2b2o$2bobob
+o9bo7b3o5b$3bo2bo4b3o3b2o13b$6b2o3b2o3b2o14b$11bo13b2o5b$25b2o5b2$10bo
+bo19b$5b2o4b2o19b$4bo2bo3bo7b2o11b$7bo10bo2bo2b2o6b$7bo10bobo4bo2bo3b$
+bo3bobo11bo5bobobo2b$o3bobo15b2obo2bo3b$o4bo16bo2bo6b$b4o4b2o8bo4bo7b$
+9b2o2b2o4b5o8b$7b2obo2b2o17b$7b3o11bo10b$20bobo9b$21bo10b$8b2o22b$8b2o
+!

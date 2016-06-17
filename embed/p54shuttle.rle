@@ -1,0 +1,8 @@
+#N p54 shuttle
+#O Dave Buckingham
+#C A period 54 oscillator that is a variant of the twin bees shuttle found by Dave Buckingham in 1973.
+#C www.conwaylife.com/wiki/index.php?title=P54_shuttle
+x = 29, y = 17, rule = B3/S23
+2o25b2o$bo25bob$bobo7bo13bobob$2b2o5bo2bo5bo6b2o2b$12bo5b2o9b$8bo10b2o
+8b$8bo3b2o4b2o9b$9b5o15b2$9b5o15b$8bo3b2o4b2o9b$8bo10b2o8b$12bo5b2o9b$
+2b2o5bo2bo5bo6b2o2b$bobo7bo13bobob$bo25bob$2o25b2o!

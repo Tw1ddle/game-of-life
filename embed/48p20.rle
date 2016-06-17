@@ -1,0 +1,6 @@
+#N 48P20
+#O Dean Hickerson
+#C A period-20 oscillator found in 2008
+x = 15, y = 15, rule = B3/S23
+12b2o$11bobo$11bo$4bo5b2o$3bobo6b2o$4bo4b3o2bo$8bo3b2o$8b4o$6b2o3bo$5b
+obo2bo$3bobobobo$b3obob2o$o3bobo$2o2bobo$5bo!

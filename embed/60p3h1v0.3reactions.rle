@@ -1,0 +1,20 @@
+#N 60P3H1V0.3 reactions
+#O Dean Hickerson
+#C Various reactions involving orthogonal spaceships colliding into a 
+#C 60P3H1V0.3.
+#C www.conwaylife.com/wiki/index.php?title=60P3H1V0.3
+x = 185, y = 43, rule = b3/s23
+11bobo171b$10bo174b$10bo174b$10bo2bo171b$10b3o172b7$6bobo176b$5bo179b$
+5bo3bo175b$5bo179b$5bo2bo176b$5b3o177b2$11bobo171b$10bo174b$10bo3bo
+170b$10bo174b$10bo2bo171b$10b3o172b$49bobo133b$48bo38bobo73bobo19b$48b
+o3bo33bo75bo22b$11bobo34bo3bo33bo3bo71bo3bo18b$10bo37bo37bo33bobo39bo
+3bo18b$10bo37bo2bo34bo2bo29bo42bo22b$10bo2bo34b3o35b3o30bo42bo2bo19b$
+10b3o106bo2bo39b3o20b$119b3o63b3$9bo37bo37bo37bo37bo23b$5bo4bo32bo4bo
+32bo4bo32bo4bo32bo4bo22b$4bo14bo22bo14bo22bo14bo22bo14bo22bo14bo13b$o
+3bob4o8bo3bo3bo3b2o6bo3bob4o8bo3bo3bo3b2o6bo3bob4o8bo3bo3bo3b2o6bo3bob
+4o8bo3bo3bo3b2o6bo3bob4o8bo3bo3bo3b2ob$b2o3bob2o2b4ob5o2b2o6bo6b2o3bob
+2o2b4ob5o2b2o6bo6b2o3bob2o2b4ob5o2b2o6bo6b2o3bob2o2b4ob5o2b2o6bo6b2o3b
+ob2o2b4ob5o2b2o6bo$2b4o4b2o2bob2o3b2obob2ob3o8b4o4b2o2bob2o3b2obob2ob
+3o8b4o4b2o2bob2o3b2obob2ob3o8b4o4b2o2bob2o3b2obob2ob3o8b4o4b2o2bob2o3b
+2obob2ob3ob$4bo6bo5bo6b2obo14bo6bo5bo6b2obo14bo6bo5bo6b2obo14bo6bo5bo
+6b2obo14bo6bo5bo6b2obo5b$12bob3o33bob3o33bob3o33bob3o33bob3o!

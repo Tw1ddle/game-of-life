@@ -1,0 +1,21 @@
+#Life 1.05
+#D Name: Boss
+#D Author: David Buckingham
+#D A period 4 oscillator.
+#D www.conwaylife.com/wiki/index.php?title=Boss
+#N
+#P -5 -7
+.....*
+....*.*
+....*.*
+...**.**
+..*.....*
+.*.*.*.*.*
+.*.*...*.*
+**.*...*.**
+*..*.*.*..*
+..*.....*
+...**.**
+....*.*
+....*.*
+.....*

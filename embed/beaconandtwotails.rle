@@ -1,0 +1,5 @@
+#N Beacon and two tails
+#C A period 2 oscillator.
+#C http://www.conwaylife.com/wiki/index.php?title=Beacon_and_two_tails
+x = 7, y = 7, rule = B3/S23
+2o5b$o6b$3bob2o$2b2obob$5bob$2b3o2b$2bo!

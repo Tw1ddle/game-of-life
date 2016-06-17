@@ -1,0 +1,11 @@
+#N 124P37
+#O Nicolay Beluchenko
+#C The first period 37 oscillator to be found. Discovered in April 2009.
+#C www.conwaylife.com/wiki/index.php?title=124P37
+x = 37, y = 37, rule = 23/3
+11b2o11b2o11b$11b2o11b2o11b3$6bo23bo6b$5bobo5bo9bo5bobo5b$4bo2bo5bob2o
+3b2obo5bo2bo4b$5b2o10bobo10b2o5b$15bobobobo15b$16bo3bo16b2$2o33b2o$2o
+33b2o$5b2o23b2o5b2$6bobo19bobo6b$6bo2bo17bo2bo6b$7b2o19b2o7b2$7b2o19b
+2o7b$6bo2bo17bo2bo6b$6bobo19bobo6b2$5b2o23b2o5b$2o33b2o$2o33b2o2$16bo
+3bo16b$15bobobobo15b$5b2o10bobo10b2o5b$4bo2bo5bob2o3b2obo5bo2bo4b$5bob
+o5bo9bo5bobo5b$6bo23bo6b3$11b2o11b2o11b$11b2o11b2o!

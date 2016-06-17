@@ -1,0 +1,6 @@
+#N Edge-repair spaceship 1
+#O David Bell
+#C An orthogonal period 3 c/3 edge-repair spaceship that was found in 1992.
+#C www.conwaylife.com/wiki/index.php?title=Edge-repair_spaceship_1
+x = 16, y = 7, rule = 23/3
+8bo7b$7b4o5b$2bo3bo3b2ob2ob$b4o5bo2b2ob$o3bo7bo2bo$bobo2bo9b$5bo!

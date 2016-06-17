@@ -1,0 +1,7 @@
+#N 24P10
+#O Matthias Merzenich
+#C the smallest known period-10 oscillator
+#C http://www.conwaylife.com/wiki/index.php?title=24P10
+x = 13, y = 9, rule = b3/s23
+7b2o4b$7bo2bo2b$3bo4bo3bo$4b2o3bob2o2$2obo3b2o4b$o3bo4bo3b$2bo2bo7b$4b
+2o!

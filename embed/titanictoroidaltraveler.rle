@@ -1,0 +1,5 @@
+#N Titanic toroidal traveler
+#C A superstring.
+#C www.conwaylife.com/wiki/index.php?title=Titanic_toroidal_traveler
+x = 78, y = 2, rule = b3/s23
+78o$3o3b3o3b3o3b3o3b3o3b3o3b3o3b3o3b3o3b3o3b3o3b3o3b3o!

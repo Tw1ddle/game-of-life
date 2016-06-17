@@ -1,0 +1,9 @@
+#N Boojum reflector
+#O David Greene
+#C The smallest known stable reflector (as of January 2009).
+#C www.conwaylife.com/wiki/index.php?title=Boojum_reflector
+x = 44, y = 32, rule = B3/S23
+4bobo6b2o29b$5b2o6b2o29b$5bo38b7$40bo3b$39bobo2b$39bobo2b$20b2o16b2ob
+2ob$20b2o22b$38b2ob2ob$2b2o34b2obo2b$bobo39bo$bo40b2o$2o42b2$34b2o8b$
+34b2o4b2o2b$11b2o27bobob$10bobo29bob$10bo31b2o$9b2o23b2o8b$34b2o8b3$
+29bo14b$28bobo13b$29bo!

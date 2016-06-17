@@ -1,0 +1,11 @@
+#Life 1.05
+#D Name: Table on table
+#D Two tables with one row of dead cells between them.
+#D http://www.conwaylife.com/wiki/index.php?title=Table_on_table
+#N
+#P -2 -2
+*..*
+****
+.
+****
+*..*

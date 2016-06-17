@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Scot's p5
+#D Author: Scot Ellison
+#D A period 5 oscillator found in 2008.
+#D www.conwaylife.com/wiki/Scot%27s_p5
+#N
+#P -6 -4
+....*...*
+...*.*.*.*
+..*.......*
+.
+.***.....***
+....**.**
+***.**.**.***

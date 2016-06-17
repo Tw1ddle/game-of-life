@@ -1,0 +1,28 @@
+#N Honeycomb_synth
+#O Mark D. Niemiec
+#C Glider synthesis of honeycomb (aka. superbeehive).
+#C http://home.interserv.com/~mniemiec/objname.htm#S
+x = 116, y = 116, rule = 23/3
+52bobo61b$52b2o62b$53bo62b$92bo23b$52b3o35bobo23b$52bo38b2o23b$53bo62b
+$97bo18b$98b2o16b$87b2o8b2o4bo9bo2b$74bo13b2o4bo7bo9bobob$73bobo11bo5b
+obo6b3o6bobobo$73b2o18b2o16bobobo$71b2o18b2o8bo10bobob$72bo19bo7b2o11b
+o2b$72bobo10b2o5bobo5bobo13b$73b2o9bobo6b2o21b$86bo29b3$89b2o25b$88bob
+o25b$90bo25b5$39b2o75b$38bobo75b$40bo27bo47b$67b2o47b$67bobo46b9$87bob
+o26b$88b2o26b$88bo27b$93bobo20b$93b2o21b$43bobo40bo7bo21b$44b2o41b2o
+27b$44bo41b2o13bo14b$71bo19bo5bo3bobo12b$51bo18bobo17bobo5b2ob2o10bo2b
+$49b2o20b2o10b2o6b2o4b2o13bobob$50b2o21b2o7bobo8b2o16bobobo$73bobo8bo
+8bobo15bobobo$74bo14bo4bo17bobob$47bo3b2o37bo22bo2b$47b2ob2o36b3o25b$
+46bobo3bo63b$92b2o22b$93b2o21b$92bo23b2$8bo41bo65b$6bobo42bo64b$7b2o4b
+o35b3o64b$12bo40bo62b$8bo3b3o37bo35bo27b$8b2o42b3o17b2o15b2ob2o22b$7bo
+bo62b2o14b2o2b2o22b2$33bo79bo2b$14bo17bobo19bo19bo19bo17bobob$10b2obob
+o15bobobo12bob2obobo12bob2obobo12bob2obobo15bobobo$8bo2bobobo15bobobo
+12b2obobobo12b2obobobo12b2obobobo15bobobo$8b2o2bobo17bobo17bobo17bobo
+10bo6bobo17bobob$13bo19bo19bo19bo11b2o6bo19bo2b$3o2b2o77bobo29b$2bo2bo
+bo108b$bo3bo110b$9b2o105b$9bobo104b$9bo106b10$99bo16b$98bo17b$55bo42b
+3o15b$55bobo58b$55b2o38bobo18b$48bo47b2o18b$47bo48bo19b$4bobo40b3o66b$
+5b2o94bo14b$5bo38bobo26bo19bo5b2o12bo2b$32bo12b2o5bo6b2o11bobo17bobo5b
+2o10bobob$12bo18bobo11bo5bobo4b2o6bo4bobo17bobo17bobobo$10b2o20b2o6b3o
+9b2o6bo4bo5bobobo15bobobo15bobobo$11b2o21b2o6bo11b2o9b3o4bobobo15bobob
+o15bobob$34bobo4bo8bo3bobo5bo10bo2bo16bo2bo16bo2b$35bo15bo3bo5b2o11b2o
+18b2o20b$8bo3b2o35b3o9bobo52b$8b2ob2o103b$7bobo3bo44b3o38b2o15b$60bo
+29b2o6b2o16b$59bo31b2o7bo15b$90bo25b2$48b2o66b$49b2o65b$48bo!

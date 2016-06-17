@@ -1,0 +1,9 @@
+#N Hat_synth
+#O Mark D. Niemiec
+#C Glider synthesis of hats.
+#C http://home.interserv.com/~mniemiec/3gliders.htm
+x = 109, y = 18, rule = 23/3
+84bo24b$85b2o22b$b2o81b2o23b$obobo39bobo41bo20b$2bobobo38b2o40bo21b$4b
+2o39bo41b3o19b2$24b2ob2o14b2o19b2ob2o35b2ob2o$8b2o15bobo15bobo19bobo
+37bobob$8bobo14bobo15bo4b3o14bobo37bobob$8bo17bo21bo17bo39bo2b$49bo38b
+o20b$87b2o20b$87bobo19b2$84b3o22b$86bo22b$85bo!

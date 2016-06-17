@@ -1,0 +1,11 @@
+#N Bi-gun_synth
+#O Nathaniel Johnston
+#C Glider synthesis of bi-gun.
+#C www.conwaylife.com/wiki/index.php?title=Bi-gun
+x = 125, y = 23, rule = b3/s23
+9bo11bo103b$10b2o8bo104b$9b2o9b3o102b$18bo106b$5bo11b2o67bo38b$3bobo
+11bobo18bo36b2o8b2o38b$4b2o33bo35b2o7b2o39b$b2o34b3o6bo38b2o2b2o34b$ob
+o41b2o8bo58bo11b$2bo42b2o7bobo56b2o8b2o$54b2o58b2o7b2o$57b2o26b2o2b2o
+18b2o2b2o10b$57bobo24b2o39b$13b2o42bo27b2o38b$14b2o70bo38b$13bo6b3o86b
+2o2b2o10b$20bo93b2o9b$21bo18bobo70b2o10b$41b2o70bo11b$41bo83b$37b3o9b
+2o74b$39bo8b2o75b$38bo11bo!

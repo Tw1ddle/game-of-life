@@ -1,0 +1,26 @@
+#N Clock_synth
+#O Mark D. Niemiec
+#C Glider syntheses of clocks.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 145, y = 108, rule = 23/3
+124bo20b$125bo19b$83bobo37b3o19b$83b2o60b$84bo36b2o22b$120bobo22b$80bo
+41bo22b$81b2o19bo39bo2b$80b2o20bobo37bobo$84b2o15bobo37bobob$83b2o18bo
+39bob$85bo37bo21b$123bobo19b$81bo41b2o20b$81b2o62b$80bobo37b3o22b$120b
+o24b$121bo23b12$81bo63b$81bobo61b$81b2o62b2$43bobo17bo19bo44bo16b$43b
+2o17bobo17bobo17b2o18b2o4bobo14b$44bo17b2o18b2o18b2o18b2o4b2o15b$48bo
+96b$22b2o18b2o2b2o14b2o3bo14b2o3bo14b2o3bo14b2o3bo14bo2b$bobo17bo2bo
+16bo2bo2b2o9b2obo2bobobo9b2obo2bobobo9b2obo2bobobo9b2obo2bobobo13bobo$
+2b2o17bo2bo12b2o2bo2bo12bobobo2bob2o9bobobo2bob2o9bobobo2bob2o9bobobo
+2bob2o13bobob$2bo19b2o14b2o2b2o14bo3b2o14bo3b2o14bo3b2o14bo3b2o19bob$
+37bo107b$b2o38bo20b2o18b2o18b2o12b2o4b2o21b$obo38b2o18bobo17bobo18b2o
+11bobo4b2o21b$2bo37bobo19bo19bo34bo27b2$83b2o60b$82bobo60b$84bo60b11$
+81bo63b$81bobo36bobo22b$81b2o37b2o23b$121bo23b$83bo61b$82bobo17b2o18b
+2o21b$82b2o18b2o18b2o21b2$73b3o6b2o3bo14b2o18b2o18bo2b$75bo2b2obo2bobo
+bo2bo6b2obo2bob2o10b2obo2bob2o14bobo$74bo2bobobo2bob2o2bo7b2obo2bob2o
+10b2obo2bob2o13bobob$78bo3b2o6b3o9b2o18b2o19bob2$82b2o18b2o18b2o21b$
+81bobo18b2o18b2o21b$82bo62b$124bo20b$83b2o39b2o19b$82bobo38bobo19b$84b
+o60b12$121bobo21b$121b2o22b$122bo22b2$117bobo25b$118b2o25b$42bo3bo71bo
+26b$43b2obobo79bo13bo2b$42b2o2b2o16bo19bo13b2o4bo13b2o4bo3bobo11bobo$
+63bobo11b2o4bobo11bo2bo2bobo11bo2bo2bobo2b2o11bobob$48b3o13bo11bobo5bo
+13b2o4bo13b2o4bo18bob$48bo29bo66b$49bo30b2o44bo18b$80bobo42b2o18b$80bo
+44bobo17b$122b2o21b$121bobo21b$123bo!

@@ -1,0 +1,6 @@
+#N Champage glass
+#C The smallest known non-trivial period 22 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Champagne_glass
+x = 15, y = 12, rule = b3/s23
+3b2o5b2o3b$3bo7bo3b$2obo7bob2o$o2b2o5b2o2bo$b2o6bo2b2ob$3b3o4b2o3b$3bo
+4bo2bo3b$4b7o4b2$6b3o6b$6bo2bo5b$8b2o!

@@ -1,0 +1,7 @@
+#N 42P10.1
+#O David Buckingham
+#C The first period 10 oscillator to be found. Found no later than 1976.
+#C www.conwaylife.com/wiki/index.php?title=42P10.1
+x = 13, y = 13, rule = b3/s23
+5b2o6b$4bo2bo5b$3bo2bo6b$2bob2ob3o3b$2bo2bo4bobo$3bo3bobob2o$3o6bo3b$o
+2b5obo3b$3bo4bo4b$4b4o5b2$6b2o5b$6b2o!

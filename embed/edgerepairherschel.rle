@@ -1,0 +1,6 @@
+#N Edge repair Herschel
+#C A period 3 c/3 orthogonal edge-repair spaceship that is about to collide with a Herschel.
+#C www.conwaylife.com/wiki/index.php?title=Edge-repair_spaceship_1
+x = 24, y = 7, rule = 23/3
+16bo7b$o14b4o5b$obo7bo3bo3b2ob2ob$3o6b4o5bo2b2ob$2bo5bo3bo7bo2bo$9bobo
+2bo9b$13bo!

@@ -1,0 +1,7 @@
+#N One per generation
+#O Nicolay Beluchenko
+#C A tubstretcher that grows by exactly one cell every generation.
+#C www.conwaylife.com/wiki/index.php?title=One_per_generation
+x = 17, y = 15, rule = b3/s23
+8b2o7b$7b2o8b$9bo7b$11b2o4b$10bo6b2$9bo2b2o3b$b2o5b2o4bo2b$2o5bo5bo3b$
+2bo4bobo3b2o2b$4bo2bo4b2obob$4b2o7b2o2b$8bo4bob2o$7bobo2bob2ob$8bo!

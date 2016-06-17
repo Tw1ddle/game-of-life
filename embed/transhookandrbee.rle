@@ -1,0 +1,5 @@
+#N Trans-hook and R-bee
+#C A 14-cell still life composed of a bookend and a bun.
+#C http://www.conwaylife.com/wiki/index.php?title=Trans-hook_and_R-bee
+x = 5, y = 7, rule = B3/S23
+3b2o$bo2bo$b3ob2$b3ob$o2bob$b2o!

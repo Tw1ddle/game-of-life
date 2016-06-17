@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Washing machine
+#D Author: Robert Wainwright
+#D A period 2 oscillator found no later than June 1972.
+#D www.conwaylife.com/wiki/index.php?title=Washing_machine
+#N
+#P -3 -3
+.**.**
+*.**..*
+**....*
+.*...*
+*....**
+*..**.*
+.**.**

@@ -1,0 +1,11 @@
+#N 22P36_synth
+#O Mark D. Niemiec
+#C A 9-glider synthesis of 22P36
+#C http://www.conwaylife.com/wiki/index.php?title=22P36
+x = 134, y = 28, rule = b3/s23
+106bobo25b$106b2o26b$107bo26b3$20b2o18b2o18b2o28b2o28b2o12b$21bo19bo
+19bo29bo29bo12b$2o19bobo17bobo17bobo17bobo7bobo27bobo10b$b2o19b2o18b2o
+18b2o18b2o8b2o28b2o10b$o3b2o76bo45bo5b$4bobo120b2o5b$4bo123bo5b2$47b2o
+85b$48b2o84b$47bo86b$55bo69bo8b$48b2o3b2o70b2o7b$48bobo3b2o55bo13bo8b$
+48bo21b2o28b2o8b2o18b2o2b$70bobo27bobo7bobo17bobob$72bo29bo29bob$72b2o
+28b2o28b2o3$86bo47b$86b2o46b$85bobo!

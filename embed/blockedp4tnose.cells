@@ -1,0 +1,17 @@
+!Name: Blocked p4 t-nose
+!Author: Adam P. Goucher
+!A period 4 oscillator.
+!www.conwaylife.com/wiki/Blocked_p4_t-nose
+...........OOO
+
+..........O...O
+....O...O.......O...O
+...O.O.............O.O
+...O.O.............O.O
+OO.O.O.OOOOOOOOOOO.O.O.OO
+OO.O.................O.OO
+...O.................O
+...O.O....O..OO....O.O
+....OO...O.O..O....OO
+.........O..OO
+........OO

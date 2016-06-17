@@ -1,0 +1,15 @@
+#N c/2 wickstretcher
+#C A c/2 orthogonal wickstretcher that stretches a period 6 wick
+x = 43, y = 61, rule = b3/s23
+3bo39b$bo41b$o6bo35b$o6bo35b$6obo35b2$5b2o36b$4bo38b$7bo35b$2b2o39b$bo
+41b$bo2bo38b$b2o40b$3b2o38b2$5b3o35b$3bob3o35b$bo4bo36b$o5bobo34b$o4b
+2obo34b$5o12bo25b$15b3o8bobo7b2o5b$14bo7b2obob2o2bo3bo2bo2b2o$4b2o5b2o
+2b5o2bob2o5b3o2b2obo2bo$3b3o5bob2o5bobo4b4o3b2o3bobob$3ob2o10b2obobob
+5o3bobo2b4ob2o$o2bo6bo2b3o3bobo6b3obobobo2bobob$o4bo4bob2obobobo2b2ob
+3o2b2ob2o3b2obob$b6obobo4bobob3o3b3o5bo2bo3bo2b$3bob2o8b5o15b5o3b2$3bo
+b2o8b5o15b5o3b$b6obobo4bobob3o3b3o5bo2bo3bo2b$o4bo4bob2obobobo2b2ob3o
+2b2ob2o3b2obob$o2bo6bo2b3o3bobo6b3obobobo2bobob$3ob2o10b2obobob5o3bobo
+2b4ob2o$3b3o5bob2o5bobo4b4o3b2o3bobob$4b2o5b2o2b5o2bob2o5b3o2b2obo2bo$
+14bo7b2obob2o2bo3bo2bo2b2o$15b3o8bobo7b2o5b$5o12bo25b$o4b2obo34b$o5bob
+o34b$bo4bo36b$3bob3o35b$5b3o35b2$3b2o38b$b2o40b$bo2bo38b$bo41b$2b2o39b
+$7bo35b$4bo38b$5b2o36b2$6obo35b$o6bo35b$o6bo35b$bo41b$3bo!

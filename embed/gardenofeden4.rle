@@ -1,0 +1,7 @@
+#N Garden of Eden 4
+#O Achim Flammenkamp
+#C The smallest known Garden of Eden until Garden of Eden 5 was found in September 2009. Found on June 23, 2004.
+#C www.conwaylife.com/wiki/index.php?title=Garden_of_Eden_4
+x = 12, y = 11, rule = b3/s23
+bob2ob2o2bob$2bob3ob3ob$2b2ob3obobo$bob3ob3obo$5o2b4ob$b2ob3obo2bo$b3o
+bobo2bob$b2ob3o2b2ob$ob3ob3obob$o2b2o2bobobo$10bo!

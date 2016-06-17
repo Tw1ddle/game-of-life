@@ -1,0 +1,13 @@
+#N Cis-mirrored R-bee_synth
+#O Mark D. Niemiec
+#C Glider syntheses of cis-mirrored R-bees.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 95, y = 46, rule = 23/3
+77bobo15b$77b2o16b$78bo16b3$70bo24b$19bo48bobo2bo21b$17bobo49b2o2bobo
+19b$18b2o22b2o29b2o17b2ob$29bo11bo2bo46bo2bo$29bobo10b3o47b3o$29b2o64b
+$26b2o14b3o47b3o$25b2o14bo2bo46bo2bo$18b2o7bo14b2o29b2o17b2ob$17bobo
+49b2o2bobo19b$19bo48bobo2bo21b$70bo24b3$78bo16b$77b2o16b$77bobo15b15$
+13bobo79b$13b2o17b2o8b2o13b2o3b2o8b2o18b2ob$3bo10bo16bo2bo6bo2bo13b2ob
+o2bo6bo2bo16bo2bo$bobo27b3o8b3o12bo3b3o8b3o17b3o$2b2o8b2o81b$12bobo16b
+3o8b3o16b3o8b3o17b3o$bo10bo18bo2bo6bo2bo16bo2bo6bo2bo16bo2bo$b2o29b2o
+8b2o18b2o8b2o18b2ob$obo!

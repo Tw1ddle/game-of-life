@@ -1,0 +1,24 @@
+#Life 1.05
+#D Name: Ecologist
+#D A c/2 orthogonal spaceship based on one of the classic puffer trains.
+#D www.conwaylife.com/wiki/index.php?title=Ecologist
+#N
+#P -76 -10
+.*..*.....**
+*........****
+*...*...**.**
+****.....**
+.
+.
+.
+...........**
+..***.......**
+..*......*..*
+..*.*......*
+...**...**
+.........................**
+.........................*
+.*..*..................***
+*
+*...*
+****

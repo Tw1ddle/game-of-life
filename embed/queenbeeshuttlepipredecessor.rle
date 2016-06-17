@@ -1,0 +1,6 @@
+#N Queen bee shuttle pi predecessor
+#O Bill Gosper
+#C A queen bee shuttle predecessor found in April 1992.
+#C www.conwaylife.com/wiki/index.php?title=Queen_bee_shuttle
+x = 35, y = 7, rule = b3/s23
+2o31b2o$2o31b2o3$16b3o16b$5b3o8bobo8b3o5b$16bobo!

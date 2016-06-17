@@ -1,0 +1,5 @@
+#N R-bee and snake
+#C A 13-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=R-bee_and_snake
+x = 5, y = 6, rule = B3/S23
+2obob$ob2ob2$b3ob$bo2bo$2b2o!

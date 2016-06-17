@@ -1,0 +1,7 @@
+#N 25P3H1V0.1
+#O David Bell
+#C A c/3 orthogonal period 3 spaceship with a minimum of 25 cells -- the lowest
+#C number of cells known for any such spaceship.
+#C www.conwaylife.com/wiki/index.php?title=Edge-repair_spaceship_1
+x = 16, y = 8, rule = b3/s23
+10bo5b$8b3ob3ob$7b2o6bo$2bo3bo2bo3b2ob$b4o11b$o3bo11b$bobo2bo9b$5bo!

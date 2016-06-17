@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Double caterer
+#D Author: Dean Hickerson
+#D A period 3 oscillator found in October 1989.
+#D http://www.conwaylife.com/wiki/index.php?title=Double_caterer
+#N
+#P -9 -6
+.....**...*
+....*..*..***
+....**.*.....*
+......*.****.*
+..***.*.*...*.**
+.*..*..*...*..*.*
+*.*..*...*.**....*
+.*..........**.***
+..**.**.**...*
+...*...*.....*.***
+...*...*......**..*
+.................**

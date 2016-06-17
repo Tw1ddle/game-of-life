@@ -1,0 +1,5 @@
+#N Eleven loop
+#C An 11-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Eleven_loop
+x = 5, y = 5, rule = b3/s23
+bo3b$obo2b$o2bob$bobob$2ob2o!

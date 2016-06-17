@@ -1,0 +1,7 @@
+#N R2D2
+#O Peter Raynham
+#C A period 8 oscillator.
+#C http://www.conwaylife.com/wiki/index.php?title=R2D2
+x = 11, y = 10, rule = B3/S23
+5bo5b$4bobo4b$3bobobo3b$3bobobo3b$2obo3bob2o$2obo3bob2o$3bo3bo3b$3bobo
+bo3b$4bobo4b$5bo!

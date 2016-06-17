@@ -1,0 +1,19 @@
+!Name: Fountain
+!Author: Dean Hickerson
+!A period 4 oscillator found in November 1994.
+!www.conwaylife.com/wiki/index.php?title=Fountain
+.........O
+
+...OO.O.....O.OO
+...O.....O.....O
+....OO.OO.OO.OO
+
+......OO...OO
+OO...............OO
+O..O...O.O.O...O..O
+.OOO.OOOOOOOOO.OOO
+....O....O....O
+...OO.........OO
+...O...........O
+.....O.......O
+....OO.......OO

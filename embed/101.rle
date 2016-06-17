@@ -1,0 +1,9 @@
+#N 101
+#O Achim Flammenkamp
+#C A period 5 oscillator that was found in August 1994.
+#C The name was suggested by Bill Gosper, noting that the phase shown 
+#C below displays the period in binary.
+x = 18, y = 12, rule = B3/S23
+4b2o6b2o4b$3bobo6bobo3b$3bo10bo3b$2obo10bob2o$2obobo2b2o2bobob2o$3bobo
+bo2bobobo3b$3bobobo2bobobo3b$2obobo2b2o2bobob2o$2obo10bob2o$3bo10bo3b$
+3bobo6bobo3b$4b2o6b2o!

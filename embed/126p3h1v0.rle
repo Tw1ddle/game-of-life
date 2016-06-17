@@ -1,0 +1,10 @@
+#N 126P3H1V0
+#O David Bell
+#C The basis of 117P9H3V0
+#C http://www.conwaylife.com/wiki/index.php?title=117P9H3V0
+x = 17, y = 33, rule = b3/s23
+8bo8b$7bobo7b$6bo3bo6b$7b3o7b2$5b2o3b2o5b$2b2o3bobo3b2o2b$2b2o3bobo3b
+2o2b$2o5bobo5b2o$4b2obobob2o4b$o6bobo6bo$3b2o2bobo2b2o3b$bo2bobo3bobo
+2bob$b2o11b2ob$b2o11b2ob$4bo7bo4b$4b3o3b3o4b$6bo3bo6b$3b2obo3bob2o3b$
+5b2o3b2o5b$5bobobobo5b2$5bo2bo2bo5b$6b2ob2o6b$5b2o3b2o5b2$4bo2b3o2bo4b
+$3b11o3b$3b2obo3bob2o3b2$7b3o7b$7bobo7b$6b2ob2o!

@@ -1,0 +1,25 @@
+!Name: Sixty-nine
+!Author: Robert Wainwright
+!A period 4 oscillator found in October 1978.
+!www.conwaylife.com/wiki/index.php?title=Sixty-nine
+.........O
+........O.O
+
+......O...OO
+.....O.....O
+......O.O
+........OO......O
+................O
+..O.....OO....OOO
+..O...........OO
+OOO.......OO..OO..OOO
+OO......O.OO....OOO
+OO..OOO.O.O.....OOO
+..OOO
+..OOO......O
+..........O.O
+
+........O...OO
+.......O.....O
+........O.O
+..........OO

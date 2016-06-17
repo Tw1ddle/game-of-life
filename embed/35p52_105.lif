@@ -1,0 +1,24 @@
+#Life 1.05
+#D Name: 35P52
+#D With a minimum population of 35 cells it is the smallest period 52
+#D oscillator.
+#D www.conwaylife.com/wiki/index.php?title=35P52
+#N
+#P -8 -8
+..*
+..***
+.....*.........**
+....**.........*
+.............*.*
+........**...**
+.......*
+......*
+.......*.*
+.......*
+.
+..**
+.*.*
+.*.........**
+**.........*
+............***
+..............*

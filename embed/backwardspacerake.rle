@@ -1,0 +1,8 @@
+#N Backward space rake
+#C A simple orthogonal backward glider rake with period 20 and speed c
+#C /2.
+#C www.conwaylife.com/wiki/index.php?title=Space_rake
+x = 23, y = 20, rule = b3/s23
+12b2o5b4o$10b2ob2o3bo3bo$10b4o8bo$11b2o5bo2bob2$9bo13b$8b2o8b2o3b$7bo
+9bo2bo2b$8b5o4bo2bo2b$9b4o3b2ob2o2b$12bo4b2o4b4$19b4o$18bo3bo$b4o17bo$
+o3bo13bo2bob$4bo18b$o2bo!

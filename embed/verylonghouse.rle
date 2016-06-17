@@ -1,0 +1,5 @@
+#N Very long house
+#C An induction coil.
+#C www.conwaylife.com/wiki/index.php?title=Very_long_house
+x = 7, y = 3, rule = 23/3
+b5ob$o2bo2bo$2o3b2o!

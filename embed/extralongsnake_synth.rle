@@ -1,0 +1,8 @@
+#N Extra long snake_synth
+#O Mark D. Niemiec
+#C Glider synthesis of extra long snake.
+#C http://home.interserv.com/~mniemiec/objname.htm#E
+x = 33, y = 18, rule = 23/3
+11bo21b$12bo20b$10b3o20b$5bobo25b$6b2o25b$6bo26b$14bo18b$13bo19b$13b3o
+10b2o5b$11bo14bobo4b$10b2o17bo3b$10bobo17bobo$31b2o$19b2o12b$19bobo11b
+$3o16bo13b$2bo30b$bo!

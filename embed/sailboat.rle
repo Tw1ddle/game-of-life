@@ -1,0 +1,10 @@
+#N Sailboat
+#O Robert Wainwright
+#C A period 16 oscillator made of a boat that is hassled by a Kok's galaxy, a figure eight, and two eater 3s. Found in June 1984.
+#C www.conwaylife.com/wiki/index.php?title=Sailboat
+x = 29, y = 25, rule = 23/3
+8bo11bo8b$7bobo9bobo7b$8bo11bo8b2$6b5o7b5o6b$5bo4bo7bo4bo5b$4bo2bo13bo
+2bo4b$bo2bob2o13b2obo2bob$obobo5bo7b2o4bobobo$bo2bo4bobo5bo2bo3bo2bob$
+4b2o2bo2bo6bobo2b2o4b$9b2o8bo9b$13b2o14b$13bobo13b$14bo14b$17b3o9b$5bo
+bo2bo5bo12b$5b3obob2o3bo3bo8b$4bo6bo4bo2bobo7b$5bo5b2o5bobo2bo5b$19bo
+3bo5b$4b2o5bo11bo5b$5bo6bo7b3o6b$4b2obob3o17b$6bo2bobo!

@@ -1,0 +1,7 @@
+#N Cauldron
+#O Robert Wainwright and Don Woods
+#C A period 8 oscillator found in 1971.
+#C http://www.conwaylife.com/wiki/index.php?title=Cauldron
+x = 11, y = 13, rule = B3/S23
+5bo5b$4bobo4b$5bo5b2$3b5o3b$obo5bobo$2obo3bob2o$3bo3bo3b$3bo3bo3b$4b3o
+4b2$4b2obo3b$4bob2o!

@@ -1,0 +1,20 @@
+#Life 1.05
+#D Name: 2 fumaroles
+#D Author: Noam Elkies
+#D A non-trivial combination of two fumaroles and a blinker, found on September 
+#D 1, 1995.
+#D www.conwaylife.com/wiki/index.php?title=Fumarole
+#N
+#P -7 -6
+**
+*..**....*
+.**.**...*
+....**...*
+....**
+.**.**....**
+*..**...*....*
+**......*....*
+........*....*
+.........*..*
+.......*.*..*.*
+.......**....**

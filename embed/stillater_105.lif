@@ -1,0 +1,15 @@
+#Life 1.05
+#D Name: Stillater
+#D Author: Robert Wainwright
+#D A period 3 oscillator found in September 1985.
+#D www.conwaylife.com/wiki/index.php?title=Stillater
+#N
+#P -4 -4
+...*
+..*.*.**
+..*.**.*
+**
+.*.*.**
+.*.*..*
+..*..*
+...**

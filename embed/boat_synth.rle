@@ -1,0 +1,19 @@
+#N Boat_synth
+#O Mark D. Niemiec
+#C Glider syntheses of boats.
+#C http://home.interserv.com/~mniemiec/2gliders.htm
+x = 152, y = 105, rule = 23/3
+10bo141b$11bo140b$9b3o114bo25b$29b2o23bo14b2o21bo16b2o16bo21b2ob$11bo
+17bobo20b2o15bobo14bo4bo17bobo13b3o21bobo$10b2o18bo22b2o15bo13bobo4b3o
+16bo19b3o17bob$10bobo35b2o35b2o2bo40bo21b$46bobobo38b2o36b2o2bo20b$44b
+obobo39bobo35bobo23b$45b2o81bo23b22$4bo91bo55b$5b2o87b2o56b$4b2o23b2o
+23bo14b2o24b2o12b2o38b2ob$b2o26bobo20b2o15bobo37bobo18b2o17bobo$obo8b
+2o17bo22b2o15bo39bo14b3obo2bo17bob$2bo8bobo34b2o77bo2b2o20b$11bo34bobo
+bo6b2o25b2o40bo6b3o16b$44bobobo7b2o21bobob2o5b2o41bo18b$45b2o11bo21b2o
+3bo4bobo41bo17b$80bo9bo61b16$92bo59b$91bo60b$91b3o58b$88b2o62b$52bo34b
+obo62b$51bo37bo62b$51b3o98b$10bobo16b2o38b2o38b2o15b2o21b2ob$10b2o17bo
+bo37bobo37bobo14b2o2b2o17bobo$11bo18bo23bobo13bo24b2o13bo18b2o19bob$
+54b2o39bobo26b2o5bo20b$8b3o44bo39bo27bobo26b$3bo4bo116bo26b$3b2o4bo46b
+3o93b$2bobo51bo95b$57bo94b22$29b2o38b2o81b$29bobo37bobo80b$30bo16b2o
+21bo81b$46bobo103b$48bo103b$20bo30b2o99b$19bo32b2o98b$19b3o29bo3b2o95b
+$15b3o37bobo94b$8b3o4bo39bo96b$10bo5bo135b$9bo!

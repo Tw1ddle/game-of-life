@@ -1,0 +1,6 @@
+#N 38P7.3
+#O Nicolay Beluchenko
+#C An alternate form of 38P7.2
+x = 13, y = 13, rule = b3/s23
+4bo8b$o2bobo7b$obo2bo2bo4b$bo2b2obobo2bo$5bobo2bobo$2b2o3b2o2bob$2bo4b
+o5b$4bo4b2o2b$10bo2b$bo2bo3bo4b$2b2o9b$8bo2bob$9b2o!

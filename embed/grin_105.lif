@@ -1,0 +1,8 @@
+#Life 1.05
+#D Name: Grin
+#D A common parent of the block.
+#D http://www.conwaylife.com/wiki/index.php?title=Grin
+#N
+#P -2 -1
+*..*
+.**

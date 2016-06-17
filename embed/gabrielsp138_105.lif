@@ -1,0 +1,28 @@
+#Life 1.05
+#D Name: Gabriel's p138
+#D Author: Gabriel Nivasch
+#D A small period 138 oscillator, discovered on October 13, 2002
+#D www.conwaylife.com/wiki/index.php?title=Gabriel's_p138
+#N
+#P -10 -10
+........***
+.......*..*
+.......*..*
+.......**
+.
+.
+.
+.................***
+.................*..*
+....................*
+***...............***
+*
+*..*
+.***
+.
+.
+.
+............**
+..........*..*
+..........*..*
+..........***

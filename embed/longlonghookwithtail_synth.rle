@@ -1,0 +1,18 @@
+#N Long long hook with tail_synth
+#O Mark D. Niemiec
+#C Glider synthesis of long long hook with tail.
+#C http://home.interserv.com/~mniemiec/still.htm
+x = 108, y = 91, rule = 23/3
+39bo68b$37bobo68b$38b2o68b$45bo62b$45bobo60b$45b2o61b$61b2o3b2o13b2o3b
+2o13b2o3b2o$46bo15bo2bobo14bo2bobo14bo2bobo$36b2o8b2o3bo10bobobo15bobo
+bo15bobo3b$37b2o6bobo3bobo9bobo17bobo17bo4b$36bo14b2o11bo19bo2b2o19b$
+87bobo18b$83b2o2bo20b$82bobo23b$84bo23b16$82bo25b$82bobo23b$78bo3b2o
+24b$76bobo29b$77b2o2b2o25b$80bobo25b$82bo25b4$73bo34b$36bo37bo33b$3bo
+33b2o3bo29b3o33b$bobo5bo26b2o2b2o66b$2b2o3b2o32b2o65b$8b2o98b$11b2o13b
+2o18b2o13b2o3b2o18b2o13b2o3b2o$11bobo9bobobo10bobo2bobobo14bo2bobo15bo
+bobo14bo2bobo$b2o8bo11b2o14b2o2b2o17bobo18b2o17bobo3b$obo36bo23bo39bo
+4b$2bo105b$40b3o65b$40bo67b$41bo66b4$87b2o19b$86b2o20b$88bo19b14$89bo
+18b$89bobo16b$89b2o17b$61b2o18b2o18b2o3b2o$62bo19bo9bobo7bo2bobo$41b2o
+19bobo17bobo7b2o8bobo3b$42b2o19b2o18b2o8bo9bo4b$41bo3b2o61b$45bobo40b
+2o18b$45bo41b2o19b$78bobo8bo18b$79b2o2b2o23b$79bo2bobo23b$84bo23b2$80b
+o27b$80b2o26b$79bobo!

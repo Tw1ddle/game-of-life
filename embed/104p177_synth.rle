@@ -1,0 +1,22 @@
+#N 104P177_synth
+#O Jason Summers
+#C A 24-glider synthesis of 104P177
+#C http://www.conwaylife.com/wiki/index.php?title=104P177
+x = 167, y = 88, rule = b3/s23
+53bo113b$53bobo111b$53b2o112b2$17bobo147b$18b2o147b$18bo45bo102b$62b2o
+103b$63b2o102b8$38bo128b$38bobo42bo51b2o6b2o22b$38b2o41b2o47b2o2bo2bo
+4bo2bo2b2o17b$82b2o45bo2b2ob2o6b2ob2o2bo16b$127b2ob3o14b3ob2o14b$126bo
+4bo16bo4bo13b$129bo20bo16b$6bobo158b$7b2o33bo82bo3bo20bo3bo12b$7bo32b
+2o84b3o22b3o13b$41b2o124b3$120bo38bo7b$117bo3bo36bo3bo4b$42bo73bo4bo
+36bo4bo3b$bo40bobo71bo4bo36bo4bo3b$2bo39b2o71bo2bobo38bobo2bo2b$3o111b
+obo46bobob$114bob2o44b2obob$115b2o46b2o2b$115bo48bo2b$69b3o42bo50bob$
+69bo43bobo48bobo$62bo7bo42bobo48bobo$61b2o51bo50bob$54b3o4bobo103b$32b
+o21bo112b$33bo21bo111b$24bobo4b3o133b$25b2o87bo50bob$17bo7bo87bobo48bo
+bo$18bo94bobo48bobo$16b3o95bo50bob$115bo48bo2b$115b2o46b2o2b$114bob2o
+44b2obob$85b3o26bobo46bobob$44b2o39bo29bo2bobo38bobo2bo2b$43bobo40bo
+29bo4bo36bo4bo3b$45bo70bo4bo36bo4bo3b$117bo3bo36bo3bo4b$120bo38bo7b3$
+45b2o120b$46b2o32bo45b3o22b3o13b$45bo33b2o44bo3bo20bo3bo12b$79bobo85b$
+129bo20bo16b$126bo4bo16bo4bo13b$127b2ob3o14b3ob2o14b$4b2o123bo2b2ob2o
+6b2ob2o2bo16b$5b2o41b2o80b2o2bo2bo4bo2bo2b2o17b$4bo42bobo85b2o6b2o22b$
+49bo117b8$23b2o142b$24b2o141b$23bo45bo97b$68b2o97b$68bobo96b2$33b2o
+132b$32bobo132b$34bo!

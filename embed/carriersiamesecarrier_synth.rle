@@ -1,0 +1,17 @@
+#N Carrier siamese carrier_synth
+#O Mark D. Niemiec
+#C Glider synthesis of carrier siamese carrier.
+#C http://home.interserv.com/~mniemiec/objname.htm#C
+x = 89, y = 83, rule = 23/3
+8bo80b$9b2o78b$8b2o79b3$69bo19b$68bo20b$64bo3b3o18b$65b2o22b$64b2o23b
+4$42b2o17b2o19b2o5b$42bo2b2o13bobo19bo2b2o2b$44b2o2bo13bo21b2o2bo$47b
+2o38b2o$23bo44bo20b$21bobo45bo3bobo13b$22b2o33b3o7b3o3b2o14b$17bo41bo
+14bo14b$18b2o4bo33bo12b2o16b$17b2o3b2o46bobo16b$23b2o47bo16b$4bo84b$4b
+2o83b$3bobo83b5$2o87b$b2o86b$o88b5$58bo30b$52bo3bobo30b$50bobo4b2o30b$
+51b2o36b2$82b2o5b$82bo2b2o2b$84b2o2bo$70bo16b2o$68b2o19b$54b2o9bo3b2o
+18b$53bobo10b2o21b$55bo9b2o22b2$22bobo64b$23b2o19bo19bo24b$23bo19bobo
+17bobo23b$44b2o18b2o23b$23b3o63b$23bo65b$24bo64b8$69bo19b$69bobo17b$
+20bo48b2o18b$20bobo66b$20b2o67b$68b2o19b$21b2o44b2o20b$20bobo19b2o18b
+2o5bo12b2o5b$22bo2bo16bo2bo16bo2bo16bo2b2o2b$25bobo16b2o18b2o18b2o2bo$
+25b2o42b2o16b2o$68bobobo16b$26b2o42bobobo14b$25bobo44b2o15b$27bo37b2o
+22b$66b2o21b$65bo!

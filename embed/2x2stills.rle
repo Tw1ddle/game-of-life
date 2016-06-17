@@ -1,0 +1,8 @@
+#N 2x2 still lifes
+#C Some common still lifes in the 2x2 (125/36) rule.
+#C www.conwaylife.com/wiki/index.php?title=2x2
+x = 38, y = 12, rule = 125/36
+19bo10b2o6b$12bo5bo5bo9b2o2b$6bo4bo5bo4b3o3b4o6b$bo3bo4bo5bo6b3o12b$o
+3bo4bo5bo7bo4b2o6bob$35bobo$35bo2b$bo4bo4b2o4b2o5bo8bobo2b$obo2bobo2bo
+2bo2bo2bo3bobo3b2o2bobobo$bo3bobo3bobo2bo2bo2bo2bo2bo7bob$6bo5bo4b2o3b
+obo4b2o7b$23bo!

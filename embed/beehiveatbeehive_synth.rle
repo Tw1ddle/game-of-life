@@ -1,0 +1,30 @@
+#N Beehive at beehive_synth
+#O Mark D. Niemiec
+#C Glider syntheses of beehive at beehive.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 156, y = 110, rule = 23/3
+58bo97b$57bo98b$57b3o96b$138bobo15b$138b2o16b$131bo7bo16b$18bo113bo23b
+$16b2o112b3o23b$17b2o137b2$48bo107b$34bo11bobo6bobo16bo39bo11bo27bob$
+33bobo11b2o2b2o2b2o16bobo37bobo8bobo26bobo$33bobo14bobo3bo16bobo17bo
+19bobo9b2o26bobo$15bobo13b2obo17bo18b2obo14bo3bobo15b2obo18bobo15b2obo
+b$15b2o13bo2bo36bo2bo15b2o2b2o2b2o11bo2bo19b2o15bo2bo2b$16bo14b2o38b2o
+15bobo6bobo11b2o21bo16b2o3b$6bo90bo58b$6b2o5b3o24b2o92b2o3bo16b$5bobo
+5bo25bobo80b2o9bobo2b2o16b$14bo26bo81b2o10bo2bobo15b$122bo33b$91b3o62b
+$93bo5bo56b$92bo5b2o56b$98bobo55b6$59bo96b$57bobo96b$58b2o96b$97bo58b$
+95b2o59b$96b2o58b2$51bo104b$52bo103b$50b3o103b2$17bo138b$18bo67bo69b$
+16b3o66bo70b$20bo64b3o68b$20bobo133b$20b2o134b3$121bo34b$34bo79bo5bobo
+33b$14bo18bobo39bo37bobo5bo34b$13bobo17bobo40bo36bobo40b$12bobo16b2obo
+39b3o34b2obo41b$11bobo16bo2bo76bo2bo42b$12bo18b2o44bo33b2o43b$3bo72bo
+79b$bobo18b3o51b3o77b$2b2o18bo133b$23bo132b$4b3o68b2o33bo45b$6bo69b2o
+31bobo44b$5bo11b2o56bo34bo45b$17bobo136b$17bo138b$63b2o91b$62bobo91b$
+64bo91b6$91bo38bo25b$89bobo39bo24b$54bo35b2o37b3o24b$3bo50b2o100b$b2o
+50bobo100b$2b2o89b2o38b2o21b$84bo8b2o30bo7b2o21b$34bo50bo28bo8bobo28bo
+b$3o30bobo47b3o8bo18bobo8b2o8bo18bobo$2bo30bobo57bobo17bobo17bobo17bob
+o$bo29b2obo53b2o2bo2bo15b2obo13b2o2bo2bo15b2obob$30bo2bo54b2obo18bo2bo
+14b2obo18bo2bo2b$2b3o26b2o59b2o17b2o19b2o17b2o3b$2bo153b$3bo152b2$21b
+2o133b$21bobo132b$21bo134b2$56bo40bo39bo18b$56bobo37bo39bo19b$56b2o38b
+3o37b3o17b3$53b2o38b2o38b2o21b$53b2o38b2o38b2o21b$74bo39bo39bob$9b3o
+42bo18bobo18bo18bobo18bo18bobo$9bo43bobo17bobo17bobo17bobo17bobo17bobo
+$10bo37b2o2bo2bo15b2obo13b2o2bo2bo15b2obo13b2o2bo2bo15b2obob$48b2obo
+18bo2bo14b2obo18bo2bo14b2obo18bo2bo2b$52b2o17b2o19b2o17b2o19b2o17b2o3b
+$43b3o38b2o38b2o30b$45bo37bobo37bobo30b$44bo40bo39bo!

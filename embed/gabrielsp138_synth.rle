@@ -1,0 +1,11 @@
+#N Gabriel's p138_synth
+#O Jason Summers
+#C A 12-glider synthesis of Gabriel's p138
+#C www.conwaylife.com/wiki/index.php?title=Gabriel's_p138
+x = 63, y = 27, rule = b3/s23
+10bobo50b$11b2o50b$11bo51b$50bo12b$51b2o10b$9bo53b$10bo42bo9b$8b3o3bo
+33bo3bo10b$12b2o5bo28bob2o11b$13b2o4bobo27bo7b2o4b$19b2o5bo29bo6b$24b
+2o31bo4bo$7bobo8bo6b2o18bo11bo3bob$8b2o7b2o24bo2bo11bo2bob$2o6bo8bobo
+23bo3bo11bo3b$b2o39bo4bo15b$o5b2o40bo14b$5bobo4b2o32b2o7bo7b$7bo5b2o
+38b2obo6b$12bo3b3o33bo3bo6b$16bo34bo11b$17bo45b$52b2o9b$54bo8b$15bo47b
+$14b2o47b$14bobo!

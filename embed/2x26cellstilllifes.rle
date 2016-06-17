@@ -1,0 +1,7 @@
+#N 2x2 6-cell still lifes
+#C All 9 6-cell still lifes in the 2x2 (125/36) rule.
+#C www.conwaylife.com/wiki/index.php?title=2x2
+x = 58, y = 6, rule = 125/36
+2o4b2o5b2o3b2o5bo2bo3bo6bo8b2o4b2o2b$o2bo2bo8bo4bo5bo2bo3bobo4bo6bo2bo
+2bo3bo$2b2o4bo6bo4bo6b2o7bo4bo6b2o5b2ob$9bo3b2o6b2o11b2o6bo15b$10bo32b
+o14b$44bo!

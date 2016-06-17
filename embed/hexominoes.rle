@@ -1,0 +1,10 @@
+#N Hexominoes
+#C All 35 hexominoes
+#C http://www.conwaylife.com/wiki/Polyomino
+x = 82, y = 43, rule = B3/S23
+6o7b5o8b5o8b5o8b4o9b4o9b4o$17bo11bo11bo13b2o11bo11b2o$68bo8$4o9b4o9bo
+13bo13bo13bo9b4o$bobo9bo2bo9b4o9b4o9b4o9b4o11bo$29bo12bo12bo12bo11bo8$
+4o10bo13bo10b3o10b3o10b3o10b3o$b2o10b4o9b4o11b3o10b2o11b2o10b3o$15bo
+12bo26bo11bo8$3o10bo13bo11b3o10b3o10b3o10b3o$ob2o9b3o10b3o12bo12bo11b
+2o11b2o$15b2o11b2o11b2o10b2o12bo11bo8$3o10bo13bo13bo10bo13bo11b2o$3o
+10b3o10b3o10b3o10b3o10b3o11b2o$14b2o11b2o11b2o10bobo10bobo12b2o!

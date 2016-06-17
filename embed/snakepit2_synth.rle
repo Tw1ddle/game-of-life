@@ -1,0 +1,8 @@
+#N Snake pit 2_synth
+#O Mark D. Niemiec
+#C Glider synthesis of snake pit 2.
+#C http://home.interserv.com/~mniemiec/objname.htm#S
+x = 36, y = 21, rule = 23/3
+6bo29b$7bo28b$5b3o28b3$18bo11b2o4b$18bobo8bo2bo3b$18b2o9bob2o3b$26b2ob
+o6b$25bobobob4ob$10b3o12bo9bo$10bo15b4obobobo$11bo19bob2ob$b2o25b2obo
+4b$obo5b3o17bo2bo4b$2bo7bo18b2o5b$9bo26b2$13b3o20b$13bo22b$14bo!

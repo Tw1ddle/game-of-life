@@ -1,0 +1,5 @@
+#N Trans-beacon and dock
+#C A period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Trans-beacon_and_dock
+x = 7, y = 8, rule = B3/S23
+5b2o$6bo$3bo3b$3b2o2b2$b4o2b$o4bob$2o2b2o!

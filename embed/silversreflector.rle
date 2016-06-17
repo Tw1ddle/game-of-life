@@ -1,0 +1,13 @@
+#C 497-tick stable reflector
+#O Stephen Silver
+#C Discovered in November 1998
+#C The smallest and fastest spartan 180- and 90-degree stable reflector,
+#C the smallest stable glider duplicator altogether, as of February 2015.
+x = 194, y = 219, rule = B3/S23
+182b2o$182b2o$162bo$150bo11b3o$148b3o14bo$132bo14bo16b2o$132b3o12b2o$
+135bo$134b2o3$135b2o$135b2o17b2o$154b2o2$192b2o$192b2o3$151b2o$151bo
+19b2o$152b3o15bobo$154bo15bo$148b2o19b2o$148bo$149b3o$151bo4$132b2o$
+131bobo$131bo25b2o$130b2o25bo$138b2o15bobo$138b2o15b2o12$137b2o$136bob
+o$136bo$135b2o9$147b2o$147b2o6$136b2o$137bo19b2o$137bobo17bo$138b2o15b
+obo$150bo4b2o$149bobo$149bobo$138b2o10bo$137bobo$137bo$136b2o$151b2o$
+151bo$152b3o$154bo12$125b2o$124bobo$126bo122$bo$b2o$obo!

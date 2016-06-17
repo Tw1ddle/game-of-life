@@ -1,0 +1,7 @@
+#N 60P3H1V0.3
+#O David Bell
+#C A period 3 orthogonal c/3 spaceship.
+#C www.conwaylife.com/wiki/index.php?title=60P3H1V0.3
+x = 33, y = 8, rule = B3/S23
+12bob3o16b$4bo6bo5bo6b2obo5b$2b4o4b2o2bob2o3b2obob2ob3ob$b2o3bob2o2b4o
+b5o2b2o6bo$o3bob4o8bo3bo3bo3b2ob$4bo14bo13b$5bo4bo22b$9bo!

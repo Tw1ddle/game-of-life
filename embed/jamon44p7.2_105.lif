@@ -1,0 +1,23 @@
+#Life 1.05
+#D Name: Jam on 44P7.2
+#D The smallest known non-trivial period 21 oscillator. Has a single cell that o
+#D scillates at the full period.
+#D www.conwaylife.com/wiki/index.php?title=Jam_on_44P7.2
+#N
+#P -8 -8
+...**.......*
+...**......*.*
+...*.......*.*
+.*.***....**.*.**
+*.*.*..*.....**.*
+*..*.....*.**
+.**.........*
+.........***
+......*.*
+....*...*.**
+..***.*.*.**
+.*....**
+..****
+.....*
+....*
+....**

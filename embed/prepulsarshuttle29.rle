@@ -1,0 +1,8 @@
+#N Pre-pulsar shuttle 29
+#O David Buckingham
+#C A period 29 pre-pulsar shuttle oscillator, found in 1980.
+#C www.conwaylife.com/wiki/index.php?title=Pre-pulsar_shuttle_29
+x = 28, y = 28, rule = b3/s23
+15bo12b$13b3o12b$12bo15b$12b2o14b2$bo26b$obo4bo20b$bo5b2o6b2o11b$7bo7b
+2o11b3$19b2o7b$7bo11b2o5b2o$bo5b2o17bob$obo4bo16bobob$bo22b2o2b4$14bo
+5bo7b$13b3o3b3o6b5$13bo7bo6b$12bobo5bobo5b$13bo7bo!

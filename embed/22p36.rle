@@ -1,0 +1,7 @@
+#N 22P36
+#O Noam Elkies
+#C A period 36 oscillator, discovered on January 29, 1995.
+#C www.conwaylife.com/wiki/index.php?title=22P36
+x = 14, y = 18, rule = b3/s23
+2o12b$bo12b$bobo10b$2b2o10b$8bo5b$7b2o5b$8bo5b5$5bo8b$5b2o7b$5bo8b$10b
+2o2b$10bobob$12bob$12b2o!

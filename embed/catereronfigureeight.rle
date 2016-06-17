@@ -1,0 +1,5 @@
+#N Caterer on figure eight
+#C The smallest known period 24 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Caterer_on_figure_eight
+x = 18, y = 6, rule = b3/s23
+4b2o6bo5b$2bob2o4bo3b4o$bo8bo3bo3b$4bo5bo7b$2obo9bo4b$2o9b2o!

@@ -1,0 +1,9 @@
+#N Garden of Eden 1
+#O Roger Banks
+#C The first Garden of Eden that was explicitly constructed. Found in 
+#C 1971.
+#C www.conwaylife.com/wiki/index.php?title=Garden_of_Eden_1
+x = 33, y = 9, rule = B3/S23
+33o$2obob3ob3ob2obobobobobobobobobo$obob3ob3ob4ob3obobobobobobob$5ob3o
+b3ob4ob14o$obob2ob3ob3obob3obobobobobobob$4ob3ob3ob5ob2obobobobobobo$b
+2ob3ob3ob3obobob13o$2ob2ob3ob3ob2ob4obobobobobobo$18ob14o!

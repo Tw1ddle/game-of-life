@@ -1,0 +1,8 @@
+#N Sixty-nine
+#O Robert Wainwright
+#C A period 4 oscillator found in October 1978.
+#C www.conwaylife.com/wiki/index.php?title=Sixty-nine
+x = 21, y = 21, rule = 23/3
+9bo11b$8bobo10b2$6bo3b2o9b$5bo5bo9b$6bobo12b$8b2o6bo4b$16bo4b$2bo5b2o
+4b3o4b$2bo11b2o5b$3o7b2o2b2o2b3o$2o6bob2o4b3o2b$2o2b3obobo5b3o2b$2b3o
+16b$2b3o6bo9b$10bobo8b2$8bo3b2o7b$7bo5bo7b$8bobo10b$10b2o!

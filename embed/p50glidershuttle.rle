@@ -1,0 +1,13 @@
+#N p50 glider shuttle
+#O Dean Hickerson
+#C The first period-50 oscillator to be discovered
+#C http://www.conwaylife.com/wiki/index.php?title=P50_glider_shuttle
+x = 33, y = 33, rule = b3/s23
+16bo16b$15bobo15b$10bo4bobo15b$9bobo2b2ob2o2b2o10b$10bo3bo5bo2bo9b$15b
+3o4bo2bo7b$8b5o4bo2bobob2o7b$7bo4bo5b2o2bo3b2o5b$6bo2bo11b2o3bo6b$3bo
+2bob2o18bo4b$2bobobo5bo11b4obo3b$3bo2bo4bobo4bo5bo4bo3b$6b2o2bo2bo2bob
+o7bobo4b$11b2o4b2o6bo7b$3b2o20bo3bo3b$b3obo20b2ob3ob$o4bo6bo14bo4bo$b
+3ob2o6bo13bob3ob$3bo3bo3b3o14b2o3b$7bo12b2o11b$4bobo12bo2bo2b2o6b$3bo
+4bo10bobo4bo2bo3b$3bob4o11bo5bobobo2b$4bo18b2obo2bo3b$6bo3b2o11bo2bo6b
+$5b2o3bo2b2o5bo4bo7b$7b2obobo2bo4b5o8b$7bo2bo4b3o15b$9bo2bo5bo3bo10b$
+10b2o2b2ob2o2bobo9b$15bobo4bo10b$15bobo15b$16bo!

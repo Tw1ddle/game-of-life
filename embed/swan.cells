@@ -1,0 +1,16 @@
+!Name: Swan
+!Author: Tim Coe
+!A diagonal spaceship that produces some useful sparks.
+!http://www.conwaylife.com/wiki/index.php?title=Swan
+.O..........OO
+OOOOO......OO
+O..OO........O.......OO
+..OO.O.....OO......OOO.O
+...........OO...O.OO
+.....O.O......OO
+..........OOO.O....O
+.......OOO...O....O
+........O.......O
+........O......O
+
+...........O

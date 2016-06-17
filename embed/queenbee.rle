@@ -1,0 +1,5 @@
+#N Queen bee
+#C A pattern that lays a beehive on either side of itself before exploding.
+#C www.conwaylife.com/wiki/index.php?title=Queen_bee
+x = 7, y = 5, rule = b3/s23
+3bo3b$2bobo2b$bo3bob$2b3o2b$2o3b2o!

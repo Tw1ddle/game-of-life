@@ -1,0 +1,6 @@
+#N Scot's p5
+#O Scot Ellison
+#C A period 5 oscillator found in 2008.
+#C www.conwaylife.com/wiki/Scot%27s_p5
+x = 13, y = 7, rule = b3/s23
+4bo3bo4b$3bobobobo3b$2bo7bo2b2$b3o5b3ob$4b2ob2o4b$3ob2ob2ob3o!

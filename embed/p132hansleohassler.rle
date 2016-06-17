@@ -1,0 +1,13 @@
+#N P132 Hans Leo hassler
+#O Noam Elkies
+#C A period 132 version of the Hans Leo hassler oscillator.
+#C www.conwaylife.com/wiki/P156_Hans_Leo_hassler
+x = 40, y = 39, rule = b3/s23
+12b2o26b$12b2o26b2$30bo9b$11b3o16bo9b$11b2obo2b2o11bo9b$13b2o2b2o10b2o
+6b2ob$13b2o12bo9bobo$26bo4bo2b2obobo$26bo7bobobob$28b3o5bo3b$8bo26bo2b
+ob$8bo26bo4b$8bo26bo3bo$8b2o19bo5bo3bo$11bo17b2o4bo4b$7bo4bo6b3o7bo5bo
+2bob$b2o9bo6bobo14bo3b$obo5b3o8b3o12bobobob$obob2o28b2obobo$bobobo23b
+3o5bobo$3bo5b2o16bo9b2ob$2bo2bo3b3o15bo4bo7b$2bo5b5o15bo11b$2bo3bo2b3o
+18b2o8b$2bo3bo2b2o20bo8b$2bo28bo8b$2bo2bo25bo8b$3bo5b3o28b$bobobo7bo
+26b$obob2o2bo4bo26b$obo9bo12b2o13b$b2o6b2o10b2o2b2o13b$9bo11b2o2bob2o
+11b$9bo16b3o11b$9bo30b2$26b2o12b$26b2o!

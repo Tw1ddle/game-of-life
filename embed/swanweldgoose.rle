@@ -1,0 +1,9 @@
+#N Swan weld goose
+#O Gabriel Nivasch
+#C A swan and a Canada goose that have been welded together.
+#C www.conwaylife.com/wiki/index.php?title=Canada_goose
+x = 34, y = 21, rule = b3/s23
+21b3o10b$21bo9b2ob$22bo6b3obo$24b2o2b2o4b$25bo8b$29bo4b$25b2o3bo3b$24b
+obob2o4b$23bo2bo2bob2ob$bo10b2o10bo3b2o4b$5o6b2o11bo9b$o2b2o8bo7b4o9b$
+2b2obo5b2o6bo14b$11b2o3bob2o4bo9b$5bobo6b2o18b$10b3obo4bo14b$7b3o3bo4b
+o15b$8bo7bo17b$8bo6bo18b2$11bo!

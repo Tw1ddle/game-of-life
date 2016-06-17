@@ -1,0 +1,11 @@
+#N Fly
+#O David Bell
+#C A tagalong for an orthogonal period 3 c/3 edge-repair spaceship that was found in April 1992.
+#C www.conwaylife.com/wiki/index.php?title=Fly
+x = 34, y = 20, rule = 23/3
+2bo31b$bobo30b$bobo22bobo3bob$bo23b2obobo2bo$11b3o8bo9bob$2o9b2o2bob2o
+3bo2b4o5b$bobo9b4o2bobo2b2o4b2o2b$b2o8bo2bo3b3o5b3o5b$2bo7bo4bo2b2o2b
+2o2bo2bo4b$3bo2bo3bo4bo2b3obobo4b2o3b$7bob2o4bo2b4o5bo6b$4b2o3b2o4bo2b
+4o5bo6b$4bobo3bo4bo2b3obobo4b2o3b$3b2o5bo4bo2b2o2b2o2bo2bo4b$4bobo4bo
+2bo3b3o5b3o5b$5bo7b4o2bobo2b2o4b2o2b$11b2o2bob2o3bo2b4o5b$11b3o8bo9bob
+$25b2obobo2bo$26bobo3bo!

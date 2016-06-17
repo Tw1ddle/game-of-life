@@ -1,0 +1,6 @@
+#N Conduit 1
+#O David Buckingham
+#C A conduit that transforms a B-heptomino into a Herschel after 59 generations.
+#C www.conwaylife.com/wiki/index.php?title=Conduit_1
+x = 11, y = 5, rule = B3/S23
+ob2o7b$2obo7b2$9b2o$9b2o!

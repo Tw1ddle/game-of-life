@@ -1,0 +1,17 @@
+#N 5-engine Cordership
+#O David Bell
+#C A diagonal c/12 period 96 Cordership found on June 5, 2005.
+#C www.conwaylife.com/wiki/index.php?title=5-engine_Cordership
+x = 104, y = 75, rule = b3/s23
+67b2o35b$68bo2bo4bo27b$65bo2b3obo2bobo26b$65bo2bo4b4o27b$65bo2bo35b$
+68bo6bo28b$67b2obo33b$75bo11b2o15b$73b2o12b2o15b3$71bo32b$70bobo31b$
+70bobo31b$71bo32b$95b2o7b$95b2o7b2$58bo45b$57b3o19bo24b$56b2ob2o17bobo
+23b$57b3o18bobo23b$58bo20bo24b$58bobo43b$58b4o42b$61bo41bo2$57b2ob2o
+42b$40b5o7bo3bo5bo41b$38b2o5b2o4bobo3bo3bo42b$38bo7bo4bo6bo45b$38b2o7b
+o3bo2bo49b$25bo14b2o6bo3b3o49b$24b3o16bo60b$43bo4bo55b$24b3o17b2obo56b
+$25b2ob2o74b$27bo76b3$b3o100b$2bo67b2o32b$2bo2bo63bobo32b$2bo2bo65bo
+32b$3bobo98b$18b2o18b2o64b$18b2o18b2o64b$24bo79b$23b3o78b$2bo19b2ob2o
+77b$bobo18bobo79b$2bo19bo81b2$46b2o56b$4o42b2o56b$2o3bo13bo84b$bo4bo
+11bobo83b$3bob2o11bo85b$4bo15b2o82b$21bo82b$18b3o83b$19b2o83b$16bo87b$
+16b2o86b$16b2o86b$6b2o6b2o88b$6b2o4b2o90b$12b2obo88b$14b2o88b5$14b2o
+88b$14b2o!

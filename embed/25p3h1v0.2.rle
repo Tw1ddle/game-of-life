@@ -1,0 +1,7 @@
+#N 25P3H1V0.2
+#O Dean Hickerson
+#C A c/3 orthogonal period 3 spaceship with 25 cells in each generatio
+#C n -- the lowest number of cells known for any c/3 spaceship.
+#C www.conwaylife.com/wiki/index.php?title=25P3H1V0.2
+x = 16, y = 5, rule = b3/s23
+7b2obo5b$4b2obob2ob3ob$b4o2b2o6bo$o4bo3bo3b2ob$b2o!

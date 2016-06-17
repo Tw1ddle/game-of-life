@@ -1,0 +1,13 @@
+!Name: Ellison p4 HW emulator
+!Author: Scot Ellison
+!A period 4 oscillator that provides a spark like a heavyweight spaceship.
+!www.conwaylife.com/wiki/Ellison_P4_HW_emulator
+...........OO
+....O...O......O...O
+...O.O............O.O
+...O.O............O.O
+OO.O.O.OOOOOOOOOO.O.O.OO
+OO.O................O.OO
+...O................O
+...O.O....OO.O....O.O
+....OO....O.OO....OO

@@ -1,0 +1,13 @@
+#N 4-engine Cordership v2
+#O David Bell
+#C A diagonal period 96 c/12 four-engine Cordership found on July 9, 2005.
+#C www.conwaylife.com/wiki/index.php?title=4-engine_Cordership
+x = 77, y = 74, rule = 23/3
+48bo28b$48bo7bo20b$48bo5b3o20b$47b2o3bobo22b$53bo2bo20b$52bo2b2o20b$
+67b2o8b$67b2o8b7$75b2o$75b2o$56b2o3b2o14b$50bo3b4o3bobo13b$50bob2o2bo
+2bo3bo13b$50bob2o4bo3b2o13b$54bo3bo18b$59bo17b3$40b3o6bo27b$41b2o3b2ob
+o27b$40b2o5bobo27b$45b3obo27b$48b2o27b9$27bo49b$24b4o49b4$27bobo47b$
+28bo48b$2o2bo21b2o49b$3bobo20bo2bo47b$2bo16bo5b2ob2o47b$19bo57b$4b2o
+13bo57b2$5b2o12b2o56b$4bo13bo2bo55b$2b2ob2o11bobo56b$5b2o10b2o58b$3bo
+13bo59b$20b2o55b$20b2o55b$20b2o55b$17b2obo56b$18b3o56b$19bo57b4$7b2o
+68b$7b2o68b7$15b2o60b$15b2o!

@@ -1,0 +1,6 @@
+#N Rabbits
+#O Andrew Trevorrow
+#C A methuselah with lifespan 17331.
+#C http://www.conwaylife.com/wiki/index.php?title=Rabbits
+x = 7, y = 3, rule = B3/S23
+o3b3o$3o2bob$bo!

@@ -1,0 +1,8 @@
+#N Sidewalk_synth
+#O Mark D. Niemiec
+#C Glider syntheses of sidewalk.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 72, y = 8, rule = 23/3
+5bo39bo26b$6bo6bo13bo18bo20bo4b$4b3o5bo14b3obo12b3o10bo9b3obo$3o9b3o
+15b2o8b3o13bo13b2o$2bo13b3o8b2o13bo13b3o8b2o3b$bo14bo10bob3o9bo10b3o
+12bob3o$17bo13bo20bo18bo$53bo!

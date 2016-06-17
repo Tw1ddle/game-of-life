@@ -1,0 +1,24 @@
+#N Middleweight spaceship_synth
+#O Mark D. Niemiec
+#C Glider synthesis of middleweight spaceships.
+#C http://home.interserv.com/~mniemiec/3gliders.htm
+x = 156, y = 105, rule = 23/3
+48bobo105b$49b2o105b$49bo106b$9bobo77bobo64b$10b2o78b2o64b$10bo79bo65b
+$130bobo23b$49b2o80b2o23b$31b3o15b2o2bobo15b3o18bo18b3o17bo19b3o2b$10b
+2o19bo2bo18b2o16bo2bo17bo18bo2bo36bo2bob$9bobo19bo22bo16bo20bo18bo19b
+2o18bo4b$11bo19bo3bo35bo3bo14bo20bo3bo15bobo17bo3bo$14b2o15bo39bo18b2o
+19bo15b3o2bo18bo4b$14bobo15bobo37bobo14bobo20bobo14bo22bobob$14bo113bo
+27b16$8bobo145b$9b2o145b$9bo146b$49bobo37bobo37bobo24b$50b2o38b2o38b2o
+24b$50bo39bo39bo25b$11b2o143b$10bobo143b$11bo19b3o17b2o18b3o17b2o18b3o
+17b2o18b3o2b$31bo2bo15bobo18bo2bo15bobo18bo2bo15bobo18bo2bob$31bo18b2o
+19bo18b2o19bo18b2o19bo4b$11b2o18bo3bo10b2o23bo3bo35bo3bo35bo3bo$12b2o
+17bo15b2o22bo15b2o22bo16bo22bo4b$11bo20bobo11bo25bobo13b2o22bobo13b2o
+22bobob$87bo39bobo26b19$2bo6bobo37bobo37bobo37bobo24b$obo7b2o32bo5b2o
+38b2o38b2o24b$b2o7bo31bobo5bo39bo39bo25b$43b2o82bo28b$125bobo28b$6bo2b
+ob2o18b3o17b2o18b3o17b2o18b3o12b2o3b2o18b3o2b$4bobo2b2obo18bo2bo17bo
+18bo2bo17bo18bo2bo17bo18bo2bob$5b2o24bo16bo2bo19bo18bo20bo17b3o19bo4b$
+31bo3bo10bobo2b2o18bo3bo14b2o19bo3bo13bo21bo3bo$31bo15b2o22bo39bo39bo
+4b$32bobo37bobo37bobo37bobob$91b3o62b$93bo62b$92bo63b17$9bobo37bobo
+104b$10b2o38b2o104b$6bo3bo39bo105b$7bo148b$5b3o148b$11b2o18b3o17b2o18b
+3o82b$8b2o2bo18bo2bo17bo18bo2bo81b$8bob2o19bo19bo19bo84b$31bo3bo15bobo
+17bo3bo80b$31bo20b2o2b2o13bo84b$32bobo20b2o15bobo81b$57bo!

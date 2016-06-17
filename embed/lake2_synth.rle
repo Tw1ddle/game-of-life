@@ -1,0 +1,8 @@
+#N Lake 2_synth
+#C A 10-glider synthesis of lake 2
+#C http://www.conwaylife.com/wiki/index.php?title=Lake_2
+x = 71, y = 18, rule = b3/s23
+44bo26b$42bobo26b$43b2o26b$46bo24b$46bobo16b2o4b$2bo43b2o5bo10bo2bo3b$
+obo38bo10bo11bo2bo3b$b2o39bo9b3o7b2o4b2ob$4b2o19b2o13b3o2b2o14bo8bo$3b
+obo19b2o18b2o2b3o9bo8bo$5bo31b3o9bo12b2o4b2ob$39bo10bo13bo2bo3b$38bo5b
+2o18bo2bo3b$43bobo19b2o4b$45bo25b$47b2o22b$47bobo21b$47bo!

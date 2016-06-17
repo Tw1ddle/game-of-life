@@ -1,0 +1,19 @@
+!Name: 65P13.1
+!Author: David Buckingham
+!The first period 13 oscillator to be found. Found in 1976.
+!www.conwaylife.com/wiki/index.php?title=65P13.1
+....O...............O
+...O.O.............O.O
+...O.O.............O.O
+.OOO.OO...........OO.OOO
+O.......................O
+.OOO.OO...........OO.OOO
+...O.OO...........OO.O
+..........O...O
+...........O.O
+..........OO.OO
+........O..O.O..O
+.......O.O.O.O.O.O
+.......OO..O.O..OO
+...........O.O
+............O

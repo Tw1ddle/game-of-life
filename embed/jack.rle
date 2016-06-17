@@ -1,0 +1,7 @@
+#N Jack
+#O Robert Wainwright
+#C A period 4 oscillator found in April 1984.
+#C www.conwaylife.com/wiki/index.php?title=Jack
+x = 13, y = 9, rule = B3/S23
+3bo5bo3b$3b2o3b2o3b$o2b2o3b2o2bo$3o2bobo2b3o$5bobo5b$3o2bobo2b3o$o2b2o
+3b2o2bo$3b2o3b2o3b$3bo5bo!

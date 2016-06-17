@@ -1,0 +1,6 @@
+#N Candlefrobra
+#O Robert Wainwright
+#C A period 3 oscillator found in November 1984.
+#C www.conwaylife.com/wiki/index.php?title=Candlefrobra
+x = 10, y = 5, rule = B3/S23
+5bo4b$bob2obob2o$obo3bob2o$bo4bo3b$5b2o!

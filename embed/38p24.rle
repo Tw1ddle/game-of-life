@@ -1,0 +1,7 @@
+#N 38P24
+#O Karel Suhajda
+#C A period-24 oscillator found on 17 Oct 2002 using Gabriel Nivasch's
+#C random agar program
+x = 20, y = 20, rule = B3/S23
+7b2o$7b2o3$8bo$7b3o$6bo2bo$2o5b2o$2o2$13b2o$5b2o5bob2o2b2o$6bo5bobo3b
+2o$7b2o4bo$8bo4$11b2o$11b2o!

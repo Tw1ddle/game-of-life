@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Honey farm
+#D A common formation of four beehives.
+#D http://www.conwaylife.com/wiki/index.php?title=Honey_farm
+#N
+#P -6 -6
+......*
+.....*.*
+.....*.*
+......*
+.
+.**.......**
+*..*.....*..*
+.**.......**
+.
+......*
+.....*.*
+.....*.*
+......*

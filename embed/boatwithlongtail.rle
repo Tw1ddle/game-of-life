@@ -1,0 +1,5 @@
+#N Boat with long tail
+#C A 10-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Boat_with_long_tail
+x = 6, y = 4, rule = B3/S23
+2o4b$obo3b$bo2b2o$2b2obo!

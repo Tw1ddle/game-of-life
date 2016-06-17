@@ -1,0 +1,7 @@
+#N Extremely impressive
+#O David Buckingham
+#C A period 6 oscillator found in August 1976.
+#C www.conwaylife.com/wiki/index.php?title=Extremely_impressive
+x = 12, y = 10, rule = B3/S23
+4b2o6b$3bob3o4b$3bo4bo3b$2obo3b2o3b$2obo5b2ob$4b5o2bo$10b2o$6bo5b$5bob
+o4b$6bo!

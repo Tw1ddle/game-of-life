@@ -1,0 +1,10 @@
+#N Asymmetric pre-pulsar spaceship
+#O Alan Hensel
+#C An asymmetric version of the period 30 orthogonal c/5 pre-pulsar spaceship, in which two spiders push a pre-pulsar. Found in May 1998.
+#C www.conwaylife.com/wiki/index.php?title=Pre-pulsar_spaceship
+x = 69, y = 15, rule = b3/s23
+37bo31b$36b3o30b$31bo37b$30b3o36b2$44b2o5b2o5b2o5b2o2b$42bo3bo3bo2bo3b
+o2bo3bo3bo$2b2o5b2o5b2o5b2o17bo3bobob3o5b3obobo3bo$o3bo3bo2bo3bo2bo3bo
+3bo15bo5b2o2b3ob3o2b2o5bo$o3bobob3o5b3obobo3bo15b2ob3o15b3ob2o$o5b2o2b
+3ob3o2b2o5bo15bo25bo$2ob3o15b3ob2o16bo3bo15bo3bob$o25bo17bo2bo15bo2bo
+2b$bo3bo15bo3bo43b$2bo2bo15bo2bo!

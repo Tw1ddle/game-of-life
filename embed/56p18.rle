@@ -1,0 +1,8 @@
+#N 56P18
+#O Jason Summers
+#C A period-18 oscillator found on 16 Oct 2002 using Gabriel Nivasch's
+#C random agar program
+x = 29, y = 29, rule = B3/S23
+18bo$16b3o$15bo$15b2o5$12b3o$11bo3bo$14bo12b2o$9bo4bo12bo$8bo16bobo$8b
+o10bo5b2o$8bob2o5b2obo$2b2o5bo10bo$bobo16bo$bo12bo4bo$2o12bo$13bo3bo$
+14b3o5$12b2o$13bo$10b3o$10bo!

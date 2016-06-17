@@ -1,0 +1,5 @@
+#N Long integral
+#C A 10-cell still life. It is the long version of an integral sign.
+#C http://www.conwaylife.com/wiki/index.php?title=Long_integral
+x = 4, y = 6, rule = B3/S23
+2b2o$bobo$bo2b$2bob$obob$2o!

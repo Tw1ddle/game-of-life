@@ -1,0 +1,18 @@
+#N Eater plug_synth
+#O Mark D. Niemiec
+#C Glider synthesis of eater plug.
+#C http://home.interserv.com/~mniemiec/objname.htm#C
+x = 118, y = 67, rule = 23/3
+22bo77bo17b$20b2o76bobo17b$21b2o76b2o17b2$24bobo16bobo55bo16b$24b2o18b
+2o55bobo14b$15bo9bo18bo10bo45b2o15b$3bo12b2o36bo63b$4bo10b2o37b3o49bo
+11b$2b3o25b2o38b2o18b2o12b2o4b2o6b$14bo16bo25bo13bo19bo13b2o4bo6b$14b
+2o15bob2o21b2o13bobo17bobo17bob2o3b$13bobo16bo2bo11bo8bobo13b2o18b2o
+18bo2bo2b$35bo11b2o25b2o18b2o19bo2b$34bo11bobo25bo19bo19bo3b$35b3o37b
+3o17b3o17b3o$37bo39bo19bo19bo2$b2o49b2o64b$2b2o49b2o63b$bo50bo45bo19b$
+61b2o35b2o18b$17b2o41b2o35bobo18b$7bo9bobo42bo55b$7b2o8bo100b$6bobo
+109b16$o20bo96b$b2o19b2o94b$2o19b2o2bo92b$25bobo90b$25b2o8b2o18b2o3bo
+57b$19bo15b2o18b2ob2o58b$17b2o40b2o57b$11bobo4b2o98b$12b2o16b2o18b2o
+18b2o46b$12bo18bo8b2o9bo8b2o9bo46b$31bob2o5b2o9bob2o5b2o9bob2o43b$32bo
+2bo16bo2bo16bo2bo42b$35bo19bo19bo42b$34bo19bo19bo43b$b2o32b3o17b3o17b
+3o40b$2b2o33bo19bo19bo40b$bo116b6$10bo107b$10b2o12bo93b$9bobo11b2o93b$
+23bobo!

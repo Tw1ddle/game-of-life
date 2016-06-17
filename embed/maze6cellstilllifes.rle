@@ -1,0 +1,9 @@
+#N Maze 6-cell still lifes
+#C All 18 6-cell still lifes in the maze (12345/3) rule.
+#C www.conwaylife.com/wiki/index.php?title=Maze
+x = 58, y = 13, rule = b3/s12345
+2obo2b2o3b2o3b2o5b2o4b2o5b2o4b2o4b2o8b$ob2o2bobo2bobo2bobo4bo2bo2bo7b
+3o3bo6bobo5b$7b2o4bo5bo5b2o4bo5bo5bobo4b2o6b$12bo7bo11bo11bo13b$33bo
+24b3$2o3b2o5bob2o3bo2bo3bo6bo8b2o4b2o5bo2b$2bo4bo5b2obo3bo2bo3bobo4bo
+6bo2bo2bo3bo2bobob$2bo4bo13b2o7bo4bo6b2o5b2o4bobo$2o6b2o18b2o6bo19bob$
+37bo20b$38bo!

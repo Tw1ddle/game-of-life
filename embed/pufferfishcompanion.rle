@@ -1,0 +1,8 @@
+#N Pufferfish with a companion
+#O Ivan Fomichev
+#C A c/2 fuse for pufferfish's exhaust, found in December 2014.
+#C www.conwaylife.com/wiki/Pufferfish
+x = 18, y = 27, rule = B3/S23
+3bo7bo$2b3o5b3o$b2o2bo3bo2b2o$3b3o3b3o2$4bo5bo$2bo2bo3bo2bo$o5bobo5bo$
+2o4bobo4b2o$6bobo$3bobo3bobo$4bo5bo4$15bo$4b2o3b2o3b3o$4b2o3b2o2bo2b2o
+$13bo3bo$17bo$16bo$11bobo$4b2o7bo$4b2o$13b2o$11bobo$12bo!

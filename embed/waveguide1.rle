@@ -1,0 +1,11 @@
+#N Waveguide 1
+#O Tony Smithurst
+#C The first waveguide to be found.
+#C www.conwaylife.com/wiki/index.php?title=Waveguide_1
+x = 53, y = 21, rule = 23/3
+b2o50b$o2bo3bo3bo3bo3bo3bo3bo3bo3bo3bo3bo3bo3bob$4bobobobobobobobobobo
+bobobobobobobobobobobobobobobo$o2bo3bo3bo3bo3bo3bo3bo3bo3bo3bo3bo3bo3b
+ob$b3o49b$2b2o49b$2b2o49b$3bo49b$3bo49b$3bo49b$3bo49b$3bo49b$3bo49b$3b
+o49b$2b2o49b$2b2o49b$b3o49b$o2bo3bo3bo3bo3bo3bo3bo3bo3bo3bo3bo3bo3bob$
+4bobobobobobobobobobobobobobobobobobobobobobobobobo$o2bo3bo3bo3bo3bo3b
+o3bo3bo3bo3bo3bo3bo3bob$b2o!

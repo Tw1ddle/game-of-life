@@ -1,0 +1,19 @@
+#N Fumarole_synth
+#O Mark Niemiec and Stephen Silver
+#C Incremental synthesis by Mark Niemiec, direct synthesis by Stephen 
+#C Silver
+#C http://www.conwaylife.com/wiki/index.php?title=Fumarole
+x = 191, y = 52, rule = b3/s23
+125bo36bo28b$125bobo32bobo28b$3bo121b2o34b2o28b$4b2o125bo39bo19b$3b2o
+125bo39bo20b$26bo19bo19bo19bo19bo19bo3b3o33bo3b3o18b$8bo16bobo17bobo
+17bobo17bobo17bobo12b2o3bobo32b2o3bobo23b$9bo15b2o18b2o18b2o18b2o18b2o
+12bobo3b2o19b2o11bobo3b2o19b2o3b$7b3o111bo22bo4bo11bo22bo4bob$b2o22b4o
+16b4o16b4o16b4o16b4o16b4o15bo4bo15b4o15bo4bob$obo3bo17bo4bo14bo4bo14bo
+4bo14bo4bo14bo4bo14bo4bo14bo4bo14bo4bo14bo4bob$2bo2b2o17b2o2b2o14b2o2b
+2o15bo2b2o15bo2b2o15bo2bo16bo2bo16bo2bo16bo2bo16bo2bo2b$5bobo55bobo17b
+obo17bobo2bobo12bobo2bobo12bobo2bobo12bobo2bobo12bobo2bobo$63b2o18b2o
+18b2o4b2o12b2o4b2o12b2o4b2o12b2o4b2o12b2o4b2o$42b2o46b2o99b$38bo2b2o
+48b2o2bo95b$38b2o3bo46bo3b2o95b$37bobo54bobo94b10$12bobo176b$12b2o177b
+$13bo177b3$bo10bo178b$2b2o6b2o179b$b2o8b2o178b4$26b2o163b$24bo4bo161b$
+24bo4bo161b$3bobo2bobo13bo4bo161b$4b2o2b2o15bo2bo162b$4bo4bo13bobo2bob
+o160b$23b2o4b2o160b5$3o8b3o177b$2bo8bo179b$bo10bo!

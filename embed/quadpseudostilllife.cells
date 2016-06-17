@@ -1,0 +1,13 @@
+!Name: Quad pseudo still life
+!Author: Gabriel Nivasch
+!A pseudo still life that can be decomposed into four stable subpatterns, but can not be decomposed into two or three stable subpatterns.
+!http://www.conwaylife.com/wiki/index.php?title=Quad_pseudo_still_life
+........OO
+...OO.O..O
+...O.OO.O
+........OO
+...O.OO...O
+.OOO.OO.OO
+O.......O
+.OOO.OO.O
+...O.O.O

@@ -1,0 +1,7 @@
+#N Pipsquirter 1 as reflector
+#C A pipsquirter 1 reflecting a glider.
+#C www.conwaylife.com/wiki/Pipsquirter
+x = 22, y = 17, rule = b3/s23
+12bo9b$3b2o6b2o9b$3bo7bobo5bo2b$5bo12bo3b$4b4o10b3ob$3bo4bo13b$3b5obo
+12b$b2o3bo2bo12b$o2b3obob2o9b2o$2obobobo8b2o2b2o$3bo2bob2o2b2obobo4b$
+3b2obobo7bo5b$5bobob2o11b$5bobobo8b2o2b$6bo2bo8bo3b$7b2o10b3o$21bo!

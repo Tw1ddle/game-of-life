@@ -1,0 +1,6 @@
+#N Phoenix 1 extended
+#C An extension of the period 2 phoenix 1 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Phoenix_1
+x = 16, y = 16, rule = b3/s23
+3bo7bo4b$3bobo5bobo2b$bo5bobo6b$7bo6b2o$2o14b$14bob$2bo13b$12b2o2b$2b
+2o12b$13bo2b$bo14b$14b2o$2o6bo7b$6bobo5bob$2bobo5bobo3b$4bo7bo!

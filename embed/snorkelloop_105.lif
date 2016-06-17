@@ -1,0 +1,11 @@
+#Life 1.05
+#D Name: Snorkel loop
+#D The 83rd most common still life.
+#D http://www.conwaylife.com/wiki/index.php?title=Snorkel_loop
+#N
+#P -3 -2
+..**
+.*..*
+..*.*
+*.*.**
+**

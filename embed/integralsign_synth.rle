@@ -1,0 +1,16 @@
+#N Integral sign_synth
+#O Mark D. Niemiec
+#C Glider syntheses of integral signs.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 141, y = 101, rule = 23/3
+117bo23b$118b2o21b$100bo16b2o22b$101b2o38b$100b2o39b4$99bo41b$100b2o
+39b$99b2o40b2$60bo56bo23b$58b2o56b2o23b$59b2o55bobo22b$29bobo109b$30b
+2o82b2o25b$7bo22bo82bobo25b$8b2o105bo25b$7b2o2bobo127b$11b2o128b$12bo
+128b2$8bo7b2o6b2o38b2o68b2o5b$7b2o7bobo5bobo37bobo67bobo4b$7bobo6bo9bo
+39bo69bo4b$26bobo18bo3bo14bobo67bobo2b$27b2o16bobob2o16b2o68b2o2b$46b
+2o2b2o89b12$2bobo136b$3b2o136b$3bo137b$24b2o115b$24bobo114b$26bo114b$
+5b2o19bobo112b$6b2o19b2o112b$5bo3b2o130b$2o7bobo129b$b2o6bo131b$o140b
+5$138bobo$138b2ob$66bo72bob$65bo75b$65b3o73b12$106bo34b$36bo4bo65b2o
+32b$37bob2o65b2o33b$35b3o2b2o99b$105bo35b$104b2o35b$104bobo34b5$64b2o
+68b2o5b$64bobo67bobo4b$66bo69bo4b$66bobo67bobo2b$67b2o68b2o2b8$15b2o
+124b$14bobo124b$16bo124b$82b2o57b$83b2o56b$82bo!

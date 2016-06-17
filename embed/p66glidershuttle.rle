@@ -1,0 +1,9 @@
+#N p66 glider shuttle
+#O Michael Simkin
+#C A period-66 oscillator made from two 180-degree reflectors
+#C Based on an old reflector reaction by Noam Elkies
+x = 25, y = 21, rule = B3/S23
+16b2o$7b2o4bo2bo2bo$7b2o3bobobob2o$13bo2bo6b2o$16b6o2bo$21bobo$2o2b2o
+2b2o6b2o2bo2b2o$2o2b2ob2o7bobo2b2o$9bo10bobo$21bo2$3b2o$2bo2b2o$2bo4b
+2o10b2o2b2o$2o3bob2o10b2o2b2o$bobo$o2b6o$2o6bo2bo$5b2obobobo3b2o$5bo2b
+o2bo4b2o$7b2o!

@@ -1,0 +1,12 @@
+#N Cis-loaf with tail_synth
+#O Mark D. Niemiec
+#C Glider syntheses of cis-loaf with tails.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 66, y = 66, rule = 23/3
+20b2o18b2o18b2o4b$21bo19bo19bo2bob$2o19bobo17bobo17bobobo$b2o19b2o18b
+2o18bo2bo$o3b2o43bo13b2ob$4bobo42bobo14b$4bo44b2o15b$45b3o18b$45bo20b$
+46bo19b21$40b2o18b2o4b$41bo19bo2bob$41bobo17bobobo$42b2o18bo2bo$63b2ob
+$45b2o19b$44bobo2bo16b$46bo2bobo14b$49b2o15b13$37bo28b$36bo29b$36b3o
+27b2$33bobo30b$34b2o5bo24b$34bo6bobo22b$41b2o23b2$35bobo22b2o4b$7bo16b
+o11b2o6bo16bo2bob$6bo16bobo10bo6bobo15bobobo$3b2ob3o13bo2bo16bo2bo16bo
+2bo$2bobo18b2o18b2o18b2ob$4bo!

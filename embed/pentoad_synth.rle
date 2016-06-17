@@ -1,0 +1,11 @@
+#N Pentoad_synth
+#O Mark D. Niemiec
+#C Glider synthesis of pentoad.
+#C http://home.interserv.com/~mniemiec/objname.htm#E
+x = 123, y = 25, rule = 23/3
+98bo24b$96bobo19bo4b$97b2o18b2o4b$20b2o18b2o18b2o28b2o18b2o5bobo3b$21b
+o19bo19bo29bo7bo11bo11b$2o19bobo17bobo17bobo27bobo3b2o12bobo9b$b2o19b
+2o18b2o18b2o28b2o4b2o12b2o9b$o3b2o110b2o5b$4bobo109bo6b$4bo111bo6b$
+115b2o6b$69b2o22b2o4b2o18b2o2b$69bobo22b2o3bobo17bobob$47b3o21bo21bo7b
+o19bob$49bo21b2o28b2o10bobo5b2o$48bo45b2o18b2o7b$52b2o40bobo17bo8b$48b
+o2b2o41bo28b$48b2o3bo69b$47bobo73b3$53b2o68b$53bobo67b$53bo!

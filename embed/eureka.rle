@@ -1,0 +1,7 @@
+#N Eureka
+#O David Buckingham
+#C A period 30 pre-pulsar shuttle oscillator that was found in August 1980.
+#C www.conwaylife.com/wiki/index.php?title=Eureka
+x = 18, y = 11, rule = B3/S23
+bo14bob$obo4bo7bobo$bo3b2ob2o6bob$7bo10b4$7bo10b$bo3b2ob2o6bob$obo4bo
+7bobo$bo14bo!

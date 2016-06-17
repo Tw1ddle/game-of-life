@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: Karel's p15
+#D Author: Karel Suhajda
+#D A period 15 oscillator discovered on December 11, 2002
+#D http://www.conwaylife.com/wiki/index.php?title=Karel's_p15
+#N
+#P -5 -5
+..*....*
+..******
+..*....*
+.
+.
+.
+..******
+.*......*
+*........*
+.*......*
+..******

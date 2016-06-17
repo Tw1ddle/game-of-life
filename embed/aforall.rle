@@ -1,0 +1,7 @@
+#N A for all
+#O Dean Hickerson
+#C A period 6 oscillator found in March 1993.
+#C www.conwaylife.com/wiki/index.php?title=A_for_all
+x = 10, y = 10, rule = B3/S23
+4b2o4b$3bo2bo3b$3b4o3b$bobo2bobob$o8bo$o8bo$bobo2bobob$3b4o3b$3bo2bo3b
+$4b2o!

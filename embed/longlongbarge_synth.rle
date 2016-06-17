@@ -1,0 +1,8 @@
+#N Long long barge_synth
+#O Mark D. Niemiec
+#C Glider synthesis of long long barge.
+#C http://home.interserv.com/~mniemiec/still.htm
+x = 71, y = 10, rule = 23/3
+26bo19bo19bo4b$25bobo17bobo17bobo3b$5bobo18bobo17bobo17bobo2b$6b2o19bo
+bo17bobo17bobob$6bo21bo19bo19bobo$53bo15bob$bo3b2o44b2o18b$b2o2bobo40b
+2o2b2o17b$obo2bo42bobo20b$48bo!

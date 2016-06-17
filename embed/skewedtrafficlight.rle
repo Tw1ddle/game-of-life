@@ -1,0 +1,9 @@
+#N Skewed traffic light
+#O Robert Wainwright
+#C A period 3 oscillator found in August 1989.
+#C www.conwaylife.com/wiki/index.php?title=Skewed_traffic_light
+x = 24, y = 22, rule = B3/S23
+13b2o9b$12bo2bo8b$13bobo8b$9b2o3bo9b$10bob2o10b$12bo11b$12bo11b2$2o8b
+3o6bo4b$4obo8bo3b2o4b$obo2b3obo4bo9b$9bo4bob3o2bobo$4b2o3bo8bob4o$4bo
+6b3o8b2o2$11bo12b$11bo12b$10b2obo10b$9bo3b2o9b$8bobo13b$8bo2bo12b$9b2o
+!

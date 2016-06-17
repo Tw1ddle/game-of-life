@@ -1,0 +1,7 @@
+#N Two-glider mess_synth
+#O Mark D. Niemiec
+#C Glider synthesis of two-glider mess.
+#C http://home.interserv.com/~mniemiec/metheus.htm
+x = 27, y = 8, rule = 23/3
+24bo2b$22bo2bob$3bobo20bo$4b2o15bo4bo$4bo16bo4bo$3o18bo3bob$2bo19bobo
+2b$bo!

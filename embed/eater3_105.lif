@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Eater 3
+#D Author: David Buckingham
+#D A large symmetric eater.
+#D http://www.conwaylife.com/wiki/index.php?title=Eater_3
+#N
+#P -6 -6
+.........**
+....**..*..*
+.*..*....*.*
+*.*.*.....*
+.*..*.**
+....*..*
+.....*....*
+......*****
+.
+........*
+.......*.*
+........*

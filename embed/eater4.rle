@@ -1,0 +1,7 @@
+#N Eater 4
+#O David Buckingham
+#C A 40-cell still life and eater that doesn't eat gliders, but does eat other objects.
+#C http://www.conwaylife.com/wiki/index.php?title=Eater_4
+x = 14, y = 14, rule = B3/S23
+3b2o9b$3bo10b$2obo10b$o2b2o9b$b2o4bo6b$3b5o6b$3bo4b2o4b$4b2o2bo5b$6bob
+o5b$6bobobo2bo$7b2ob4o$9bo4b$9bobo2b$10b2o!

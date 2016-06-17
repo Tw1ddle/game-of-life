@@ -1,0 +1,5 @@
+#N Mirrored dock
+#C A 20-cell still life composed of two docks facing each other.
+#C http://www.conwaylife.com/wiki/index.php?title=Mirrored_dock
+x = 6, y = 7, rule = B3/S23
+2o2b2o$o4bo$b4ob2$b4ob$o4bo$2o2b2o!

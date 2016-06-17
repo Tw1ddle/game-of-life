@@ -1,0 +1,8 @@
+#N Eater/block frob_synth
+#O Mark D. Niemiec
+#C A 12-glider synthesis of Eater/block frob
+x = 69, y = 22, rule = b3/s23
+2bo66b$obo66b$b2o3bo62b$4b2o17b2o28b2o14b$5b2o4b2o11bo29bo8bo5b$11bobo
+10bobo27bobo6bobo3b$11bo13bobo20bo6bobo5b2o4b$26b2o21bo6b2o11b$8bo38b
+3o19b$7b2o60b$7bobo52bo6b$43bobo14b2o4b2ob$44b2o15b2o3bobo$44bo21bo2b
+2$42bo9b2o15b$40bobo10b2o14b$41b2o9bo16b2$43bo25b$43b2o24b$42bobo!

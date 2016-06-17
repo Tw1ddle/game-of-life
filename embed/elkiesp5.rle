@@ -1,0 +1,6 @@
+#N Elkies' p5
+#O Noam Elkies
+#C A period 5 oscillator found in 1997.
+#C www.conwaylife.com/wiki/index.php?title=Elkies'_p5
+x = 9, y = 8, rule = B3/S23
+bo7b$o2b3o3b$2bo6b$3bobo2bo$2b2ob4o$4bo4b$4bobo2b$5b2o!

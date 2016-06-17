@@ -1,0 +1,9 @@
+#N 119P4H1V0
+#O Dean Hickerson
+#C The first c/4 orthogonal spaceship to be discovered
+#C http://www.conwaylife.com/wiki/index.php?title=119P4H1V0
+x = 35, y = 19, rule = b3/s23
+33bob$16bo15bobo$6bobo6bo5b2o8bo3b$6bo4bo4bob6o4b2o5b$6bob8o10bo2bob3o
+b$9bo5bo7b4o4b3ob$4b2o17b3obo7b$bo2b2o7b2o8b2o10b$bo2bo30b$o34b$bo2bo
+30b$bo2b2o7b2o8b2o10b$4b2o17b3obo7b$9bo5bo7b4o4b3ob$6bob8o10bo2bob3ob$
+6bo4bo4bob6o4b2o5b$6bobo6bo5b2o8bo3b$16bo15bobo$33bo!

@@ -1,0 +1,9 @@
+#N Hectic
+#O Robert Wainwright
+#C A period 30 oscillator found in September 1984.
+#C www.conwaylife.com/wiki/index.php?title=Hectic
+x = 39, y = 39, rule = B3/S23
+22b2o15b$22b2o15b11$9bo10b2o3b2o12b$7bobo12b3o14b$6bobo12bo3bo13b$2o3b
+o2bo13bobo14b$2o4bobo14bo15b$7bobo6bobo20b$9bo6b2o21b$17bo3bo17b$21b2o
+6bo9b$20bobo6bobo7b$15bo14bobo4b2o$14bobo13bo2bo3b2o$13bo3bo12bobo6b$
+14b3o12bobo7b$12b2o3b2o10bo9b11$15b2o22b$15b2o!

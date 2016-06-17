@@ -1,0 +1,20 @@
+#Life 1.05
+#D Name: Wavefront
+#D Author: David Buckingham
+#D A period 4 oscillator found no later than 1976.
+#D www.conwaylife.com/wiki/index.php?title=Wavefront
+#N
+#P -6 -6
+........**
+........*
+.........*
+........**
+.....**...**
+....*..***..*
+....*.....**
+.....*...*
+**.*.*...*
+*.**.*.**
+....*.*
+....*.*
+.....*

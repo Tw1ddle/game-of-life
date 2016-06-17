@@ -1,0 +1,6 @@
+#N Bomber predecessor
+#O Nathan Thompson
+#C A predecessor of the bomber spaceship in the HighLife rule.
+#C www.conwaylife.com/wiki/index.php?title=HighLife
+x = 10, y = 6, rule = 23/36
+b3o6b$o9b$o9b$o8bo$9bo$9bo!

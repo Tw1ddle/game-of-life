@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Baker's dozen
+#D Author: Robert Wainwright
+#D A period 12 oscillator that consists of a loaf hassled by two blocks and two 
+#D caterers.
+#D www.conwaylife.com/wiki/index.php?title=Baker's_dozen
+#N
+#P -11 -5
+**.........**
+****.*.....**
+*.*..***
+...........*
+....**....*.*
+....*.....*..*....*
+...........**....**
+.
+...............***..*.*
+..........**.....*.****
+..........**.........**

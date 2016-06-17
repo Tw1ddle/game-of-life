@@ -1,0 +1,5 @@
+#N Scorpion
+#C A 16-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Scorpion
+x = 7, y = 6, rule = B3/S23
+3bo3b$b3o3b$o3b2ob$obobobo$b2obobo$5bo!

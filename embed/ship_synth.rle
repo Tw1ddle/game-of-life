@@ -1,0 +1,20 @@
+#N Ship_synth
+#O Mark D. Niemiec
+#C Glider synthesis of ships.
+#C http://home.interserv.com/~mniemiec/3gliders.htm
+x = 148, y = 104, rule = 23/3
+130b2o16b$130bobo15b$25b2o38b2o38b2o23bo14b2ob$5b2o18bobo37bobo15bo21b
+obo18b3o16bobo$3ob2o20b2o19b2o17b2o13bobo3bo18b2o20bo17b2o$2bo3bo36b2o
+2bobo32b2o2b2o39bo4bo15b$bo42b2obo38bobo43b2o14b$43bo8b3o26bo49bobo14b
+$2b2o48bo27b2o66b$2bobo48bo26bobo65b$2bo145b14$8bo139b$9bo138b$7b3o
+138b$11bo136b$11bobo118bo15b$11b2o119bobo13b$132b2o14b2$25b2o38b2o38b
+2o11bo25b2o2b$16b2o7bobo37bobo15bo21bobo9bo26bobob$15b2o9b2o38b2o13b2o
+23b2o9b3o25b2ob$17bo64b2o64b$45bobo100b$45b2o71b3o27b$46bo71bo29b$48b
+3o30b2o36bo28b$48bo31b2o66b$49bo32bo65b$77b3o68b$79bo68b$38b2o38bo69b$
+37bobo108b$39bo108b15$6bo141b$6bo18b2o18b2o18b2o81b$6bo18bobo16bo2bo
+17bobo80b$26b2o16bo2bo18b2o80b$6b2o37b2o101b$5bobo34b2o104b$7bo33bobo
+104b$43bo104b18$55bo92b$55bobo90b$55b2o91b4$10bo14b2o14bobo21b2o38b2o
+41b$8b2o15bobo9b3o2b2o21bobo16bo3bo16bobo40b$9b2o15b2o11bo2bo23b2o16bo
+2bo18b2o40b$4b2o32bo45bo2b3o58b$2bobobo5b3o65b3o65b$obobo7bo69bo65b$b
+2o10bo67bo7b2o57b$41b3o44b2o58b$41bo48bo57b$42bo41b2o62b$83bobo62b$85b
+o!

@@ -1,0 +1,18 @@
+#N Beehive bend tail_synth
+#C Glider syntheses of beehive bend tail
+#C http://www.conwaylife.com/wiki/index.php?title=Beehive_bend_tail
+x = 114, y = 101, rule = b3/s23
+86bo27b$84bobo25bob$85b2o5bo15b2obobo$93bo15bobobo$91b3o15bo2bob$110b
+2o2b2$84bo6b3o20b$84b2o7bo20b$83bobo6bo21b19$99bo14b$95bo3bobo12b$6bo
+42bo5bobo38b2ob2o13b$7b2o41b2o3b2o38b2o15bob$6b2o41b2o5bo11b2ob2o15b2o
+b2o15b2obobo$69bobobo15bobobo15bobobo$4bo26bo19bo17bo2bo16bo2bo16bo2bo
+b$4b2o25bo19bo2b3o13b2o18b2o18b2o2b$3bobo25bo19bo2bo59b$55bo58b14$96bo
+17b$96bobo15b$96b2o16b$54bo7bobo49b$24b2o18b2o6bobo7b2o10b2o18b2o18b$
+3b2o18bo2bo16bo2bo6b2o8bo10b2o18b2o18b$2bobo19b2o18b2o68b$4bo48bo60b$
+6b2o45b2o59b$6bobo43bobo59b$6bo65bo19bo19bob$68b2obobo14b2obobo14b2obo
+bo$42b2o25bobobo15bobobo15bobobo$43b2o24bo2bo16bo2bo16bo2bob$42bo27b2o
+18b2o18b2o2b2$48b2o64b$47bobo64b$49bo64b15$49bo64b$47b2o65b$48b2o64b$
+78bo35b$4bo42bo31bo34b$4bobo39b2o29b3o4bobo27b$o3b2o40bobo15b2o19b2o7b
+2o18b$b2o19b2o18b2o18bo2bo19bo6bo2bo16bob$2o19bobo17bobo17bob2o15b3o8b
+ob2o13b2obobo$21bo19bo19bo20bo8bo17bobobo$20b2o18b2o18b2o19bo8b2o7b3o
+7bo2bob$99bo10b2o2b$100bo13b$84b2o28b$85b2o2bo24b$84bo3b2o24b$88bobo!

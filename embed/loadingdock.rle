@@ -1,0 +1,6 @@
+#N Loading dock
+#O David Buckingham
+#C A period 3 oscillator that was found in September 1972.
+#C www.conwaylife.com/wiki/index.php?title=Loading_dock
+x = 9, y = 8, rule = B3/S23
+4bo4b$2b3o4b$bo3b2o2b$ob2o3bob$bo3b2obo$2b2o3bob$4b3o2b$4bo!

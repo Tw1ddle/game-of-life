@@ -1,0 +1,8 @@
+!Name: Switch engine
+!Author: Charles Corderman
+!A methuselah that is unstable by itself, but can be used to make c/12 diagonal puffers and spaceships.
+!www.conwaylife.com/wiki/index.php?title=Switch_engine
+.O.O
+O
+.O..O
+...OOO

@@ -1,0 +1,21 @@
+#N p230 glider shuttle
+#O Dean Hickerson
+#C A period-230 oscillator based on the p50 glider shuttle
+#C http://www.conwaylife.com/wiki/index.php?title=P50_glider_shuttle
+x = 62, y = 52, rule = b3/s23
+16bo28bo16b$15bobo26bobo15b$10bo4bobo26bobo4bo10b$9bobo2b2ob2o2b2o16b
+2o2b2ob2o2bobo9b$10bo3bo5bo2bo14bo2bo5bo3bo10b$15b3o4bo2bo10bo2bo4b3o
+15b$8b5o4bo2bobob2o10b2obobo2bo4b5o8b$7bo4bo5b2o2bo16bo2b2o5bo4bo7b$6b
+o2bo11b2o16b2o11bo2bo6b$3bo2bob2o42b2obo2bo3b$2bobobo5bo36bo5bobobo2b$
+3bo2bo4bobo4bo24bo4bobo4bo2bo3b$6b2o2bo2bo2bobo24bobo2bo2bo2b2o6b$11b
+2o4b2o24b2o4b2o11b$3b2o52b2o3b$b3obo50bob3ob$o4bo6bo17b2o17bo6bo4bo$b
+3ob2o6bo16b2o16bo6b2ob3ob$3bo3bo3b3o34b3o3bo3bo3b$7bo46bo7b$4bobo48bob
+o4b$3bo4bo44bo4bo3b$3bob4o44b4obo3b$4bo52bo4b$6bo48bo6b$5b2o48b2o5b$9b
+2o40b2o9b$10bo19b2o19bo10b$8bo21b2o21bo8b$7bob4o36b4obo7b$7bo4bo36bo4b
+o7b$8bobo40bobo8b$11bo38bo11b$7bo3bo38bo3bo7b$5b3ob2o40b2ob3o5b$4bo4bo
+42bo4bo4b$5b3obo42bob3o5b$7b2o44b2o7b$15b2o13b2o13b2o15b$10b2o2bo2bo
+12b2o12bo2bo2b2o10b$7bo2bo4bobo26bobo4bo2bo7b$6bobobo5bo28bo5bobobo6b$
+7bo2bob2o34b2obo2bo7b$10bo2bo11b2o8b2o11bo2bo10b$11bo4bo5b2o2bo8bo2b2o
+5bo4bo11b$12b5o4bo2bobob2o2b2obobo2bo4b5o12b$19b3o4bo2bo2bo2bo4b3o19b$
+14bo3bo5bo2bo6bo2bo5bo3bo14b$13bobo2b2ob2o2b2o8b2o2b2ob2o2bobo13b$14bo
+4bobo18bobo4bo14b$19bobo18bobo19b$20bo20bo!

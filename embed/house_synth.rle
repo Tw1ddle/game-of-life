@@ -1,0 +1,21 @@
+#N House_synth
+#O Mark D. Niemiec
+#C Glider syntheses of house.
+#C http://home.interserv.com/~mniemiec/2gliders.htm
+x = 147, y = 68, rule = 23/3
+22b3o16bobo18b3o16bobo18b3o37b3o2b$b2o19bo2bo16b2o18bo2bo16b2o18bo2bo
+36bo2bob$obo20bo2bo15bo22bo16bo64b$2bo59bo37bo41bo4b$22bo19b2o18bobo
+17b2o16bo4bo38bo2b$3b2o17bobo16b2o39b2o18b2o43b$3bobo17bo19bo101b2o$3b
+o143b2$119bo27b$120bo26b$118b3o2bo23b$122bobo22b$122bo2bo21b$123b2o22b
+3$120bo26b$120bo26b$120bo26b$bobo18b3o16bobo18b3o37b3o42b$2b2o18bo2bo
+16b2o18bo2bo17b2o17bo2bo41b$2bo39bo39b2o63b$20bo39bo5bo17bo18bo43b$2b
+2o21bo16b2o36b2o25bo39b$bobo16b2ob2o16bo2bo15bo4bo13bobo65b$2bo19bo19b
+2o18b2o17bo18bo46b$83b3o19bo41b$83bo16bo46b$84bo16b3o43b11$bobo18b3o
+16bobo18b3o16bobo18b3o16bobo18b3o2b$2b2o18bo2bo16b2o18bo2bo16b2o18bo2b
+o16b2o18bo2bob$2bo39bo39bo39bo24b$20bo5bo33bo39bo39bo5bo$2b2o16bo21b2o
+21bo16b2o15bo5bo16b2o16bo5bo$2b2o2b2o14b2o3bo10b2o2b2o14bo3b2o17bobo
+38bobo22b$6b2o17bobo10b2o18bobo20bo20bo21bo18bo3b$80b2o18b2o22b2o18b2o
+b10$45bo101b$45bobo15bo59bo19bo3b$45b2o15bobo20bo17bo20b2o16bobo2b$bob
+o18b3o37bobo18b2o17b3o18b2o16bo3bob$2b2o18bo2bo16bobo17bobo14bo4b2o14b
+o3bo36bo3bob$2bo40b2o35b2o21bo19bo23b$20bo5bo16bo35b2o19bo22bo18bobo2b
+$2b2o15bo6bo96bo23b$bo2bo76b3o63b$bo2bo15bo4bo55bo65b$2b2o18b2o58bo!

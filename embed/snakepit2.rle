@@ -1,0 +1,6 @@
+#N Snake pit 2
+#C A period 3 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Snake_pit_2
+x = 11, y = 11, rule = B3/S23
+5b2o4b$4bo2bo3b$4bob2o3b$b2obo6b$obobob4ob$o9bo$b4obobobo$6bob2ob$3b2o
+bo4b$3bo2bo4b$4b2o!

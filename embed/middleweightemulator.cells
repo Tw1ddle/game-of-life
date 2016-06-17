@@ -1,0 +1,11 @@
+!Name: Middleweight emulator
+!Author: Robert Wainwright
+!A period 4 oscillator that produces sparks similar to those of the middleweight spaceship.
+!www.conwaylife.com/wiki/index.php?title=Middleweight_emulator
+.......O
+..OO.O...O.OO
+..O.........O
+...OO.....OO
+OOO..OOOOO..OOO
+O..O.......O..O
+.OO.........OO

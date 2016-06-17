@@ -1,0 +1,16 @@
+!Name: Crab
+!Author: Jason Summers
+!The smallest known diagonal spaceship other than the glider. It was discovered in September 2000.
+!www.conwaylife.com/wiki/index.php?title=Crab
+........OO
+.......OO
+.........O
+...........OO
+..........O
+
+.........O..O
+.OO.....OO
+OO.....O
+..O....O.O
+....OO..O
+....OO

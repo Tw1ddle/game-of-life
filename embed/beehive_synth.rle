@@ -1,0 +1,13 @@
+#N Beehive_synth
+#O Mark D. Niemiec
+#C Syntheses of beehives.
+#C home.interserv.com/~mniemiec/2gliders.htm
+x = 156, y = 60, rule = 23/3
+57bobo96b$58b2o96b$58bo97b2$59bo96b$33b2o25bo12b2o38b2o38b2ob$12b2o18b
+o2bo22b3o11bo2bo11bo12bo11bo2bo18b2o16bo2bo$11bobo19b2o38b2o13b2o8b2o
+13b2o14b2o2bo2bo16b2ob$13bo45bo27b2o10b2o29b2o2b2o20b$15b2o41b2o31b2o
+2b2o32bo8b2o16b$15bobo40bobo29bobo2bobo35bo3b2o17b$15bo76bo2bo36b2o5bo
+16b$132bobo21b16$57bo98b$55bobo44bobo51b$56b2o45b2o51b$103bo52b5$o155b
+$b2o153b$2o154b4$117bobo36b$118b2o36b$118bo37b$33b2o58b2o19b3o36b2ob$
+32bo2bo27bo3bo24bo2bo20bo35bo2bo$33b2o26bobob2o26b2o20bo37b2ob$62b2o2b
+2o88b8$19bo136b$16bo2bobo134b$14bobo2b2o135b$15b2o!

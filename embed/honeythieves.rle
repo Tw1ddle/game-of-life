@@ -1,0 +1,8 @@
+#N Honey thieves
+#O Matthias Merzenich
+#C The smallest known period 17 oscillator in terms of population
+#C as of December 2014.
+#C www.conwaylife.com/wiki/Honey_thieves
+x = 15, y = 15, rule = B3/S23
+2o$bo$bobo9b2o$2bobo8bo$11bobo$11b2o$5b2o$5b2ob2o$8b2o$2b2o$bobo$bo8bo
+bo$2o9bobo$13bo$13b2o!

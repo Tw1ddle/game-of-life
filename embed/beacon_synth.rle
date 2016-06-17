@@ -1,0 +1,25 @@
+#N Beacon_synth
+#O Mark D. Niemiec
+#C Glider synthesis of beacons.
+#C http://home.interserv.com/~mniemiec/3gliders.htm
+x = 151, y = 106, rule = 23/3
+76bobo72b$8bobo15b2o15bobo20b2o9b2o27b2o20bo17b2o3b$8b2o16bo8bo8b2o20b
+o10bo3bo24bo22b2o15bo4b$5bo3bo19bo6b2o6bo24bo11bobo25bo18b2o19bob$3bob
+o22b2o5b2o31b2o11b2o25b2o38b2ob$4b2o33b2o110b$40b2o42bo66b$4b2o33bo44b
+2o45bobo17b$3bobo77bobo46b2o17b$5bo126bo18b2$129b3o19b$131bo19b$130bo
+20b10$42bobo106b$42b2o48bo58b$43bo34bo13bobo56b$79b2o11b2o57b$39bobo
+36b2o71b$40b2o40b2o36bobo28b$11bo28bo42b2o36b2o28b$12bo69bo38bo29b$10b
+3o13b2o38b2o38b2o38b2o3b$26bo39bo39bo16bo22bo4b$29bo39bo39bo13bobo23bo
+b$8b3o17b2o38b2o38b2o13b2o23b2ob$10bo140b$9bo112bo28b$39b3o81b2o26b$
+12b3o26bo80b2o27b$12bo27bo110b$13bo137b17$97bo53b$46bo51bo52b$bo45bo
+48b3o52b$2b2o41b3o103b$b2o23b2o38b2o38b2o39b2o2b$26bo39bo29b2o8bo29bo
+10bo3b$29bo18bo20bo27b2o10bo24b2o14bo$7bo20b2o18bobo17b2o26bo11b2o25b
+2o12b2o$7bobo38b2o101b$7b2o142b$3b3o39b2o104b$5bo40b2o103b$4bo40bo105b
+4$127bo23b$128b2o21b$127b2o22b2$73b3o75b$75bo52b2o21b$74bo54b2o20b$
+128bo22b4$137bo13b$137bobo11b$137b2o12b$133bo17b$132bo18b$132b3o16b$
+81bo69b$o5bo19b2o22bo5bo9b2o14bo13bobo7b2o14b2o22b2o3b$b2o2bobo18bo14b
+obo4b2o4b2o10bo13b3o13b2o8bo14bo2bo2b2o3b2o12bo4b$2o4bobo20bo12b2o5b2o
+4b2o12bo18b2o7bo11bo12b2o3b2o2bo2bo14bob$7bobo18b2o12bo25b2o17bo2bo17b
+2o22b2o14b2ob$3b2o3bo36b3o5bo28b3o3b2o61b$4b2o41bo4b2o30bo8b3o25b3o27b
+$3bo42bo5bobo28bo9bo29bo27b$94bo27bo28b$86b3o62b$50b3o35bo35b3o24b$52b
+o34bo36bo26b$51bo73bo25b$89b3o59b$89bo61b$90bo!

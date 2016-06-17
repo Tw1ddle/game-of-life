@@ -1,0 +1,5 @@
+#N Cis-boat and dock
+#C A 15-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Cis-boat_and_dock
+x = 6, y = 7, rule = B3/S23
+2bo3b$bobo2b$b2o3b2$b4ob$o4bo$2o2b2o!

@@ -1,0 +1,7 @@
+#N Jolson
+#O Robert Wainwright
+#C A period 15 oscillator consisting of two blocks hassled by two pentadecathlons. It was found in November 1984.
+#C www.conwaylife.com/wiki/index.php?title=Jolson
+x = 13, y = 19, rule = B3/S23
+b2o6b2o2b$o2bo4bo2bob$o2bo4bo2bob$o2bo4bo2bob$b2o6b2o2b3$7bo5b$5bo2bob
+2ob$6b2o2b2ob3$6b4o3b$5b6o2b$4b8ob$3b2o6b2o$4b8ob$5b6o2b$6b4o!

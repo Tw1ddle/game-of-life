@@ -1,0 +1,18 @@
+#N Alternate pi orbital
+#O Nicolay Beluchenko
+#C An alternate version of pi orbital using a period 12 sparker found 
+#C by Nicolay Beluchenko
+#C http://www.conwaylife.com/wiki/index.php?title=Pi_orbital
+x = 63, y = 61, rule = b3/s23
+20b2o41b$18b2o2bo40b$18b5o40b$22bo40b$15b2o2b4o40b$15b2obo4b4o36b$14bo
+bobob2obobobo35b$14bobobob2obobobo35b$15b4o4bob2o13b2o21b$19b4o2b2o13b
+2o21b$19bo43b$19b5o39b$19bo2b2o39b$20b2o34bo6b$55bo2bo4b$55bo2bo4b$55b
+o2bo4b$53bo3bob3ob$53b4obo4b$37b2o12b2o4bo4bo$9b2o26bobo12bob2obob3ob$
+9b2o28b2o7b3obob2obo5b$37bobo7bo4bo4b2o4b$22b2o13b2o12bob4o6b$25bobo
+20b3obo3bo6b$27bo23bo2bo8b$25bo25bo2bo8b$21bo29bo2bo8b$22b2o29bo9b4$9b
+o53b$8bo2bo51b$8bo2bo51b$8bo2bo51b$6bo3bob3o48b$6b4obo51b$4b2o4bo4bo
+47b$5bob2obob3o37b2o9b$b3obob2obo41b2o9b$o4bo4b2o51b$4bob4o53b$b3obo3b
+o53b$4bo2bo55b$4bo2bo55b$4bo2bo55b$6bo34b2o20b$39b2o2bo19b$39b5o19b$
+43bo19b$21b2o13b2o2b4o19b$21b2o13b2obo4b4o15b$35bobobob2obobobo14b$35b
+obobob2obobobo14b$36b4o4bob2o15b$40b4o2b2o15b$40bo22b$40b5o18b$40bo2b
+2o18b$41b2o!

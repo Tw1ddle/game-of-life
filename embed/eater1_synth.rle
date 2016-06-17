@@ -1,0 +1,26 @@
+#N Eater 1_synth
+#O Mark D. Niemiec
+#C Glider syntheses of eater 1s.
+#C http://home.interserv.com/~mniemiec/2gliders.htm
+x = 150, y = 105, rule = 23/3
+68bo81b$69bo80b$67b3o80b6$72bobo75b$73b2o75b$73bo61bobo12b$135b2o13b$
+136bo13b2$87bo62b$87bobo60b$40bo46b2o61b$41b2o41bo46bobo16b$40b2o43b2o
+45b2o16b$84b2o46bo17b$obo131bo15b$b2o2bo128b2o14b$bo3bobo38bo4bo81bobo
+14b$5b2o4bo34bobo2bobo96b$9b2o15b2o18b2o3b2o13b2o38b2o38b2o2b$10b2o15b
+o39bo39bo39bo2b$13b2o12bobo13b3o21bobo37bobo37bobo$13bobo12b2o13bo24b
+2o38b2o38b2o$13bo30bo105b3$134b3o13b$134bo15b$135bo14b2$66bobo81b$67b
+2o81b$67bo82b3$42bobo64bo40b$43b2o62b2o41b$43bo64b2o40b2$5bo43bo100b$
+3bobo41bobo100b$4b2o42b2o6bo93b$55bo94b$48bo6b3o67b2o23b$9bobo36b2o75b
+o6bo17b$5bo3b2o36bobo41bo29b2o3b3o3bobo15b$6b2o2bo81bo29b2o4bo3b2o16b$
+5b2o83b3o28bo28b$10bo119b2o18b$9bo16b2o38b2o23bo14b2o17b2o3bobo13b2o2b
+$9b3o15bo39bo23b2o14bo16bobo3bo16bo2b$27bobo37bobo20bobo14bobo16bo20bo
+bo$28b2o38b2o38b2o38b2o3$38b3o109b$40bo109b$39bo110b12$26b2o38b2o20bo
+17b2o38b2o2b$27bo39bo18b2o19bo39bo2b$6b2o19bobo37bobo14bo2b2o18bobo37b
+obo$7b2o19b2o21bo16b2o12bobo23b2o38b2o$6bo3b2o32b2o3bobo31b2o39bo5bo
+19b$10bobo32b2o3b2o38b2o32b2o5bo2bo15b$10bo33bo44b2o32bobo3b3o2b2o14b$
+52bo38bo41bobo14b$50b2o98b$51b2o97b3$87b4o59b$87bo3bo58b$87bo62b$88bo
+2bo58b$14bobo133b$14b2o28bo40b3o25bo36b$4bo10bo29b2o37b5o25bo35b$5bo5b
+o32b2o38b3ob2o22b3o2b2o31b$3b3o3bobo14b2o38b2o19b2o17b2o8bo2bo26b2o2b$
+10b2o15bo10bo7bo5bo14bo39bo8bo2bo27bo2b$27bobo8b2o5bo5b2o14bobo37bobo
+7b2o28bobo$8b2o18b2o7bobo5b3o3bobo14b2o38b2o38b2o$7bobo140b$9bo140b2$
+41b2o107b$40bobo78b2o27b$42bo79b2o26b$121bo!

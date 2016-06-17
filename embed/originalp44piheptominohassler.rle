@@ -1,0 +1,9 @@
+#N Original p44 pi-heptomino hassler
+#O David Buckingham
+#C The original form of p44 pi-heptomino hassler
+x = 31, y = 44, rule = b3/s23
+9b2o10b2o8b$8bo2bo8bo2bo7b$8b3o10b3o7b$11b10o10b$10bo2b6o2bo9b$10b2o2b
+4o2b2o9b4$20b2o9b$20b2o9b$12b2o17b6$2o12b3o12b2o$2o11bo3bo11b2o$13b2ob
+2o13b5$13b2ob2o13b$2o11bo3bo11b2o$2o12b3o12b2o6$12b2o17b$20b2o9b$20b2o
+9b4$10b2o2b4o2b2o9b$10bo2b6o2bo9b$11b10o10b$8b3o10b3o7b$8bo2bo8bo2bo7b
+$9b2o10b2o!

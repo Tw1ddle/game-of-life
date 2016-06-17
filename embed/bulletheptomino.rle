@@ -1,0 +1,5 @@
+#N Bullet heptomino
+#C Generation 1 of the T-tetromino.
+#C www.conwaylife.com/wiki/index.php?title=Bullet_heptomino
+x = 3, y = 3, rule = B3/S23
+bob$3o$3o!

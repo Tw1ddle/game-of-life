@@ -1,0 +1,7 @@
+#N Achim's p144
+#O Achim Flammenkamp
+#C Period 144 oscillator found in 1994.
+x = 28, y = 19, rule = B3/S23
+2o24b2o$2o24b2o$18b2o8b$17bo2bo7b$18b2o8b$14bo13b$13bobo12b$12bo3bo11b
+$12bo2bo12b2$12bo2bo12b$11bo3bo12b$12bobo13b$13bo14b$8b2o18b$7bo2bo17b
+$8b2o18b$2o24b2o$2o24b2o!

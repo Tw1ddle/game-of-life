@@ -1,0 +1,25 @@
+!Name: Enterprise
+!Author: Dean Hickerson
+!A diagonal spaceship with speed c/4 found in March 1993.
+!www.conwaylife.com/wiki/index.php?title=Enterprise
+........O
+......OO.O
+....OO...O
+...O...OO
+..O....OO.O
+.O..OO.OOO.O
+.O
+...O.O...OO
+OO...O.O
+O...O...OO
+.O..OO..O..O
+....OO...O........O
+..........O.O...O.O.O
+............OO.OOO..O
+............OO....OO
+.............O.OO
+
+...........O.O
+...........O
+...........OOO
+............O.O

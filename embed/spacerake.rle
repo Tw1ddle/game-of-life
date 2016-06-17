@@ -1,0 +1,7 @@
+#N Space rake
+#C An orthogonal period 20 c/2 forward glider rake.
+#C www.conwaylife.com/wiki/index.php?title=Space_rake
+x = 22, y = 19, rule = 23/3
+11b2o5b4o$9b2ob2o3bo3bo$9b4o8bo$10b2o5bo2bob2$8bo13b$7b2o8b2o3b$6bo9bo
+2bo2b$7b5o4bo2bo2b$8b4o3b2ob2o2b$11bo4b2o4b4$18b4o$o2bo13bo3bo$4bo16bo
+$o3bo12bo2bob$b4o!

@@ -1,0 +1,16 @@
+#Life 1.05
+#D Name: Jack
+#D Author: Robert Wainwright
+#D A period 4 oscillator found in April 1984.
+#D www.conwaylife.com/wiki/index.php?title=Jack
+#N
+#P -6 -4
+...*.....*
+...**...**
+*..**...**..*
+***..*.*..***
+.....*.*
+***..*.*..***
+*..**...**..*
+...**...**
+...*.....*

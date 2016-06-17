@@ -1,0 +1,6 @@
+#N Figure eight as reflector
+#C A figure eight reflecting gliders.
+#C www.conwaylife.com/wiki/Figure_eight
+x = 14, y = 17, rule = b3/s23
+2bo4bo6b$obo4b2o5b$b2o3bobo5b4$2o12b$2o2b2o8b$4bobo7b$5bo8b2$2b2o4b2o
+4b$3bo4b2obo2b$3o9bob$o8bo4b$10bob2o$12b2o!

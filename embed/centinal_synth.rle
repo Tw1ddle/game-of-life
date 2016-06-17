@@ -1,0 +1,17 @@
+#N Centinal_synth
+#O Mark D. Niemiec
+#C Glider synthesis of centinal.
+#C http://home.interserv.com/~mniemiec/objname.htm#C
+x = 112, y = 104, rule = 23/3
+60b2o50b$61bo50b$2o59bobo48b$b2o59b2o48b$o3b2o106b$4bobo105b$4bo107b4$
+47bo64b$45bobo64b$46b2o3bo60b$49b2o57b2o2b$50b2o56bobob$110bob$110b2o
+24$2o58b2o48b2o$bo59bo48bob$bobo46b2o9bobo44bobob$2b2o45b2o11b2o44b2o
+2b$46b2o3bo60b$45bobo64b$47bo64b4$4bo107b$4bobo105b$o3b2o106b$b2o45b2o
+12b2o44b2o2b$2o46bobo10bobo44bobob$50bo10bo48bob$50b2o8b2o48b2o17$25bo
+bo84b$26b2o21bo62b$26bo21bo63b$48b3o61b3$10bobo99b$2o9b2o9bo27b2o8b2o
+48b2o$bo9bo9bo28bo10bo48bob$bobo17b3o24bobo10bobo21b2o21bobob$2b2o44b
+2o12b2o14b2o5b2o6bo14b2o2b$78bobo11b2o18b$80bo10b2o19b$78b3o11b2o2b2o
+14b4$78b3o11b2o2b2o14b$80bo10b2o19b$78bobo11b2o18b$2b2o44b2o12b2o14b2o
+5b2o6bo14b2o2b$bobo17b3o24bobo10bobo21b2o21bobob$bo9bo9bo28bo10bo48bob
+$2o9b2o9bo27b2o8b2o48b2o$10bobo99b3$48b3o61b$26bo21bo63b$26b2o21bo62b$
+25bobo!

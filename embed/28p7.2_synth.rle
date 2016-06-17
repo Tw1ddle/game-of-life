@@ -1,0 +1,14 @@
+#N 28P7.2_synth
+#O Mark Niemiec and Jason Summers
+#C A 22-glider synthesis of 28P7.2, found in September, 2000
+#C www.conwaylife.com/wiki/index.php?title=28P7.2
+x = 87, y = 83, rule = b3/s23
+62bo24b$61bo25b$61b3o23b3$7bo79b$8b2o77b$7b2o78b$68bo18b$67bo19b$67b3o
+17b10$4bo82b$5bo81b$3b3o81b3$obo84b$b2o17bo66b$bo19b2o64b$20b2o65b$36b
+o50b$35bo51b$35b3o49b3$15bobo15bo53b$16b2o16b2o51b$16bo16b2o41b2o9b$
+77bo9b$76bo10b$28bo47b2o7b2o$21bo4bobo20bobo30b2o2bo$21b2o4b2o14b2o4b
+2o25b2ob4ob2ob$20bobo20bobo4bo24bo2b2o7b$43bo31b2o7b2ob$85bob$84bo2b$
+37b2o16bo28b2ob$36b2o16b2o31b$38bo15bobo30b3$34b3o50b$36bo50b$35bo51b$
+50b2o35b$49b2o19bo16b$51bo17b2o16b$69bobo15b3$66b3o18b$66bo20b$67bo19b
+10$2b3o82b$4bo82b$3bo83b$63b2o22b$62b2o23b$64bo22b3$8b3o76b$10bo76b$9b
+o!

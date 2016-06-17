@@ -1,0 +1,21 @@
+#Life 1.05
+#D Name: Orion 2
+#D Author: Jason Summers
+#D Orion 2 consists of a glider plus a tagalong and is a smaller variant of Orio
+#D n.
+#D It is one of the smallest diagonal spaceships and moves at speed c/4.
+#N
+#P -6 -6
+.**
+**
+..*
+....*....***
+....***....**
+.....***.*.*
+............*
+.....*.*
+....**.*
+.....*
+...**.*
+......*
+....**

@@ -1,0 +1,6 @@
+#N Hertz oscillator
+#C A period 8 oscillator found by John Conway's group in 1970.
+#C http://www.conwaylife.com/wiki/index.php?title=Hertz_oscillator
+x = 11, y = 12, rule = B3/S23
+3b2obo4b$3bob2o4b2$4b3o4b$3bobobob2o$3bo3bob2o$2obo3bo3b$2obo3bo3b$4b
+3o4b2$4b2obo3b$4bob2o!

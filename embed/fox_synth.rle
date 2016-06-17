@@ -1,0 +1,10 @@
+#N Fox_synth
+#O Mark D. Niemiec
+#C Glider synthesis of fox.
+#C http://home.interserv.com/~mniemiec/objname.htm#F
+x = 84, y = 25, rule = 23/3
+51bobo30b$51b2o31b$44bo7bo31b$45b2o19bo17b$44b2o20bobo15b$66b2o16b$o
+83b$b2o81b$2o82b$39bo39b3o2b$4bo35b2o42b$2b2o17b2o16b2o10b2o25bo2b2ob$
+3b2o18bo29bo24bo5b$20bo29bo27bobo2bo$21b2o28b2o29bob$bo80bob$b2o39bo
+41b$obo39b2o19bo20b$41bobo18b2o20b$55bo6bobo19b$55b2o27b$54bobo27b$48b
+2o9b2o23b$47bobo8b2o24b$49bo10bo!

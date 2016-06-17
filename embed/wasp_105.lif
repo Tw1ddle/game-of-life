@@ -1,0 +1,16 @@
+#Life 1.05
+#D Name: Wasp
+#D Author: David Bell
+#D A c/3 period 3 spaceship that was found in March 1998.
+#D www.conwaylife.com/wiki/index.php?title=Wasp
+#N
+#P -11 -16
+..........*...*
+.......*.*.**.***
+......*..*......**.**
+.**..**..*...*..*..**
+.**.*.**..*..*....*..*
+*...*....**
+*.*.*..*..**
+.........*
+.***

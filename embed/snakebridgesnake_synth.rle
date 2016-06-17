@@ -1,0 +1,12 @@
+#N Snake bridge snake_synth
+#C Glider syntheses of snake bridge snake
+#C http://www.conwaylife.com/wiki/index.php?title=Snake_bridge_snake
+x = 109, y = 45, rule = b3/s23
+90bo18b$77bobo10bobo16b$78b2o10b2o17b$78bo24bob2o2b$73bo8b2o19b2obo2b$
+74b2o7b2o4bobo15b2o$73b2o2b3o2bo6b2o17bo$79bo10bo16bob$78bo28b2o$88b2o
+19b$80b2o6bobo2b2o14b$79b2o7bo3b2o15b$81bo12bo14b6$o108b$b2o106b$2o
+107b$5bo103b$3b2o3b3o98b$4b2o2bo14bob2o16bob2o16bob2o16bob2o16bob2o2b$
+9bo13b2obo16b2obo16b2obo16b2obo16b2obo2b$7bo99b2o$7b2o59bo19bo19bo$6bo
+bo59bo19bo8bobo7bob$68bo19bo8b2o8b2o$98bo10b$51b2o56b$51bobo41b2o12b$
+51bo42b2o13b$47b3o46bo12b$49bo59b$48bo60b3$78b3o16b2o10b$80bo16bobo9b$
+79bo17bo11b2$81b3o25b$83bo25b$82bo!

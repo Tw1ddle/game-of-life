@@ -1,0 +1,15 @@
+#Life 1.05
+#D Name: Octagon 2
+#D Author: Sol Goodman and Arthur Taber
+#D The first known period 5 oscillator.
+#D www.conwaylife.com/wiki/index.php?title=Octagon_2
+#N
+#P -4 -4
+...**
+..*..*
+.*....*
+*......*
+*......*
+.*....*
+..*..*
+...**

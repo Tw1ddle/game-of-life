@@ -1,0 +1,5 @@
+#N Loop
+#C A 10-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Loop
+x = 5, y = 4, rule = B3/S23
+b2o2b$o2bob$bobob$2ob2o!

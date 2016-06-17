@@ -1,0 +1,23 @@
+#N 43P18_synth
+#O Mark D. Niemiec
+#C A 16-glider synthesis of 43P18
+#C http://www.conwaylife.com/wiki/index.php?title=43P18
+x = 120, y = 81, rule = b3/s23
+57bo62b$56bo63b$56b3o61b2$54bo7bobo55b$55bo6b2o56b$53b3o7bo11bo2bo16bo
+2bo16bo2bob$75bo19bo19bo4b$51bo22bo4bo14bo4bo14bo4bo$49bobo21bobo2b2o
+13bobo2b2o13bobo2b2o$50b2o19b2obo16b2obo16b2obo5b$46b2o72b$45bobo39bo
+32b$47bo23bo2bo10bobo3bo2bo12b2o2bo2bo5b$73b2o11b2o5b2o12b2o4b2o5b2$
+86b2o19b2o11b$49b2o34bobo19b2o11b$50b2o35bo32b$49bo70b17$15bo2bo26bo2b
+o36bo2bo26bo2bob$6bo8bo29bo39bo15b2o12bo4b$4bobo7bo4bo16b2o6bo4bo20bob
+o3b2o6bo4bo10bo2bo2b2o6bo4bo$5b2o6bobo2b2o16b2o5bobo2b2o21b2o3b2o5bobo
+2b2o10bo2bo2b2o5bobo2b2o$2b2o7b2obo26b2obo26bo9b2obo16b2o8b2obo5b$bobo
+116b$3bo66b2o48b$7b2o2bo2bo22b2o2bo2bo24bobo5b2o2bo2bo22b2o2bo2bo5b$7b
+2o4b2o22b2o4b2o26bo5b2o4b2o22b2o4b2o5b2$7b2o28b2o38b2o28b2o11b$7b2o28b
+2o38b2o28b2o11b11$4bo115b$3bo116b$3b3o114b$bo118b$2bo117b$3o28b2o38b2o
+28b2o17b$31b2o38b2o28b2o17b$101b2o17b$15bo2bo26bo2bo36bo2bo12bo13bo2bo
+b$b2o12bo15b2o12bo15bo9b2o12bo14bobo12bo4b$o2bo2b2o6bo4bo10bo2bo2b2o6b
+o4bo12b2o6bo2bo2b2o6bo4bo11bobob3o6bo4bo$o2bo2b2o5bobo2b2o10bo2bo2b2o
+5bobo2b2o11b2o7bo2bo2b2o5bobo2b2o12bob4o5bobo2b2o$b2o8b2obo16b2o8b2obo
+26b2o8b2obo18bo7b2obo5b2$107bo12b$7b2o2bo2bo22b2o2bo2bo32b2o2bo2bo21bo
+4bo2bo5b$7b2o4b2o22b2o4b2o32b2o4b2o22bo5b2o5b2$7b2o28b2o38b2o28b2o11b$
+7b2o28b2o38b2o28b2o11b$63bo56b$63b2o55b$62bobo!

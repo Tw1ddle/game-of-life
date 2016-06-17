@@ -1,0 +1,17 @@
+#N 6-engine Cordership v2
+#C A six-engine Cordership.
+#C www.conwaylife.com/wiki/index.php?title=6-engine_Cordership
+x = 77, y = 74, rule = b3/s23
+18bo58b$18bo58b$18bo58b2$53b2o22b$53b2o22b$4b3o70b2$26bo50b$26bo7b2o
+12bo28b$26bo6b2o13bo28b$33b3o11bo29b$41bo6b2obo9b2o14b$35bob2obobo5b2o
+b2o8b2o14b$12b3o20bo2bo2bo7bobo25b$35bobo39b$3b2o72b$3bobo71b$4b2o5b3o
+22b2o39b$5bo3b4o2bob2o16b2o40b$4b3o3bo3b2obobo16bo32b2o6b$o3b2o4b5o4bo
+15b2o32b2o6b$2o10bo5b2ob2o13b2o39b$b2o8bo8b3o54b$2bo7b2o24bo40b$10b2o
+24b3o38b$17b3o13bobo41b$32b2o3bo39b$33bo22b2o13bo5b$55bo2bo10b2ob3o2b$
+35b3o18b2o13b3ob2o$72bo4b2$73bo3b$23bo49bo3b$23bo49bo3b$22bo41b2o7bobo
+b$9b3ob2o8b2obo36bo2bo7bo2b$10b5o8b2ob2o36b2o11b$12bo11bobo50b2$72bo4b
+$32b2o37b2o4b$32b2o37bo5b$31bo40bobo2b$31b3o38bo2bob$29b2o3bo38bobob$
+29b2o3bo24b3o11bobob$29b2o43bo2b$16b2o13b3o19bo5bo3bo13b$16b2o35bo6b4o
+13b$41bo21bo13b$40bobo34b$40bobo34b$41bo35b3$24b2o51b$24b2o51b$49bo27b
+$48bobo26b$48bobo26b$49bo27b3$32b2o43b$32b2o13bo29b$46b2o29b$46bo30b$
+47bobo27b$47bo2bo26b$48bobo26b$48bobo26b$49bo!

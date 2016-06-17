@@ -1,0 +1,5 @@
+#N Phoenix 1
+#C A period 2 oscillator found in December 1971. It is the smallest known phoenix.
+#C www.conwaylife.com/wiki/index.php?title=Phoenix_1
+x = 8, y = 8, rule = B3/S23
+3bo4b$3bobo2b$bo6b$6b2o$2o6b$6bob$2bobo3b$4bo!

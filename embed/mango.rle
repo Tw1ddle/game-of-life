@@ -1,0 +1,5 @@
+#N Mango
+#C A common 8-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Mango
+x = 5, y = 4, rule = B3/S23
+b2o2b$o2bob$bo2bo$2b2o!

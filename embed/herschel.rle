@@ -1,0 +1,5 @@
+#N Herschel
+#C A heptomino shaped like the lowercase letter h, which occurs at generation 20 of the B-heptomino.
+#C www.conwaylife.com/wiki/index.php?title=Herschel
+x = 3, y = 4, rule = B3/S23
+o2b$3o$obo$2bo!

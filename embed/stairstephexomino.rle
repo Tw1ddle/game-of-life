@@ -1,0 +1,5 @@
+#N Stairstep hexomino
+#C One of 35 hexominoes. It is a predecessor of the blockade.
+#C www.conwaylife.com/wiki/index.php?title=Stairstep_hexomino
+x = 4, y = 3, rule = B3/S23
+2o2b$b2ob$2b2o!

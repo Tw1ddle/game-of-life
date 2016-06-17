@@ -1,0 +1,9 @@
+#N Ship in a bottle
+#O Bill Gosper
+#C A period 16 oscillator found in August 1994.
+#C www.conwaylife.com/wiki/index.php?title=Ship_in_a_bottle
+x = 18, y = 18, rule = B3/S23
+4b2o6b2o4b$3bo2bo4bo2bo3b$3bobo6bobo3b$b2o2b3o2b3o2b2ob$o6bo2bo6bo$ob
+2o10b2obo$bobo10bobob$3b2o3b2o3b2o3b$7bobo8b$7b2o9b$3b2o8b2o3b$bobo10b
+obob$ob2o10b2obo$o6bo2bo6bo$b2o2b3o2b3o2b2ob$3bobo6bobo3b$3bo2bo4bo2bo
+3b$4b2o6b2o!

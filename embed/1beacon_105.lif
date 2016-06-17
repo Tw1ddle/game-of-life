@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: 1 beacon
+#D Approximately the 32nd-most common oscillator.
+#D www.conwaylife.com/wiki/index.php?title=1_beacon
+#N
+#P -3 -3
+..**
+.*.*
+*..*.**
+**.*..*
+.*.*
+.*..*
+..**

@@ -1,0 +1,7 @@
+#N 50P35
+#C A period 35 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=50P35
+x = 33, y = 21, rule = b3/s23
+31b2o$31bob$29bobob$29b2o2b$26bo6b$26bo6b$17bobo6bo6b$16bo3b2o7b2o2b$
+16bo3bo8bobob$16bo14bob$2o29b2o$bo14bo16b$bobo8bo3bo16b$2b2o7b2o3bo16b
+$6bo6bobo17b$6bo26b$6bo26b$2b2o29b$bobo29b$bo31b$2o!

@@ -1,0 +1,12 @@
+#N 168P22.1
+#O Noam Elkies
+#C The first period 22 oscillator to be found. Found on April 17, 1997.
+#C www.conwaylife.com/wiki/index.php?title=168P22.1
+x = 33, y = 23, rule = b3/s23
+12b2o5b2o12b$7b2o3bo7bo3b2o7b$8bo4bo5bo4bo8b$5b2obob3obo3bob3obob2o5b$
+8bobo3bo3bo3bobo8b$6bobo5bobobo5bobo6b$7bobo2b2obobob2o2bobo7b$8bo3bo
+2bobo2bo3bo8b$4b2o8b2ob2o8b2o4b$2o2bo23bo2b2o$obobo4bo13bo4bobobo$2bob
+2o3b2o11b2o3b2obo2b$obobo4bo13bo4bobobo$2o2bo23bo2b2o$4b2o8b2ob2o8b2o
+4b$8bo3bo2bobo2bo3bo8b$7bobo2b2obobob2o2bobo7b$6bobo5bobobo5bobo6b$8bo
+bo3bo3bo3bobo8b$5b2obob3obo3bob3obob2o5b$8bo4bo5bo4bo8b$7b2o3bo7bo3b2o
+7b$12b2o5b2o!

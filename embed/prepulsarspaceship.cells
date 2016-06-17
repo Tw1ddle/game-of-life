@@ -1,0 +1,18 @@
+!Name: Pre-pulsar spaceship
+!Author: David Bell
+!A period 30 orthogonal c/5 spaceship in which two spiders push a pre-pulsar. Found
+!in May 1998.
+!www.conwaylife.com/wiki/index.php?title=Pre-pulsar_spaceship
+...............................O.....O
+..............................OOO...OOO
+
+
+
+..OO.....OO.....OO.....OO...................OO.....OO.....OO.....OO
+O...O...O..O...O..O...O...O...............O...O...O..O...O..O...O...O
+O...O.O.OOO.....OOO.O.O...O...............O...O.O.OOO.....OOO.O.O...O
+O.....OO..OOO.OOO..OO.....O...............O.....OO..OOO.OOO..OO.....O
+OO.OOO...............OOO.OO...............OO.OOO...............OOO.OO
+O.........................O...............O.........................O
+.O...O...............O...O.................O...O...............O...O
+..O..O...............O..O...................O..O...............O..O

@@ -1,0 +1,7 @@
+#N R-bee and snake_synth
+#C A 7-glider synthesis of R-bee and snake
+#C http://www.conwaylife.com/wiki/index.php?title=R-bee_and_snake
+x = 28, y = 21, rule = b3/s23
+9bobo16b$9b2o17b$10bo17b3$2bo25b$obo2bo22b$b2o2bobo20b$5b2o17b2o2b$23b
+o2bob$24b3ob2$24b2obo$b2o21bob2o$2b2o2b2o20b$bo4bobo2b2o15b$6bo3b2o16b
+$12bo15b$3o25b$2bo25b$bo!

@@ -1,0 +1,7 @@
+#N Wasp
+#O David Bell
+#C An orthogonal c/3 period 3 spaceship that was found in March 1998.
+#C www.conwaylife.com/wiki/index.php?title=Wasp
+x = 22, y = 9, rule = 23/3
+10bo3bo7b$7bobob2ob3o5b$6bo2bo6b2ob2ob$b2o2b2o2bo3bo2bo2b2ob$b2obob2o
+2bo2bo4bo2bo$o3bo4b2o11b$obobo2bo2b2o10b$9bo12b$b3o!

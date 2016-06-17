@@ -1,0 +1,11 @@
+#N Spacefiller 2
+#O Tim Coe
+#C A spacefiller that fills space with zebra stripes.
+#C www.conwaylife.com/wiki/index.php?title=Max
+x = 25, y = 35, rule = B3/S23
+5b3o9b3o$5bo2bo8bo2bo$5bo6bo4bo$5bo5b3o3bo$5bo5bob2o2bo$5bo6b3o2bo$6bo
+2bo2b3o3bo$8bo3b3o$9bo5b2o$10b2o$10bo$11b2o$bo8bobobo8bo$o5bobobobob2o
+2bo5bo$o5b3o3bobob3o5bo$5obo3b2o2bo3bob5o$8bobo2b2obo$7b2obobobob2o$8b
+ob2o2bobo$5obo3bo2b2o3bob5o$o5b3obobo3b3o5bo$o5bo2b2obobobobo5bo$bo8bo
+bobo8bo$12b2o$14bo$13b2o$8b2o5bo$10b3o3bo$6bo3b3o2bo2bo$7bo2b3o6bo$7bo
+2b2obo5bo$7bo3b3o5bo$7bo4bo6bo$4bo2bo8bo2bo$5b3o9b3o!

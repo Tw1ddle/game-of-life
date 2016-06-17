@@ -1,0 +1,4 @@
+#N 17c/45_Reaction
+#C A reaction between a pi-heptomino and a blinker in which the pi moves forward 17 cells in the course of 45 generations while the blinker moves back 6 cells and is rephased.
+x = 16, y = 5, rule = B3/S23
+15bo$o13b2o$o12b2ob$o13b2o$15bo!

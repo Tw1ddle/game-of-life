@@ -1,0 +1,17 @@
+!Name: Dinner table
+!Author: Robert Wainwright
+!The first period 12 oscillator to be found. Discovered in 1972.
+!www.conwaylife.com/wiki/index.php?title=Dinner_table
+.O
+.OOO.......OO
+....O......O
+...OO....O.O
+.........OO
+......O
+....OO.O
+
+..O...O..O
+.O.OO....O
+.O......O
+OO.......OOO
+...........O

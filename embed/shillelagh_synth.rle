@@ -1,0 +1,20 @@
+#N Shillelagh_synth
+#O Mark D. Niemiec
+#C Glider syntheses of shillelaghs.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 154, y = 118, rule = 23/3
+151b3o$11bo141bo$2bo6b2o141bob$3b2o5b2o142b$2b2o150b$23b2o38b2o38b2o
+38b2o9b$3bo3b2o15bo39bo39bo39bo9b$3b2o2bobo13bo17b2o2b2o16bo19bo19bo
+13bobo3bo7bo11bo10b$2bobo2bo15bobo16b2obobo15bobo15bobo2bo16bobo12b2ob
+2o7b2o11bobo8b$24b2o15bo3bo18b2o16b2o2bobo15b2o12bo3b2o6bobo11b2o8b$
+86b2o66b3$42bo12b3o96b$42b2o11bo37b2o59b$41bobo12bo35b2o60b$94bo59b$
+113b2o39b$112bobo39b$93b2o19bo39b$92b2o60b$94bo59b10$bo152b$obo70bobo
+78b$o2bo69b2o79b$b2o71bo53bo25b$23b2o68b2o33bobo12b2o9b$3b3o18bo69bo
+33b2o14bo9b$3bo19bo69bo49bo10b$4bo18bobo67bobo47bobo8b$24b2o26b2o2b2o
+36b2o6b2o2b2o36b2o8b$53b2obobo44b2obobo45b$12b2o38bo3bo45bo3bo47b$11b
+2o141b$13bo140b20$83b2o48b2o19b$83bobo47bobo18b$83bo49bo20b12$132bo21b
+$23bo107bo22b$21bobo17bo89b3o20b$22b2o15bobo112b$40b2o112b2$40bo113b$
+40b2o112b$39bobo112b6$115bo38b$113bobo38b$114b2o38b$118bo35b$73b2o41b
+2o25b2o9b$74bo42b2o25bo9b$73bo69bo10b$64b2o7bobo67bobo8b$64bobo7b2o68b
+2o8b$64bo89b11$49b3o102b$49bo104b$50bo103b2$101b2o51b$100bobo51b$102bo
+!

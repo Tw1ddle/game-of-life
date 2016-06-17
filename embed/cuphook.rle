@@ -1,0 +1,6 @@
+#N Cuphook
+#O Rich Schroeppel
+#C A period 3 oscillator with 3 cells in its rotor. Found in October 1970.
+#C www.conwaylife.com/wiki/index.php?title=Cuphook
+x = 9, y = 8, rule = B3/S23
+4b2o3b$2obobo3b$2obo5b$3bo5b$3bo2bo2b$4b2obob$7bob$7b2o!

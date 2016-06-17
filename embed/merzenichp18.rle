@@ -1,0 +1,8 @@
+#N Merzenich p18
+#O Matthias Merzenich
+#C The first period 18 billiard-table oscillator, found in June 2011.
+#C http://www.conwaylife.com/wiki/Merzenich_p18
+x = 17, y = 15, rule = B3/S23
+3b2o$4bo$2bobob2o$bobobobo3b2o$bobo8bo$2obo8bob2o$3bob2o4b2obo$3bo10bo
+$2obobo5b3ob2o$o2bobobo2bo2bobo$2bo2bob4obo2bo$3b2obo4b2obo$6bo2bo3bo$
+6bobob3o$7b2obo!

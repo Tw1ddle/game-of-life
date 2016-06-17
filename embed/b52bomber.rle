@@ -1,0 +1,10 @@
+#N B-52 bomber
+#O Noam Elkies
+#C A true period 104 double-barrelled glider gun. It uses a B-heptomino and
+#C emits one glider every 52 generations.
+#C www.conwaylife.com/wiki/index.php?title=B-52_bomber
+x = 39, y = 21, rule = B3/S23
+b2o36b$b2o17bo18b$19bobo12bobo2b$20bo12bo5b$2o7b2o23bo2bob$2obo5b2o23b
+obobo$3bo23bo7bo2bo$3bo23b2o7b2ob$o2bo17b2o5bo10b$b2o18bo17b$21b3o15b$
+36b2ob$36b2ob$b2o36b$o2bo35b$obobo16bobo4b2o5b2o2b$bo2bo17b2o4b2o5b2ob
+o$5bo12bo3bo15bo$2bobo12bobo18bo$18bo16bo2bo$36b2o!

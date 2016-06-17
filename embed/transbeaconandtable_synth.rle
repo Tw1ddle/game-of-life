@@ -1,0 +1,14 @@
+#N Trans-beacon and table_synth
+#O Mark D. Niemiec
+#C Glider synthesis of trans-beacon and table.
+#C http://home.interserv.com/~mniemiec/p2osc.htm
+x = 109, y = 49, rule = 23/3
+39b2o68b$38b2o46bo3bo18b$35b2o3bo46bobo19b$34bobo8bo7bo31b3ob3o17b$36b
+o7b2o5b2o10b2o38b2o4b$44bobo5b2o9bo39bo5b$66bo16b2o21bo2b$65b2o17b2o
+19b2o2b$83bo25b$65b4o36b4o$65bo2bo36bo2bo$83b3o2b3o18b$85bo2bo20b$84bo
+4bo19b$78b2o14b2o13b$79b2o12b2o14b$78bo16bo13b2$53b2o54b$52b2o55b$54bo
+54b$41b2o66b$40bobo66b$42bo66b11$5bobo15b2o18b2o18b2o18b2o18b2o4b$5b2o
+16bo19bo19bo19bo19bo5b$2bo3bo19bo19bo19bo19bo19bo2b$obo22b2o18b2o18b2o
+18b2o18b2o2b$b2o106b$50bo14b2o18b2o18b4o$b2o45b2o15bobo17bobo6bo10bo2b
+o$obo46b2o15bo19bo7bobo12b$2bo41b2o48b2o13b$42bobobo44b2o16b$40bobobo
+45b2o17b$41b2o49bo16b$83b3o23b$85bo23b$84bo!

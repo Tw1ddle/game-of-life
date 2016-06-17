@@ -1,0 +1,7 @@
+#N Wavefront
+#O David Buckingham
+#C A period 4 oscillator found no later than 1976.
+#C www.conwaylife.com/wiki/index.php?title=Wavefront
+x = 13, y = 13, rule = 23/3
+8b2o3b$8bo4b$9bo3b$8b2o3b$5b2o3b2ob$4bo2b3o2bo$4bo5b2ob$5bo3bo3b$2obob
+o3bo3b$ob2obob2o4b$4bobo6b$4bobo6b$5bo!

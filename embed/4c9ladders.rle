@@ -1,0 +1,37 @@
+#N 4c/9 ladders
+#O Dean Hickerson
+#C Several related 4c/9 ladders for the Life without death rule, found
+#C  in 2000.
+#C www.conwaylife.com/wiki/index.php?title=Life_without_death
+x = 20, y = 258, rule = b3/s012345678
+3bobo14b$b7o12b$b3ob3o12b$9o11b$b9o10b$bob3ob2o11b$4ob3o12b$b8o11b$4ob
+3o12b$bob3ob2o11b$b9o10b$9o11b$b3ob3o12b$b7o12b$3bobo14b3$3bobo14b$b7o
+12b$b3ob3o12b$9o11b$b9o10b$bob3ob2o11b$4ob3o12b$b8o11b$b8o11b$4ob3o12b
+$bob3ob2o11b$b9o10b$9o11b$b3ob3o12b$b7o12b$3bobo14b3$b2obo15b$b6o13b$
+3ob3o13b$b7o12b$b8o11b$5ob2o12b$b2ob3o13b$b7o12b$8o12b$bobo3bo12b$b6o
+13b$7o13b$bob3obo12b$b3ob3o12b$9o11b$8o12b$bob3o14b$b5o14b$3bo16b3$2ob
+obobo12b$b9o10b$bob3ob3o10b$11o9b$b11o8b$b3ob3ob2o9b$2ob3ob3o10b$b10o
+9b$b10o9b$3ob3ob3o9b$b9o10b$bobobobo12b$9o11b$b9o10b$3ob3ob2o10b$b4ob
+3o11b$b9o10b$10o10b$3ob3o13b$b6o13b$b2obo15b3$3bo16b$b5o14b$bob3o14b$
+9o11b$b8o11b$b3ob3o12b$2ob3ob2o11b$b8o11b$b7o12b$3ob3o13b$b6o13b$bobob
+o14b$7o13b$b6o13b$b2ob3o13b$5o15b$b5o14b$b6o13b$3ob2o14b$b4o15b$bobo
+16b$2obo16b$b5o14b$bob3o14b$9o11b$b8o11b$b3ob3o12b$2ob3ob2o11b$b8o11b$
+b7o12b$3ob3o13b$b6o13b$bobobo14b$7o13b$b6o13b$b2ob3o13b$5o15b$b5o14b$b
+6o13b$3ob2o14b$b4o15b$bobo16b$2obo16b$b5o14b$bob3o14b$9o11b$b8o11b$b3o
+b3o12b$2ob3ob2o11b$b8o11b$b7o12b$3ob3o13b$b6o13b$bobobo14b$7o13b$b6o
+13b$b2ob3o13b$5o15b$b5o14b$b6o13b$3ob2o14b$b4o15b$bobo16b$2obo16b$b5o
+14b$bob3o14b$9o11b$b8o11b$b3ob3o12b$2ob3ob2o11b$b8o11b$b7o12b$3ob3o13b
+$b3ob2o13b$bo2bo15b$9o11b$b4ob3o11b$b10o9b$11o9b$b2ob3ob3o9b$b4ob3o11b
+$10o10b$b4ob3o11b$b2ob3ob3o9b$11o9b$b10o9b$b4ob3o11b$9o11b$2bobobo13b
+3$3bo16b$b5o14b$bob3o14b$7o13b$b6o13b$b3ob2o13b$2ob3o14b$b6o13b$b6o13b
+$3obo15b$b5o14b$bob3o14b$8o12b$b8o11b$b4ob2o12b$3ob3o13b$b7o12b$b7o12b
+$5ob2o12b$b5o14b$b2obo15b$5o15b$bobo16b$b4o15b$3obobo13b$b8o11b$b2ob3o
+b2o10b$11o9b$b9o10b$b4ob3o11b$3ob3ob3o9b$b10o9b$b10o9b$2obobobobo10b$b
+10o9b$b2ob3ob3o9b$12o8b$b12o7b$bob3ob3ob2o7b$4ob3ob3o8b$b12o7b$b12o7b$
+2ob3ob3o10b$b9o10b$bobobobobo10b$9o11b$b2obobobo11b$b9o10b$2obobobobo
+10b$b11o8b$b3ob3ob3obo6b$15o5b$b14o5b$bob3ob3ob3o6b$4ob3ob3ob2o5b$b14o
+5b$b14o5b$3obobobobobobo5b$b15o4b$b3ob3ob3ob3o4b$17o3b$b15o4b$b2ob3ob
+3ob3o5b$5ob3ob3ob3o3b$b16o3b$b16o3b$3ob3ob3ob3o5b$b14o5b$b2obobobobobo
+7b$13o7b$bobobobobobobo6b$b13o6b$3obobobobobobo5b$b16o3b$b4ob3ob3ob3o
+3b$19ob$b19o$b2ob3ob3ob3ob3ob$5ob3ob3ob3obob$b17o2b$b17o2b$5ob3ob3ob3o
+bob$b2ob3ob3ob3ob3ob$20o$b18ob$b4ob3ob3ob3o3b$2b15o3b$2bobobobobobobo!

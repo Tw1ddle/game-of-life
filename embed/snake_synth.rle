@@ -1,0 +1,11 @@
+#N Snake_synth
+#O Mark D. Niemiec
+#C Glider syntheses of snakes.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 98, y = 74, rule = 23/3
+79bobo16b$79b2o17b$70bo9bo17b$27bobo41bo2bo23b$28b2o39b3o3b2o2bo18b$
+28bo45b2o2bo19b$30bo13b2obo30b3o13b2obo$25b2o2bo14bob2o46bob2o$24b2o3b
+3o66b$26bo71b$21b2o75b$22b2o74b$21bo76b12$2bo95b$obo95b$b2o95b12$67bo
+30b$66bo31b$66b3o29b3$65b3o30b$26b2o2b2o33bo32b$27b2obobo33bo31b$26bo
+3bo13b2obo46b2obo$44bob2o46bob2o15$84b2o12b$84bobo11b$84bo13b$88b2o8b$
+88bobo7b$88bo9b4$53b3o42b$53bo44b$54bo!

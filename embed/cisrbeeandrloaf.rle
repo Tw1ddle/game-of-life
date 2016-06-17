@@ -1,0 +1,5 @@
+#N Cis-R-bee and R-loaf
+#C A 15-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Cis-R-bee_and_R-loaf
+x = 4, y = 8, rule = B3/S23
+b2ob$o2bo$b3o2$b3o$o2bo$obob$bo!

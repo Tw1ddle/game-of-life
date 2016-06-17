@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Jam
+#D Author: Achim Flammenkamp
+#D A period 3 oscillator.
+#D www.conwaylife.com/wiki/index.php?title=Jam
+#N
+#P -3 -3
+...**
+..*..*
+*..*.*
+*...*
+*
+...*
+.**

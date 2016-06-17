@@ -1,0 +1,9 @@
+#N Boat with long tail_synth
+#O Mark D. Niemiec
+#C Glider synthesis of boat with long tail.
+#C http://home.interserv.com/~mniemiec/objname.htm#B
+x = 68, y = 23, rule = 23/3
+8bo59b$8bobo57b$8b2o58b2$obo33bo31b$b2o33b2o30b$bo33bobo2bo27b$6bo33bo
+bob3o21b$4bobo33b2o2bo23b$5b2o38bo22b$8bo15b2o38b2o2b$8bobo14bo39bo2b$
+8b2o14bo39bo3b$13bo10bobo19b2o2b3o11bobob$12b2o11bobo17bobo2bo14bobo$
+12bobo11b2o19bo3bo14b2o5$42b2o24b$43b2o23b$42bo!

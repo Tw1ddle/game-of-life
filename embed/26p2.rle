@@ -1,0 +1,5 @@
+#N 26P2
+#C The 55th most common oscillator.
+#C www.conwaylife.com/wiki/index.php?title=26P2
+x = 8, y = 7, rule = b3/s23
+b2ob2o2b$obobobob$o6bo$b5obo$6bob$3bo4b$3b2o!

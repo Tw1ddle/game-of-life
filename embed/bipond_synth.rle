@@ -1,0 +1,11 @@
+#N Bi-pond_synth
+#O Mark D. Niemiec
+#C Glider syntheses of bi-ponds.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 111, y = 21, rule = 23/3
+50bo34bo25b$49bo36bo24b$49b3o32b3o24b$9bo101b$8bo102b$8b3o100b$48bo6bo
+55b$11bo13b2o19b2o7bobo7b2o12bo25b2o4b$10b2o12bo2bo19b2o6b2o7bo2bo9bob
+o8bobo13bo2bo3b$bo8bobo11bo2bo36bo2bo10b2o8b2o14bo2bo3b$b2o22b2ob2o19b
+o15b2ob2o19bo15b2ob2ob$obo24bo2bo17b2o17bo2bo24b2o10bo2bo$27bo2bo7b2o
+8bobo16bo2bo16b2o6bobo9bo2bo$28b2o7bobo28b2o16b2o7bo12b2ob$39bo48bo22b
+$6b2o103b$7b2o102b$6bo104b$43b3o42b3o20b$45bo42bo22b$44bo44bo!

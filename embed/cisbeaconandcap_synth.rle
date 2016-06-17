@@ -1,0 +1,9 @@
+#N Cis-beacon and cap_synth
+#O Mark D. Niemiec
+#C Glider synthesis of cis-beacon and cap.
+#C http://home.interserv.com/~mniemiec/p2osc.htm
+x = 106, y = 12, rule = 23/3
+4bo17b2o18b2o18b2o18b2o18b2o2b$4bobo15bo19bo19bo19bo19bo3b$o3b2o19bo
+19bo19bo19bo19bo$b2o21b2o18b2o18b2o18b2o18b2o$2o104b$64b2o18b2o16b4o$
+2o40b3o18bobo10bo6bobo16bo2bo$b2o41bo19bo9bobo7bo18b2ob$o42bo31b2o29b$
+78b2o26b$79b2o25b$78bo!

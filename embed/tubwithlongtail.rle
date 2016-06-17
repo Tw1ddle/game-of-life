@@ -1,0 +1,5 @@
+#N Tub with long tail
+#C A 9-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Tub_with_long_tail
+x = 4, y = 6, rule = B3/S23
+bo2b$obob$bobo$3bo$2bob$2b2o!

@@ -1,0 +1,7 @@
+#N Dinner table
+#O Robert Wainwright
+#C The first period 12 oscillator to be found. Discovered in 1972.
+#C www.conwaylife.com/wiki/index.php?title=Dinner_table
+x = 13, y = 13, rule = b3/s23
+bo11b$b3o7b2o$4bo6bob$3b2o4bobob$9b2o2b$6bo6b$4b2obo5b2$2bo3bo2bo3b$bo
+b2o4bo3b$bo6bo4b$2o7b3ob$11bo!

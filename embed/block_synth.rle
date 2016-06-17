@@ -1,0 +1,16 @@
+#N Block_synth
+#O Mark D. Niemiec
+#C Block glider synthesis.
+#C http://home.interserv.com/~mniemiec/2gliders.htm
+x = 148, y = 74, rule = 23/3
+6bo39bo101b$4bobo19b2o16bobo19b2o19bo18b2o38b2o$5b2o19b2o17b2o19b2o14b
+o2bobo18b2o18b2o18b2o$2b2o78b2o2b2o35bob2o21b$bobo38b3o36bobo37bobo3bo
+20b$3bo40bo77b2o24b$43bo104b23$4bo46b2o95b$5b2o44bobo61bobo30b$4b2o20b
+2o19bo3bo14b2o38b2o8b2o28b2o$8b2o16b2o20b2o16b2o38b2o8bo29b2o$7b2o38b
+2o99b$9bo76bobo59b$86b2o60b$87bo60b$146b2o$86b3o33bo23b2o$86bo35b2o24b
+$87bo33bobo3bo20b$125b2o21b$126b2o20b12$71b2o75b$70bobo75b$72bo75b3$
+92bo55b$90b2o56b$26b2o21bo16b2o23b2o13b2o38b2o$13bo12b2o15bo4bo17b2o
+26b2o10b2o17bo3bo16b2o$o11bo28bobo4b3o33b2o8bobo27bobo2bobo16b$b2o9b3o
+27b2o2bo6bo29bobo8bo29bobo2b2o2b2o13b$2o6b3o35b2o4b2o31bo39bo7bobo12b$
+8bo36bobo4bobo66b3o9bo14b$9bo78b2o33bo3b3o18b$88bobo31bo4bo20b$88bo39b
+o19b2$2b2o144b$bobo144b$3bo!

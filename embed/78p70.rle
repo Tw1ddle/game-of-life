@@ -1,0 +1,10 @@
+#N 78P70
+#O Karel Suhajda
+#C A small non-trivial period 70 oscillator, discovered on
+#C June 17, 2007
+#C www.conwaylife.com/wiki/index.php?title=78P70
+x = 31, y = 25, rule = b3/s23
+5bo19bo5b$5b3o15b3o5b$8bo13bo8b$7b2o13b2o7b2$2o27b2o$bo11b2o14bob$bobo
+9b2o12bobob$2b2o23b2o2b$19bobo9b$18bo2bo9b$18bo2bo9b$11bo7bo11b$9bo2bo
+18b$9bo2bo18b$9bobo19b$2b2o23b2o2b$bobo12b2o9bobob$bo14b2o11bob$2o27b
+2o2$7b2o13b2o7b$8bo13bo8b$5b3o15b3o5b$5bo19bo!

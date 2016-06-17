@@ -1,0 +1,8 @@
+#N Double caterer
+#O Dean Hickerson
+#C A period 3 oscillator found in October 1989.
+#C http://www.conwaylife.com/wiki/index.php?title=Double_caterer
+x = 19, y = 12, rule = B3/S23
+5b2o3bo8b$4bo2bo2b3o6b$4b2obo5bo5b$6bob4obo5b$2b3obobo3bob2o3b$bo2bo2b
+o3bo2bobo2b$obo2bo3bob2o4bob$bo10b2ob3ob$2b2ob2ob2o3bo5b$3bo3bo5bob3ob
+$3bo3bo6b2o2bo$17b2o!

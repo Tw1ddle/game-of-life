@@ -1,0 +1,7 @@
+#N 44P5H2V0
+#O Dean Hickerson
+#C The first 2c/5 spaceship to be discovered
+#C http://www.conwaylife.com/wiki/index.php?title=44P5H2V0
+x = 15, y = 11, rule = b3/s23
+4bo5bo4b$3b3o3b3o3b$2bo2bo3bo2bo2b$b3o7b3ob$2bobo5bobo2b$4b2o3b2o4b$o
+4bo3bo4bo$5bo3bo5b$2o3bo3bo3b2o$2bo2bo3bo2bo2b$4bo5bo!

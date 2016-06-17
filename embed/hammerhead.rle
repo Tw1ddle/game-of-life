@@ -1,0 +1,7 @@
+#N Hammerhead
+#C An orthogonal period 4 c/2 spaceship with many different possible rear ends.
+#C www.conwaylife.com/wiki/index.php?title=Hammerhead
+x = 18, y = 16, rule = 23/3
+5o13b$o4bo7b2o3b$o11b2ob3o$bo9b2ob4o$3b2o3b2ob2o2b2ob$5bo4bo2bo4b$6bob
+obobo5b$7bo10b$7bo10b$6bobobobo5b$5bo4bo2bo4b$3b2o3b2ob2o2b2ob$bo9b2ob
+4o$o11b2ob3o$o4bo7b2o3b$5o!

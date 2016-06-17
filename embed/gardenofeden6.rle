@@ -1,0 +1,8 @@
+#N Garden of Eden 6
+#O Nicolay Beluchenko
+#C Currently (as of November 27, 2013) the smallest-known Garden of Ed
+#C en in Conway's Game of Life.
+#C www.conwaylife.com/wiki/Garden_of_Eden_6
+x = 11, y = 10, rule = B36/S23
+bob3obo$2bobobo2bo$ob3o2b2o$bob5obo$o2bo2b4o$4o2bo2bo$ob5obo$b2o2b3obo
+$o2bobobo$2bob3obo!

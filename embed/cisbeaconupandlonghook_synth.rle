@@ -1,0 +1,7 @@
+#N beacon and long hook_synth
+#O Mark D. Niemiec
+#C A 6-glider synthesis of beacon and long hook
+x = 27, y = 22, rule = b3/s23
+8b2o17b$9b2o16b$8bo3b2o13b$3bo8bobo12b$3b2o7bo11b2ob$2bobo20bob$22bo4b
+$22b2o3b2$22b4ob$22bo3bo$25b2o$3ob3o20b$2bobo22b$bo3bo21b5$5b2o20b$4b
+2o21b$6bo!

@@ -1,0 +1,7 @@
+#N Eater 3
+#O David Buckingham
+#C A 31-cell still life and symmetric eater.
+#C http://www.conwaylife.com/wiki/index.php?title=Eater_3
+x = 12, y = 12, rule = B3/S23
+9b2ob$4b2o2bo2bo$bo2bo4bobo$obobo5bob$bo2bob2o4b$4bo2bo4b$5bo4bob$6b5o
+b2$8bo3b$7bobo2b$8bo!

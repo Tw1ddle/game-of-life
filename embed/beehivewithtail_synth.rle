@@ -1,0 +1,14 @@
+#N Beehive with tail_synth
+#O Mark D. Niemiec
+#C Glider syntheses of beehive with tails.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 77, y = 76, rule = 23/3
+2bo74b$obo74b$b2o51bobo20b$55b2o20b$55bo21b2$60bobo14b$31b2o27b2o9b2o
+4b$32bo28bo10bo4b$2bo3bo25bob2o15b2o19bob2ob$3b2obobo24bo2bo15b2o19bo
+2bo$2b2o2b2o26b2o15bo3b2o17b2ob$55bobo19b$55bo21b$60b2o15b$21bo38bobo
+14b$20b2o38bo16b$20bobo54b19$63bobo11b$31b2o18b2o10b2o6b2o4b$32bo19bo
+11bo7bo4b$11b2o19bobo17bobo17bob2ob$12b2o19b2o18b2o5bobo10bo2bo$11bo3b
+2o43b2o12b2ob$15bobo43bo15b$15bo61b$59b2o16b$58b2o17b$60bo16b12$48bo
+28b$47bo29b$47b3o27b2$44bobo30b$45b2o5bo24b$45bo6bobo22b$52b2o23b2$46b
+obo22b2o4b$47b2o23bo4b$34b2o11bo6b2o16bob2ob$13b2o18bo2bo16bo2bo16bo2b
+o$12bobo19b2o18b2o18b2ob$14bo62b$16b2o59b$16bobo58b$16bo!

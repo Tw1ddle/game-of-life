@@ -1,0 +1,7 @@
+#N En retard
+#O David Buckingham
+#C A period 3 oscillator found in August 1972.
+#C www.conwaylife.com/wiki/index.php?title=En_retard
+x = 11, y = 11, rule = B3/S23
+5bo5b$4bobo4b$2obobobob2o$bobo3bobob$o2bobobo2bo$b2o5b2ob$3b2ob2o3b$3b
+obobo3b$4bobo4b$2bobobobo2b$2b2o3b2o!

@@ -1,0 +1,7 @@
+#N Edge-repair spaceship 2
+#O Stephen Silver
+#C An orthogonal c/4 period 4 edge-repair spaceship that uses a T-tetromino reaction to destroy beehives.
+#C www.conwaylife.com/wiki/index.php?title=Edge-repair_spaceship_2
+x = 22, y = 11, rule = 23/3
+obo19b$o21b$obo2bo2bo13b$3bo18b$4bob2obo12b$5b3obo12b$4bo4bo2bob2o6b$b
+o3b2o3bob4o6b$b2o2bo2bob2o4bo4bo$bo8b2o4bo2b3o$6b2o3b2o3bo2b2o!

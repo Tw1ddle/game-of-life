@@ -1,0 +1,5 @@
+#N Loaf
+#C A very common 7-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Loaf
+x = 4, y = 4, rule = B3/S23
+b2ob$o2bo$bobo$2bo!

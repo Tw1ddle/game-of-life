@@ -1,0 +1,5 @@
+#N 18P2.471
+#C A period 2 oscillator with the same rotor as the beacon.
+#C www.conwaylife.com/wiki/index.php?title=18P2.471
+x = 7, y = 7, rule = b3/s23
+3bo3b$b5ob$o5bo$5obo$5bob$2bo4b$2b2o!

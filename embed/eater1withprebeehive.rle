@@ -1,0 +1,5 @@
+#N Eater 1 with pre-beehive
+#C An eater 1 about to eat a pre-beehive.
+#C www.conwaylife.com/wiki/index.php?title=Eater_1
+x = 7, y = 7, rule = b3/s23
+2o5b$2o5b$2o5b$3b2o2b$3bobob$5bob$5b2o!

@@ -1,0 +1,7 @@
+#N 37P10.2
+#O Dean Hickerson
+#C A small period-10 oscillator related to 37P10.1
+#C http://www.conwaylife.com/wiki/index.php?title=37P10.1
+x = 13, y = 13, rule = b3/s23
+2b2o9b$3bo9b$2bo10b$2b2o5b2o2b$4bo3bobo2b$4o5bo3b$o5bo5bo$3b2o3b5o$2bo
+2bobo5b$2b2o5b2o2b$10bo2b$9bo3b$9b2o!

@@ -1,0 +1,6 @@
+#N Pressure cooker
+#C A period 3 oscillator found by the MIT group in September 1971.
+#C www.conwaylife.com/wiki/index.php?title=Pressure_cooker
+x = 11, y = 12, rule = B3/S23
+5bo5b$4bobo4b$4bobo4b$3b2ob2o3b$obo5bobo$2obobobob2o$3bo3bo3b$3bo3bo3b
+$4b3o4b2$3bob2o4b$3b2obo!

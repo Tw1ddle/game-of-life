@@ -1,0 +1,20 @@
+#Life 1.05
+#D Name: Crab
+#D Author: Jason Summers
+#D The smallest known diagonal spaceship other than the glider. It was discovere
+#D d in September 2000.
+#D www.conwaylife.com/wiki/index.php?title=Crab
+#N
+#P -6 -6
+........**
+.......**
+.........*
+...........**
+..........*
+.
+.........*..*
+.**.....**
+**.....*
+..*....*.*
+....**..*
+....**

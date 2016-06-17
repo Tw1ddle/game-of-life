@@ -1,0 +1,5 @@
+#N Small lake
+#C A 20-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Small_lake
+x = 9, y = 9, rule = B3/S23
+4bo4b$3bobo3b$3bobo3b$b2o3b2ob$o7bo$b2o3b2ob$3bobo3b$3bobo3b$4bo!

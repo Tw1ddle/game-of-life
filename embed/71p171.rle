@@ -1,0 +1,8 @@
+#N 71P17.1
+#O Dean Hickerson
+#C A variant of the first period 17 oscillator to be found.
+#C www.conwaylife.com/wiki/index.php?title=54P17.1
+x = 18, y = 14, rule = b3/s23
+14bo3b$5bo7bobo2b$4bobo6bobo2b$4bobo5b2o2b2o$b2obob2o3bo2bobob$2bobo6b
+ob2o2bo$o2bobob3obo3bobo$2obobo4bo2b2obob$3bobo2b2o4bo3b$3bobo3bobo2bo
+3b$4b2obobob3o4b$6bobo9b$6bo2b3o6b$5b2o4bo!

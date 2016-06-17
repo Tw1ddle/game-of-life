@@ -1,0 +1,6 @@
+#N Cousins
+#C A period 3 oscillator that contains two copies of the stillater rotor.
+#C www.conwaylife.com/wiki/index.php?title=Cousins
+x = 13, y = 7, rule = B3/S23
+5bob2o4b$3b3obobo3b$obo6bo3b$2ob2ob2obob2o$3bobo4bobo$3bobob3o3b$4b2ob
+o!

@@ -1,0 +1,25 @@
+#N Vacuum (gun) pulling
+#O Dieter Leithner
+#C A true period 46 gun pulling blocks and beehives.
+#C www.conwaylife.com/wiki/index.php?title=Vacuum_(gun)
+x = 90, y = 97, rule = b3/s23
+b2o23b2o62b$b2o23bo63b$24bobo63b$6bo3b2o12b2o36b2o5b2o19b$2o2b2obob3o
+50b2o5b2o19b$2o2bo4b3o78b$4bo3bo81b$5b3o82b$44b2o44b$5b3o36b2o44b$4bo
+3bo81b$2o2bo4b3o25b2o51b$2o2b2obob3o25bobo5b2o43b$6bo3b2o25bob2o4b2o
+43b$21b2o15b2o50b$b2o35bo51b$b2o20bo66b$23bobo12bo23b2o5b2o19b$20bo17b
+2o21bo2bo3bo2bo18b$20bo5bo10bob2o4b2o17b2ob2o21b$20bo5bo10bobo5b2o16bo
+bobobo20b$22bo3bo10b2o24bobobobo20b$22bo38bo9bo18b$22bo2bo18b2o14bo11b
+o17b$22b3o19b2o44b$65bobo22b$62bo9bo17b$62bo3bo5b2o16b$32bo31b3o6bo16b
+$28b2o2bo34b2ob2o18b$27bo5bo13b2o41b$26b2o2bobo14b2o41b$27b2o3bo57b$
+28b3o34bo7bo16b$41b2o3b2o18bobobobo17b$28b3o9bo2bobo2bo17bobobobo17b$
+27b2o3bo6bo9bo15bob2ob2obo16b$26b2o2bobo5b2o9b2o14b2o5b2o16b$27bo5bo5b
+o9bo5bo34b$16b2o10b2o2bo7bo2bobo2bo5bo35b$15bobo14bo8b2o3b2o6b3o33b$
+15bo74b$14b2o74b2$28bo5bo22b2o31b$26bobo3bobo21b4o30b$27b2o4b2o20bo2bo
+bo29b$54bobo2b2o29b$53bobo34b$52b2o36b$43bo8b3o10b2o5b2o16b$43bobo7bob
+o9b2o5b2o16b$43b2o9b2o34b2$63b2o25b$39bo5bo16b4o7b2o15b$40bo5bo14bobob
+o6bo2b2o11b2o$38b3o3b3o7b2o5b2ob3o4b6o11b2o$54b2o8b2obo5b4o13b$64b2obo
+22b2$64b2obo22b$64b2obo5b4o13b$30b2o31bo2bo4b6o11b2o$29bobo32b2o6bo2b
+2o11b2o$29bo34b2o7b2o15b$28b2o9b2o49b$40bo10bo5bo32b$37b3o9bobo3bobo
+32b$37bo12b2o4b2o32b$62bo27b$61bobo26b$61bobo26b$62bo27b5$64b2o24b$64b
+2o24b2$67b2o4bo16b$67b2o3bobo15b$72bobo15b$73bo16b5$75b2o13b$75b2o13b
+2$78b2o10b$78b2o10b2$81b2o7b$81b2o!

@@ -1,0 +1,15 @@
+#N Maze 7-cell still lifes
+#C All 40 7-cell still lifes in the maze (12345/3) rule.
+#C www.conwaylife.com/wiki/index.php?title=Maze
+x = 134, y = 15, rule = 12345/3
+2obo3b2obo2b2obo2b2obo2b2obo2b2obo2b2o2bo2b2o3bo2b2o5b2o4b2o4b2o4b2o6b
+2o5b2o6b2o4b2o4b2o4b2o5b2o3b2o2b$o3bo3b3o3b2o4b2o4bobo3bobo2bo2bo5bobo
+3bobobo2bobo3bobo3bobo3bobo5bobo4bo8b3o3b3o3b3o3bo2bo3bo4bo2b$2b2o4bo
+4bo6bo5b2o4bo5b2o6b2o7b2o3bobo4bo6bo5bo8bo4bo5b2o4bo6bobo3bobo3bo5b3o$
+13bo7bo11bo27bo5b2o3b2o7bo6b2o5bo11bo12bo4bobo5bo$82bo13bo29bo7b$97bo
+36b3$2o3b2o4b2o4b2o5b2o3bob2o4bob2o4bo2b2o3bo6bo7bo7bo7bo7bo9b2o4b2o5b
+o6bo6bo4b$bo4bo5bo6bobo4bo3b2obo4b2o6bo3bo3bob2o3bob2o4bo2b2o3bo2bo4bo
+7bo7bo2bo2bo2bo3bobo4bobo5bo4b$b2o3b2o4bobo4bobo2b2o8bo6bo5b2o8bo7bo5b
+o6bo2bo4bobo5bo6bobo5bobo4b3o4bo4b3o3b$2bo5bo5bo5bo3bo17bo12b2o5b2o6b
+2o7b2o8bo5bo6bo7bo5bo6bobo3bo4b$bo6bo4bo11bo61b2o7bo27bo4bo4b$97bo36b$
+98bo!

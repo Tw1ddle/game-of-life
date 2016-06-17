@@ -1,0 +1,6 @@
+#N 43P18
+#C The smallest known period 18 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=43P18
+x = 20, y = 15, rule = b3/s23
+b2o17b$b2o17b$b2o17b$bo13bo2bob$obo12bo4b$bobob3o6bo4bo$2bob4o5bobo2b
+2o$3bo7b2obo5b2$7bo12b$6bo4bo2bo5b$7bo5b2o5b2$7b2o11b$7b2o!

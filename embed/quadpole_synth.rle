@@ -1,0 +1,12 @@
+#N Quadpole_synth
+#O Mark D. Niemiec
+#C Glider synthesis of quadpole.
+#C http://home.interserv.com/~mniemiec/p2osc.htm
+x = 68, y = 54, rule = 23/3
+37bo30b$35bobo30b$36b2o5bo24b$44bo23b$42b3o23b$38b3o27b$40bo27b$39bo
+28b2$61b2o5b$61bobo4b2$63bobo2b$25b2o18b2o21b$3bo21bobo17bobo17bobo$bo
+bo3bo18b2o18b2o18b2o$2b2o2b2o60b$6bobo59b$bo66b$2o66b$obo65b11$47bo20b
+$47bobo18b$47b2o19b2$39bo28b$40b2o10bo15b$39b2o2b2o7bobo13b$42b2o8b2o
+14b$39b2o3bo16b2o5b$40b2o19bobo4b$39bo28b$63bobo2b$49bo18b$47b2o16bobo
+$44bo3b2o16b2o$35b2o8b2o21b$34bobo7b2o2b2o18b$36bo10b2o19b$49bo18b2$
+40b2o26b$39bobo26b$41bo!

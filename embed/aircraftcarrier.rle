@@ -1,0 +1,5 @@
+#N Aircraft carrier
+#C A 6-cell still life that is the smallest still life with more than one island.
+#C www.conwaylife.com/wiki/index.php?title=Aircraft_carrier
+x = 4, y = 3, rule = B3/S23
+2o2b$o2bo$2b2o!

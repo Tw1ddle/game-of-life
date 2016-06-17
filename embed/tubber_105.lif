@@ -1,0 +1,20 @@
+#Life 1.05
+#D Name: Tubber
+#D Author: Robert Wainwright
+#D A period 3 oscillator that was found no later than June 1972.
+#D www.conwaylife.com/wiki/index.php?title=Tubber
+#N
+#P -6 -6
+....*.*
+....**.*
+.......***
+....**....*
+**.*..**..*
+.*.*....*.**
+*...*...*...*
+.**.*....*.*
+..*..**..*.**
+..*....**
+...***
+.....*.**
+......*.*

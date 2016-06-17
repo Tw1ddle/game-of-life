@@ -1,0 +1,15 @@
+#N p57 glider loop
+#O Mike Playle
+#C A period-57 oscillator based on a stable reflector
+#C Discovered on 25 Apr 2013
+#C www.conwaylife.com/wiki/P57_glider_loop
+x = 79, y = 79, rule = B3/S23
+34b2o$34bobo$36bo4b2o$32b4ob2o2bo2bo$32bo2bo3bobob2o$35bobobobo$36b2ob
+obo$40bo2$26b2o$27bo8bo$27bobo5b2o$28b2o$42bo$43bo$41b3o4$38b2o$38bo$
+28b2o9b3o$29b2o10bo$28bo3$69bo$67b3o$55bobo8bo$56b2o8b2o$56bo2$74b2o$
+75bo$3b2o70bob2o$4bo9b2o51bo5b3o2bo$2bo10bobo51b2o3bo3b2o$2b5o8bo5b2o
+49b2obo$7bo13bo36b2o15bo$4b3o12bobo35bobo12b3o$3bo15b2o36bo13bo$3bob2o
+49b2o5bo8b5o$b2o3bo3b2o51bobo10bo$o2b3o5bo51b2o9bo$2obo70b2o$3bo$3b2o
+2$22bo$11b2o8b2o$12bo8bobo$9b3o$9bo3$50bo$37bo10b2o$37b3o9b2o$40bo$39b
+2o4$35b3o$35bo$36bo$49b2o$42b2o5bobo$42bo8bo$51b2o2$38bo$37bobob2o$37b
+obobobo$34b2obobo3bo2bo$34bo2bo2b2ob4o$36b2o4bo$42bobo$43b2o!

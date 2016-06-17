@@ -1,0 +1,7 @@
+#N Caterer on 44P7.2
+#C A small period 21 oscillator
+#C www.conwaylife.com/wiki/index.php?title=Caterer_on_44P7.2
+x = 19, y = 16, rule = b3/s23
+5b2o7bo4b$4bo8bobo3b$7bo5bobo3b$3bo3bo4b2obob2o$4o3bo7b2obo$5bo5bob2o
+4b$14bo4b$11b3o5b$8bobo8b$6bo3bob2o5b$4b3obobob2o5b$3bo4b2o9b$4b4o11b$
+7bo11b$6bo12b$6b2o!

@@ -1,0 +1,11 @@
+#Life 1.05
+#D Name: Queen bee
+#D A pattern that lays a beehive on either side of itself before exploding.
+#D www.conwaylife.com/wiki/index.php?title=Queen_bee
+#N
+#P -7 -13
+...*
+..*.*
+.*...*
+..***
+**...**

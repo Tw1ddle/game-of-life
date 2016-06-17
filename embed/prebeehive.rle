@@ -1,0 +1,5 @@
+#N Pre-beehive
+#C A common parent of the beehive.
+#C http://www.conwaylife.com/wiki/index.php?title=Pre-beehive
+x = 3, y = 2, rule = B3/S23
+3o$3o!

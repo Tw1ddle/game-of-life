@@ -1,0 +1,7 @@
+#N Schick engine
+#O Paul Schick
+#C An orthogonal period 12 c/2 tagalong found in 1972.
+#C www.conwaylife.com/wiki/index.php?title=Schick_engine
+x = 20, y = 11, rule = 23/3
+bo2bo15b$o19b$o3bo15b$4o9b2o5b$6b3o5b2o4b$6b2ob2o6b3o$6b3o5b2o4b$4o9b
+2o5b$o3bo15b$o19b$bo2bo!

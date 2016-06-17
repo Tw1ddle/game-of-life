@@ -1,0 +1,14 @@
+#N P54 shuttle_synth
+#C A 12-glider synthesis of the p54 shuttle
+#C http://www.conwaylife.com/wiki/index.php?title=P54_shuttle
+x = 149, y = 61, rule = b3/s23
+40b2o38b2o38b2o25b2o$41bo39bo39bo25bob$2o39bobo37bobo23b2o12bobo21bobo
+b$b2o39b2o38b2o22b2o14b2o21b2o2b$o3b2o97b2o3bo40b$4bobo95bobo44b$4bo
+99bo44b4$24bo59bo64b$22bobo59bobo62b$23b2o3bo51bo3b2o63b$26b2o37b2o14b
+2o22b2o15b2o21b2o2b$27b2o36bobo12b2o23bobo13bobo21bobob$67bo39bo13bo
+25bob$67b2o38b2o11b2o25b2o20$86bo62b$87b2o60b$86b2o14bo46b$102bobo44b$
+80b2o20b2o3b2o11b2o25b2o$81bo25bo13bo25bob$81bobo21bobo13bobo21bobob$
+82b2o21b2o15b2o7b2o12b2o2b$133bo15b$128bo4b2o14b$128b2o3bo15b$132bo16b
+2$132bo16b$128b2o3bo15b$128bo4b2o14b$133bo15b$82b2o21b2o15b2o7b2o12b2o
+2b$81bobo21bobo13bobo21bobob$81bo25bo13bo25bob$80b2o20b2o3b2o11b2o25b
+2o$102bobo44b$86b2o14bo46b$87b2o60b$86bo!

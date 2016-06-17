@@ -1,0 +1,22 @@
+#N 49P88_synth
+#O Mark D. Niemiec
+#C A 16-glider synthesis of 49P88
+#C http://www.conwaylife.com/wiki/index.php?title=49P88
+x = 117, y = 81, rule = b3/s23
+68bo48b$68bobo46b$64bo3b2o47b$65b2o29b2o19b$12bo51b2o29bobo19b$11bo83b
+o21b$11b3o80b2o21b$39b2o28b2o28b2o16b$10bo29bo29bo29bo16b$9b2o26b3o27b
+3o27b3o17b$9bobo25bo29bo29bo19b14$13bobo101b$14b2o101b$14bo34bo29bo29b
+o7b$47b3o27b3o27b3o7b$46bo29bo29bo10b$15bo30b2o28b2o28b2o9b$11bo2bo96b
+2o4b$10b2o2b3o94bo5b$10bobo96bobo5b$77bo31b2o6b$77bobo3b2o32b$77b2o3b
+2o33b$84bo32b$76bo40b$77b2o38b$76b2o39b4$6b2o28b2o28b2o28b2o19b$5bobo
+27bobo27bobo27bobo19b$5bo29bo29bo29bo21b$4b2o28b2o28b2o28b2o21b$9b2o
+28b2o28b2o28b2o16b$10bo29bo29bo29bo16b$7b3o27b3o27b3o27b3o17b$7bo29bo
+29bo29bo19b5$62bobo52b$19bo29bo13b2o14bo29bo7b$17b3o27b3o13bo13b3o27b
+3o7b$16bo29bo29bo29bo10b$16b2o28b2o28b2o28b2o9b$21b2o7b2o19b2o7b2o19b
+2o7b2o19b2o4b$21bo9bo19bo9bo19bo9bo19bo5b$2o17bobo9bobo15bobo9bobo15bo
+bo9bobo15bobo5b$b2o16b2o11b2o15b2o11b2o15b2o11b2o15b2o6b$o3b2o111b$4bo
+bo96b3o11b$4bo98bobo11b$103bobo11b3$22bo94b$20bobo94b$21b2o3bo90b$6b2o
+16b2o10b2o15b2o11b2o15b2o11b2o15b2o2b$5bobo17b2o8bobo15bobo9bobo15bobo
+9bobo10bo4bobob$5bo29bo19bo9bo19bo9bo12bo6bob$4b2o28b2o19b2o7b2o19b2o
+7b2o19b2o$9b2o28b2o28b2o28b2o16b$10bo29bo29bo11b2o16bo16b$7b3o27b3o27b
+3o11b2o14b3o17b$7bo29bo29bo15bo13bo!

@@ -1,0 +1,5 @@
+#N HighLife 7-cell still lifes
+#C All 4 7-cell still lifes in the HighLife (23/36) rule.
+#C www.conwaylife.com/wiki/index.php?title=HighLife
+x = 26, y = 4, rule = b36/s23
+2o6b2o5b2o6b2ob$obobo3bobo4bobo4bo2bo$3b2o4bobo5bo4bobob$10bo6b2o4bo!

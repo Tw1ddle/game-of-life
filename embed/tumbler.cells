@@ -1,0 +1,9 @@
+!Name: Tumbler
+!Author: George Collins
+!The smallest known period 14 oscillator.
+!www.conwaylife.com/wiki/index.php?title=Tumbler
+.O.....O
+O.O...O.O
+O..O.O..O
+..O...O
+..OO.OO

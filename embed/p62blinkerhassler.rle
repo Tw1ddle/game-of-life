@@ -1,0 +1,9 @@
+#N p62 blinker hassler
+#O Noam Elkies
+#C A period-62 oscillator composed of two period-31 oscillators
+#C hassling two blinkers
+x = 40, y = 26, rule = B3/S23
+27b2o7b2o$27b2o7b2o$b2o7b2o$b2o7b2o3$27bo9bo$26bobo7bobo$bo9bo13b2o2bo
+5bo2b2o$obo7bobo13bobo7bobo$o2bo5bo2bo6bo6b3o7b3o$b2o7b2o7bo$o11bo6bo$
+26b3o7b3o$19bo6bobo7bobo$o11bo6bo5b2o2bo5bo2b2o$b2o7b2o7bo6bobo7bobo$o
+2bo5bo2bo14bo9bo$obo7bobo$bo9bo3$27b2o7b2o$27b2o7b2o$b2o7b2o$b2o7b2o!

@@ -1,0 +1,7 @@
+#N Thumb 1
+#O Dean Hickerson
+#C A period 9 thumb oscillator found in October 1998.
+#C www.conwaylife.com/wiki/index.php?title=Thumb_1
+x = 13, y = 9, rule = 23/3
+3b2o8b$3bobob2o2b2o$2obo3bobo2bo$2obo3bob3ob$3bo3bo5b$3bobob3o3b$4bobo
+3bo2b$6bo2b2o2b$6b2o!

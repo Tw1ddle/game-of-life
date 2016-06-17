@@ -1,0 +1,6 @@
+#N Noah's ark
+#O Charles Corderman
+#C A diagonal period 1344 c/12 puffer made up of two switch engines that was found in 1971.
+#C www.conwaylife.com/wiki/index.php?title=Noah's_ark
+x = 15, y = 15, rule = 23/3
+10bobo2b$9bo5b$10bo2bob$12b3o6$bo13b$obo12b2$o2bo11b$2b2o11b$3bo!

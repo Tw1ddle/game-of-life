@@ -1,0 +1,9 @@
+#N p45 engine
+#O Matthias Merzenich
+#C A period-45 oscillator found on 29 Apr 2009
+#C Still life stabilization by Jason Summers on 3 May 2009
+x = 42, y = 42, rule = B3/S23
+21b2o$21bo$18b2obo$18bobo4b2o$25bo$23bobo$23b2o5$17bo2bo$13b2o2bo2bo$
+13b2o2bo2bo7b2o$28b2o$3bo$3b3o$6bo21b3o$5b2o31b2o$o38bo$3o25b3o7bo$3bo
+7b3o25b3o$2bo38bo$2b2o31b2o$11b3o21bo$36b3o$38bo$12b2o$12b2o7bo2bo2b2o
+$21bo2bo2b2o$21bo2bo5$17b2o$16bobo$16bo$15b2o4bobo$20bob2o$20bo$19b2o!

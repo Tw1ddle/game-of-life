@@ -1,0 +1,22 @@
+#N pufferfishspaceship_synth.rle
+#O Chris Cain
+#C Pufferfish spaceship synthesis by Chris Cain, February 2015
+#C http://conwaylife.com/forums/viewtopic.php?f=2&t=1557&start=50#p16736
+#C http://conwaylife.com/wiki/Pufferfish#Synthesis
+x = 456, y = 499, rule = B3/S23
+25bo$23bobo$24b2o45$70bo$71bo$69b3o2$80bo$81bo$79b3o21$98bo$99bo$97b3o
+3$101bobo$102b2o$102bo11$113bo$114bo$112b3o11$128bo$83bo45bo323bo$84bo
+42b3o323bobo$82b3o368b2o2$131bobo$132b2o$132bo14$150bo$151b2o$150b2o
+71$266bo$266bobo$203bo62b2o$204bo$202b3o$282bobo$282b2o$283bo2$197bo$
+195bobo$196b2o156bo$219bobo131bo$220b2o131b3o$179bobo25bobo10bo$180b2o
+26b2o$180bo27bo5$336bobo$336b2o$337bo10bobo$348b2o$349bo25$264b2o$263b
+2o$265bo7$213b2o$214b2o$213bo6$201b2o77b2o$202b2o75b2o5b2o$201bo79bo3b
+2o$260b3o24bo$260bo$261bo16b3o$278bo$279bo2$219b2o$218bobo$220bo59b3o$
+280bo$281bo8$298bo$297b2o$297bobo23$139b2o$138bobo$140bo30$127b3o$129b
+o$128bo6$198b2o$199b2o$198bo7$97b3o243b2o$99bo242b2o$98bo245bo6$109b3o
+70b2o171b2o$111bo64b2o5b2o169b2o$110bo66b2o3bo173bo$176bo24b3o$203bo$
+183b3o16bo$185bo$184bo2$337b2o$337bobo$181b3o153bo$183bo$76b3o103bo$
+78bo$77bo6$165bo$165b2o$164bobo6$66b3o$68bo$67bo21$27b3o$29bo$28bo3$
+47b2o$23b3o22b2o$25bo21bo10b2o$24bo32bobo$59bo20$11b3o$13bo$12bo8$29b
+3o$31bo$3o27bo55b2o$2bo82bobo361b3o$bo85bo361bo$450bo3$82b2o$81bobo
+369b3o$83bo369bo$454bo7$29b3o$31bo$30bo16$29b3o$31bo$30bo!

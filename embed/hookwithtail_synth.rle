@@ -1,0 +1,12 @@
+#N Hook with tail_synth
+#C Glider syntheses of hook with tail
+#C http://www.conwaylife.com/wiki/index.php?title=Hook_with_tail
+x = 68, y = 76, rule = b3/s23
+39bo28b$40bo27b$38b3o27b4$63b2o3b$64bo3b$46bo17bob2o$44b2o19bobo$45b2o
+21b3$45b3o20b$45bo22b$39b2o5bo21b$38bobo27b$40bo27b19$23b2o18b2o18b2o
+3b$24bo19bo8bo10bo3b$3b2o19bobo17bobo5bo11bob2o$4b2o19b2o18b2o5b3o10bo
+bo$3bo3b2o59b$7bobo39b3o16b$7bo41bo18b$50bo17b$43bo24b$43b2o23b$42bobo
+23b12$40bobo25b$40b2o26b$41bo26b$49bo18b$49bobo16b$49b2o17b2$4bo34b3o
+26b$5bo19bo15bo3bo17b2o3b$3b3o18bobo13bo3bobo4bobo10bo3b$24bobo17bobo
+4b2o11bob2o$3o22bo19bo6bo12bobo$2bo65b$bo51b3o12b$53bo14b$48b2o4bo13b$
+49b2o17b$48bo!

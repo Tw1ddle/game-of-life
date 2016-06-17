@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: Candelabra
+#D Author: Charles Trawick
+#D A period 3 oscillator.
+#D www.conwaylife.com/wiki/index.php?title=Candelabra
+#N
+#P -8 -3
+....**....**
+.*..*......*..*
+*.*.*......*.*.*
+.*..*.****.*..*
+....*.*..*.*
+.....*....*

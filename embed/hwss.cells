@@ -1,0 +1,9 @@
+!Name: HWSS
+!Author: John Conway
+!The fourth most common spaceship (after the glider, lightweight spaceship and middleweight spaceship).
+!www.conwaylife.com/wiki/index.php?title=Heavyweight_spaceship
+...OO
+.O....O
+O
+O.....O
+OOOOOO

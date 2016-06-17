@@ -1,0 +1,20 @@
+#Life 1.05
+#D Name: Mold on 41P7.2
+#D The smallest known non-trivial period 28 oscillator
+#D http://www.conwaylife.com/wiki/index.php?title=Mold_on_41P7.2
+#N
+#P -7 -7
+....*......**
+..**.*.....*
+.*..........*
+*.*..*.....**
+*..*......*
+.**........**
+..........*..*
+.....*.*****..*
+...***.*....**
+..*....*.*.*
+...****....*
+.......****
+.....*..*
+.....**

@@ -1,0 +1,7 @@
+#N Toaster
+#O Dean Hickerson
+#C A period 5 oscillator found in April 1992 that produces sparks similar to those of a lightweight spaceship.
+#C www.conwaylife.com/wiki/index.php?title=Toaster
+x = 11, y = 12, rule = B3/S23
+2bo6b2o$bobob2o2bob$bobobobobob$2obo3bob2o$o2b2ob2o2bo$bo7bob$bo7bob$o
+2b2ob2o2bo$2obo3bob2o$bobobobobob$bobob2o2bob$2bo6b2o!

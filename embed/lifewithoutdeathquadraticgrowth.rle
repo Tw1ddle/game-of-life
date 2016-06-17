@@ -1,0 +1,15 @@
+#N Life without death quadratic growth
+#O Dean Hickerson
+#C A pattern that grows quadratically (and eventually predictably) to 
+#C fill one quarter of the plane.
+#C www.conwaylife.com/wiki/index.php?title=Life_without_death
+x = 47, y = 47, rule = b3/s012345678
+3b2o26b2o14b$3b4o23b5o12b$3b4o24b4o12b$b7o21b7o11b$b4obo22b4obo12b$8o
+20b8o11b$bob4o22bob4o12b$8o20b8o3bo7b$b4obo22b4obo2b2o8b$8o20b8o2bo8b$
+bob4o22bob4o12b$8o20b7o2bobobobo3b$b4obo22b17ob$8o20b10ob3ob3ob$bob4o
+22b18o$8o20b19o$b4obo21b8ob3ob3obob$8o22b14o3b$bob4o23b2obobobobobo5b$
+8o39b$b4obo40b$8o39b$bob4o40b$8o39b$b4obo40b$8o39b$bob4o40b$8o39b$b4ob
+o40b$8o39b$bob4o40b$8o39b$b4obo40b$8o39b$bob4o40b$8o39b$b4obo40b$8o39b
+$bob4o40b$7o2bobobobobobobobobobobobobobobobobobo3b$b45ob$10ob3ob3ob3o
+b3ob3ob3ob3ob3ob3ob$b46o$47o$8ob3ob3ob3ob3ob3ob3ob3ob3ob3o3b$2b42o3b$
+2b2obobobobobobobobobobobobobobobobobobobo!

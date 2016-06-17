@@ -1,0 +1,5 @@
+#N Long shillelagh
+#C A 9-cell still life that is the long version of the shillelagh.
+#C http://www.conwaylife.com/wiki/index.php?title=Long_shillelagh
+x = 6, y = 3, rule = B3/S23
+2o2b2o$o2bobo$b2o!

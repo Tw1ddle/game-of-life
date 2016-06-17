@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Spiral
+#D Author: Robert Wainwright
+#D A 20-cell still life made up of a tub with four tails.
+#D http://www.conwaylife.com/wiki/index.php?title=Spiral
+#N
+#P -3 -3
+**....*
+.*..***
+.*.*
+..*.*
+...*.*
+***..*
+*....**

@@ -1,0 +1,11 @@
+#N cross_synth
+#O Jason Summers
+#C A 16-glider synthesis of the cross
+#C http://www.conwaylife.com/wiki/index.php?title=Cross
+x = 46, y = 32, rule = b3/s23
+13bobo30b$13b2o31b$14bo31b$22bo23b$21bo24b$10bobo8b3o22b$11b2o3bo29b$
+11bo5bo28b$5bo9b3o28b$3bobo40b$4b2o20bo19b$24b2o14b2o4b$25b2o12b4o3b$
+30b2o14b$7b2o20b2o6bobo2bobob$6bobo14bo7bo4b2o6b2o$o7bo14bobo10b2o6b2o
+$b2o20b2o12bobo2bobob$2o44b$5b2o32b4o3b$6b2o32b2o4b$5bo20b2o18b$26bobo
+17b$14b3o9bo19b$14bo5bo25b$15bo3b2o25b$8b3o8bobo24b$10bo35b$9bo36b$17b
+o28b$17b2o27b$16bobo!

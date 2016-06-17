@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: Eater 5
+#D An eater composed of a tub with tail and a block that is capable of eating gl
+#D iders that approach from the top-right.
+#D http://www.conwaylife.com/wiki/index.php?title=Eater_5
+#N
+#P -4 -1
+.......**
+...*...**
+..*.*
+.*.*
+.*
+**

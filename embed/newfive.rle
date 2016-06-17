@@ -1,0 +1,6 @@
+#N New five
+#O Dean Hickerrson
+#C A period 3 oscillator found in January 1990.
+#C www.conwaylife.com/wiki/index.php?title=New_five
+x = 9, y = 9, rule = B3/S23
+2b2o5b$bo2bo4b$bobo2bo2b$2obob2o2b$o8b$b3ob4o$5bo2bo$ob2o5b$2ob2o!

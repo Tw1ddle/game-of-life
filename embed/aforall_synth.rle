@@ -1,0 +1,17 @@
+#N A for all_synth
+#O Mark D. Niemiec
+#C Glider syntheses of a for alls.
+#C http://home.interserv.com/~mniemiec/objname.htm#a
+x = 98, y = 97, rule = 23/3
+63bo34b$63b2o2b2o29b$62bobo2bobo28b$48bobo16bo7bobo20b$49b2o24b2o21b$
+49bo26bo21b$65b2o31b$64bobo31b$66bo25b2o4b$91bo2bo3b$91b4o3b$89bobo2bo
+bob$57bo4b2o24bo8bo$58b2o2bobo23bo8bo$57b2o3bo26bobo2bobob$91b4o3b$91b
+o2bo3b$92b2o4b$52bobo43b$53b2o43b$53bo44b$62bobo33b$63b2o33b$46b2o15bo
+14b2o18b$47b2o28b2o19b$46bo32bo18b$62bo35b$62b2o34b$61bobo34b6$52b2o
+44b$51bobo44b$53bo44b13$72bo25b$72bobo23b$72b2o24b6$62bobo33b$62b2o34b
+$63bo34b$79bo18b$77b2o19b$62bo15b2o18b$48bobo10b2o35b$49b2o10bobo34b$
+49bo22bo25b$71b2o25b$71bobo24b$92b2o4b$91bo2bo3b$91b4o3b$32b2o28b2o25b
+obo2bobob$bobo27bo2bo26bo2bo23bo8bo$2b2o27bo2bo26bo2bo23bo8bo$2bo29b2o
+28b2o25bobo2bobob$91b4o3b$b2o88bo2bo3b$obo89b2o4b$2bo49bobo43b$53b2o
+43b$53bo22bo21b$62bobo10b2o21b$63b2o10bobo20b$46b2o15bo34b$47b2o49b$
+46bo51b$62bo35b$62b2o34b$61bobo34b6$52b2o44b$51bobo44b$53bo!

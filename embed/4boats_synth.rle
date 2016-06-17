@@ -1,0 +1,23 @@
+#N Four boats_synth
+#O Mark D. Niemiec
+#C Glider synthesis of four boats (aka. hourglass).
+#C http://home.interserv.com/~mniemiec/objname.htm#H
+x = 116, y = 104, rule = 23/3
+90bobo23b$90b2o24b$91bo24b2$50bobo17bo19bo25b$50b2o17bobo17bobo24b$51b
+o17b2o18b2o18bo6b$55bo43bo8bobo5b$29b2o18b2o2b2o14b2o3bo14b2o3bo2b2o8b
+o2bo5b$8bobo17bo2bo16bo2bo2b2o9b2obo2bobobo9b2obo2bobobo2b2o6bo4b2o3b$
+9b2o17bo2bo12b2o2bo2bo12bobobo2bob2o5b2o2bobobo2bob2o12b2o4bo2b$9bo19b
+2o14b2o2b2o14bo3b2o10b2o2bo3b2o18bo2bo3b$44bo35bo28bobo4b$8b2o38bo20b
+2o18b2o19bo5b$7bobo38b2o18bobo17bobo25b$9bo37bobo19bo19bo26b2$88bo27b$
+88b2o26b$87bobo26b8$79bo36b$77bobo36b$78b2o36b6$87bo28b$88bo27b$86b3o
+27b2$89bo26b$88bo27b$88b3o25b3$81bo34b$60bo21b2o32b$58bobo20b2o26bo6b$
+59b2o47bobo5b$77bo29bo2bo5b$78bo2b3o22bo4b2o3b$76b3o2bo25b2o4bo2b$82bo
+26bo2bo3b$99b2o8bobo4b$77b2o20bobo8bo5b$76b2o21bo16b$78bo37b3$69b3o44b
+$71bo44b$70bo45b2$71b3o42b$71bo44b$72bo43b6$80b2o34b$80bobo33b$80bo35b
+4$40bo75b$41b2o73b$40b2o74b2$6bo29bobo77b$7bo29b2o77b$5b3o29bo53bo24b$
+89bobo24b$90b2o20b2o2b$2bo109b2o2b$obo106bo4b2o$b2o28b2o18b2o15bo2bo
+16bo2bo16bobo3b2o$29bob2o16bob2o14bob2obo14bob2obo2b3o9bo2bo5b$28bo19b
+o19bo2bo11bo4bo2bo3bo10bo4b2o3b$12bobo16bo19bo16bo2bo12bo3bo2bo4bo10b
+2o4bo2b$12b2o13b2obo16b2obo16bob2obo9b3o2bob2obo16bo2bo3b$13bo13b2o18b
+2o19bo2bo16bo2bo12b2o3bobo4b$104b2o4bo5b$10b3o93b2o8b$10bo77b2o16b2o8b
+$11bo76bobo25b$62bo25bo27b$61b2o53b$61bobo52b2$58b2o56b$57b2o57b$59bo!

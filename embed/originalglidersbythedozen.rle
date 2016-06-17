@@ -1,0 +1,6 @@
+#N original gliders by the dozen
+#O Roger H. Rosenbaum
+#C The original form of gliders by the dozen
+#C http://www.conwaylife.com/wiki/index.php?title=Gliders_by_the_dozen
+x = 9, y = 5, rule = b3/s23
+2b2ob2o2b$bobobobob$o2bobo2bo$bobobobob$2b2ob2o!

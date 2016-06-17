@@ -1,0 +1,5 @@
+#N Long long ship
+#C A 10-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Long_long_ship
+x = 5, y = 5, rule = B3/S23
+2o3b$obo2b$bobob$2bobo$3b2o!

@@ -1,0 +1,20 @@
+#N Hivenudger_synth
+#O Mark D. Niemiec
+#C Glider synthesis of a hivenudger.
+#C http://home.interserv.com/~mniemiec/sship.htm
+x = 154, y = 109, rule = 23/3
+37bo116b$35b2o117b$36b2o116b6$bo152b$2bo151b$3o151b5$10bo143b$10b2o2b
+3o137b$9bobo2bo139b$15bo116bo21b$130b2o22b$90bo40b2o21b$89bo64b$89b3o
+29b3o17b3o5b3o2b$110b2o8bo2bo6b2o8bo2bo5bo2bob$89bo19bobo11bo5bobo11bo
+5bo4b$89b2o19bo8bo3bo6bo3b2o3bo3bo5bo3bo$88bobo28bo3bo10bobo2bo3bo5bo
+4b$123bo10bo8bo6bobob$120bobo17bobo11b14$29b3o19b3o5b3o92b$29bo2bo17bo
+2bo5bo2bo91b$29bo23bo5bo94b$29bo3bo15bo3bo5bo3bo90b$29bo19bo3bo5bo94b$
+30bobo20bo6bobo91b$50bobo23bo77b$77b2o75b$76b2o76b3$124bobo27b$124b2o
+28b$125bo28b5$88bo65b$89bo3bo60b$87b3o2bo61b$92b3o59b4$36bo117b$37b2o
+115b$36b2o116b$40bo15bo4b2o43bo4b2o41b$35bo4b2o13bobo3b2o42bobo3b2o41b
+$35b2o2bobo13bobo35bo11bobo46b$34bobo19bo36b2o11bo47b$92bobo59b11$75b
+2o50b3o24b$76b2o49bo26b$75bo52bo25b5$140b3o11b$140bo2bo10b$140bo9b3ob$
+140bo3bo4bo2bob$140bo3bo7bob$140bo11bob$141bobo5bobo2b$145b3o6b$145b3o
+6b2$101b3o5b3o29b3o5b3o2b$100bo2bo5bo2bo27bo2bo5bo2bob$103bo5bo33bo5bo
+4b$99bo3bo5bo3bo25bo3bo5bo3bo$99bo3bo5bo29bo3bo5bo4b$103bo6bobo30bo6bo
+bob$100bobo37bobo!

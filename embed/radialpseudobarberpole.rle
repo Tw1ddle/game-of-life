@@ -1,0 +1,6 @@
+#N Radial pseudo-barberpole
+#O Gabriel Nivasch
+#C A radially symmetric relative of the pseudo-barberpole
+x = 13, y = 13, rule = b3/s23
+10b2ob$2o9bob$o8bo3b$2b2o3bobo3b2$3bobobo5b2$5bobobo3b2$3bobo3b2o2b$3b
+o8bo$bo9b2o$b2o!

@@ -1,0 +1,17 @@
+#N Zweiback
+#O Mark Niemiec
+#C A period 30 oscillator in which two heavyweight volcanoes hassle a 
+#C loaf.
+#C www.conwaylife.com/wiki/index.php?title=Zweiback
+x = 79, y = 21, rule = b3/s23
+26bo52b$25bobo51b$25bob3o40b2o7b$22bob2o4bo16b2o4b2o8b2o3bo2bo7b$14b2o
+6b2o3b2obo17bo4bobo8bo3b2o9b$13bobo9b2obob2o16bob2obo2bo7bob2o2b4ob2o
+2b$7b2obo2bo6b5o3bo3bo14b2obobob2o6b2obobobo3bobobob$6bob2obob2o4bo5bo
+2b2ob2o13bo3bobo10bobo3b2obo2bobob$6bo4bo7b2o2bo8bo13b2ob2obo8bobobo2b
+o6bob2o$4b2ob4ob2o4b2o2bobo4bob2o13bo5bo3bo2b2obob2o2bo2b2o2bo3b$3bobo
+4bobobob4o2b2o2bo2bob2o5b2o6b2obo2bo2b2o2b4obobobo4bobo3b$3bo2b2o2bo2b
+2obob2o2bo3bo5bo4bo2bo5b2obo4bobo2b2o4b2ob4ob2o4b$2obo6bo2bobobo8bob2o
+b2o5bobo5bo8bo2b2o7bo4bo6b$bobo2bob2o3bobo10bobo3bo6bo6b2ob2o2bo5bo4b
+2obob2obo6b$bobobo3bobobob2o6b2obobob2o14bo3bo3b5o6bo2bob2o7b$2b2ob4o
+2b2obo7bo2bob2obo16b2obob2o9bobo13b$9b2o3bo8bobo4bo17bob2o3b2o6b2o14b$
+7bo2bo3b2o8b2o4b2o16bo4b2obo22b$7b2o40b3obo25b$51bobo25b$52bo!

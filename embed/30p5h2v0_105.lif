@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: 30P5H2V0
+#D Author: Paul Tooke
+#D An orthogonal spaceship with period 5. The smallest known 2c/5 spaceship.
+#D www.conwaylife.com/wiki/index.php?title=30P5H2V0
+#N
+#P -6 -5
+....*
+...***
+..**.**
+.
+.*.*.*.*..*
+**...*...***
+**...*......*
+..........*.*
+........*.*
+.........*..*
+............*

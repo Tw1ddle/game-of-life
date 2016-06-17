@@ -1,0 +1,6 @@
+#N 36P22
+#C The smallest known period 22 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=36P22
+x = 27, y = 10, rule = b3/s23
+2o25b$bo25b$bobo13b3o7b$2b2o3bo8bo3bo6b$6bob2o6bo4bo5b$5bo4bo6b2obo6b$
+6bo3bo8bo3b2o2b$7b3o13bobob$25bob$25b2o!

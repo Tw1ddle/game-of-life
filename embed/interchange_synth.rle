@@ -1,0 +1,16 @@
+#N Interchange_synth
+#O Mark D. Niemiec
+#C Glider syntheses of interchanges.
+#C http://home.interserv.com/~mniemiec/2gliders.htm
+x = 76, y = 106, rule = 23/3
+24b3o4b3o30b3o4b3o2b2$6b2o2b2o10bo12bo26bo12bo$5bobo2bobo9bo12bo26bo
+12bo$7bo2bo11bo12bo26bo12bo$49bo26b$24b3o4b3o10bo3b3o13b3o4b3o2b$45bob
+2obo25b$43b3ob3o26b$47b3o26b$47b3o26b$48b2o26b19$64b3o4b3o2b$8bo67b$6b
+obo19b2o18b2o12bo12bo$7b2o19b2o18b2o12bo12bo$4b2o56bo12bo$3bobo70b$5bo
+58b3o4b3o2b2$46bo29b$46b2o28b$45bobo28b2$49bo26b$48b2o26b$48bobo25b14$
+43bo32b$44bo31b$8bo3bo29b3o19b3o4b3o2b$9b2obobo61b$8b2o2b2o16bo9b2o8bo
+11bo12bo$29bobo7bobo7bobo10bo12bo$14b3o13bo10bo8bo11bo12bo$14bo61b$15b
+o48b3o4b3o2b24$64b3o4b3o2b2$62bo12bo$obo25b2o18b2o12bo12bo$b2o25bobo
+17bobo11bo12bo$bo8bo20bobo10b2o5bobo22b$9b2o21b2o11b2o5b2o10b3o4b3o2b$
+5b2o2bobo32bo31b$6b2o68b$5bo9b3o58b$15bo60b$16bo59b2$8b3o65b$10bo65b$
+9bo!

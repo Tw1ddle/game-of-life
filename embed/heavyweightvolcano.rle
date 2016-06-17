@@ -1,0 +1,8 @@
+#N Heavyweight volcano
+#C A period 5 oscillator that emits a rather  isolated domino spark.
+#C http://www.conwaylife.com/wiki/Heavyweight_volcano
+x = 24, y = 17, rule = B3/S23
+11b2o2$4bo3bo6bo3bo$2b3o2bo8bo2b3o$bo3b3o3b2o3b3o3bo$bob2ob5o2b5ob2obo
+$2obo6b4o6bob2o$bo2b5obo2bob5o2bo$bo7b2o2b2o7bo$2b3ob2obo4bob2ob3o$4bo
+bo2bo4bo2bobo$4bo2bobo4bobo2bo$5bobob6obobo$4b2ob2o2b2o2b2ob2o$7bo8bo$
+7bobo4bobo$8b2o4b2o!

@@ -1,0 +1,9 @@
+#N Skewed quad_synth
+#O Mark D. Niemiec
+#C Glider synthesis of skewed quad.
+#C http://home.interserv.com/~mniemiec/objname.htm#S
+x = 55, y = 43, rule = 23/3
+16bo38b$17b2o36b$16b2o37b9$27bo27b$26bo28b$26b3o26b$13bo41b$11bobo41b$
+12b2o26bobo12b$40b2o13b$41bo10b2ob$48b2o3bob$48bobobo2b$20b2o33b$21b2o
+27bobobo$20bo28bo3b2o$bo21b3o23b2o4b$b2o20bo31b$obo21bo4b2o24b$29bobo
+23b$29bo25b$14b3o38b$16bo38b$15bo39b9$25b2o28b$24b2o29b$26bo!

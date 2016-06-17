@@ -1,0 +1,25 @@
+!Name: Boatstretcher 1
+!Author: Hartmut Holzwart
+!The first diagonal wickstretcher to be found
+!http://www.conwaylife.com/wiki/index.php?title=Boatstretcher_1
+..........O
+.........OO
+.........O.O...O
+.............OO
+..............O..O
+............OO.O..O
+........OOO.OO....O
+.......O..O....O
+......O....O....OO
+.OO...O.....O.O.OO
+OO....OO.........O
+..O.....O.........O
+.....OO..O......OOO
+...O.OO...........O.O
+...OO....O.........OO
+..O..O.O
+........OO..O
+....O...OOO.O
+.....OO....OOO
+..............O
+.............OO

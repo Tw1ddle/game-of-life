@@ -1,0 +1,6 @@
+#N Overweight spaceship
+#C A would-be spaceship similar to the LWSS, MWSS and HWSS, but longer. It is unstable by itself, but can be escorted by other spaceships
+#C to produce a flotilla.
+#C www.conwaylife.com/wiki/index.php?title=Overweight_spaceship
+x = 8, y = 5, rule = b3/s23
+3b3o2b$bo5bo$o7b$o6bo$7o!

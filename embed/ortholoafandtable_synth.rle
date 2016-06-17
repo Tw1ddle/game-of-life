@@ -1,0 +1,15 @@
+#N Ortho-loaf and table_synth
+#C Glider syntheses of ortho-loaf and table
+#C http://www.conwaylife.com/wiki/index.php?title=Ortho-loaf_and_table
+x = 108, y = 73, rule = b3/s23
+83bo24b$84bo23b$82b3o23b$91bo16b$89b2o17b$90b2o16b$46bo46b2o13b$46bobo
+16bo19bo7bobo12b$46b2o16bobo17bobo6bo10bo2bo$64b2o18b2o18b4o2$44bobo
+17b2o18b2o18b2o2b$44b2o17bo2bo16bo2bo16bo2bob$45bo17bobo17bobo17bobo2b
+$47b2o15bo19bo19bo3b$47bobo58b$47bo60b17$40b2o66b$39bobobo64b$41bobobo
+62b$43b2o63b$48b2o15bo42b$47b2o15bobo41b$49bo14b2o42b$4bo103b$4bobo17b
+2o18b2o18b2o42b$3ob2o17bo2bo16bo2bo16bo2bo41b$2bo20bobo17bobo17bobo42b
+$bo22bo19bo19bo43b7$44bo63b$45b2o30bo16bo13b$44b2o32b2o12b2o14b$39bo
+37b2o14b2o13b$40bo8bo33bo4bo19b$38b3o6b2o35bo2bo20b$48b2o32b3o2b3o18b$
+64bo2bo36bo2bo$64b4o36b4o2$64b2o38b2o2b$63bo2bo36bo2bob$63bobo37bobo2b
+$47bo16bo22bo16bo3b$44bo2bobo34bo2bobo18b$42bobo2b2o33bobo2b2o19b$43b
+2o38b2o23b3$42bo39bo25b$42b2o38b2o24b$41bobo37bobo!

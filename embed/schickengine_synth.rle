@@ -1,0 +1,17 @@
+#N Schick engine_synth
+#O Mark D. Niemiec
+#C Glider synthesis of Schick engine.
+#C http://home.interserv.com/~mniemiec/objname.htm#S
+x = 126, y = 76, rule = 23/3
+84bobo9bobo27b$85b2o9b2o28b$85bo6bo4bo28b$90bobo33b$91b2o2bo30b$27bo
+66bo31b$25bobo29b2o28b2o5b3o29b$26b2o29b2o28b2o37b$23b2o92b3o3b3o$22bo
+bo66bo25bo2bobo2bo$24bo57b2o6bo8b2o16bo7bo$81bobo6b3o6bobo15bo7bo$83bo
+15bo18bobobobob2$90b3o28bo4b$90bo29b3o3b$91bo28b3o3b4$119bo3bo2b$119bo
+3bo2b$118bobobobob$120b3o3b$120b3o3b$121bo4b16$81bobo15bobo24b$82b2o
+15b2o25b$82bo17bo25b2$35bo90b$36bo55bo33b$34b3o53bobo33b$38bo52b2o2bo
+30b$37bo56bo31b$37b3o17b2o28b2o5b3o29b$57b2o28b2o37b4$93bo32b$93bobo
+30b$79b2o12b2o7b2o22b$2bo75bobo21bobo12b3o3b3o$obo18b2o18b2o18b2o17bo
+10b2o9bo14bo2bobo2bo$b2ob3o13bo2bo16bo2bo16bo2bo26bo2bo23bo7bo$4bo16bo
+bo17bobo17bobo27bobo23bo7bo$5bo16bo19bo19bo29bo25bobobobob2$121bo4b$
+120b3o3b$120b3o3b4$119bo3bo2b$119bo3bo2b$118bobobobob$120b3o3b$120b3o
+3b$121bo!

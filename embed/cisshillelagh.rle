@@ -1,0 +1,5 @@
+#N Cis-shillelagh
+#C A 10-cell still life similar to the long long shillelagh.
+#C http://www.conwaylife.com/wiki/index.php?title=Cis-shillelagh
+x = 6, y = 5, rule = B3/S23
+4b2o$5bo$2o2bob$o2bo2b$b2o!

@@ -1,0 +1,7 @@
+#N 35P52
+#C With a minimum population of 35 cells it is the smallest period 52
+#C oscillator.
+#C www.conwaylife.com/wiki/index.php?title=35P52
+x = 17, y = 17, rule = 23/3
+2bo14b$2b3o12b$5bo9b2o$4b2o9bob$13bobob$8b2o3b2o2b$7bo9b$6bo10b$7bobo
+7b$7bo9b2$2b2o13b$bobo13b$bo9b2o4b$2o9bo5b$12b3o2b$14bo!

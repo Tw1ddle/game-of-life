@@ -1,0 +1,6 @@
+#N Two eaters
+#O Bill Gosper
+#C A period 3 oscillator that was found in September 1971.
+#C www.conwaylife.com/wiki/index.php?title=Two_eaters
+x = 9, y = 8, rule = B3/S23
+2o7b$bo7b$bobo5b$2b2o5b$5b2o2b$5bobob$7bob$7b2o!

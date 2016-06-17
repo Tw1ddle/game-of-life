@@ -1,0 +1,6 @@
+#N Honey farm
+#C A common 24-cell still life that is made up of four beehives.
+#C http://www.conwaylife.com/wiki/index.php?title=Honey_farm
+x = 13, y = 13, rule = B3/S23
+6bo6b$5bobo5b$5bobo5b$6bo6b2$b2o7b2ob$o2bo5bo2bo$b2o7b2ob2$6bo6b$5bobo
+5b$5bobo5b$6bo!

@@ -1,0 +1,7 @@
+#N Harvester
+#O David Poyner
+#C A diagonal period 4 lightspeed fuse that was the first published example of a fuse.
+#C www.conwaylife.com/wiki/index.php?title=Harvester
+x = 18, y = 15, rule = 23/3
+16b2o$15bobo$14bo3b$13bo4b$12bo5b$11bo6b$10bo7b$9bo8b$8bo9b$7bo10b$6bo
+11b$5bo12b$5o13b$4o14b$ob2o!

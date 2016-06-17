@@ -1,0 +1,17 @@
+!Name: Unicycle
+!A period 6 oscillator made up of four copies of unix.
+!www.conwaylife.com/wiki/index.php?title=Unicycle
+..OO...OOOO
+..OO..O....O
+OO.O..O...O.O
+OOO....O...O.O
+.............O
+.............O
+.OO.......O..O
+O..O.......OO
+O
+O
+O.O...O....OOO
+.O.O...O..O.OO
+..O....O..OO
+...OOOO...OO

@@ -1,0 +1,16 @@
+#N c/5 diagonal tubstretcher
+#O Matthias Merzenich
+#C A c/5 diagonal wickstretcher
+#C http://www.conwaylife.com/wiki/index.php?title=58P5H1V1
+x = 55, y = 55, rule = b3/s23
+45b2o8b$45b2o8b$44bo2bo7b$41b2obo2bo7b$47bo7b$39b2o3bo2bo7b$39b2o5bo8b
+$40bob5o8b$41bo13b3$38b3o14b$38bo16b$36b2o17b$30b2o4bo18b$30b3o3bo18b$
+28bo4bo21b$28bo3bo22b$32bo22b$27b2obobo22b$25b2o5bo22b$25b2o4b2o22b$
+27b4o24b3$20b2o8bo24b$20b2o7b3o23b$19bo2bo5bo26b$16b2obo2bo4bobobo23b$
+22bo3bobo2bobo21b$14b2o3bo2bo2b2o5bo2bo19b$14b2o5bo4bob2o3b3o19b$15bob
+5o8bo24b$16bo12bobo4b2o3b3o11b$31bo3bo2bo2b3o11b$30b2o2bob3ob2o13b$13b
+3o17bobo4bo14b$13bo19bobo4b2ob3o9b$11b2o21b2o5b3obo9b$5b2o4bo29bobo2b
+2o7b$5b3o3bo23b3o3bob2o2bo7b$3bo4bo24b3ob4ob5o3bo4b$3bo3bo25b2o3bo2bo
+4bo2bobo3b$7bo25b2o2b5o8bobo2b$2b2obobo29bo2b2o9bobob$2o5bo29b2o2bo10b
+obo$2o4b2o31bob2o10bob$2b4o33b2o14b2$42bo12b$41bobo11b$42bobo10b$43bob
+o9b$44bobo8b$45bo!

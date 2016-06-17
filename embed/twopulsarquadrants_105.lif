@@ -1,0 +1,16 @@
+#Life 1.05
+#D Name: Two pulsar quadrants
+#D Author: David Buckingham
+#D A period 3 oscillator found in July 1973.
+#D www.conwaylife.com/wiki/index.php?title=Two_pulsar_quadrants
+#N
+#P -4 -4
+....*
+....*
+...**
+..*
+*..*..***
+*...*.*
+*....*
+.
+..***

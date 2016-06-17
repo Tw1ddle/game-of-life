@@ -1,0 +1,8 @@
+#N Bottle
+#O Achim Flammenkamp
+#C A period 8 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Bottle
+x = 18, y = 18, rule = B3/S23
+4b2o6b2o4b$3bo2bo4bo2bo3b$3bobo6bobo3b$b2o2b3o2b3o2b2ob$o6bo2bo6bo$ob
+2o10b2obo$bobo10bobob$3b2o8b2o3b3$3b2o8b2o3b$bobo10bobob$ob2o10b2obo$o
+6bo2bo6bo$b2o2b3o2b3o2b2ob$3bobo6bobo3b$3bo2bo4bo2bo3b$4b2o6b2o!

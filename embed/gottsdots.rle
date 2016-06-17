@@ -1,0 +1,8 @@
+#N Gotts dots
+#O Bill Gosper
+#C A 41-cell pattern with population exhibits growth like tln(t).
+#C www.conwaylife.com/wiki/index.php?title=Gotts_dots
+x = 187, y = 39, rule = b3/s23
+o186b$o186b$o186b9$4bo3bo178b$5bobo179b$6bo2bo177b$9bo177b$9bo177b9$
+185bob$186bo$182bo3bo$183b4o$179bo7b$180b2o5b$179bo7b$183b4o$182bo3bo$
+186bo$185bob$175bo11b$176bo10b$170bo5bo10b$171b6o!

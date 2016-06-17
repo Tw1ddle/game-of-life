@@ -1,0 +1,5 @@
+#N Beehive with nine
+#C A 12-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Beehive_with_nine
+x = 7, y = 6, rule = B3/S23
+b2o4b$o2bo3b$b2obo2b$4bo2b$4bobo$5b2o!

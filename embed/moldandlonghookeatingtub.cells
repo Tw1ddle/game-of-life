@@ -1,0 +1,17 @@
+!Name: Mold and long hook eating tub
+!The smallest known period 12 oscillator, though it is usually considered trivial because it is made up of a period 3 and a period 4 oscillator.
+!www.conwaylife.com/wiki/index.php?title=Mold_and_long_hook_eating_tub
+.O.O
+O
+.O..O
+.O.O.O
+..O..O
+...OO
+
+.OOOO
+O...O
+.O
+.O
+..O
+.O.O
+..O

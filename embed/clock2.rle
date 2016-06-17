@@ -1,0 +1,6 @@
+#N Clock 2
+#C A period 4 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Clock_2
+x = 12, y = 12, rule = B3/S23
+6b2o4b$6b2o4b2$4b4o4b$2obo4bo3b$2obo2bobo3b$3bo2bobob2o$3bobo2bob2o$4b
+4o4b2$4b2o6b$4b2o!

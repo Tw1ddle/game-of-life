@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: Mirrored dock
+#D A still life composed of two docks facing each other.
+#D http://www.conwaylife.com/wiki/index.php?title=Mirrored_dock
+#N
+#P -3 -5
+**..**
+*....*
+.****
+.
+.****
+*....*
+**..**

@@ -1,0 +1,6 @@
+#N Blinker fuse 2
+#C An orthogonal 2c/3 period 6 blinker fuse.
+#C www.conwaylife.com/wiki/index.php?title=Blinker_fuse
+x = 62, y = 5, rule = b3/s23
+ob3obo2bob2o49b$ob3ob4obobo48b$13bob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob
+3o$ob3ob4obobo48b$ob3obo2bob2o!

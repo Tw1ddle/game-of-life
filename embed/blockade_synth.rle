@@ -1,0 +1,20 @@
+#N Blockade_synth
+#O Mark D. Niemiec
+#C Glider syntheses of lumps of muck/blockade.
+#C http://home.interserv.com/~mniemiec/2gliders.htm
+x = 134, y = 96, rule = 23/3
+84bo49b$31b2o50bo27b2o21b$2bo28b2o50b3o25b2o21b$obo131b$b2o131b$32b2o
+17b2o28b2o2b2o25b2o17b2ob$3b2o27b2o17b2o27bobob2o26b2o17b2ob$4b2o76bo
+3bo47b$3bo130b$52b2o78b2o$52b2o78b2o11$31b2o45bo32b2o21b$3bobo25b2o46b
+o31b2o21b$4b2o71b3o54b$4bo129b$32b2o17b2o23bo35b2o17b2ob$9bo3bo18b2o
+17b2o23b2o34b2o17b2ob$7bobob2o62bobo56b$8b2o2b2o120b$52b2o78b2o$52b2o
+78b2o4$72b3o59b$9bobo62bo59b$9b2o62bo60b$10bo123b$2bo131b$3bo130b$b3o
+130b$31b2o78b2o21b$4bo26b2o63bo14b2o21b$4b2o84b2o3bo38b$3bobo83bobo3b
+3o36b$32b2o17b2o38bo20b2o17b2ob$32b2o17b2o43bo15b2o17b2ob$95b2o37b$95b
+obo36b$52b2o78b2o$52b2o78b2o6$98bobo33b$11bo86b2o34b$9bobo87bo34b$10b
+2o122b2$9bo21b2o78b2o21b$8bobo20b2o78b2o21b$8bobo123b$9bo124b$32b2o17b
+2o41b2o2b2o12b2o17b2ob$32b2o17b2o40bobob2o13b2o17b2ob$95bo3bo34b2$52b
+2o78b2o$52b2o78b2o6$98bo35b$98bobo33b$98b2o34b3$31b2o78b2o21b$31b2o78b
+2o21b3$32b2o17b2o41b2o2b2o12b2o17b2ob$32b2o17b2o40bobob2o13b2o17b2ob$
+9b2o2b2o80bo3bo34b$8bobob2o120b$10bo3bo37b2o78b2o$52b2o78b2o3$14b2o
+118b$14bobo117b$14bo!

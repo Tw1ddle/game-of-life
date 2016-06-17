@@ -1,0 +1,8 @@
+#N Crown
+#O Noam Elkies
+#C A period 12 oscillator found in January 1995.
+#C www.conwaylife.com/wiki/index.php?title=Crown
+x = 23, y = 14, rule = b3/s23
+16b2o5b$3b2o13bo4b$2bo12bo7b$5bo3b3o3bo3bo3b$bo3bo4bo4bo3b4o$obo2bo11b
+o5b$o2bo19b$b2o20b$6b2o8b2o5b$6bo2b6o2bo5b$7b2o6b2o6b$4b3o10b3o3b$4bo
+2bobo4bobo2bo3b$5b2o4b2o4b2o!

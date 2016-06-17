@@ -1,0 +1,11 @@
+#N Glider_synth
+#O Mark D. Niemiec
+#C Glider synthesis of a glider.
+#C http://home.interserv.com/~mniemiec/objname.htm#G
+x = 110, y = 43, rule = 23/3
+87b5o18b$87bo4bo17b$87bo22b$88bo3bo17b$90bo19b$87bo22b$86b3o21b$5bo80b
+ob2o20b$6bo2bo77b3o20b$4b3o2b2o34bobo39b3o20b$8bobo16b3o16b2o19b3o17b
+2o18b3o$27bo18bo20bo39bo2b$28bo39bo39bob$45b2o63b$44b2o64b$46bo63b15$
+46b2o62b$46bobo61b$47bo62b$42b3o65b$b2o41bo43b2o20b$obo40bo38b2o3bobo
+20b$2bo2b2o76b2obobo21b$5bo76bo4bo22b$6b3o101b$8bo101b$27b3o37b3o37b3o
+$27bo39bo39bo2b$28bo39bo39bo!

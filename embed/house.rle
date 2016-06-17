@@ -1,0 +1,5 @@
+#N House
+#C An induction coil.
+#C http://www.conwaylife.com/wiki/index.php?title=House
+x = 5, y = 3, rule = 23/3
+b3ob$o3bo$2ob2o!

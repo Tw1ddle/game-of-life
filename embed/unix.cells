@@ -1,0 +1,12 @@
+!Name: Unix
+!Author: David Buckingham
+!A period 6 oscillator that consists of two blocks eating a barge.
+!http://www.conwaylife.com/wiki/index.php?title=Unix
+.OO
+.OO
+
+.O
+O.O
+O..O..OO
+....O.OO
+..OO

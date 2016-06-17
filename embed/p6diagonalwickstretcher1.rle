@@ -1,0 +1,18 @@
+#N p6 diagonal wickstretcher 1
+#O Paul Tooke, Jason Summers and Matthias Merzenich 
+#C The first known p6 diagonal wickstretcher; partially constructed in September 2004 and finished in January 2013
+x = 61, y = 61, rule = B3/S23
+38b2o$37b2o$39bo$41b2o$40bo$32b2o$32bo2b2o2bo2bo$32bob3o2bo$33bo4bo2bo
+$27bo5bo6bo$26b2o5bo2bo$26bobo$33bo$23bo5bob3obo$22b2o4b2o3bo23b2o$22b
+obo2b2o2bobobo5b4o11b4o$26bo6bobo4bo4bo9bo2bobo$25b2ob2o10bo3bobo7bobo
+2b2o$26bo14bo3bobo5bobo$47bo4b2o$26bo20bo4b3o$24b2o18bo2bo5bobo$14b2o
+7bobo19b2o7b2o$13b2o7bo27bo$15bo5bo2b2obo21b3o$17bo3b2obo3bo20b3o$10b
+2o4b3obo28b3o$9b2o4bo8bo2b2obo10b2o6b3o$11bo2b2obo7bobo3bo8b4o6bo$13b
+2o2bo21bobo2bo$27bo2b2obo5b2o2bobo$13bobo12bobo3bo9bobo2b2o$5b3o5bo32b
+2o2b2o$5bo2b3ob5o13bo2b2obo8b3ob3o$7bo23bobo3bo6bobo2b3o$6b2o5bob2o27b
+2o3b3o$6b2o2bo22bo2b2obo10bo$bo32bobo3bo$2o6bo$obo3b2o21b2o5bo2b2obo$
+4bo4bo6b2o10bobo6bobo3bo3b5o$3bo4bo6bo2bo8b3o$3bo2bo8bo11b2o10bo2b2ob
+2ob2o$15bo12bobo9bobo5bo$15bobo3bo7bobo2b2o10bo$16bobo3bo7bo2bobo6bo2b
+o$17bo4bo8b4o7bobo$18b4o10b2o6bo$40bob2o$24b4o3bob3o4bobo$23b6o2b6o3bo
+$24b4o4b4o4bo$19b2o$18b4o$17bo2bobo$16bobo2b2o$15bobo$14b2o$14b3o$15bo
+bo$16b2o!

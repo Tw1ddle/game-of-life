@@ -1,0 +1,8 @@
+#N B29withgliders.rle
+#C http://www.conwaylife.com/wiki/B29
+x = 55, y = 16, rule = B3/S23
+3b2o18b2o19b2o$2b2o18b2o19b2o$4bo19bo20bo$6b2o18b2o19b2o$5bo19bo20bo2$
+4bo2bo16bo2bo17bo2bo$b2obo16b2obo17b2obo$2o4bo13b2o4bo14b2o4bo$2bobo2b
+o14bobo2bo15bobo2bo$7bo19bo20bo$4bo2bo16bo2bo17bo2bo$5bobo3b2o12bobo2b
+3o13bobo$5bobo2b2o13bobo2bo15bobo4bo$6b2o4bo13b2o3bo15b2o3b2o$6bo19bo
+20bo4bobo!

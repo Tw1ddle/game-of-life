@@ -1,0 +1,7 @@
+#N 60P33
+#C A reduced stabilization of Jason Summers' period-33 engine
+#C www.conwaylife.com/wiki/60P33
+x = 30, y = 24, rule = B3/S23
+bo4b2o$obo2bobo$bo4bo5$12b2o$8b2obo2bo$7bobo5b5o$7bo3bo5bo2bo$7bo3b2o
+8bo$8bo8b2o3bo$9bo2bo5bo3bo$10b5o5bobo$15bo2bob2o$16b2o5$23bo4bo$22bob
+o2bobo$22b2o4bo!

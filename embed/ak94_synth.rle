@@ -1,0 +1,20 @@
+#N AK-94 synthesis
+#O Martin Grant
+#C 60-glider synthesis of AK-94, finished in July 2013.
+#C www.conwaylife.com/wiki/AK-94
+x = 186, y = 207, rule = B3/S23
+6bo$7b2o$6b2o$185bo$183b2o$184b2o4$184bo$182b2o$183b2o6$157bo$156bo$
+156b3o$162bobo$162b2o$163bo4$176bo$174b2o$169bo5b2o$168bo$168b3o$148bo
+bo12bo$148b2o13bobo$149bo13b2o$158bo$59bo98bobo$60bo97b2o$58b3o$33bo$
+34b2o117bo$33b2o116b2o$152b2o$62bo$63bo$61b3o3$58bobo95bo$59b2o9bo84bo
+$59bo11bo83b3o$69b3o2$150bobo$150b2o$151bo2$156bo$154b2o$70bo84b2o$71b
+o$69b3o29$106bobo$48bobo55b2o$49b2o56bo$49bo6$85bo$84bo$77bobo4b3o$78b
+2o$62bo15bo$63b2o23bobo$62b2o24b2o$76bo12bo$76bobo7bo$76b2o6b2o$85b2o$
+74b2o$73b2o$66b2o7bo$65bobo$67bo3$70b3o$72bo$71bo$74b2o$65b2o6b2o$66b
+2o7bo8b3o$65bo18bo$85bo2$82b2o$81b2o$83bo$69b2o$68bobo$70bo$63bo$63b2o
+20b2o$62bobo19b2o$57b2o27bo$58b2o$51b2o4bo$50bobo$52bo$58b3o$60bo6b2o$
+59bo8b2o$55b2o10bo$54bobo101b3o$56bo101bo$143b2o14bo$59bo83bobo$59b2o
+82bo$58bobo12$177b2o$177bobo$177bo6$164b3o$164bo$159b2o4bo$150b3o5b2o$
+150bo9bo$151bo2$21bo$21b2o$20bobo3$174b3o$174bo$175bo5$22bo$22b2o$16b
+3o2bobo$18bo$17bo144bo$22b2o137b2o$21bobo137bobo$23bo160bo$183b2o$183b
+obo$166bo$165b2o$165bobo2$2o$b2o$o$174b2o$173b2o$175bo!

@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Swan
+#D Author: Tim Coe
+#D A diagonal spaceship that produces some useful sparks.
+#D http://www.conwaylife.com/wiki/index.php?title=Swan
+#N
+#P -12 -6
+.*..........**
+*****......**
+*..**........*.......**
+..**.*.....**......***.*
+...........**...*.**
+.....*.*......**
+..........***.*....*
+.......***...*....*
+........*.......*
+........*......*
+.
+...........*

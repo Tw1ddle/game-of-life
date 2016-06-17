@@ -1,0 +1,9 @@
+#N 54P17.1
+#O Dean Hickerson
+#C The first period 17 oscillator to be found. Discovered on April 27,
+#C 1997.
+#C www.conwaylife.com/wiki/index.php?title=54P17.1
+x = 15, y = 13, rule = b3/s23
+5bo9b$4bobo8b$4bobo3b2o3b$b2obob2o3bo3b$2bobo6bob2o$o2bobob3obo2bo$2ob
+obo4bobo2b$3bobo2b2o2b2ob$3bobo3bobo3b$4b2obobobo3b$6bobobo4b$6bobo6b$
+7b2o!

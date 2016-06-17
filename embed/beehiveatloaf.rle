@@ -1,0 +1,5 @@
+#N Beehive at loaf
+#C A 13-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Beehive_at_loaf
+x = 6, y = 7, rule = B3/S23
+4bob$3bobo$3bobo$b2obob$o2bo2b$obo3b$bo!

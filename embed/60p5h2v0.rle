@@ -1,0 +1,8 @@
+#N 60P5H2V0
+#O Tim Coe
+#C A period 5 2c/5 orthogonal spaceship found in 1996.
+#C www.conwaylife.com/wiki/index.php?title=60P5H2V0
+x = 19, y = 11, rule = b3/s23
+5bo7bo5b$3b2ob2o3b2ob2o3b$6b2o3b2o6b$8bobo8b$bo4bobobobo4bob$3o5bobo5b
+3o$o5bobobobo5bo$2bo2bo2bobo2bo2bo2b$2b2o3b2ob2o3b2o2b$o7bobo7bo$o6b2o
+b2o6bo!

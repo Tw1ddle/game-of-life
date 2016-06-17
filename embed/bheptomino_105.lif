@@ -1,0 +1,10 @@
+#Life 1.05
+#D Name: B-heptomino
+#D A very common methuselah that often arises with the cell at top left shifted 
+#D one space to the left, which does not affect the subsequent evolution.
+#D www.conwaylife.com/wiki/index.php?title=B-heptomino
+#N
+#P -2 -1
+*.**
+***
+.*

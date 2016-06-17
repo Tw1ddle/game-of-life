@@ -1,0 +1,11 @@
+#Life 1.05
+#D Name: Herschel
+#D A heptomino shaped like the lowercase letter h, which occurs at generation 20
+#D  of the B-heptomino.
+#D www.conwaylife.com/wiki/index.php?title=Herschel
+#N
+#P -1 -2
+*
+***
+*.*
+..*

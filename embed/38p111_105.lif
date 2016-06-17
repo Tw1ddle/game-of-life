@@ -1,0 +1,20 @@
+#Life 1.05
+#D Name: 38P11.1
+#D Author: David Buckingham
+#D The first period 11 oscillator to be found, and still the smallest known. Fou
+#D nd on June 20, 1977.
+#D www.conwaylife.com/wiki/index.php?title=38P11.1
+#N
+#P -6 -6
+..**.**
+...*.*.*
+...*....*
+**.*.....*
+**.*......*
+...*.*.....*
+...*.**...**
+....*
+.....*******
+...........*
+.......**
+.......**

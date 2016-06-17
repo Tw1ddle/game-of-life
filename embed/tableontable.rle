@@ -1,0 +1,5 @@
+#N Table on table
+#C A 12-cell still life made up of two tables.
+#C http://www.conwaylife.com/wiki/index.php?title=Table_on_table
+x = 4, y = 5, rule = B3/S23
+o2bo$4o2$4o$o2bo!

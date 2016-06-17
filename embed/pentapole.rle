@@ -1,0 +1,5 @@
+#N Pentapole
+#C The barberpole of length 5 and thus a period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Pentapole
+x = 8, y = 8, rule = B3/S23
+2o6b$obo5b2$2bobo3b2$4bobob$7bo$6b2o!

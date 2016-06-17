@@ -1,0 +1,5 @@
+#N 2x2 3-cell still lifes
+#C All 3-cell still lifes in the 2x2 (125/36) rule.
+#C www.conwaylife.com/wiki/index.php?title=2x2
+x = 3, y = 3, rule = 125/36
+o2b$bob$2bo!

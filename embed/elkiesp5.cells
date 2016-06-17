@@ -1,0 +1,12 @@
+!Name: Elkies' p5
+!Author: Noam Elkies
+!A period 5 oscillator found in 1997.
+!www.conwaylife.com/wiki/index.php?title=Elkies'_p5
+.O
+O..OOO
+..O
+...O.O..O
+..OO.OOOO
+....O
+....O.O
+.....OO

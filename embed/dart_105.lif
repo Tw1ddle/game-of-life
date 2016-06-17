@@ -1,0 +1,17 @@
+#Life 1.05
+#D Name: Dart
+#D Author: David Bell
+#D A period 3 spaceship with speed c/3 that was found in May 1992.
+#D www.conwaylife.com/wiki/index.php?title=Dart
+#N
+#P -7 -13
+.......*
+......*.*
+.....*...*
+......***
+.
+....**...**
+..*...*.*...*
+.**...*.*...**
+*.....*.*.....*
+.*.**.*.*.**.*

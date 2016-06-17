@@ -1,0 +1,6 @@
+#N HWSS blinker fuse
+#C A c/2 orthogonal period 8 blinker fuse.
+#C www.conwaylife.com/wiki/index.php?title=Blinker_fuse
+x = 28, y = 9, rule = b3/s23
+b6o21b$o5bo21b$6bo21b$o4bo22b$2b2o24b2$3bo3bo3bo3bo3bo3bo3bo$3bo3bo3bo
+3bo3bo3bo3bo$3bo3bo3bo3bo3bo3bo3bo!

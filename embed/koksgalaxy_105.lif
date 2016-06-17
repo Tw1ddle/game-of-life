@@ -1,0 +1,16 @@
+#Life 1.05
+#D Name: Kok's galaxy
+#D Author: Jan Kok
+#D A period 8 oscillator that was found in 1971.
+#D www.conwaylife.com/wiki/index.php?title=Kok's_galaxy
+#N
+#P -28 -18
+..*..*.*
+**.*.***
+.*......*
+**.....*
+.
+.*.....**
+*......*
+.***.*.**
+.*.*..*

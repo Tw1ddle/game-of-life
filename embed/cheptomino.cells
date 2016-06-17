@@ -1,0 +1,6 @@
+!Name: C-heptomino
+!A methuselah with lifespan 148 that evolves in the same way as the B-heptomino after its second generation.
+!http://www.conwaylife.com/wiki/index.php?title=C-heptomino
+.OOO
+OOO
+.O

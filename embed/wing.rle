@@ -1,0 +1,5 @@
+#N Wing
+#C An induction coil.
+#C www.conwaylife.com/wiki/index.php?title=Wing
+x = 4, y = 4, rule = 23/3
+b2ob$o2bo$bobo$2b2o!

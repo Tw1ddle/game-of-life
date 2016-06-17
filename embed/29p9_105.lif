@@ -1,0 +1,17 @@
+#Life 1.05
+#D Name: 29P9
+#D Author: Dean Hickerson
+#D The smallest known period 9 oscillator
+#D www.conwaylife.com/wiki/index.php?title=29P9
+#N
+#P -5 -5
+.**
+..*
+..*.**
+.**.*.*
+.......*
+.....***
+**......**
+*..*.**.*
+..**.*..*
+......**

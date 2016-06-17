@@ -1,0 +1,12 @@
+#N Fore and back_synth
+#O Mark D. Niemiec
+#C Glider synthesis of Fore and back.
+#C http://www.conwaylife.com/wiki/Fore_and_back
+x = 103, y = 37, rule=B3/S23
+71bo$71bobo$71boo$66bo$59bo4bobo$60bo4boo$58b3o$71bo$69boo$70boo$$5bo
+26bo29bo$4bo26bobo27bobo$boob3o23bobbo21bo4bobbo$obo28boo20bobo5boo$bb
+o51boo11bo3bobo6bo15booboo$66bo4boo5boo16boobobo$66b3o3bo6boo18bobbo$
+96boo3boo$58boo6bo3b3o23bobbo$59boo5boo4bo24boboboo$16bo41bo6bobo3bo
+11boo13booboo$16bobo27boo28boo5bobo$12b3oboo27bobbo26bobbo4bo$14bo30bo
+bo27bobo$13bo32bo29bo$$67boo$68boo$67bo$78b3o$72boo4bo$72bobo4bo$72bo$
+66boo$65bobo$67bo!

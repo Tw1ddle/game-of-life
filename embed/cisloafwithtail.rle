@@ -1,0 +1,5 @@
+#N Cis-loaf with tail
+#C An 11-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Cis-loaf_with_tail
+x = 6, y = 5, rule = B3/S23
+3b2ob$2bo2bo$bobobo$bo2bob$2o!

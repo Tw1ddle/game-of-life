@@ -1,0 +1,22 @@
+!Name: Hebdarole
+!Author: Noam Elkies
+!A period 7 oscillator found in November 1997.
+!www.conwaylife.com/wiki/index.php?title=Hebdarole
+....OO...O....O...OO
+.O..O..O..O..O..O..O..O
+O.O.O.OO.O....O.OO.O.O.O
+.O..O..O.O.OO.O.O..O..O
+....OO...OO..OO...OO
+........O......O
+.......O........O
+......O..........O
+.......OO......OO
+
+...OO..OO......OO..OO
+...O..O..........O..O
+....O.O...O..O...O.O
+...OO.O.O.OOOO.O.O.OO
+.......OO......OO
+.........OO..OO
+.........O..O.O
+..........OO

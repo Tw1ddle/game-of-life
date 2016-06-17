@@ -1,0 +1,5 @@
+#N Block on boat
+#C A 9-cell pseudo still life.
+#C www.conwaylife.com/wiki/index.php?title=Block_on_boat
+x = 6, y = 3, rule = 23/3
+2ob2ob$2obobo$4bo!

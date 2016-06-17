@@ -1,0 +1,8 @@
+#N 60P5H2V0 eater
+#C Two eater 2s used to eat a 60P5H2V0.
+#C www.conwaylife.com/wiki/index.php?title=60P5H2V0
+x = 33, y = 26, rule = b3/s23
+4bo23bo4b$3bobo21bobo3b$3bobo21bobo3b$b3ob2o19b2ob3ob$o31bo$b3ob2o19b
+2ob3ob$3bob2o19b2obo3b9$12bo7bo12b$10b2ob2o3b2ob2o10b$13b2o3b2o13b$15b
+obo15b$8bo4bobobobo4bo8b$7b3o5bobo5b3o7b$7bo5bobobobo5bo7b$9bo2bo2bobo
+2bo2bo9b$9b2o3b2ob2o3b2o9b$7bo7bobo7bo7b$7bo6b2ob2o6bo!

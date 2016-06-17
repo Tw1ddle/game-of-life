@@ -1,0 +1,24 @@
+#N Sawtooth 562
+#O Dean Hickerson and Tim Coe
+#C An orthogonal sawtooth with expansion factor 6. It was found on August 14, 1992.
+#C www.conwaylife.com/wiki/index.php?title=Sawtooth_562
+x = 114, y = 74, rule = B3/S23
+50b2o21bo40b$51bo19bobo40b$51bobo8bo2b2o3bobo41b$52b2o7b2o2bo3bo2bo14b
+2o25b$60b2o8bobo14bobo24b$47bo11b3o9bobo16bo11bobo9b$45bobo12b2o11bo
+13bo2bo10bo2bo9b$35b2o6b2o16b2o27bo9b2o12b$34bo8b2o17bo24bobo8b2o3bo9b
+o$33bo5bo3b2o42b2o11b2o10b2o$23bo9bo5b2o4bobo7b2o44bo2bo9b$23b2o8bo6bo
+6bo7bobo44bobo9b$34bo22bo56b$35b2o20b2o55b8$29bobo82b$29bo2bo81b$20b2o
+10b2o11b2o67b$20bo9bo3b2o8bobo67b$32b2o9bo70b$29bo2bo10bo2bo67b$29bobo
+11bo70b$44bobo5b2o60b$2o23bo19b2o5bobo59b$bo23bobo26bo59b$bobo4b2o18b
+2o4b2o18b2o58b$2b2o6bo17b2o5bo78b$11bo16b2o84b$11bo13bobo86b$11bo13bo
+88b$10bo103b$8b2o54bo49b$3b2o56bo3b2o47b$3bo56b2o2bo49b$60b2o52b$61bo
+52b$61b2o51b$61bo52b$62bo51b$34b2o2b3o2b2o11b2o4b3o49b$34bo2b5o2bo10bo
+bo3bo52b$2obob2o28b9o11bo4b2o3bo48b$o5bo25b3o9b3o7b2o4b2o52b$bo3bo26bo
+2bo7bo2bo14bob2o49b$2b3o3bo24b2o9b2o14b2ob2o49b$8b2o40b2o7bo3bo50b$7bo
+bo40bo10bobob2o47b$43bo4bobo10bo3bo48b$32bo9bobo3b2o15bo48b$26bobo2b2o
+9b2obo16bobo49b$25bo2bo2bobo8b2ob2o14bo52b$24b2o16b2obo14b3o51b$5bo16b
+2o3bo14bobo69b$5bo18b2o17bo18bo51b$4bobo11b2o5bo2bo33bo2bo48b$3b2ob2o
+9bobo6bobo31b2o2b2o48b$2bo5bo8bo21bo25bo48b$5bo10b2o20b2o74b$2b2o3b2o
+18b2o8b2o4b2o5bo63b$27bo8b3o4b2o3bobo29bo33b$37b2o4b2o2bobo30bobo31b$
+38b2o6bo2bo16b2o15b2o4b2o23b$39bo7bobo16bo16b2o5bo23b$48bobo12b2o18b2o
+29b$50bo11b3o15bobo31b$63b2o15bo33b$6bo59bo47b$5b2o59b2o!

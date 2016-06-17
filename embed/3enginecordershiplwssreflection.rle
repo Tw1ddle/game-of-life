@@ -1,0 +1,15 @@
+#N 3-engine Cordership LWSS reflection
+#O David Bell
+#C A 3-engine Cordership reflecting a lightweight spaceship by 90 degr
+#C ees.
+#C www.conwaylife.com/wiki/index.php?title=3-engine_Cordership
+x = 63, y = 68, rule = b3/s23
+36b3o24b$37bo25b$37bo2bo22b$37bo2bo22b$38bobo22b$53b2o8b$53b2o8b3$37bo
+25b$36bobo24b$37bo25b$54bo8b$53bo7b2o$35b4o22b2o$35b2o3bo10bo11b$36bo
+4bo9bobo9b$38bob2o10bo10b$39bo23b3$47bobob2o10b$30bo16bobo13b$29b3o17b
+o2bo10b$48bo3bo10b$29b3o16b4o2b2o7b$30b2ob2o14bo5b2o6b$32bo21bo8b3$6b
+3o54b$7bo55b$7bo2bo52b$7bo2bo52b$8bobo52b$23b2o38b$23b2o38b$29bo33b$
+28b3o32b$7bo19b2ob2o31b$6bobo18bobo33b$7bo19bo35b3$5b4o54b$5b2o3bo13bo
+38b$6bo4bo11bobo37b$8bob2o11bo39b$9bo15b2o36b$26bo36b$23b3o37b$24b2o
+37b$21bo41b$21b2o40b$21b2o40b$11b2o6b2o42b$11b2o4b2o44b$17b2obo42b$19b
+2o42b5$19b2o42b$b2o16b2o42b$4o59b$2ob2o58b$2b2o!

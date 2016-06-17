@@ -1,0 +1,5 @@
+#N Snake siamese snake
+#C A 10-cell still life composed of two snakes.
+#C http://www.conwaylife.com/wiki/index.php?title=Snake_siamese_snake
+x = 7, y = 2, rule = B3/S23
+2ob2obo$ob2ob2o!

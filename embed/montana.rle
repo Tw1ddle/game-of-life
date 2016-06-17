@@ -1,0 +1,7 @@
+#N Montana
+#O Scot Ellison
+#C A period 5 oscillator found in June 2011.
+#C http://www.conwaylife.com/wiki/Montana
+x = 12, y = 10, rule = b3/s23
+9b2ob$8bo2bo$bo7bobo$o3bob2ob2ob$bobobob2o3b$3bo2bo2b2ob$6bobo2bo$4bob
+obobob$3bobo3bo2b$3b2o!

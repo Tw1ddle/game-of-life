@@ -1,0 +1,5 @@
+#N HighLife 4-cell still lifes
+#C Both 4-cell still lifes in the HighLife (23/36) rule.
+#C www.conwaylife.com/wiki/index.php?title=HighLife
+x = 9, y = 3, rule = b36/s23
+2o5bob$2o4bobo$7bo!

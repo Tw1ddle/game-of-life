@@ -1,0 +1,24 @@
+#Life 1.05
+#D Name: Jam on 34P13.1
+#D The smallest known period 39 oscillator as of April 2009, though it is usuall
+#D y considered trivial because there is no individual cell that oscillates at t
+#D he full period.
+#D www.conwaylife.com/wiki/index.php?title=Jam_on_34P13.1
+#N
+#P -10 -8
+.........***....**
+..................*
+.........*.....*
+........**.....*...*
+..........*....*..*.*
+.......*.........*..*
+.......*...*......**
+.....**
+...*.....***..**
+*.**....*.....**
+*...*...*
+*.....*.*
+.
+.
+........**
+........**

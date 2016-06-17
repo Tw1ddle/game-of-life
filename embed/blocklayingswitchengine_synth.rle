@@ -1,0 +1,14 @@
+#N Block-laying switch engine_synth
+#O Mark D. Niemiec
+#C Glider synthesis for a block-laying switch engine.
+#C http://home.interserv.com/~mniemiec/objname.htm#B
+x = 141, y = 85, rule = 23/3
+58bo82b$58bobo80b$58b2o81b13$138bo2b$137bobob2$136bo2bob$136b2o3b$136b
+o4b$121b2o18b$121b2o18b3$138b2ob$137bo3b$58b3o76b2o2b$58bo62bo15b3ob$
+59bo53b2o5b2o16b2ob$31b2o80b2o5b2o14bob3o$32b2o87bobo11bo3bob$31bo89b
+2o11bo2bo3b$120bo14b3o3b$56b2o61bo2bo12b2o4b$55b2o62bo21b$57bo62b3o18b
+$105b2o34b$105b2o17bo16b$124bobo14b$124bo16b$125bobo5b2o6b$127bo5b2o6b
+$108b2o15bobo13b$108b2o15b2o14b3$112b2o27b$112b2o27b$125b2o14b$125b2o
+14b3$89b2o50b$89b2o50b3$b2o114b2o22b$obo96b2o16b2o22b$2bo96b2o40b3$
+103b2o36b$103b2o36b2$109b2o30b$109b2o30b11$79b2o60b$78bo2bo59b$79b2o8b
+2o50b$89b2o50b$84bo56b$83bobo55b$83bobo55b$84bo!

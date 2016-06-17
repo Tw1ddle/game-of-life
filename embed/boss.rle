@@ -1,0 +1,7 @@
+#N Boss
+#O David Buckingham
+#C A period 4 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Boss
+x = 11, y = 14, rule = B3/S23
+5bo5b$4bobo4b$4bobo4b$3b2ob2o3b$2bo5bo2b$bobobobobob$bobo3bobob$2obo3b
+ob2o$o2bobobo2bo$2bo5bo2b$3b2ob2o3b$4bobo4b$4bobo4b$5bo!

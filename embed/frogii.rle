@@ -1,0 +1,7 @@
+#N Frog II
+#O David Buckingham
+#C A period 3 oscillator found in October 1972.
+#C www.conwaylife.com/wiki/index.php?title=Frog_II
+x = 11, y = 13, rule = B3/S23
+2b2o3b2o2b$2bobobobo2b$4bobo4b$3bobobo3b$3b2ob2o3b$b2o5b2ob$o2bobobo2b
+o$bobo3bobob$2obo3bob2o$4b3o4b2$3bob2o4b$3b2obo!

@@ -1,0 +1,16 @@
+#N Dragon flotillae
+#C Flotillae involving the c/6 orthogonal period 6 dragon.
+#C www.conwaylife.com/wiki/index.php?title=Dragon
+x = 62, y = 30, rule = b3/s23
+28b3o4b3o24b$4b3o4b3o14b3o4b3o10b3o4b3o4b$4b3o4b3o34b3o4b3o4b3$27b5o2b
+5o23b$3b5o2b5o16bo2bo12b5o2b5o3b$7bo2bo18bo2b2o2bo14bo2bo7b$5bo2b2o2bo
+15b2o6b2o11bo2b2o2bo5b$4b2o6b2o13bo10bo9b2o6b2o4b$3bo10bo11bo12bo7bo
+10bo3b$2bo12bo30bo12bo2b$24b3o12b3o20b$3o12b3o3bo3b3o10b3o3b3o12b3o$b
+3o10b3o3b2o5bo10bo6b3o10b3ob$3bo10bo5b2o5b3o6b3o8bo10bo3b$3b3o6b3o5bo
+9bo4bo11b3o6b3o3b$6bo4bo16bo8bo12bo4bo6b$4bo8bo13bo2bo4bo2bo9bo8bo4b$
+3bo2bo4bo2bo11bo2bo6bo2bo7bo2bo4bo2bo3b$2bo2bo6bo2bo16b2o8b2o2bo2bo6bo
+2bo2b$8b2o16bo2bobo2bobo2bobo10b2o8b$2bo2bobo2bobo2bo16b2o10bobo2bobo
+2bobo2bo2b$8b2o17b3o6b3o3b2o8b2o8b$3b3o6b3o13bo8bo9b3o6b3o3b$4bo8bo14b
+o8bo10bo8bo4b$4bo8bo12bo3bo4bo3bo8bo8bo4b$2bo3bo4bo3bo10bo3bo4bo3bo6bo
+3bo4bo3bo2b$2bo3bo4bo3bo9bo2bo2bo2bo2bo2bo5bo3bo4bo3bo2b$bo2bo2bo2bo2b
+o2bo28bo2bo2bo2bo2bo2bo!

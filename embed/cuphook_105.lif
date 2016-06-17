@@ -1,0 +1,15 @@
+#Life 1.05
+#D Name: Cuphook
+#D Author: Rich Schroeppel
+#D A period 3 oscillator with 3 cells in its rotor. Found in October 1970.
+#D www.conwaylife.com/wiki/index.php?title=Cuphook
+#N
+#P -4 -4
+....**
+**.*.*
+**.*
+...*
+...*..*
+....**.*
+.......*
+.......**

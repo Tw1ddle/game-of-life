@@ -1,0 +1,4 @@
+#N 4 boats
+#C A period 2 oscillator made up of 4 boats.
+x = 8, y = 8, rule = B3/S23
+3bo4b$2bobo3b$bob2o3b$obo2b2ob$b2o2bobo$3b2obob$3bobo2b$4bo!

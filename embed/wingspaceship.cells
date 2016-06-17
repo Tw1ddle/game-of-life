@@ -1,0 +1,27 @@
+!Name: Wing (spaceship)
+!Author: Hartmut holzwart
+!The first extensible c/4 spaceship. Found in 1993.
+!www.conwaylife.com/wiki/index.php?title=Wing_(spaceship)
+....OO
+....O.O
+....O
+.......O
+OOO....O.O
+O......O..O...OOO
+.O.......OO..O..OO
+...OOO.......O.....OO
+.............OO....OOO
+....O.O...OOO.........O
+.....OO..O..O......O..O
+.........O.........O
+.........OO........O.O
+......OOO
+.....O..O
+.....O
+.....OO
+......O
+
+.......OO.OOO
+.......OO
+........O...O
+.........OO

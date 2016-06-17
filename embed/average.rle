@@ -1,0 +1,7 @@
+#N aVerage
+#O David Buckingham
+#C A period 5 oscillator in which the average number of live rotor cells is five (V), which is also the period.
+#C www.conwaylife.com/wiki/index.php?title=AVerage
+x = 13, y = 11, rule = B3/S23
+3b2o8b$4b3o6b$2bo4bo5b$bob4obo4b$bobo4bo2bob$2ob3o2bobobo$bobo4bo2bob$
+bob4obo4b$2bo4bo5b$4b3o6b$3b2o!

@@ -1,0 +1,5 @@
+#N Cis-beacon and anvil
+#C A period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Cis-beacon_and_anvil
+x = 7, y = 9, rule = b3/s23
+3b2o2b$4bo2b$bo5b$b2o4b2$b4o2b$o4bob$b3obob$3bob2o!

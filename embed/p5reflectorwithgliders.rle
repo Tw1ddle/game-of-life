@@ -1,0 +1,10 @@
+#N P5 reflector with gliders
+#C A period 5 reflector (oscillator) reflecting gliders.
+#C www.conwaylife.com/wiki/P5_reflector
+x = 29, y = 25, rule = b3/s23
+21bo7b$8b2o6b2o2bo8b$5bo2bobo4b2o3b3o6b$4bobobobo6bo11b$3bobobo2b2o17b
+$3bobobobo2bo16b$2ob2ob2obob3o8b2o5b$obo10bo4b2o2b2o5b$2bob2obobo3bo3b
+obo9b$2bo2bo7bo4bo10b$3bo3bobo3bo11b2o2b$4b3ob2ob2o6bobo2bo2bob$6bo4bo
+9b4o4b$7b3obo11b3o3b$10bob2o2b2obo7bob$9bo2bo3bobo7bobo$9b2o2b3ob2o8b
+2o$18bo10b$13b2o14b$12bo2bobobo9b$12b2ob3ob3o7b$13bobo2bo3bo6b$13bob2o
+bo2b2o6b$14bo2bo11b$15b2o!

@@ -1,0 +1,7 @@
+#N Pre-block_synth
+#C Glider syntheses of the pre-block
+#C http://www.conwaylife.com/wiki/index.php?title=Pre-block
+x = 67, y = 34, rule = b3/s23
+50b2o15b$5bo44bobo14b$3bobo20bo19bo3bo15bo$4b2o19b2o20b2o16b2o$b2o43b
+2o19b$obo64b$2bo64b22$38bobo4bobo19b$39b2o4b2o20b$9bobo27bo6bo2b2o16b$
+5b2o2b2o31b3o4bobo15b$5bobo2bo15bo17bo4bo16bo$5bo19b2o16bo21b2o!

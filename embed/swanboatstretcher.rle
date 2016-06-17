@@ -1,0 +1,8 @@
+#N Swan boatstretcher
+#O Noam Elkies
+#C A boatstretcher based on Tim Coe's swan, found on February 20, 1996
+#C http://www.conwaylife.com/wiki/index.php?title=Swan
+x = 24, y = 15, rule = b3/s23
+12b2o10b$3o9bobo9b$o2b3o6bo9bob$bobo16b2obo$6bo4b2o2bo3b2o2bo$4bo6b2o
+2bob2o2bo2b$6bob2obo3b5o4b$15b2o7b$7bo2b6o8b$8b7o9b$10b3o11b2$13bo10b$
+12bobo9b$13b2o!

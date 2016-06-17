@@ -1,0 +1,29 @@
+#N Jagged lines
+#O Dean Hickerson, 5/3/2005
+#C Jagged lines of gliders, formed by a drifting collision of two LWSS
+#C streams, crash to form an approximately vertical jagged line of pairs
+#C of blocks.  I don't know if the line stays within a bounded distance
+#C of the center line, or extends infinitely far to the left, or to the
+#C right, or both.
+#C http://www.conwaylife.com/wiki/Jagged_lines
+x = 125, y = 67, rule = B3/S23
+42bo13bo11bo13bo$41b3o11b3o9b3o11b3o$40b2obo5bo4b2obo9bob2o4bo5bob2o$
+40b3o5b3o3b3o11b3o3b3o5b3o$41b2o4bo2b2o3b2o11b2o3b2o2bo4b2o$47bo3bo21b
+o3bo$48b2obo21bob2o$50b2o21b2o2$55b3o9b3o$33b3o5b3o11bo2bo7bo2bo11b3o
+5b3o$32b5o3bo2bo11bo13bo11bo2bo3b5o$31b2ob3o6bo11bo13bo11bo6b3ob2o$4o
+5b2o21b2o9bo12bo11bo12bo9b2o21b2o5b4o$o3bo3b2ob2o30bo6bo23bo6bo30b2ob
+2o3bo3bo$o8b4o29bo5b2obo21bob2o5bo29b4o8bo$bo8b2o36bo2bo21bo2bo36b2o8b
+o2$13bo30b2o5bo21bo37bo$3b2o8b2o12bo17bo4bobo19bobo22bo12b2o8b2o$2bo2b
+o9bo12b2o19bo25bo19b2o12bo9bo2bo$2bo2bo4b5o12b2o67b2o12b5o4bo2bo$2b2ob
+2o3b4o97b4o3b2ob2o$4b2o4bo103bo4b2o3$11b3o97b3o$4o6b5o95b5o6b4o$o3bo4b
+2ob3o95b3ob2o4bo3bo$o9b2o25b2o47b2o25b2o9bo$bo34b4o45b4o34bo$19b2o14b
+2ob2o45b2ob2o14b2o$18b4o14b2o19b3o5b3o19b2o14b4o$17b2ob2o34bo2bo5bo2bo
+34b2ob2o$18b2o39bo5bo39b2o$59bo5bo$59bo5bo$23bo34bo7bo34bo$21b4o75b4o$
+20bob5o71b5obo$19b2o6bo27b2o11b2o27bo6b2o$20b3obo3bo25b2ob3o5b3ob2o25b
+o3bob3o$21b3o3bo27b5o5b5o27bo3b3o$26bo29b3o7b3o29bo2$19b2o20b3o37b3o
+20b2o$18b4o4b4o11bo41bo11b4o4b4o$17b2ob2o4bo3bo11bo39bo11bo3bo4b2ob2o$
+2b4o5b2o5b2o6bo71bo6b2o5b2o5b4o$2bo3bo3b2ob2o12bo69bo12b2ob2o3bo3bo$2b
+o8b4o21b3o47b3o21b4o8bo$3bo8b2o22bo51bo22b2o8bo$37bo49bo2$5bo6bo99bo6b
+o$4bo7b2o17b3o57b3o17b2o7bo$4bo6b2o18bo61bo18b2o6bo$4b2o4b2o20bo59bo
+20b2o4b2o$6bo111bo$8b2o105b2o$26b3o67b3o$26bo71bo$2b4o21bo69bo21b4o$2b
+o3bo13bo83bo13bo3bo$2bo16bo85bo16bo$3bo15bo3bo77bo3bo15bo$19b4o79b4o!

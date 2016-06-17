@@ -1,0 +1,7 @@
+#N 37P7.1
+#O Scot Ellison
+#C A small period 7 sparker discovered in October, 2005
+#C www.conwaylife.com/wiki/index.php?title=37P7.1
+x = 12, y = 10, rule = b3/s23
+4b2o6b$2o3bo6b$bo3bobo4b$bob2obobob2o$2bobobob2obo$4bo7b$2bo5b3ob$o9bo
+b$o3b4obo2b$bo5b2o!

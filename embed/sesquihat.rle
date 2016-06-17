@@ -1,0 +1,5 @@
+#N Sesquihat
+#C A 13-cell still life that is roughly halfway between a hat and twin hat.
+#C http://www.conwaylife.com/wiki/index.php?title=Sesquihat
+x = 7, y = 5, rule = B3/S23
+4bo2b$2obobob$bobobob$bobob2o$2bo!

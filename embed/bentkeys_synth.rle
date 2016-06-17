@@ -1,0 +1,9 @@
+#N Bent keys_synth
+#O Jason Summers
+#C A 10-glider synthesis of bent keys
+#C http://www.conwaylife.com/wiki/index.php?title=Bent_keys
+x = 57, y = 27, rule = b3/s23
+28bo28b$26b2o29b$27b2o28b5$20bo36b$14bobo2bo37b$14b2o3b3o35b$15bo11bo
+29b$26bo30b$11bo14b3o28b$12b2o43b$11b2o44b3$23b2o32b$22b2o33b$24bo32b$
+46b2o6b2ob$16bo28bo3bo2bo3bo$16b2o28bo8bob$15bobo29bob4obo2b$b2o19bo
+12b2o13b2o5b$obo18b2o12bobo19b$2bo18bobo11bo!

@@ -1,0 +1,15 @@
+#Life 1.05
+#D Name: Eater 2
+#D Author: David Buckingham
+#D A well-known eater that can eat gliders that approach it along four different
+#D  paths.
+#D http://www.conwaylife.com/wiki/index.php?title=Eater_2
+#N
+#P -3 -3
+...*.**
+.***.**
+*
+.***.**
+...*.*
+...*.*
+....*

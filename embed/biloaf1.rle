@@ -1,0 +1,5 @@
+#N Bi-loaf 1
+#C A 14-cell still life that makes up half of a bakery.
+#C www.conwaylife.com/wiki/index.php?title=Bi-loaf_1
+x = 7, y = 7, rule = B3/S23
+bo5b$obo4b$o2bo3b$b2obo2b$3bobob$3bo2bo$4b2o!

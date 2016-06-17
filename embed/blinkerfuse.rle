@@ -1,0 +1,5 @@
+#N Blinker fuse
+#C An orthogonal 2c/3 period 18 fuse that burns cleanly through blinkers.
+#C www.conwaylife.com/wiki/index.php?title=Blinker_fuse
+x = 25, y = 5, rule = b3/s23
+2o2bob2o17b$5obobo16b$8bob3ob3ob3ob3o$5obobo16b$2o2bob2o!

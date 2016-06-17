@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Snacker
+#D Author: Mark Niemiec
+#D A pentadecathlon with stabilizers which force it into a lower period (from 15
+#D  to 9).
+#D www.conwaylife.com/wiki/index.php?title=Snacker
+#N
+#P -10 -5
+**................**
+.*................*
+.*.*............*.*
+..**............**
+.......*....*
+.....**.****.**
+.......*....*
+..**............**
+.*.*............*.*
+.*................*
+**................**

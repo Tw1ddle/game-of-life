@@ -1,0 +1,8 @@
+#N Spark coil_synth
+#O Mark D. Niemiec
+#C Glider syntheses of spark coils.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 75, y = 8, rule = 23/3
+51bo23b$5bo10bo35b2o21b$6bo8bo11b2o4b2o6bo9b2o14b2o4b2o$4b3o8b3o9bobo
+2bobo7bo12b2o10bobo2bobo$3o16b3o7bo2bo7b3o11bobo12bo2bo2b$2bo16bo7bobo
+2bobo9b3o9bo10bobo2bobo$bo18bo6b2o4b2o11bo20b2o4b2o$45bo!

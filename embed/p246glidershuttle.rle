@@ -1,0 +1,17 @@
+#N p246 glider shuttle
+#O Dean Hickerson
+#C A period-246 oscillator based on the p42 glider shuttle
+#C http://www.conwaylife.com/wiki/index.php?title=P42_glider_shuttle
+x = 60, y = 50, rule = b3/s23
+10bo11b4o8b4o11bo10b$9bobo9bo4bo6bo4bo9bobo9b$10bo9bobo3bo6bo3bobo9bo
+10b$19bobo3bo8bo3bobo19b$8b5o6bo20bo6b5o8b$7bo4bo6bo20bo6bo4bo7b$6bob
+2o9bo2bo14bo2bo9b2obo6b$3bo2bobo11b2o16b2o11bobo2bo3b$2bobobo9bo26bo9b
+obobo2b$3bo2bo4b3o3b2o22b2o3b3o4bo2bo3b$6b2o3b2o3b2o24b2o3b2o3b2o6b$
+11bo36bo11b2$29b2o29b$10bobo16b2o16bobo10b$5b2o4b2o34b2o4b2o5b$4bo2bo
+3bo36bo3bo2bo4b$7bo44bo7b$7bo44bo7b$bo3bobo44bobo3bob$o3bobo46bobo3bo$
+o4bo48bo4bo$b4o50b4ob2$29b2o29b$29b2o29b2$4b2o48b2o4b$2o2b2o48b2o2b2o$
+2o2bob2o44b2obo2b2o$5b3o44b3o5b3$5b2o46b2o5b$5b2o46b2o5b$29b2o29b$29b
+2o29b2$11b2o34b2o11b$6b2o2bo2bo32bo2bo2b2o6b$3bo2bo4bobo32bobo4bo2bo3b
+$2bobobo5bo34bo5bobobo2b$3bo2bob2o10b2o16b2o10b2obo2bo3b$6bo2bo10b2o
+16b2o10bo2bo6b$7bo4bo34bo4bo7b$8b5o34b5o8b$19b3o16b3o19b$10bo8b2obo2b
+2o6b2o2bob2o8bo10b$9bobo9b2o2b2o6b2o2b2o9bobo9b$10bo10b2o14b2o10bo!

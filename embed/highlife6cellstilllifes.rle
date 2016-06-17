@@ -1,0 +1,5 @@
+#N HighLife 6-cell still lifes
+#C All 4 6-cell still lifes in the HighLife (23/36) rule.
+#C www.conwaylife.com/wiki/index.php?title=HighLife
+x = 25, y = 4, rule = b36/s23
+2obo3b2o6b2o5bo2b$ob2o3bo2bo3bo2bo3bobob$9b2o4b2o5bobo$23bo!

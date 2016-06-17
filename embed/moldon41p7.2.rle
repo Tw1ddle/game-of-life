@@ -1,0 +1,6 @@
+#N Mold on 41P7.2
+#C The smallest known non-trivial period 28 oscillator
+#C http://www.conwaylife.com/wiki/index.php?title=Mold_on_41P7.2
+x = 15, y = 14, rule = b3/s23
+4bo6b2o2b$2b2obo5bo3b$bo10bo2b$obo2bo5b2o2b$o2bo6bo4b$b2o8b2o2b$10bo2b
+ob$5bob5o2bo$3b3obo4b2ob$2bo4bobobo3b$3b4o4bo3b$7b4o4b$5bo2bo6b$5b2o!

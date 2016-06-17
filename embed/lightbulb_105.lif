@@ -1,0 +1,15 @@
+#Life 1.05
+#D Name: Light bulb
+#D A period 2 oscillator that was found in 1971.
+#D www.conwaylife.com/wiki/index.php?title=Light_bulb
+#N
+#P -3 -4
+.**.*
+.*.**
+.
+..***
+.*...*
+.*...*
+..*.*
+*.*.*.*
+**...**

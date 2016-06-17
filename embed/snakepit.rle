@@ -1,0 +1,5 @@
+#N Snake pit
+#C A period 2 oscillator with the same rotor as fore and back.
+#C www.conwaylife.com/wiki/index.php?title=Snake_pit
+x = 7, y = 7, rule = B3/S23
+ob2ob2o$2obobob$6bo$3ob3o$o6b$bobob2o$2ob2obo!

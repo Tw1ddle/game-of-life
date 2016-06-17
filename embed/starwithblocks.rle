@@ -1,0 +1,6 @@
+#N Star with blocks
+#C A period 3 oscillator that is a modification of star.
+#C www.conwaylife.com/wiki/index.php?title=Star
+x = 11, y = 11, rule = b3/s23
+2o3bo3b2o$2o2b3o2b2o$2b3ob3o2b$2bo5bo2b$b2o5b2ob$2o7b2o$b2o5b2ob$2bo5b
+o2b$2b3ob3o2b$2o2b3o2b2o$2o3bo3b2o!

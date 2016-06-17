@@ -1,0 +1,6 @@
+#N Honey thieves with test tube baby
+#C A trivial period-34 oscillator
+#C All rotor cells oscillate at either period-2 or period-17
+x = 16, y = 19, rule = B3/S23
+3b2o$4bo$b3o$o$o12bo$b3o7b3o$4bo5bo$3bo6b2o$4bo$7b2o$7b2o2$8b2o$8b2o$
+12bo$5b2o6bo$6bo5bo$3b3o7b3o$3bo11bo!

@@ -1,0 +1,11 @@
+#N Dart_synth
+#O Martin Grant, Dave Greene, Michael Simkin, Chris Cain, Ivan Fomichev
+#C Glider synthesis of the dart, December 2014.
+#C www.conwaylife.com/wiki/Pufferfish
+x = 55, y = 55, rule = B3/S23
+14bo$15bo2bobo26bobo$13b3o3b2o26b2o$19bo28bo$3bobo5bo$4b2o3bobo34bo$4b
+o5b2o32b2o$45b2o3$4bo10bo21bo12bo$5bo10b2o17b2o12bo$3b3o9b2o19b2o11b3o
+$30bobo$30b2o$31bo9$28bo$27b2o$27bobo$23b3o$9b2o14bo$10b2o12bo$9bo8bo$
+18b2o$17bobo5$4b3o41b3o$6bo20b2o19bo$5bo21bobo19bo$27bo$2o51b2o$b2o33b
+2o14b2o$o34b2o17bo$9bo27bo7bo$9b2o33b2o$8bobo33bobo2$14b3o$16bo$15bo2$
+37b3o$37bo$38bo!

@@ -1,0 +1,10 @@
+#N Herschel receiver
+#O Paul Callahan
+#C A pattern that converts to input gliders into a Herschel. Found in 
+#C 1996.
+#C www.conwaylife.com/wiki/index.php?title=Herschel_receiver
+x = 50, y = 33, rule = b3/s23
+21b2o27b$21b2o27b3$19b2o29b$19b2o29b$6b2o42b$7bo42b$7bobo40b$8b2o40b$
+4b2o44b$4b2o44b7$17b2o31b$17b2o29b2o$10b2o36b2o$5b2o2bo2bo37b$4bobo3b
+2o38b$6bo30bo12b$36bobo11b$36b2o12b$45b2o3b$45bo4b$46bo3b$45b2o3b$bo8b
+2o38b$b2o7b2o38b$obo!

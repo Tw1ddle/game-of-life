@@ -1,0 +1,6 @@
+#N Stillater
+#O Robert Wainwright
+#C A period 3 oscillator found in September 1985.
+#C www.conwaylife.com/wiki/index.php?title=Stillater
+x = 8, y = 8, rule = B3/S23
+3bo4b$2bobob2o$2bob2obo$2o6b$bobob2ob$bobo2bob$2bo2bo2b$3b2o!

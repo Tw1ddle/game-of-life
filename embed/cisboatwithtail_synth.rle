@@ -1,0 +1,10 @@
+#N Cis-boat with tail_synth
+#O Mark D. Niemiec
+#C Glider syntheses of trans-boat with tails.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 65, y = 36, rule = 23/3
+20b2o18b2o18b2o3b$21bo19bo19bo3b$2o19bobo17bobo17bob2o$b2o19b2o18b2o
+18bobo$o3b2o41bo15bob$4bobo40bobo15b$4bo39b2ob2o16b$43bobo19b$45bo19b
+13$37bo27b$36bo28b$36b3o26b2$33bobo29b$34b2o5bo23b$34bo6bobo21b$41b2o
+22b$3bo61b$2bo32bobo22b2o3b$2b3o31b2o23bo3b$23b2o11bo6b2o16bob2o$2bo
+19bobo17bobo17bobo$2b2o19bo19bo19bob$bobo!

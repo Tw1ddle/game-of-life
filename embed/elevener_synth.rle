@@ -1,0 +1,9 @@
+#N Elevener_synth
+#O Mark D. Niemiec
+#C Glider syntheses of elevener.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 64, y = 40, rule = 23/3
+36bobo25b$37b2o25b$37bo26b2$35b2o21b2o4b$34bobo21bo5b$20b2o14bo3b2o17b
+3o2b$21bo19bo19bo2b$2o19bobo17bobo17bobo$b2o19b2o18b2o18b2o$o3b2o58b$
+4bobo57b$4bo59b19$33b2o29b$32bobo2bo26b$34bo2bobo24b$37b2o19b2o4b$58bo
+5b$40b2o17b3o2b$41bo19bo2b$41bobo17bobo$42b2o18b2o!

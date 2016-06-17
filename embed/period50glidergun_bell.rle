@@ -1,0 +1,23 @@
+#N p50 glider gun variant by David Bell
+x = 120, y = 95, rule = B3/S23
+o$86b2o$85bo2bo$80b2o2bob2obo$80bo3bo2bobo$81b3o2bo2b2o$83bobobo2bo$85b2ob
+2o$85b2o$74b2o9bo2b2o2b2o$74b2o9bobo2bo2bo$76bobo4bo5b2obo$79bo3b3o5bob3o$
+75bo2bo2b3o7bo4bo$75bo2bo2b2o7b2ob2ob3o$76b2o12bo2bobo3bo$84bo5b2o5bo2bo$
+83bobo4b9obo$79b2o2b2o5bo2bobo4bobo$79b2o9b2obob2ob2ob2o$90bo2bobo3bo$91b2o
+2bobobo$92bobobobo$92bobo2bo$93b2o2$88bobo18b2o$76b3o10b2o14bo2bobo$78bo10b
+o14bo4bo$77bo26bo2bo$105b3o$100b2o4b2o$100b2o4bo8b2o$105b2o7bobo$114bo$101b
+2o2bo2bo4b2o$101bobo5b3o3b2o$102bo5bobo2b2o2bo$94bo13b2o4bobobo$64b2o28bobo
+13bo2b4obo$63bobo28b2o14bobo4bo$53b2o10bo34b5o3bobobob3o$54bo44b2o4bo2b2o3b
+2o$54bobo41bobo4b3o$55b2o39b3o9bobo$95bo3b2obob2obob2o$33b2o6b2o52b3o7bobo$
+27bob2obobo6bobob2obo49b3obobo2bo$27b2obobo10bobob2o4b2o16b2o24bo2bo4b2o$
+31bobo8bobo8b2o16bo24bob2o2b2obo$69bobo10bo14bo2bobo2bo$32bo2bo4bo2bo4bo20b
+2o10bo16b3o3bo$33bo3b2o3bo5b3o9bo20b3o17b3o$35b6o10bo7b3o38bo$36b4o10b2o6b
+2o2bo37b2o$30b3o10b3o12b2o2b2o$7b4o19b5ob4ob5o13bob2o$6bob2obo21bo8bo17b2o$
+6b2o2b2o22bo6bo$6b2o2b2o23bo4bo$6bob2obo25b2o$7b4o32b2o$43b2o$13b3o21b3o11b
+o10bo5b3o$b2o2bo16b3o25bo2bo6bo2bo4b3o5b2o$bo2b2o5bo5bo17bo5bo2bobo7bo4bo8b
+o7b2o$2b5o4bo5bo2bo5bo8bo5bo2bo2bo6bo4bo7bo$11bo5bo2bo5bo8bo5bo2bobo7bo4bo
+7b2o$20bo5bo23bo2bo6bo2bo$2b5o6b3o21b3o11bo10bo$bo2b2o16b3o18b2o$b2o2bo37b
+2o$37b2o$35bo4bo$34bo6bo$33bo8bo17b2o$30b5ob4ob5o13bob2o$30b3o10b3o12b2o2b
+2o$36b4o10b2o6b2o2bo$35b6o10bo7b3o$33bo3b2o3bo5b3o9bo$32bo2bo4bo2bo4bo20b2o
+$69bobo$31bobo8bobo8b2o16bo$27b2obobo10bobob2o4b2o16b2o$27bob2obobo6bobob2o
+bo$33b2o6b2o2$55b2o$54bobo$54bo$53b2o10bo$63bobo$64b2o!

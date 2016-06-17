@@ -1,0 +1,7 @@
+#N Toad flipper
+#C A period 60 oscillator in which a toad gets flipped repeatedly by
+#C domino sparks.
+#C www.conwaylife.com/wiki/index.php?title=Toad
+x = 18, y = 10, rule = 23/3
+bo14bob$bo14bob$obo12bobo$bo14bob$bo6bo7bob$bo6b2o6bob$bo6b2o6bob$obo
+6bo5bobo$bo14bob$bo14bo!

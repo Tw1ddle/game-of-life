@@ -1,0 +1,13 @@
+#N Long ship_synth
+#O Mark D. Niemiec
+#C Glider syntheses of long ship.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 144, y = 60, rule = 23/3
+97bo46b$95b2o47b$96b2o46b2$bo142b$o143b$3o128bo12b$130bo13b$41bobo86b
+3o11b$41b2o36bo7bo56b$42bo37bo5bo57b$78b3o5b3o31bo23b$2bobo116b2o21b$
+3b2o27bobo85b2o22b$3bo28b2o46b3o61b$bo31bo48bo61b$b2o17b2o38b2o19bo18b
+2o20bobo15b2o2b$obo17bobo9b3o25bobo37bobo19b2o16bobob$21bobo8bo28bobo
+37bobo14b2o3bo17bobo$22b2o9bo28b2o38b2o15b2o21b2o$118bo25b2$6b2o136b$
+5b2o137b$7bo136b7$131bo12b$131bobo10b$131b2o11b9$56b3o85b$56bo87b$57bo
+54bo31b$111bo32b$111b3o30b5$114b3o27b$114bo29b$115bo28b2$113b2o29b$
+114b2o24b2o2b$113bo26bobob$141bobo$142b2o!

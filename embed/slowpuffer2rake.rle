@@ -1,0 +1,8 @@
+#N rake based on Slow Puffer 2
+x = 183, y = 79, rule = B3/S23
+o$4bo9b2o$2bo3bo6b2ob3o83b2o15b2o$bo12b5o55b5o22b4o13b2ob4o$bo4bo8b3o56bo4b
+o20b2ob2o14b6o$b5o68bo26b2o17b4o$75bo3bo$77bo$21bo$2b2o10b2obo2bobo98b2o$b
+2ob3o6bobob4obo97bo2bo$2b4o3b3obo106bobo$3b2o8bobob4obo97b2o$14b2obo2bobo
+97bo$6b2o13bo96bobo$4bo4bo107b2ob2o$3bo76b4o34bobo$3bo5bo69b6o34bo$3b6o6b3o
+60b2ob4o$14b5o60b2o$13b2ob3o$14b2o3$88b2o$87b2ob4o$88b6o$89b4o4$103b2o$102b
+2ob4o$103b6o$104b4o41$180bo$179bo$179b3o!

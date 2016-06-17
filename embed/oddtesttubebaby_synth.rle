@@ -1,0 +1,11 @@
+#N Odd test tube baby_synth
+#C An 11-glider synthesis of odd test tube baby
+#C http://www.conwaylife.com/wiki/index.php?title=Odd_test_tube_baby
+x = 178, y = 19, rule = b3/s23
+156bo21b$154bobo21b$43bo18bo92b2o21b$44bo16bo99bo16b$42b3o16b3o95b2o
+17b$160b2o16b$163b2o11bob$79b2o4b2o22b2o4b2o12b2o4b2o12b2o4b2o6bobo3b
+2o4bobo$79bobo2bobo22bobo2bobo12bobo2bobo12bobo2bobo6bo5bobo2bobob$81b
+o2bo26bo2bo16bo2bo16bo2bo16bo2bo3b$22b2o28b2o27bo2bo26bo2bo16bo2bo16bo
+2bo16bo2bo3b$b2o18bo2bo26bo2bo27b2o28b2o18b2o18b2o18b2o4b$obo19b2o28b
+2o124b$2bo175b$4b2o99bo14bo57b$4bobo96bobo14bobo55b$4bo45b2o2b2o48b2o
+14b2o56b$49bobo2bobo20b2o8b2o18b2o8b2o59b$51bo2bo22b2o8b2o18b2o8b2o!

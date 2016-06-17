@@ -1,0 +1,15 @@
+#N Cis-boat and table_synth
+#C Glider syntheses of cis-boat and table
+#C http://www.conwaylife.com/wiki/index.php?title=Cis-boat_and_table
+x = 104, y = 123, rule = b3/s23
+82bo21b$80bobo21b$81b2o21b2$83bo20b$83bobo18b$75b2o6b2o15bo2bo$76b2o
+22b4o$75bo28b$100b2o2b$78bo6bo14bobob$78b2o4bo16bo2b$77bobo4b3o17b5$
+86b2o16b$85b2o17b$87bo16b9$79bo24b$80bo23b$78b3o23b$87bo16b$85b2o17b$
+86b2o16b$89b2o13b$42bo18bo19bo7bobo12b$41bo18bobo17bobo6bo10bo2bo$41b
+3o16b2o18b2o18b4o2$40bo19b2o18b2o18b2o2b$39b2o19bobo17bobo17bobob$39bo
+bo4bo14bo19bo19bo2b$45b2o57b$45bobo56b18$36b2o66b$35bobobo64b$37bobobo
+62b$39b2o63b$44b2o15bo42b$bo41b2o15bobo41b$2bo42bo14b2o42b$3o101b$20b
+2o18b2o18b2o42b$2bo17bobo17bobo17bobo41b$b2o18bo19bo19bo42b$bobo100b
+16$68bo35b$69bo34b$67b3o34b$51bo52b$49bobo52b$50b2o52b10$100bo2bo$100b
+4o2$100b2o2b$100bobob$101bo2b7$84bobo17b$84b2o18b$85bo18b3$87b3o14b$
+87bo16b$88bo!

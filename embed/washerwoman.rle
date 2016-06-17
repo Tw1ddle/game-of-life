@@ -1,0 +1,7 @@
+#N Washerwoman
+#O Earl Abbe
+#C An orthogonal 2c/3 period 18 fuse that burns tubs.
+#C www.conwaylife.com/wiki/index.php?title=Washerwoman
+x = 56, y = 5, rule = 23/3
+o55b$2o4bo5bo5bo5bo5bo5bo5bo5bo5bob$3o2bobo3bobo3bobo3bobo3bobo3bobo3b
+obo3bobo3bobo$2o4bo5bo5bo5bo5bo5bo5bo5bo5bob$o!

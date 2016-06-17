@@ -1,0 +1,11 @@
+#N Popover
+#O Robert Wainwright
+#C A period 32 oscillator that works by hassling a pi-heptomino.
+#C www.conwaylife.com/wiki/index.php?title=Popover
+x = 32, y = 32, rule = B3/S23
+21bo10b$20bobo9b2$13b2o3bo3b2o8b$13b2o2bo5bo8b$18bobo11b$20b2o10b$14b
+2o16b$3b2o8bo2bo15b$bobo9bobo4bo11b$o5bo7bo5bo11b$bo3b2o2b3o8bo11b2$3b
+obo16b2o3b2o3b$4bo12bo3bo2bo2b2o3b$8bo7b3o3bobo7b$7bobo6bobo4bo8b$3b2o
+2bo2bo16bo4b$3b2o3b2o16bobo3b2$11bo8b3o2b2o3bob$11bo13bo5bo$11bo5b2o9b
+obob$16bobo8b2o3b$16b3o13b$10b2o20b$11bobo18b$8bo5bo2b2o13b$8b2o3bo3b
+2o13b2$9bobo20b$10bo!

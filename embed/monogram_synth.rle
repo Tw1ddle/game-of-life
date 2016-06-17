@@ -1,0 +1,14 @@
+#N Monogram_synth
+#O Mark D. Niemiec
+#C Glider synthesis of monogram.
+#C http://home.interserv.com/~mniemiec/objname.htm#M
+x = 146, y = 17, rule = 23/3
+44bo35bo65b$42bobo35bobo63b$43b2o35b2o64b$46bo31bo33bobo15bobo13b$46bo
+bo16b2o9bobo6b2o11b2o5b2o6b2o3b2o5b2o3b2o14b$o3bo41b2o16bo2bo9b2o5bo2b
+o9bo2bo3bo2bo5bo3bo2bo3bo2bo3bo14b$b2obobo58b2o18b2o11b2o5b2o11b2o5b2o
+12b2o3b2o$2o2b2o16bo19bo19bo19bo19bo19bo17bobobob$21bobo17bobo17bobo
+17bobo17bobo17bobo16b2ob2ob$6b3o13bo19bo19bo19bo19bo19bo17bobobob$6bo
+58b2o18b2o11b2o5b2o11b2o5b2o12b2o3b2o$7bo38b2o16bo2bo9b2o5bo2bo9bo2bo
+3bo2bo5bo3bo2bo3bo2bo3bo14b$46bobo16b2o9bobo6b2o11b2o5b2o6b2o3b2o5b2o
+3b2o14b$46bo31bo33bobo15bobo13b$43b2o35b2o64b$42bobo35bobo63b$44bo35bo
+!

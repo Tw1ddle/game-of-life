@@ -1,0 +1,22 @@
+!Name: 94P27.1
+!Author: Jason Summers
+!The smallest known period 27 oscillator as of April 2009. Found in August 2005.
+!www.conwaylife.com/wiki/index.php?title=94P27.1
+.....OO
+.....OO
+.................O
+...OOOOOO......O..O
+..O.....O..........O
+...O...O......O....O....OO
+OOO.................O...O.O
+O..OOOOO.......O...O......O..OO
+...O...O.........OO......OO.O.O
+.O.O.OO......OO.........O...O
+.OO..O......O...O.......OOOOO..O
+.....O.O...O.................OOO
+......OO....O....O......O...O
+............O..........O.....O
+.............O..O......OOOOOO
+..............O
+.........................OO
+.........................OO

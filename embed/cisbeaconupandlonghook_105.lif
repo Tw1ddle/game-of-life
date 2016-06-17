@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Cis-beacon up and long hook
+#D A period two oscillator composed of a beacon and a long hook.
+#D www.conwaylife.com/wiki/index.php?title=Beacon_and_long_hook
+#N
+#P -8 -8
+..**
+...*
+*
+**
+.
+****
+*...*
+...**

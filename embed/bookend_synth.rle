@@ -1,0 +1,18 @@
+#N Bookend_synth
+#O Mark D. Niemiec
+#C Glider synthesis of bookend.
+#C http://home.interserv.com/~mniemiec/3gliders.htm
+x = 118, y = 77, rule = 23/3
+12bo105b$11bo106b$11b3o15b3o37b3o17bo19b3o6b$28bo2bo36bo3bo16bobo16bo
+3bo5b$15bobo10b2o38b2o19b2o17b2o8b$15b2o17bo16b2o18bo2bo18bo19bo4b$16b
+o34bobo21bo12b2o2bo20bo4b$9bo22b3o16bo21bo13bobo2b3o14bo8b$9b2o22bo22b
+2o31bo22bo5b$8bobo38b2o5bobo50bobo6b$48bobo5bo61b$50bo67b19$52bo65b$
+52bobo63b$52b2o16bo47b$8bo60bobo46b$6bobo21b2o36bo3bo45b$7b2o20b2obo
+35bo49b$13b2o14bobo86b$3bobo6b2o39b2o16bo46b$4b2o8bo37b2o17bo46b$4bo
+41b3o5bo13bobo47b$27bo20bo69b$26b2o19bo70b16$obo115b$b2o115b$bo116b$
+25bo17bo74b$23bo20bo73b$24bo17b3o18b2o18b2o18b2o13b$26bob5o13b2o15b2o
+2b2o14b2o2b2o14b3o2b5o5b$26bob3o14bobo19b2o18b2o19b3o7b$47bo70b$3b3o8b
+2o19b2o57b2o8bobo8b2ob$5bo7b2o15bo6bo55b2o10bo4bo6bo$4bo10bo13bo5bo45b
+2o12bo13bo5bo2b$19bo9b4o49b2o15bo9b4o5b$9b2o7b2o61bo7b2o7b2o18b$8bobo
+7bobo67bobo7bobo17b$10bo79bo27b2$11b2o78b2o25b$11bobo77bobo24b$11bo79b
+o!

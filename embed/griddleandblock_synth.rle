@@ -1,0 +1,11 @@
+#N Griddle and block_synth
+#O Mark D. Niemiec
+#C A 14-glider synthesis of griddle and block
+x = 119, y = 71, rule = b3/s23
+65bo53b$64bo54b$64b3o52b2$12bo106b$10bobo106b$11b2o106b$56bo62b$54b2o
+63b$55b2o62b3$66bobo50b$2bo63b2o51b$obo64bo51b$b2o116b2$6bo112b$4bobo
+112b$5b2o112b5$51bo67b$51bobo65b$51b2o66b3$91bobo25b$92b2o25b$92bo26b$
+75b2o18b2o18bo3b$75b2o18b2o18bobob$113bo4bo$73b6o14b6o14b6o$73bo4bo14b
+o4bo20b$75b3o17b3o2b3o12b2o2b$74b2o14b2o2b2o4bo14b2o2b$89bobo9bo17b$
+91bo27b4$33bobo83b$33b2o84b$34bo84b2$33b3o83b$33bo85b$34bo84b17$65b2o
+52b$58b3o3b2o53b$58bo7bo52b$59bo!

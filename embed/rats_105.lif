@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: $rats
+#D Author: David Buckingham
+#D A period 6 oscillator found in 1972.
+#D www.conwaylife.com/wiki/index.php?title=$rats
+#N
+#P -6 -5
+.....**
+......*
+....*
+**.*.****
+**.*.....*.*
+...*..***.**
+...*....*
+....***.*
+.......*
+......*
+......**

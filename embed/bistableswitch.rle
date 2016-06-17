@@ -1,0 +1,10 @@
+#N Bistable switch
+#O Paul Callahan
+#C A logic circuit found in 1994 whilst searching for a stable reflect
+#C or.
+#C www.conwaylife.com/wiki/index.php?title=Bistable_switch
+x = 75, y = 61, rule = s23/b3
+2bo72b$obo72b$b2o72b11$50bo24b$50b3o22b$53bo21b$52b2o21b2$45b2o17b2o9b
+$46bo17bo10b$46bobo13bobo10b$47b2o13b2o11b3$44bo30b$42bobo30b$43b2o10b
+o19b$54bobo18b$54bobo18b$55bo19b12$73b2o$73b2o4$61bo13b$60bobo12b$61b
+2o12b9$49b2o24b$48bobo24b$48bo26b$47b2o!

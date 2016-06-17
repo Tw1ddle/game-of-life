@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: 22P2
+#D A period 2 oscillator.
+#D www.conwaylife.com/wiki/index.php?title=22P2
+#N
+#P -3 -4
+..**
+.*..*
+.*.*
+**.*..*
+...*.**
+**.*
+*..*
+.**

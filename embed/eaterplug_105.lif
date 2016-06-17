@@ -1,0 +1,15 @@
+#Life 1.05
+#D Name: Eater plug
+#D Author: Robert Wainwright
+#D A period 2 oscillator found in February 1973.
+#D http://www.conwaylife.com/wiki/index.php?title=Eater_plug
+#N
+#P -4 -4
+.......*
+.....***
+....*
+.....*
+..*..*
+.*.**
+.*
+**

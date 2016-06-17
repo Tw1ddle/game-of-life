@@ -1,0 +1,6 @@
+#N Revolver
+#C A period 2 oscillator and flipper.
+#C www.conwaylife.com/wiki/index.php?title=Revolver
+x = 14, y = 8, rule = B3/S23
+o12bo$3o4bo3b3o$3bobobo2bo3b$2bo6bobo2b$2bobo6bo2b$3bo2bobobo3b$3o3bo
+4b3o$o12bo!

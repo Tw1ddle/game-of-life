@@ -1,0 +1,8 @@
+#N B29
+#O Hartmut Holzwart
+#C A small c/4 diagonal spaceship with an isolated domino spark; disco
+#C vered in September 2004
+#C http://www.conwaylife.com/wiki/index.php?title=B29
+x = 8, y = 16, rule = b3/s23
+3b2o3b$2b2o4b$4bo3b$6b2o$5bo2b2$4bo2bo$b2obo3b$2o4bob$2bobo2bo$7bo$4bo
+2bo$5bobo$5bobo$6b2o$6bo!

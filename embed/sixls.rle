@@ -1,0 +1,5 @@
+#N Six Ls
+#C A period 3 oscillator that has the same rotor as loading dock.
+#C www.conwaylife.com/wiki/index.php?title=Six_Ls
+x = 7, y = 8, rule = B3/S23
+3bo3b$b3o2bo$o3b3o$3o4b$4b3o$3o3bo$o2b3ob$3bo!

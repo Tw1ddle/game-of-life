@@ -1,0 +1,5 @@
+#N Moose antlers
+#C A simple 15-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Moose_antlers
+x = 9, y = 5, rule = B3/S23
+2o5b2o$o7bo$b3ob3ob$3bobo3b$4bo!

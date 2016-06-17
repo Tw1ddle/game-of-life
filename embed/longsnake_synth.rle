@@ -1,0 +1,8 @@
+#N Long snake_synth
+#O Mark D. Niemiec
+#C Glider syntheses of long snakes.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 68, y = 11, rule = 23/3
+41bo26b$2bo36bobo26b$obo37b2o26b$b2o8bo11b2o24bo13b2o3b$11bobo9bobobo
+20bo14bobobo$11b2o13b2o20b3o15b2o$8b2o42b3o13b$2b2o3b2o43bo13b2o$bobo
+5bo31b2o10bo12b2o$3bo36bobo25b$42bo!

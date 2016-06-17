@@ -1,0 +1,13 @@
+#N 2x2 8-cell still lifes
+#C All 27 8-cell still lifes in the 2x2 (125/36) rule.
+#C www.conwaylife.com/wiki/index.php?title=2x2
+x = 111, y = 17, rule = 125/36
+2ob2o3b2o6b2o7b2o6b2o6b2o6b2o4b2o4bo2b2o4bo2b2o4bo6bo8bo8bo6b$o4bo2bo
+3bo3bo8bo9bo2bo4bo18bo3bo4bo8bobo4bo2b2o4bo8bo5b$2b2o6bo2bo4bo8bo7bo2b
+o4bo5b4o2b4o4b2o2bo4b2obo7bo4bo3bo4bob2o5bo2bob$11b2o6bo8bo7b2o6b2o30b
+o4b2o6b2o10bo5bo2bo$20bo9bo15bo2b2o6b2o21bo17b2o8b2ob$21bo7b2o15bo33bo
+30b$22bo88b3$o8bo10b2obo4b2o4b2o5b2o6b2o4b2o5b2o6b2o5bo7bo5bo19b$bo8bo
+8bo4bo2bo2bo2bo2bo3bo2bo4bo5bo6bo11bo2bobo5bobo4b3o17b$2bo8bo8bob2o3bo
+2bo3bo2bo4bo2bo3b2o4bobo5b3o4b3o5bo2bo4bo3b3o18b$3bobo6bo15b2o5b2o6b2o
+6bo6bo7bo2bo8bobo4bo6bo18b$6bo6bo35b2o5b2o7bo4bo8bo5bobo23b$4b2o8bo71b
+o24b$15bo95b$16bo!

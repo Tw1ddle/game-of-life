@@ -1,0 +1,8 @@
+#N 58P5H1V1
+#O Matthias Merzenich
+#C The smallest known c/5 diagonal spaceship
+#C http://www.conwaylife.com/wiki/index.php?title=58P5H1V1
+x = 23, y = 23, rule = b3/s23
+20b2ob$20b2ob$19bo2bo$16b2obo2bo$22bo$14b2o3bo2bo$14b2o5bob$15bob5ob$
+16bo6b3$13b3o7b$13bo9b$11b2o10b$5b2o4bo11b$5b3o3bo11b$3bo4bo14b$3bo3bo
+15b$7bo15b$2b2obobo15b$2o5bo15b$2o4b2o15b$2b4o!

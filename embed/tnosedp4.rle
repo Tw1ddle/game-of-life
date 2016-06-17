@@ -1,0 +1,7 @@
+#N T-nosed p4
+#O Robert Wainwright
+#C A period 4 oscillator found in October 1989.
+#C www.conwaylife.com/wiki/index.php?title=T-nosed_p4
+x = 11, y = 10, rule = B3/S23
+4b3o4b$5bo5b2$4b3o4b$3bo3bo3b$2bo5bo2b$2bobobobo2b$b2obobob2ob$o2b2ob
+2o2bo$2o7b2o!

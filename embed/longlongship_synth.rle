@@ -1,0 +1,20 @@
+#N Long long ship_synth
+#C Glider syntheses of long long ship
+#C http://www.conwaylife.com/wiki/index.php?title=Long_long_ship
+x = 154, y = 120, rule = b3/s23
+135bo18b$134bo12b2o5b$134b3o10bobo4b$148bobo3b$124b3o22bobo2b$126bo3b
+2o18b2o2b$125bo3bobo3b2o17b$131bo2b2o18b$136bo17b19$7bo146b$7bobo130bo
+13b$7b2o77bo51b2o14b$26b2o18b2o18b2o18bobo50b2o13b$7bo18bobo17bobo17bo
+bo17b2o19b2o18b2o18b2o5b$2bo3b2o19bobo17bobo17bobo37bobo17bobo17bobo4b
+$obo3bobo19bobo17bobo17bobo14bo3b2o17bobo17bobo17bobo3b$b2o26bo19bo19b
+2o14b2ob2o19bo19bo19bobo2b$84bobo3bo59b2o2b$55b2o97b$51bo2b2o98b$51b2o
+3bo97b$50bobo101b$136bo17b$136b2o16b$135bobo3bo12b$139b2o13b$140b2o12b
+12$120bobo31b$121b2o3bo27b$121bo2b2o28b$87bo37b2o27b$86bo59b2o6b$86b3o
+57bobo5b$107b2o18b2o18bobo4b$86bo19bobo17bobo19bobo3b$86b2o19bo19bo3bo
+bo15b2o3b$85bobo43b2o21b$132bo21b2$133b2o19b$132b2o20b$134bo19b5$67bob
+o84b$68b2o84b$68bo85b2$73b2o79b$72b2o72b2o4b2o$74bo56bo14bobo3b2o$132b
+2o13bobo4b$131b2o15bobo3b$142b2o5b2o3b$57bo84bobo9b$58b2o83bobo8b$57b
+2o51bo2bo16bo2bo10bobo7b$109bob2obo14bob2obo10b2o7b$110bo2bo9bobo4bo2b
+o20b$62bo47bo2bo10b2o4bo2bo8b2o10b$61b2o46bob2obo9bo4bob2obo7b2o10b$
+61bobo46bo2bo16bo2bo20b10$100b2o52b$99b2o53b$101bo52b13$85bo68b$84b2o
+68b$84bobo!

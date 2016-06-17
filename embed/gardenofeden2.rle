@@ -1,0 +1,8 @@
+#N Garden of Eden 2
+#O Achim Flammenkamp
+#C A Garden of Eden (and orphan) that was the smallest known at the time of its discovery in 1991.
+#C www.conwaylife.com/wiki/index.php?title=Garden_of_Eden_2
+x = 14, y = 14, rule = B3/S23
+2obobobob2obob$ob3ob3ob2obo$4ob3ob2obob$3obobobob4o$b3obob3ob2ob$7ob4o
+bo$bobob8ob$ob3ob2obobobo$6ob6ob$ob2ob5obobo$3ob9ob$b3obobobob3o$3obob
+obob2obo$ob12o!

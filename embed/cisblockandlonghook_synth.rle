@@ -1,0 +1,18 @@
+#N Cis-block and long hook_synth
+#C Glider syntheses of Cis-block and long hook
+#C http://www.conwaylife.com/wiki/index.php?title=Cis-block_and_long_h
+#C ook
+x = 145, y = 87, rule = b3/s23
+113bo9bo21b$111bobo8bo22b$32bo79b2o8b3o20b$33bo111b$31b3o79bo10bo20b$
+24b3o86b2o8b2o20b$26bo3b3o10b2o48b2o17bobo8bobo17b2o$25bo4bo9bo3bo45bo
+3bo45bo3bo$31bo8b4o46b4o46b4ob$75bo69b$42b2o29bobo2bo13b2o48b2ob$42b2o
+30b2o2bobo11b2o48b2ob$78b2o32b3o30b$114bo30b$113bo31b2$72b2o55b2o14b$
+73b2o54bobo13b$72bo56bo15b5$9b2o134b$8bobo47b2o85b$10bo46bobo85b$37b2o
+20bo85b$37bobo48b2o55b$37bo50bobo54b$88bo56b11$121bobo21b$81bo39b2o22b
+$82bo39bo22b$80b3o62b$84bo32bo27b$83bo34b2o25b$23b2o58b3o17b2o12b2o4b
+2o18b2o$3b3o17b2o78b2o9b2o7b2o15bo3bo$3bo109bobo24b4ob$4bo37bo72bo29b$
+b2o19b2o16bobo19b2o18b2o18b2o18b2o18b2ob$obo19b2o17b2o19b2o18b2o18b2o
+18b2o18b2ob$2bo35b2o105b$37bobo105b$39bo105b18$127bo17b$126bo18b$78bo
+3bo43b3o16b$79b2obobo60b$78b2o2b2o16bo19bo3b2o17b2o$99bobo17bobo2bobo
+13bo3bo$84b3o13bo19bo3bo15b4ob$84bo60b$85bo56b2ob$121b2o19b2ob$120bobo
+22b$122bo22b$125b2o18b$125bobo17b$125bo!

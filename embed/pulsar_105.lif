@@ -1,0 +1,21 @@
+#Life 1.05
+#D Name: Pulsar
+#D Author: John Conway
+#D Despite its size, this is the fourth most common oscillator (and by far the m
+#D ost common of period greater than 2).
+#D www.conwaylife.com/wiki/index.php?title=Pulsar
+#N
+#P -6 -6
+..***...***
+.
+*....*.*....*
+*....*.*....*
+*....*.*....*
+..***...***
+.
+..***...***
+*....*.*....*
+*....*.*....*
+*....*.*....*
+.
+..***...***

@@ -1,0 +1,8 @@
+#N Airforce
+#O David Buckingham
+#C A period 7 oscillator in which the rotor consists of two copies of 
+#C that used in the burloaferimeter.
+#C www.conwaylife.com/wiki/index.php?title=Airforce
+x = 14, y = 15, rule = B3/S23
+7bo6b$6bobo5b$7bo6b2$5b5o4b$4bo5bob2o$3bob2o3bob2o$3bobo2bobo3b$2obo3b
+2obo3b$2obo5bo4b$4b5o5b2$6bo7b$5bobo6b$6bo!

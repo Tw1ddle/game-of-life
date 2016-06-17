@@ -1,0 +1,8 @@
+#N 48P22
+#O Nicolay Beluchenko
+#C A period 22 oscillator discovered on March 4, 2009
+#C www.conwaylife.com/wiki/index.php?title=48P22
+x = 16, y = 16, rule = b3/s23
+11b2o3b$10bobo3b$2bo5bo4bo2b$2ob2o2b2obobo3b$o7bo3bo3b$bobo12b2$2b3o7b
+o3b$3bo7b3o2b2$12bobob$3bo3bo7bo$3bobob2o2b2ob2o$2bo4bo5bo2b$3bobo10b$
+3b2o!

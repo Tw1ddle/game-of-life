@@ -1,0 +1,5 @@
+#N Almosymmetric
+#C A period 2 oscillator found in 1971.
+#C www.conwaylife.com/wiki/index.php?title=Almosymmetric
+x = 9, y = 8, rule = B3/S23
+4bo4b$2o2bobo2b$obo6b$7b2o$bo7b$o6bob$2obobo3b$5bo!

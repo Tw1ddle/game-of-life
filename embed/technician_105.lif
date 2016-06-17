@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Technician
+#D Author: David Buckingham
+#D A period 5 oscillator found in January 1973.
+#D www.conwaylife.com/wiki/index.php?title=Technician
+#N
+#P -5 -6
+.....*
+....*.*
+....**
+..**
+.*...***
+*..**...*.*
+.**....*.**
+...*.*.*
+...*...*
+....***
+......*.*
+.......**

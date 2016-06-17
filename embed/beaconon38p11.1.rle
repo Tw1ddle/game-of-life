@@ -1,0 +1,6 @@
+#N Beacon on 38P11.1
+#C The smallest known period 22 oscillator, though it is usually considered trivial because it consists of a period 2 oscillator and a period 11 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Beacon_on_38P11.1
+x = 12, y = 14, rule = b3/s23
+b2o9b$bo10b$4bo7b$3b2o7b$o11b$7o5b$7bo4b$2o3b2obo3b$o5bobo3b$bo6bob2o$
+2bo5bob2o$3bo4bo3b$4bobobo3b$5b2ob2o!

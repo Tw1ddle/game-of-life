@@ -1,0 +1,5 @@
+#N 22P2
+#C A period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=22P2
+x = 7, y = 8, rule = b3/s23
+2b2o3b$bo2bo2b$bobo3b$2obo2bo$3bob2o$2obo3b$o2bo3b$b2o!

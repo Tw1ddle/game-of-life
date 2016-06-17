@@ -1,0 +1,9 @@
+#Life 1.05
+#D Name: Aircraft carrier
+#D The smallest still life that has more than one island.
+#D www.conwaylife.com/wiki/index.php?title=Aircraft_carrier
+#N
+#P -2 -1
+**
+*..*
+..**

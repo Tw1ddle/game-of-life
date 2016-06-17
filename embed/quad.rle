@@ -1,0 +1,6 @@
+#N Quad
+#O Robert Kraus
+#C A period 2 oscillator that was found in April 1971.
+#C www.conwaylife.com/wiki/index.php?title=Quad
+x = 6, y = 6, rule = 23/3
+2o2b2o$o2bobo$bo4b$4bob$obo2bo$2o2b2o!

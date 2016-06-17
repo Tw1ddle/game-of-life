@@ -1,0 +1,14 @@
+#N Pre-pulsar shuttle 26
+#O David Buckingham and Noam Elkies
+#C The smallest known period 26 oscillator, discovered on January 18,
+#C 1983 and improved on April 22, 1997
+#C www.conwaylife.com/wiki/index.php?title=Pre-pulsar_shuttle_26
+x = 37, y = 37, rule = b3/s23
+16bo3bo16b$10b2o4bo3bo4b2o10b$10bo5bo3bo5bo10b$7b2obo15bob2o7b$6bobob
+2o13b2obobo6b$6bobo6bo5bo6bobo6b$4b2o2bo5b3o3b3o5bo2b2o4b$3bo4b2o17b2o
+4bo3b$3b5o21b5o3b$7bo21bo7b$b4o27b4ob$bo2bo27bo2bob2$15b2o3b2o15b$6bo
+9bo3bo9bo6b$5b2o6bo9bo6b2o5b$3o3bo6b2o7b2o6bo3b3o4$3o3bo6b2o7b2o6bo3b
+3o$5b2o6bo9bo6b2o5b$6bo9bo3bo9bo6b$15b2o3b2o15b2$bo2bo27bo2bob$b4o27b
+4ob$7bo21bo7b$3b5o21b5o3b$3bo4b2o17b2o4bo3b$4b2o2bo5b3o3b3o5bo2b2o4b$
+6bobo6bo5bo6bobo6b$6bobob2o13b2obobo6b$7b2obo15bob2o7b$10bo5bo3bo5bo
+10b$10b2o4bo3bo4b2o10b$16bo3bo!

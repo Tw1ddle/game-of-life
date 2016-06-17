@@ -1,0 +1,6 @@
+#N Figure eight
+#O Simon Norton
+#C A period 8 oscillator found in 1970.
+#C www.conwaylife.com/wiki/index.php?title=Figure_eight
+x = 6, y = 6, rule = B3/S23
+2o4b$2obo2b$4bob$bo4b$2bob2o$4b2o!

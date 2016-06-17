@@ -1,0 +1,7 @@
+#N Burloaferimeter
+#O David Buckingham
+#C A period 7 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Burloaferimeter
+x = 10, y = 11, rule = B3/S23
+4b2o4b$5bo4b$4bo5b$3bob3o2b$3bobo2bob$2obo3bobo$2obo4bob$4b4o2b2$4b2o
+4b$4b2o!

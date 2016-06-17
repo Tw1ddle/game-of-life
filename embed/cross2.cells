@@ -1,0 +1,19 @@
+!Name: Cross 2
+!Author: Hartmut Holzwart
+!The second smallest member of the infinite family of period 3 cross oscillators.
+!www.conwaylife.com/wiki/index.php?title=Cross_2
+...O..O.O..O
+...O..O.O..O
+..OO..O.O..OO
+OOO....O....OOO
+.......O
+
+OOO.........OOO
+...OO.....OO
+OOO.........OOO
+
+.......O
+OOO....O....OOO
+..OO..O.O..OO
+...O..O.O..O
+...O..O.O..O

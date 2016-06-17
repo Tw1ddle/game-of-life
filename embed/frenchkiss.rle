@@ -1,0 +1,6 @@
+#N French kiss
+#O Robert Wainwright
+#C A period 3 oscillator found in July 1971.
+#C www.conwaylife.com/wiki/index.php?title=French_kiss
+x = 10, y = 9, rule = B3/S23
+o9b$3o7b$3bo6b$2bo2b2o3b$2bo4bo2b$3b2o2bo2b$6bo3b$7b3o$9bo!

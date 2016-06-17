@@ -1,0 +1,30 @@
+!Name: Backrake 2
+!Author: David Buckingham
+!A period 12 orthogonal c/2 backrake.
+!www.conwaylife.com/wiki/index.php?title=Backrake_2
+...O
+..OOO
+.OO.O.....O
+.OOO.....OOO
+..OO....O..OO...OOO
+........OOO....O..O
+..................O
+..................O
+..................O
+..OOO............O
+..O..O
+..O
+..O
+...O
+
+
+
+
+
+
+OOO
+O..O...........O
+O.............OOO
+O............OO.O
+O............OOO
+.O............OO

@@ -1,0 +1,24 @@
+!Name: P56 B-heptomino shuttle
+!Author: David Buckingham
+!The smallest known period 56 oscillator
+.......................OO
+.......................OO
+
+
+......OO................OO
+......OO..............O.OO
+......................O
+......................O
+......................O..O
+......O................OO
+.....O.OO
+.OO..O..O
+.OO.....O
+
+
+..OO..............OO
+O.OO..............OO
+O
+O
+O..O
+.OO

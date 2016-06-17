@@ -1,0 +1,6 @@
+#N Mold on pentadecathlon_synth
+#C An 8-glider synthesis of mold on pentadecathlon
+x = 37, y = 19, rule = b3/s23
+5bobo29b$5b2o30b$6bo5bo24b$12bobo14bo4bo2b$12b2o13b2ob4ob2o$29bo4bo2b
+2$5b3o29b$7bo10bo18b$6bo9b2o19b$17b2o14bobob$36bo$32bo2bob$13b3o15bobo
+bob$13bo5bo11bo2bo2b$3o11bo3b2o12b2o3b$2bo7bo7bobo16b$bo7b2o26b$9bobo!

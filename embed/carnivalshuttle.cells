@@ -1,0 +1,11 @@
+!Name: Carnival shuttle
+!Author: Robert Wainwright
+!A period 12 oscillator.
+!www.conwaylife.com/wiki/index.php?title=Carnival_shuttle
+.................................O...O
+OO...OO..........................OOOOO
+.O.O.O...O..O......OO...O..O.......O
+.OO.OO..OO...OO....OO..OO...OO....O.O
+.O.O.O...O..O......OO...O..O.......O
+OO...OO..........................OOOOO
+.................................O...O

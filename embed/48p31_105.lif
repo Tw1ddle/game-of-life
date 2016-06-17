@@ -1,0 +1,20 @@
+#Life 1.05
+#D Name: 48P31
+#D Author: Matthias Merzenich
+#D The first known period-31 oscillator
+#D http://www.conwaylife.com/wiki/index.php?title=48P31
+#N
+#P -12 -6
+.......**.*..*.**
+**....*..*....*..*....**
+**.....*.*....*.*.....**
+........*......*
+.
+.
+.
+.
+.
+........*......*
+**.....*.*....*.*.....**
+**....*..*....*..*....**
+.......**.*..*.**

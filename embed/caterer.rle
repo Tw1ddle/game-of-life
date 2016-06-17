@@ -1,0 +1,6 @@
+#N Caterer
+#O Dean Hickerson
+#C A period 3 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Caterer
+x = 8, y = 6, rule = B3/S23
+2bo5b$o3b4o$o3bo3b$o7b$3bo4b$b2o!

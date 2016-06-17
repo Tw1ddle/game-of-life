@@ -1,0 +1,7 @@
+#N Bee hat_synth
+#O Dean Hickerson
+#C A 4-glider synthesis of bee hat
+#C http://www.conwaylife.com/wiki/index.php?title=Bee_hat
+x = 31, y = 12, rule = b3/s23
+o30b$b2o23b2o3b$2o23bo2bo2b$9bo16b2obob$7b2o18bobob$8b2o15bobob2o$25b
+2o4b2$2b3o26b$4bo3b3o20b$3bo4bo22b$9bo!

@@ -1,0 +1,7 @@
+#N Surprise
+#O David Buckingham
+#C A period 3 oscillator found in November 1972.
+#C www.conwaylife.com/wiki/index.php?title=Surprise
+x = 10, y = 9, rule = B3/S23
+3bo4b2o$3b3o2bob$b2o3bobob$o2b2obob2o$bo6bob$2obob2o2bo$bobo3b2ob$bo2b
+3o3b$2o4bo!

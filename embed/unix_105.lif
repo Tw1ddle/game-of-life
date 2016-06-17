@@ -1,0 +1,15 @@
+#Life 1.05
+#D Name: Unix
+#D Author: David Buckingham
+#D A period 6 oscillator that consists of two blocks eating a barge.
+#D http://www.conwaylife.com/wiki/index.php?title=Unix
+#N
+#P -4 -4
+.**
+.**
+.
+.*
+*.*
+*..*..**
+....*.**
+..**

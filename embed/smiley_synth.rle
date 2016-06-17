@@ -1,0 +1,23 @@
+#N Smiley_synth
+#O Jason Summers
+#C A 28-glider synthesis of smiley
+#C http://www.conwaylife.com/wiki/index.php?title=Smiley
+x = 132, y = 86, rule = b3/s23
+32bo99b$33bo9bo19bo20bo18bo19bo8b$31b3o8bobo17bobo18bobo16bobo17bobo7b
+$42bobo17bobo18bobo16bobo17bobo7b$28b3o12bo19bo20bo18bo19bo8b$30bo101b
+$29bo25b2o75b$54bobo75b$15b2o18b2o8b2o9bo8b2o14b2o3b2o12b2o3b2o13b2o3b
+2o5b$5b2o8bobo17bobo7bobo10b3o4bobo12bobo3bobo10bobo3bobo11bobo3bobo4b
+$3ob2o10b2o18b2o8b2o10bo7b2o12b2o5b2o10b2o5b2o11b2o5b2o4b$2bo3bo47bo4b
+o72b$bo51b2o77b$53bobo45b2ob2o15b2ob2o6b$2b2o96bobobobo14b2ob2o6b$2bob
+o97bobo27b$2bo129b13$44bo37bo49b$43bo39bo48b$33bo9b3o17bo17b3o9bo29bo
+8b$32bobo27bobo27bobo27bobo7b$32bobo11b2o14bobo14b2o11bobo27bobo7b$33b
+o12bobo14bo5b3o6bobo12bo5b3o13b3o5bo5b3o$46bo33bo51b3$30b2o3b2o23b2o3b
+2o23b2o3b2o23b2o3b2o5b$29bobo3bobo21bobo3bobo21bobo3bobo21bobo3bobo4b$
+29b2o5b2o21b2o5b2o21b2o5b2o21b2o5b2o4b3$31b2ob2o25b2ob2o25b2ob2o25b2ob
+2o6b$31b2ob2o25b2ob2o25b2ob2o25b2ob2o6b6$87bo44b$87bobo42b$65bo21b2o
+12bo30b$66b2o4bo21bo4b2o31b$65b2o3bobo21bobo3b2o30b$71b2o21b2o36b4$74b
+obo13bobo39b$70b2o3b2o13b2o3b2o35b$71b2o2bo7bo7bo2b2o36b$70bo11bobo11b
+o23b2obob2o5b$82bobo38bo8b$75b3o5bo5b3o28bo5bo5b$68b3o25b3o22b5o6b$70b
+o25bo35b$69bo27bo34b$80b2o3b2o33b3ob3o5b$79bobo3bobo44b$79b2o5b2o44b3$
+81b2ob2o46b$81b2ob2o46b2$75bo15bo40b$75b2o13b2o40b$74bobo13bobo39b5$
+85b3o44b$85bo46b$86bo!

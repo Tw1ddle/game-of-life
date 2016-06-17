@@ -1,0 +1,16 @@
+#Life 1.05
+#D Name: Ship on quadpole
+#D A ship diagonally touching a quadpole.
+#D www.conwaylife.com/wiki/index.php?title=Ship_on_quadpole
+#N
+#P -6 -6
+**
+*.*
+.**
+...**
+...*.*
+.
+.....*.*
+.
+.......*.*
+........**

@@ -1,0 +1,11 @@
+#N Rumbling river 1
+#O Dean Hickerson
+#C A period 3 oscillator. A rumbling river that was found in November 1994.
+#C www.conwaylife.com/wiki/index.php?title=Rumbling_river_1
+x = 49, y = 12, rule = B3/S23
+14b2o6b2o6b2o3bob2o10b$4bo8bo2bo4bo2bo4bo2bo2b2obo10b$o2bobo4bo3b2o2bo
+3b2o2bo3bobo5bob2o7b$4obo2b6o2b6o2b6o2b6obobo7b$5bobo5bobo5bobo5bobo5b
+obo6b2ob$2b2obobobobo3bobobo3bobobo3bobobo3bobo5bob$bo5bobo3bobobo3bob
+obo3bobobo3bobobobob2o2b$b2o6bobo5bobo5bobo5bobo5bobo5b$7bobob6o2b6o2b
+6o2b6o2bob4o$7b2obo5bobo3bo2b2o3bo2b2o3bo4bobo2bo$10bob2o2bo2bo4bo2bo
+4bo2bo8bo4b$10b2obo3b2o6b2o6b2o!

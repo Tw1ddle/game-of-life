@@ -1,0 +1,8 @@
+#N Switch engine ping-pong
+#O Michael Simkin
+#C The smallest known pattern, that exhibits quadratic population
+#C growth, as of December 2014.
+#C www.conwaylife.com/wiki/Switch_engine_ping-pong
+x = 210515, y = 183739, rule = B3/S23
+1148bo$1148b2o1076$145bo$144bo$144b3o158$3bo$b2o$o$bo182353$210513bo$
+210512bo$210512b3o141$210354bo$210353b3o$210355bo!

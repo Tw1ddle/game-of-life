@@ -1,0 +1,6 @@
+#N Mathematician
+#O David Buckingham
+#C A period 5 oscillator found in 1972.
+#C http://www.conwaylife.com/wiki/index.php?title=Mathematician
+x = 9, y = 11, rule = B3/S23
+4bo4b$3bobo3b$3bobo3b$2b2ob2o2b$o7bo$3o3b3o2$9o$o7bo$3b4o2b$3bo2b2o!

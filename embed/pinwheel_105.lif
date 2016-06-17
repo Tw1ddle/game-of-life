@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Pinwheel
+#D Author: Simon Norton
+#D A period 4 oscillator.
+#D http://www.conwaylife.com/wiki/index.php?title=Pinwheel
+#N
+#P -6 -6
+......**
+......**
+.
+....****
+**.*....*
+**.*..*.*
+...*...**.**
+...*.*..*.**
+....****
+.
+....**
+....**

@@ -1,0 +1,13 @@
+#N Odd keys_synth
+#O Mark D. Niemiec
+#C A 21-glider synthesis of odd keys
+#C http://www.conwaylife.com/wiki/index.php?title=Odd_keys
+x = 98, y = 77, rule = b3/s23
+68bo29b$66b2o30b$67b2o29b3$69bobo7bo18b$16bo52b2o8bobo16b$17b2o51bo3bo
+bo2b2o17b$16b2o56b2o22b$60bobo12bo22b$60b2o36b$61bo36b3$22bo75b$20bobo
+75b$3bobo15b2o75b$4b2o92b$4bo93b4$26bo71b$27b2o69b$26b2o70b3$30bobo65b
+$31b2o65b$31bo66b3$34bo63b$35b2o61b$34b2o62b2$39bo58b$37b2o48b2o6bo2b$
+38b2o46bo3bo2bo2bob$87bo9bo$28b3o57bob4ob2ob$30bo60b2o5b$29bo68b2$31b
+2o65b$30bobo65b$32bo65b12$60b2o36b$59b2o37b$3b2o56bo36b$2bobo93b$4bo
+93b3$bo96b$b2o95b$obo95b3$75b2o21b$70bo3b2o22b$69b2o5bo21b$69bobo26b$
+3b2o4b2o87b$2bobo3bobo87b$4bo5bo!

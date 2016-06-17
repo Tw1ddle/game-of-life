@@ -1,0 +1,5 @@
+#N Long ship
+#C An 8-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Long_ship
+x = 4, y = 4, rule = B3/S23
+2o2b$obob$bobo$2b2o!

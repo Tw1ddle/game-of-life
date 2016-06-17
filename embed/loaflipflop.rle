@@ -1,0 +1,8 @@
+#N Loaflipflop
+#O Robert Wainwright
+#C www.conwaylife.com/wiki/Loaflipflop
+x = 34, y = 34, rule = B3/S23
+16bo$15b3o3$15b3o2$15bobo$15bobo2$15b3o3$15b3o$16bo2$bo2bob2obo2bo15b
+2o$2o2bo4bo2b2o3b2o7bo4bo$bo2bob2obo2bo3bo2bo5bo6bo$16bobo5bo8bo$17bo
+6bo8bo$24bo8bo$25bo6bo$26bo4bo$28b2o$18b3o$17bo3bo$16bo5bo2$15bo7bo$
+15bo7bo2$16bo5bo$17bo3bo$18b3o!

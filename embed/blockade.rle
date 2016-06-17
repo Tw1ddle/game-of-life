@@ -1,0 +1,5 @@
+#N Blockade
+#C A 16-cell still life made up of four blocks.
+#C www.conwaylife.com/wiki/index.php?title=Blockade
+x = 23, y = 10, rule = B3/S23
+2o21b$2o21b3$b2o17b2ob$b2o17b2ob3$21b2o$21b2o!

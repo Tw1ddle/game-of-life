@@ -1,0 +1,6 @@
+#N Kok's galaxy
+#O Jan Kok
+#C A period 8 oscillator that was found in 1971.
+#C www.conwaylife.com/wiki/index.php?title=Kok's_galaxy
+x = 9, y = 9, rule = 23/3
+2bo2bobob$2obob3ob$bo6bo$2o5bob2$bo5b2o$o6bob$b3obob2o$bobo2bo!

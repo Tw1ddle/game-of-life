@@ -1,0 +1,7 @@
+#N HighLife 9-cell still lifes
+#C All 9 9-cell still lifes in the HighLife (23/36) rule.
+#C www.conwaylife.com/wiki/index.php?title=HighLife
+x = 84, y = 6, rule = b36/s23
+2o2b2o4b2o8b2o8b2o7b2o8b2o8b2o9b2o7b2o3b$obo2bo4bobo7bobo7bobo6bobo7bo
+bo8bo2b2o6bo8bo3b$3b2o6bobo7bobo8bo9bo9bo7bobobo5bo9bob2o$12bobo8bo8bo
+bo8bobo7bo7bo8bobo8bobo$13bo9b2o8b2o9b2o8bo16bobo8bob$53b2o17bo!

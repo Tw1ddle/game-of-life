@@ -1,0 +1,5 @@
+#N Maze 4-cell still lifes
+#C All 4-cell still lifes in the maze (12345/3) rule.
+#C www.conwaylife.com/wiki/index.php?title=Maze
+x = 23, y = 4, rule = b3/s12345
+2o2b2o3b2o3bo6bob$2o2bobo4bo3bo4bobo$11bo4bo4bob$17bo!

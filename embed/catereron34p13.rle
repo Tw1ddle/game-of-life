@@ -1,0 +1,8 @@
+#N Caterer on 34P13
+#O Jason Summers
+#C A small period 39 oscillator
+#C www.conwaylife.com/wiki/index.php?title=Caterer_on_34P13
+x = 23, y = 16, rule = b3/s23
+9b3o4b2o5b$18bo4b$9bo5bo7b$8b2o5bo3bo3b$10bo4bo3b4o$7bo9bo5b$7bo3bo11b
+$5b2o16b$3bo5b3o2b2o7b$ob2o4bo5b2o7b$o3bo3bo14b$o5bobo14b3$8b2o13b$8b
+2o!

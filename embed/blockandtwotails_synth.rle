@@ -1,0 +1,14 @@
+#N Block and two tails_synth
+#C Glider syntheses of block and two tails
+#C http://www.conwaylife.com/wiki/index.php?title=Block_and_two_tails
+x = 107, y = 81, rule = b3/s23
+46bo60b$45bo61b$45b3o30bo28b$79bo27b$77b3o8bo18b$45b2o19bo20bo18bo$44b
+2o8b3o7b3o20b3o14b3o$46bo7bo8bo27b3o9bo3b$55bo7bob2o24bo11bob2o$62b2ob
+2o16b2o7bo9b2ob2o$83bobo21b$83bo23b2$81b2o24b$80bobo24b$82bo24b2$35b3o
+69b$37bo69b$36bo70b10$41bo43bo21b$39bobo41bobo21b$40b2o42b2o21b2$41bo
+19b2o18b2o3bo20b$41b2o17bo2bo16bo2bo2bobo18b$40bobo17bo2bo16bo2bo2b2o
+18bo$61b2o14bo3b2o21b3o$5bo72bo24bo3b$3bobo19b2o18b2o18b2o9b3o6b2o16bo
+b2o$4b2o19b2o18b2o18b2o13b3o2b2o15b2ob2o$b2o79bo24b$obo78bo25b$2bo104b
+22$94bo12b$94bobo9bo$94b2o8b3o$103bo3b$79bobo21bob2o$79b2o21b2ob2o$80b
+o26b3$66bobo33b2ob2o$67b2o34bob2o$67bo15b2o18bo3b$83bobo18b3o$66b2o15b
+o22bo$59b2o6b2o23b3o12b$60b2o4bo25bo14b$59bo33bo!

@@ -1,0 +1,22 @@
+#Life 1.05
+#D Name: Noah's ark
+#D Author: Charles Corderman
+#D A diagonal puffer made up of two switch engines that was found in 1971.
+#D www.conwaylife.com/wiki/index.php?title=Noah's_ark
+#N
+#P -7 -7
+..........*.*
+.........*
+..........*..*
+............***
+.
+.
+.
+.
+.
+.*
+*.*
+.
+*..*
+..**
+...*

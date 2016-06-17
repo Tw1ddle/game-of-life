@@ -1,0 +1,8 @@
+#N Backrake 2
+#O David Buckingham
+#C A period 12 orthogonal c/2 backrake.
+#C www.conwaylife.com/wiki/index.php?title=Backrake_2
+x = 19, y = 26, rule = 23/3
+3bo15b$2b3o14b$b2obo5bo8b$b3o5b3o7b$2b2o4bo2b2o3b3o$8b3o4bo2bo$18bo$
+18bo$18bo$2b3o12bob$2bo2bo13b$2bo16b$2bo16b$3bo15b7$3o16b$o2bo11bo3b$o
+13b3o2b$o12b2obo2b$o12b3o3b$bo12b2o!

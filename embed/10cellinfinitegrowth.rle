@@ -1,0 +1,7 @@
+#N 10-cell infinite growth
+#O Paul Callahan
+#C A 10-cell infinite growth pattern found in 1997. No pattern with fe
+#C wer cells can exhibit infinite growth.
+#C www.conwaylife.com/wiki/index.php?title=Infinite_growth
+x = 8, y = 6, rule = 23/3
+6bob$4bob2o$4bobob$4bo3b$2bo5b$obo!

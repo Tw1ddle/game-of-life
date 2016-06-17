@@ -1,0 +1,8 @@
+#N p31 reflection
+#O Matthias Merzenich
+#C 48P31 acting as a 90-degree reflector
+#C http://www.conwaylife.com/wiki/index.php?title=48P31
+x = 35, y = 32, rule = b3/s23
+33bob$32bo2b$32b3o6$26bo8b$24b2o9b$25b2o8b9$7b2obo2bob2o18b$2o4bo2bo4b
+o2bo4b2o11b$2o5bobo4bobo5b2o11b$8bo6bo19b6$8bo6bo19b$2o5bobo4bobo5b2o
+11b$2o4bo2bo4bo2bo4b2o11b$7b2obo2bob2o!

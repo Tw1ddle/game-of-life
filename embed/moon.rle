@@ -1,0 +1,5 @@
+#N Moon
+#C A simple period-1 speed c spaceship in the "seeds" rule.
+#C http://www.conwaylife.com/wiki/Moon
+x = 2, y = 4, rule = B2/S
+bo$o$o$bo!

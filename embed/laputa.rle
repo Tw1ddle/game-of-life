@@ -1,0 +1,6 @@
+#N Laputa
+#O Rich Schroeppel
+#C A period 2 oscillator found in September 1992.
+#C www.conwaylife.com/wiki/index.php?title=Laputa
+x = 12, y = 7, rule = B3/S23
+3b2ob2o4b$3b2obo3b2o$8bo2bo$b6ob3ob$o2bobo6b$2o3bob2o3b$4b2ob2o!

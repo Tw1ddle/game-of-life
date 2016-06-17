@@ -1,0 +1,12 @@
+#N Tub with long long tail_synth
+#O Mark D. Niemiec
+#C Glider synthesis of tub with long long tail.
+#C http://home.interserv.com/~mniemiec/objname.htm#T
+x = 64, y = 53, rule = 23/3
+35bobo26b$36b2o26b$36bo7b2o18b$43b2o19b$35bo9bo18b$36bo24b2ob$34b3o25b
+ob$61bo2b$32b2o26bo3b$5bo16bo8bobo8bo17bobob$4bo16bobo9bo7bobo17bobo$b
+2ob3o13bo2bo16bo2bo18bob$obo18b2o18b2o21b$2bo61b6$32b3o29b$34bo29b$33b
+o30b9$35bobo26b$36b2o26b$36bo7b2o18b$43b2o19b$35bo9bo18b$36bo24b2ob$
+34b3o25bob$o3bo56bo2b$b2obobo25b2o26bo3b$2o2b2o16bo8bobo8bo17bobob$21b
+obo9bo7bobo17bobo$6b3o13bo19bo19bob$6bo57b$7bo56b5$31b2o31b$32b2o30b$
+31bo12bo19b$43b2o19b$43bobo!

@@ -1,0 +1,5 @@
+#N Bun
+#C An induction coil that is a common predecessor of the honey farm.
+#C www.conwaylife.com/wiki/index.php?title=Bun
+x = 4, y = 3, rule = B3/S23
+b2ob$o2bo$b3o!

@@ -1,0 +1,10 @@
+#N 2x2 period 2 oscillators
+#O Lewis Patterson
+#C A collection of period 2 oscillators in the 2x2 (125/36) rule.
+#C www.conwaylife.com/wiki/index.php?title=2x2
+x = 51, y = 16, rule = 125/36
+49b2o$34b2o11b2obo$27b2o4bobo4bo5bobo2b$2b2o3b2o4b2o4b3o4bo13bo5bo4b$
+3bo3b2o6bo2bobobo2bobo3bobo4bobobo4bobob$b2o4b2o3b2o4bobobo2bo5b2o5b2o
+2bo5b2ob$7b2o42b3$37b2o6b2o4b$2b2o5b2o7bo7bo2bo6bo2bo5bo5b$3bo5bob2o5b
+ob2o5b3o4b3obo4bob4o2b$o3b2o5b2o7bobo3b3o4bo9b4obo2b$2o3bo5b2obo3bob2o
+4bo2bo4b2o10bo4b$2bo10b2o3bo26b2o4b$2b2o!

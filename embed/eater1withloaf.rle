@@ -1,0 +1,5 @@
+#N Eater 1 with loaf
+#C An eater 1 about to eat a loaf.
+#C www.conwaylife.com/wiki/index.php?title=Eater_1
+x = 9, y = 7, rule = b3/s23
+2bo6b$bobo5b$o2bo5b$b2o2b2o2b$5bobob$7bob$7b2o!

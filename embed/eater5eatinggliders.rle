@@ -1,0 +1,5 @@
+#N Eater 5 eating gliders
+#C An eater 5 eating gliders from different directions
+x = 13, y = 14, rule = b3/s23
+2bo10b$obo10b$b2o10b2$7bo5b$7bobo3b$7b2o4b2$11b2o$7bo3b2o$6bobo4b$5bob
+o5b$5bo7b$4b2o!

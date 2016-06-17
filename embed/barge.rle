@@ -1,0 +1,5 @@
+#N Barge
+#C A common 6-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Barge
+x = 4, y = 4, rule = B3/S23
+bo2b$obob$bobo$2bo!

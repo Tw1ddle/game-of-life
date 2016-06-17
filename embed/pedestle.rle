@@ -1,0 +1,7 @@
+#N Pedestle
+#C A period 5 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Pedestle
+x = 11, y = 17, rule = B3/S23
+5bo5b$4bobo4b$bo2b2o5b$b3o7b$5b3o3b$3b2o3bo2b$2bo4bo2bo$bobobobob2o$bo
+bo3bobob$2obobobobob$o2bo4bo2b$2bo3b2o3b$3b3o5b$7b3ob$5b2o2bob$4bobo4b
+$5bo!

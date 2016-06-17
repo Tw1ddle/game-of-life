@@ -1,0 +1,9 @@
+#N Do-see-do
+#O David Bell
+#C The do-see-do reaction discovered in 1996
+#C http://www.conwaylife.com/wiki/index.php?title=Twin_bees_shuttle
+x = 55, y = 38, rule = b3/s23
+54bo$52b2ob$53b2o17$48b2o5b$48bo6b$46bobo6b$46b2o7b$31bo23b$29b2o24b$
+30b2o23b$24bo30b$10b2o9b2o3bo28b$2o7bobo9b2obob2o27b$2o7bo10bo6b2o26b$
+9b3o9b2obob2o27b$21b2o3bo28b$24bo30b2$9b3o43b$2o7bo17b2o26b$2o7bobo15b
+2o26b$10b2o!

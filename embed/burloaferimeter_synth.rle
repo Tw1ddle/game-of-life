@@ -1,0 +1,21 @@
+#N Burloaferimeter_synth
+#O Mark D. Niemiec
+#C Glider synthesis of burloaferimeter.
+#C http://home.interserv.com/~mniemiec/objname.htm#B
+x = 158, y = 41, rule = 23/3
+40bo117b$41b2o2bobo110b$2bo37b2o3b2o18bo19bo19bo19bo19bo12b$bo44bo17bo
+bo17bobo17bobo17bobo17bobo11b$b3o59bobo17bobo6bo10bobobo15bobobo15bobo
+bo10b$22b2o18b2o19bo19bo7b2o10bo3bo15bo3bo15bo3bo10b$bo19bobo17bobo16b
+2obo16b2obo7bobo6b2obo3b2o11b2obo3b2o11b2obo3b2o9b$b2o19bo19bo17bobo
+17bobo17bobo17bobo17bobo15b$obo35b2o46b2o55b3o9b2ob$34bo2b2o46bobo6bo
+41bo8bo10b2o$35bo3bo47bo5b2o39b2o19bo2b$33b3o57bobo25b2o2b2o3b3o2b2o
+21b$120bobo2bobo2bo27b$90b3o29bo2bo5bo26b$92bo65b$91bo66b3$121bo36b$
+121b2o35b$120bobo35b2$5bo19bo19bo19bo19bo19bo52b$4bobo17bobo17bobo17bo
+bo17bobo6bo10bobo51b$3bobobo15bobobo15bobobo15bobobo15bobobo5bobo7bobo
+bo50b$3bo3bo15bo3bo15bo3bo15bo3bo15bo3bo5b2o8bo3bo50b$2obo3b2o3bo7b2ob
+o3b3o10b2obo3b3o10b2obo3b3o10b2obo3b3o10b2ob2o2bob2o47b$obo9bobo5bobo
+7bo9bobo7bo9bobo7bo9bobo7bo9bobo4bob2o47b$3b3o6b2o9b3o3b2o12b3o3b2o12b
+3o3b2o12b3o3b2o12b4o51b$5bo19bo19bo19bo19bo6b2o3b2o59b$11bo53bobo17bob
+o4bobo2bobo5b2o51b$10b2o54b2o18b2o4bo4bo7b2o51b$10bobo35b2o108b$47b2o
+39b3o67b$49bo32b3o3bo69b$84bo4bo68b$47b2o17bo16bo74b$46bobo17bobo89b$
+48bo17b2o20b3o67b$88bo69b$89bo!

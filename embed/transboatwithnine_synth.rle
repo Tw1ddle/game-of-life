@@ -1,0 +1,13 @@
+#N Trans-boat with nine_synth
+#C Glider syntheses of Trans-boat with nine
+#C http://www.conwaylife.com/wiki/index.php?title=Trans-boat_with_nine
+x = 138, y = 88, rule = b3/s23
+73bo3bobo58b$72bo4b2o59b$72b3o3bo36bo22b$116b2o20b$115b2o2bobo16b$71bo
+47b2o17b$69bobo9bo38bo17b$70b2o9bobo54b$81b2o9b2o22bo7b2o6b2o4b$92bobo
+20b2o7bobo5bobo3b$94bo20bobo6bo9bo3b$94bobo37bobob$95bobo37bobo$96b2o
+38b2o4$114b2o22b$113bobo9bo12b$115bo8b2o12b$124bobo11b13$124bo13b$123b
+o14b$123b3o12b2$51bo86b$51bobo84b$51b2o85b9$94bo4bo38b$95bob2o39b$93b
+3o2b2o38b8$59b2ob2o68b2o4b$59b2obobo67bobo3b$64bo69bo3b$64bobo67bobob$
+65bobo67bobo$66b2o68b2o$36bo101b$24bo11bobo99b$22bobo11b2o100b$23b2o8b
+o104b$34b2o102b$33b2o103b$73b2o63b$72bobo63b$74bo63b5$3o135b$2bo135b$b
+o136b5$87b3o48b$89bo41b2o5b$88bo41b2o6b$132bo!

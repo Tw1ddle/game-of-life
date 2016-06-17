@@ -1,0 +1,7 @@
+#N Hivenudger
+#O Hartmut Holzwart
+#C A period 4 c/2 orthogonal spaceship.
+#C www.conwaylife.com/wiki/index.php?title=Hivenudger
+x = 13, y = 13, rule = B3/S23
+4o5bo2bo$o3bo3bo4b$o7bo3bo$bo2bo3b4ob2$5b2o6b$5b2o6b$5b2o6b2$bo2bo3b4o
+b$o7bo3bo$o3bo3bo4b$4o5bo2bo!

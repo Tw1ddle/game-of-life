@@ -1,0 +1,14 @@
+#N p63 glider loop
+#O Mike Playle
+#C A period-63 oscillator based on a stable reflector
+#C Discovered on 25 Apr 2013
+x = 85, y = 85, rule = B3/S23
+37b2o$37bobo$39bo4b2o$35b4ob2o2bo2bo$35bo2bo3bobob2o$38bobobobo$39b2ob
+obo$43bo2$29b2o$30bo8bo$30bobo5b2o$31b2o$45bo$46bo$44b3o4$41b2o$41bo$
+42b3o$30bo13bo$30b2o$29bobo5$60bo14bo$61b2o10b3o$60b2o10bo$72b2o3$80b
+2o$81bo$3b2o76bob2o$4bo9b2o57bo5b3o2bo$2bo10bobo57b2o3bo3b2o$2b5o8bo5b
+2o55b2obo$7bo13bo42b2o15bo$4b3o12bobo41bobo12b3o$3bo15b2o42bo13bo$3bob
+2o55b2o5bo8b5o$b2o3bo3b2o57bobo10bo$o2b3o5bo57b2o9bo$2obo76b2o$3bo$3b
+2o3$11b2o$12bo10b2o$9b3o10b2o$9bo14bo5$53bobo$53b2o$40bo13bo$40b3o$43b
+o$42b2o4$38b3o$38bo$39bo$52b2o$45b2o5bobo$45bo8bo$54b2o2$41bo$40bobob
+2o$40bobobobo$37b2obobo3bo2bo$37bo2bo2b2ob4o$39b2o4bo$45bobo$46b2o!

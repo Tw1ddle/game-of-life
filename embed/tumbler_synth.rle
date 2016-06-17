@@ -1,0 +1,24 @@
+#N Tumbler_synth
+#O Mark D. Niemiec
+#C Glider synthesis of tumbler.
+#C http://home.interserv.com/~mniemiec/objname.htm#T
+x = 113, y = 111, rule = 23/3
+69bo17bo25b$67bobo17bobo23b$68b2o17b2o24b$12bobo7bobo88b$8b2o3b2o7b2o
+3b2o11b2o13b2o13b2o13b2o26b$9b2o2bo9bo2b2o12b2o13b2o13b2o13b2o26b$8bo
+19bo17b2ob2o25b2ob2o25b2ob2o2b$46bo3bo25bo3bo25bo3bo2b$44bo2bobo2bo21b
+o2bobo2bo21bo2bobo2bo$14b2o5b2o21bobo3bobo21bobo3bobo21bobo3bobo$13bob
+o5bobo21bo5bo23bo5bo23bo5bob$15bo5bo91b19$18bo19bo74b$16bobo19bobo72b$
+17b2o19b2o73b5$9bo37bo65b$10bo35bo66b$8b3o35b3o64b3$80bobo11bobo16b$
+81b2o3bo3bo3b2o17b$81bo5bobo5bo17b$85b3ob3o21b$56b2ob2o45b2ob2o2b$22bo
+bo7bobo21bo3bo19bo15bo9bo3bo2b$23b2o7b2o20bo2bobo2bo18bo3b3ob3o3bo8bo
+2bobo2bo$23bo9bo20bobo3bobo16b3o5bobo5b3o6bobo3bobo$55bo5bo24bo3bo14bo
+5bob$24b3o3b3o80b$26bo3bo46bo21bo13b$25bo5bo45b2o19b2o13b$76bobo19bobo
+12b11$37b3o73b$37bo75b$38bo74b7$15bo12bo84b$14bo12bo85b$14b3o10b3o83b
+3$10bo102b$8bobo54bo47b$2bo6b2o13bobo38bo47b$obo22b2o3bo34bo47b$b2o22b
+o3bo83b$7b2o20b3o81b$8b2o36b3o64b$7bo48b2ob2o52b$50b2o4bo3bo4b2o46b$
+20bo13b2o14b2o2bo2bobo2bo2b2o46b$21b2obobo7bobo17bobo3bobo50b$20b2o2b
+2o8bo20bo5bo51b$17bo7bo87b$15bobo95b$16b2o95b$2bo52bo5bo51b$obo51bobo
+3bobo50b$b2o47b2o2bo2bobo2bo2b2o46b$50b2o4bo3bo4b2o46b$29bo26b2ob2o52b
+$27b2o39b3o42b$5b3o20b2o83b$7bo3bo22b2o77b$6bo3b2o22bobo14bo61b$10bobo
+13b2o6bo16bo61b$26bobo22bo61b$26bo86b3$7b3o10b3o90b$9bo12bo90b$8bo12bo
+!

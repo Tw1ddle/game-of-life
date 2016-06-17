@@ -1,0 +1,21 @@
+#Life 1.05
+#D Name: Beacon maker
+#D A fuse that creates beacons as its burns.
+#D www.conwaylife.com/wiki/index.php?title=Beacon_maker
+#N
+#P -8 -7
+..............**
+.............*.*
+............*
+...........*
+..........*
+.........*
+........*
+.......*
+......*
+.....*
+....*
+...*
+***
+..*
+..*

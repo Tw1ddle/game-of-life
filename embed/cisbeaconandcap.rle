@@ -1,0 +1,5 @@
+#N Cis-beacon and cap
+#C A period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Cis-beacon_and_cap
+x = 4, y = 8, rule = b3/s23
+2b2o$3bo$o3b$2o2b2$4o$o2bo$b2o!

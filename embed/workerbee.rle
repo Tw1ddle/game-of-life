@@ -1,0 +1,7 @@
+#N Worker bee
+#O David Buckingham
+#C A period 9 oscillator found in 1972.
+#C www.conwaylife.com/wiki/index.php?title=Worker_bee
+x = 16, y = 11, rule = 23/3
+2o12b2o$bo12bob$bobo8bobob$2b2o8b2o2b2$5b6o5b2$2b2o8b2o2b$bobo8bobob$b
+o12bob$2o12b2o!

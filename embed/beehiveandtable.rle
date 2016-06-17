@@ -1,0 +1,5 @@
+#N Beehive and table
+#C A 12-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Beehive_and_table
+x = 5, y = 6, rule = B3/S23
+2b2ob$bo2bo$2b2ob2$4ob$o2bo!

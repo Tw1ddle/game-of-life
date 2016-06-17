@@ -1,0 +1,21 @@
+#N 112P51 extended
+#O Nicolay Beluchenko
+#C An extension of the period 51 oscillator 112P51.
+#C www.conwaylife.com/wiki/index.php?title=112P51
+x = 64, y = 64, rule = 23/3
+15b2o3b2o42b3$6b2o21b2o33b$6b2o21b2o33b2$3b2o27b2o30b$3b2o9b2o5b2o9b2o
+30b$9b3ob2o7b2ob3o36b$8bobo15bobo35b$8b2o17b2o35b$8bo19bo35b2$8bo19bo
+35b$7b2o19b2o34b$o6bo21bo6bo27b$o35bo27b4$o35bo27b$o6bo21bo6bo27b$7b2o
+19b2o34b$8bo19bo35b2$8bo19bo10bo9bo14b$8b2o17b2o10b2o7b2o14b$8bobo15bo
+bo8b5o5b5o12b$9b3ob2o7b2ob3o14bo3bo17b$3b2o9b2o5b2o9b2o7b3ob3o7b2o7b$
+3b2o27b2o2b2o3b2o3b2o3b2o2b2o7b$38bo2b3ob3o2bo13b$6b2o21b2o6b2o2bo5bo
+2b2o6b2o4b$6b2o21b2o8b2o7b2o8b2o4b$39b3o5b3o14b$40bo7bo15b$15b2o3b2o8b
+o8b2ob2ob2ob2o8bo5b$27bo2bobo6b2ob2ob2ob2o6bobo2bo2b$27bo3b2o8bo5bo8b
+2o3bo2b$25b3o5b2ob2o13b2ob2o5b3o$26b2o5b5o13b5o5b2ob$27bob4obo3bo11bo
+3bob4obo2b$28b4o4b2o13b2o4b4o3b$29bobo4b2o13b2o4bobo4b2$29bobo4b2o13b
+2o4bobo4b$28b4o4b2o13b2o4b4o3b$27bob4obo3bo11bo3bob4obo2b$26b2o5b5o13b
+5o5b2ob$25b3o5b2ob2o13b2ob2o5b3o$27bo3b2o8bo5bo8b2o3bo2b$27bo2bobo6b2o
+b2ob2ob2o6bobo2bo2b$30bo8b2ob2ob2ob2o8bo5b$40bo7bo15b$39b3o5b3o14b$29b
+2o8b2o7b2o8b2o4b$29b2o6b2o2bo5bo2b2o6b2o4b$38bo2b3ob3o2bo13b$32b2o2b2o
+3b2o3b2o3b2o2b2o7b$32b2o7b3ob3o7b2o7b$42bo3bo17b$37b5o5b5o12b$39b2o7b
+2o14b$39bo9bo!

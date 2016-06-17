@@ -1,0 +1,45 @@
+#N P94S2
+#O David Bell & Jason Summers
+#C A true period 94 glider gun using the AK47 reaction.
+#C www.conwaylife.com/wiki/index.php?title=P94S
+#C Based on a gun by Dean Hickerson, 1990. Based on "AK47" reaction, d
+#C iscovered independently by Dave Buckingham and Rich Schroeppel.
+#C 
+#C Dean Hickerson's eater is essential in making the gun so compact.
+#C 
+#C See "P94S" for the original true-period gun.
+x = 174, y = 149, rule = b3/s23
+126b2o7bo38b$126b2o5b3o38b$132bo8bo32b$106bo7b2o16b2o5b3o6b2o7bo16b$
+106b3o5b2o22bo9b2o5b3o16b$61bo7b2o29bo8bo14bo13b2o14bo8bo10b$36b2o7bo
+15b3o5b2o11b2o7bo8b3o5b2o12bo2bo28b2o5b3o10b$36b2o5b3o18bo17b2o5b3o11b
+o17bobo2bo33bo13b$42bo20b2o23bo8bo4b2o18b2o27b3o6b2o12b$16bo7b2o16b2o
+44b2o5b3o24bo4bo22bo3bo19b$16b3o5b2o68bo31b2o21bo5bo18b$10bo8bo14bo37b
+o21b2o18b2o33bo5bo18b$10b3o5b2o12bo2bo36bo5b2o34bo4bo29bo5bo18b$13bo
+17bobo2bo35b2o3bo40b2o12b3o15bo3bo19b$12b2o18b2o40bo2b2o36bo2bobo10bo
+3bo15b3o20b$32bo4bo36b2o2bo37bo2bo10bo5bo37b$36b2o37bo3b2o26b3o7bo12bo
+5bo37b$24b2o47b2o5bo25bo3bo19bo5bo37b$24bo4bo32b3o15bo24bo5bo19bo3bo
+38b$28b2o12b3o16bo3bo22b3o14bo5bo12b2o6b3o31b2o6b$25bo2bobo10bo3bo14bo
+5bo20bo3bo13bo5bo13bo40b2o6b$26bo2bo10bo5bo13bo5bo19bo5bo13bo3bo11b3o
+5b2o42b$17b3o7bo12bo5bo13bo5bo19bo5bo14b3o6b2o4bo8bo42b$16bo3bo19bo5bo
+14bo3bo20bo5bo23bo11b3o5b2o28b2o6b$15bo5bo19bo3bo16b3o22bo3bo18b2o5b3o
+8bo7b2o14b2o12bobo5b$6b2o7bo5bo12b2o6b3o43b3o19bo8bo33bo14bo2bo2b$6b2o
+7bo5bo13bo29b2o37b2o5b3o36b3o5b2o8bobobob$16bo3bo11b3o5b2o23bo20b2o16b
+2o7bo26bobo7bo7b2o7b2obobob$17b3o12bo8bo17b2o5b3o18bo52b2o28bob2o$6b2o
+30b3o5b2o11b2o7bo15b3o5b2o47bo28bo3b$5bobo12b2o16bo7b2o36bo7b2o74bobo
+3b$2bo2bo14bo147b2o4b$bobobo8b2o5b3o150b$bobob2o7b2o7bo150b$2obo170b$
+3bo170b$3bobo168b$4b2o7b2o159b$13bobo158b$13bo160b4$147b2o25b$44bo103b
+2o24b$45bo101bo26b$43b3o128b4$118bo55b$116b2o56b$117b2o55b9$36b3o135b$
+36bo137b$37bo136b3$124bo49b$124b2o48b$68bo54bobo48b$66bobo105b$67b2o
+105b4$93bobo78b$93b2o79b$94bo79b8$60b2o112b$60bobo111b$60bo113b4$100b
+2o72b$91bo9b2o71b$92bo7bo73b$90b3o81b4$71bo102b$69b2o103b$70b2o102b9$
+83b3o88b$83bo90b$84bo89b$49b2o123b$48bobo123b$48bo28bo96b$45b2obo28b2o
+95b$46bobob2o7b2o7bo7bobo36bo58b$46bobobo8b2o5b3o44bobo58b$47bo2bo14bo
+48b2o7b2o49b$50bobo12b2o56bobo48b$51b2o72bo48b$125bob2o45b$105bo7b2o7b
+2obobo46b$51b2o52b3o5b2o8bobobo46b$51b2o55bo14bo2bo47b$81b2o7bo16b2o
+12bobo50b$81b2o5b3o30b2o51b$87bo8bo12b3o62b$87b2o5b3o11bo3bo61b$65b3o
+25bo13bo5bo7b2o51b$64bo3bo15b3o6b2o12bo5bo7b2o51b$63bo5bo13bo3bo19bo5b
+o60b$63bo5bo12bo5bo19bo3bo61b$63bo5bo12bo5bo12bo7b3o62b$64bo3bo13bo5bo
+10bo2bo71b$57b2o6b3o15bo3bo10bobo2bo70b$58bo25b3o12b2o73b$55b3o5b2o34b
+o4bo69b$55bo8bo38b2o69b$61b3o5b2o20b2o81b$61bo7b2o20bo4bo77b$95b2o77b$
+92bo2bobo76b$93bo2bo12b2o63b$79b2o13bo14bo64b$80bo22b2o5b3o61b$77b3o5b
+2o16b2o7bo7bobo51b$77bo8bo34b2o51b$83b3o5b2o28bo52b$83bo7b2o!

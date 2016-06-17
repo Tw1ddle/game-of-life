@@ -1,0 +1,12 @@
+#Life 1.05
+#D Name: Two-glider mess
+#D The longest-lived two-glider collision.
+#D www.conwaylife.com/wiki/index.php?title=Two-glider_mess
+#N
+#P -13 -2
+...*.*
+....**
+....*
+***
+..*
+.*

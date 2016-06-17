@@ -1,0 +1,5 @@
+#N Sidewalk
+#C A 14-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Sidewalk
+x = 6, y = 5, rule = B3/S23
+b2ob2o$2bobob$bo2bob$bobo2b$2ob2o!

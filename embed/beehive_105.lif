@@ -1,0 +1,10 @@
+#Life 1.05
+#D Name: Beehive
+#D Author: John Conway
+#D The second most common still life.
+#D www.conwaylife.com/wiki/index.php?title=Beehive
+#N
+#P -2 -1
+.**
+*..*
+.**

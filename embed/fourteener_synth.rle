@@ -1,0 +1,9 @@
+#N Fourteener_synth
+#O Dean Hickerson and David Buckingham
+#C Glider syntheses of fourteener
+#C http://www.conwaylife.com/wiki/index.php?title=Fourteener
+x = 76, y = 25, rule = b3/s23
+64bo11b$43bo19bo12b$41bobo19b3o10b$42b2o32b7$42bobo31b$43b2o31b$43bo
+32b3$17bo58b$16bo39b2o2b2o14b$6bo9b3o36bobob2o15b$7b2o24b2o22bo3bo11b
+2ob$6b2o21b2o2bobo33b2o2bobo$29bo5bo33bo5bo$b2o27b5o35b5ob$obo2b2o25bo
+39bo3b$2bo2bobo68b$5bo!

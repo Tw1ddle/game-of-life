@@ -1,0 +1,17 @@
+#Life 1.05
+#D Name: A for all
+#D Author: Dean Hickerson
+#D A period 6 oscillator found in March 1993.
+#D www.conwaylife.com/wiki/index.php?title=A_for_all
+#N
+#P -5 -5
+....**
+...*..*
+...****
+.*.*..*.*
+*........*
+*........*
+.*.*..*.*
+...****
+...*..*
+....**

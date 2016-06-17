@@ -1,0 +1,17 @@
+#Life 1.05
+#D Name: R2D2
+#D Author: Peter Raynham
+#D A period 8 oscillator.
+#D http://www.conwaylife.com/wiki/index.php?title=R2D2
+#N
+#P -5 -5
+.....*
+....*.*
+...*.*.*
+...*.*.*
+**.*...*.**
+**.*...*.**
+...*...*
+...*.*.*
+....*.*
+.....*

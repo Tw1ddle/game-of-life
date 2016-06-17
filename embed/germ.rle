@@ -1,0 +1,7 @@
+#N Germ
+#O David Buckingham
+#C A period 3 oscillator found in September 1972.
+#C www.conwaylife.com/wiki/index.php?title=Germ
+x = 10, y = 10, rule = B3/S23
+4b2o4b$5bo4b$3bo6b$2bob4o2b$2bo4bo2b$b2obo5b$2bobob4o$obobo4bo$2o3b3o
+2b$7b2o!

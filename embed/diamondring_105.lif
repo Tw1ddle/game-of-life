@@ -1,0 +1,20 @@
+#Life 1.05
+#D Name: Diamond ring
+#D Author: David Buckingham
+#D A period 3 oscillator found in 1972.
+#D www.conwaylife.com/wiki/index.php?title=Diamond_ring
+#N
+#P -6 -6
+......*
+.....*.*
+....*.*.*
+....*...*
+..**..*..**
+.*....*....*
+*.*.**.**.*.*
+.*....*....*
+..**..*..**
+....*...*
+....*.*.*
+.....*.*
+......*

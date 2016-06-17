@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Bunnies 10
+#D Author: Tomas Rokicki
+#D A methuselah with lifespan 17423 that evolves similarly to bunnies after gene
+#D ration 104.
+#D www.conwaylife.com/wiki/index.php?title=Bunnies_10
+#N
+#P -3 -3
+.*
+**.*
+....**
+*..*
+*
+*

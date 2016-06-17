@@ -1,0 +1,10 @@
+#N 151P3H1V0
+#C A non-monotonic c/3 spaceship based on 233P3H1V0
+#C http://www.conwaylife.com/wiki/index.php?title=233P3H1V0
+x = 33, y = 21, rule = b3/s23
+9b5ob3ob5o9b$8b3o2bobobobo2b3o8b$7bo4b2obobob2o4bo7b$11bo2b2ob2o2bo11b
+$6bo6bobobobo6bo6b$6b2o4bobo3bobo4b2o6b$6b2ob2o11b2ob2o6b$10bo2bo5bo2b
+o10b$4b2o4bobo7bobo4b2o4b$6bo4bo9bo4bo6b2$5b2o19b2o5b$2b2o25b2o2b$2b2o
+2b2obo13bob2o2b2o2b$bo4b5o11b5o4bob$7bo3bo9bo3bo7b$7b3obo9bob3o7b$b2o
+4bobob2o7b2obobo4b2ob$b2ob2o4bobo7bobo4b2ob2ob$o3b2o21b2o3bo$4b2o21b2o
+!

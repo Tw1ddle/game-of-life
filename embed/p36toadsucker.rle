@@ -1,0 +1,8 @@
+#N p36 toadsucker
+#O Robert Wainwright
+#C A period 36 toadsucker
+x = 21, y = 26, rule = b3/s23
+2o16b2ob$bo16bo2b$bobo12bobo2b$2b2o12b2o3b$7bo4bo8b$5b2ob4ob2o6b$7bo4b
+o8b$2b2o12b2o3b$bobo12bobo2b$bo16bo2b$2o16b2ob$11bo9b$9bo2bo8b$9bo2bo
+8b$10bo10b$b2o16b2o$2bo16bob$2bobo12bobob$3b2o12b2o2b$8bo4bo7b$6b2ob4o
+b2o5b$8bo4bo7b$3b2o12b2o2b$2bobo12bobob$2bo16bob$b2o16b2o!

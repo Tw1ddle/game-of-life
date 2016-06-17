@@ -1,0 +1,12 @@
+#N Barge (spaceship)
+#O Hartmut Holzwart and David Bell
+#C A period 3 c/3 orthogonal extendable spaceship.
+#C www.conwaylife.com/wiki/index.php?title=Barge_(spaceship)
+x = 61, y = 20, rule = b3/s23
+7bo45bo7b$5b4o5b3o27b3o5b4o5b$b2ob2o3bo3bo33bo3bo3b2ob2ob$b2o2bo5b3o4b
+o3bo15bo3bo4b3o5bo2b2ob$o2bo7bobob5ob4o11b4ob5obobo7bo2bo$9bo6bo2bobo
+3bob2o3b2obo3bobo2bo6bo9b$10bo16b2o3b2o16bo10b$22bo3bo2bobo2bo3bo22b$
+22bobo11bobo22b$23bo13bo23b$22b2o3bo5bo3b2o22b$21b2o2b4o3b4o2b2o21b$
+25bo3bobo3bo25b$21b2o6bobo6b2o21b$22bo4bobobobo4bo22b$21bo4b2obobob2o
+4bo21b$22b2obo3bobo3bob2o22b$22b4o2b2ob2o2b4o22b$21b2o3bo2bobo2bo3b2o
+21b$28bo3bo!

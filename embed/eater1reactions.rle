@@ -1,0 +1,10 @@
+#N Eater 1 reactions
+#C Several objects that eater 1 can be used to eat.
+#C www.conwaylife.com/wiki/index.php?title=Eater_1
+x = 101, y = 15, rule = b3/s23
+bobo97b$4bo96b$o3bo77bo18b$4bo8b5o8b4o10bo9b2o9bo9bo9bobo17b$bo2bo7bo
+4bo7bo3bo8bobo9b2o9bo8bobo8bobo17b$2b3o12bo11bo9b2o9b2o9bo7bo2bo9b2o
+17b$6b2o4bo3bo2b2o4bo2bo2b2o9b2o9b2o8b2o5b2o2b2o9b2o7b2o5b$bo4bobo5bo
+4bobo9bobo8bobo8bobo7bobo8bobo8bobo6bobo4b$obo5bo12bo11bo10bo10bo9bo
+10bo10bo8bo4b$bo6b2o11b2o10b2o9b2o9b2o8b2o9b2o9b2o7b2o2bo$99b2o$99bob$
+99bob$100bo$100bo!

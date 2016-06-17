@@ -1,0 +1,19 @@
+#N Carrier siamese snake_synth
+#O Mark D. Niemiec
+#C Glider synthesis of carrier siamese snake.
+#C http://home.interserv.com/~mniemiec/objname.htm#C
+x = 151, y = 92, rule = 23/3
+31bo119b$30bo120b$30b3o118b4$o132bobo15b$b2o131b2o15b$2o132bo16b5$44b
+2ob2o15b2ob2o15b2ob2o41b2o2b3o7b2ob2o2b$44bob2o2bo13bob2o2bo13bob2o2bo
+40b2obo9bob2o2bo$49b2o18b2o18b2o39bo4bo13b2o6$6bobo33b2o18b2o87b$6b2o
+34b2o18b2o87b$7bo143b$60b2o63b2o24b$6b2o51bobo63bobo23b$6bobo52bo63bo
+25b$6bo94b2o48b$100bobo48b$102bo6b2o40b$108bobo40b$110bo40b5$27b2o122b
+$26b2o123b$28bo122b5$114bo14bo21b$115b2o10b2o22b$114b2o12b2o21b$120bo
+30b$118bobo30b$35bo83b2o30b$35bobo74bo38b$35b2o76bo37b$71bo39b3o37b$
+36b2o31bobo79b$35bobo19b2o11b2o5b2o15b2ob2o25b2ob2o15b2ob2o2b$37bo2bo
+16bo2bo12b2o2bo2bo13b2obo2bo14b3o6b2obo2bo13bob2o2bo$40bobo16b2o11bobo
+4b2o18b2o16bo11b2o18b2o$40b2o32bo41bo34b2$41b2o108b$40bobo73b3o32b$42b
+o75bo5b2o25b$117bo6bobo24b$124bo26b13$131bo19b$131bobo17b$131b2o18b3$
+87bobo40b2o19b$88b2o39b2o20b$88bo42bo19b$90bo13b2obo16b2obo16b2ob2o2b$
+85b2o2bo14bob2o16bob2o16bob2o2bo$84b2o3b3o39b2o16b2o$86bo43bobobo16b$
+81b2o49bobobo14b$82b2o50b2o15b$81bo45b2o22b$128b2o21b$127bo!

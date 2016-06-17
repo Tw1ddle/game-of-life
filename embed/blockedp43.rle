@@ -1,0 +1,7 @@
+#N Blocked p4-3
+#O Adam P. Goucher
+#C A period 4 oscillator.
+#C www.conwaylife.com/wiki/Blocked_p4-3
+x = 21, y = 9, rule = b3/s23
+4bo3bobobo3bo4b$3bobo9bobo3b$3bobo9bobo3b$2obobob7obobob2o$2obo13bob2o
+$3bo13bo3b$3bobo4bo4bobo3b$4b2o3bobo3b2o4b$10bo!

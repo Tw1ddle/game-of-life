@@ -1,0 +1,12 @@
+#N 114P6H1V0 pushalong
+#O Hartmut Holzwart
+#C A pushalong for the c/6 orthogonal period 6 spaceship 114P6H1V0.
+#C www.conwaylife.com/wiki/index.php?title=114P6H1V0
+x = 30, y = 43, rule = 23/3
+5b3o14b3o5b$3obo20bob3o$4bo3bo12bo3bo4b$4bo4bo10bo4bo4b$10bo8bo10b$6bo
+7b2o7bo6b$7b2ob2ob4ob2ob2o7b$11bobo2bobo11b4$11bo6bo11b$10bobob2obobo
+10b$10b2o2b2o2b2o10b$14b2o14b2$12b2o2b2o12b$12b2o2b2o12b$13b4o13b$13bo
+2bo13b$12bo4bo12b$12bo4bo12b$12bob2obo12b$13bo2bo13b$13bo2bo13b2$7bo
+14bo7b$7b2o4bo2bo4b2o7b$7bo5b4o5bo7b$8b2o4b2o4b2o8b$9bo10bo9b$7bobo10b
+obo7b$8b5o4b5o8b$10bo2b4o2bo10b$9bo4b2o4bo9b$13bo2bo13b$14b2o14b$11b2o
+b2ob2o11b2$10bo8bo10b$9b3o6b3o9b$9bo2bo4bo2bo9b$8b2o10b2o!

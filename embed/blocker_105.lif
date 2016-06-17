@@ -1,0 +1,12 @@
+#Life 1.05
+#D Name: Blocker
+#D Author: Robert Wainwright
+#D A period 8 oscillator.
+#D www.conwaylife.com/wiki/index.php?title=Blocker
+#N
+#P -5 -2
+......*.*
+.....*
+**..*....*
+**.*..*.**
+....**

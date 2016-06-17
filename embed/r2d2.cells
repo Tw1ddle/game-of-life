@@ -1,0 +1,14 @@
+!Name: R2D2
+!Author: Peter Raynham
+!A period 8 oscillator.
+!http://www.conwaylife.com/wiki/index.php?title=R2D2
+.....O
+....O.O
+...O.O.O
+...O.O.O
+OO.O...O.OO
+OO.O...O.OO
+...O...O
+...O.O.O
+....O.O
+.....O

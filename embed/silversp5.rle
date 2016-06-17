@@ -1,0 +1,6 @@
+#N Silver's p5
+#O Stephen Silver
+#C A period 5 oscillator found in February 2000.
+#C www.conwaylife.com/wiki/index.php?title=Silver's_p5
+x = 11, y = 7, rule = B3/S23
+2o9b$o10b$bo2bo6b$3b2o6b$3bo3bob2o$2bo4b2obo$2b2o!

@@ -1,0 +1,11 @@
+#N 160P10H2V0
+#O Paul Tooke
+#C The first period-10, c/5 orthogonal spaceship to be discovered
+#C http://www.conwaylife.com/wiki/index.php?title=160P10H2V0
+x = 19, y = 37, rule = b3/s23
+7bobobo7b$6b7o6b$5bo7bo5b$b3ob3o3b3ob3ob$o17bo$bo7bo7bob$bob2o9b2obob
+2$2b3o9b3o2b$2b3o9b3o2b$5bo7bo5b$bo4bo5bo4bob$bobo11bobob$7bo3bo7b$7bo
+3bo7b$5bo2bobo2bo5b$5bo7bo5b$4bo9bo4b$4bobo5bobo4b$4b2obo3bob2o4b$5bob
+2ob2obo5b$7bobobo7b$8bobo8b$6bobobobo6b$5b2obobob2o5b$8bobo8b$7b2ob2o
+7b$4b3obobob3o4b$4bobobobobobo4b$4bo3bobo3bo4b$8bobo8b$4bo2b5o2bo4b$3b
+4o5b4o3b$b2o13b2ob$b2obo9bob2ob$2bobo4bo4bobo2b$4b2o7b2o!

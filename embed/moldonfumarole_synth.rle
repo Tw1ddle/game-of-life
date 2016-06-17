@@ -1,0 +1,8 @@
+#N Mold on fumarole_synth
+#C A 12-glider synthesis of mold on fumarole
+x = 53, y = 30, rule = b3/s23
+9bobo41b$10b2o19bo21b$obo7bo19bo22b$b2o3bo23b3o20b$bo5bo45b$5b3o18bobo
+24b$26b2o25b$27bo25b2$47b2o4b$15bo10bo19bo2bo3b$16b2o6b2o19bobobo3b$
+15b2o8b2o18bo2bo4b$44bo8b$45bobo5b2$48b2o3b$46bo4bob$46bo4bob$17bobo2b
+obo21bo4bob$2b2o14b2o2b2o23bo2bo2b$3b2o13bo4bo21bobo2bobo$2bo42b2o4b2o
+5$14b3o8b3o25b$16bo8bo27b$15bo10bo!

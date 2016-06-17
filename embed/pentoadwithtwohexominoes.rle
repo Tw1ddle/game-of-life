@@ -1,0 +1,6 @@
+#N Pentoad with two hexominoes
+#C A period 5 pentoad oscillator with two hexominoes in the middle.
+#C www.conwaylife.com/wiki/Pentoad
+x = 17, y = 16, rule = b3/s23
+15b2o$15bob$13bobob$13b2o2b$9b2o6b$10bo6b$10bo6b$10b2o5b$5b2o10b$6bo
+10b$6bo10b$6b2o9b$2b2o13b$bobo13b$bo15b$2o!

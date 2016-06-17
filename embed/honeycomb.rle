@@ -1,0 +1,5 @@
+#N Honeycomb
+#C A symmetric 12-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Honeycomb
+x = 6, y = 5, rule = B3/S23
+2b2o2b$bo2bob$ob2obo$bo2bob$2b2o!

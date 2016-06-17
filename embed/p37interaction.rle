@@ -1,0 +1,18 @@
+#N P37 interaction
+#O Nicolay Beluchenko and Adam P. Goucher
+#C Two copies of 124P37 interacting non-trivially by hassling a beehiv
+#C e and a block
+x = 72, y = 44, rule = b3/s23
+46b2o11b2o11b$46b2o11b2o11b3$41bo4b3o9b3o4bo6b$40bobo3bobo9bobo3bobo5b
+$39bo2bo21bo2bo4b$11b2o11b2o14b2o5bo2b2o3b2o2bo5b2o5b$11b2o11b2o25bo3b
+o16b$47bo3bo3bo3bo12b$48bo9bo13b$6bo23bo4b2o2b2o25b2o2b2o$5bobo4bo11bo
+4bobo3b2o2bo2bobo17bobo2bo2b2o$4bo2bo4b2o9b2o4bo2bo6b2o4bo15bo4b2o4b$
+5b2o23b2o40b$13bo2bo3bo2bo18bo21bo7b$13bo2bo3bo2bo18b3o17b3o7b$14b3o3b
+3o49b$2o33b2o35b$2o3b2o23b2o2bo2bo34b$6bob2o17b2obo4b2o5b3o17b3o7b$10b
+o15bo15bo21bo7b$10bo15bo45b$8b3o15b3o10b2o4bo15bo4b2o4b$35b2o2bo2bobo
+17bobo2bo2b2o$35b2o2b2o25b2o2b2o$48bo9bo13b$8b3o15b3o18bo3bo3bo3bo12b$
+10bo15bo24bo3bo16b$10bo15bo13b2o5bo2b2o3b2o2bo5b2o5b$6bob2o17b2obo8bo
+2bo21bo2bo4b$2o3b2o23b2o3b2o3bobo3bobo9bobo3bobo5b$2o33b2o4bo4b3o9b3o
+4bo6b$14b3o3b3o49b$13bo2bo3bo2bo48b$13bo2bo3bo2bo22b2o11b2o11b$5b2o23b
+2o14b2o11b2o11b$4bo2bo4b2o9b2o4bo2bo39b$5bobo4bo11bo4bobo40b$6bo23bo
+41b3$11b2o11b2o46b$11b2o11b2o!

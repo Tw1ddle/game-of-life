@@ -1,0 +1,13 @@
+#N Trans-block and long hook eating tub_synth
+#O Mark D. Niemiec
+#C A 12-glider synthesis of Trans-block and long hook eating tub
+x = 119, y = 45, rule = b3/s23
+52bobo64b$53b2o5bo36bo21b$53bo7bo33bobo21b$59b3o30b2o2b2o21b$93b2o7bo
+16b$26bo35bo29bo7b2o14bo2b$27bo23b2o9bobo12bo19bo3b2o12bobob$25b3o24b
+2o8b2o12bobo17bobo17bo2b$18b3o30bo24bo2bo16bo2bo17bob$20bo3b3o10b2o18b
+2o18bobo17bobo17bob$19bo4bo9bo3bo15bo3bo15bo3bo15bo3bo15bo3bo$25bo8b4o
+16b4o16b4o16b4o16b4ob2$34b2o18b2o18b2o18b2o18b2o3b$34b2o18b2o18b2o18b
+2o18b2o3b12$b2o116b$obo116b$2bo116b$29b2o88b$29bobo22bo64b$29bo25bo6bo
+56b$53b3o7bo55b$61b3o55b2$52b2o65b$51bobo6b3o14bo41b$53bo6bo15bobo40b$
+61bo14bo2bo39b$57b2o18bobo39b$54bo3bo15bo3bo40b$54b4o16b4o41b2$54b2o
+18b2o43b$54b2o18b2o!

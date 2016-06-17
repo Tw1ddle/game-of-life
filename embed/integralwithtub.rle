@@ -1,0 +1,5 @@
+#N Integral with tub
+#C A 10-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Integral_with_tub
+x = 6, y = 6, rule = 23/3
+2o4b$obo3b$2bo3b$2bobob$3bobo$4bo!

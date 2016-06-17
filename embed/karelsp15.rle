@@ -1,0 +1,6 @@
+#N Karel's p15
+#O Karel Suhajda
+#C A period 15 oscillator discovered on December 11, 2002
+#C http://www.conwaylife.com/wiki/index.php?title=Karel's_p15
+x = 10, y = 11, rule = b3/s23
+2bo4bo2b$2b6o2b$2bo4bo2b4$2b6o2b$bo6bob$o8bo$bo6bob$2b6o!

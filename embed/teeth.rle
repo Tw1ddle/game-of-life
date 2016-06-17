@@ -1,0 +1,11 @@
+#N Teeth
+#O Nick Gotts
+#C A quadratic growth pattern found in March 2000.
+#C www.conwaylife.com/wiki/index.php?title=Teeth
+x = 472, y = 127, rule = b3/s23
+466b3o3b$467bo2bob$471bo$468bobob22$438bo33b$438b2o32b$438bo2bo30b2$
+439bobo30b$440bo31b5$241b2o229b$240bo231b$240bo231b$236b4o232b8$252b2o
+218b$253bo218b$253b2o217b$253bo218b2$250b3o219b45$3b3o466b$bo2bo467b$o
+471b$bobo468b$264b3o205b$265bo2bo203b$269bo202b$266bobo203b14$239b2o
+231b$241bo230b$241bo230b$242b4o226b$33bo438b$32b2o438b$30bo2bo438b2$
+30bobo439b$31bo!

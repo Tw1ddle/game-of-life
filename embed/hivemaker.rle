@@ -1,0 +1,6 @@
+#N Hive maker
+#C A period 4 diagonal lightspeed fuse that creates beehives as its burns.
+#C www.conwaylife.com/wiki/index.php?title=Hive_maker
+x = 17, y = 14, rule = B3/S23
+15b2o$14bobo$13bo3b$12bo4b$11bo5b$10bo6b$9bo7b$8bo8b$7bo9b$6bo10b$5bo
+11b$4bo12b$3bo13b$3o!

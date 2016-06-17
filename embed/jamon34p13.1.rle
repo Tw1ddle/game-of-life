@@ -1,0 +1,9 @@
+#N Jam on 34P13.1
+#C The smallest known period 39 oscillator as of April 2009, though it
+#C is usually considered trivial because there is no individual cell 
+#C that oscillates at the full period.
+#C www.conwaylife.com/wiki/index.php?title=Jam_on_34P13.1
+x = 21, y = 16, rule = b3/s23
+9b3o4b2o3b$18bo2b$9bo5bo5b$8b2o5bo3bob$10bo4bo2bobo$7bo9bo2bo$7bo3bo6b
+2ob$5b2o14b$3bo5b3o2b2o5b$ob2o4bo5b2o5b$o3bo3bo12b$o5bobo12b3$8b2o11b$
+8b2o!

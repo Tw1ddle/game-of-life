@@ -1,0 +1,25 @@
+!Name: Fumarole on Achim's p11
+!A small non-trivial period 55 oscillator.
+!www.conwaylife.com/wiki/index.php?title=Fumarole_on_Achim's_p11
+..........OO
+..........OO
+.....O..........O
+....O.O........O.O
+...O.O..........O.O
+..O.O...OOOOOO...O.O
+...O..............O
+
+.....O..........O
+.....O..........O
+OO...O..........O...OO
+OO...O..........O...OO
+.....O..........O
+.....O..........O..........OO
+.......................OOO..O
+...O..............O.......OO
+..O.O...OOOOOO...O.O..O
+...O.O..........O.O...O
+....O.O........O.O........OO
+.....O..........O......OOO..O
+..........OO...............OO
+..........OO

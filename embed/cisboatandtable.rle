@@ -1,0 +1,5 @@
+#N Cis-boat and table
+#C An 11-cell still life consisting of a boat on a table. It is the 81st most common still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Cis-boat_and_table
+x = 4, y = 6, rule = B3/S23
+bo2b$obob$2o2b2$4o$o2bo!

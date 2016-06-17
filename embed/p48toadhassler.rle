@@ -1,0 +1,18 @@
+#N P48 toad hassler
+#O Bill Gosper
+#C The first period 48 oscillator to be discovered; found on December 
+#C 11, 1994
+#C http://www.conwaylife.com/wiki/index.php?title=P48_toad_hassler
+x = 36, y = 54, rule = b3/s23
+3b2o9b2o2b2o9b2o5b$4bo9bo4bo9bo6b$3bo11bo2bo11bo5b$3b2o9b2o2b2o9b2o5b$
+4bo4bo4bo4bo4bo4bo6b$b3ob9ob4ob9ob3o3b$o2bo3bobobo3bo2bo3bobobo3bo2bo
+2b$2o30b2o2b$6b2o3b2o8b2o3b2o8b2$4b2ob2ob2ob2o4b2ob2ob2ob2o6b$3bo5bo5b
+o2bo5bo5bo5b$3b2obo5bob2o2b2obo5bob2o5b2$9bo14bo11b2$16b2o18b$10bo4bo
+2bo4bo12b$10bo5b2o5bo12b$9bobo10bobo11b$10bo12bo12b$10bo12bo12b$27b2o
+7b$4b3o19bobo7b$4b3o19b2o8b$4b3o11bo13b3ob$b3o12bo2bo12b3ob$b3o12bo2bo
+12b3ob$b3o13bo11b3o4b$8b2o19b3o4b$7bobo19b3o4b$7b2o27b$12bo12bo10b$12b
+o12bo10b$11bobo10bobo9b$12bo5b2o5bo10b$12bo4bo2bo4bo10b$18b2o16b2$11bo
+14bo9b2$5b2obo5bob2o2b2obo5bob2o3b$5bo5bo5bo2bo5bo5bo3b$6b2ob2ob2ob2o
+4b2ob2ob2ob2o4b2$8b2o3b2o8b2o3b2o6b$2b2o30b2o$2bo2bo3bobobo3bo2bo3bobo
+bo3bo2bo$3b3ob9ob4ob9ob3ob$6bo4bo4bo4bo4bo4bo4b$5b2o9b2o2b2o9b2o3b$5bo
+11bo2bo11bo3b$6bo9bo4bo9bo4b$5b2o9b2o2b2o9b2o!

@@ -1,0 +1,6 @@
+#N Toad
+#O Simon Norton
+#C A period 2 oscillator. The second most common oscillator (after the blinker).
+#C www.conwaylife.com/wiki/index.php?title=Toad
+x = 4, y = 2, rule = B3/S23
+b3o$3o!

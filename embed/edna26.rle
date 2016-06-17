@@ -1,0 +1,7 @@
+#N Edna 26
+#O Erik de Neve and Matthias M.
+#C A methuselah with lifespan 31,082.
+#C www.conwaylife.com/wiki/index.php?title=Edna
+x = 43, y = 26, rule = b3/s23
+2o41b$o42b$o11bo30b$12b3o14b3o11b5$3b2o38b$3bo39b12$29bo11bob$29b3o10b
+o$42bo$25bo15b2o$24b2o!

@@ -1,0 +1,6 @@
+#N Fore and back
+#O Achim Flammenkamp
+#C A period 2 oscillator found in July 1994.
+#C www.conwaylife.com/wiki/index.php?title=Fore_and_back
+x = 7, y = 7, rule = B3/S23
+2ob2o2b$2obobob$6bo$3ob3o$o6b$bobob2o$2b2ob2o!

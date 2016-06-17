@@ -1,0 +1,22 @@
+#Life 1.05
+#D Name: Canada goose
+#D Author: Jason Summers
+#D Canada goose consists of a glider plus a tagalong. At the time of its discove
+#D ry, the Canada goose was the smallest known diagonal spaceship other than the
+#D  glider, but this record has since been beaten, first by Orion 2, and more re
+#D cently by the crab.
+#D www.conwaylife.com/wiki/index.php?title=Canada_goose
+#N
+#P -6 -6
+***
+*.........**
+.*......***.*
+...**..**
+....*
+........*
+....**...*
+...*.*.**
+...*.*..*.**
+..*....**
+..**
+..**

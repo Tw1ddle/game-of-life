@@ -1,0 +1,5 @@
+#N Eater siamese eater
+#C A 12-cell still life composed of two eaters.
+#C http://www.conwaylife.com/wiki/index.php?title=Eater_siamese_eater
+x = 4, y = 7, rule = B3/S23
+2o2b$obob$2bob$2b2o$3bo$3ob$o!

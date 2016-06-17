@@ -1,0 +1,6 @@
+#N Fox
+#O David Buckingham
+#C The smallest asymmetric period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Fox
+x = 7, y = 7, rule = B3/S23
+4bo2b$4bo2b$2bo2bob$2o5b$4bobo$2bobobo$6bo!

@@ -1,0 +1,5 @@
+#N Eater 1 with glider
+#C An eater 1 about to eat a glider.
+#C www.conwaylife.com/wiki/index.php?title=Eater_1
+x = 8, y = 7, rule = b3/s23
+2bo5b$obo5b$b2o5b$4b2o2b$4bobob$6bob$6b2o!

@@ -1,0 +1,23 @@
+#N Caterer_synth
+#O Mark D. Niemiec
+#C Glider synthesis of caterer.
+#C http://home.interserv.com/~mniemiec/objname.htm#C
+x = 149, y = 93, rule = 23/3
+86bo39bo19bo2b$81b4o3bo32b4o3bo12b4o3bo$84bo3bo35bo3bo15bo3bo$15bo72bo
+39bo19bo$16bo68bo39bo19bo3b$14b3o69b2o38b2o18b2ob$5bo28b2o18b2o37bo39b
+o15b$6bo9bo17bobo17bobo36bo39bo15b$4b3o8b2o12bo5bo13bo5bo37bo39bo15b$
+15bobo10bobo17bobo98b$7b3o18bobo17bobo38b3o3b3o31b3o3b3o11b$9bo19bo19b
+o99b$8bo76bo7bo31bo7bo15b$85bo7bo31bo7bo15b$85bo7bo31bo7bo15b2$81b3o3b
+3o31b3o3b3o19b2$3bo50bo30bo39bo5bo17b$4b2o47bo31bo39bo4b2o17b$3b2o48b
+3o29bo39bo4bobo16b$50bo98b$51b2o96b$50b2o97b3$76b2o38b2o31b$76b2o38b2o
+31b$26bo5bo13bo5bo96b$9b2o15bo5bo13bo5bo96b$9bobo14bo5bo13bo5bo96b$9bo
+92b3o44b$5b2o21b3o17b3o53bo44b$6b2o95bo45b$5bo143b10$97bo51b$96bo52b$
+96b3o50b4$21bo127b$19b2o128b$20b2o127b$15bo133b$15bobo131b$11bo3b2o
+132b$12b2o135b$11b2o10bo125b$3bobo15b2o126b$4b2o16b2o125b$4bo31bo69bo
+19bo19bo2b$25bo5b4o3bo62b4o3bo12b4o3bo12b4o3bo$2bo21b2o8bo3bo65bo3bo
+15bo3bo15bo3bo$obo21bobo11bo69bo19bo19bo$b2o32bo69bo19bo19bo3b$36b2o
+68b2o18b2o18b2ob$64b2o83b$18bo45bobo82b$16b2o41bo5bo83b$17b2o39bobo88b
+$3bo54bobo88b$3b2o16b3o35bo89b$2bobo16bo127b$22bo126b3$20b3o126b$20bo
+128b$21bo42bo84b$63bo85b$63b3o83b$60bo88b$61b2o86b$60b2o46b2o18b2o19b$
+108b2o18b2o19b2$130b2o17b$130bobo16b$56bo5bo67bo18b$56bo5bo86b$56bo5bo
+86b2$58b3o!

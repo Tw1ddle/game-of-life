@@ -1,0 +1,15 @@
+#N Block on boat_synth
+#O Mark D. Niemiec
+#C Glider synthesis of block on boats.
+#C http://home.interserv.com/~mniemiec/3gliders.htm
+x = 144, y = 94, rule = 23/3
+119bo24b$79bo40b2o22b$40bo39bo38b2o2bo20b$o37bobo37b3o42bobo18b$b2o19b
+o16b2o21bo39bo20b2o17bob$2o19bobo37bobo37bobo37bobo$22b2o38b2o38b2o38b
+2o2$22b2o20bo17b2o20b2o16b2o38b2o$b3o18b2o19bo18b2o16bo2b2o17b2o38b2o$
+3bo39b3o35bo3bo24b3o31b$2bo76b3o30bo31b$4b3o37b3o64bo32b$4bo41bo97b$5b
+o39bo98b16$126b2o16b$124bobobo15b$122bobobo17b$123b2o19b$118b2o22bob$
+119b2o20bobo$118bo23b2o$82bo61b$80bobo19b2o18b2o18b2o$81b2o19b2o18b2o
+18b2o$78b2o64b$77bobo64b$79bo64b21$80bobo61b$81b2o19bo19bo19bob$81bo
+19bobo17bobo17bobo$102b2o18b2o18b2o$81b3o60b$81bo60b2o$82bo59b2o2$122b
+obo19b$122b2o20b$123bo20b2$122b3o19b$122bo21b$123bo20b14$107b2o35b$
+106bobo35b$108bo!

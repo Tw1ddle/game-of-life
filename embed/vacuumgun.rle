@@ -1,0 +1,12 @@
+#N Vacuum (gun)
+#O Dieter Leithner
+#C A true period 46 double-barreled gun found on February 21, 1997.
+#C www.conwaylife.com/wiki/index.php?title=Vacuum_(gun)
+x = 49, y = 43, rule = b3/s23
+b2o23b2o21b$b2o23bo22b$24bobo22b$15b2o7b2o23b$2o13bobo31b$2o13bob2o30b
+$16b2o31b$16bo32b$44b2o3b$16bo27b2o3b$16b2o31b$2o13bob2o13bo3bo12b$2o
+13bobo13bo5bo7b2o2b$15b2o14bo13b2o2b$31b2o3bo12b$b2o30b3o13b$b2o46b$
+33b3o13b$31b2o3bo12b$31bo13b2o2b$31bo5bo7b2o2b$32bo3bo12b2$44b2o3b$44b
+2o3b5$37b2o10b$37bobo7b2o$39bo7b2o$37b3o9b$22bobo24b$21b3o25b$21b3o25b
+$21bo15b3o9b$25bobo11bo9b$21b2o4bo9bobo9b$16b2o4bo3b2o9b2o10b$15bobo6b
+o24b$15bo33b$14b2o!

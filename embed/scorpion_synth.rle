@@ -1,0 +1,10 @@
+#N Scorpion_synth
+#O Dean Hickerson
+#C Glider syntheses of scorpion
+#C http://www.conwaylife.com/wiki/index.php?title=Scorpion
+x = 35, y = 47, rule = b3/s23
+7bo27b$5bobo27b$6b2o27b4$13bo21b$11b2o22b$12b2o21b2$31bo3b$9b3o17b3o3b
+$9bo6b3o9bo3b2ob$10bo5bo11bobobobo$17bo11b2obobo$33bob5$6bo28b$6bobo
+26b$6b2o27b2$o34b$b2o32b$2o33b11$16b2o17b$16bobo16b$16bo18b$2b2o2b2o
+23bo3b$3b2obobo20b3o3b$2bo3bo21bo3b2ob$28bobobobo$10b2o17b2obobo$9b2o
+22bob$11bo!

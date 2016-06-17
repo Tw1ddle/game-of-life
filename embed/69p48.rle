@@ -1,0 +1,8 @@
+#N 69P48
+#O Noam Elkies
+#C The smallest known period 48 oscillator
+#C http://www.conwaylife.com/wiki/index.php?title=69P48
+x = 19, y = 15, rule = b3/s23
+2o15b2o$obo13bobo$2bo13bo2b$2b2o11b2o2b$4b2o7b2o4b$2b2obo7bob2o2b$2bo
+6bo6bo2b$3b12o4b$bobo10b2o3b$b2o3b6o7b$5bo6bo6b$5bo2b4o7b$2b2obo3bo9b$
+2bo2bobo11b$4b2ob2o!

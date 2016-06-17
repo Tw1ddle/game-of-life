@@ -1,0 +1,6 @@
+#N Semi-snark
+#O Guam
+#C A Spartan conduit, reflecting every other glider, found in July 2013.
+x = 19, y = 19, rule = B3/S23
+6bo10b2o$7b2o8bo$6b2o7bobo$15b2o$10bo$2o9b2o$2o8b2o3$17b2o$10b2o5b2o$
+10b2o2$5bo$4bobo$4b2o6b2o$12bo$13b3o$15bo!

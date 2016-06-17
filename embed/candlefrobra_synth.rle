@@ -1,0 +1,14 @@
+#N Candlefrobra_synth
+#O Mark D. Niemiec
+#C A 12-glider synthesis of candlefrobra
+#C http://www.conwaylife.com/wiki/index.php?title=Candlefrobra
+x = 117, y = 56, rule = b3/s23
+50bobo64b$51b2o5bo36bo21b$51bo7bo33bobo21b$57b3o30b2o2b2o21b$91b2o7bo
+16b$24bo35bo29bo7b2o14bo2b$25bo23b2o9bobo12bo19bo3b2o12bobob$23b3o24b
+2o8b2o12bobo17bobo17bo2b$16b3o30bo24bo2bo16bo2bo17bob$18bo3b3o10b2o18b
+2o18bobo17bobo17bob$17bo4bo9bo3bo15bo3bo15bo3bo15bo3bo15bo3bo$23bo8b4o
+16b4o16b4o16b4o16b4ob2$34b2o18b2o18b2o18b2o18b2ob$34b2o18b2o18b2o18b2o
+18b2ob12$b2o114b$obo114b$2bo114b$29b2o86b$29bobo85b$29bo87b12$53bobo
+61b$53b2o62b$54bo62b2$49bo67b$50b2o65b$35b2o12b2o4b2o18b2o40b$15b3o17b
+2o9b2o7b2o15bo3bo40b$15bo29bobo24b4o41b$16bo30bo69b$13b2o19b2o18b2o18b
+2o41b$12bobo19b2o18b2o18b2o41b$14bo!

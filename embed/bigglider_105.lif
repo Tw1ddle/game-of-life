@@ -1,0 +1,25 @@
+#Life 1.05
+#D Name: Big glider
+#D Author: Dean Hickerson
+#D The first known diagonal spaceship other than the glider.
+#D www.conwaylife.com/wiki/index.php?title=Big_glider
+#N
+#P -9 -9
+...***
+...*..***
+....*.*
+**.......*
+*.*....*..*
+*........**
+.**
+.*..*.....*.**
+.*.........**.*
+...*.*......**..*
+....**.*....**...*
+........*.......*
+.......****...*.*
+.......*.**...****
+........*...**.*
+.............**
+.........*.***
+..........*..*

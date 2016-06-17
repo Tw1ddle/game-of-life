@@ -1,0 +1,31 @@
+!Name: Max
+!Author: Tim Coe
+!A spacefiller that fills the space with chicken wire.
+!www.conwaylife.com/wiki/index.php?title=Max
+..................O
+.................OOO
+............OOO....OO
+...........O..OOO..O.OO
+..........O...O.O..O.O
+..........O....O.O.O.O.OO
+............O....O.O...OO
+OOOO.....O.O....O...O.OOO
+O...OO.O.OOO.OO.........OO
+O.....OO.....O
+.O..OO.O..O..O.OO
+.......O.O.O.O.O.O.....OOOO
+.O..OO.O..O..O..OO.O.OO...O
+O.....OO...O.O.O...OO.....O
+O...OO.O.OO..O..O..O.OO..O
+OOOO.....O.O.O.O.O.O
+..........OO.O..O..O.OO..O
+.............O.....OO.....O
+.OO.........OO.OOO.O.OO...O
+..OOO.O...O....O.O.....OOOO
+..OO...O.O....O
+..OO.O.O.O.O....O
+.....O.O..O.O...O
+....OO.O..OOO..O
+......OO....OOO
+.......OOO
+........O

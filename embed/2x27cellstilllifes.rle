@@ -1,0 +1,8 @@
+#N 2x2 7-cell still lifes
+#C All 10 7-cell still lifes in the 2x2 (125/36) rule.
+#C www.conwaylife.com/wiki/index.php?title=2x2
+x = 36, y = 15, rule = 125/36
+2obo3b2o6b2o5bo2b2o3bo5b$o3bo2bo9bobo3bo3bo3bob2ob$2b2o5bo7bobo4b2o9bo
+$10bo7bo13b2o2b$11bo24b$12bo23b3$o7bo7bo9b2o4bo3b$bo2bo4bo7bo7bo2bo2bo
+bo2b$2bo2bo4bobo5bo6bobo5bo2b$3b2o8bo5bo6bo6bobo$11b2o7bo13bob$21bo14b
+$22bo!

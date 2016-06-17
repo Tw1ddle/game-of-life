@@ -1,0 +1,7 @@
+#N 2x12 infinite growth
+#O DivusIulius
+#C The only pattern that fits in a 2x12 box that exhibits infinite gro
+#C wth.
+#C www.conwaylife.com/wiki/index.php?title=Infinite_growth
+x = 12, y = 2, rule = 23/3
+o2b2ob4obo$6ob2o2bo!

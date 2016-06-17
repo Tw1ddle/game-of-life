@@ -1,0 +1,8 @@
+#N Tritoad
+#O David Buckingham
+#C A period 3 oscillator found in October 1977.
+#C www.conwaylife.com/wiki/index.php?title=Tritoad
+x = 18, y = 14, rule = B3/S23
+9b2o7b$9bo8b$10bo2b2o3b$7b3obo2bo3b$6bo4b2obob2o$6bob2o2bobob2o$3b2obo
+3b2o2bo3b$3bo2b2o3bob2o3b$2obobo2b2obo6b$2obob2o4bo6b$3bo2bob3o7b$3b2o
+2bo10b$8bo9b$7b2o!

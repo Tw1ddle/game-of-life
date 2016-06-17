@@ -1,0 +1,14 @@
+#N Cis-beacon and dock_synth
+#C Glider syntheses of cis-beacon and dock
+#C http://www.conwaylife.com/wiki/index.php?title=Cis-beacon_and_dock
+x = 108, y = 58, rule = b3/s23
+81bo26b$80bo27b$80b3o25b2$29b2o77b$28b2o48bobo5bo21b$25b2o3bo48b2o4bo
+22b$24bobo8bo12bo30bo5b3o20b$26bo7b2o12bobo12b2o25bo12b2o3b$34bobo11b
+2o13bo12b2o4b2o5b2o12bo4b$66bo10b2o4b2o4bobo14bob$65b2o9bo5bo22b2ob2$
+63b4o36b4ob$62bo4bo13b2o4b2o13bo4bo$62b2o2b2o14b2o2b2o14b2o2b2o$81bo6b
+o19b3$45bo62b$38b3o3b2o62b$38bo5bobo61b$39bo68b2$29b3o76b$31bo76b$30bo
+77b12$5bobo15b2o18b2o18b2o18b2o18b2o3b$5b2o16bo19bo19bo19bo19bo4b$2bo
+3bo19bo19bo19bo19bo19bob$obo22b2o18b2o18b2o18b2o18b2ob$b2o88bo16b$63b
+4o16b4o3bo12b4ob$b2o59bo4bo14bo4bo2b3o9bo4bo$obo59b2o2bobo13b2o2bobo
+13b2o2b2o$2bo33bo29bo2bo16bo2bo18b$37b2o28bobo17bobo18b$36b2o30bo19bo
+19b$40b2o43b2o21b$41b2o41bobo21b$40bo45bo21b4$36b3o69b$38bo69b$37bo!

@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: Pentadecathlon
+#D Author: John Conway
+#D 10 cells placed in a row evolve into this object, which is the most natural o
+#D scillator of period greater than 3. In fact, it is the fifth or sixth most co
+#D mmon oscillator overall, being about as frequent as the clock, but much less 
+#D frequent than the blinker, toad, beacon or pulsar.
+#D www.conwaylife.com/wiki/index.php?title=Pentadecathlon
+#N
+#P -5 -1
+..*....*
+**.****.**
+..*....*

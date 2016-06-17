@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Griddle and beehive
+#D A period 2 oscillator.
+#D www.conwaylife.com/wiki/index.php?title=Griddle_and_beehive
+#N
+#P -3 -4
+...*
+.*.*
+*....*
+******
+.
+..**
+.*..*
+..**

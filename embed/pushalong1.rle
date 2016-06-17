@@ -1,0 +1,8 @@
+#N Pushalong 1
+#O David Bell
+#C An orthogonal period 4 c/2 pushalong that attaches to the front of a middleweight spaceship.
+#C Found in 1992.
+#C www.conwaylife.com/wiki/index.php?title=Pushalong_1
+x = 11, y = 12, rule = 23/3
+3bo7b$bo2bo6b$o3bo6b$o3bo6b$2obo7b$5b2o4b$2bo2b2o4b$4bo6b$7b3ob$6b5o$
+5b2ob3o$6b2o!

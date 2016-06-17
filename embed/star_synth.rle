@@ -1,0 +1,13 @@
+#N Star_synth
+#O Jason Summers
+#C A 20-glider synthesis of the period 3 star
+#C www.conwaylife.com/wiki/index.php?title=Star
+x = 85, y = 67, rule = b3/s23
+5bo79b$6b2o77b$5b2o78b3$64bobo18b$64b2o19b$65bo19b2$17bo67b$18bo66b$
+16b3o66b5$55bo29b$55bobo27b$55b2o28b2$27bo57b$25bobo6bo50b$26b2o4bobo
+50b$33b2o50b2$45bo39b$29b2o13bo40b$28bobo13b3o38b$30bo8bo39bo5b$40bo
+37b3o4b$38b3o35b3ob3o2b$76bo5bo2b$21b3o20bo30b2o5b2ob$23bo19bo30b2o7b
+2o$22bo20b3o29b2o5b2ob$76bo5bo2b$26b3o47b3ob3o2b$26bo51b3o4b$27bo8bo
+42bo5b$20b3o13bobo46b$22bo13b2o47b$21bo63b2$32b2o51b$32bobo4b2o44b$32b
+o6bobo43b$39bo45b2$10b2o73b$9bobo73b$11bo73b5$48b3o34b$48bo36b$49bo35b
+2$bo83b$b2o82b$obo82b3$60b2o23b$59b2o24b$61bo!

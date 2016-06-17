@@ -1,0 +1,16 @@
+!Name: Buckaroo
+!Author: David Buckingham
+!A period 30 oscillator based on the queen bee shuttle.
+!The oscillator will still function if the eater is moved
+!closer to the queen bee by one space, but it will lose
+!its ability to reflect gliders.
+!www.conwaylife.com/wiki/index.php?title=Buckaroo
+.........O
+.......O.O
+......O.O
+OO...O..O
+OO....O.O
+.......O.O.........OO
+.........O.........O.O
+.....................O
+.....................OO

@@ -1,0 +1,21 @@
+#N Mirage
+#C A pattern that quickly creates and destroys a Gosper glider gun.
+#C www.conwaylife.com/wiki/index.php?title=Mirage
+x = 68, y = 46, rule = b3/s23
+17bo50b$14bo3bo3b2o44b$16bo3bo47b$15bo3bo3b2o43b$13bo3bo3bo46b$8bo2bo
+2bo3bo3bobo43b$10bo5bo3bo47b$4bo3bo6bo3bo48b$2bo3bo5bo4bo3bo46b$bo3bo
+3bo3bo4bo47bob$3bo3bo53bobo3bo$o3bo3bo3bobo3bo42bo3bo2b$2bo3bo3bo5bo
+47bo3b$bo3bo3bo5bo46bo3bob$3bo3bo3bobo46bo2bo4b$o3bo3bo6bo22bo19bo9b$
+2bo3bo3bo3bo8bo4bo3bo2bo3bo3b2o2bobo2b2o3bo3bo2bo3b$5bo3bo2bo5bo6bo3bo
+bo5bo3bo13bo3bo3bo4b$bobo3bo5bo2bo3bo2bo3bo8bo3bo3b2o2bo2b2o3bo3bo7b$
+3bo7bo5bo3bo4bo5bobo3bo3bo5bo5bo3bo3bo5b$bo3bobo7bo3bo4bo3bo2bo3bo3bo
+3bobo5bobo3bo3bo6b$10bo2bo4bo3bo2bo11bo3bo13bo3bo8b$3bo7bo4bo3bo6b2o2b
+obo2bo3bo6bobo6bo3bo7b$bo2bobo6bo3bo3bo16bo3bobo4bobo2bo3bo9b$2bo6bo9b
+o5bo4bo3bo4bo7bo3bo5bo10b$7bo3bo4bobo4bo3bo4bo9bobo3bo19b$6bo3bo4bo8bo
+3bo2bo3bobo3bo4bo3bo2bobo12b$8bo3bo6bo2bo3bo6bo4bo6bo3bo8bo9b$5bo3bo3b
+o4bo2bo3bo3bo6bo3bo2bo3bo3bo3bo12b$7bo3bo4bo6bo3bo4bo2bo3bo4bo3bo3bo3b
+obo9b$6bo3bo2bo3bo3bo2bo3bo2bo5bo3bo4bo3bo3bo13b$8bo6bo10bo7bo3bo6bo3b
+o5bo12b$36bo3bo2bo3bo3bo16b$8bobo3bo20bo3bo8bo4bo14b$11bo25bo14bo2bobo
+10b$9bo3bo36bo6bobo8b$8bo3bo36bo5bo3bo8b$10bo3bo37bo3bo11b$7bo3bo42bo
+3bo9b$9bo3bo39bo3bo10b$8bo3bo38bo3bo3bo8b$10bo41bo3bo3bo7b$54bo3bo9b$
+53bo3bo10b$55bo3bo8b$56bo!

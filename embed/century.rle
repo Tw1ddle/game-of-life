@@ -1,0 +1,5 @@
+#N Century
+#C A methuselah with lifespan 103.
+#C http://www.conwaylife.com/wiki/index.php?title=Century
+x = 4, y = 3, rule = B3/S23
+2b2o$3ob$bo!

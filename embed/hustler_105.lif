@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Hustler
+#D Author: Robert Wainwright
+#D A period 3 oscillator found in June 1971.
+#D www.conwaylife.com/wiki/index.php?title=Hustler
+#N
+#P -5 -6
+.....**
+.....**
+.
+...****
+*.*....*
+**.*...*
+...*...*.**
+...*....*.*
+....****
+.
+....**
+....**

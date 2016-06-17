@@ -1,0 +1,3 @@
+#C Half of x66 supported by a heavyweight spaceship
+x = 9, y = 11, rule = B3/S23
+2bo$2o$o2b3o2bo$o4b3o$b3o2b2o2$3b2o$bo4bo$o$o5bo$6o!

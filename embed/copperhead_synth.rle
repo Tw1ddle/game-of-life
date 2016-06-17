@@ -1,0 +1,15 @@
+#N copperhead_synth.rle
+#O Tanner Jacobi, Chris Cain
+#C 22-glider synthesis of copperhead spaceship found by Chris Cain on
+#C   5 March 2016, based on 25-glider synthesis by Tanner Jacobi.
+#C Repeat time of this recipe is 375 ticks; this can be reduced
+#C slightly at the cost of an extra glider.
+#C http://www.conwaylife.com/forums/viewtopic.php?f=2&t=2057#p28037
+#C http://www.conwaylife.com/forums/viewtopic.php?f=2&t=2057&start=50#p28085
+#C http://conwaylife.com/wiki/Copperhead
+x = 54, y = 48, rule = B3/S23
+5bo38bo3bo$3bobo36b2o4bobo$4b2o37b2o3b2o$22bo$20bobo$21b2o2$2bobo27bo
+16bobo$3b2o25b2o17b2o$3bo27b2o17bo3$16b2o$15bobo$17bo2bobo8bobo$21b2o
+8b2o$21bo10bo5$24b2o2b2o$23bobo2bobo$25bo2bo7$21b3o6b3o$23bo6bo$22bo8b
+o5$22b3o$3b2o19bo24b2o$4b2o17bo12bo11b2o$3bo31b2o13bo$35bobo3$7b2o36b
+2o$bo4bobo36bobo4bo$b2o5bo36bo5b2o$obo48bobo!

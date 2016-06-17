@@ -1,0 +1,5 @@
+#N Triplets
+#C The five distinct triplets.
+#C www.conwaylife.com/wiki/index.php?title=Polyplet
+x = 38, y = 3, rule = 23/3
+o18bo7bo7bo2b$2o6b3o6b2o7bobo7bob$37bo!

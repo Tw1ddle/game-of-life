@@ -1,0 +1,12 @@
+#N Seal
+#O Nicolay Beluchenko
+#C The first c/6 diagonal spaceship to be found. Has period 6.
+#C www.conwaylife.com/wiki/index.php?title=Seal
+x = 34, y = 35, rule = b3/s23
+2b2o30b$b3ob3o26b$3bo3b2o25b$2ob2o2bo2bobo21b$o6bob4o21b$6b2obo2bo21b$
+o4b2o3bob2o20b$2o8bobo2bo18b$o2b5ob3o4bo17b$bo9bo4bo17b$b2obo2bo3bo3bo
+18b$2bo9b2o20b$9b2o2b2o4bo14b$2bo3b2obo4b3o2bo14b$3b2obob5o5bob2o12b$
+7b2ob2ob2ob2o2b3o11b$17bobo4bo9b$8b2o4bobo3b6o8b$13bo7b2o11b$13bo3bo
+16b$13bo4bo3b3o6bo2b$14b5o3b2ob2o2b2ob2o$17b2obo2bob2o2bo4b$16b2o5bo4b
+o2b3o$15b3obobobobo8b$22bo2bo8b$18bobo13b$19bo14b2$21b3o10b$21b3o10b2$
+20b2o12b$20b2o12b$21bo!

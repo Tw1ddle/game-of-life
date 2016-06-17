@@ -1,0 +1,12 @@
+#N Long hook with tail_synth
+#O Mark D. Niemiec
+#C Glider synthesis of long hook with tail.
+#C http://home.interserv.com/~mniemiec/objname.htm#L
+x = 73, y = 51, rule = 23/3
+7bo65b$7bobo36bo26b$7b2o37bobo24b$46b2o25b2$19bo23bo29b$18bo25b2o27b$
+18b3o22b2o28b$40b2o31b$39bobo31b$41bo6bobo22b$27b2o20b2o16b2o4b$bo26bo
+2b2o16bo18bo2b2o$b2o25bobobo35bobobo$obo10bo15bo39bo3b$12bo31b3o26b$
+12b3o31bo26b$45bo27b$13bo40b3o16b$12b2o40bo18b$12bobo40bo17b16$59bo13b
+$51bo5b2o14b$52b2o4b2o13b$51b2o20b2$27b2o18b2o18b2o4b$28bo19bo19bo2b2o
+$7b2o19bobo17bobo17bobobo$8b2o19b2o18b2o18bo3b$7bo3b2o60b$11bobo38b2o
+19b$11bo41b2o18b$52bo3b2o15b$56bobo14b$56bo!

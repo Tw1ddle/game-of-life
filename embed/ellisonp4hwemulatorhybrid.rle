@@ -1,0 +1,7 @@
+#N Ellison p4 HW emulator hybrid
+#O Scot Ellison
+#C A period 4 oscillator that produces a domino spark.
+#C www.conwaylife.com/wiki/Ellison_P4_HW_Emulator_Hybrid
+x = 20, y = 9, rule = b3/s23
+11b2o7b$4bo3bo5bob2o2b$3bobo11bo2b$3bobo9b2o3b$2obobob8o2b3o$2obo12bo
+2bo$3bo13b2ob$3bobo4b2o8b$4b2o4b2o!

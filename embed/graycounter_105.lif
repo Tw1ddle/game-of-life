@@ -1,0 +1,15 @@
+#Life 1.05
+#D Name: Gray counter
+#D A period 4 oscillator.
+#D http://www.conwaylife.com/wiki/index.php?title=Gray_counter
+#N
+#P -6 -4
+......*
+.....*.*
+....*.*.*
+.*..*...*..*
+*.*.*...*.*.*
+.*..*...*..*
+....*.*.*
+.....*.*
+......*

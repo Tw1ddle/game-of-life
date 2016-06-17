@@ -1,0 +1,7 @@
+#N Triple caterer
+#O Dean Hickerson
+#C A period 3 oscillator.
+#C http://www.conwaylife.com/wiki/index.php?title=Triple_caterer
+x = 16, y = 11, rule = B3/S23
+5b2o9b$4bo2bo2b2o4b$4b2obo3bo4b$6bob3o4bo$2b3obobo4b3o$bo2bo2bo4bo3b$o
+bo2bo3bo2b2o2b$bo14b$2b2ob2ob2ob2o3b$3bo3bo3bo4b$3bo3bo3bo!

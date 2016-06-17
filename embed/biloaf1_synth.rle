@@ -1,0 +1,23 @@
+#N Bi-loaf 1_synth
+#O Mark D. Niemiec
+#C Glider synthesis of bi-loaf 1s.
+#C http://home.interserv.com/~mniemiec/3gliders.htm
+x = 149, y = 91, rule = 23/3
+26b2o38b2o81b$11bo13bo2bo36bo2bo80b$10bo14bobo19bo17bobo81b$10b3o10b2o
+bo21b2o13b2obo82b$7b2o13bo2bo21b2o13bo2bo83b$2bo5b2o12bobo17bo7b3o9bob
+o84b$3b2o2bo15bo19b2o5bo12bo85b$2b2o38b2o7bo97b10$124bo24b$125bo23b$
+123b3o23b$26b2o22bo15b2o38b2o38b2ob$25bo2bo21bobo12bo2bo18bo17bo2bo13b
+o22bo2bo$25bobo22b2o13bobo20bo3b2o11bobo14b2o8bo12bobob$23b2obo19bobo
+14b2obo19b3o2b2o10b2obo14bobo7b2o10b2obo2b$22bo2bo21b2o13bo2bo27bo8bo
+2bo25bobo8bo2bo3b$22bobo22bo14bobo37bobo37bobo4b$7bo15bo21bo17bo23b3o
+6b2o5bo39bo5b$5b2o38b2o42bo6bobo50b$6b2o36bobo5bo35bo7bo52b$51b2o72b2o
+22b$8bo42bobo70b2o23b$b2o5b2o116bo22b$obo4bobo139b$2bo146b3$14b2o133b$
+14bobo132b$14bo134b7$51bobo95b$47bo3b2o96b$48b2o2bo96b$47b2o100b$5bobo
+141b$6b2o18b2o38b2o81b$6bo4bobo11bo2bo17bo18bo2bo50bo29b$11b2o12bobo
+17bobo17bobo52b2o27b$bo3b2o5bo10b2obo17bobo16b2obo52b2o28b$2b2ob2o15bo
+2bo17bobo16bo2bo83b$b2o19bobo13bobo3bo17bobo84b$23bo15b2o22bo85b$39bo
+109b2$3b2o32b2o110b$4b2o32b2o109b$3bo33bo111b6$103bobo17bo25b$37bo66b
+2o18bo24b$35b2o67bo17b3o24b$36b2o28b2o78b2ob$65bo2bo56bo19bo2bo$65bobo
+56bo20bobob$34b3o26b2obo57b3o16b2obo2b$36bo25bo2bo76bo2bo3b$35bo26bobo
+77bobo4b$63bo59b2o18bo5b$36b3o85b2o23b$36bo86bo25b$37bo13b2o96b$50b2o
+97b$52bo96b7$42bo106b$41b2o106b$41bobo!

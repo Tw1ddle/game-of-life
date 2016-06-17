@@ -1,0 +1,11 @@
+!Name: Puffer 1
+!Author: Bill Gosper
+!An orthogonal, period-128 puffer and the first puffer to be discovered
+!http://www.conwaylife.com/wiki/index.php?title=Puffer_1
+.OOO......O.....O......OOO
+O..O.....OOO...OOO.....O..O
+...O....OO.O...O.OO....O
+...O...................O
+...O..O.............O..O
+...O..OO...........OO..O
+..O...OO...........OO...O

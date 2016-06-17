@@ -1,0 +1,17 @@
+#N Jason's bow
+#O Jason Summers
+#C A period 404 double-barreled gun based on the original Safalra's bow.
+#C www.conwaylife.com/wiki/index.php?title=Move
+x = 92, y = 42, rule = b368/s245
+15b2o75b$14b4obo72b$11b2obo2b2ob2o70b$10bo3b3o4b2o18b4o47b$9bo2bobo2b
+2o3bo18b4o47b$4o5bo2bobo2b2o3bo69b$4o6bo3b3o4b2o69b$11b2obo2b2ob2o70b$
+14b4obo33bo38b$15b2o37bo37b$51bob3o36b$51bo2bo13b4o3bo16b$40b2o10bobo
+13b3o3b2o16b$24b2o14b3o9b3o11b3obob3o17b$24b2o14b3o8bo2bo11b3obo3b2o
+16b$24b2o14b2o8bobo12b4o4bo18b$24b2o26bo13b3obo3b2o16b$52bo13b3obob3o
+17b$50b5o13b3o3b2o16b$51bo3b2o11b4o3bo16b$50bo5bo35b$20b2o28bo2b2obo
+35b$16b3ob4o26b3o39b$17bobo3bo26b2obo38b$17b2o4b2o26bobobobo34b$16b2o
+4b3o28bo3bo8b2o24b$18bo3b3o16b2o9b2ob2obo7b2o24b$16b2o4b3o16b3o6bob3ob
+2o8b2o24b$17b2o4b2o16b3o8b4o10b2o24b$17bobo3bo17b2o11bo37b$16b3ob4o68b
+$20b2o70b$62b2o28b$61b4obo25b$58b2obo2b2ob2o23b$57bo3b3o4b2o18b4o$56bo
+2bobo2b2o3bo18b4o$47b4o5bo2bobo2b2o3bo22b$47b4o6bo3b3o4b2o22b$58b2obo
+2b2ob2o23b$61b4obo25b$62b2o!

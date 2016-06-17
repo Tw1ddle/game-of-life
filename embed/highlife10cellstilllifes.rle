@@ -1,0 +1,14 @@
+#N HighLife 10-cell still lifes
+#C All 25 10-cell still lifes in the HighLife (23/36) rule.
+#C www.conwaylife.com/wiki/index.php?title=HighLife
+x = 124, y = 16, rule = b36/s23
+2ob2obo4b2ob2o4b2ob2o6b2ob2o4b2o3b2o4b2o9b2o9b2o8b2o8b2o7b2o8b2o7b2ob$
+ob2ob2o4b2obo5bob2o2bo5bobo5bobo2bo5bobo2b2o4bobo8bobo7bobo7bobo7bo7bo
+2bo6bo2b$14bo10b2o4bo2bo8bobo8bo2bo5bobo8bobo8bo9bo7bobo5bobobo6bob$
+14b2o16b2o10bo10b2o7bobo9bo7bo9bo9bobo5bobo8bo$65b2o8bo8bobo8b3o8bo6bo
+7bobo$75b2o8b2o10bo8b2o12bobob$121bo2b3$2o9b2o7b2o9b2o7b2o9b2o9b2o9b2o
+8b2o8b2o8bo8bo11b$obo8bobo6bobo8bobo6bobo8bobo8bo2b2o7bo2bo6bo9bo7bobo
+6bobo10b$2bo10bo9bo10bo8bo10bo9b2o2bo5bobobo5bob2o6bobo6b2o7bobo9b$2bo
+b2o7bobo8bo10bo8bo10bo11b2o6bobo7bo2bo6bobo7b2o6bobo8b$3bobo8bobo4b3o
+9bobo9bobo8bo19bo9b2o8bobo6bobo6bobo7b$15bo5bo11b2o11b2o9bo39bo8bo8bo
+8b$56b2o!

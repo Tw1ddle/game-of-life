@@ -1,0 +1,11 @@
+#N Wickstretcher 1
+#O Hartmut Holzwart and Dean Hickerson
+#C The first wickstretcher to be found.
+#C www.conwaylife.com/wiki/index.php?title=Wickstretcher_1
+x = 49, y = 16, rule = b3/s23
+10bo19b2o17b$9bobo17bo4b2o13b$2bo4b3obo5bo14bob3o12b$bobo2bo4b2o3bobo
+7bobob4o3bo3b2o2b2obo$bobo2bob2o3bo3bo8b3obo8bo2b2o4bo$2ob2obobob2o8bo
+10bo4b2ob2o4b2obo$bo4b2o4b2o3bob2o13bo7bo6b$bob2o2bo3bobob2o2bob2ob3o
+4bobo9bo5b$2bo3b3obobo2bo4bo3b3o4bobo9bo5b$3b2o3bobo2bo5b2o13bo7bo6b$
+5b2obob2obobo3bo11bo4b2ob2o4b2obo$5bob2obo2bob2o4bo4b3obo8bo2b2o4bo$
+11b2o7b2o4bobob4o3bo3b2o2b2obo$32bob3o12b$29bo4b2o13b$30b2o!

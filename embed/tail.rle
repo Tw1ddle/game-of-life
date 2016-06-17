@@ -1,0 +1,6 @@
+#N Tail
+#C A tetromino often attached to still lifes to create larger still li
+#C fes.
+#C www.conwaylife.com/wiki/index.php?title=Tail
+x = 2, y = 3, rule = b3/s23
+ob$ob$2o!

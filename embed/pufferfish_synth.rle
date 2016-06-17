@@ -1,0 +1,9 @@
+#N Pufferfish_synth
+#O Chris Cain
+#C Synthesis of the pufferfish, based on a soup found by Richard Schank.
+#C www.conwaylife.com/wiki/Pufferfish
+x = 59, y = 51, rule = B3/S23
+33bo$31bobo$32b2o22bo$55bo$55b3o$15bobo$16b2o$16bo3$34b2o$35b2o$34bo3b
+obo$38b2o$39bo10bobo$50b2o$51bo3$45b2o$44b2o$46bo6$18b2o37b2o$12b2o5b
+2o35b2o$13b2o3bo39bo$12bo24b3o$39bo$19b3o16bo$21bo$20bo2$39b2o$39bobo$
+17b3o19bo$19bo$18bo8$bo$b2o$obo!

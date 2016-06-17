@@ -1,0 +1,9 @@
+#N 64P13.2
+#O Nicolay Beluchenko
+#C A period 13 oscillator that is a variant of 34P13.1.
+#C www.conwaylife.com/wiki/index.php?title=34P13.1
+x = 19, y = 31, rule = 23/3
+7b3o9b2$9bo9b$9b2o8b$8bo10b$11bo7b$7bo3bo7b$12b2o5b$3b2o2b3o5bo3b$3b2o
+5bo4b2obo$10bo3bo3bo$10bobo5bo3$9b2o8b$9b2o8b2$4bo2bo11b$bo6bo10b$o7bo
+10b$bob2o3bo6b2o2b$5b3o7b2o2b$10b3o6b$9bo3bo5b$9bo9b$9bo9b$10bo2bo5b$
+10bo8b2$10bobo6b$11bo!

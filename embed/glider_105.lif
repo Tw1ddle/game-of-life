@@ -1,0 +1,10 @@
+#Life 1.05
+#D Name: Glider
+#D Author: Richard K. Guy
+#D The smallest, most common, and first discovered spaceship.
+#D www.conwaylife.com/wiki/index.php?title=Glider
+#N
+#P -1 -1
+.*
+..*
+***

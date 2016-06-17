@@ -1,0 +1,13 @@
+#N Queen bee_synth
+#O Mark D. Niemiec
+#C Glider synthesis of queen bee.
+#C www.conwaylife.com/wiki/index.php?title=Queen_bee
+x = 110, y = 84, rule = b3/s23
+9bo100b$10b2o98b$9b2o90bo8b$14bo11bo75bo7b$13bo12bobo71b3o7b$13b3o10b
+2o82b$103bo6b$103b2o5b$102bobo5b2$16b3o91b$16bo93b$17bo87b2o3b$104b2o
+4b$106bo3b14$102bobo5b$103b2o5b$103bo6b$99b3o8b$101bo8b$100bo9b$18bo
+91b$2bo15bobo89b$obo15b2o90b$b2o103b2o2b$105b2o3b$107bo2b8$19b2o89b$
+18b2o82bobo5b$20bo82b2o5b$103bo6b$99b3o8b$101bo8b$100bo9b4$100b2o8b$
+101b2o7b$100bo9b12$27bobo80b$27b2o68bobo10b$28bo69b2o10b$98bo11b3$16bo
+93b$17b2o91b$16b2o4bo87b$22bobo71b2o12b$22b2o73b2o9bob$96bo10b2ob$107b
+obo!

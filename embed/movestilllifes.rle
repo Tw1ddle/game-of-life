@@ -1,0 +1,9 @@
+#N Move still lifes
+#C All still lifes with 10 or fewer cells in the move (245/368) rule.
+#C www.conwaylife.com/wiki/index.php?title=Move
+x = 23, y = 39, rule = 245/368
+bo21b$obo20b$bo21b3$o22b$3o20b$2bo20b3$2o5b2o14b$o2bo2bo2bo13b$2b2o3b
+2o14b3$o6b2o14b$3o3bo2bo13b$2bo3bobo14b$2b2o3bo15b3$obo4b2o4b2o6bob$2o
+bo2bo2bo2bo2bo3b3ob$2bo3bo2bo3bo2bo3b3o$2b2o3b2o5b2o4bo2b3$o22b$3o20b$
+2bo20b$2b3o18b$4bo18b3$2o4b2o5b2o8b$bo5bo6bo8b$4o2b2ob2o3b3o6b$2bo6bo
+3b3o7b$2b2o5b2o4bo!

@@ -1,0 +1,6 @@
+#N 1-2-3-4
+#C A period 4 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=1-2-3-4
+x = 11, y = 11, rule = B3/S23
+5bo5b$4bobo4b$3bobobo3b$3bo3bo3b$2obobobob2o$obo5bobo$3b5o3b2$5bo5b$4b
+obo4b$5bo!

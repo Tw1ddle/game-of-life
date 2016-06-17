@@ -1,0 +1,12 @@
+#N Electric fence
+#O Dean Hickerson
+#C A stabilization of ants that is a period 5 oscillator. http://www.c
+#C onwaylife.com/wiki/index.php?title=Electric_fence
+x = 61, y = 15, rule = B3/S23
+10bo50b$9bobo24b2o23b$2bo4b3obo5bo19bo3bo2bo6bo5b2o2b$bobo2bo4b2o3bobo
+18bob3o2b3o3bobo4bo3b$bobo2bob2o7bo20bo3b2o3bobo2bo6bob$2ob2obobob5o5b
+o18b2o3bo2bobob2ob2o2b2ob$bobo2bo3bo2bo2bo7b2o3b2o3b2o4b2ob2o2bobo2bob
+obo4b$bo2b2o4b2o6b3ob2o3b2o3b2o3b3o5b4ob3obo3b2ob$2bo2b3o2bo2bob4o3b2o
+3b2o3b2o3b3ob2o2bo4bobo4bo2bo$3b2o3bobo2bo5b2o3b2o3b2o3b2o6bo12bo3b2o$
+5b2obob2obob2o2bo22bo8b2obo6b$5bob2obo2bob2o4bo17b2obobo16b$11b2o7b2o
+18bo2b2o16b$38bobo20b$38b2o!

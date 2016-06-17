@@ -1,0 +1,17 @@
+#Life 1.05
+#D Name: Eater/block frob
+#D Author: David Buckingham
+#D A period 4 oscillator found in 1976 or earlier.
+#D www.conwaylife.com/wiki/index.php?title=Eater/block_frob
+#N
+#P -5 -5
+.**
+..*
+..*.*
+...*.*
+.....**.**
+........**
+..**
+...*
+***
+*

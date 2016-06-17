@@ -1,0 +1,6 @@
+#N Pentoad 1H2
+#C A period 5 oscillator.
+#C www.conwaylife.com/wiki/Pentoad_1H2
+x = 15, y = 12, rule = b3/s23
+8b2o5b$8bobo2b2o$9b3ob2o2$5b2o8b$6bo8b$6bo8b$6b2o7b$2b2o11b$bobo11b$bo
+13b$2o!

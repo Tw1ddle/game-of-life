@@ -1,0 +1,10 @@
+#N Hivenudger 2
+#C An orthogonal period 8 c/2 line puffer based on the hivenudger. It leaves a trail of blinkers behind it.
+#C www.conwaylife.com/wiki/index.php?title=Hivenudger_2
+x = 30, y = 27, rule = B3/S23
+9bobo18b$8bo2bo18b$7b2o21b$6bo3bo19b$5b3obo20b$2b2o26b$bo3b5o7b4o5bo2b
+o$o3bo12bo3bo3bo4b$o5b2o9bo7bo3bo$3o3b4o8bo2bo3b4ob$bo7bo20b$b2o19b2o
+6b$bobo18b2o6b$b2o2b2obo8bobo2b2o6b$2bob3obo3bob4obo2b2o6b$9b2obob2o2b
+o3b2o3b3o$4b6ob2o3b4o2b2o3b3o$5bo4b3o6bo2b2o3b3o$6b2o5b2o2b2o3b2o6b$7b
+o2bo5b4o2b2o6b$8bobob2o5bo2b2o6b$22b2o6b2$18bo2bo3b4ob$17bo7bo3bo$17bo
+3bo3bo4b$17b4o5bo2bo!

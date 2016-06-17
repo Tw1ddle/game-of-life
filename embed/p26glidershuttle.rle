@@ -1,0 +1,13 @@
+#N P26 glider shuttle
+#O Matthias Merzenich
+#C The smallest known period 26 oscillator in terms of population
+#C as of August 2014, discovered in April 2013.
+#C www.conwaylife.com/wiki/P26_glider_shuttle
+x = 53, y = 53, rule = B3/S23
+19b2o$19bobo$22bo2b2o$20b2obo2bo$19bobob2o$20bo4$22b2o$21bo2bo$21bobo$
+21bobo$16b2o4bo$15bobo18bo$15bo20b3o$14b2o23bo$38b2o$19bobo$19b2o12b2o
+13bo2b2o$20bo11b2o13bobo2bo$34bo5b3o5b2obo$39bo3bo6bo$40b2obo4b2o$42bo
+5bo$50bo$2b2o45b2o$2bo$4bo5bo$3b2o4bob2o$2bo6bo3bo$bob2o5b3o5bo$o2bobo
+13b2o11bo$2o2bo13b2o12b2o$31bobo$13b2o$13bo23b2o$14b3o20bo$16bo18bobo$
+30bo4b2o$29bobo$29bobo$28bo2bo$29b2o4$32bo$28b2obobo$26bo2bob2o$26b2o
+2bo$31bobo$32b2o!

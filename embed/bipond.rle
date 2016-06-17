@@ -1,0 +1,5 @@
+#N Bi-pond
+#C A 16-cell still life made up of two ponds.
+#C www.conwaylife.com/wiki/index.php?title=Bi-pond
+x = 7, y = 7, rule = B3/S23
+b2o4b$o2bo3b$o2bo3b$b2ob2ob$3bo2bo$3bo2bo$4b2o!

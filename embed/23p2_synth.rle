@@ -1,0 +1,18 @@
+#N 23P2_synth
+#C Glider synthesis of 23P2
+#C http://www.conwaylife.com/wiki/index.php?title=23P2
+x = 156, y = 50, rule = b3/s23
+94bobo59b$5b2o87b2o60b$4b2o89bo60b$b2o3bo54bo94b$obo8bo5bo38bo3bo15b2o
+18b2o58b$2bo7b2o3b2o12b2o18b2o6b2ob3o6b2o4bo2bo10b2o4bo2bo10b2o18b2o
+18b2o5b$10bobo3b2o11bo19bo6b2o11bo5bo2bo10bo5bo2bo10bo19bo19bo6b$32bo
+19bo19bo3b2o14bo3b2o14bo19bo19bo3b$31b2o18b2o18b2o18b2o8bo9b2o18b2o18b
+2o3b$97bo2bo55b$29b4o16b4o16b4o16b4o3b2o2b3o6b6o14b6o14b6ob$29bo2bo16b
+o2bo16bo2bo16bo2bo3bobo10bo2bo2bo13bo2bo2bo13bo2bo2bo$114b2o18b2o18b2o
+2$74b2o18b2o60b$54b2o17bo2bo16bo2bo2b2o19b2o18b2o14b$55b2ob3o12bo2bo
+16bo2bob2o19bo2bo16bo2bo13b$54bo3bo15b2o18b2o4bo19b2o18b2o14b$59bo83b
+3o10b$17b2o124bo12b$16b2o126bo11b$18bo137b$5b2o149b$4bobo149b$6bo149b
+11$11bobo15b2o18b2o18b2o18b2o18b2o45b$11b2o16bo19bo19bo19bo19bo46b$8bo
+3bo19bo19bo19bo19bo19bo43b$6bobo22b2o18b2o18b2o18b2o18b2o43b$7b2o147b$
+71b2o18b2o16b4o43b$7b2o40b3o18bobo10bo6bobo16bo2bo43b$6bobo42bo19bo9bo
+bo7bo64b$8bo41bo31b2o72b$85b2o69b$86b2o68b$85bo70b$92b3o61b$92bo63b$
+93bo!

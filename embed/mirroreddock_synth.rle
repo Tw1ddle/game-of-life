@@ -1,0 +1,9 @@
+#N Mirrored dock_synth
+#O Mark D. Niemiec
+#C Glider syntheses of mirrored docks.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 67, y = 19, rule = 23/3
+43bo23b$43bobo21b$43b2o22b2$42bo24b$40bobo24b$2bo2bo15b2o2b2o14b2o18b
+2o2b2o$obo2bobo13bo4bo22bobo9bo4bo$b2o2b2o15b4o23b2o11b4ob$37bo12bo16b
+$b2o2b2o15b4o11b2o23b4ob$obo2bobo13bo4bo9bobo22bo4bo$2bo2bo15b2o2b2o
+18b2o14b2o2b2o$45bobo19b$45bo21b2$43b2o22b$42bobo22b$44bo!

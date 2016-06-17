@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: Caterer
+#D Author: Dean Hickerson
+#D A period 3 oscillator.
+#D www.conwaylife.com/wiki/index.php?title=Caterer
+#N
+#P -4 -3
+..*
+*...****
+*...*
+*
+...*
+.**

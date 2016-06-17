@@ -1,0 +1,7 @@
+#N Ants
+#C An orthogonal period 5 lightspeed wick.
+#C www.conwaylife.com/wiki/index.php?title=Ants
+x = 44, y = 4, rule = B3/S23
+2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o2b$2b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o
+3b2o$2b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o$2o3b2o3b2o3b2o3b2o3b2o3b2o3b
+2o3b2o!

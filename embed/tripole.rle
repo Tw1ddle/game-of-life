@@ -1,0 +1,5 @@
+#N Tripole
+#C The barberpole of length 3 and thus a period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Tripole
+x = 6, y = 6, rule = B3/S23
+2o4b$obo3b2$2bobob$5bo$4b2o!

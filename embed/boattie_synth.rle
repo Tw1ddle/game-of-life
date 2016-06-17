@@ -1,0 +1,22 @@
+#N Boat-tie_synth
+#O Mark D. Niemiec
+#C Glider syntheses of boat-ties.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 153, y = 86, rule = 23/3
+obo150b$b2o85bobo36bo25b$bo86b2o38b2o23b$28bo39bo20bo18bo18b2o19bo4b$
+8bo18bobo37bobo16bo20bobo37bobo3b$6b2o20b2o38b2o16b2o4bobo13b2o38b2o3b
+$7b2o21b2o38b2o13bobo4b2o16b2o16b3o19b2ob$30bobo11bo25bobo20bo16bobo
+15bo21bobo$31bo8bob2o27bo18bo20bo17bo21bob$4bo3b2o28bobo2b2o45b2o61b$
+4b2ob2o30b2o48bobo34b3o24b$3bobo3bo118bo24b$127bo25b$117b3o33b$119bo
+33b$118bo34b$57b2o62b2o30b$56b2o62bobo30b$58bo63bo30b3$37bo115b$37b2o
+114b$36bobo114b11$138bo14b$137bo15b$137b3o13b$113b3o17b3o17b2$78bobo3b
+o68b$79b2ob2o69b$79bo3b2o5b3o60b$29bo60bo62b$30bo37bo22bo16bo19bo19bo
+4b$28b3o36bobo37bobo17bobo17bobo3b$68b2o38b2o18b2o18b2o3b$47bo22b2o38b
+2o18b2o18b2ob$47bobo20bobo37bobo17bobo17bobo$47b2o2b2o18bo8bo30bo19bo
+19bob$51bobo26b2o71b$51bo27bobo71b$38bo114b$36bobo114b$37b2o2b2o110b$
+40bobo110b$42bo110b9$53b3o97b$53bo99b$54bo98b4$113b2o18b2o18b$93bobo
+16bo2bo16bo2bo17b$46bobo44b2o17bo2bo16bo2bo17b$47b2o19bo19bo5bo13bo4b
+2o13bo4b2o13bo4b$47bo19bobo17bobo17bobo17bobo8bo8bobo3b$68b2o18b2o4b2o
+12b2o18b2o4bo2bo10b2o3b$47b3o44bobo36b2o2b3o10b2ob$47bo46bo38bobo14bob
+o$48bo56b2o18b2o24bob$85b2o17bo2bo16bo2bo2b2o21b$86b2ob3o12bo2bo16bo2b
+ob2o22b$85bo3bo15b2o18b2o4bo21b$90bo62b$129b2o22b$128bobo22b$130bo!

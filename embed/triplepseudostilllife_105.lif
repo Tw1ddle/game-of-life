@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: Triple pseudo still life
+#D Author: Gabriel Nivasch
+#D A pattern found in 2001 that can be broken down into three stable stable piec
+#D es, but not two.
+#D http://www.conwaylife.com/wiki/index.php?title=Triple_pseudo_still_life
+#N
+#P -11 -5
+......**
+..*.*..*
+.*.**.*
+.*....**
+**.**
+...**.**
+**....*
+.*.**.*
+*..*.*
+**

@@ -1,0 +1,9 @@
+#N Pipsquirter 2
+#O Noam Elkies
+#C A period 7 pipsquirter oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Pipsquirter_2
+x = 13, y = 22, rule = b3/s23
+6b2o5b$6bobo4b$8bo4b$3bo2bob2o3b$3b4o6b$7b2o2b2o$3b4o6b$obo3bob2o3b$2o
+b2obobo4b$3bo4bo4b$3bobobob2o2b$2obobobobo3b$obo4bobo3b$2bob2obo2b2ob$
+2bobo3bobo2b$b2o2bob2obo2b$2bobo4bo3b$2bo3b3o4b$3b2obo6b$8b3o2b$b7o2bo
+2b$bo2bo2bo!

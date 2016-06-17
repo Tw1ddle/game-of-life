@@ -1,0 +1,5 @@
+#N Glider-producing switch engine predecessor
+#C A simple predecessor of the diagonal period 384 c/12 glider-producing switch engine puffer.
+#C www.conwaylife.com/wiki/index.php?title=Glider-producing_switch_engine
+x = 28, y = 6, rule = 23/3
+bobo24b$o27b$bo2bo23b$3b3o22b$26b2o$26b2o!

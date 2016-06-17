@@ -1,0 +1,15 @@
+#Life 1.05
+#D Name: Loading dock
+#D Author: David Buckingham
+#D A period 3 oscillator that was found in September 1972.
+#D www.conwaylife.com/wiki/index.php?title=Loading_dock
+#N
+#P -4 -4
+....*
+..***
+.*...**
+*.**...*
+.*...**.*
+..**...*
+....***
+....*

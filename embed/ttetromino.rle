@@ -1,0 +1,5 @@
+#N T-tetromino
+#C One of 5 tetrominoes.
+#C www.conwaylife.com/wiki/index.php?title=T-tetromino
+x = 3, y = 2, rule = B3/S23
+3o$bo!

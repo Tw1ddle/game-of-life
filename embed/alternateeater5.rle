@@ -1,0 +1,5 @@
+#N Alternate eater 5
+#C An alternate form of eater 5 using a long hook with tail rather tha
+#C n a block
+x = 10, y = 6, rule = b3/s23
+3bo3b2ob$2bobo3bob$bobo3bo2b$bo4bo3b$2o5b3o$9bo!

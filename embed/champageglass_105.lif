@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: Champage glass
+#D The smallest known non-trivial period 22 oscillator.
+#D www.conwaylife.com/wiki/index.php?title=Champagne_glass
+#N
+#P -7 -6
+...**.....**
+...*.......*
+**.*.......*.**
+*..**.....**..*
+.**......*..**
+...***....**
+...*....*..*
+....*******
+.
+......***
+......*..*
+........**

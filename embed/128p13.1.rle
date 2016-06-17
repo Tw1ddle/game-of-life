@@ -1,0 +1,10 @@
+#N 128P13.1
+#O Jason Summers
+#C A period 13 oscillator that is a variant on 34P13.1.
+#C www.conwaylife.com/wiki/34P13.1
+x = 36, y = 36, rule = 23/3
+2$13bo8bo$12bobo7bo$22bo$12bo$12bo2bo7b2o$11bo11b2o$11bo11b3o$11bo3bo5b2obo$
+12b3o6b3o3bo$7b3o7b2o3bo3b4o$3bob2o3bo6b2o6bob3o$2bo7bo13b3o4b3o$3bo6bo14b2o$
+6bo2bo2$11b2o10b2o$11b2o10b2o2$26bo2bo$9b2o14bo6bo$2b3o4b3o13bo7bo$
+6b3obo6b2o6bo3b2obo$6b4o3bo3b2o7b3o$8bo3b3o6b3o$11bob2o5bo3bo$10b3o11bo$
+11b2o11bo$11b2o7bo2bo$23bo$13bo$13bo7bobo$13bo8bo!

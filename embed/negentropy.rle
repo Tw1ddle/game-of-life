@@ -1,0 +1,6 @@
+#N Negentropy
+#C A period 2 oscillator that is very similar to the Hertz oscillator.
+#C http://www.conwaylife.com/wiki/index.php?title=Negentropy
+x = 11, y = 12, rule = B3/S23
+3b2obo4b$3bob2o4b2$4b3o4b$3bobobob2o$3b2o2bob2o$2obo3bo3b$2obo3bo3b$4b
+3o4b2$4b2obo3b$4bob2o!

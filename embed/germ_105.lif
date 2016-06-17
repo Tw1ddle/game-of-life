@@ -1,0 +1,17 @@
+#Life 1.05
+#D Name: Germ
+#D Author: David Buckingham
+#D A period 3 oscillator found in September 1972.
+#D www.conwaylife.com/wiki/index.php?title=Germ
+#N
+#P -5 -5
+....**
+.....*
+...*
+..*.****
+..*....*
+.**.*
+..*.*.****
+*.*.*....*
+**...***
+.......**

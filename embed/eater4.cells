@@ -1,0 +1,18 @@
+!Name: Eater 4
+!Author: David Buckingham
+!An eater that doesn't eat gliders, but does eat other objects.
+!http://www.conwaylife.com/wiki/index.php?title=Eater_4
+...OO
+...O
+OO.O
+O..OO
+.OO....O
+...OOOOO
+...O....OO
+....OO..O
+......O.O
+......O.O.O..O
+.......OO.OOOO
+.........O
+.........O.O
+..........OO

@@ -1,0 +1,7 @@
+#N Loaf tractor beam
+#C A tractor beam that pulls a loaf.
+#C www.conwaylife.com/wiki/index.php?title=Tractor_beam
+x = 47, y = 8, rule = b3/s23
+21bo2bo22b$5b4o11bo14b4o8b$5bo3bo10bo3bo10bo3bo7b$5bo8b2o4b4o11bo8b2ob
+$b2o3bo2bo3b4o11b2o6bo2bo3b4o$o2bo8b2ob2o10b2ob2o10b2ob2o$obo10b2o13b
+4o11b2o2b$bo27b2o!

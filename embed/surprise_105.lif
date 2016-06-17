@@ -1,0 +1,16 @@
+#Life 1.05
+#D Name: Surprise
+#D Author: David Buckingham
+#D A period 3 oscillator found in November 1972.
+#D www.conwaylife.com/wiki/index.php?title=Surprise
+#N
+#P -5 -4
+...*....**
+...***..*
+.**...*.*
+*..**.*.**
+.*......*
+**.*.**..*
+.*.*...**
+.*..***
+**....*

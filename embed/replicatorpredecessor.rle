@@ -1,0 +1,6 @@
+#N Replicator predecessor
+#O Nathan Thompson
+#C A 3-generation predecessor of the HighLife replicator.
+#C www.conwaylife.com/wiki/index.php?title=HighLife
+x = 4, y = 4, rule = 23/36
+b3o$o3b$o3b$o!

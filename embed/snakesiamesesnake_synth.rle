@@ -1,0 +1,22 @@
+#N Snake siamese snake_synth
+#O Mark D. Niemiec
+#C Glider synthesis of snake siamese snake.
+#C http://home.interserv.com/~mniemiec/objname.htm#S
+x = 141, y = 117, rule = 23/3
+2bo138b$3bo137b$b3o40bo96b$44bobo94b$44b2o95b10$77bo44bo18b$78b2o40b2o
+4bo14b$77b2o42b2o2bo15b$125b3o13b2$45bo80bo14b$44bo80b2o14b$44b3o34b3o
+41bobo13b$73bo7bo59b$73bobo6bo58b$73b2o19b2ob2obo33b2ob2obo$54b2ob2obo
+19b2o12bob2ob2o33bob2ob2o$8bo45bob2ob2o11bo6bobo59b$9b2o62bo7bo59b$8b
+2o61b3o33bobo31b$108b2o31b$108bo32b2$107b3o31b$76b2o31bo2b2o27b$75b2o
+31bo4b2o26b$23bobo51bo34bo28b$23b2o116b$24bo116b2$23b3o115b$23bo117b$
+24bo116b$93bo47b$94bo46b$92b3o46b8$29bo111b$28bo112b$28b3o110b7$105bo
+35b$104bo36b$104b3o34b$102bo38b$100bobo9b2o20b2ob2obo$101b2o9bobo19bob
+2ob2o$112bo28b$o107b3o30b$b2o107bo30b$2o107bo31b5$44b2ob2obo13b2ob2obo
+13b2ob2obo50b$44bob2ob2o13bob2ob2o13bob2ob2o50b7$6bobo33b2o18b2o77b$6b
+2o34b2o18b2o77b$7bo133b$60b2o79b$6b2o51bobo58b3o18b$6bobo52bo58bo20b$
+6bo23b2o89bo19b$30bobo108b$30bo110b6$110bo30b$108bobo6bo23b$109b2o5bo
+24b$116b3o22b2$27bobo111b$28b2o40bo47bo22b$28bo41bobo44bo23b$30bo13b2o
+bo16b2obo2b2o12b2obob2o13b2obob2o6b3o14b2ob2obo$25b2o2bo14bob2o16bob2o
+5b2o9bob2ob2o13bob2ob2o23bob2ob2o$24b2o3b3o41bobo65b$26bo46bo47b3o17b$
+21b2o98bo19b$22b2o98bo18b$21bo92b2o25b$114bobo24b$114bo26b$105b2o12b2o
+20b$106b2o10b2o21b$105bo14bo!

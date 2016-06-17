@@ -1,0 +1,25 @@
+#Life 1.05
+#D Name: Blinker puffer 1
+#D Author: Robert Wainwright
+#D The first blinker puffer to be found.
+#D www.conwaylife.com/wiki/index.php?title=Blinker_puffer_1
+#N
+#P -4 -9
+...*
+.*...*
+*
+*....*
+*****
+.
+.
+.
+.**
+**.***
+.****
+..**
+.
+.....**
+...*....*
+..*
+..*.....*
+..******

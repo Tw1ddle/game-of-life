@@ -1,0 +1,5 @@
+#N Cis-beacon up and long hook
+#C A period 2 oscillator composed of a beacon and a long hook.
+#C www.conwaylife.com/wiki/index.php?title=Beacon_and_long_hook
+x = 5, y = 8, rule = B3/S23
+2b2ob$3bob$o4b$2o3b2$4ob$o3bo$3b2o!

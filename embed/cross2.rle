@@ -1,0 +1,9 @@
+#N Cross 2
+#O Hartmut Holzwart
+#C The second smallest member of the infinite family of period 3 cross
+#C oscillators.
+#C www.conwaylife.com/wiki/index.php?title=Cross_2
+x = 15, y = 15, rule = B3/S23
+3bo2bobo2bo3b$3bo2bobo2bo3b$2b2o2bobo2b2o2b$3o4bo4b3o$7bo7b2$3o9b3o$3b
+2o5b2o3b$3o9b3o2$7bo7b$3o4bo4b3o$2b2o2bobo2b2o2b$3bo2bobo2bo3b$3bo2bob
+o2bo!

@@ -1,0 +1,10 @@
+#N Quad_synth
+#O Mark D. Niemiec
+#C Glider synthesis of quad.
+#C http://home.interserv.com/~mniemiec/objname.htm#Q
+x = 37, y = 28, rule = 23/3
+18bobo16b$18b2o17b$12bo6bo17b$13bo23b$11b3o23b$18bobo16b$18b2o17b$o4bo
+13bo17b$b2o3b2o29b$2o3b2o30b$11bobo23b$12b2o3bo5bo7b2o2b2o$12bo2b2o6bo
+bo5bobo2bo$16b2o5b2o10bob$3b2o5b2o20bo4b$2bobo6b2o2bo15bo2bobo$4bo5bo
+3b2o15b2o2b2o$14bobo20b$21b2o3b2o9b$20b2o3b2o10b$8bo13bo4bo9b$8b2o27b$
+7bobo27b$14b3o20b$14bo22b$8bo6bo21b$8b2o27b$7bobo!

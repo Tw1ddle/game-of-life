@@ -1,0 +1,15 @@
+!Name: Sombreros
+!Author: David Buckingham
+!A period 6 oscillator found in 1972. If the two halves are moved closer by 3 cells, a period 4 oscillator results.
+!www.conwaylife.com/wiki/index.php?title=Sombreros
+...OO........OO
+...O.O......O.O
+.....O......O
+...O.OO....OO.O
+.OOO..........OOO
+O...O.O....O.O...O
+.OOO..........OOO
+...O.OO....OO.O
+.....O......O
+...O.O......O.O
+...OO........OO

@@ -1,0 +1,16 @@
+#N Cis-shillelagh_synth
+#C Glider syntheses of Cis-shillelagh
+#C http://www.conwaylife.com/wiki/index.php?title=Cis-shillelagh
+x = 95, y = 133, rule = b3/s23
+58bo36b$59b2o34b$58b2o35b$93b2o$64bobo25bobo$65b2o5bo18bo3b$65bo4b2o
+18bo4b$71b2o17bobo2b$91b2o2b3$70bo24b$69b2o24b$69bobo23b25$59bo35b$60b
+2o18bo14b$59b2o8bo8b2o15b$70b2o7b2o14b$69b2o24b$93b2o$92bobo$91bo3b$
+90bo4b$62b2o26bobo2b$61bobo27b2o2b$63bo2b2o27b$65b2o28b$67bo27b5$26bo
+68b$25bo69b$25b3o67b16$2bo92b$obo92b$b2o92b2$bo93b$b2o92b$obo92b3$33b
+2o28b2o28b2o$32bobo27bobo27bobo$31bo29bo29bo3b$30bo29bo29bo4b$30bobo
+27bobo27bobo2b$31b2o28b2o28b2o2b11$10b3o82b$10bo41b2o28b2o11b$11bo40b
+2o28b2o11b$85b3o7b$85bo9b$86bo8b12$39bo55b$37bobo55b$38b2o55b2$40bo43b
+o10b$31bobo6bobo40bo11b$32b2o6b2o41b3o9b$32bo20b2o5b2o11b2o5b2o11b2o$
+52bobo4bo2bo9bobo4bo2bo9bobo$34bo16bo7bobo9bo7bobo9bo3b$29bobo2bobo13b
+o9bo9bo9bo9bo4b$30b2o2b2o14bobo17bobo17bobo2b$30bo20b2o18b2o18b2o2b2$
+41bo53b$40b2o53b$40bobo!

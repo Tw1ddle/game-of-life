@@ -1,0 +1,6 @@
+#N Biting off more than they can chew extended
+#C An extension of the period 3 oscillator "biting off more than they can chew".
+#C www.conwaylife.com/wiki/index.php?title=Biting_off_more_than_they_can_chew
+x = 16, y = 15, rule = 23/3
+2o14b$bo14b$bobo12b$2b2o3bo8b$5b2obo7b$5bobo8b$6b2o8b2$8b2o6b$8bobo5b$
+7bob2o5b$8bo3b2o2b$12bobob$14bob$14b2o!

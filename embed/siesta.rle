@@ -1,0 +1,7 @@
+#N Siesta
+#O David Buckingham
+#C A period 5 oscillator found in 1973.
+#C www.conwaylife.com/wiki/index.php?title=Siesta
+x = 16, y = 12, rule = B3/S23
+11b2o3b$3b2o5bobo3b$3bobo4bo5b$5bo3b2obo3b$3bob2o5b3ob$b3o5bobo3bo$o3b
+obo5b3ob$b3o5b2obo3b$3bob2o3bo5b$5bo4bobo3b$3bobo5b2o3b$3b2o!

@@ -1,0 +1,5 @@
+#N Quadpole
+#C The barberpole of length 4 and thus a period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Quadpole
+x = 7, y = 7, rule = B3/S23
+2o5b$obo4b2$2bobo2b2$4bobo$5b2o!

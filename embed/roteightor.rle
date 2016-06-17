@@ -1,0 +1,7 @@
+#N Roteightor
+#O Robert Wainwright
+#C A period 8 oscillator that was found in 1972.
+#C www.conwaylife.com/wiki/index.php?title=Roteightor
+x = 14, y = 14, rule = 23/3
+bo12b$b3o8b2o$4bo7bob$3b2o5bobob$10b2o2b2$6b2o6b$5b2obo5b$6b3o5b$2b2o
+3b3o4b$bobo5b2o3b$bo7bo4b$2o8b3ob$12bo!

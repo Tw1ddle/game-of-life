@@ -1,0 +1,10 @@
+#N Metacatacryst
+#O Nick Gotts
+#C A pattern that starts with just 52 cells but grows quadratically.
+#C www.conwaylife.com/wiki/index.php?title=Metacatacryst
+x = 59739, y = 14663, rule = B3/S23
+15366bo$15366bo$15364b2o$15363bo$15363bo$15363bo$15363bo6$15393bo$
+15392b2o$15390bo2bo2$15390bobo$15391bo133$15568b2o$15569b2o$15569bo29$
+15554bo$15553bobo$15555bo$15556bo507$59722b2o$59721b2o$59722bo29$
+59737bo$59736bobo$59736bo$59735bo13907$bo3bo$2bobo$o2bo$o$o21$33bo$32b
+o$31bo$32bo$33bo$29b3o!

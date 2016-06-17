@@ -1,0 +1,19 @@
+#N Coe ship_synth
+#O Mark D. Niemiec
+#C Glider synthesis of Coe ship.
+#C http://home.interserv.com/~mniemiec/objname.htm#C
+x = 109, y = 154, rule = b3/s23
+39bobo67b$bo38b2o67b$2bo37bo6bo12b3o4bo5bobo4b3o4bo12b3o4bob$3o43b3o
+11bo2bo2b3o5b2o4bo2bo2b3o11bo2bo2b3o$20b2o18b2o3b2obo11bo4b2obo5bo5bo
+4b2obo11bo4b2obo$2bo17bobo17bobo2b3o12bo3b4o12bo3b4o12bo3b4ob$b2o18bo
+14b3o2bo4b2o12bo5b2o12bo5b2o12bo5b2ob$bobo34bo22bobo17bobo16bo2bo5b$
+37bo37bo25b2o6b$75b2o24bo7b$74bobo25bo6b$102bo6b23$77bobo29b$78b2o29b$
+78bo30b3$40bo32bo35b$40bobo17b2o12b2o4b2o27b$36b3ob2o17bo2bo10b2o4bo2b
+o26b$38bo20bobo17bobo5bo12b3o4bob$37bo22bo19bo5b3o11bo2bo2b3o$85b2obo
+11bo4b2obo$85b3o12bo3b4ob$86b2o12bo5b2ob$74b2o24bo2bo5b$75b2o24b2o6b$
+74bo26bo7b$102bo6b$102bo6b9$46bobo60b$47b2o60b$47bo61b8$56bobo50b$57b
+2o50b$57bo51b10$69bo39b$67bobo39b$68b2o39b11$72bo36b$70bobo5bo30b$71b
+2o6b2o28b$78b2o29b2$71bo37b$72b2o35b$71b2o36b10$82b3o24b$84bo24b$83bo
+25b8$48bo60b$48b2o59b$47bobo3b3o53b$55bo53b$54bo54b$74b2o33b$75b2o32b$
+74bo34b3$68bo40b$68b2o39b$67bobo39b10$100b3o4bob$100bo2bo2b3o$100bo4b
+2obo$100bo3b4ob$100bo5b2ob$100bo2bo5b$101b2o6b$101bo7b$102bo6b$102bo!

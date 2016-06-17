@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Great on-off
+#D A period 2 oscillator.
+#D www.conwaylife.com/wiki/index.php?title=Great_on-off
+#N
+#P -4 -4
+..**
+.*..*
+.*.*
+**.*..*
+....**.*
+.......*
+....***
+....*

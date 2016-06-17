@@ -1,0 +1,7 @@
+#N Pre-pulsar shuttle 29 v2
+#C A period 29 shuttle oscillator that involves a pre-pulsar being hassled.
+#C www.conwaylife.com/wiki/index.php?title=Pre-pulsar_shuttle_29
+x = 27, y = 18, rule = b3/s23
+10b2o3b2o10b$9bo2bobo2bo9b$5b2o3b2o3b2o3b2o5b$5bo15bo5b$2b2obo15bob2o
+2b$o2bob2o13b2obo2bo$2obo19bob2o$3bo19bo3b$3b2o17b2o3b$9b3o3b3o9b$9bob
+o3bobo9b$9b3o3b3o9b4$9bo7bo9b$8bobo5bobo8b$9bo7bo!

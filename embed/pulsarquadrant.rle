@@ -1,0 +1,6 @@
+#N Pulsar quadrant
+#O David Buckingham
+#C A period 3 oscillator found in July 1973.
+#C www.conwaylife.com/wiki/index.php?title=Pulsar_quadrant
+x = 8, y = 8, rule = B3/S23
+5bo2b$3b3o2b$2bo3b2o$o2bo2bob$o3bobob$o4bo2b2$2b3o!

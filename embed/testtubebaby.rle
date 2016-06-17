@@ -1,0 +1,5 @@
+#N Test tube baby
+#C A period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Test_tube_baby
+x = 8, y = 5, rule = B3/S23
+2o4b2o$obo2bobo$2bo2bo2b$2bo2bo2b$3b2o!

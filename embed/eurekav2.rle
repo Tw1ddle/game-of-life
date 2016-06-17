@@ -1,0 +1,7 @@
+#N Eureka v2
+#C A period 30 pre-pulsar shuttle oscillator that was found in August 
+#C 1980.
+#C www.conwaylife.com/wiki/index.php?title=Eureka
+x = 20, y = 11, rule = b3/s23
+bo14bo3b$obo4bo7bobo2b$bo3b2ob2o6bo3b$7bo12b4$9bo10b$3bo3b2ob2o6bob$2b
+obo4bo7bobo$3bo14bo!

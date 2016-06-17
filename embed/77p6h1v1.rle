@@ -1,0 +1,10 @@
+#N 77P6H1V1
+#O Josh Ball
+#C The smallest known c/6 diagonal spaceship; found in March, 2011
+#C http://www.conwaylife.com/wiki/index.php?title=77P6H1V1
+x = 36, y = 36, rule = b3/s23
+34bob$33bobo$31b2o2bo2$30bo5b$27b2o2b2o3b$27b2o7b$27bo8b$25bobo8b$25b
+2o9b$23bo2bo9b$22bo4bo8b$21bo5bo8b$18bo3bo13b$17bobo3b2o11b$16b2ob2o
+15b$15b2o4bobo12b$14b2o7bo12b$13bo9bo12b$14b2o20b$15bo20b$12bo3bo19b$
+11bobo22b$10bo3bob3o17b$14bo21b$8b2o26b$9b2o25b$5b4o2b2o23b$5b2o29b2$
+4bo31b$2bo2bo30b$2bo2bo30b$bo34b$o35b$b2o!

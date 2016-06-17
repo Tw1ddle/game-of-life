@@ -1,0 +1,5 @@
+#N Cis-rotated R-bee
+#C A 14-cell still life composed of two buns.
+#C http://www.conwaylife.com/wiki/index.php?title=Cis-rotated_R-bee
+x = 7, y = 5, rule = B3/S23
+4b2ob$bo2bobo$obobobo$obo2bob$b2o!

@@ -1,0 +1,5 @@
+#N Trans-fuse with two tails
+#C A simple 10-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Trans-fuse_with_two_tails
+x = 6, y = 6, rule = B3/S23
+2o4b$bo4b$bobo2b$2bobob$4bob$4b2o!

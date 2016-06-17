@@ -1,0 +1,7 @@
+#N Octagon 2 on 36P22
+#C A small non-trivial period 110 oscillator
+#C www.conwaylife.com/wiki/index.php?title=Octagon_2_on_36P22
+x = 32, y = 16, rule = b3/s23
+27b2o3b$26bo2bo2b$25bo4bob$24bo6bo$24bo6bo$25bo4bob$2o24bo2bo2b$bo25b
+2o3b$bobo13b3o12b$2b2o3bo8bo3bo11b$6bob2o6bo4bo10b$5bo4bo6b2obo11b$6bo
+3bo8bo3b2o7b$7b3o13bobo6b$25bo6b$25b2o!

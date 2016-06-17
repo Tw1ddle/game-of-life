@@ -1,0 +1,7 @@
+#N Snacker
+#O Mark Niemiec
+#C A period 9 oscillator consisting of a pentadecathlon with stabilizers that force it into a lower period.
+#C www.conwaylife.com/wiki/index.php?title=Snacker
+x = 20, y = 11, rule = B3/S23
+2o16b2o$bo16bob$bobo12bobob$2b2o12b2o2b$7bo4bo7b$5b2ob4ob2o5b$7bo4bo7b
+$2b2o12b2o2b$bobo12bobob$bo16bob$2o16b2o!

@@ -1,0 +1,7 @@
+#N Penny lane
+#O David Buckingham
+#C A period 4 oscillator that was found in 1972.
+#C www.conwaylife.com/wiki/index.php?title=Penny_lane
+x = 15, y = 10, rule = B3/S23
+3b2o5b2o3b$3bo7bo3b$2obo2bobo2bob2o$2obobo3bobob2o$4bo2bo2bo4b$5b5o5b
+2$7bo7b$6bobo6b$7bo!

@@ -1,0 +1,6 @@
+#N Butterfly
+#C Evolves into a formation of two beehives after
+#C 33 generations.
+#C www.conwaylife.com/wiki/index.php?title=Butterfly
+x = 4, y = 4, rule = B3/S23
+o3b$2o2b$obob$b3o!

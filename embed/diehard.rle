@@ -1,0 +1,5 @@
+#N Die hard
+#C A methuselah that dies completely. It has lifespan 130.
+#C http://www.conwaylife.com/wiki/index.php?title=Die_hard
+x = 8, y = 3, rule = B3/S23
+6bob$2o6b$bo3b3o!

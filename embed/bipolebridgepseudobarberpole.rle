@@ -1,0 +1,6 @@
+#N Bipole bridge pseudo-barberpole
+#C A period 10 oscillator composed of a bipole and a pseudo-barberpole. The smallest period 10 oscillator, though it is usually considered trivial.
+#C www.conwaylife.com/wiki/index.php?title=Bipole_bridge_pseudo-barberpole
+x = 17, y = 17, rule = b3/s23
+15b2o$14bobo2$12bobo2b$12b2o3b$10b2o5b$11bo5b$9bo7b$7bobo7b2$5bobo9b2$
+3bobo11b2$2b2o13b$o16b$2o!

@@ -1,0 +1,6 @@
+#N 41P7.2
+#C A period 7 oscillator with an isolated two-bit spark
+#C www.conwaylife.com/wiki/index.php?title=41P7.2
+x = 13, y = 14, rule = b3/s23
+9b2o2b$9bo3b$10bo2b$9b2o2b$8bo4b$9b2o2b$8bo2bob$3bob5o2bo$b3obo4b2ob$o
+4bobobo3b$b4o4bo3b$5b4o4b$3bo2bo6b$3b2o!

@@ -1,0 +1,8 @@
+#N Middleweight volcano
+#O Dean Hickerson
+#C A period 5 oscillator found in April 1992 that produces sparks much
+#C like a middleweight spaceship.
+#C www.conwaylife.com/wiki/index.php?title=Middleweight_volcano
+x = 13, y = 11, rule = B3/S23
+4b5o4b$3bo5bo3b$b3o5b3ob$o11bo$ob3obob4ob$bo3b3o5b$3bo5b2obo$2b2obobob
+ob2o$3bobo2bo4b$3bo2b2o5b$2b2o!

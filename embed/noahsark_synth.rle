@@ -1,0 +1,11 @@
+#N Noah's ark_synth
+#O Mark D. Niemiec
+#C Glider synthesis of Noah's ark.
+#C home.interserv.com/~mniemiec/objname.htm#N
+x = 120, y = 52, rule = 23/3
+9bo25bo84b$7bobo24bo85b$8b2o24b3o83b$obo117b$b2o117b$bo118b7$94bo25b$
+93b4o2bo6bobo11b$94b4obo9bo10b$49bo41b2o3b3o6bo2bo11b$49bobo38b2o2bo9b
+3o13b$49b2o39b2obo26b$92bo27b4$117bo2b$116bobob2$115bo2bob$115b2o3b$5b
+o109bo4b$5b2o113b$4bobo113b3$117b2ob$116bo3b$116b2o2b$116b3ob$117b2ob$
+115bob3o$114bo3bob$113bo2bo3b$114b3o3b$114b2o4b$49b3o68b$49bo70b$50bo
+69b$22b2o96b$23b2o95b$22bo97b2$47b2o71b$46b2o72b$48bo!

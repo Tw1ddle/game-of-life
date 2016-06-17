@@ -1,0 +1,16 @@
+#Life 1.05
+#D Name: New five
+#D Author: Dean Hickerrson
+#D A period 3 oscillator found in January 1990.
+#D www.conwaylife.com/wiki/index.php?title=New_five
+#N
+#P -4 -4
+..**
+.*..*
+.*.*..*
+**.*.**
+*
+.***.****
+.....*..*
+*.**
+**.**

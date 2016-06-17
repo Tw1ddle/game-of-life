@@ -1,0 +1,21 @@
+#Life 1.05
+#D Name: Tritoad
+#D Author: David Buckingham
+#D A period 3 oscillator found in October 1977.
+#D www.conwaylife.com/wiki/index.php?title=Tritoad
+#N
+#P -9 -7
+.........**
+.........*
+..........*..**
+.......***.*..*
+......*....**.*.**
+......*.**..*.*.**
+...**.*...**..*
+...*..**...*.**
+**.*.*..**.*
+**.*.**....*
+...*..*.***
+...**..*
+........*
+.......**

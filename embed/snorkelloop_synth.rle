@@ -1,0 +1,7 @@
+#N Snorkel loop_synth
+#C A six-glider synthesis of snorkel loop
+#C http://www.conwaylife.com/wiki/index.php?title=Snorkel_loop
+x = 33, y = 17, rule = b3/s23
+14bo18b$12b2o19b$13b2o18b$4bo28b$5b2o23b2ob$4b2o23bo2bo$b2o8b2o16bobob
+$obo7b2o15bobob2o$2bo9bo14b2o4b3$14b3o16b$14bo18b$15bo17b$9bo23b$9b2o
+22b$8bobo!

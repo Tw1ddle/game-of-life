@@ -1,0 +1,13 @@
+#N Griddle and beehive_synth
+#C A 16-glider synthesis of griddle and beehive
+#C http://www.conwaylife.com/wiki/index.php?title=Griddle_and_beehive
+x = 159, y = 71, rule = b3/s23
+65bo93b$64bo94b$64b3o92b2$12bo146b$10bobo146b$11b2o146b$56bo102b$54b2o
+103b$55b2o102b3$66bobo90b$2bo63b2o91b$obo64bo91b$b2o156b2$6bo152b$4bob
+o152b$5b2o152b5$51bo107b$51bobo105b$51b2o106b3$91bobo65b$92b2o65b$92bo
+66b$75b2o18b2o18bo19bo19bo3b$75b2o18b2o18bobo17bobo17bobob$113bo4bo14b
+o4bo14bo4bo$73b6o14b6o14b6o14b6o14b6o$73bo4bo14bo4bo60b$75b3o17b3o2b3o
+12b2o18b2o18b2o2b$74b2o14b2o2b2o4bo14b2o18b2o17bo2bob$89bobo9bo53b2o2b
+$91bo40bo26b$133b2o24b$132b2o2b2o21b$135bobo21b$33bobo101bo21b$33b2o
+124b$34bo124b2$33b3o123b$33bo125b$34bo124b17$65b2o92b$58b3o3b2o93b$58b
+o7bo92b$59bo!

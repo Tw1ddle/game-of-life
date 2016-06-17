@@ -1,0 +1,28 @@
+#N Cis-hook with tail_synth
+#O Mark D. Niemiec
+#C Glider synthesis of cis-hook with tail.
+#C http://home.interserv.com/~mniemiec/objname.htm#C
+x = 146, y = 110, rule = 23/3
+42bobo78bo22b$43b2o79bo21b$43bo78b3o21b2$47bo76b3o19b$46bo77bo21b$46b
+3o29bobo44bo20b$50b3o26b2o65b$50bo13b2o13bo4bo59b2o$20b2o18b2o9bo8b2o
+3bo17bo16b2o18b2o5b2o11b2o3bo$21bo19bo19bo2bo18b3o15bo19bo5bobo11bo2bo
+b$2o19bobo17bobo17bobo37bobo17bobo3bo13bobo2b$b2o19b2o18b2o18bo39bobo
+17bobo17bo3b$o3b2o97bo19bo22b$4bobo41b2o96b$4bo43bobo28b2o65b$48bo31b
+2o2bo42b3o16b$79bo3bo43bo18b$43b3o37b3o34b2o6bo17b$45bo73bobo24b$44bo
+76bo24b$48bo97b$47b2o97b$47bobo96b8$125bo20b$124bo21b$124b3o19b$79bo
+36bobo27b$79bobo30b3o2b2o3bo8bo14b$79b2o33bo2bo5b2o4b2o15b$42bo34bo35b
+o8b2o6b2o14b$41bo33bobo19b2o18b2o25b2o$41b3o32b2o18bo2bo16bo2bo7b2o11b
+2o3bo$62b2o18b2o13b2o3b2o13b2o3b2o3bobo11bo2bob$41bo19bobo17bobo17bobo
+17bobo3bo13bobo2b$41b2o19bo19bo19bo19bo19bo3b$40bobo103b16$126bo19b$
+124bobo19b$125b2o19b2$127bo18b$85bo41bobo16b$84bo19bo19bo2b2o17b$84b3o
+16bobo17bobo20b$103bobo17bobo20b$87b3o14bo19bo19b2o$20b2o18b2o18b2o18b
+2o5bo12b2o18b2o18b2o3bo$21bo19bo8bo10bo19bo6bo12bo19bo7bo11bo2bob$2o
+19bobo17bobo5bo11bob2o16bob2o16bob2o16bob2o2b2o12bobo2b$b2o19b2o18b2o
+5b3o10bobo17bobo17bobo17bobo3b2o12bo3b$o3b2o140b$4bobo39b3o97b$4bo41bo
+99b$47bo82b3o13b$40bo89bo15b$40b2o89bo14b$39bobo104b13$44bo101b$45bo
+100b$43b3o100b2$46bobo97b$46b2o31bo66b$47bo16b2o14bo3b2o18b2o18b2o18b
+2o$65bo12b3o4bo10bo3b2o3bo10bo3b2o3bo14b2o3bo$64bo9b3o7bo10bobo3bo2bo
+10bobo3bo2bo16bo2bob$63bo12bo6bo12bo4bobo12bo4bobo17bobo2b$47b3o13b2o
+10bo3b2o2b2o17bo10b2o7bo19bo3b$41b3o3bo31bo32bobo31b$43bo4bo28bobo17b
+2o15bo2b2o27b$42bo34b2o4b3o11b2o18b2o27b$85bo60b$84bo3bo57b$87b2o57b$
+87bobo!

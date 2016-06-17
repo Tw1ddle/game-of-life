@@ -1,0 +1,7 @@
+#N 44P7.2
+#O David Buckingham
+#C A period 7 oscillator that supplies two accessible domino sparks, discovered on June 19, 1977
+#C www.conwaylife.com/wiki/index.php?title=44P7.2
+x = 16, y = 16, rule = b3/s23
+11bo4b$10bobo3b$10bobo3b$9b2obob2o$12b2obo$8bob2o4b$11bo4b$8b3o5b$5bob
+o8b$3bo3bob2o5b$b3obobob2o5b$o4b2o9b$b4o11b$4bo11b$3bo12b$3b2o!

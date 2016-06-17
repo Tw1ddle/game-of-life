@@ -1,0 +1,5 @@
+#N Achim's p8
+#O Achim Flammenkamp
+#C Period 8 oscillator found in July 1994.
+x = 9, y = 9, rule = B3/S23
+b2o6b$o8b$bo3bo3b$bo3b2o2b$3bobo3b$2b2o3bob$3bo3bob$8bo$6b2o!

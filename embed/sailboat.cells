@@ -1,0 +1,29 @@
+!Name: Sailboat
+!Author: Robert Wainwright
+!A boat that is hassled by a Kok's galaxy, a figure eight, and two eater 3s. Found in June 1984.
+!www.conwaylife.com/wiki/index.php?title=Sailboat
+........O...........O
+.......O.O.........O.O
+........O...........O
+
+......OOOOO.......OOOOO
+.....O....O.......O....O
+....O..O.............O..O
+.O..O.OO.............OO.O..O
+O.O.O.....O.......OO....O.O.O
+.O..O....O.O.....O..O...O..O
+....OO..O..O......O.O..OO
+.........OO........O
+.............OO
+.............O.O
+..............O
+.................OOO
+.....O.O..O.....O
+.....OOO.O.OO...O...O
+....O......O....O..O.O
+.....O.....OO.....O.O..O
+...................O...O
+....OO.....O...........O
+.....O......O.......OOO
+....OO.O.OOO
+......O..O.O

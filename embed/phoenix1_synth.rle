@@ -1,0 +1,9 @@
+#N Phoenix 1_synth
+#O Mark D. Niemiec
+#C Glider synthesis of phoenix 1.
+#C http://home.interserv.com/~mniemiec/objname.htm#E
+x = 70, y = 14, rule = 23/3
+43bo26b$6bo34bobo26b$2o2bobo35b2o7bo18b$b2o2b2o17b2o19b2o3bo15bo3b$o7b
+o15b2o19b2o3b3o11bobo3b$7bo60bob$7b3o11b2o4b2o13b2o4b2o12b2o6b$3o18b2o
+4b2o13b2o4b2o18b2o$2bo60bo6b$bo7bo14b2o13b3o3b2o18bobo2b$3b2o2b2o15b2o
+15bo3b2o18bo4b$3bobo2b2o30bo7b2o20b$3bo44bobo19b$48bo!

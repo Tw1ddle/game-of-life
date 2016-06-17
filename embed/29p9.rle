@@ -1,0 +1,7 @@
+#N 29P9
+#O Dean Hickerson
+#C The smallest known period 9 oscillator
+#C www.conwaylife.com/wiki/index.php?title=29P9
+x = 10, y = 10, rule = b3/s23
+b2o7b$2bo7b$2bob2o4b$b2obobo3b$7bo2b$5b3o2b$2o6b2o$o2bob2obob$2b2obo2b
+ob$6b2o!

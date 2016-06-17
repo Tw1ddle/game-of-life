@@ -1,0 +1,6 @@
+#N Century eater
+#C An eater for century (or equivalently, bookend) made up of three eater 1s surrounding a beehive.
+#C www.conwaylife.com/wiki/index.php?title=Century
+x = 21, y = 21, rule = b3/s23
+17b2o2b$15b3o3b$16bo4b2$10bo10b$9bobo9b$9bobo9b$10bo10b5$2b2o13b2o2b$b
+obo13bobob$bo17bob$2o17b2o2$7b2o12b$8bo12b$5b3o13b$5bo!

@@ -1,0 +1,10 @@
+#N Alternate wickstretcher 1
+#O Paul Tooke
+#C A slightly smaller form of wickstretcher 1
+x = 38, y = 20, rule = b3/s23
+26bobo9b$26bo2bo8b$10bo15bo3bo7b$9bobo18b2o6b$2bo4b3obo5bo14bo5b$bobo
+2bo4b2o3bobo7b2o2bob2o4b$bobo2bob2o3bo3bo8b3o2b3o3bo$2ob2obobob2o8bo
+12bo2b2o$bo4b2o4b2o3bob2o12b2o2bo$bob2o2bo3bobob2o2bob2ob3o11b$2bo3b3o
+bobo2bo4bo3b3o11b$3b2o3bobo2bo5b2o12b2o2bo$5b2obob2obobo3bo13bo2b2o$5b
+ob2obo2bob2o4bo4b3o2b3o3bo$11b2o7b2o4b2o2bob2o4b$32bo5b$30b2o6b$26bo3b
+o7b$26bo2bo8b$26bobo!

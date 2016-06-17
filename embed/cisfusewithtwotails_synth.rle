@@ -1,0 +1,28 @@
+#N Cis-fuse with two tails_synth
+#C Glider syntheses of Cis-fuse with two tails
+#C http://www.conwaylife.com/wiki/index.php?title=Cis-fuse_with_two_ta
+#C ils
+x = 127, y = 116, rule = b3/s23
+113bo13b$111b2o14b$112b2o13b3$98bobo26b$99b2o26b$99bo27b2$96b2o25bo3b$
+96bobo24b3ob$92bo3bo24b2o3bo$92b2o28bo2bob$91bobo14bo13bobo2b$106bobo
+14bo3b$107b2o18b$103b2o22b$102bobo22b$104bo22b$93bo33b$93b2o10b2o20b$
+92bobo10bobo19b$105bo21b11$105bobo19b$24bo80b2o20b$24bobo79bo20b$20bo
+3b2o101b$21b2o19b2o18b2o18b2o18b2o23b$20b2o19bobo17bobo17bobo17bobo23b
+$41bo19bo19bo19bo21bo3b$40b2o18b2o18b2o3bo14b2o3bo3bobo11b3ob$84bobo
+17bobo2b2o10b2o3bo$64b2o3bo13bobo17bobo4bo11bo2bob$65b2obo13bobo17bobo
+17bobo2b$64bo3b3o12bo19bo7b3o9bo3b$111bo15b$112bo14b$69b2o31b2o23b$68b
+2o33b2o22b$70bo31bo3b2o19b$106bobo18b$106bo20b$57bo69b$58b2o67b$57b2o
+68b2$63bo63b$63bobo61b$63b2o62b$60bo66b$61b2o41bobo20b$60b2o42b2o21b$
+105bo21b$58bo44bo23b$59bo8bo35bo22b$57b3o6b2o30b2o2b3o22b$67b2o30b2o
+26b$98bo25b2ob$84bo19bo20bob$83bobo17bobo3bo13bo3b$83b2o18b2o3b2o13b2o
+2b$41b2o11bo6b2o18b2o18b2o5bobo10b2o4b$42bo11b2o6bo7b2o10bo19bo19bo4b$
+21b2o19bobo8bobo6bobo4b2o11bobo17bobo17bobo2b$22b2o19b2o18b2o6bo11b2o
+18b2o18b2o2b$21bo3b2o100b$25bobo99b$25bo101b8$99bobo25b$99b2o26b$100bo
+8bo17b$88bo19bo18b$89b2o17b3o16b$88b2o11bo25b$101bobo23b$101b2o24b$
+107bo19b$105b2o20b$106b2o19b2$4b2o18b2o18b2o9bo18b2o18b2o31b$5bo19bo
+19bo8bo20bo19bo31b$3bo19bo19bo10b3o16bo4b2o13bo4b2o23bo3b$3b2o18b2o18b
+2o28b2o2bo2bo12b2o2bo2bo22b3ob$b2o18b2o18b2o14bo13b2o4bo2bo10b2o4bo2bo
+20b2o3bo$2bo8bo10bo19bo13b2o14bo5b2o12bo5b2o22bo2bob$2bobo5bo11bob2o
+16bob2o10bobo13bob2o16bob2o26bobo2b$3b2o5b3o10bobo17bobo27bobo17bobo
+11bo15bo3b$106b2o19b$7b3o96bobo18b$7bo119b$8bo118b$bo58bo66b$b2o56b2o
+33b2o31b$obo56bobo33b2o6b2o22b$94bo7b2o23b$98b3o3bo22b$100bo26b$99bo!

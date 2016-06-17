@@ -1,0 +1,12 @@
+#N Quasar
+#O Robert Wainwright
+#C A period 3 oscillator found in August 1971 that is quite similar to
+#C the pulsar.
+#C www.conwaylife.com/wiki/index.php?title=Quasar
+x = 29, y = 29, rule = B3/S23
+10b3o3b3o10b2$8bo4bobo4bo8b$8bo4bobo4bo8b$8bo4bobo4bo8b$10b3o3b3o10b2$
+8b3o7b3o8b$2b3o2bo4bo3bo4bo2b3o2b$7bo4bo3bo4bo7b$o4bobo4bo3bo4bobo4bo$
+o4bo17bo4bo$o4bo2b3o7b3o2bo4bo$2b3o19b3o2b2$2b3o19b3o2b$o4bo2b3o7b3o2b
+o4bo$o4bo17bo4bo$o4bobo4bo3bo4bobo4bo$7bo4bo3bo4bo7b$2b3o2bo4bo3bo4bo
+2b3o2b$8b3o7b3o8b2$10b3o3b3o10b$8bo4bobo4bo8b$8bo4bobo4bo8b$8bo4bobo4b
+o8b2$10b3o3b3o!

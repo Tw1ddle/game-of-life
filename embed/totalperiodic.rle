@@ -1,0 +1,14 @@
+#N Total periodic
+#O Bill Gosper
+#C A modification of the "total aperiodic" pattern.
+#C www.conwaylife.com/wiki/index.php?title=Total_aperiodic
+x = 60, y = 59, rule = b3/s23
+40b3o17b$39bo2bo17b$42bo4b3o10b$42bo4bo2bo4bo4b$39bobo4bo3bo3b3o3b$46b
+4o4bob2o2b$47bo7b3o2b$55b3o2b$41bo13b2o3b$40b3o17b$39b2obo17b$39b3o18b
+$40b2o18b7$39bo20b$38b3o19b$37b2obo11b3o5b$37b3o11bo2bo5b$37b3o14bo5b$
+38b2o14bo5b$51bobo6b3$38bo21b$39bo20b$34bo4bo9bo10b$35b5o10bo6b2ob$46b
+o3bo4b2ob2o$47b4o4b4ob$56b2o2b3$55bo4b$55b2o3b$56b2o2b$23b2o30b2o3b$3b
+o2bo13b3ob2o34b$7bo12b5o35b$3bo3bo13b3o12b2o22b$4b4o26b2ob2o21b$34b4o
+13b5o4b$35b2o13bo4bo4b$24b3o28bo4b$26bo27bo5b$24bobo33b$24b2o34b3$17b
+2o5bo2bo32b$16b4o8bo31b$5b3o8b2ob2o3bo3bo31b$2o2b5o9b2o5b4o31b$2o2b3ob
+2o50b$7b2o!

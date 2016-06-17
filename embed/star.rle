@@ -1,0 +1,6 @@
+#N Star
+#O Hartmut Holzwart
+#C A period 3 oscillator found in February 1993.
+#C www.conwaylife.com/wiki/index.php?title=Star
+x = 11, y = 11, rule = B3/S23
+4b3o4b2$2bobobobo2b2$obo5bobo$o9bo$obo5bobo2$2bobobobo2b2$4b3o!

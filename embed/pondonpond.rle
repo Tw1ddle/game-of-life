@@ -1,0 +1,5 @@
+#N Pond on pond
+#C A 16-cell pseudo still life made up of two ponds.
+#C www.conwaylife.com/wiki/index.php?title=Pond_on_pond
+x = 9, y = 4, rule = 23/3
+b2o3b2ob$o2bobo2bo$o2bobo2bo$b2o3b2o!

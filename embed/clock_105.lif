@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: Clock
+#D Author: Simon Norton
+#D Clock was found in May 1970. This is the fifth or sixth most common oscillato
+#D r, being about as frequent as the pentadecathlon, but much less frequent than
+#D  the blinker, toad, beacon or pulsar.
+#D www.conwaylife.com/wiki/index.php?title=Clock
+#N
+#P -2 -2
+..*
+*.*
+.*.*
+.*

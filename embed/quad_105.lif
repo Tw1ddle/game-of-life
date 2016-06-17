@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: Quad
+#D Author: Robert Kraus
+#D A period 2 oscillator that was found in April 1971.
+#D www.conwaylife.com/wiki/index.php?title=Quad
+#N
+#P -25 -21
+**..**
+*..*.*
+.*
+....*
+*.*..*
+**..**

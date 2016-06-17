@@ -1,0 +1,17 @@
+#N Twin hat_synth
+#C Glider syntheses of twin hat
+#C http://www.conwaylife.com/wiki/index.php?title=Twin_hat
+x = 110, y = 128, rule = b3/s23
+96bo13b$95bo14b$95b3o12b20$81b3o26b$81bo21bo3bo2b$72bo9bo19bobobobob$
+70bobo2bo26bobobobob$71b2o2bobo23b2obobob2o$75b2o28bo4b14$87bo22b$86b
+2o22b$86bobo21b13$85bo24b$83bobo24b$84b2o24b2$86bo23b$86bobo21b$86b2o
+22b$103bo3bo2b$102bobobobob$45b3o14bo5bo13bo5bo13bobobobob$45bo16bo5bo
+13bo5bo12b2obobob2o$46bo15bo5bo13bo5bo16bo4b2$44b2o64b$45b2o63b$44bo
+65b3$44b2o64b$45b2o63b$44bo65b7$41bo68b$42bo67b$40b3o67b$44bo65b$44bob
+o35bobo25b$44b2o36b2o26b$83bo26b$61bo19bo28b$61bo19bo28b$61bo19bo28b$
+24b3o17b3o17b3o17b3o16bo3bo2b$4bo97bobobobob$5bo16bo5bo13bo5bo13bo5bo
+13bo5bo13bobobobob$3b3o16bo5bo13bo5bo13bo5bo13bo5bo12b2obobob2o$22bo5b
+o13bo5bo13bo5bo13bo5bo16bo4b$bo108b$b2o107b$obo107b5$10bo99b$9b2o66bo
+32b$9bobo63bobo32b$76b2o32b3$83bobo24b$83b2o25b$84bo25b2$80b3o27b$82bo
+27b$81bo28b6$84b3o16bo3bo2b$102bobobobob$82bo5bo13bobobobob$82bo5bo12b
+2obobob2o$82bo5bo16bo!

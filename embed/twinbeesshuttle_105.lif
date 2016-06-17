@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Twin bees shuttle
+#D Author: Bill Gosper
+#D Twin bees shuttle was found in 1971 and is the basis of all known period 46 o
+#D scillators.
+#D www.conwaylife.com/wiki/index.php?title=Twin_bees_shuttle
+#N
+#P -14 -5
+.................**
+**...............*.*.......**
+**.................*.......**
+.................***
+.
+.
+.
+.................***
+**.................*
+**...............*.*
+.................**

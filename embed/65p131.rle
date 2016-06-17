@@ -1,0 +1,8 @@
+#N 65P13.1
+#O David Buckingham
+#C The first period 13 oscillator to be found. Found in 1976.
+#C www.conwaylife.com/wiki/index.php?title=65P13.1
+x = 25, y = 15, rule = b3/s23
+4bo15bo4b$3bobo13bobo3b$3bobo13bobo3b$b3ob2o11b2ob3ob$o23bo$b3ob2o11b
+2ob3ob$3bob2o11b2obo3b$10bo3bo10b$11bobo11b$10b2ob2o10b$8bo2bobo2bo8b$
+7bobobobobobo7b$7b2o2bobo2b2o7b$11bobo11b$12bo!

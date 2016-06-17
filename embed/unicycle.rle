@@ -1,0 +1,6 @@
+#N Unicycle
+#C A period 6 oscillator made up of four copies of unix.
+#C www.conwaylife.com/wiki/index.php?title=Unicycle
+x = 14, y = 14, rule = b3/s23
+2b2o3b4o3b$2b2o2bo4bo2b$2obo2bo3bobob$3o4bo3bobo$13bo$13bo$b2o7bo2bo$o
+2bo7b2ob$o13b$o13b$obo3bo4b3o$bobo3bo2bob2o$2bo4bo2b2o2b$3b4o3b2o!

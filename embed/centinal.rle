@@ -1,0 +1,8 @@
+#N Centinal
+#O Bill Gosper
+#C A period 100 oscillator based on the p54 shuttle and the twin bees shuttle.
+#C www.conwaylife.com/wiki/index.php?title=Centinal
+x = 52, y = 17, rule = B3/S23
+2o48b2o$bo48bob$bobo21b2o21bobob$2b2o8bo12b2o12b2o7b2o2b$11b2o26bobo
+10b$10b2o29bo10b$11b2o2b2o22b3o10b4$11b2o2b2o22b3o10b$10b2o29bo10b$11b
+2o26bobo10b$2b2o8bo12b2o12b2o7b2o2b$bobo21b2o21bobob$bo48bob$2o48b2o!

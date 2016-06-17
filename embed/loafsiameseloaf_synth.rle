@@ -1,0 +1,20 @@
+#N Loaf siamese loaf_synth
+#O Mark D. Niemiec
+#C Glider synthesis of loaf siamese loaf.
+#C http://home.interserv.com/~mniemiec/still.htm
+x = 108, y = 95, rule = 23/3
+92bo15b$93bo14b$91b3o14b$44bo63b$45bo18b2o18b2o4b3o11b2o2b$43b3o17bo2b
+o16bo2bo3bo12bo2bob$63bobo17bobo5bo11bobobo$46bobo15bo19bo19bo2bo$46b
+2o19b2o18b2o16b2ob$47bo19b2o18b2o19b2$45b2o36b2o23b$44b2o35bobobo5b2o
+15b$46bo32bobobo7bobo14b$80b2o9bo16b9$4bo103b$4bobo17b2o18b2o18b2o42b$
+3ob2o17bo2bo16bo2bo4bo11bo2bo41b$2bo20bobo17bobo5bobo9bobo42b$bo22bo
+19bo6b2o11bo43b$48b2o17b2o39b$48bobo16b2o39b$48bo59b10$52bo39bo15b$51b
+o41bo14b$51b3o37b3o14b2$64b2o18b2o4b3o11b2o2b$41bo21bo2bo16bo2bo3bo12b
+o2bob$39bobo21bobo17bobo5bo11bobobo$40b2o22bo19bo19bo2bo$36b2o29b2o18b
+2o16b2ob$35bobo29bobo17bobo18b$37bo30bo19bo19b$50b3o30b2o23b$50bo30bob
+obo22b$51bo27bobobo24b$80b2o26b9$44bo63b$44bobo17b2o42b$8bo31b3ob2o17b
+o2bo41b$9bo32bo20bobo42b$7b3o31bo22bo43b$27b2o18b2o18b2o39b$9bo17bobo
+17bobo17bobo38b$8b2o18bo19bo19bo39b$8bobo97b12$4bo103b$4bobo17b2o18b2o
+18b2o42b$3ob2o17bo2bo16bo2bo16bo2bo41b$2bo20bobo17bobo17bobo42b$bo22bo
+19bo19bo43b$52bo14b2o39b$50b2o15bobo38b$51b2o15bo39b$46b2o60b$44bobobo
+59b$42bobobo61b$43b2o!

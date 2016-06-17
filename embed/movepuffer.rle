@@ -1,0 +1,5 @@
+#N Move puffer
+#C A common puffer in the move (125/368) rule.
+#C www.conwaylife.com/wiki/index.php?title=Move
+x = 2, y = 6, rule = 245/368
+ob$bo$bo$bo$bo$o!

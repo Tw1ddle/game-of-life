@@ -1,0 +1,7 @@
+#N Tetraplets
+#C The 22 distinct tetraplets.
+x = 54, y = 31, rule = B3/S23
+4o6b3o7b3o7b2obo6b2o8b2o$13bo8bo9bo9b2o8bo$53bo7$2o8b2o8b2o8b2o8b2o8b
+2o$2bo9bo8b2o8bo9bo8b2o$2bo8bo20bo7bo7$obo7bo9bo9bo9bo9bo$bobo7b2o8b2o
+8bobo7bo9bo$13bo7bo10bo9bo8bo$43bo6bo7$bo8bo9bobo7bo$obo7b2o9bo9b2o$bo
+8bo11bo7bo!

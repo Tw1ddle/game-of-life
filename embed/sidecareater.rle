@@ -1,0 +1,6 @@
+#N Sidecar eater
+#C A pattern that is capable of eating a sidecar.
+#C www.conwaylife.com/wiki/index.php?title=Sidecar
+x = 18, y = 14, rule = B3/S23
+13b2o$13bo$11bobo$6bo4b2o$bo5bo$bo5bo$bob5o6b2o$14b2o$2b2o$o4bo$6bo8b
+2o$o5bo7bo2bo$b6o7bo2bo$15b2o!

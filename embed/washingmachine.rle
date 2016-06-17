@@ -1,0 +1,6 @@
+#N Washing machine
+#O Robert Wainwright
+#C A period 2 oscillator found no later than June 1972.
+#C www.conwaylife.com/wiki/index.php?title=Washing_machine
+x = 7, y = 7, rule = B3/S23
+b2ob2ob$ob2o2bo$2o4bo$bo3bob$o4b2o$o2b2obo$b2ob2o!

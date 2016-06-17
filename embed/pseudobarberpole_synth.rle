@@ -1,0 +1,28 @@
+#N Pseudo-barberpole_synth
+#O Mark D. Niemiec
+#C Glider syntheses of pseudo-barberpole.
+#C http://home.interserv.com/~mniemiec/objname.htm#a
+x = 150, y = 110, rule = 23/3
+101bobo46b$101b2o47b$102bo47b2$90bo9bo49b$91bo6b2o50b$89b3o7b2o49b5$2b
+o15bo131b$obo14bo132b$b2o14b3o130b3$6bobobobo11bo113b2o10b$7b2ob2o11bo
+5b2o18b2o18b2o17bo10b2o37bo11b$7bo3bo11b3o3bobo17bobo17bobo17b2o8bobo
+38b2o8b$9bo78b2o60b$8b2o21bobo17bobo17bobo27bobo37bobo6b$8bobo5bobo65b
+o65b$17b2o14bobo17bobo17bobo8b2o17bobo19bo17bobo4b$17bo65bobo37b2o25b$
+b3o11bo3bo15bobo17bobo17bobo27bobo16b2o19bobo2b$3bo11b2ob2o16b2o18b2o
+20bo29bo10bobo25bo2b$2bo11bobobobo56b2o28b2o10b2o28bo$63bobo54bo27b2o$
+63b2o25b2o58b$7b3o14b2o38bo24bobo58b$9bo14bobo64bo58b$8bo15bo24b3o12b
+2o84b$51bo12bobo83b$50bo9bo3bo85b$60b2o33b3o21b2o29b$59bobo35bo9bo11bo
+bo28b$96bo9b2o11bo30b$106bobo41b3$102b2o46b$103b2o45b$102bo47b5$119b2o
+18b2o9b$119bobo17bobo8b2$121bobo17bobo6b2$123bobo17bobo4b2$125bobo9bo
+7bobo2b$128bo7bobo9bob$113bo3b2o8b2o8bobo7b2ob$114bob2o20bobo9b$112b3o
+3bo20bo10b$67bo82b$65b2o83b$66b2o44b2o36b$113b2o35b$112bo37b$71bo78b$
+64bo6bobo76b$62bobo6b2o77b$63b2o85b3$55bobo92b$56b2o92b$56bo93b4$98b2o
+18b2o18b2o10b$9b2o28b2o28b2o27bo19bo19bo11b$9bobo27bobo27bobo28b2o18b
+2o18b2o8b2$11bobo27bobo27bobo27bobo17bobo17bobo6b2$13bobo27bobo27bobo
+14bo12bobo17bobo17bobo4b$89bo9b2o18b2o29b$7bo7bobo19bo7bobo19bo7bobo
+11b3o7bo5bobo11bo5bobo17bobo2b$6bobo9bo17bobo9bo10bo6bobo9bo23bo4bo14b
+o4bo19bo2b$7bobo7b2o18bobo7b2o10b2o6bobo7b2o22b2o6bo7b2o2b2o6bo19bo$8b
+obo27bobo17bobo7bobo37b2o6bobo9b2o18b2o$9bo29bobo27bobo22bobo21bo31b$
+40bo29bo23b2o54b$57b2o36bo54b$56bobo29b3o59b$58bo29bo61b$89bo60b$19bo
+130b$18bo49b2o80b$18b3o48b2o79b$16bo46b3o2bo81b$15b2o48bo18b2o64b$15bo
+bo46bo18b2o65b$85bo64b7$27b2o121b$26b2o122b$28bo!

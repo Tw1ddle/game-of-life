@@ -1,0 +1,10 @@
+#N Pipsquirter 2 reflector
+#O Noam Elkies
+#C Pipsquirter 2 acting as a reflector.
+#C www.conwaylife.com/wiki/index.php?title=Pipsquirter_2
+x = 21, y = 25, rule = b3/s23
+17bo3b$17bobob$17b2o2b$6b2o13b$6bobo12b$8bo10b2o$3bo2bob2o5b2o2b2o$3b
+4o3bo3bobo4b$7bob2o4bo5b$3b4o3bo10b$2bo5b2o7b2o2b$o2b2obobo8bo3b$2obo
+4bo9b3o$3bobobob2o9bo$3bobobobo11b$b2ob2obobo11b$2bo2b3o2b2o9b$2bo5bob
+o10b$b2ob5obo10b$2bobo4bo11b$2bo3b3o12b$3b2obo14b$8b3o10b$b7o2bo10b$bo
+2bo2bo!

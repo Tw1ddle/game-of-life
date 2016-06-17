@@ -1,0 +1,8 @@
+#N Pentadecathlon on 38P7.2
+#C A small non-trivial period 105 oscillator
+#C www.conwaylife.com/wiki/index.php?title=Pentadecathlon_on_38
+#C P7.2
+x = 20, y = 12, rule = b3/s23
+11bo3bo4b$7bo2bobobobo2bo$bo5bobo2bobo2bobo$bo6bo2b2ob2o2bob$obo9bobo
+5b$bo7b2o5b2o2b$bo7bo7bo2b$bo9bo3bo4b$bo18b$obo5bo2bo3bo2bob$bo7b2o5b
+2o2b$bo!

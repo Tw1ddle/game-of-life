@@ -1,0 +1,6 @@
+#N Gray counter
+#C A period 4 oscillator.
+#C http://www.conwaylife.com/wiki/index.php?title=Gray_counter
+x = 13, y = 9, rule = B3/S23
+6bo6b$5bobo5b$4bobobo4b$bo2bo3bo2bob$obobo3bobobo$bo2bo3bo2bob$4bobobo
+4b$5bobo5b$6bo!

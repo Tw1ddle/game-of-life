@@ -1,0 +1,21 @@
+#N P44 pi-heptomino hassler_synth
+#O Mark D. Niemiec
+#C A 67-glider synthesis of the p44 pi-heptomino hassler
+x = 94, y = 90, rule = b3/s23
+31bo62b$31bobo60b$31b2o61b5$17bo4bo71b$18bob2o72b$16b3o2b2o44b2o6b2o
+17b$67b2o6b2o17b7$b2o38b2o8b2o38b2ob$obo38bobo6bobo38bobo$obob2o32b2ob
+obo6bobob2o32b2obobo$bobobo32bobobo8bobobo32bobobob$3bo36bo12bo36bo3b$
+bo2bo34bo2bo8bo2bo34bo2bob$4bo34bo14bo34bo4b$o3bo34bo3bo6bo3bo34bo3bo$
+o3bo34bo3bo6bo3bo34bo3bo$4bo34bo14bo34bo4b$bo2bo34bo2bo8bo2bo34bo2bob$
+3bo36bo12bo36bo3b$bobobo32bobobo8bobobo32bobobob$obob2o32b2obobo6bobob
+2o32b2obobo$obo38bobo6bobo38bobo$b2o38b2o8b2o38b2ob6$67b2o6b2o17b$16b
+3o2b2o44b2o6b2o17b$18bob2o72b$17bo4bo71b5$31b2o61b$31bobo60b$31bo62b
+11$17b2o6b2o40b2o6b2o17b$17b2o6b2o40b2o6b2o17b3$8bo26bo58b$6bobo26bobo
+56b$7b2o26b2o57b2$b2o38b2o8b2o38b2ob$obo21bo16bobo6bobo38bobo$obob2o
+16b2o14b2obobo6bobob2o32b2obobo$bobobo17b2o5bo7bobobo8bobobo32bobobob$
+3bo25bo10bo12bo36bo3b$bo2bo24b3o7bo2bo8bo2bo13b2o4b2o13bo2bob$4bo34bo
+14bo12bobo4bobo12bo4b$o3bo34bo3bo6bo3bo12bo8bo12bo3bo$o3bo34bo3bo6bo3b
+o12bobo4bobo12bo3bo$4bo34bo14bo13b2o4b2o13bo4b$bo2bo34bo2bo8bo2bo34bo
+2bob$3bo16b2o18bo12bo36bo3b$bobobo13bobo16bobobo8bobobo32bobobob$obob
+2o15bo16b2obobo6bobob2o32b2obobo$obo38bobo6bobo38bobo$b2o38b2o8b2o38b
+2ob6$17b2o6b2o40b2o6b2o17b$17b2o6b2o40b2o6b2o!

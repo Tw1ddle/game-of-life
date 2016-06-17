@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: Fast forward force field
+#D Author: Dieter Leithner
+#D A reaction involving a lightweight spaceship and three gliders. In the absenc
+#D e of the incoming lightweight spaceship from the left, the gliders would simp
+#D ly annihilate one another, but as shown they allow the spaceship to advance 1
+#D 1 spaces in the course of the next 6 generations. Leithner named the Fast For
+#D ward Force Field in honour of his favourite science fiction writer, the physi
+#D cist Robert L. Forward.
+#N
+#P -8 -3
+.......*......*
+........*......**
+..**..***.....**
+**.**
+****.........*
+.**.........**
+............*.*

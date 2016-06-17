@@ -1,0 +1,23 @@
+#Life 1.05
+#D Name: Cross 2
+#D Author: Hartmut Holzwart
+#D The second smallest member of the infinite family of period 3 cross oscillato
+#D rs.
+#D www.conwaylife.com/wiki/index.php?title=Cross_2
+#N
+#P -7 -7
+...*..*.*..*
+...*..*.*..*
+..**..*.*..**
+***....*....***
+.......*
+.
+***.........***
+...**.....**
+***.........***
+.
+.......*
+***....*....***
+..**..*.*..**
+...*..*.*..*
+...*..*.*..*

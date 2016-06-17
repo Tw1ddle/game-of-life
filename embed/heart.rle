@@ -1,0 +1,6 @@
+#N Heart
+#C A period 5 oscillator.
+#C www.conwaylife.com/wiki/Heart
+x = 11, y = 11, rule = b3/s23
+5bo5b$4bo2bo3b$bo2bo2bo3b$obobobob2ob$bo2bo2bo3b$4bo5bo$5b5ob2$7bo3b$
+6bobo2b$7bo!

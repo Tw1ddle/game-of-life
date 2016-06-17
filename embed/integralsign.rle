@@ -1,0 +1,5 @@
+#N Integral sign
+#C A 9-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Integral_sign
+x = 5, y = 5, rule = B3/S23
+3b2o$2bobo$2bo2b$obo2b$2o!

@@ -1,0 +1,21 @@
+#N Ship on long boat_synth
+#C Glider syntheses of ship on long boat
+#C http://www.conwaylife.com/wiki/index.php?title=Ship_on_long_boat
+x = 148, y = 82, rule = b3/s23
+89bo58b$87b2o59b$88b2o58b2$123bo24b$121bobo24b$118b2o2b2o24b$119b2o27b
+$87bobo28bo23bo5b$87b2o14bo19bo17bobo4b$88bo13bobo17bobo17bobo3b$83bo
+19b2o18b2o18b2o3b$84bo2b2o16b2o18b2o18b2ob$82b3o2bobo15bobo17bobo17bob
+o$87bo18b2o18b2o18b2o18$84bo63b$84bobo61b$84b2o62b$44bo103b$45bo3bo18b
+2o13bo4b2o58b$43b3ob2o18bo2bo13b2obo2bo57b$48b2o17bo2bo12b2o2bo2bo57b$
+68b2o18b2o13bo44b$40bo38bobo20bobo43b$38bobo34b3o2b2o21b2o43b$25b2o12b
+2o4b2o18b2o10bo2bo4b2o18b2o41b$3bo21bobo17bobo17bobo8bo8bobo17bobo40b$
+bobo3bo18b2o12bo5b2o12b2o4b2o12b2o4b2o18b2o40b$2b2o2b2o32b2o17bo2bo16b
+o2bo65b$6bobo30bobo17bo2bo16bo2bo65b$bo58b2o18b2o66b$2o146b$obo145b17$
+68b2o18b2o58b$bo3bobo40bobo16bo2bo16bo2bo57b$2b2ob2o15bo19bo5b2o12bo4b
+o2bo11bo4bo2bo11bo19bo19bo5b$b2o3bo14bobo17bobo5bo11bobo4b2o11bobo4b2o
+11bobo17bobo17bobo4b$22bobo17bobo17bobo17bobo8bo8bobo17bobo17bobo3b$4b
+2o17b2o18b2o4b2o12b2o18b2o4bo2bo10b2o18b2o18b2o3b$3bobo43bobo36b2o2b3o
+10b2o18b2o18b2ob$5bo43bo38bobo14bobo17bobo17bobo$60b2o18b2o24bo19bo19b
+2o$40b2o17bo2bo16bo2bo2b2o61b$41b2ob3o12bo2bo16bo2bob2o46b2o14b$40bo3b
+o15b2o18b2o4bo41bo2b2o15b$45bo82b2o3bo14b$84b2o41bobo18b$83bobo62b$85b
+o!

@@ -1,0 +1,9 @@
+#N 105P25
+#C A period-25 oscillator
+#C http://www.conwaylife.com/wiki/index.php?title=98P25
+x = 34, y = 23, rule = b3/s23
+9b2o4b2o17b$9bobo2bobo17b$11bo2bo19b$10bo4bo7bo6b2o2b$10b2o2b2o6bobob
+2o2bo3b$12b2o8bobobobobo3b$21b2obo3bob2o2b$19bo3b2obob2o3bo$2o20bo7bo
+3b$o2b2o17bo7bo3b$b2obo14bo3b2obob2o3bo$5bo5b3o7b2obo3bob2o2b$5bo4bo2b
+o8bobobobobo3b$b2obo5bob2o8bobob2o2bo3b$o2b2o6bo11bo6b2o2b$2o32b6$12b
+2o20b$12b2o!

@@ -1,0 +1,5 @@
+#N Pi eater 2
+#C A pi eater.
+#C www.conwaylife.com/wiki/index.php?title=Pi-heptomino
+x = 23, y = 4, rule = b3/s23
+2o19b2o$bo8b3o8bob$bobo6bobo6bobob$2b2o6bobo6b2o!

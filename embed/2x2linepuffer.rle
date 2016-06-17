@@ -1,0 +1,6 @@
+#N 2x2 line puffer
+#O Nathaniel Johnston
+#C The first known pattern to exhibit infinite growth in 2x2.
+#C www.conwaylife.com/wiki/index.php?title=2x2
+x = 5, y = 9, rule = b36/s125
+4bo$3bob$2bo2b2$o4b$o2bob$obo2b2$2bo!

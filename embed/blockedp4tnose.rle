@@ -1,0 +1,8 @@
+#N Blocked p4 t-nose
+#O Adam P. Goucher
+#C A period 4 oscillator.
+#C www.conwaylife.com/wiki/Blocked_p4_t-nose
+x = 25, y = 13, rule = b3/s23
+11b3o11b2$10bo3bo10b$4bo3bo7bo3bo4b$3bobo13bobo3b$3bobo13bobo3b$2obobo
+b11obobob2o$2obo17bob2o$3bo17bo3b$3bobo4bo2b2o4bobo3b$4b2o3bobo2bo4b2o
+4b$9bo2b2o11b$8b2o!

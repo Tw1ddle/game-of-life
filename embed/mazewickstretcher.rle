@@ -1,0 +1,5 @@
+#N Maze wickstretcher
+#C A common wickstretcher in the maze (12345/3) rule.
+#C www.conwaylife.com/wiki/index.php?title=Maze
+x = 6, y = 8, rule = 12345/3
+2o4b$b3o2b$bob2ob$3b3o$3b2ob$bobo2b$b3o2b$2o!

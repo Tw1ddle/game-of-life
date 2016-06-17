@@ -1,0 +1,10 @@
+#Life 1.05
+#D Name: Herschel parent
+#D A parent of the herschel.
+#D http://www.conwaylife.com/wiki/index.php?title=Herschel_parent
+#N
+#P -9 9
+..*
+**
+..*.*
+....*

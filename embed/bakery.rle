@@ -1,0 +1,6 @@
+#N Bakery
+#C A common 28-cell still life formation of two bi-loaves.
+#C www.conwaylife.com/wiki/index.php?title=Bakery
+x = 10, y = 10, rule = B3/S23
+4b2o4b$3bo2bo3b$3bobo4b$b2obo3bob$o2bo3bobo$obo3bo2bo$bo3bob2ob$4bobo
+3b$3bo2bo3b$4b2o!

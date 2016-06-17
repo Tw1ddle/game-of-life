@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: 38P7.2
+#D Author: Nicolay Beluchenko
+#D A period 7 oscillator discovered on February 17, 2009
+#D http://www.conwaylife.com/wiki/index.php?title=38P7.2
+#N
+#P -6 -5
+....*...*
+*..*.*.*.*..*
+*.*..*.*..*.*
+.*..**.**..*
+.....*.*
+..**.....**
+..*.......*
+....*...*
+.
+.*..*...*..*
+..**.....**

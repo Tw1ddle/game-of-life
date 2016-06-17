@@ -1,0 +1,4 @@
+#N Skewed pre-pulsar
+#C This pattern evolves similarly to a pre-pulsar, but it is unstable.
+x = 9, y = 5, rule = b3/s23
+6b3o$6bobo$3o3b3o$obo6b$3o!

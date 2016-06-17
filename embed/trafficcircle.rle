@@ -1,0 +1,13 @@
+#N Traffic circle
+#C A period 100 oscillator that works by hassling a traffic jam so that it moves around in a circle.
+#C www.conwaylife.com/wiki/index.php?title=Traffic_circle
+x = 48, y = 48, rule = B3/S23
+21b2o4b2o19b$21bobo2bobo19b$23bo2bo21b$22b2o2b2o20b$21b3o2b3o19b$23bo
+2bo21b$31bo16b$30bob2o14b$34bo13b$26bo3bo2bobo12b$26bo5bo2bo12b$26bo6b
+2o13b$9b2o37b$8bo2bo10b3o3b3o17b$7bobobo36b$6b3obo15bo21b$6b3o17bo21b$
+26bo21b$12b3o33b$2o2bo16b3o24b$o2b2o5bo5bo31b$b5o4bo5bo2bo5bo17bo2b2o$
+10bo5bo2bo5bo17b2o2bo$19bo5bo7b3o6b5ob$b5o6b3o33b$o2b2o16b3o7bo5bo10b$
+2o2bo26bo5bo4b5ob$31bo5bo5b2o2bo$43bo2b2o$33b3o12b$39b2o7b$38b3o7b$37b
+ob2o7b$36bobo9b$20b3o13bo2bo8b$37b2o9b$13b2o4bo2bo25b$12bo2bo32b$12bob
+obo31b$13bo2bo31b$17bo30b$14bobo31b$21bo2bo23b$19b3o2b3o21b$20b2o2b2o
+22b$21bo2bo23b$19bobo2bobo21b$19b2o4b2o!

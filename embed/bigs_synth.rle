@@ -1,0 +1,19 @@
+#N Big S_synth
+#O Mark D. Niemiec
+#C Glider syntheses of big S.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 152, y = 77, rule = 23/3
+obo39bo109b$b2o40bo108b$bo39b3o108b2$89bo62b$27b2o38b2o20bobo15b2o38b
+2o3b$26bobo37bobo20b2o2b3o10bobo37bobo3b$26bo39bo14bobo9bo12bo20bobo5b
+o10bo5b$27b4o36b4o11b2o10bo12b4o17b2o4bo12b4ob$31bo39bo10bo28bo16bo5b
+3o14bo$29bobo23b2o12bobo37bobo12b3o22bobo$16b2o11b2o24bobo11b2o38b2o
+15bo22b2ob$15b2o38bo69bo26b$17bo134b$49bobo87b2o11b$12b2o36b2o86b2o12b
+$12bobo35bo89bo11b$12bo65b3o47b3o21b$50b2o28bo9b2o38bo21b$10b2o37b2o
+28bo10bobo36bo22b$9bobo39bo38bo61b$11bo140b14$b2o6bo17b2o123b$bobo4bo
+17bobo123b$2bo5b3o15bo125b$12b3o12b4o121b$12bo6bobo9bo120b$13bo5b2o8bo
+bo120b$20bo8b2o121b22$21bo79bo50b$20bo79bo51b$15bo4b3o6bo19b2o16b2o31b
+3o6bo37b2o3b$6bo9b2o10bo19bobo15bobo39bo37bobo3b$7bo7b2o11b3o17bo17bo
+41b3o35bo5b$5b3o24b3o14b4o14b4o26bo14b3o16b2o14b4ob$9b3o11b2o7bo20bo
+17bo16bo9b2o3b2o7bo17bobo18bo$11bo10b2o9bo17bobo15bobo17bo7b2o3b2o9bo
+16bo18bobo$10bo6b3o4bo26b2o16b2o16b3o14bo26b4o14b2ob$19bo71b3o41bo16b$
+18bo74bo39bobo16b$92bo6b3o31b2o17b$101bo50b$100bo!

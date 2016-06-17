@@ -1,0 +1,18 @@
+#Life 1.05
+#D Name: Hertz oscillator
+#D A period 8 oscillator found by John Conway's group in 1970.
+#D http://www.conwaylife.com/wiki/index.php?title=Hertz_oscillator
+#N
+#P -5 -6
+...**.*
+...*.**
+.
+....***
+...*.*.*.**
+...*...*.**
+**.*...*
+**.*...*
+....***
+.
+....**.*
+....*.**

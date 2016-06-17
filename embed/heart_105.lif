@@ -1,0 +1,17 @@
+#Life 1.05
+#D Name: Heart
+#D A period 5 oscillator.
+#D www.conwaylife.com/wiki/Heart
+#N
+#P -5 -5
+.....*
+....*..*
+.*..*..*
+*.*.*.*.**
+.*..*..*
+....*.....*
+.....*****
+.
+.......*
+......*.*
+.......*

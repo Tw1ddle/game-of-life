@@ -1,0 +1,18 @@
+#N c/5 diagonal puffer 1
+#O Matthias Merzenich
+#C The first c/5 diagonal puffer, discovered on September 5, 2010
+#C http://www.conwaylife.com/wiki/index.php?title=C/5_diagonal
+x = 85, y = 71, rule = b3/s23
+82bo2b$81b2o2b$80bo4b$78b3ob2ob$77b2obo3bo$76bob3o4b$75b2obobob2ob$76b
+ob2obo3b$76bo8b2$53bo21bo5bo3b$52b2o21bo4bo4b$51bo22bo2bo7b$49b3ob2o
+18bo11b$48b2obo3bo11bo3b2o12b$47bob3o14b4o15b$46b2obobob2o10bo7bo11b$
+47bob2obo11b5o16b$47bo16bobobo16b$30b2o31b5o4bo12b$30b2o14bo5bo9bo5bo
+2bo13b$29bo2bo13bo4bo9b2obo2bo17b$26b2obo2bo12bo2bo15bo2bo17b$32bo11bo
+20bo19b$24b2o3bo2bo5bo3b2o41b$24b2o5bo5b4o44b$25bob5o4bo7bo40b$26bo8b
+5o45b$35bobobo45b$34b5o4bo41b$23b3o7bo5bo2bo42b$23bo8b2obo2bo46b$21b2o
+12bo2bo46b$15b2o4bo14bo48b$15b3o3bo63b$13bo4bo66b$13bo3bo67b$17bo67b$
+12b2obobo67b$10b2o5bo67b$10b2o4b2o67b$12b4o69b2$25b2o58b$24b2o59b$26bo
+58b3$20b2o63b$20b2o63b$19bo2bo62b$16b2obo2bo62b$22bo62b$14b2o3bo2bo62b
+$14b2o5bo63b$15bob5o63b$16bo68b3$13b3o69b$13bo71b$11b2o72b$5b2o4bo73b$
+5b3o3bo73b$3bo4bo76b$3bo3bo77b$7bo77b$2b2obobo77b$2o5bo77b$2o4b2o77b$
+2b4o!

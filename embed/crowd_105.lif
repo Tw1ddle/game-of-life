@@ -1,0 +1,21 @@
+#Life 1.05
+#D Name: Crowd
+#D Author: David Buckingham
+#D A period 3 oscillator found in January 1973.
+#D www.conwaylife.com/wiki/index.php?title=Crowd
+#N
+#P -7 -7
+...........*
+.........***
+.....**.*
+.....*...*
+.......**.*
+...****...*
+*.*.....*.*.**
+**.*.*.....*.*
+...*...****
+...*.**
+....*...*
+.....*.**
+..***
+..*

@@ -1,0 +1,5 @@
+#N Bi-loaf 3
+#C A small pure glider generator.
+#C www.conwaylife.com/wiki/index.php?title=Bi-loaf_3
+x = 4, y = 7, rule = B3/S23
+2bob$bobo$o2bo$b2ob$o2bo$obob$bo!

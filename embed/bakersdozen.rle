@@ -1,0 +1,7 @@
+#N Baker's dozen
+#O Robert Wainwright
+#C A period 12 oscillator that consists of a loaf hassled by two blocks and two caterers.
+#C www.conwaylife.com/wiki/index.php?title=Baker's_dozen
+x = 23, y = 11, rule = B3/S23
+2o9b2o10b$4obo5b2o10b$obo2b3o15b$11bo11b$4b2o4bobo10b$4bo5bo2bo4bo4b$
+11b2o4b2o4b2$15b3o2bobo$10b2o5bob4o$10b2o9b2o!

@@ -1,0 +1,5 @@
+#N Z-hexomino
+#C One of 35 hexominoes. It appears in pentoad and Achim's p144.
+#C www.conwaylife.com/wiki/index.php?title=Z-hexomino
+x = 3, y = 4, rule = B3/S23
+2ob$bob$bob$b2o!

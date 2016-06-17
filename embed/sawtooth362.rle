@@ -1,0 +1,30 @@
+#N Sawtooth 362
+#O David Bell
+#C A diagonal sawtooth with minimum repeating population 362 that was 
+#C found on August 29, 1992.
+#C www.conwaylife.com/wiki/index.php?title=Sawtooth_362
+x = 168, y = 306, rule = B3/S23
+13b2o153b$13bo2bo151b2$17bo150b2$15b2o151b$14bo153b3$11b2o3b2o150b$11b
+2o3b2o150b$12b5o151b$13bobo152b2$13b3o152b2$2bo6bo158b$b2o6b2o157b$3o
+6b3o156b$b2o6b2o157b$2bo6bo158b103$141b2o25b$141bobo24b$132b2o2b2o6bo
+11bobo9b$132b2obo2bo2bo2bo10bo2bo4bo4b$136b2o6bo9b2o5b2o5b$141bobo8b2o
+3bo8b2o$141b2o11b2o10b2o$146bo8bo2bo9b$144b2o10bobo9b$131b2o12b2o21b$
+131bobo34b$131bo36b4$137bobo28b$137b2o29b$138bo29b3$126b2o40b$126bobo
+39b$117b2o2b2o6bo11bobo24b$117b2obo2bo2bo2bo10bo2bo4bo19b$121b2o6bo9b
+2o5b2o20b$126bobo4b2o2b2o3bo8b2o15b$126b2o11b2o10b2o15b$131bo8bo2bo24b
+$129b2o10bobo24b$130b2o36b$108bobo2bobo52b$104b2obo2bo2bo2bob2o48b$
+108bobo2bobo52b2$136b3o29b$135bo3bo28b$134bo5bo27b2$133bo7bo26b$133bo
+7bo26b2$134bo5bo27b$135bo3bo28b$136b3o29b68$46b2o120b$46b2o120b$50b2o
+116b$51b2o115b$51bo116b$51b2o115b$50b2o116b2$38b2o11bo116b$38b2o9b3o
+116b$52bobo113b$50bo3b2o112b$54bo113b2$50b3o115b2$30b2o136b$30b2o136b
+4$65bo102b$64b3o101b$34bo133b$22b2o5b3obob4o23bo3bo4bobo94b$22b2o8b2ob
+o26bo4b2ob5o93b$30b2o4b2obo22bo2bobo2bo3bo93b$41bo25bo100b$39b2obob2o
+30b2o90b$41b2obo32b2o89b$43bo33bo90b$77b2o89b$76b2o90b$46bo121b$43b3ob
+2o28bo90b$41b2ob3o28b3o90b$45bo32bobo87b$23bo52bo3b2o86b$44bo35bo87b$
+18bob2o22bo123b$18bobo6bo16bo31b3o89b$17bo4b2o3bo14bobo123b$18bo8bo15b
+o124b$18bo7bo141b$31b3o134b$22bo9b2ob2o131b$32b2obo9bo38b2o82b$32bobo
+10b2o37b2o82b$32bobo11bo121b$33b2o8bobo122b$35bo6bo2bo122b$32bobo7bobo
+123b$31bo10bobo123b$43bo124b$76b2o90b$33bo3bo38b2o90b$29bo3bo134b$35bo
+132b$34b2o132b2$31b2ob2o132b$33bo134b$68b2o98b$49bo18b2o98b$58b3o107b$
+44bob2o10bobo107b$44bobo6bo2b2o2bo107b$43bo4b2o3bo2b3o109b$44bo8bo2b3o
+109b$44bo7bo115b2$48bo!

@@ -1,0 +1,5 @@
+#N 21P2
+#C The 38th most common oscillator.
+#C www.conwaylife.com/wiki/index.php?title=21P2
+x = 7, y = 7, rule = b3/s23
+3bo3b$b3o3b$o5bo$ob5o$bo5b$4bo2b$3b2o!

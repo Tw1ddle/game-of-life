@@ -1,0 +1,5 @@
+#N Bookend
+#C An induction coil.
+#C www.conwaylife.com/wiki/index.php?title=Bookend
+x = 4, y = 3, rule = B3/S23
+2b2o$o2bo$3o!

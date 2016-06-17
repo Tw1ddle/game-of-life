@@ -1,0 +1,8 @@
+#N Double ewe
+#O Robert Wainwright
+#C A period 3 oscillator found no later than September 1971.
+#C www.conwaylife.com/wiki/index.php?title=Double_ewe
+x = 20, y = 20, rule = B3/S23
+6b2o12b$7bo12b$6bo13b$6b2o12b$9b2o9b$6b3obo9b$ob2obo14b$2obobo14b$5bo
+3bo10b$4bo3b2o4b2o4b$4b2o4b2o3bo4b$10bo3bo5b$14bobob2o$14bob2obo$9bob
+3o6b$9b2o9b$12b2o6b$13bo6b$12bo7b$12b2o!

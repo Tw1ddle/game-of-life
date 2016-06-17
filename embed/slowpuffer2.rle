@@ -1,0 +1,8 @@
+#N Slow puffer 2
+#O David Bell
+#C An orthogonal period 240 c/2 puffer that moves fast but creates relatively little debris.
+#C www.conwaylife.com/wiki/index.php?title=Slow_puffer_2
+x = 22, y = 21, rule = 23/3
+3bo9b2o7b$bo3bo6b2ob3o4b$o12b5o4b$o4bo8b3o5b$5o17b3$20bob$b2o10b2obo2b
+obo$2ob3o6bobob4obo$b4o3b3obo9b$2b2o8bobob4obo$13b2obo2bobo$5b2o13bob$
+3bo4bo13b$2bo19b$2bo5bo13b$2b6o6b3o5b$13b5o4b$12b2ob3o4b$13b2o!

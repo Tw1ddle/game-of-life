@@ -1,0 +1,11 @@
+#Life 1.05
+#D Name: Claw with tail
+#D A 10-cell still life similar to hook with tail.
+#D http://www.conwaylife.com/wiki/index.php?title=Claw_with_tail
+#N
+#P -2 -2
+**
+.*
+.*.**
+..*..*
+....**

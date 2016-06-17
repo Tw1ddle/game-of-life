@@ -1,0 +1,6 @@
+#N Beehive
+#O John Conway
+#C An extremely common 6-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Beehive
+x = 4, y = 3, rule = B3/S23
+b2ob$o2bo$b2o!

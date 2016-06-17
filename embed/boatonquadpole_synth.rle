@@ -1,0 +1,23 @@
+#N Boat on quadpole_synth
+#C Glider syntheses of boat on quadpole
+#C http://www.conwaylife.com/wiki/index.php?title=Boat_on_quadpole
+x = 121, y = 109, rule = b3/s23
+87bo33b$85bobo33b$86b2o5bo27b$94bo26b$92b3o26b$88b3o30b$90bo30b$89bo
+31b2$111b2o8b$111bobo7b2$113bobo5b$55bo19b2o18b2o24b$53bobo2b3o14bobo
+17bobo17bobo3b$54b2o2bo17b2o18b2o18b2o3b$59bo18b2o18b2o18b2ob$54bo23bo
+bo17bobo17bobo$54b2o23bo19bo19bob$53bobo65b6$53b2o66b$54b2o65b$53bo67b
+3$37bo83b$35bobo83b$36b2o5bo77b$44bo50bo25b$42b3o48b2o26b$38b3o53b2o
+25b$40bo45bo34b$39bo44bobo34b$85b2o34b$61b2o18b2o22bo5b2o8b$61bobo17bo
+bo9bobo8bo6bobo7b$93b2o9b3o14b$63bobo17bobo8bo3bo14bobo5b$25b2o18b2o
+50bo23b$3bo21bobo17bobo17bobo17bobo9b3o15bobo3b$bobo3bo18b2o18b2o18b2o
+18b2o28b2o3b$2b2o2b2o93b2o15b2ob$6bobo91b2o16bobo$bo100bo16bob$2o119b$
+obo89b3o26b$92bo28b$93bo27b$84b3o34b$86bo34b$85bo35b11$97bo23b$97bobo
+21b$97b2o22b$57bo63b$58bo3bo18b2o13bo4b2o18b$56b3ob2o18bo2bo13b2obo2bo
+17b$61b2o17bo2bo12b2o2bo2bo17b$19bo61b2o18b2o13bo4b$20bo32bo38bobo20bo
+bo3b$18b3o30bobo34b3o2b2o21b2o3b$38b2o12b2o4b2o18b2o10bo2bo4b2o18b2ob$
+20bo17bobo17bobo17bobo8bo8bobo17bobo$19b2o18bo13bo5bo13b2o4bo13b2o4bo
+19bob$19bobo31b2o17bo2bo16bo2bo25b$52bobo17bo2bo16bo2bo25b$73b2o18b2o
+26b9$87bo33b$85bobo33b$86b2o5bo27b$94bo26b$92b3o26b$88b3o30b$90bo30b$
+89bo31b$53bobo65b$49bo3b2o56b2o8b$50b2o2bo56bobo7b$49b2o70b$113bobo5b$
+56bo18b2o18b2o24b$55bobo17bobo17bobo17bobo3b$56b2o18b2o18b2o18b2o3b$
+58b2o18b2o18b2o18b2ob$58bobo17bobo17bobo17bobo$59bo19bo19bo19bo!

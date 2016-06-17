@@ -1,0 +1,6 @@
+#N Short keys
+#O Dean Hickerson
+#C A period 3 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Short_keys
+x = 12, y = 4, rule = B3/S23
+bo8bob$ob3o2b3obo$bo2bo2bo2bob$4bo2bo!

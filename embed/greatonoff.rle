@@ -1,0 +1,5 @@
+#N Great on-off
+#C A period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Great_on-off
+x = 8, y = 8, rule = B3/S23
+2b2o4b$bo2bo3b$bobo4b$2obo2bob$4b2obo$7bo$4b3ob$4bo!

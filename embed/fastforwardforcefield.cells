@@ -1,0 +1,10 @@
+!Name: Fast forward force field
+!Author: Dieter Leithner
+!A reaction involving a lightweight spaceship and three gliders. In the absence of the incoming lightweight spaceship from the left, the gliders would simply annihilate one another, but as shown they allow the spaceship to advance 11 spaces in the course of the next 6 generations. Leithner named the Fast Forward Force Field in honour of his favourite science fiction writer, the physicist Robert L. Forward.
+.......O......O
+........O......OO
+..OO..OOO.....OO
+OO.OO
+OOOO.........O
+.OO.........OO
+............O.O

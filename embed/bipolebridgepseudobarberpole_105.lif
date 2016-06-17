@@ -1,0 +1,24 @@
+#Life 1.05
+#D Name: Bipole bridge pseudo-barberpole
+#D A period 10 oscillator composed of a bipole and a pseudo-barberpole. The smal
+#D lest period 10 oscillator, though it is usually considered trivial.
+#D www.conwaylife.com/wiki/index.php?title=Bipole_bridge_pseudo-barberpole
+#N
+#P -6 -11
+...............**
+..............*.*
+.
+............*.*
+............**
+..........**
+...........*
+.........*
+.......*.*
+.
+.....*.*
+.
+...*.*
+.
+..**
+*
+**

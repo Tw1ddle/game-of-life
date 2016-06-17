@@ -1,0 +1,5 @@
+#N Cis-fuse with two tails
+#C A simple 12-cell still life.
+#C www.conwaylife.com/wiki/index.php?title=Cis-fuse_with_two_tails
+x = 6, y = 6, rule = B3/S23
+3bo2b$b3o2b$o3b2o$bo2bob$2bobob$3bo!

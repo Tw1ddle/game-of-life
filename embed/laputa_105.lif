@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Laputa
+#D Author: Rich Schroeppel
+#D A period 2 oscillator found in September 1992.
+#D www.conwaylife.com/wiki/index.php?title=Laputa
+#N
+#P -6 -3
+...**.**
+...**.*...**
+........*..*
+.******.***
+*..*.*
+**...*.**
+....**.**

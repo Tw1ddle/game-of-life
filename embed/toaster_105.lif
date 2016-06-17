@@ -1,0 +1,20 @@
+#Life 1.05
+#D Name: Toaster
+#D Author: Dean Hickerson
+#D A period 5 oscillator found in April 1992 that produces sparks similar to tho
+#D se of a lightweight spaceship.
+#D www.conwaylife.com/wiki/index.php?title=Toaster
+#N
+#P -5 -6
+..*......**
+.*.*.**..*
+.*.*.*.*.*
+**.*...*.**
+*..**.**..*
+.*.......*
+.*.......*
+*..**.**..*
+**.*...*.**
+.*.*.*.*.*
+.*.*.**..*
+..*......**

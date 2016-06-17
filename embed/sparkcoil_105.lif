@@ -1,0 +1,11 @@
+#Life 1.05
+#D Name: Spark coil
+#D A period 2 oscillator found in 1971.
+#D www.conwaylife.com/wiki/index.php?title=Spark_coil
+#N
+#P -14 -12
+**....**
+*.*..*.*
+..*..*
+*.*..*.*
+**....**

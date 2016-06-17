@@ -1,0 +1,15 @@
+#Life 1.05
+#D Name: Cross
+#D Author: Robert Wainwright
+#D A period 3 oscillator found in October 1989.
+#D www.conwaylife.com/wiki/index.php?title=Cross
+#N
+#P -4 -4
+..****
+..*..*
+***..***
+*......*
+*......*
+***..***
+..*..*
+..****

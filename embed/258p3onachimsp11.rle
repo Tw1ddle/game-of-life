@@ -1,0 +1,16 @@
+#N 158P3 on Achim's p11
+#O Noam Elkies and Achim Flammenkamp
+#C The first known non-trivial period 33 oscillator
+x = 49, y = 31, rule = b3/s23
+10b2o37b$10b2o37b$5bo10bo32b$4bobo8bobo10b2obobo4bo10b$3bobo3bo2bo3bob
+o8bobob2obo2bobo3b2o4b$2bobo4bo2bo4bobo5b3o2bo3b4obo3b2o4b$3bo5bo2bo5b
+o5bo3bobob2o4bo10b$25bo2bo2bobob2o4b4o2b2o$25bob2obo2bo2b2o2bo4bo2bo$
+4b3o8b3o10bo3bobo4bobo2bob2ob$2o18b2o2b2o2bo3bo2b3o3b4o4b$2o18b2o6b2o
+2bobo7b2o2b2ob$4b3o8b3o6bo2bobo4b2obo2b4obo2bo$25b2obo6bo4bo6b2o$24bob
+ob2o3b6obo8b$3bo5bo2bo5bo5b2obobo2b2o2bobob2ob2o4b$2bobo4bo2bo4bobo4bo
+2bobobo4bobo5bo4b$3bobo3bo2bo3bobo5bo2bobobo4bobo5bo4b$4bobo8bobo6b2ob
+obo2b2o2bobob2ob2o4b$5bo10bo7bobob2o3b6obo8b$10b2o13b2obo6bo4bo6b2o$
+10b2o12bo2bobo4b2obo2b4obo2bo$28b2o2bobo7b2o2b2ob$24b2o2bo3bo2b3o3b4o
+4b$28bo3bobo4bobo2bob2ob$25bob2obo2bo2b2o2bo4bo2bo$25bo2bo2bobob2o4b4o
+2b2o$24bo3bobob2o4bo10b$25b3o2bo3b4obo3b2o4b$27bobob2obo2bobo3b2o4b$
+28b2obobo4bo!

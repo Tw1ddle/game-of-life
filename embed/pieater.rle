@@ -1,0 +1,6 @@
+#N Pi eater
+#O Bill Gosper
+#C Two blocks acting as a pi eater. Found in April 1992.
+#C www.conwaylife.com/wiki/index.php?title=Pi-heptomino
+x = 9, y = 12, rule = b3/s23
+2o5b2o$2o5b2o8$3b3o3b$3bobo3b$3bobo!

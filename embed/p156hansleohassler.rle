@@ -1,0 +1,13 @@
+#N P156 Hans Leo hassler
+#O Noam Elkies
+#C A period 156 traffic light hassler. The first period 156 oscillator
+#C  to be found.
+#C www.conwaylife.com/wiki/P156_Hans_Leo_hassler
+x = 33, y = 40, rule = b3/s23
+15b2o4b2o4b2o4b$14bo2bobo4bobo2bo3b$14b3o10b3o3b$17b2o6b2o6b$16bo2b6o
+2bo5b$16b2o8b2o5b2$13bo19b$8b4o3bo11bo5b$11bo3bo4bo4bo3b4o$15bo3b3o3bo
+3bo3b$12bo12bo7b$13b2o13bo4b$26b2o5b2$30b2ob$30bo2b$28bobo2b$28b2o3b$
+13b3o17b$13bobo17b$3b2o8b3o17b$2bobo28b$2bo30b$b2o30b2$5b2o26b$4bo7bo
+5b2o13b$7bo3b3o6bo12b$3bo3bo2b5o2bo15b$4o3bo2b5o2bo3bo11b$5bo6bo4bo3b
+4o8b$19bo13b$10b2o21b$5b2obo4bob2o16b$5bo10bo16b$6b2o6b2o17b$3b3o2b6o
+2b3o14b$3bo2bo8bo2bo14b$4b2o10b2o!

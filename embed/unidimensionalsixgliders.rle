@@ -1,0 +1,5 @@
+#N Unidimensional six gliders
+#C The smallest unidimensional pattern to emit a glider.
+#C www.conwaylife.com/wiki/index.php?title=Unidimensional_pattern
+x = 15, y = 1, rule = 23/3
+4o2b3ob5o!

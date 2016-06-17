@@ -1,0 +1,10 @@
+#N 92P33.1
+#O Jason Summers
+#C The smallest known period 33 oscillator as of April 2009. Found on 
+#C August 31, 2000.
+#C www.conwaylife.com/wiki/index.php?title=92P33.1
+x = 34, y = 30, rule = b3/s23
+21bo12b$4bo2bo3b5o2b3obo11b$4bo2bo7bo2bo2bo12b$bob2o2b5o3bo2bo15b$obo
+31b$bo32b7$6bobo3b4o18b$6bo2bo2bo2bo18b$6bo5b3o10b2o7b$7b2o10b3o5bo6b$
+18bo2bo2bo2bo6b$18b4o3bobo6b7$32bob$31bobo$15bo2bo3b5o2b2obob$12bo2bo
+2bo7bo2bo4b$11bob3o2b5o3bo2bo4b$12bo!

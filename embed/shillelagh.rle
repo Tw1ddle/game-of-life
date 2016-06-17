@@ -1,0 +1,5 @@
+#N Shillelagh
+#C A common 8-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Shillelagh
+x = 5, y = 3, rule = B3/S23
+2o3b$o2b2o$b2obo!

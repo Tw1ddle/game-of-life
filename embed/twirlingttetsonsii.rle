@@ -1,0 +1,6 @@
+#N Twirling T-tetson II
+#O Robert Wainwright
+#C A period-60 oscillator discovered in 1989
+x = 24, y = 24, rule = B3/S23
+10b2o3b2o$9bo7bo$12bobo$10b2o3b2o4$3o$b3o$9b3o$9bobo9b3o$9b3o8b3o$b3o$
+3o2$9b3o8b3o$9bobo9b3o$9b3o3$7b2o3b2o$9bobo$6bo7bo$7b2o3b2o!

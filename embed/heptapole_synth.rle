@@ -1,0 +1,15 @@
+#N Heptapole_synth
+#O Mark D. Niemiec
+#C Glider synthesis of heptapole.
+#C http://home.interserv.com/~mniemiec/p2osc.htm
+x = 119, y = 53, rule = 23/3
+2bo15bo100b$obo14bo101b$b2o14b3o99b3$6bobobobo11bo94b$7b2ob2o11bo5b2o
+18b2o18b2o48b$7bo3bo11b3o3bobo17bobo17bobo47b$9bo109b$8b2o21bobo17bobo
+17bobo45b$8bobo5bobo100b$17b2o14bobo17bobo17bobo43b$17bo101b$b3o11bo3b
+o15bobo17bobo17bobo41b$3bo11b2ob2o16b2o18b2o20bo40b$2bo11bobobobo41bo
+14b2o40b$61bo57b$52b2o7b3o55b$7b3o14b2o25bobo3b2o60b$9bo14bobo26bo2bob
+o6bo53b$8bo15bo33bo5b2o53b$64bobo52b15$49b2o18b2o18b2o18b2o8b$49bobo
+17bobo17bobo17bobo7b2$51bobo17bobo17bobo17bobo5b$102bo16b$53bobo17bobo
+17bobo5bo11bobo3b$101b3o15b$55bobo17bobo17bobo17bobob$56b2o18b2o18b2o
+20bo$117b2o$73b2o18b2o5b3o16b$52b3o18b2o15bo2b2o5bo18b$54bo33bobo5b2o
+3bo17b$53bo35b2o5bobo20b$55b3o38bo22b$55bo63b$56bo!

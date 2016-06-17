@@ -1,0 +1,6 @@
+#N Blinkers bit pole
+#O Robert Wainwright
+#C A period 2 oscillator found in June 1977.
+#C www.conwaylife.com/wiki/index.php?title=Blinkers_bit_pole
+x = 7, y = 6, rule = B3/S23
+5b2o$3obobo2$bobo2bo$o4bob$2o3bo!

@@ -1,0 +1,13 @@
+!Name: Babbling brook 1
+!Author: Dean Hickerson
+!The only known babbling brook with more than 4 cells in its rotor. It was discovered in August 1997.
+.......O
+.....OOO....OO
+....O...OO..O
+.O..O.OO..O.O
+O.O.O....OO..OO
+.OO..OO....O.O.O
+...O.O..OO.O..O
+...O..OO...O
+..OO....OOO
+........O

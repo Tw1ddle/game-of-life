@@ -1,0 +1,12 @@
+#N 124P21
+#O Robert Wainwright
+#C The first period 21 oscillator to be found. Discovered on February 
+#C 21, 1995.
+#C www.conwaylife.com/wiki/index.php?title=124P21
+x = 36, y = 25, rule = b3/s23
+11b2o9bo13b$12bo9bo13b$11bo10bo13b$11b4o6b2o13b$9b2o4bo3bo16b$5b2obobo
+b3o3bo4bo12b$5b2obo3bo5bo17b$8b2o10b3o13b$5b3o28b$4bo2bo23bo4b$4b2o14b
+o9bobo3b$ob2o10b3o2bobo8bobo3b$2obob2o22b2obob2o$3bobo8bobo2b3o10b2obo
+$3bobo9bo14b2o4b$4bo23bo2bo4b$28b3o5b$13b3o10b2o8b$17bo5bo3bob2o5b$12b
+o4bo3b3obobob2o5b$16bo3bo4b2o9b$13b2o6b4o11b$13bo10bo11b$13bo9bo12b$
+13bo9b2o!

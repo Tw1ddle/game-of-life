@@ -1,0 +1,6 @@
+#N Beacon maker
+#C A diagonal period 8 lightspeed fuse that creates beacons as its burns.
+#C www.conwaylife.com/wiki/index.php?title=Beacon_maker
+x = 16, y = 15, rule = B3/S23
+14b2o$13bobo$12bo3b$11bo4b$10bo5b$9bo6b$8bo7b$7bo8b$6bo9b$5bo10b$4bo
+11b$3bo12b$3o13b$2bo13b$2bo!

@@ -1,0 +1,12 @@
+#N Teardrop_synth
+#O Mark D. Niemiec
+#C Syntheses of teardrops.
+#C home.interserv.com/~mniemiec/2gliders.htm
+x = 108, y = 49, rule = 23/3
+77bobo28b$78b2o28b$78bo29b2$41bobo64b$3bo37b2o65b$4bo21bo15bo23bo39bob
+$2b3o20bobo37bobo37bobo$25bobo11b2o24bobo13b2o22bobo$bo24bo11b2o26bo
+13b2o24bob$b2o37bo41bo25b$obo33b2o40b2o28b$20b2o13bobo22b2o15bobo20b2o
+6b$19bo2bo14bo21bo2bo16bo19bo2bo5b$20b2o38b2o38b2o6b12$52bo55b$50b2o
+56b$51b2o55b6$71bo36b$69bobo36b$66bo3b2o5bo28bob$65bobo7bobo27bobo$65b
+obo8b2o27bobo$66bo13bo25bob$78b2o28b$29bo49b2o27b$28bo31b2o38b2o6b$28b
+3o28bo2bo36bo2bo5b$60b2o38b2o6b2$29b3o76b$29bo78b$30bo!

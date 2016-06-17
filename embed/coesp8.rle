@@ -1,0 +1,6 @@
+#N Coe's p8
+#O Tim Coe
+#C A period 8 oscillator found in August 1997.
+#C http://www.conwaylife.com/wiki/index.php?title=Coe's_p8
+x = 12, y = 6, rule = B3/S23
+2o10b$2o2b2o6b$5b2o5b$4bo2bo4b$7bo2b2o$5bobo2b2o!

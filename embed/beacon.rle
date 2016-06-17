@@ -1,0 +1,6 @@
+#N Beacon
+#O John Conway
+#C A common period 2 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Beacon
+x = 4, y = 4, rule = B3/S23
+2o2b$o3b$3bo$2b2o!

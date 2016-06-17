@@ -1,0 +1,18 @@
+#N Moose antlers_synth
+#O Mark D. Niemiec
+#C Glider syntheses of moose antlers.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 142, y = 114, rule = 23/3
+88bo53b$89b2o49b2o$88b2o49bobo$139bo2b$138b2o2b$137bo4b$138b2o2b$139bo
+2b$139bobo$140b2o3$90b3o2b2o45b$92bob2o46b$91bo4bo45b42$134b2o6b$134bo
+bo5b$134bo7b8$obo15bo19bo19bo19bo63b$2o16b3o17b3o17b3o17b3o61b$bo19bo
+19bo19bo19bo60b$20b2o18b2o18b2o18b2o60b$2b3o137b$2bo97b2o18b2o18b2o$3b
+o95bobo17bobo17bobo$94bo4bo19bo19bo2b$93bo4b2o4b2o12b2o4b2o12b2o2b$93b
+3obo5bo2bo10bo5bo2bo10bo4b$89b3o6b2o4b2o12b2o4b2o12b2o2b$89bo9bo19bo7b
+3o9bo2b$43bo46bo8bobo17bobo5bo11bobo$42bo57b2o18b2o6bo11b2o$42b3o97b$
+60b2o18b2o60b$41bo19bo19bo60b$40b2o16b3o17b3o61b$40bobo15bo19bo63b13$
+79bo62b$77bobo62b$78b2o62b$35bo106b$36bo63b2o18b2o18b2o$34b3o62bobo17b
+obo17bobo$88bo10bo19bo19bo2b$32b2o54bobo7b2o7bo10b2o7bo10b2o2b$31bobo
+24b3o17b3o3b2o2b2o7bo9bo9bo9bo9bo4b$33bo50bobo11b2o7bo10b2o7bo10b2o2b$
+84bo14bo19bo19bo2b$99bobo17bobo6b2o9bobo$100b2o18b2o6bobo9b2o$128bo13b
+$78b2o62b$77bobo62b$79bo!

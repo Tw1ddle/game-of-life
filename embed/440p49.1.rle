@@ -1,0 +1,23 @@
+#N 440P49.1
+#O Noam Elkies
+#C The first period 49 oscillator to be discovered. Found on August 1,
+#C 1999.
+#C www.conwaylife.com/wiki/index.php?title=440P49.1
+x = 65, y = 65, rule = b3/s23
+14bo2bo2bo44b$14b7o2bo41b$21b3o41b$16b4o45b$15bobo2b2o43b$15bo6bo42b$
+14b2ob5obo41b$15bo5bobo41b$15bobo2bo2b2o40b$13bobo2bobobo42b$13b2ob2o
+2bobo10bo31b$16bo3bob2o7b3o31b$16bob2obo8bo34b$13b2obo4bo8b2o33b$13bob
+o3bob2o42b$16b4o2bo5bo36b$20b2o5bobo35b$16b4o2bo5b2o2b2o31b$16bo2bob2o
+9b2o31b$21bo43b$19bobo28b2o2b2o9b$19b2o5bo24bo2bo3bo4b2o$25bo24bo4b6o
+2bob$25b3o18b2obob4o6bobob$10b2o5b2o28bobo4bobobob2ob2o$11bo5b2o28bobo
+2bo2bo2bo2bobob$11bobo29b2ob2ob2obo5bo2bobob$12b2o29bo4bo4b4obobo2b2o$
+16b2o26b3obob3o4b2obobo2b$15bobo19b3o6b2ob2o2b3o3bo2bo2b$16bo20bo15bo
+2b3o3b2ob$38bo17bo8b2$8bo17bo38b$b2o3b3o2bo15bo20bo16b$2bo2bo3b3o2b2ob
+2o6b3o19bobo15b$2bobob2o4b3obob3o26b2o16b$2o2bobob4o4bo4bo29b2o12b$bob
+o2bo5bob2ob2ob2o29bobo11b$bobo2bo2bo2bo2bobo28b2o5bo11b$2ob2obobobo4bo
+bo28b2o5b2o10b$bobo6b4obob2o18b3o25b$bo2b6o4bo24bo25b$2o4bo3bo2bo24bo
+5b2o19b$9b2o2b2o28bobo19b$43bo21b$31b2o9b2obo2bo16b$31b2o2b2o5bo2b4o
+16b$35bobo5b2o20b$36bo5bo2b4o16b$42b2obo3bobo13b$33b2o8bo4bob2o13b$34b
+o8bob2obo16b$31b3o7b2obo3bo16b$31bo10bobo2b2ob2o13b$42bobobo2bobo13b$
+40b2o2bo2bobo15b$41bobo5bo15b$41bob5ob2o14b$42bo6bo15b$43b2o2bobo15b$
+45b4o16b$41b3o21b$41bo2b7o14b$44bo2bo2bo!

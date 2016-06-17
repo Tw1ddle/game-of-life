@@ -1,0 +1,8 @@
+#N 56P27
+#O Nicolay Beluchenko
+#C A period-27 oscillator discovered in May, 2010
+#C http://www.conwaylife.com/wiki/index.php?title=56P27
+x = 30, y = 30, rule = b3/s23
+15b2o13b$15b2o13b5$13b2o15b$14b2o14b$10bo4bo14b$10bo3bo15b$10b2o7b3o8b
+$19bo10b2$2o21bo6b$2o5b2o11bob2o6b$6b2obo11b2o5b2o$6bo21b2o2$10bo19b$
+8b3o7b2o10b$15bo3bo10b$14bo4bo10b$14b2o14b$15b2o13b5$13b2o15b$13b2o!

@@ -1,0 +1,13 @@
+#N p68 glider loop
+#O Mike Playle
+#C A period-68 oscillator based on a stable reflector
+#C Discovered on 25 Apr 2013
+x = 56, y = 56, rule = B3/S23
+22b2o$22bobo$24bo4b2o$20b4ob2o2bo2bo$20bo2bobobobob2o$23bobobobo$24b2o
+bobo$28bo2$14b2o$15bo7b2o$15bobo5b2o$16b2o2$31bo$29bobo14bo$30b2o12b3o
+$43bo$43b2o$26b2o$26bo$27b3o21b2o$3b2o24bo22bo$4bo9b2o36bob2o$2bo10bob
+o28bo5b3o2bo$2b5o8bo5b2o21b2o3bo3b2o$7bo13bo27b2obo$4b3o12bobo13b2o15b
+o$3bo15b2o13bobo12b3o$3bob2o27bo13bo$b2o3bo3b2o21b2o5bo8b5o$o2b3o5bo
+28bobo10bo$2obo36b2o9bo$3bo22bo24b2o$3b2o21b3o$29bo$28b2o$11b2o$12bo$
+9b3o12b2o$9bo14bobo$24bo2$38b2o$31b2o5bobo$31b2o7bo$40b2o2$27bo$26bobo
+b2o$26bobobobo$23b2obobobobo2bo$23bo2bo2b2ob4o$25b2o4bo$31bobo$32b2o!

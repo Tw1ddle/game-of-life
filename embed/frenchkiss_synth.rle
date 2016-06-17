@@ -1,0 +1,15 @@
+#N frenchkiss_synth.rle
+#O Martin Grant
+#C Glider synthesis of the French kiss, October 2013:
+#C http://conwaylife.com/forums/viewtopic.php?f=2&t=1155&p=9513#p9513
+#C http://conwaylife.com/wiki/French_kiss
+x = 178, y = 23, rule = B3/S23
+2bo$obo$b2o75bobo$78b2o69bo$73bobo3bo69bobo$73b2o74b2o$74bo79bo$36b2o
+25b2o27b2o19b2o26b2o9b2o15b2o$37bo26bo28bo4b2o14bo4b2o21bo4b2o4b2o15bo
+$2bo3bo30bob2o17bo5bob2o5bo19bob2o2bo14bob2o2bo4bo16bob2o2bo21bob2o$3b
+2obobo29bo2bo14bobo6bo2bo3bo21bo2b2o16bo2b2o3b2o18bo2b2o23bo2bo$2b2o2b
+2o31b2o16b2o7b2o4b3o21bo20bo6b2o19bo28bo$95b2o19b2o26b2o5bobo18bo$36bo
+84b2o21bo6b2o2b3o14bo2bo$37bo25b2o29bo21b2o3bobo21b3o4bo2bo17b2obo$21b
+o13b3o25b2o29b2o19bobo3bo25bo8bo19bo$20b2o49b3o19bobo20bo42b3o14b2o$
+20bobo12b3o25b2o8bo85bo$37bo25b2o7bo42b2o43bo$36bo23b2o52bobo30b2o$59b
+obo54bo31b2o4b2o$61bo85bo5b2o$155bo!

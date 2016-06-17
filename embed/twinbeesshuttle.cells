@@ -1,0 +1,15 @@
+!Name: Twin bees shuttle
+!Author: Bill Gosper
+!Twin bees shuttle was found in 1971 and is the basis of all known period 46 oscillators.
+!www.conwaylife.com/wiki/index.php?title=Twin_bees_shuttle
+.................OO
+OO...............O.O.......OO
+OO.................O.......OO
+.................OOO
+
+
+
+.................OOO
+OO.................O
+OO...............O.O
+.................OO

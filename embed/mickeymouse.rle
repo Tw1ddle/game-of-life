@@ -1,0 +1,5 @@
+#N Mickey Mouse
+#C A 26-cell still life named by Mark Niemiec.
+#C http://www.conwaylife.com/wiki/index.php?title=Mickey_Mouse
+x = 10, y = 7, rule = B3/S23
+b2o4b2ob$o2bo2bo2bo$o2b4o2bo$b2o4b2ob$3b4o3b$3bo2bo3b$4b2o!

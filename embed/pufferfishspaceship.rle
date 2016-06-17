@@ -1,0 +1,13 @@
+#N Pufferfish spaceship
+#O Ivan Fomichev
+#C The first c/2 spaceship with no parts of periods 2 or 4, found in December 2014.
+#C www.conwaylife.com/wiki/Pufferfish
+x = 53, y = 37, rule = B3/S23
+8bo7bo18bo7bo$7b3o5b3o16b3o5b3o$6b2o2bo3bo2b2o14bo2b2o3b2o2bo$6bo2bo5b
+o2bo$5b2o3b2ob2o3b2o$6bobob2ob2obobo13bo3b2o3b2o3bo$7bo9bo13bo2b2o2bob
+o2b2o2bo$8bo2bobo2bo15bobo3bobo3bobo$35b3o3b3o$5b2o2b2o3b2o2b2o16bo5bo
+$5b2o11b2o2$9bo5bo17bo11bo$9b2o3b2o17bo11bo2$20bo10bo4b2o3b2o$4bo14b3o
+8b3o3b2o3b2o4bo$3b3o12bo2b2o6bo2b2o12b3o$2bo2b2o2b2o3b2o2b3o2bo5b2o3bo
+10bo2b2o$2b2o5b2o3b2o5bobo6b2o2bo10b2o$bo19bo2bo9bo8bo2bo$b3o18b2o6bo
+4bobo3b2o$22b2o5bo7bo3b7o$29bo6bo11b2ob2o$30b2ob3o12bob3o$18bo10bo19b
+3o$17bo2bo$2bo15bobo$bobo$o3bo43b3o$o3bo43bobo$bobo$2bo3$48bobo$48b3o!

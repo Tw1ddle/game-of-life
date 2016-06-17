@@ -1,0 +1,16 @@
+#N Eleven loop_synth
+#C Glider syntheses of eleven loop
+#C http://www.conwaylife.com/wiki/index.php?title=Eleven_loop
+x = 73, y = 123, rule = b3/s23
+71bob$37bobo2bo27bobo$38b2o2bobo24bo2bo$38bo3b2o25bobob$68b2ob2o18$20b
+2o51b$19bobo51b$21bo51b4$58b3o12b$58bo14b$59bo13b6$50bo22b$50bobo20b$
+50b2o2b2o17b$53b2o18b$55bo15bob$12bo17bo19bo19bobo$12bobo14bobo17bobo
+17bo2bo$12b2o15bobo17bobo3b2o12bobob$28b2ob2o15b2ob2o2bobo10b2ob2o$55b
+o17b$8b2o63b$6bobobo62b$4bobobo44b3o17b$5b2o48bo17b$54bo18b20$14bo16bo
+7bo11bo19bob$13bo16bobo6bobo8bobo17bobo$10b2ob3o13bo2bo6b2o8bo2bo16bo
+2bo$9bobo18b2o18b2o3bo13bobob$11bo29bo3b2o8bobo10b2ob2o$41b2ob2o9b2o
+16b$40bobo3bo26b5$53b2o18b$54b2o17b$53bo19b12$44bo28b$45bo27b$43b3o27b
+$27b3o17b3o23b$15bo57b$16bo14bo19bo19bob$14b3o13bobo17bobo17bobo$29bo
+2bo16bo2bo16bo2bo$29bobo17bobo17bobob$13b3o12b2ob2o15b2ob2o15b2ob2o$
+15bo57b$14bo58b8$3b2o68b$4b2o67b$3bo19b2o48b$22b2o49b$24bo48b2$3o70b$
+2bo70b$bo!

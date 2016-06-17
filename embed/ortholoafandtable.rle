@@ -1,0 +1,5 @@
+#N Ortho-loaf and table
+#C A 13-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Ortho-loaf_and_table
+x = 5, y = 7, rule = B3/S23
+2bo2b$bobob$bo2bo$2b2ob2$4ob$o2bo!

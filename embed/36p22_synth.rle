@@ -1,0 +1,11 @@
+#N 36P22_synth
+#O Jason Summers
+#C A 12-glider synthesis of 36P22
+#C http://www.conwaylife.com/wiki/index.php?title=36P22
+x = 68, y = 32, rule = b3/s23
+3bobo62b$4b2o62b$4bo63b$12bo55b$13bo54b$11b3o19bo34b$31b2o35b$32b2o34b
+$14bo53b$15b2o51b$14b2o52b$21bobo17b2o25b$22b2o18bo25b$22bo9bo9bobo13b
+3o7b$32bobo8b2o3bo8bo3bo6b$32b2o13bob2o6bo4bo5b$b2o43bo4bo6b2obo6b$obo
+44bo3bo8bo3b2o2b$2bo9bo35b3o13bobob$11b2o53bob$11bobo52b2o$19b2o47b$
+18b2o48b$20bo47b$b2o65b$2b2o64b$bo19b3o44b$21bo46b$22bo45b$30bo37b$29b
+2o37b$29bobo!

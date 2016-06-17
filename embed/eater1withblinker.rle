@@ -1,0 +1,5 @@
+#N Eater 1 with blinker
+#C An eater 1 about to eat a blinker.
+#C www.conwaylife.com/wiki/index.php?title=Eater_1
+x = 6, y = 7, rule = b3/s23
+o5b$o5b$o5b$2b2o2b$2bobob$4bob$4b2o!

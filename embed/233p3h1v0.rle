@@ -1,0 +1,14 @@
+#N 233P3H1V0
+#O Hartmut Holzwart
+#C The first non-monotonic period 3 spaceship to be discovered
+#C http://www.conwaylife.com/wiki/index.php?title=233P3H1V0
+x = 31, y = 36, rule = b3/s23
+8b5ob3ob5o8b$7b3o2bobobobo2b3o7b$6bo4b2obobob2o4bo6b$10bo2b2ob2o2bo10b
+$5bo6bobobobo6bo5b$5b2o4bobo3bobo4b2o5b$5b2ob2o11b2ob2o5b$9bo2bo5bo2bo
+9b$3b2o4bobo7bobo4b2o3b$5bo4bo9bo4bo5b2$4b2o19b2o4b$b2o25b2ob$b2o2b2o
+17b2o2b2ob$o4b5o11b5o4bo$6bobob2o7b2obobo6b$7b2o6bo6b2o7b$9bo4b3o4bo9b
+$9bobo7bobo9b$10b2o2bobo2b2o10b$12bo5bo12b$9bo11bo9b$6b2ob4o5b4ob2o6b$
+6b2obobobo3bobobob2o6b$6bobo2bob2ob2obo2bobo6b$11bob2ob2obo11b$10b3o5b
+3o10b$9bo3bo3bo3bo9b$9bob2o5b2obo9b$8b2o2b2o3b2o2b2o8b$7b2o2bo7bo2b2o
+7b$5b2obo13bob2o5b$4bobo17bobo4b$b2obo3b2o11b2o3bob2ob$b2obo21bob2ob$b
+obo23bobo!

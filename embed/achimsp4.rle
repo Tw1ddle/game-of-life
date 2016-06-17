@@ -1,0 +1,6 @@
+#N Achim's p4
+#O Achim Flammenkamp
+#C Period 4 oscillator found in 1988.
+x = 11, y = 9, rule = B3/S23
+2b2o3b2o2b$bo2bobo2bob$bob2ob2obob$2o7b2o$2bobobobo2b$2o7b2o$bob2ob2ob
+ob$bo2bobo2bob$2b2o3b2o!

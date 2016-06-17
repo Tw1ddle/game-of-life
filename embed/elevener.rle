@@ -1,0 +1,5 @@
+#N Elevener
+#C An 11-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Elevener
+x = 6, y = 6, rule = B3/S23
+4b2o$3bobo$3bo2b$b3o2b$o5b$2o!

@@ -1,0 +1,22 @@
+#N Mold_synth
+#O Mark D. Niemiec
+#C Glider synthesis of mold.
+#C http://home.interserv.com/~mniemiec/objname.htm#M
+x = 146, y = 106, rule = 23/3
+118bo27b$119bo26b$117b3o26b2$119bo26b$45bo73b2o25b$43b2o36bo36bobo25b$
+37bo6b2o8bo24b2o65b$35bobo14b2o7b2o17b2o20bo19bo4bobo11b2o3b$36b2o10bo
+4b2o5bo2bo37bobo12bo4bobo3b2o11bo2bo2b$48bobo9bobo2bo13bo3b2o17bobo11b
+2o4bobo3bo11bobo2bo$48b2o11bo17b2ob2o19bo11bobo5bo17bo4b$52bo9b2obo12b
+obo3bo57b2obo$51b2o11bo54b2o23bob$51bobo65bobo6b2o16b$119bo8bobo15b$
+128bo17b21$21bo124b$21bobo17b2o18b2o18b2o28b2o28b2o3b$17b3ob2o17bo2bo
+16bo2bo16bo2bo26bo2bo26bo2bo2b$19bo20bobo17bobo8bobo6bobo2bo24bobo2bo
+8bo15bobo2bo$18bo22bo19bo9b2o8bo3bo25bo3bo9bo6bobo6bo4b$72bo12bo29bo7b
+3o6b2o8b2obo$82bo29bo20bo10bob$69b2o12b2o28b2o31b$68b2o76b$65bo4bo75b$
+63b2o81b$64b2o80b2$68b3o75b$68bo77b$69bo76b3$67b3o76b$67bo78b$68bo77b
+2$96b2o48b$95bobo48b$97bo48b7$b2o18b2o38b2o38b2o18b2o18b2o3b$o2bo16bo
+2bo36bo2bo36bo2bo16bo2bo16bo2bo2b$obo17bobo37bobo37bobobo15bobobo2b3o
+10bobo2bo$bo19bo39bo39bobo17bobo3bo13bo4b$102bo19bo5bo13b2obo$126bo17b
+ob$22b2o38b2o57b2o3b2o18b$2b2o17bo2bo36bo2bo8b2o45bobo2bobo18b$3b2ob3o
+12bo2bo36bo2bo7b2o48bo23b$2bo3bo15b2o38b2o10bo71b$7bo62b2o74b$69bobo
+74b$71bo74b6$83bo62b$82b2o62b$82bobo61b12$32b2o112b$33b2o111b$32bo58b
+3o52b$82b2o7bo54b$82bobo7bo53b$82bo!

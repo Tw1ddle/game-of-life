@@ -1,0 +1,30 @@
+#N weekender_synth.rle
+#O Martin Grant
+#C 87-glider synthesis of weekender spaceship.
+#C Original synthesis found 25 January 2015, based on initial work
+#C by Tanner Jacobi two weeks earlier. Optimization by Chris Cain -- see
+#C http://www.conwaylife.com/forums/viewtopic.php?f=2&t=1557&start=50#p17503
+#C and http://conwaylife.com/forums/viewtopic.php?f=2&t=1643&p=21340#p21331
+#C www.conwaylife.com/wiki/Weekender
+x = 224, y = 231, rule = B3/S23
+207bo$206bo$20bo185b3o$21bo195bobo$19b3o195b2o$33bo184bo$31bobo$32b2o$
+15bo$16b2o188bobo$15b2o189b2o$5bo201bo8bo$6bo195bo12bo$4b3o193b2o13b3o
+$36bo164b2o$37bo6bo$35b3o7b2o135bo$44b2o135bo$181b3o5$181bo$50bo130bob
+o$48bobo130b2o18bobo$49b2o150b2o$202bo2$173bobo$39bobo131b2o$40b2o132b
+o$40bo$44bobo123bobo15bo$45b2o123b2o15bo$45bo125bo15b3o$51bobo$52b2o$
+52bo2$38bo18bo111bo12bo$36bobo16bobo111bobo10bobo$37b2o17b2o111b2o11b
+2o2$164bo$45bo118bobo8bo$46b2o116b2o7b2o$45b2o127b2o$58bo103bo$59bo
+101bo$57b3o92bo8b3o$150b2o$22bo128b2o$23bo$21b3o38bo95bo$63bo93bo$61b
+3o93b3o$68bo$69bo$67b3o2$73bo$71bobo$72b2o3$87bo$88bo$86b3o2$81bo$82bo
+56bobo$80b3o56b2o$85bobo52bo$86b2o112bo$86bo112bo$199b3o$122bo$121bo$
+85bo35b3o$86bo$84b3o62bobo$149b2o$150bo$87bo39bo$88b2o35b2o$87b2o37b2o
+20$123bobo$123b2o$124bo$101bo$102bo$100b3o10b2o$106b2o4b2o$105bobo6bo$
+107bo4$101b2o5b2o$84b2o14bobo6b2o$83bobo16bo5bo$85bo33b2o$118b2o$120bo
+$75b3o$77bo2b2o$76bo4b2o$80bo6$67b2o$68b2o53b3o19b2o$67bo55bo21bobo$
+124bo20bo4$141b3o9b2o$141bo10b2o$142bo11bo3$57b3o101b3o$59bo101bo$58bo
+103bo2$54bo111bo$54b2o109b2o$53bobo109bobo5$47b2o123b2o$41b2o5b2o121b
+2o5b2o$42b2o3bo125bo3b2o$41bo137bo13$192b2o$12b2o177b2o$13b2o178bo$12b
+o3$16bo171b2o$16b2o169b2o21bo$15bobo171bo19b2o$209bobo2$193b3o$193bo$
+194bo6$222bo$221b2o$221bobo3$9b2o200b2o$8bobo21b3o176bobo$10bo23bo176b
+o$33bo2$3o216b3o$2bo216bo$bo218bo3$11b2o$12b2o$11bo6$7b3o$9bo$8bo$195b
+o$194b2o$194bobo3$25b3o$27bo15bo$26bo16b2o$42bobo3$195b3o$195bo$196bo!

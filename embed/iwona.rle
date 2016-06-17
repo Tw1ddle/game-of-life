@@ -1,0 +1,7 @@
+#N Iwona
+#O Andrew Okrasinski
+#C A methuselah with lifespan 28786. Found on August 20, 2004.
+#C www.conwaylife.com/wiki/index.php?title=Iwona
+x = 20, y = 21, rule = B3/S23
+14b3o3b6$2bo17b$3b2o15b$3bo14bob$18bob$18bob$19bo$18b2o$7b2o11b$8bo11b
+5$2o18b$bo!

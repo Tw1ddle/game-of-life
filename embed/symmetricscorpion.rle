@@ -1,0 +1,5 @@
+#N Symmetric scorpion
+#C A 16-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Symmetric_scorpion
+x = 7, y = 5, rule = B3/S23
+3bo3b$b5ob$o5bo$obobobo$b2ob2o!

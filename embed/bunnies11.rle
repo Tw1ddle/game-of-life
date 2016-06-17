@@ -1,0 +1,7 @@
+#N Bunnies 11
+#O Tomas Rokicki
+#C A methuselah with lifespan 17465 that evolves similarly to bunnies 
+#C after generation 146.
+#C www.conwaylife.com/wiki/index.php?title=Bunnies_11
+x = 6, y = 4, rule = B3/S23
+ob3ob$o4bo$obobob$bo2bo!

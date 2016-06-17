@@ -1,0 +1,14 @@
+#N Total aperiodic
+#O Bill Gosper
+#C A pattern that evolves in such a way that no cell in the plane is e
+#C ventually periodic.
+#C www.conwaylife.com/wiki/index.php?title=Total_aperiodic
+x = 59, y = 57, rule = 23/3
+41bo17b$40b3o16b$39b2obo5bo10b$39b3o5b3o9b$40b2o4bo2b2o3b3o2b$46b3o4bo
+2bo2b$56bo2b$56bo2b$56bo2b$40b3o12bo3b$40bo2bo15b$40bo18b$40bo18b$41bo
+17b7$38b3o18b$38bo2bo11bo5b$38bo13b3o4b$38bo12b2obo4b$38bo12b3o5b$39bo
+12b2o5b3$35b3o21b$34b5o20b$34b3ob2o7b2o5bo2bob$37b2o7b4o8bo$46b2ob2o3b
+o3bo$48b2o5b4o3$20bo38b$21bo37b$b2o13bo4bo32b3o2b$4o13b5o34bo2b$2ob2o
+51bo2b$2b2o51bo3b$36bo22b$37bo21b$21b2o10bo3bo21b$22b2o10b4o15b2o4b$
+21b2o27b3ob2o3b$21bo28b5o4b$51b3o5b2$22b2o35b$13b4o4b4o34b$12bo3bo4b2o
+b2o33b$b5o10bo6b2o34b$o4bo9bo43b$5bo53b$4bo!

@@ -1,0 +1,10 @@
+#N 112P51
+#O Nicolay Beluchenko
+#C The first true period 51 oscillator found. Discovered in March 2009.
+#C www.conwaylife.com/wiki/index.php?title=112P51
+x = 37, y = 37, rule = 23/3
+15b2o3b2o15b3$6b2o21b2o6b$6b2o21b2o6b2$3b2o27b2o3b$3b2o9b2o5b2o9b2o3b$
+9b3ob2o7b2ob3o9b$8bobo15bobo8b$8b2o17b2o8b$8bo19bo8b2$8bo19bo8b$7b2o
+19b2o7b$o6bo21bo6bo$o35bo4$o35bo$o6bo21bo6bo$7b2o19b2o7b$8bo19bo8b2$8b
+o19bo8b$8b2o17b2o8b$8bobo15bobo8b$9b3ob2o7b2ob3o9b$3b2o9b2o5b2o9b2o3b$
+3b2o27b2o3b2$6b2o21b2o6b$6b2o21b2o6b3$15b2o3b2o!

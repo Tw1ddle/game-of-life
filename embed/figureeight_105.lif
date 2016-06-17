@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: Figure eight
+#D Author: Simon Norton
+#D A period 8 oscillator found in 1970.
+#D www.conwaylife.com/wiki/index.php?title=Figure_eight
+#N
+#P -3 -3
+**
+**.*
+....*
+.*
+..*.**
+....**

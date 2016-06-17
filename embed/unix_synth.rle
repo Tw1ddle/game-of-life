@@ -1,0 +1,10 @@
+#N Unix_synth
+#C Glider synthesis of unix.
+#C www.conwaylife.com/wiki/index.php?title=Unix
+x = 121, y = 26, rule = b3/s23
+7bo113b$5bobo113b$6b2o113b$o120b$b2o5bo112b$2o6bobo110b$8b2o18b2o91b$
+12bo11b2obo93b$11bo12b2o2bo2bo89b$11b3o15bobo89b$15b3o12bo90b$15bo83bo
+21b$16bo12b2o28b2o18b2o16bobo19b2o$29b2o19bo8b2o18bobo16b2o19b2o$48bob
+o29b3o12b2o24b$13bo35b2o30b2o11bobo24b$12b2o51bo13bobo14bo24b$12bobo
+49bo9b2o2bobo40b$52b2o4b2o4b3o7bobo2bo41b$51bobo5b2o14b4o42b$53bo4bo
+17b2o43b3$65b2o54b$64b2o55b$66bo!

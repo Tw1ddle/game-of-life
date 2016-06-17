@@ -1,0 +1,16 @@
+#N Small lake_synth
+#C Glider syntheses of small lake
+#C http://www.conwaylife.com/wiki/index.php?title=Small_lake
+x = 84, y = 54, rule = b3/s23
+65bo18b$64bo19b$64b3o17b$17bo66b$obo12b2o67b$b2o13b2o6b3o5b3o14bo4b3o
+5b3o19b$bo45bobo34b$22bo13bo11b2o2bo13bo17b$22bo6bo6bo15bo6bo6bo12bo4b
+$22bo5bobo5bo15bo5bobo5bo11bobo3b$28bobo27bobo17bobo3b$12bo13b2o3b2o
+23b2o3b2o13b2o3b2ob$11b2o12bo7bo21bo7bo11bo7bo$7b2o2bobo12b2o3b2o23b2o
+3b2o13b2o3b2ob$8b2o18bobo27bobo17bobo3b$7bo14bo5bobo5bo15bo5bobo5bo11b
+obo3b$22bo6bo6bo15bo6bo6bo12bo4b$22bo13bo15bo13bo2b2o13b$17bo51bobo12b
+$b2o13b2o6b3o5b3o19b3o5b3o4bo14b$2b2o12bobo65b$bo82b$52b3o29b$54bo29b$
+53bo30b7$59bo24b$60bo23b$58b3o23b$62bo21b$62bobo19b$30bo31b2o20b$24bob
+ob2o22bo31b$25b2o2b2o22bo25bo4b$25bo25b3o24bobo3b$78bobo3b$39bo9b2o8bo
+8bo7b2o3b2ob$30b2o6bobo7bobo7bobo7bobo4bo7bo$30bobo6bo10bo8bo8b2o6b2o
+3b2ob$30bo47bobo3b$65b3o10bobo3b$65bo13bo4b$66bo17b$55b2o27b$54bobo27b
+$56bo27b$58b3o23b$58bo25b$59bo!

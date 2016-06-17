@@ -1,0 +1,13 @@
+#N Spacefiller 1
+#O David Bell
+#C A spacefiller that once was the smallest known.
+#C www.conwaylife.com/wiki/index.php?title=Spacefiller_1
+x = 29, y = 43, rule = b3/s23
+5bobo21b$4bo2bo21b$3b2o24b$2bo26b$b4o24b$o4bo23b$o2bo25b$o2bo25b$bo9b
+3o3b3o9b$2b4obo2bo2bo3bo2bo8b$3bo3bo5bo3bo11b$4bo8bo3bo11b$4bobo6bo3bo
+11b2$3b3o5b3o3b3o9b$3b2o7bo5bo10b$3b3o6b7o10b$11bo7bo9b$4bobo3b11o8b$
+3bo2bo2bo12b2o5b$3bo5b12o3bo4b$3bo3bo13bo3bo3b$4bo3b12o5bo3b$5b2o12bo
+2bo2bo3b$8b11o3bobo4b$9bo7bo11b$10b7o6b3o3b$10bo5bo7b2o3b$9b3o3b3o5b3o
+3b2$11bo3bo6bobo4b$11bo3bo8bo4b$11bo3bo5bo3bo3b$8bo2bo3bo2bo2bob4o2b$
+9b3o3b3o9bob$25bo2bo$25bo2bo$23bo4bo$24b4ob$26bo2b$24b2o3b$21bo2bo4b$
+21bobo!

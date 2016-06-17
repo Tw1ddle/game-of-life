@@ -1,0 +1,5 @@
+#N Interchange
+#C A common period 2 oscillator made up of six blinkers.
+#C www.conwaylife.com/wiki/index.php?title=Interchange
+x = 14, y = 7, rule = B3/S23
+2b3o4b3o2b2$o12bo$o12bo$o12bo2$2b3o4b3o!

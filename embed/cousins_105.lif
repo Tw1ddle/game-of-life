@@ -1,0 +1,13 @@
+#Life 1.05
+#D Name: Cousins
+#D A period 3 oscillator that contains two copies of the stillater rotor.
+#D www.conwaylife.com/wiki/index.php?title=Cousins
+#N
+#P -6 -3
+.....*.**
+...***.*.*
+*.*......*
+**.**.**.*.**
+...*.*....*.*
+...*.*.***
+....**.*

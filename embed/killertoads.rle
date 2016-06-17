@@ -1,0 +1,5 @@
+#N Killer toads
+#C A period 2 oscillator made up of a pair of toads acting together so that they can eat things.
+#C www.conwaylife.com/wiki/index.php?title=Killer_toads
+x = 4, y = 7, rule = B3/S23
+b3o$3ob4$3ob$b3o!

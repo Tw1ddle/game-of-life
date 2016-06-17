@@ -1,0 +1,26 @@
+!Name: Achim's p11
+!Author: Achim Flammenkamp
+!A period 11 oscillator discovered on August 4, 1994
+!http://www.conwaylife.com/wiki/index.php?title=Achim's_p11
+..........OO
+..........OO
+.....O..........O
+....O.O........O.O
+...O.O...O..O...O.O
+..O.O....O..O....O.O
+...O.....O..O.....O
+
+
+....OOO........OOO
+OO..................OO
+OO..................OO
+....OOO........OOO
+
+
+...O.....O..O.....O
+..O.O....O..O....O.O
+...O.O...O..O...O.O
+....O.O........O.O
+.....O..........O
+..........OO
+..........OO

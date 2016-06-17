@@ -1,0 +1,11 @@
+#N Traffic light_synth
+#O Mark D. Niemiec
+#C Glider syntheses of traffic lights.
+#C http://home.interserv.com/~mniemiec/2gliders.htm
+x = 109, y = 29, rule = 23/3
+24b3o37b3o37b3o2b$45bo63b$3bobo16bo5bo14bobo16bo5bo33bo5bo$4b2o16bo5bo
+11b2o2b2o16bo5bo12bo3b2o15bo5bo$4bo17bo5bo10bobo20bo5bo13b2obobo14bo5b
+o$b2o38bo39b2o2bo23b$obo21b3o37b3o37b3o2b$2bo106b13$24b3o37b3o37b3o2b$
+40b3o66b$2b3o17bo5bo13bo2bo16bo5bo33bo5bo$4bo17bo5bo12bo2bobo15bo5bo
+20bo12bo5bo$3bo2b3o13bo5bo16bobo14bo5bo19bo13bo5bo$46bo41b3o18b$24b3o
+37b3o15b3o7b2o10b3o2b$84bo7bobo14b$83bo8bo!

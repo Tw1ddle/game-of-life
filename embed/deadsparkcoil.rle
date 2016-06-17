@@ -1,0 +1,5 @@
+#N Dead spark coil
+#C An 18-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Dead_spark_coil
+x = 7, y = 5, rule = B3/S23
+2o3b2o$obobobo$2bobo2b$obobobo$2o3b2o!

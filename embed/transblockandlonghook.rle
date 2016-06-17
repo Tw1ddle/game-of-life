@@ -1,0 +1,5 @@
+#N Trans-block and long hook
+#C A 12-cell still life.
+#C http://www.conwaylife.com/wiki/index.php?title=Trans-block_and_long_hook
+x = 5, y = 6, rule = B3/S23
+3b2o$o3bo$4ob2$2o3b$2o!

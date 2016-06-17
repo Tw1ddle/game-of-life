@@ -1,0 +1,6 @@
+#N Orion
+#O Hartmut Holzwart
+#C A c/4 diagonal period 4 spaceship found in April 1993.
+x = 14, y = 15, rule = B3/S23
+3b2o9b$3bobo8b$3bo10b$2obo10b$o4bo8b$ob2o6b3ob$5b3o4b2o$6b3obobob$13bo
+$6bobo5b$5b2obo5b$6bo7b$4b2obo6b$7bo6b$5b2o!

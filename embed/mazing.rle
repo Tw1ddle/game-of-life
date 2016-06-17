@@ -1,0 +1,6 @@
+#N Mazing
+#O David Buckingham
+#C A period 4 oscillator.
+#C www.conwaylife.com/wiki/index.php?title=Mazing
+x = 7, y = 7, rule = B3/S23
+3b2o2b$bobo3b$o5bo$bo3b2o2$3bobob$4bo!

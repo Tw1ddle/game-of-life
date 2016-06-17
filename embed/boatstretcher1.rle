@@ -1,0 +1,9 @@
+#N Boatstretcher 1
+#O Hartmut Holzwart
+#C The first diagonal wickstretcher to be found
+#C http://www.conwaylife.com/wiki/index.php?title=Boatstretcher_1
+x = 21, y = 21, rule = b3/s23
+10bo10b$9b2o10b$9bobo3bo5b$13b2o6b$14bo2bo3b$12b2obo2bo2b$8b3ob2o4bo2b
+$7bo2bo4bo5b$6bo4bo4b2o3b$b2o3bo5bobob2o3b$2o4b2o9bo3b$2bo5bo9bo2b$5b
+2o2bo6b3o2b$3bob2o11bobo$3b2o4bo9b2o$2bo2bobo13b$8b2o2bo8b$4bo3b3obo8b
+$5b2o4b3o7b$14bo6b$13b2o!

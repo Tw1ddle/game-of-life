@@ -1,0 +1,5 @@
+#N Blinker fuse_synth
+#C Glider synthesis of blinker fuse.
+#C www.conwaylife.com/wiki/index.php?title=Blinker_fuse
+x = 39, y = 11, rule = b3/s23
+obo36b$2o37b$bo37b3$3ob3ob3ob3ob3ob3ob3ob3ob3ob3o3$bo37b$2o37b$obo!

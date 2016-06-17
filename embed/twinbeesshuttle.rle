@@ -1,0 +1,7 @@
+#N Twin bees shuttle
+#O Bill Gosper
+#C Twin bees shuttle was found in 1971 and is the basis of all known period 46 oscillators.
+#C www.conwaylife.com/wiki/index.php?title=Twin_bees_shuttle
+x = 29, y = 11, rule = b3/s23
+17b2o10b$2o15bobo7b2o$2o17bo7b2o$17b3o9b4$17b3o9b$2o17bo9b$2o15bobo9b$
+17b2o!

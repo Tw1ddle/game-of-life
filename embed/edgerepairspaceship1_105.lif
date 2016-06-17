@@ -1,0 +1,14 @@
+#Life 1.05
+#D Name: Edge-repair spaceship 1
+#D Author: David Bell
+#D An edge-repair spaceship that was found in 1992.
+#D www.conwaylife.com/wiki/index.php?title=Edge-repair_spaceship_1
+#N
+#P -20 -10
+........*
+.......****
+..*...*...**.**
+.****.....*..**
+*...*.......*..*
+.*.*..*
+.....*

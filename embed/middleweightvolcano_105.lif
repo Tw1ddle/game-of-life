@@ -1,0 +1,19 @@
+#Life 1.05
+#D Name: Middleweight volcano
+#D Author: Dean Hickerson
+#D A period 5 oscillator found in April 1992 that produces sparks much like a mi
+#D ddleweight spaceship.
+#D www.conwaylife.com/wiki/index.php?title=Middleweight_volcano
+#N
+#P -6 -4
+....*****
+...*.....*
+.***.....***
+*...........*
+*.***.*.****
+.*...***
+...*.....**.*
+..**.*.*.*.**
+...*.*..*
+...*..**
+..**

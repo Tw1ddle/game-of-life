@@ -1,0 +1,10 @@
+#N Weekender tagalong
+#O Stephen Silver
+#C A tagalong for two period 7 orthogonal 2c/7 weekenders, found on April 27, 2000.
+#C www.conwaylife.com/wiki/index.php?title=Weekender
+x = 37, y = 24, rule = b3/s23
+bo12bo7bo12bob$bo12bo7bo12bob$obo10bobo5bobo10bobo$bo12bo7bo12bob$bo
+12bo7bo12bob$2bo3b4o3bo9bo3b4o3bo2b$6b4o8bo8b4o6b$2b4o4b4o2b5o2b4o4b4o
+2b$15bobobobo15b$4bo6bo13bo6bo4b$5b2o2b2o6bobo6b2o2b2o5b$14bo2bobo2bo
+14b$14bo2bobo2bo14b$14bobo3bobo14b3$14b2o5b2o14b$14b2o5b2o14b2$16b2ob
+2o16b$15bobobobo15b$15bobobobo15b$17bobo17b$15b2o3b2o!

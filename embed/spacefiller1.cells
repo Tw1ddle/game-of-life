@@ -1,0 +1,47 @@
+!Name: Spacefiller 1
+!Author: David Bell
+!A spacefiller that once was the smallest known.
+!www.conwaylife.com/wiki/index.php?title=Spacefiller_1
+.....O.O
+....O..O
+...OO
+..O
+.OOOO
+O....O
+O..O
+O..O
+.O.........OOO...OOO
+..OOOO.O..O..O...O..O
+...O...O.....O...O
+....O........O...O
+....O.O......O...O
+
+...OOO.....OOO...OOO
+...OO.......O.....O
+...OOO......OOOOOOO
+...........O.......O
+....O.O...OOOOOOOOOOO
+...O..O..O............OO
+...O.....OOOOOOOOOOOO...O
+...O...O.............O...O
+....O...OOOOOOOOOOOO.....O
+.....OO............O..O..O
+........OOOOOOOOOOO...O.O
+.........O.......O
+..........OOOOOOO......OOO
+..........O.....O.......OO
+.........OOO...OOO.....OOO
+
+...........O...O......O.O
+...........O...O........O
+...........O...O.....O...O
+........O..O...O..O..O.OOOO
+.........OOO...OOO.........O
+.........................O..O
+.........................O..O
+.......................O....O
+........................OOOO
+..........................O
+........................OO
+.....................O..O
+.....................O.O

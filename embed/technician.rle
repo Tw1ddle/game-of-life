@@ -1,0 +1,7 @@
+#N Technician
+#O David Buckingham
+#C A period 5 oscillator found in January 1973.
+#C www.conwaylife.com/wiki/index.php?title=Technician
+x = 11, y = 12, rule = B3/S23
+5bo5b$4bobo4b$4b2o5b$2b2o7b$bo3b3o3b$o2b2o3bobo$b2o4bob2o$3bobobo3b$3b
+o3bo3b$4b3o4b$6bobo2b$7b2o!

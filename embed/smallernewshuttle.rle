@@ -1,0 +1,9 @@
+#N Smaller newshuttle
+#O David Buckingham
+#C The second period 28 oscillator to be found
+#C http://www.conwaylife.com/wiki/index.php?title=Newshuttle
+x = 35, y = 20, rule = b3/s23
+19b2o14b$18bobo14b$7b2o7b3o7b2o7b$2o5b2o6bo3bo6b2o5b2o$bo13b2ob2o13bob
+$bobo27bobob$2b2o27b2o2b$6b3o3b3o5b3o3b3o6b$6bobo3bobo5bobo3bobo6b$6b
+3o3b3o5b3o3b3o6b4$2b2o27b2o2b$bobo27bobob$bo13b2ob2o13bob$2o5b2o6bo3bo
+6b2o5b2o$7b2o7b3o7b2o7b$18bobo14b$19b2o!

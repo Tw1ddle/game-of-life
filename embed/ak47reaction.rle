@@ -1,0 +1,8 @@
+#N AK47 reaction
+#O Rich Schroeppel and David Buckingham
+#C A reaction in which a honey farm predecessor catalysed by an eater 
+#C and a block reappears at another location 47 generations later, having produced a glider and a traffic light.
+#C www.conwaylife.com/wiki/index.php?title=AK47_reaction
+x = 10, y = 12, rule = B3/S23
+5bo4b$4bobo3b$3bo3bo2b$3bo3bo2b$3bo3bo2b$4bobo3b$5bo4b2$2b2o6b$3bo6b$
+3o5b2o$o7b2o!

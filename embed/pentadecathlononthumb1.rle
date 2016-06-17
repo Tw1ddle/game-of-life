@@ -1,0 +1,6 @@
+#N Pentadecathlon on thumb 1
+#C The smallest known non-trivial period 45 oscillator
+#C www.conwaylife.com/wiki/index.php?title=Pentadecathlon_on_thumb_1
+x = 14, y = 17, rule = b3/s23
+6bo4bo2b$4b2ob4ob2o$6bo4bo2b6$3b2o9b$3bobob2o2b2ob$2obo3bobo2bob$2obo
+3bob3o2b$3bo3bo6b$3bobob3o4b$4bobo3bo3b$6bo2b2o3b$6b2o!

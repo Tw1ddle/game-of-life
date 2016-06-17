@@ -1,0 +1,6 @@
+#N Maze 5-cell still lifes
+#C All 5-cell still lifes in the maze (12345/3) rule.
+#C www.conwaylife.com/wiki/index.php?title=Maze
+x = 38, y = 5, rule = b3/s12345
+2o3b2o4b2o4b2o3b2o3bo7b2ob$obo2bobo3bo6bo5bo3bo5bo2bo$bo6bo4bo4b2o2b2o
+5bo5bo2b$14bo15bo7b$31bo!

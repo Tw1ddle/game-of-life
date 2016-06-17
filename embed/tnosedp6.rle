@@ -1,0 +1,7 @@
+#N T-nosed p6
+#O Achim Flammenkamp
+#C A period 6 oscillator found in September 1994.
+#C www.conwaylife.com/wiki/index.php?title=T-nosed_p6
+x = 15, y = 11, rule = B3/S23
+4b2o3b2o4b$4bobobobo4b$5bo3bo5b2$o3b2o3b2o3bo$obob2o3b2obobo$o3b2o3b2o
+3bo2$5bo3bo5b$4bobobobo4b$4b2o3b2o!

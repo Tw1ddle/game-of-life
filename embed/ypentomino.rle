@@ -1,0 +1,5 @@
+#N Y-pentomino
+#C One of the 12 pentominoes.
+#C www.conwaylife.com/wiki/index.php?title=Polyomino#Pentominoes
+x = 4, y = 2, rule = B3/S23
+2bob$4o!

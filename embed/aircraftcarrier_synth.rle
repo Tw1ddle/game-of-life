@@ -1,0 +1,17 @@
+#N Aircraft carrier_synth
+#O Mark D. Niemiec
+#C Glider syntheses of aircraft carriers.
+#C http://home.interserv.com/~mniemiec/4gliders.htm
+x = 146, y = 90, rule = 23/3
+126bo19b$126bobo17b$o125b2o18b$obo143b$2o122b2o20b$81bo6bo34b2o21b$b2o
+39bo6bo32b2o3bo37bo20b$obo19b2o16bobo6bobo10b2o17b2o4b3o12b2o38b2o2b$
+2bo2bo16bo2bo11b2o2b2o2b2o2b2o11bo2bo36bo2bo36bo2bo$5bobo16b2o10bobo6b
+obo16b2o12b3o4b2o17b2o38b2o$5b2o31bo6bo34bo3b2o36bo23b$79bo6bo36b2o21b
+$6b2o114b2o22b$5bobo138b$7bo112b2o24b$119bobo24b$121bo24b15$91bo54b$
+92b2o52b$68bo22b2o53b$67bobo76b$53bo13bobo20bo29bo25b$53bobo12bo21b2o
+29b2o23b$2bo5bobo11b2o29b2o7b2o25bobo6bo3b2o16b2o20b2o2b$3bo4b2o12bo2b
+o36bo2bo31b2o3bo2bo8bo27bo2bo$b3o5bo14b2o38b2o31bobo4b2o9bo3bo24b2o$
+49bo63b3o3b2o25b$2bo45bo69bobo25b$2b2o44b3o95b$bobo142b$51b2o93b$5b2o
+44bobo92b$4b2o45bo22b2o50b2o18b$6bo68b2o49bobo17b$74bo51bo19b16$136bo
+9b$134b2o10b$118b2o15b2o9b$114b2o2bobo25b$113bobo2bo27b$115bo30b8$142b
+2o2b$142bo2bo$144b2o8$124bo21b$123b2o21b$123bobo!

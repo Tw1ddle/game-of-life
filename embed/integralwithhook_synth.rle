@@ -1,0 +1,21 @@
+#N Integral with hook_synth
+#O Mark D. Niemiec
+#C Glider synthesis of integral with hook.
+#C http://home.interserv.com/~mniemiec/objname.htm#I
+x = 145, y = 103, rule = 23/3
+128bobo14b$99b2o27b2o9b2o4b$86bo12bobo27bo9bobo3b$86bobo12bo39bo3b$76b
+3o7b2o13bob2o36bob2o$71bo6bo23bobo37bobo$69bobo5bo36b2o29b$70b2o10b2o
+31b2o28b$73b2o7bobo29bo30b$74b2o6bo42bo19b$73bo37b2o11b2o19b$110bobo
+11bobo18b$112bo32b$121b2o22b$120b2o23b$122bo22b10$82bo62b$83b2o60b$82b
+2o2bobo56b$86b2o57b$87bo57b2$83bo7b2o6b2o18b2o18b2o4b$82b2o7bobo5bobo
+17bobo17bobo3b$82bobo6bo9bo19bo8bo10bo3b$101bobo17bobo5bo11bob2o$102b
+2o18b2o5b3o10bobo2$126b3o16b$126bo18b$127bo17b$120bo24b$120b2o23b$119b
+obo23b16$38bo106b$36bobo106b$37b2o3bo102b$40b2o17b2o18b2o18b2o44b$41b
+2o16bobo17bobo17bobo43b$61bo19bo19bo43b$61b2o18b2o18bobo41b$76bo9bo15b
+2o41b$77b2o5b2o59b$76b2o7b2o58b2$78bo66b$78b2o65b$77bobo5b3o57b$87bo
+57b$86bo58b13$76bobo42bobo21b$77b2o43b2o3bo17b$77bo44bo2b2o18b$126b2o
+17b$75b2o21b2o18b2o25b$74bobo21bo19bo20b2o4b$20b2o18b2o18b2o14bo3b2o
+17b3o17b3o17bobo3b$21bo19bo8bo10bo19bo19bo19bo19bo3b$2o19bobo17bobo5bo
+11bob2o16bob2o16bob2o9b3o4bob2o16bob2o$b2o19b2o18b2o5b3o10bobo17bobo
+17bobo11bo5bobo17bobo$o3b2o109bo29b$4bobo39b3o96b$4bo41bo98b$47bo97b$
+40bo104b$40b2o103b$39bobo!

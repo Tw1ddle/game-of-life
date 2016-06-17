@@ -1,0 +1,22 @@
+#N Twin bees shuttle_synth
+#O Mark D. Niemiec
+#C Glider synthesis of twin bees shuttle.
+#C www.conwaylife.com/wiki/index.php?title=Twin_bees_shuttle
+x = 154, y = 92, rule = b3/s23
+101bo52b$36bo63bo53b$36bobo54bo6b3o51b$5bo30b2o56b2o40bo17b$3bobo27b2o
+10b2o25b2o11b2o6b2o17b2o11b2o8b2o15b2o$4b2o27bobo9b2o25b2o11b2o25b2o
+11b2o7b2o16b2o$b2o30bo101b2o2b2o13b$obo151b$2bo146bo4b$147b5o2b$135b2o
+2b2o5b2obo2bob$134b2o9bo7bo$93b2o40b2o9b2obo2bob$94b2o40bo10b5o2b$93bo
+6b3o46bo4b$100bo53b$101bo52b18$101bo52b$36bo63bo53b$36bobo54bo6b3o51b$
+5bo30b2o56b2o40bo17b$3bobo27b2o10b2o25b2o11b2o6b2o17b2o11b2o8b2o15b2o$
+4b2o27bobo9b2o25b2o11b2o25b2o11b2o7b2o16b2o$b2o30bo101b2o2b2o13b$obo
+151b$2bo6bo139bo4b$9bobo135b5o2b$9b2o124b2o2b2o5b2obo2bob$6b2o37b2o38b
+2o38b2o7b2o9bo7bo$6bobo36b2o38b2o6b2o30b2o8b2o9b2obo2bob$6bo87b2o40bo
+10b5o2b$93bo6b3o46bo4b$100bo53b$101bo52b15$5bo148b$3bobo148b$4b2o4bo
+143b$9bo144b$9b3o142b$48b2o38b2o11bo26b2o24b$36bo11b2o38b2o10bo27b2o
+24b$36bobo54bo6b3o51b$7bo28b2o56b2o40bo17b$5bobo25b2o12b2o23b2o13b2o4b
+2o17b2o13b2o6b2o15b2o$6b2o25bobo11b2o23b2o13b2o23b2o13b2o5b2o16b2o$3b
+2o28bo101b2o2b2o13b$2bobo149b$4bo6bo137bo4b$11bobo133b5o2b$11b2o122b2o
+2b2o5b2obo2bob$8b2o37b2o38b2o38b2o5b2o9bo7bo$8bobo36b2o38b2o4b2o32b2o
+6b2o9b2obo2bob$8bo85b2o40bo10b5o2b$93bo6b3o46bo4b$48b2o38b2o10bo27b2o
+24b$48b2o38b2o11bo26b2o24b$9b3o142b$9bo144b$4b2o4bo143b$3bobo148b$5bo!

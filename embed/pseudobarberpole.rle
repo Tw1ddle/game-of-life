@@ -1,0 +1,5 @@
+#N Pseudo-barberpole
+#O Achim Flammenkamp
+#C Found in August 1994. In terms of its minimum population of 15, this is the smallest known period 5 oscillator (as of January 2009).
+x = 12, y = 12, rule = B3/S23
+10b2o$11bo$9bo2b$7bobo2b2$5bobo4b2$3bobo6b2$2b2o8b$o11b$2o!

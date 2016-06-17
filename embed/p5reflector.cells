@@ -1,0 +1,27 @@
+!Name: P5 reflector
+!A period 5 oscillator that can act as a glider reflector.
+!www.conwaylife.com/wiki/P5_reflector
+........OO
+.....O..O.O
+....O.O.O.O
+...O.O.O..OO
+...O...O.O
+OO.O.O.O.OOO.O........OO
+O.O....O..O.......OO..OO
+..O.OOO....O...O.O.O
+..O..O.....O......O
+...O...O.OO...O..........OO
+....OOO.OO.OO.......OO....O
+......O....O........OO...O
+.......OOO.O.....O......OO
+..........O.OO...OO.....O..O
+.........O..O......O........O
+.........OO..OOOO..O.......OO
+
+.............OOO...O
+............O..O.O.O
+............OO...O.OOO
+.............O.O..O...O
+.............O.OO.O..OO
+..............O..O
+...............OO

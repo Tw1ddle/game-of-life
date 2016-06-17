@@ -1,0 +1,41 @@
+!Name: 160P10H2V0
+!Author: Paul Tooke
+!The first period-10, c/5 orthogonal spaceship to be discovered
+!http://www.conwaylife.com/wiki/index.php?title=160P10H2V0
+.......O.O.O
+......OOOOOOO
+.....O.......O
+.OOO.OOO...OOO.OOO
+O.................O
+.O.......O.......O
+.O.OO.........OO.O
+
+..OOO.........OOO
+..OOO.........OOO
+.....O.......O
+.O....O.....O....O
+.O.O...........O.O
+.......O...O
+.......O...O
+.....O..O.O..O
+.....O.......O
+....O.........O
+....O.O.....O.O
+....OO.O...O.OO
+.....O.OO.OO.O
+.......O.O.O
+........O.O
+......O.O.O.O
+.....OO.O.O.OO
+........O.O
+.......OO.OO
+....OOO.O.O.OOO
+....O.O.O.O.O.O
+....O...O.O...O
+........O.O
+....O..OOOOO..O
+...OOOO.....OOOO
+.OO.............OO
+.OO.O.........O.OO
+..O.O....O....O.O
+....OO.......OO
