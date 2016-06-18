@@ -3,12 +3,22 @@ varying vec2 vUv;
 uniform sampler2D tStamp;
 uniform sampler2D tLast;
 
-uniform vec2 offset;
+uniform vec2 pos;
+uniform vec2 size;
 
 void main()
 {
-	vec4 stampValue = texture2D(tStamp, vUv);
 	vec4 lastValue = texture2D(tLast, vUv);
 	
-	gl_FragColor = vec4(lastValue.rgb + stampValue.rgb, 1.0);
+	if(vUv.x < pos.x || vUv.x > pos.x + size.x || vUv.y < pos.y || vUv.y > pos.y + size.y) // If stamp texture does not overlap this UV coordinate
+	{
+		gl_FragColor = vec4(lastValue.rgb, 1.0);
+	}
+	else
+	{
+		float x = (vUv.x - pos.x) * size.x;
+		float y = 0.5; //1.0 - (vUv.y - pos.y) * size.y;
+		vec4 stampValue = texture2D(tStamp, vec2(x, y));
+		gl_FragColor = vec4(lastValue.rgb + stampValue.rgb, 1.0);
+	}
 }

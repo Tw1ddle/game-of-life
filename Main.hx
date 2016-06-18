@@ -107,7 +107,7 @@ class Main {
 		scene = new Scene();
 		
 		// Camera setup
-		camera = new OrthographicCamera(-1, 1, 1, -1, 0, 1);
+		camera = new OrthographicCamera(-0.5, 0.5, 0.5, -0.5, 0, 1);
 		
 		// Setup Game of Life shader effect
 		gameOfLife = new GameOfLife(renderer, 512, 512);
@@ -120,7 +120,7 @@ class Main {
 		copyMaterial.uniforms.tTexture.value = null;
 		
 		// Populate scene
-		var mesh = new Mesh(new PlaneBufferGeometry(2, 2), copyMaterial);
+		var mesh = new Mesh(new PlaneBufferGeometry(1, 1), copyMaterial);
 		scene.add(mesh);
 		
 		// Initial renderer setup
@@ -150,15 +150,21 @@ class Main {
 		
 		renderer.domElement.addEventListener("mousedown", function(e:Dynamic):Void {
 			e.preventDefault();
-			var x:Int = Std.int(e.clientX - renderer.domElement.offsetLeft);
-			var y:Int = Std.int(e.clientY - renderer.domElement.offsetTop);
+			
+			var rect = renderer.domElement.getBoundingClientRect();
+			var x = Std.int(e.clientX - rect.left);
+			var y = Std.int(e.clientY - rect.top);
+			
 			onPointerDown(x, y);
 		}, false);
 		
 		renderer.domElement.addEventListener("touchstart", function(e:Dynamic):Void {
 			e.preventDefault();
-			var x:Int = Std.int(e.touches[0].clientX - renderer.domElement.offsetLeft);
-			var y:Int = Std.int(e.touches[0].clientY - renderer.domElement.offsetTop);
+			
+			var rect = renderer.domElement.getBoundingClientRect();
+			var x = Std.int(e.clientX - rect.left);
+			var y = Std.int(e.clientY - rect.top);
+			
 			onPointerDown(x, y);
 		}, false);
 		
@@ -187,7 +193,7 @@ class Main {
 	 * Triggered when the user resizes the browser.
 	 */
 	private function onResize():Void {
-		renderer.setSize(900, 900);
+		renderer.setSize(512, 512); // TODO and handle click -> render target scaling
 	}
 	
 	/**
@@ -203,19 +209,19 @@ class Main {
 		//trace(patternGrid);
 		
 		var canvas = Browser.document.createCanvasElement();
-		canvas.width = 100;
-		canvas.height = 100;
+		canvas.width = 128;
+		canvas.height = 128;
 		var ctx = canvas.getContext("2d");
 		
-		gameDiv.appendChild(canvas);
+		//gameDiv.appendChild(canvas);
 
 		ctx.beginPath();
-		ctx.rect(0, 0, 100, 100);
+		ctx.rect(0, 0, 128, 128);
 		ctx.fillStyle = "blue";
 		ctx.fill();
 		
 		ctx.beginPath();
-		ctx.rect(0, 0, 50, 50);
+		ctx.rect(0, 0, 64, 64);
 		ctx.fillStyle = "red";
 		ctx.fill();
 		

@@ -11,7 +11,6 @@ import three.Scene;
 import three.ShaderMaterial;
 import three.Texture;
 import three.TextureFilter;
-import three.Vector2;
 import three.Vector4;
 import three.WebGLRenderTarget;
 import three.WebGLRenderTargetOptions;
@@ -39,7 +38,7 @@ class GameOfLife {
 	
 	public function new(renderer:WebGLRenderer, width:Int, height:Int) {
 		this.renderer = renderer;
-		camera = new OrthographicCamera(-1, 1, 1, -1, 0, 1);
+		camera = new OrthographicCamera(-0.5, 0.5, 0.5, -0.5, 0, 1);
 		scene = new Scene();
 		params = { minFilter: TextureFilter.NearestFilter, magFilter: TextureFilter.NearestFilter, format: cast PixelFormat.RGBAFormat, wrapS: Wrapping.RepeatWrapping, wrapT: Wrapping.RepeatWrapping };
 		ping = new WebGLRenderTarget(width, height, params);
@@ -67,7 +66,7 @@ class GameOfLife {
 		});
 		clearMaterial.uniforms.clearColor.value = new Vector4(0.5, 0.5, 0.5, 1.0);
 		
-		mesh = new Mesh(new PlaneBufferGeometry(2, 2));
+		mesh = new Mesh(new PlaneBufferGeometry(1, 1));
 		mesh.material = lifeMaterial;
 		scene.add(mesh);
 		
@@ -93,7 +92,12 @@ class GameOfLife {
 		mesh.material = stampMaterial;
 		stampMaterial.uniforms.tStamp.value = pattern;
 		stampMaterial.uniforms.tLast.value = current.texture;
-		stampMaterial.uniforms.offset.value.set(-x / 900, -y / 900);
+		
+		stampMaterial.uniforms.pos.value.set(x / current.width, (current.height - y - pattern.image.height) / current.height);
+		stampMaterial.uniforms.size.value.set(pattern.image.width / current.width, pattern.image.height / current.height);
+		
+		trace(stampMaterial.uniforms.pos.value);
+		trace(stampMaterial.uniforms.size.value);
 		
 		var nonCurrent = current == ping ? pong : ping;
 		
