@@ -3,7 +3,11 @@ package;
 import js.Browser;
 import js.html.DivElement;
 import js.html.SelectElement;
+import js.html.TextAreaElement;
+import shaders.Copy;
 import shaders.Life;
+import shaders.Stamp;
+import three.CanvasTexture;
 import three.Mesh;
 import three.OrthographicCamera;
 import three.PixelFormat;
@@ -13,10 +17,11 @@ import three.ShaderMaterial;
 import three.Texture;
 import three.TextureFilter;
 import three.WebGLRenderTarget;
+import three.Mapping;
 import three.WebGLRenderTargetOptions;
 import three.WebGLRenderer;
 import webgl.Detector;
-import js.html.TextAreaElement;
+import three.Wrapping;
 
 using StringTools;
 
@@ -31,7 +36,7 @@ class ID {}
 @:build(PatternFileReaderMacro.build("embed"))
 @:keep
 class Patterns {
-	// Contains whole pattern (gliders etc) files as arrays of strings for use at runtime
+	// Stores the embedded pattern files from the /embed folder as arrays of strings for use at runtime
 }
 
 class GameOfLife {
@@ -40,33 +45,44 @@ class GameOfLife {
 	private var params:WebGLRenderTargetOptions;
 	private var ping:WebGLRenderTarget;
 	private var pong:WebGLRenderTarget;
-	private var current:WebGLRenderTarget;
-	public var material(default, null):ShaderMaterial;
+	public var current(default, null):WebGLRenderTarget;
+	private var lifeMaterial(default, null):ShaderMaterial;
+	private var stampMaterial(default, null):ShaderMaterial;
+	private var mesh:Mesh;
+	
 	private var renderer:WebGLRenderer;
 	
 	public function new(renderer:WebGLRenderer, width:Int, height:Int) {
 		this.renderer = renderer;
-		camera = new OrthographicCamera( -1, 1, 1, -1, 0, 1);
+		camera = new OrthographicCamera(-1, 1, 1, -1, 0, 1);
 		scene = new Scene();
 		params = { minFilter: TextureFilter.LinearFilter, magFilter: TextureFilter.NearestFilter, format: cast PixelFormat.RGBAFormat };
 		ping = new WebGLRenderTarget(width, height, params);
 		pong = new WebGLRenderTarget(width, height, params);
 		current = ping;
-		material = new ShaderMaterial( {
+		lifeMaterial = new ShaderMaterial( {
 			vertexShader: Life.vertexShader,
 			fragmentShader: Life.fragmentShader,
 			uniforms: Life.uniforms
 		});
-		material.uniforms.tUniverse.value = current.texture;
+		lifeMaterial.uniforms.tUniverse.value = null;
 		
-		var mesh = new Mesh(new PlaneBufferGeometry(2, 2), material);
+		stampMaterial = new ShaderMaterial( {
+			vertexShader: Stamp.vertexShader,
+			fragmentShader: Stamp.fragmentShader,
+			uniforms: Stamp.uniforms
+		});
+		stampMaterial.uniforms.tTexture.value = null;
+		
+		mesh = new Mesh(new PlaneBufferGeometry(2, 2));
+		mesh.material = lifeMaterial;
 		scene.add(mesh);
 	}
 	
 	public function render():Void {
 		// Swap render targets
 		current = current == ping ? pong : ping;
-		material.uniforms.tUniverse.value = current.texture;
+		lifeMaterial.uniforms.tUniverse.value = current.texture;
 		
 		var nonCurrent = current == ping ? pong : ping;
 		
@@ -74,105 +90,22 @@ class GameOfLife {
 		renderer.render(this.scene, this.camera, nonCurrent, true);
 	}
 	
+	public function stampPattern(x:Int, y:Int, pattern:Texture):Void {
+		mesh.material = stampMaterial;
+		trace(pattern);
+		stampMaterial.uniforms.tTexture.value = pattern;
+		
+		var nonCurrent = current == ping ? pong : ping;
+		
+		renderer.render(this.scene, this.camera, nonCurrent, true);
+		
+		mesh.material = lifeMaterial;
+	}
+	
 	public function isCellLive(x:Int, y:Int):Bool {
 		var buffer = new js.html.Uint8Array(4);
 		renderer.readRenderTargetPixels(current, x, y, 1, 1, buffer);
-		trace(buffer);
 		return buffer[3] == 255 ? true : false; // TODO fix
-	}
-	
-	public function stampPattern(x:Int, y:Int, pattern:Texture):Void {
-		// todo render pattern texture/pixels to rendertarget
-		
-	}
-}
-
-// Expands and converts ASCII Life 1.0x format patterns: http://www.conwaylife.com/wiki/Life_1.05
-class LifeReader {
-	// TODO
-}
-
-// Expands and converts "plain text" cells format patterns: http://www.conwaylife.com/wiki/Plaintext
-class PlaintextCellsReader {
-	// TODO
-}
-
-// Expands and converts run length encoded patterns: http://www.conwaylife.com/wiki/RLE
-class RLEReader {
-	public static function expandRle(rle:Array<String>):Array<String> {
-		var width:Int = 0;
-		var height:Int = 0;
-		var rule:String = "";
-		var rlePattern:String = "";
-		var runCountMatcher:EReg = ~/[0-9]/i;
-		var foundSize:Bool = false;
-		
-		for (line in rle) {
-			if (line.indexOf("#") != -1) {
-				continue; // Ignore the # lines
-			}
-			
-			if (!foundSize) { // Look for the width, height and rule
-				var components:Array<String> = line.split(",");
-				Sure.sure(components.length == 2 || components.length == 3);
-				
-				var getComponentValue = function(component:String):String {
-					var kv = component.split("=");
-					Sure.sure(kv.length == 2);
-					var v = kv[1].trim();
-					Sure.sure(v.length != 0);
-					return v;
-				}
-				
-				width = Std.parseInt(getComponentValue(components[0]));
-				height = Std.parseInt(getComponentValue(components[1]));
-				
-				if(components.length == 3) {
-					rule = getComponentValue(components[2]);
-				}
-				
-				foundSize = true;
-				continue;
-			}
-			
-			rlePattern += line; // Flatten all other lines of RLE encoded b (dead) o (alive) and $ (end of line) cell descriptions into a single string
-		}
-		
-		var result:Array<String> = [];
-		var rleRows:Array<String> = rlePattern.split("$");
-		for (row in rleRows) {
-			var expandedRow:String = "";
-			var number:String = "";
-			for (i in 0...row.length) {
-				var ch = row.charAt(i);
-				if (runCountMatcher.match(ch)) {
-					number += ch;
-				} else if (ch == "o") {
-					var runCount = 1;
-					if(number.length > 0) {
-						runCount = Std.parseInt(number);
-					}
-					for (i in 0...runCount) {
-						expandedRow += "o";
-						number = "";
-					}
-				} else if (ch == "b") {
-					var runCount = 1;
-					if(number.length > 0) {
-						runCount = Std.parseInt(number);
-					}
-					for (i in 0...runCount) {
-						expandedRow += "b";
-						number = "";
-					}
-				}
-			}
-			result.push(expandedRow);
-		}
-		
-		Sure.sure(result.length > 0);
-		trace(result);
-		return result;
 	}
 }
 
@@ -184,6 +117,7 @@ class Main {
 	private var scene:Scene;
 	private var camera:OrthographicCamera;
 	private var lifeEffect:GameOfLife;
+	private var copyMaterial:ShaderMaterial;
 	private var gameDiv:DivElement;
 	
 	private var selectedPatternFileName(default, set):String; // Name of the currently selected pattern file (name of the corresponding member variable in the Patterns class)
@@ -199,16 +133,14 @@ class Main {
 		for (name in Type.getClassFields(Patterns)) {
 			var data = Reflect.field(Patterns, name);
 			
-			if (StringTools.endsWith(name, "rle")) {
-				//trace("its a rle"); // TODO
-				trace(name);
-				RLEReader.expandRle(data);
-			}
-			
 			var option = Browser.document.createOptionElement();
 			option.appendChild(Browser.document.createTextNode(name));
 			option.value = name;
 			patternPresetListElement.appendChild(option);
+			
+			if(name.endsWith("rle") || name.endsWith("cells")) { // TODO support lif etc
+				PatternReader.expandToStringArray(name, data);
+			}
 		}
 		
 		patternPresetListElement.addEventListener("change", function() {
@@ -257,13 +189,20 @@ class Main {
 		camera = new OrthographicCamera(-1, 1, 1, -1, 0, 1);
 		
 		// Setup Game of Life shader effect
-		lifeEffect = new GameOfLife(renderer, 500, 500);
+		lifeEffect = new GameOfLife(renderer, 512, 512);
+		
+		copyMaterial = new ShaderMaterial({
+			vertexShader: Copy.vertexShader,
+			fragmentShader: Copy.fragmentShader,
+			uniforms: Copy.uniforms
+		});
+		copyMaterial.uniforms.tTexture.value = null;
 		
 		// Populate scene
 		scene.add(camera);
 		
 		// TODO use a texture rendering material...
-		var mesh = new Mesh(new PlaneBufferGeometry(2, 2), lifeEffect.material);
+		var mesh = new Mesh(new PlaneBufferGeometry(2, 2), copyMaterial);
 		scene.add(mesh);
 		
 		// Initial renderer setup
@@ -280,6 +219,27 @@ class Main {
 			
 			var x:Int = Std.int(e.clientX - renderer.domElement.offsetLeft);
 			var y:Int = Std.int(e.clientY - renderer.domElement.offsetTop);
+			
+			var canvas = Browser.document.createCanvasElement();
+			canvas.width = 256;
+			canvas.height = 256;
+			var ctx = canvas.getContext("2d");
+			
+			//gameDiv.appendChild(canvas);
+
+			ctx.beginPath();
+			ctx.rect(0, 0, 200, 200);
+			ctx.fillStyle = "red";
+			ctx.fill();
+
+			ctx.beginPath();
+			ctx.rect(150, 100, 30, 50);
+			ctx.fillStyle = "blue";
+			ctx.fill();
+			var tex = new Texture(canvas);
+			tex.needsUpdate = true;
+			
+			lifeEffect.stampPattern(x, y, tex);
 			
 			onPointerDown(x, y);
 		}, false);
@@ -300,6 +260,8 @@ class Main {
 		lifeEffect.render();
 		
 		// Render the world scene to the screen
+		copyMaterial.uniforms.tTexture.value = lifeEffect.current.texture;
+		
 		renderer.render(scene, camera);
 		
 		Browser.window.requestAnimationFrame(animate);
@@ -307,14 +269,16 @@ class Main {
 	
 	// Called when browser window resizes
 	private function onResize():Void {
-		renderer.setSize(500, 500);
+		renderer.setSize(900, 900);
 	}
 	
 	// Called when the user clicks or taps
 	private function onPointerDown(x:Int, y:Int):Void {
 		var live:Bool = lifeEffect.isCellLive(x, y);
 		
-		trace(live);
+		var patternGrid = PatternReader.expandToStringArray(selectedPatternFileName, Reflect.field(Patterns, selectedPatternFileName));
+		
+		trace(patternGrid);
 	}
 	
 	private function set_selectedPatternFileName(fileName:String):String {

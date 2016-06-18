@@ -19,7 +19,7 @@ class PatternFileReaderMacro {
 	public static function build(directoryPath:String):Array<Field> {
 		var fields = Context.getBuildFields();
 		
-		var splitter = new EReg("[\\r\\n]+", "g");
+		var splitter = new EReg("\\r\\n|\\n|\\r", "g");
 		
         try {
             var files = FileSystem.readDirectory(directoryPath);
@@ -34,9 +34,9 @@ class PatternFileReaderMacro {
 				var lines = splitter.split(data);
 				
 				// Remove empty lines
-				lines = Lambda.array(Lambda.filter(lines, function(line:String):Bool {
-					return line.length != 0 && line.trim().length != 0;
-				}));
+				//lines = Lambda.array(Lambda.filter(lines, function(line:String):Bool {
+				//	return line.length != 0 && line.trim().length != 0;
+				//}));
 
 				var field = {
 					name: name,

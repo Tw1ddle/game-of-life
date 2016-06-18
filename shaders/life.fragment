@@ -2,7 +2,41 @@ varying vec2 vUv;
 
 uniform sampler2D tUniverse;
 
+int cell(vec2 offset)
+{
+	return int(texture2D(tUniverse, vUv - (offset / vec2(512, 512))).r); // TODO
+}
+
 void main()
 {
-	gl_FragColor = vec4(1.0, 0.5, 0.0, 1.0);
+	// Count number of live neighbouring cells
+	int neighbours =
+	  cell(vec2(-1.0, -1.0))
+	+ cell(vec2(-1.0, 0.0))
+	+ cell(vec2(-1.0, 1.0))
+	+ cell(vec2(0.0, -1.0))
+	+ cell(vec2(0.0, 1.0))
+	+ cell(vec2(1.0, -1.0))
+	+ cell(vec2(1.0, 0.0))
+	+ cell(vec2(1.0, 1.0));
+	
+	if(neighbours == 3) // Come to life
+	{
+		gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+	}
+	else if(neighbours == 2) // Continue to live
+	{
+		float current = float(cell(vec2(0.0, 0.0)));
+		gl_FragColor = vec4(current, current, current, 1.0);
+	}
+	else // Die from underpopulation or overpopulation
+	{
+		gl_FragColor = vec4(0.99, 1.0, 1.0, 1.0);
+	}
+	
+	// TODO placeholder seed
+	if(vUv.y > 0.49 && vUv.y < 0.51 && vUv.x > 0.49 && vUv.x < 0.9)
+	{
+		gl_FragColor = vec4(1.0, 0.0, 1.0, 1.0);
+	}
 }

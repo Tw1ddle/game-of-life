@@ -1,0 +1,8 @@
+varying vec2 vUv;
+
+uniform sampler2D tStamp;
+
+void main()
+{
+	gl_FragColor = texture2D(tStamp, vUv);
+}
