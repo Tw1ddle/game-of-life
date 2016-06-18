@@ -10,15 +10,14 @@ void main()
 {
 	vec4 lastValue = texture2D(tLast, vUv);
 	
-	if(vUv.x < pos.x || vUv.x > pos.x + size.x || vUv.y < pos.y || vUv.y > pos.y + size.y) // If stamp texture does not overlap this UV coordinate
+	if(vUv.x < pos.x || vUv.x > pos.x + size.x || vUv.y < pos.y || vUv.y > pos.y + size.y)
 	{
-		gl_FragColor = vec4(lastValue.rgb, 1.0);
+		gl_FragColor = vec4(lastValue.rgb, 1.0); // Stamp texture does not overlap this part of the texture, leave it alone
 	}
 	else
 	{
-		float x = (vUv.x - pos.x) * size.x;
-		float y = 0.5; //1.0 - (vUv.y - pos.y) * size.y;
-		vec4 stampValue = texture2D(tStamp, vec2(x, y));
-		gl_FragColor = vec4(lastValue.rgb + stampValue.rgb, 1.0);
+		vec2 stampUv = (vUv - pos) / size;
+		vec4 stampValue = texture2D(tStamp, stampUv);
+		gl_FragColor = vec4(stampValue.rgb, 1.0);
 	}
 }

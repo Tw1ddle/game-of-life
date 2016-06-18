@@ -231,6 +231,7 @@ class Main {
 		tex.wrapT = Wrapping.ClampToEdgeWrapping;
 		
 		gameOfLife.stampPattern(x, y, tex);
+		gameOfLife.render(true);
 	}
 	
 	/**
