@@ -3,11 +3,10 @@ package;
 import haxe.macro.Context;
 import haxe.macro.Expr.Access.APublic;
 import haxe.macro.Expr.Access.AStatic;
-import haxe.macro.Expr.Access.AInline;
 import haxe.macro.Expr.Field;
 import haxe.macro.Expr.FieldType.FVar;
-import util.FileReader;
 import sys.FileSystem;
+import util.FileReader;
 
 using StringTools;
 

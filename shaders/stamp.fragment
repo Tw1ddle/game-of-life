@@ -1,8 +1,14 @@
 varying vec2 vUv;
 
 uniform sampler2D tStamp;
+uniform sampler2D tLast;
+
+uniform vec2 offset;
 
 void main()
 {
-	gl_FragColor = texture2D(tStamp, vUv);
+	vec4 stampValue = texture2D(tStamp, vUv);
+	vec4 lastValue = texture2D(tLast, vUv);
+	
+	gl_FragColor = vec4(lastValue.rgb + stampValue.rgb, 1.0);
 }

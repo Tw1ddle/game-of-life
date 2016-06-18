@@ -250,7 +250,7 @@ a:hover {
 
 #patternfileedit {
 	text-transform: lowercase;
-    resize: horizontal;
+    resize: none;
     min-width: 80vw;
     min-height: 300px;
     max-height: 900px;

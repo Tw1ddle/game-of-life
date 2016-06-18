@@ -1,27 +1,20 @@
 package;
 
 import js.Browser;
+import js.html.ButtonElement;
 import js.html.DivElement;
 import js.html.SelectElement;
 import js.html.TextAreaElement;
 import shaders.Copy;
-import shaders.Life;
-import shaders.Stamp;
-import three.CanvasTexture;
 import three.Mesh;
 import three.OrthographicCamera;
-import three.PixelFormat;
 import three.PlaneBufferGeometry;
 import three.Scene;
 import three.ShaderMaterial;
 import three.Texture;
-import three.TextureFilter;
-import three.WebGLRenderTarget;
-import three.Mapping;
-import three.WebGLRenderTargetOptions;
 import three.WebGLRenderer;
-import webgl.Detector;
 import three.Wrapping;
+import webgl.Detector;
 
 using StringTools;
 
@@ -39,91 +32,24 @@ class Patterns {
 	// Stores the embedded pattern files from the /embed folder as arrays of strings for use at runtime
 }
 
-class GameOfLife {
-	private var camera:OrthographicCamera;
-	private var scene:Scene;
-	private var params:WebGLRenderTargetOptions;
-	private var ping:WebGLRenderTarget;
-	private var pong:WebGLRenderTarget;
-	public var current(default, null):WebGLRenderTarget;
-	private var lifeMaterial(default, null):ShaderMaterial;
-	private var stampMaterial(default, null):ShaderMaterial;
-	private var mesh:Mesh;
-	
-	private var renderer:WebGLRenderer;
-	
-	public function new(renderer:WebGLRenderer, width:Int, height:Int) {
-		this.renderer = renderer;
-		camera = new OrthographicCamera(-1, 1, 1, -1, 0, 1);
-		scene = new Scene();
-		params = { minFilter: TextureFilter.LinearFilter, magFilter: TextureFilter.NearestFilter, format: cast PixelFormat.RGBAFormat };
-		ping = new WebGLRenderTarget(width, height, params);
-		pong = new WebGLRenderTarget(width, height, params);
-		current = ping;
-		lifeMaterial = new ShaderMaterial( {
-			vertexShader: Life.vertexShader,
-			fragmentShader: Life.fragmentShader,
-			uniforms: Life.uniforms
-		});
-		lifeMaterial.uniforms.tUniverse.value = null;
-		
-		stampMaterial = new ShaderMaterial( {
-			vertexShader: Stamp.vertexShader,
-			fragmentShader: Stamp.fragmentShader,
-			uniforms: Stamp.uniforms
-		});
-		stampMaterial.uniforms.tTexture.value = null;
-		
-		mesh = new Mesh(new PlaneBufferGeometry(2, 2));
-		mesh.material = lifeMaterial;
-		scene.add(mesh);
-	}
-	
-	public function render():Void {
-		// Swap render targets
-		current = current == ping ? pong : ping;
-		lifeMaterial.uniforms.tUniverse.value = current.texture;
-		
-		var nonCurrent = current == ping ? pong : ping;
-		
-		// Render the game of life 2D scene into the non-current render target
-		renderer.render(this.scene, this.camera, nonCurrent, true);
-	}
-	
-	public function stampPattern(x:Int, y:Int, pattern:Texture):Void {
-		mesh.material = stampMaterial;
-		trace(pattern);
-		stampMaterial.uniforms.tTexture.value = pattern;
-		
-		var nonCurrent = current == ping ? pong : ping;
-		
-		renderer.render(this.scene, this.camera, nonCurrent, true);
-		
-		mesh.material = lifeMaterial;
-	}
-	
-	public function isCellLive(x:Int, y:Int):Bool {
-		var buffer = new js.html.Uint8Array(4);
-		renderer.readRenderTargetPixels(current, x, y, 1, 1, buffer);
-		return buffer[3] == 255 ? true : false; // TODO fix
-	}
-}
-
 class Main {
 	private static inline var WEBSITE_URL:String = "http://www.samcodes.co.uk/project/game-of-life/"; // Hosted demo URL
 	private static inline var REPO_URL:String = "https://github.com/Tw1ddle/game-of-life/"; // Code repository URL
 	
-	private var renderer:WebGLRenderer;
+	private var renderer:WebGLRenderer; // The WebGL renderer
 	private var scene:Scene;
 	private var camera:OrthographicCamera;
-	private var lifeEffect:GameOfLife;
-	private var copyMaterial:ShaderMaterial;
-	private var gameDiv:DivElement;
+	private var gameOfLife:GameOfLife;
+	private var copyMaterial:ShaderMaterial; // For rendering the final game of life texture to the screen
+	private var gameDiv:DivElement; // The HTML div the Game of Life simulation is nested in
 	
-	private var selectedPatternFileName(default, set):String; // Name of the currently selected pattern file (name of the corresponding member variable in the Patterns class)
+	private var selectedPatternName(default, set):String; // Name of the currently selected pattern file (name of the corresponding member variable in the Patterns class)
 	
-	private var patternPresetListElement:SelectElement = cast Browser.document.getElementById("patternpresetlist"); // TODO
-	private var patternFileEditElement:TextAreaElement = cast Browser.document.getElementById("patternfileedit"); // TODO
+	private var patternPresetListElement:SelectElement = cast Browser.document.getElementById(ID.patternpresetlist);
+	private var patternFileEditElement:TextAreaElement = cast Browser.document.getElementById(ID.patternfileedit);
+	private var lifeClearButtonElement:ButtonElement = cast Browser.document.getElementById(ID.lifeclearbutton);
+	private var lifeStepButtonElement:ButtonElement = cast Browser.document.getElementById(ID.lifestepbutton);
+	private var runPauseButtonElement:ButtonElement = cast Browser.document.getElementById(ID.liferunpausebutton);
 
 	private static function main():Void {
 		var main = new Main();
@@ -131,24 +57,19 @@ class Main {
 
 	private inline function new() {
 		for (name in Type.getClassFields(Patterns)) {
-			var data = Reflect.field(Patterns, name);
-			
+			// Populate the embedded pattern select dropdown
 			var option = Browser.document.createOptionElement();
 			option.appendChild(Browser.document.createTextNode(name));
 			option.value = name;
 			patternPresetListElement.appendChild(option);
 			
-			if(name.endsWith("rle") || name.endsWith("cells")) { // TODO support lif etc
-				PatternReader.expandToStringArray(name, data);
-			}
+			#if debug // Check that all the embedded patterns are supported, can be read, expanded etc
+			var data = Reflect.field(Patterns, name);
+			//PatternReader.expandToStringArray(name, data);
+			#end
 		}
 		
-		patternPresetListElement.addEventListener("change", function() {
-			selectedPatternFileName = patternPresetListElement.value;
-		}, false);
-		
-		// Wait for the window to load before creating the sliders, starting the simulation input etc
-		Browser.window.onload = onWindowLoaded;
+		Browser.window.onload = onWindowLoaded; // Wait for the window to load before creating the input elements, starting the simulation input etc
 	}
 
 	private inline function onWindowLoaded():Void {
@@ -189,7 +110,7 @@ class Main {
 		camera = new OrthographicCamera(-1, 1, 1, -1, 0, 1);
 		
 		// Setup Game of Life shader effect
-		lifeEffect = new GameOfLife(renderer, 512, 512);
+		gameOfLife = new GameOfLife(renderer, 512, 512);
 		
 		copyMaterial = new ShaderMaterial({
 			vertexShader: Copy.vertexShader,
@@ -199,9 +120,6 @@ class Main {
 		copyMaterial.uniforms.tTexture.value = null;
 		
 		// Populate scene
-		scene.add(camera);
-		
-		// TODO use a texture rendering material...
 		var mesh = new Mesh(new PlaneBufferGeometry(2, 2), copyMaterial);
 		scene.add(mesh);
 		
@@ -209,6 +127,22 @@ class Main {
 		onResize();
 		
 		// Event setup
+		patternPresetListElement.addEventListener("change", function() {
+			selectedPatternName = patternPresetListElement.value;
+		}, false);
+		
+		lifeClearButtonElement.addEventListener("click", function() {
+			gameOfLife.clear();
+		}, false);
+		
+		lifeStepButtonElement.addEventListener("click", function() {
+			gameOfLife.render(true);
+		}, false);
+		
+		runPauseButtonElement.addEventListener("click", function() {
+			gameOfLife.togglePaused();
+		}, false);
+		
 		// Window resize event
 		Browser.window.addEventListener("resize", function():Void {
 			onResize();
@@ -216,83 +150,101 @@ class Main {
 		
 		renderer.domElement.addEventListener("mousedown", function(e:Dynamic):Void {
 			e.preventDefault();
-			
 			var x:Int = Std.int(e.clientX - renderer.domElement.offsetLeft);
 			var y:Int = Std.int(e.clientY - renderer.domElement.offsetTop);
-			
-			var canvas = Browser.document.createCanvasElement();
-			canvas.width = 256;
-			canvas.height = 256;
-			var ctx = canvas.getContext("2d");
-			
-			//gameDiv.appendChild(canvas);
-
-			ctx.beginPath();
-			ctx.rect(0, 0, 200, 200);
-			ctx.fillStyle = "red";
-			ctx.fill();
-
-			ctx.beginPath();
-			ctx.rect(150, 100, 30, 50);
-			ctx.fillStyle = "blue";
-			ctx.fill();
-			var tex = new Texture(canvas);
-			tex.needsUpdate = true;
-			
-			lifeEffect.stampPattern(x, y, tex);
-			
 			onPointerDown(x, y);
 		}, false);
 		
-		renderer.domElement.addEventListener("touchdown", function(e:Dynamic):Void {
+		renderer.domElement.addEventListener("touchstart", function(e:Dynamic):Void {
 			e.preventDefault();
-			
+			var x:Int = Std.int(e.touches[0].clientX - renderer.domElement.offsetLeft);
+			var y:Int = Std.int(e.touches[0].clientY - renderer.domElement.offsetTop);
+			onPointerDown(x, y);
 		}, false);
 		
-		// Present game and start animation loop
+		// Present game and start simulation loop
 		gameDiv.appendChild(renderer.domElement);
 		var gameAttachPoint = Browser.document.getElementById("game");
 		gameAttachPoint.appendChild(gameDiv);
 		Browser.window.requestAnimationFrame(animate);
 	}
 	
+	/**
+	 * Main update loop.
+	 * @param	time	The time since the last frame of animation.
+	 */
 	private function animate(time:Float):Void {
-		lifeEffect.render();
+		gameOfLife.render();
 		
-		// Render the world scene to the screen
-		copyMaterial.uniforms.tTexture.value = lifeEffect.current.texture;
-		
+		// Render the game of life scene to the screen
+		copyMaterial.uniforms.tTexture.value = gameOfLife.current.texture;
 		renderer.render(scene, camera);
 		
 		Browser.window.requestAnimationFrame(animate);
 	}
 	
-	// Called when browser window resizes
+	/**
+	 * Triggered when the user resizes the browser.
+	 */
 	private function onResize():Void {
 		renderer.setSize(900, 900);
 	}
 	
-	// Called when the user clicks or taps
+	/**
+	 * Called when the user clicks or taps the Game of Life world.
+	 * @param	x	The local x-coordinate of the pointer.
+	 * @param	y	The local y-coordinate of the pointer.
+	 */
 	private function onPointerDown(x:Int, y:Int):Void {
-		var live:Bool = lifeEffect.isCellLive(x, y);
+		var live:Bool = gameOfLife.isCellLive(x, y);
 		
-		var patternGrid = PatternReader.expandToStringArray(selectedPatternFileName, Reflect.field(Patterns, selectedPatternFileName));
+		// TODO create the texture for the pattern
+		//var patternGrid = PatternReader.expandToStringArray(selectedPatternName, Reflect.field(Patterns, selectedPatternName));
+		//trace(patternGrid);
 		
-		trace(patternGrid);
+		var canvas = Browser.document.createCanvasElement();
+		canvas.width = 100;
+		canvas.height = 100;
+		var ctx = canvas.getContext("2d");
+		
+		gameDiv.appendChild(canvas);
+
+		ctx.beginPath();
+		ctx.rect(0, 0, 100, 100);
+		ctx.fillStyle = "blue";
+		ctx.fill();
+		
+		ctx.beginPath();
+		ctx.rect(0, 0, 50, 50);
+		ctx.fillStyle = "red";
+		ctx.fill();
+		
+		var tex = new Texture(canvas);
+		tex.needsUpdate = true;
+		tex.wrapS = Wrapping.ClampToEdgeWrapping;
+		tex.wrapT = Wrapping.ClampToEdgeWrapping;
+		
+		gameOfLife.stampPattern(x, y, tex);
 	}
 	
-	private function set_selectedPatternFileName(fileName:String):String {
-		selectedPatternFileName = fileName;
+	/**
+	 * Helper function for setting the currently selected pattern. When this updates, so should the content of the pattern file textbox.
+	 * @param	patternName	The name of the member variable in the Patterns class that corresponds to the file.
+	 * @return	The current pattern name.
+	 */
+	private function set_selectedPatternName(patternName:String):String {
+		selectedPatternName = patternName;
 		
-		var fileContent:Array<String> = Reflect.getProperty(Patterns, fileName);
+		var fileContent:Array<String> = Reflect.getProperty(Patterns, patternName);
 		Sure.sure(fileContent.length > 0);
 		
+		// Ensure empty lines count as newlines in the text edit
 		var content = "";
 		for (line in fileContent) {
 			content += line + "\r";
 		}
 		patternFileEditElement.value = content;
 		
-		return selectedPatternFileName;
+		return selectedPatternName;
 	}
 }

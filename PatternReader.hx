@@ -2,6 +2,9 @@ package;
 
 using StringTools;
 
+/**
+ * Factory class that converts pattern files into textures etc.
+ */
 class PatternReader {
 	public static function expandToStringArray(fileName:String, fileContent:Array<String>):Array<String> {
 		return if (fileName.endsWith("rle")) {
@@ -18,7 +21,10 @@ class PatternReader {
 	}
 }
 
-// Expands and converts "plain text" cells format patterns: http://www.conwaylife.com/wiki/Plaintext
+/**
+ * Expands and converts "plain text" cells format patterns.
+ * @see http://www.conwaylife.com/wiki/Plaintext
+ */
 class PlaintextCellsReader {
 	public static function expandCells(cells:Array<String>):Array<String> {
 		var expandedLines = [];
@@ -52,7 +58,10 @@ class PlaintextCellsReader {
 	}
 }
 
-// Expands and converts run length encoded patterns: http://www.conwaylife.com/wiki/RLE
+/**
+ * Expands and converts run length encoded patterns.
+ * @see http://www.conwaylife.com/wiki/RLE
+ */
 class RLEReader {
 	public static function expandRle(rle:Array<String>):Array<String> {
 		var width:Int = 0;
@@ -131,7 +140,11 @@ class RLEReader {
 }
 
 // TODO implement this
-// Expands and converts ASCII Life 1.0x format patterns: http://www.conwaylife.com/wiki/Life_1.05
+/**
+ * Expands and converts ASCII Life 1.0x format patterns.
+ * @see http://www.conwaylife.com/wiki/Life_1.05
+ * @see http://www.conwaylife.com/wiki/Life_1.06
+ */
 class LifeReader {
 	/*
 	public static function expandLife(life:Array<String>):Array<String> {
