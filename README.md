@@ -1,4 +1,4 @@
-[![Project logo](https://github.com/Tw1ddle/game-of-life/blob/master/screenshots/game_of_life_logo.png?raw=true "Game Of Life WebGL logo")](http://www.samcodes.co.uk/project/game-of-life/)
+[![Project logo](screenshots/game_of_life_logo.png "Game Of Life WebGL logo")](http://www.samcodes.co.uk/project/game-of-life/)
 
 Interactive implementation of **Conway's Game of Life** written in Haxe and three.js. Try it now [in your browser](http://www.samcodes.co.uk/project/game-of-life/).
 
@@ -11,10 +11,10 @@ Interactive implementation of **Conway's Game of Life** written in Haxe and thre
 
 Try the [demo](http://www.samcodes.co.uk/project/game-of-life/) and simulate Life. Here it is in action:
 
-[![Screenshot](https://github.com/Tw1ddle/game-of-life/blob/master/screenshots/screenshot_1.gif?raw=true "Game Of Life WebGL screenshot 1")](http://www.samcodes.co.uk/project/game-of-life/)
+[![Screenshot](screenshots/screenshot_1.gif "Game Of Life WebGL screenshot 1")](http://www.samcodes.co.uk/project/game-of-life/)
 
-	
-[![Screenshot](https://github.com/Tw1ddle/game-of-life/blob/master/screenshots/screenshot_2.gif?raw=true "Game Of Life WebGL screenshot 2")](http://www.samcodes.co.uk/project/game-of-life/)
+
+[![Screenshot](screenshots/screenshot_2.gif "Game Of Life WebGL screenshot 2")](http://www.samcodes.co.uk/project/game-of-life/)
 
 ## How It Works
 The [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is a [cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton) invented by [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) in 1970. It is a simulation that takes place on a two-dimensional orthogonal grid of square cells, each of which can either be dead or alive.
