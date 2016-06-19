@@ -7,8 +7,8 @@ Database compiled on: Wed, Jun 15 2016
 Downloaded from: www.conwaylife.com/patterns/all.zip
 ```
 
-The largest patterns have been deleted to save bandwidth.
+The largest patterns have not been included here, in order to save bandwidth.
 
 # License
 
-These patterns were not created by me (Sam Twidale), and many may be copyrightable. Be considerate and contact the creators, especially if you wish to use any pattern in a commercial project.
+These patterns were created by various authors, and many may be copyrightable. Be considerate and contact the creators, especially if you wish to use a pattern in a commercial project.
