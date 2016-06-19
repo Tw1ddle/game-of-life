@@ -16,6 +16,7 @@ import three.ShaderMaterial;
 import three.Texture;
 import three.WebGLRenderer;
 import three.Wrapping;
+import js.nouislider.NoUiSlider;
 import webgl.Detector;
 
 using StringTools;
@@ -48,6 +49,8 @@ class Main {
 	private var copyMaterial:ShaderMaterial; // For rendering the final game of life texture to the screen
 	private var gameDiv:DivElement; // The HTML div the Game of Life simulation is nested in
 	
+	private var simulationFramerate:Float; // The simulation/update/tick framerate
+	
 	private var selectedPatternName(default, set):String; // Name of the currently selected pattern file (name of the corresponding member variable in the Patterns class)
 	
 	private var patternPresetListElement:SelectElement = cast Browser.document.getElementById(ID.patternpresetlist);
@@ -57,7 +60,6 @@ class Main {
 	private var runPauseButtonElement:ButtonElement = cast Browser.document.getElementById(ID.liferunpausebutton);
 	
 	private var simulationFramerateSlider:Element = cast Browser.document.getElementById(ID.simulationframerateslider);
-	private var worldSizeSlider:Element = cast Browser.document.getElementById(ID.worldsizeslider);
 
 	private static function main():Void {
 		var main = new Main();
@@ -79,6 +81,8 @@ class Main {
 		
 		Sure.sure(Reflect.field(Patterns, DEFAULT_PATTERN_NAME));
 		selectedPatternName = DEFAULT_PATTERN_NAME;
+		
+		simulationFramerate = 30;
 		
 		Browser.window.onload = onWindowLoaded; // Wait for the window to load before creating the input elements, starting the simulation input etc
 	}
@@ -193,25 +197,48 @@ class Main {
 			onPointerDown(x, y);
 		}, false);
 		
+        NoUiSlider.create(simulationFramerateSlider, {
+            start: [ simulationFramerate ],
+            connect: 'lower',
+            range: {
+                'min': [ 1, 1 ],
+                'max': [ 300 ]
+            },
+            pips: {
+                mode: 'range',
+                density: 10,
+            }
+        });
+		createTooltips(simulationFramerateSlider);
+        untyped simulationFramerateSlider.noUiSlider.on(UiSliderEvent.CHANGE, function(values:Array<Float>, handle:Int, rawValues:Array<Float>):Void {
+            simulationFramerate = Std.int(values[handle]);
+        });
+        untyped simulationFramerateSlider.noUiSlider.on(UiSliderEvent.UPDATE, function(values:Array<Float>, handle:Int, rawValues:Array<Float>):Void {
+            updateTooltips(simulationFramerateSlider, handle, Std.int(values[handle]));
+        });
+		
 		// Present game and start simulation loop
 		gameDiv.appendChild(renderer.domElement);
 		var gameAttachPoint = Browser.document.getElementById("game");
 		gameAttachPoint.appendChild(gameDiv);
-		Browser.window.requestAnimationFrame(animate);
+		animate();
 	}
 	
 	/**
 	 * Main update loop.
 	 * @param	time	The time since the last frame of animation.
 	 */
-	private function animate(time:Float):Void {
+	private function animate():Void {
 		gameOfLife.step();
 		
 		// Render the game of life scene to the screen
 		copyMaterial.uniforms.tTexture.value = gameOfLife.current.texture;
 		renderer.render(scene, camera);
 		
-		Browser.window.requestAnimationFrame(animate);
+		var nextFrameDelay = Std.int((1.0 / this.simulationFramerate) * 1000.0);
+		Browser.window.setTimeout(function():Void {
+			this.animate();
+		}, nextFrameDelay);
 	}
 	
 	/**
@@ -316,6 +343,27 @@ class Main {
 		}
 		return result;
 	}
+	
+    /*
+     * Helper method to create tooltips on sliders
+     */
+    private function createTooltips(slider:Element):Void {
+        var tipHandles = slider.getElementsByClassName("noUi-handle");
+        for (i in 0...tipHandles.length) {
+            var div = js.Browser.document.createElement('div');
+            div.className += "tooltip";
+            tipHandles[i].appendChild(div);
+            updateTooltips(slider, i, 0);
+        }
+    }
+
+    /*
+     * Helper method to update the tooltips on sliders
+     */
+    private function updateTooltips(slider:Element, handleIdx:Int, value:Float):Void {
+        var tipHandles = slider.getElementsByClassName("noUi-handle");
+        tipHandles[handleIdx].innerHTML = "<span class='tooltip'>" + Std.string(value) + "</span>";
+    }
 	
 	/**
 	 * Helper function for setting the currently selected pattern. When this updates, so should the content of the pattern file textbox.
