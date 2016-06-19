@@ -77,6 +77,10 @@ class GameOfLife {
 		paused = false;
 	}
 	
+	/**
+	 * Step/update/tick the Game of Life simulation
+	 * @param	overridePaused	Whether to force the update despite the game being paused.
+	 */
 	public function step(overridePaused:Bool = false):Void {
 		if (paused && !overridePaused) {
 			return;
@@ -91,26 +95,41 @@ class GameOfLife {
 		lifeMaterial.uniforms.liveColor.value.set(1.0, 1.0, 1.0, 1.0);
 		lifeMaterial.uniforms.deadColor.value.set(0.0, 0.0, 0.0, 1.0);
 		
-		// Render the game of life 2D scene into the non-current render target
+		// Render the scene into the non-current render target
 		var nonCurrent = current == ping ? pong : ping;
 		renderer.render(this.scene, this.camera, nonCurrent, true);
 	}
 	
-	public function stampPattern(x:Int, y:Int, pattern:Texture):Void {
+	/**
+	 * Stamps a texture onto the world.
+	 * @param	x	The horizontal percentage across the world that the upper-left corner of the texture will be drawn.
+	 * @param	y	The vertical percentage across the world that the upper-left corner of the texture will be drawn.
+	 * @param	pattern	The texture to stamp onto the world.
+	 */
+	public function stampPattern(x:Float, y:Float, pattern:Texture):Void {
 		mesh.material = stampMaterial;
 		
+		// Scale to render target coordinates
+		x = Std.int(x * current.width);
+		y = Std.int(y * current.height);
+		
+		// Set uniforms
 		stampMaterial.uniforms.tStamp.value = pattern;
 		stampMaterial.uniforms.tLast.value = current.texture;
 		stampMaterial.uniforms.pos.value.set(x / current.width, (current.height - y - pattern.image.height) / current.height);
 		stampMaterial.uniforms.size.value.set(pattern.image.width / current.width, pattern.image.height / current.height);
 		
+		// Render the scene into the non-current render target
 		var nonCurrent = current == ping ? pong : ping;
-		
 		renderer.render(this.scene, this.camera, nonCurrent, true);
 		
 		mesh.material = lifeMaterial;
 	}
 	
+	/**
+	 * Clears the world to the given color.
+	 * @param	color	The color to clear the world to.
+	 */
 	public function clear(color:Color):Void {
 		mesh.material = clearMaterial;
 		
@@ -126,9 +145,64 @@ class GameOfLife {
 		paused = !paused;
 	}
 	
+	/**
+	 * Checks whether the cell at the given coordinate within the current render target is alive or dead.
+	 * @param	x	The x-coordinate of the cell.
+	 * @param	y	The y-coordinate of the cell.
+	 * @return	True if the cell is alive, false if the cell is dead.
+	 */
 	public function isCellLive(x:Int, y:Int):Bool {
 		var buffer = new js.html.Uint8Array(4);
 		renderer.readRenderTargetPixels(current, x, y, 1, 1, buffer);
 		return buffer[3] == 255 ? true : false; // TODO fix
+	}
+	
+	/**
+	 * Saves the state of the current render target as a string array, in the run-length encoded format (.rle).
+	 * @return	The .rle file representing the current render target.
+	 */
+	public function saveStateToRle(?comments:Array<String>, ?name:String, ?author:String, ?rules:String):Array<String> {
+		var width = Std.int(current.width);
+		var height = Std.int(current.height);
+		
+		var pixels = new js.html.Uint8Array(width * height * 4);
+		renderer.readRenderTargetPixels(current, 0, 0, current.width, current.height, pixels);
+		
+		var state:Array<String> = [];
+		
+		if (comments != null && comments.length != 0) {
+			for (comment in comments) {
+				state.push("#C " + comment);
+			}
+		}
+		
+		if (name != null && name.length != 0) {
+			state.push("#N " + name);
+		}
+		
+		if (author != null && author.length != 0) {
+			state.push("#O " + author);
+		}
+		
+		// TODO skipping saving a P for now, need to add
+		
+		if (rules != null && rules.length != 0) {
+			state.push("#R " + rules);
+		}
+		
+		// TODO
+		var currentRun:Int = 0;
+		
+		for (y in 0...height) {
+			for (x in 0...width) {
+				// TODO
+			}
+		}
+		
+		// TODO split lines to be 70 chars max (ugh)
+		
+		state[state.length - 1] = state[state.length - 1] + "!";
+		
+		return state;
 	}
 }

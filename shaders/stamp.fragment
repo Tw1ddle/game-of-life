@@ -16,6 +16,6 @@ void main()
 	}
 	else
 	{
-		gl_FragColor = texture2D(tStamp, (vUv - pos) / size);
+		gl_FragColor = lastValue + texture2D(tStamp, (vUv - pos) / size);
 	}
 }

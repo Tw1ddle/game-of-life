@@ -1,20 +1,18 @@
 package;
-import three.Texture;
 
 using StringTools;
 
 /**
- * Factory class that converts pattern files into textures etc.
+ * Factory class that converts pattern files into grids of bools.
  */
-class PatternReader {
-	public static function expandToStringArray(fileName:String, fileContent:Array<String>):Array<String> {
+class PatternLoader {
+	public static function expandToBoolGrid(fileName:String, fileContent:Array<String>):Array<Array<Bool>> {
 		return if (fileName.endsWith("rle")) {
 			RLEReader.expandRle(fileContent);
 		} else if (fileName.endsWith("cells")) {
 			PlaintextCellsReader.expandCells(fileContent);
 		} else if (fileName.endsWith("lif")) {
-			//LifeReader.expandLife(fileContent); // TODO implement
-			return null;
+			LifeReader.expandLife(fileContent);
 		} else {
 			trace("Unsupported file in pattern embed folder: " + fileName);
 			return null;
@@ -27,7 +25,7 @@ class PatternReader {
  * @see http://www.conwaylife.com/wiki/RLE
  */
 class RLEReader {
-	public static function expandRle(rle:Array<String>):Array<String> {
+	public static function expandRle(rle:Array<String>):Array<Array<Bool>> {
 		var width:Int = 0;
 		var height:Int = 0;
 		var rule:String = "";
@@ -66,10 +64,10 @@ class RLEReader {
 			rlePattern += line; // Flatten all other lines of RLE encoded b (dead) o (alive) and $ (end of line) cell descriptions into a single string
 		}
 		
-		var result:Array<String> = [];
+		var result:Array<Array<Bool>> = [[]];
 		var rleRows:Array<String> = rlePattern.split("$");
 		for (row in rleRows) {
-			var expandedRow:String = "";
+			var expandedRow:Array<Bool> = [];
 			var number:String = "";
 			for (i in 0...row.length) {
 				var ch = row.charAt(i);
@@ -81,7 +79,7 @@ class RLEReader {
 						runCount = Std.parseInt(number);
 					}
 					for (i in 0...runCount) {
-						expandedRow += "o";
+						expandedRow.push(true);
 						number = "";
 					}
 				} else if (ch == "b") {
@@ -90,7 +88,7 @@ class RLEReader {
 						runCount = Std.parseInt(number);
 					}
 					for (i in 0...runCount) {
-						expandedRow += "b";
+						expandedRow.push(false);
 						number = "";
 					}
 				}
@@ -108,8 +106,8 @@ class RLEReader {
  * @see http://www.conwaylife.com/wiki/Plaintext
  */
 class PlaintextCellsReader {
-	public static function expandCells(cells:Array<String>):Array<String> {
-		var expandedLines = [];
+	public static function expandCells(cells:Array<String>):Array<Array<Bool>> {
+		var expandedLines = [[]];
 		
 		var width:Int = 0;
 		var height:Int = 0;
@@ -129,10 +127,16 @@ class PlaintextCellsReader {
 				continue;
 			}
 			
-			var expandedLine = line;
-			while (expandedLine.length < width) {
-				expandedLine += ".";
+			var expandedLine:Array<Bool> = [];
+			
+			for (i in 0...line.length) {
+				expandedLine.push(line.charAt(i) == "." ? false : true);
 			}
+			
+			while (expandedLine.length < width) {
+				expandedLine.push(false);
+			}
+			
 			expandedLines.push(expandedLine);
 		}
 		
@@ -140,16 +144,14 @@ class PlaintextCellsReader {
 	}
 }
 
-// TODO implement this
 /**
  * Expands and converts ASCII Life 1.0x format patterns.
  * @see http://www.conwaylife.com/wiki/Life_1.05
  * @see http://www.conwaylife.com/wiki/Life_1.06
  */
 class LifeReader {
-	/*
-	public static function expandLife(life:Array<String>):Array<String> {
-		var expandedLines = [];
+	public static function expandLife(life:Array<String>):Array<Array<Bool>> {
+		var expandedLines = [[]];
 		
 		var formatHeader:String = life[0];
 		Sure.sure(formatHeader.indexOf("Life") != -1);
@@ -159,11 +161,22 @@ class LifeReader {
 		
 		if (formatHeader.endsWith("5")) { // 1.05
 			for (line in life) {
-				if (line.indexOf("#") != -1) { // Ignore the # lines // TODO handle the #P items
+				var xMin:Int = 0;
+				var yMin:Int = 0;
+				var xMax:Int = 0;
+				var yMax:Int = 0;
+				var liveCells:Array<{x:Int, y:Int}> = [];
+				
+				var blockOriginX:Int;
+				var blockOriginY:Int;
+				
+				if (line.length == 0) { // Ignore empty lines
+					continue;
+				} else if (line.indexOf("#p") != -1 || line.indexOf("#P") != -1) { // Get the cell block top left origin
+					
+				} else if (line.indexOf("#") != -1) { // Ignore any other # lines
 					continue;
 				}
-				
-				// TODO handle the blocks
 			}
 		} else if (formatHeader.endsWith("6")) { // 1.06
 			var xMin:Int = 0;
@@ -176,12 +189,11 @@ class LifeReader {
 					continue;
 				}
 				
-				if (line.length < 2) {
+				if (line.length < 2) { // Blank lines or ones with spaces?
 					continue;
 				}
 				
-				// Gather the coordinates
-				trace(line);
+				// Gather the live cell coordinates
 				var coordinate = line.split(" ");
 				Sure.sure(coordinate.length == 2);
 				
@@ -208,35 +220,18 @@ class LifeReader {
 			var width:Int = Std.int(Math.abs(xMin - xMax));
 			var height:Int = Std.int(Math.abs(yMin - yMax));
 			
-			// Populate grid
-			var bufs:Array<StringBuf> = [];
-			for (h in 0...height) {
-				bufs.push(new StringBuf());
-			}
-			
-			for (liveCell in liveCells) {
-				var zeroedX:Int = liveCell.x + Std.int(Math.abs(xMin));
-				var zeroedY:Int = liveCell.y + Std.int(Math.abs(yMin));
-				
-				var buf = bufs[zeroedY];
-			}
-			
-			for (liveCell in liveCells) {
-				var zeroedX:Int = liveCell.x + Std.int(Math.abs(xMin));
-				var zeroedY:Int = liveCell.y + Std.int(Math.abs(yMin));
-				
-				trace(zeroedX);
-				trace(zeroedY);
-				
-				var line = expandedLines[zeroedY];
-				
-				if (line == null) {
-					trace("fuck");
+			// Fill grid with falses
+			for (y in 0...height) {
+				var line = [];
+				for (x in 0...width) {
+					line.push(false);
 				}
-				
-				trace(line);
-				var updatedLine = line.substring(0, zeroedX - 1) + "x" + line.substr(zeroedX);
-				expandedLines[zeroedY] = updatedLine;
+				expandedLines.push(line);
+			}
+			
+			// Fill in the live cells
+			for (cell in liveCells) {
+				expandedLines[cell.y - yMin][cell.x - xMin] = true;
 			}
 		} else {
 			throw "Did not recognize Life format header";
@@ -244,5 +239,4 @@ class LifeReader {
 		
 		return expandedLines;
 	}
-	*/
 }

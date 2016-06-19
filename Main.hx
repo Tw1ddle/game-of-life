@@ -73,7 +73,7 @@ class Main {
 			
 			#if debug // Check that all the embedded patterns are supported, can be read, expanded etc
 			var data = Reflect.field(Patterns, name);
-			//PatternReader.expandToStringArray(name, data); // TODO uncomment
+			PatternLoader.expandToBoolGrid(name, data);
 			#end
 		}
 		
@@ -123,7 +123,7 @@ class Main {
 		camera = new OrthographicCamera(-0.5, 0.5, 0.5, -0.5, 0, 1);
 		
 		// Setup Game of Life shader effect
-		gameOfLife = new GameOfLife(renderer, 512, 512);
+		gameOfLife = new GameOfLife(renderer, 256, 256);
 		
 		copyMaterial = new ShaderMaterial({
 			vertexShader: Copy.vertexShader,
@@ -171,8 +171,9 @@ class Main {
 			e.preventDefault();
 			
 			var rect = renderer.domElement.getBoundingClientRect();
-			var x = Std.int(e.clientX - rect.left);
-			var y = Std.int(e.clientY - rect.top);
+			var size = renderer.getSize();
+			var x = (e.clientX - rect.left) / size.width;
+			var y = (e.clientY - rect.top) / size.height;
 			
 			onPointerDown(x, y); // TODO use % across or the coordinates as % of the render target, not the raw pointer coordinates
 		}, false);
@@ -181,8 +182,9 @@ class Main {
 			e.preventDefault();
 			
 			var rect = renderer.domElement.getBoundingClientRect();
-			var x = Std.int(e.clientX - rect.left);
-			var y = Std.int(e.clientY - rect.top);
+			var size = renderer.getSize();
+			var x = (e.clientX - rect.left) / size.width;
+			var y = (e.clientY - rect.top) / size.height;
 			
 			// TODO fix, use touch stuff properly?
 			trace(x);
@@ -216,7 +218,8 @@ class Main {
 	 * Triggered when the user resizes the browser.
 	 */
 	private function onResize():Void {
-		renderer.setSize(512, 512); // TODO and handle click -> render target scaling
+		var size = previousPowerOfTwo(Browser.window.innerWidth);
+		renderer.setSize(size, size);
 	}
 	
 	/**
@@ -232,11 +235,11 @@ class Main {
 	
 	/**
 	 * Called when the user clicks or taps the Game of Life world.
-	 * @param	x	The local x-coordinate of the pointer.
-	 * @param	y	The local y-coordinate of the pointer.
+	 * @param	x	The percentage distance the pointer was across the renderer view element.
+	 * @param	y	The percentage distance the pointer was up the renderer view element.
 	 */
-	private function onPointerDown(x:Int, y:Int):Void {
-		var patternGrid = PatternReader.expandToStringArray(selectedPatternName, Reflect.field(Patterns, selectedPatternName));
+	private function onPointerDown(x:Float, y:Float):Void {
+		var patternGrid = PatternLoader.expandToBoolGrid(selectedPatternName, Reflect.field(Patterns, selectedPatternName));
 		
 		var maxWidth:Int = 0;
 		for (line in patternGrid) {
@@ -255,11 +258,9 @@ class Main {
 		ctx.fillStyle = "black";
 		ctx.fill();
 		
-		trace(patternGrid);
-		
 		for (y in 0...patternGrid.length) {
 			for (x in 0...patternGrid[y].length) {
-				if (patternGrid[y].charAt(x) == "o") { // TODO make it work for the other formats, this is RLE specific
+				if (patternGrid[y][x] == true) { // TODO make it work for the other formats, this is RLE specific
 					ctx.beginPath();
 					ctx.rect(x, y, 1, 1);
 					ctx.fillStyle = "white";
@@ -273,10 +274,11 @@ class Main {
 		tex.wrapS = Wrapping.ClampToEdgeWrapping;
 		tex.wrapT = Wrapping.ClampToEdgeWrapping;
 		
-		gameDiv.appendChild(canvas);
-		
+		//gameDiv.appendChild(canvas); // For debug viewing, note need to not dispose the canvas/texture
 		gameOfLife.stampPattern(x, y, tex);
 		gameOfLife.step(true);
+		
+		tex.dispose();
 	}
 	
 	/**
@@ -292,14 +294,26 @@ class Main {
 	/**
 	 * Gets the next power of 2.
 	 * @param	x	The value to compute the next power of 2 above.
-	 * @return	The next power of 2 above the value x.
+	 * @return	The next power of 2 above x.
 	 */
 	private inline function nextPowerOfTwo(x:Int):Int {
 		var result:Int = 1;
 		while (result < x) {
 			result <<= 1;
 		}
-		
+		return result;
+	}
+	
+	/**
+	 * Gets the previous power of 2.
+	 * @param	x	The value to compute the previous power of 2 below.
+	 * @return	The previous power of 2 below x.
+	 */
+	private inline function previousPowerOfTwo(x:Int):Int {
+		var result:Int = 1;
+		while (result << 1 < x) {
+			result <<= 1;
+		}
 		return result;
 	}
 	

@@ -13,9 +13,7 @@ Interactive implementation of **Conway's Game of Life** written in Haxe and thre
 
 Try the [demo](http://www.samcodes.co.uk/project/game-of-life/) and simulate Life. Here it is in action:
 
-[![Screenshot](https://github.com/Tw1ddle/game-of-life/blob/master/screenshots/screenshot1.png?raw=true "Game Of Life WebGLscreenshot 1")](http://www.samcodes.co.uk/project/game-of-life/)
-
-[![Screenshot](https://github.com/Tw1ddle/game-of-life/blob/master/screenshots/screenshot2.png?raw=true "Game Of Life WebGL screenshot 2")](http://www.samcodes.co.uk/project/game-of-life/)
+[![Screenshot](https://github.com/Tw1ddle/game-of-life/blob/master/screenshots/screenshot1.gif?raw=true "Game Of Life WebGLscreenshot 1")](http://www.samcodes.co.uk/project/game-of-life/)
 
 ## How It Works
 The Game of Life is a cellular automaton invented by John Conway in 1970. The simulation takes place on a two-dimensional orthogonal grid of square cells, each of which can either be dead or alive.
