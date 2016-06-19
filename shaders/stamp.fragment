@@ -16,8 +16,6 @@ void main()
 	}
 	else
 	{
-		vec2 stampUv = (vUv - pos) / size;
-		vec4 stampValue = texture2D(tStamp, stampUv);
-		gl_FragColor = vec4(stampValue.rgb, 1.0);
+		gl_FragColor = texture2D(tStamp, (vUv - pos) / size);
 	}
 }

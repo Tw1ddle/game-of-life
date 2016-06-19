@@ -6,9 +6,22 @@ function $extend(from, fields) {
 	if( fields.toString !== Object.prototype.toString ) proto.toString = fields.toString;
 	return proto;
 }
+var EReg = function(r,opt) {
+	opt = opt.split("u").join("");
+	this.r = new RegExp(r,opt);
+};
+EReg.__name__ = true;
+EReg.prototype = {
+	match: function(s) {
+		if(this.r.global) this.r.lastIndex = 0;
+		this.r.m = this.r.exec(s);
+		this.r.s = s;
+		return this.r.m != null;
+	}
+};
 var GameOfLife = function(renderer,width,height) {
 	this.renderer = renderer;
-	this.camera = new THREE.OrthographicCamera(-1,1,1,-1,0,1);
+	this.camera = new THREE.OrthographicCamera(-0.5,0.5,0.5,-0.5,0,1);
 	this.scene = new THREE.Scene();
 	this.params = { minFilter : THREE.NearestFilter, magFilter : THREE.NearestFilter, format : THREE.RGBAFormat, wrapS : THREE.RepeatWrapping, wrapT : THREE.RepeatWrapping};
 	this.ping = new THREE.WebGLRenderTarget(width,height,this.params);
@@ -20,19 +33,21 @@ var GameOfLife = function(renderer,width,height) {
 	this.stampMaterial.uniforms.tStamp.value = null;
 	this.stampMaterial.uniforms.tLast.value = null;
 	this.clearMaterial = new THREE.ShaderMaterial({ vertexShader : shaders_Clear.vertexShader, fragmentShader : shaders_Clear.fragmentShader, uniforms : shaders_Clear.uniforms});
-	this.clearMaterial.uniforms.clearColor.value = new THREE.Vector4(0.5,0.5,0.5,1.0);
-	this.mesh = new THREE.Mesh(new THREE.PlaneBufferGeometry(2,2));
+	this.mesh = new THREE.Mesh(new THREE.PlaneBufferGeometry(1,1));
 	this.mesh.material = this.lifeMaterial;
 	this.scene.add(this.mesh);
 	this.paused = false;
 };
 GameOfLife.__name__ = true;
 GameOfLife.prototype = {
-	render: function(overridePaused) {
+	step: function(overridePaused) {
 		if(overridePaused == null) overridePaused = false;
 		if(this.paused && !overridePaused) return;
 		if(this.current == this.ping) this.current = this.pong; else this.current = this.ping;
 		this.lifeMaterial.uniforms.tUniverse.value = this.current.texture;
+		this.lifeMaterial.uniforms.texelSize.value.set(1 / this.current.width,1 / this.current.height);
+		this.lifeMaterial.uniforms.liveColor.value.set(1.0,1.0,1.0,1.0);
+		this.lifeMaterial.uniforms.deadColor.value.set(0.0,0.0,0.0,1.0);
 		var nonCurrent;
 		if(this.current == this.ping) nonCurrent = this.pong; else nonCurrent = this.ping;
 		this.renderer.render(this.scene,this.camera,nonCurrent,true);
@@ -41,14 +56,16 @@ GameOfLife.prototype = {
 		this.mesh.material = this.stampMaterial;
 		this.stampMaterial.uniforms.tStamp.value = pattern;
 		this.stampMaterial.uniforms.tLast.value = this.current.texture;
-		this.stampMaterial.uniforms.offset.value.set(-x / 900,-y / 900);
+		this.stampMaterial.uniforms.pos.value.set(x / this.current.width,(this.current.height - y - pattern.image.height) / this.current.height);
+		this.stampMaterial.uniforms.size.value.set(pattern.image.width / this.current.width,pattern.image.height / this.current.height);
 		var nonCurrent;
 		if(this.current == this.ping) nonCurrent = this.pong; else nonCurrent = this.ping;
 		this.renderer.render(this.scene,this.camera,nonCurrent,true);
 		this.mesh.material = this.lifeMaterial;
 	}
-	,clear: function() {
+	,clear: function(color) {
 		this.mesh.material = this.clearMaterial;
+		this.clearMaterial.uniforms.clearColor.value.set(color.r,color.g,color.b,1.0);
 		this.renderer.render(this.scene,this.camera,this.ping,true);
 		this.renderer.render(this.scene,this.camera,this.pong,true);
 		this.mesh.material = this.lifeMaterial;
@@ -64,6 +81,20 @@ GameOfLife.prototype = {
 };
 var HxOverrides = function() { };
 HxOverrides.__name__ = true;
+HxOverrides.cca = function(s,index) {
+	var x = s.charCodeAt(index);
+	if(x != x) return undefined;
+	return x;
+};
+HxOverrides.substr = function(s,pos,len) {
+	if(pos != null && pos != 0 && len != null && len < 0) return "";
+	if(len == null) len = s.length;
+	if(pos < 0) {
+		pos = s.length + pos;
+		if(pos < 0) pos = 0;
+	} else if(len < 0) len = s.length + len - pos;
+	return s.substr(pos,len);
+};
 HxOverrides.indexOf = function(a,obj,i) {
 	var len = a.length;
 	if(i < 0) {
@@ -87,6 +118,8 @@ ID.__name__ = true;
 var Patterns = function() { };
 Patterns.__name__ = true;
 var Main = function() {
+	this.worldSizeSlider = window.document.getElementById("worldsizeslider");
+	this.simulationFramerateSlider = window.document.getElementById("simulationframerateslider");
 	this.runPauseButtonElement = window.document.getElementById("liferunpausebutton");
 	this.lifeStepButtonElement = window.document.getElementById("lifestepbutton");
 	this.lifeClearButtonElement = window.document.getElementById("lifeclearbutton");
@@ -105,6 +138,8 @@ var Main = function() {
 		this.patternPresetListElement.appendChild(option);
 		var data = Reflect.field(Patterns,name);
 	}
+	if(!Reflect.field(Patterns,"gosperglidergun_rle")) throw new js__$Boot_HaxeError("FAIL: Reflect.field(Patterns, DEFAULT_PATTERN_NAME)");
+	this.set_selectedPatternName("gosperglidergun_rle");
 	window.onload = $bind(this,this.onWindowLoaded);
 };
 Main.__name__ = true;
@@ -140,39 +175,49 @@ Main.prototype = {
 		this.renderer = new THREE.WebGLRenderer({ antialias : true});
 		this.renderer.autoClear = false;
 		this.renderer.setPixelRatio(window.devicePixelRatio);
+		this.clearColor = new THREE.Color(0);
 		this.scene = new THREE.Scene();
-		this.camera = new THREE.OrthographicCamera(-1,1,1,-1,0,1);
+		this.camera = new THREE.OrthographicCamera(-0.5,0.5,0.5,-0.5,0,1);
 		this.gameOfLife = new GameOfLife(this.renderer,512,512);
 		this.copyMaterial = new THREE.ShaderMaterial({ vertexShader : shaders_Copy.vertexShader, fragmentShader : shaders_Copy.fragmentShader, uniforms : shaders_Copy.uniforms});
 		this.copyMaterial.uniforms.tTexture.value = null;
-		var mesh = new THREE.Mesh(new THREE.PlaneBufferGeometry(2,2),this.copyMaterial);
+		var mesh = new THREE.Mesh(new THREE.PlaneBufferGeometry(1,1),this.copyMaterial);
 		this.scene.add(mesh);
 		this.onResize();
 		this.patternPresetListElement.addEventListener("change",function() {
 			_g.set_selectedPatternName(_g.patternPresetListElement.value);
 		},false);
 		this.lifeClearButtonElement.addEventListener("click",function() {
-			_g.gameOfLife.clear();
+			_g.gameOfLife.clear(_g.clearColor);
 		},false);
 		this.lifeStepButtonElement.addEventListener("click",function() {
-			_g.gameOfLife.render(true);
+			if(!_g.gameOfLife.paused) {
+				_g.gameOfLife.togglePaused();
+				_g.onPauseToggled();
+			}
+			_g.gameOfLife.step(true);
 		},false);
 		this.runPauseButtonElement.addEventListener("click",function() {
 			_g.gameOfLife.togglePaused();
+			_g.onPauseToggled();
 		},false);
 		window.addEventListener("resize",function() {
 			_g.onResize();
 		},true);
 		this.renderer.domElement.addEventListener("mousedown",function(e) {
 			e.preventDefault();
-			var x = e.clientX - _g.renderer.domElement.offsetLeft | 0;
-			var y = e.clientY - _g.renderer.domElement.offsetTop | 0;
+			var rect = _g.renderer.domElement.getBoundingClientRect();
+			var x = e.clientX - rect.left | 0;
+			var y = e.clientY - rect.top | 0;
 			_g.onPointerDown(x,y);
 		},false);
 		this.renderer.domElement.addEventListener("touchstart",function(e1) {
 			e1.preventDefault();
-			var x1 = e1.touches[0].clientX - _g.renderer.domElement.offsetLeft | 0;
-			var y1 = e1.touches[0].clientY - _g.renderer.domElement.offsetTop | 0;
+			var rect1 = _g.renderer.domElement.getBoundingClientRect();
+			var x1 = e1.clientX - rect1.left | 0;
+			var y1 = e1.clientY - rect1.top | 0;
+			console.log(x1);
+			console.log(y1);
 			_g.onPointerDown(x1,y1);
 		},false);
 		this.gameDiv.appendChild(this.renderer.domElement);
@@ -181,36 +226,65 @@ Main.prototype = {
 		window.requestAnimationFrame($bind(this,this.animate));
 	}
 	,animate: function(time) {
-		this.gameOfLife.render();
+		this.gameOfLife.step();
 		this.copyMaterial.uniforms.tTexture.value = this.gameOfLife.current.texture;
 		this.renderer.render(this.scene,this.camera);
 		window.requestAnimationFrame($bind(this,this.animate));
 	}
 	,onResize: function() {
-		this.renderer.setSize(900,900);
+		this.renderer.setSize(512,512);
+	}
+	,onPauseToggled: function() {
+		if(this.gameOfLife.paused) this.runPauseButtonElement.innerHTML = "<h2>Run</h2>"; else this.runPauseButtonElement.innerHTML = "<h2>Pause</h2>";
 	}
 	,onPointerDown: function(x,y) {
-		var live = this.gameOfLife.isCellLive(x,y);
+		var patternGrid = PatternReader.expandToStringArray(this.selectedPatternName,Reflect.field(Patterns,this.selectedPatternName));
+		var maxWidth = 0;
+		var _g = 0;
+		while(_g < patternGrid.length) {
+			var line = patternGrid[_g];
+			++_g;
+			if(line.length > maxWidth) maxWidth = line.length;
+		}
 		var canvas;
 		var _this = window.document;
 		canvas = _this.createElement("canvas");
-		canvas.width = 100;
-		canvas.height = 100;
+		canvas.width = this.nextPowerOfTwo(maxWidth);
+		canvas.height = this.nextPowerOfTwo(patternGrid.length);
 		var ctx = canvas.getContext("2d");
-		this.gameDiv.appendChild(canvas);
 		ctx.beginPath();
-		ctx.rect(0,0,100,100);
-		ctx.fillStyle = "blue";
+		ctx.rect(0,0,canvas.width,canvas.height);
+		ctx.fillStyle = "black";
 		ctx.fill();
-		ctx.beginPath();
-		ctx.rect(0,0,50,50);
-		ctx.fillStyle = "red";
-		ctx.fill();
+		console.log(patternGrid);
+		var _g1 = 0;
+		var _g2 = patternGrid.length;
+		while(_g1 < _g2) {
+			var y1 = _g1++;
+			var _g3 = 0;
+			var _g21 = patternGrid[y1].length;
+			while(_g3 < _g21) {
+				var x1 = _g3++;
+				if(patternGrid[y1].charAt(x1) == "o") {
+					ctx.beginPath();
+					ctx.rect(x1,y1,1,1);
+					ctx.fillStyle = "white";
+					ctx.fill();
+				}
+			}
+		}
 		var tex = new THREE.Texture(canvas);
 		tex.needsUpdate = true;
 		tex.wrapS = THREE.ClampToEdgeWrapping;
 		tex.wrapT = THREE.ClampToEdgeWrapping;
+		this.gameDiv.appendChild(canvas);
 		this.gameOfLife.stampPattern(x,y,tex);
+		this.gameOfLife.step(true);
+	}
+	,getRandomPattern: function() {
+		var patterns = Type.getClassFields(Patterns);
+		var randomFieldIndex = Std["int"](Math.random() * (patterns.length - 1));
+		return Reflect.field(Patterns,patterns[randomFieldIndex]);
 	}
 	,set_selectedPatternName: function(patternName) {
 		this.selectedPatternName = patternName;
@@ -224,11 +298,124 @@ Main.prototype = {
 			content += line + "\r";
 		}
 		this.patternFileEditElement.value = content;
+		if(this.patternPresetListElement.value != patternName) this.patternPresetListElement.value = patternName;
 		return this.selectedPatternName;
+	}
+	,nextPowerOfTwo: function(x) {
+		var result = 1;
+		while(result < x) result <<= 1;
+		return result;
 	}
 	,__properties__: {set_selectedPatternName:"set_selectedPatternName"}
 };
 Math.__name__ = true;
+var PatternReader = function() { };
+PatternReader.__name__ = true;
+PatternReader.expandToStringArray = function(fileName,fileContent) {
+	if(StringTools.endsWith(fileName,"rle")) return RLEReader.expandRle(fileContent); else if(StringTools.endsWith(fileName,"cells")) return PlaintextCellsReader.expandCells(fileContent); else if(StringTools.endsWith(fileName,"lif")) return null; else {
+		console.log("Unsupported file in pattern embed folder: " + fileName);
+		return null;
+	}
+};
+var RLEReader = function() { };
+RLEReader.__name__ = true;
+RLEReader.expandRle = function(rle) {
+	var width = 0;
+	var height = 0;
+	var rule = "";
+	var rlePattern = "";
+	var runCountMatcher = new EReg("[0-9]","i");
+	var foundSize = false;
+	var _g = 0;
+	while(_g < rle.length) {
+		var line = rle[_g];
+		++_g;
+		if(line.indexOf("#") != -1) continue;
+		if(!foundSize) {
+			var components = line.split(",");
+			if(!(components.length == 2 || components.length == 3)) throw new js__$Boot_HaxeError("FAIL: components.length == 2 || components.length == 3");
+			var getComponentValue = function(component) {
+				var kv = component.split("=");
+				var actual = kv.length;
+				var expected = 2;
+				if(actual != expected) throw new js__$Boot_HaxeError("FAIL: values are not equal (expected: " + expected + ", actual: " + actual + ")");
+				var v = StringTools.trim(kv[1]);
+				if(!(v.length != 0)) throw new js__$Boot_HaxeError("FAIL: v.length != 0");
+				return v;
+			};
+			width = Std.parseInt(getComponentValue(components[0]));
+			height = Std.parseInt(getComponentValue(components[1]));
+			if(components.length == 3) rule = getComponentValue(components[2]);
+			foundSize = true;
+			continue;
+		}
+		rlePattern += line;
+	}
+	var result = [];
+	var rleRows = rlePattern.split("$");
+	var _g1 = 0;
+	while(_g1 < rleRows.length) {
+		var row = rleRows[_g1];
+		++_g1;
+		var expandedRow = "";
+		var number = "";
+		var _g2 = 0;
+		var _g11 = row.length;
+		while(_g2 < _g11) {
+			var i = _g2++;
+			var ch = row.charAt(i);
+			if(runCountMatcher.match(ch)) number += ch; else if(ch == "o") {
+				var runCount = 1;
+				if(number.length > 0) runCount = Std.parseInt(number);
+				var _g3 = 0;
+				while(_g3 < runCount) {
+					var i1 = _g3++;
+					expandedRow += "o";
+					number = "";
+				}
+			} else if(ch == "b") {
+				var runCount1 = 1;
+				if(number.length > 0) runCount1 = Std.parseInt(number);
+				var _g31 = 0;
+				while(_g31 < runCount1) {
+					var i2 = _g31++;
+					expandedRow += "b";
+					number = "";
+				}
+			}
+		}
+		result.push(expandedRow);
+	}
+	if(!(result.length > 0)) throw new js__$Boot_HaxeError("FAIL: result.length > 0");
+	return result;
+};
+var PlaintextCellsReader = function() { };
+PlaintextCellsReader.__name__ = true;
+PlaintextCellsReader.expandCells = function(cells) {
+	var expandedLines = [];
+	var width = 0;
+	var height = 0;
+	var _g = 0;
+	while(_g < cells.length) {
+		var line = cells[_g];
+		++_g;
+		if(line.indexOf("!") != -1) continue;
+		if(line.length > width) width = line.length;
+		height++;
+	}
+	var _g1 = 0;
+	while(_g1 < cells.length) {
+		var line1 = cells[_g1];
+		++_g1;
+		if(line1.indexOf("!") != -1) continue;
+		var expandedLine = line1;
+		while(expandedLine.length < width) expandedLine += ".";
+		expandedLines.push(expandedLine);
+	}
+	return expandedLines;
+};
+var LifeReader = function() { };
+LifeReader.__name__ = true;
 var Reflect = function() { };
 Reflect.__name__ = true;
 Reflect.field = function(o,field) {
@@ -252,6 +439,43 @@ Reflect.fields = function(o) {
 		}
 	}
 	return a;
+};
+var Std = function() { };
+Std.__name__ = true;
+Std["int"] = function(x) {
+	return x | 0;
+};
+Std.parseInt = function(x) {
+	var v = parseInt(x,10);
+	if(v == 0 && (HxOverrides.cca(x,1) == 120 || HxOverrides.cca(x,1) == 88)) v = parseInt(x);
+	if(isNaN(v)) return null;
+	return v;
+};
+var StringTools = function() { };
+StringTools.__name__ = true;
+StringTools.endsWith = function(s,end) {
+	var elen = end.length;
+	var slen = s.length;
+	return slen >= elen && HxOverrides.substr(s,slen - elen,elen) == end;
+};
+StringTools.isSpace = function(s,pos) {
+	var c = HxOverrides.cca(s,pos);
+	return c > 8 && c < 14 || c == 32;
+};
+StringTools.ltrim = function(s) {
+	var l = s.length;
+	var r = 0;
+	while(r < l && StringTools.isSpace(s,r)) r++;
+	if(r > 0) return HxOverrides.substr(s,r,l - r); else return s;
+};
+StringTools.rtrim = function(s) {
+	var l = s.length;
+	var r = 0;
+	while(r < l && StringTools.isSpace(s,l - r - 1)) r++;
+	if(r > 0) return HxOverrides.substr(s,0,l - r); else return s;
+};
+StringTools.trim = function(s) {
+	return StringTools.ltrim(StringTools.rtrim(s));
 };
 var Type = function() { };
 Type.__name__ = true;
@@ -370,6 +594,8 @@ ID.controls = "controls";
 ID.liferunpausebutton = "liferunpausebutton";
 ID.lifestepbutton = "lifestepbutton";
 ID.lifeclearbutton = "lifeclearbutton";
+ID.simulationframerateslider = "simulationframerateslider";
+ID.worldsizeslider = "worldsizeslider";
 ID.game = "game";
 Patterns["101_cells"] = ["!Name: 101","!Author: Achim Flammenkamp","!Found in August 1994.","!The name was suggested by Bill Gosper, noting that the phase shown below displays the period in binary.","....OO......OO","...O.O......O.O","...O..........O","OO.O..........O.OO","OO.O.O..OO..O.O.OO","...O.O.O..O.O.O","...O.O.O..O.O.O","OO.O.O..OO..O.O.OO","OO.O..........O.OO","...O..........O","...O.O......O.O","....OO......OO",""];
 Patterns["101_rle"] = ["#N 101","#O Achim Flammenkamp","#C A period 5 oscillator that was found in August 1994.","#C The name was suggested by Bill Gosper, noting that the phase shown ","#C below displays the period in binary.","x = 18, y = 12, rule = B3/S23","4b2o6b2o4b$3bobo6bobo3b$3bo10bo3b$2obo10bob2o$2obobo2b2o2bobob2o$3bobo","bo2bobobo3b$3bobobo2bobobo3b$2obobo2b2o2bobob2o$2obo10bob2o$3bo10bo3b$","3bobo6bobo3b$4b2o6b2o!"];
@@ -3622,18 +3848,19 @@ Patterns.zweiback_105_lif = ["#Life 1.05","#D Name: Zweiback","#D Author: Mark N
 Patterns.zweiback_106_lif = ["#Life 1.06","-13 -10","-14 -9","-12 -9","-14 -8","-12 -8","-11 -8","-10 -8","31 -8","32 -8","-17 -7","-15 -7","-14 -7","-9 -7","8 -7","9 -7","14 -7","15 -7","24 -7","25 -7","29 -7","32 -7","-25 -6","-24 -6","-17 -6","-16 -6","-12 -6","-11 -6","-9 -6","9 -6","14 -6","16 -6","25 -6","29 -6","30 -6","-26 -5","-24 -5","-14 -5","-13 -5","-11 -5","-9 -5","-8 -5","9 -5","11 -5","12 -5","14 -5","17 -5","25 -5","27 -5","28 -5","31 -5","32 -5","33 -5","34 -5","36 -5","37 -5","-32 -4","-31 -4","-29 -4","-26 -4","-19 -4","-18 -4","-17 -4","-16 -4","-15 -4","-11 -4","-7 -4","8 -4","9 -4","11 -4","13 -4","15 -4","16 -4","23 -4","24 -4","26 -4","28 -4","30 -4","34 -4","36 -4","38 -4","-33 -3","-31 -3","-30 -3","-28 -3","-26 -3","-25 -3","-20 -3","-14 -3","-11 -3","-10 -3","-8 -3","-7 -3","7 -3","11 -3","13 -3","24 -3","26 -3","30 -3","31 -3","33 -3","36 -3","38 -3","-33 -2","-28 -2","-20 -2","-19 -2","-16 -2","-7 -2","7 -2","8 -2","10 -2","11 -2","13 -2","22 -2","24 -2","26 -2","29 -2","36 -2","38 -2","39 -2","-35 -1","-34 -1","-32 -1","-31 -1","-30 -1","-29 -1","-27 -1","-26 -1","-21 -1","-20 -1","-17 -1","-15 -1","-10 -1","-8 -1","-7 -1","7 -1","13 -1","17 -1","20 -1","21 -1","23 -1","25 -1","26 -1","29 -1","32 -1","33 -1","36 -1","-36 0","-34 0","-29 0","-27 0","-25 0","-23 0","-22 0","-21 0","-20 0","-17 0","-16 0","-13 0","-10 0","-8 0","-7 0","-1 0","0 0","7 0","8 0","10 0","13 0","16 0","17 0","20 0","21 0","22 0","23 0","25 0","27 0","29 0","34 0","36 0","-36 1","-33 1","-32 1","-29 1","-26 1","-25 1","-23 1","-21 1","-20 1","-17 1","-13 1","-7 1","-2 1","1 1","7 1","8 1","10 1","15 1","17 1","20 1","21 1","26 1","27 1","29 1","30 1","31 1","32 1","34 1","35 1","-39 2","-38 2","-36 2","-29 2","-26 2","-24 2","-22 2","-13 2","-11 2","-10 2","-8 2","-7 2","-1 2","1 2","7 2","16 2","19 2","20 2","28 2","33 2","-38 3","-36 3","-33 3","-31 3","-30 3","-26 3","-24 3","-13 3","-11 3","-7 3","0 3","7 3","8 3","10 3","11 3","14 3","20 3","25 3","26 3","28 3","30 3","31 3","33 3","-38 4","-36 4","-34 4","-30 4","-28 4","-26 4","-24 4","-23 4","-16 4","-15 4","-13 4","-11 4","-9 4","-8 4","7 4","11 4","15 4","16 4","17 4","18 4","19 4","26 4","29 4","31 4","32 4","-37 5","-36 5","-34 5","-33 5","-32 5","-31 5","-28 5","-27 5","-25 5","-17 5","-14 5","-12 5","-11 5","-9 5","8 5","9 5","11 5","13 5","14 5","24 5","26 5","-30 6","-29 6","-25 6","-16 6","-14 6","-9 6","9 6","11 6","12 6","16 6","17 6","24 6","25 6","-32 7","-29 7","-25 7","-24 7","-15 7","-14 7","-9 7","-8 7","9 7","14 7","15 7","17 7","-32 8","-31 8","10 8","11 8","12 8","14 8","12 9","14 9","13 10",""];
 Main.WEBSITE_URL = "http://www.samcodes.co.uk/project/game-of-life/";
 Main.REPO_URL = "https://github.com/Tw1ddle/game-of-life/";
+Main.DEFAULT_PATTERN_NAME = "gosperglidergun_rle";
 shaders_Clear.uniforms = { clearColor : { type : "v4", value : new THREE.Vector4(1.0,1.0,1.0,1.0)}};
 shaders_Clear.vertexShader = "varying vec2 vUv;\r\n\r\nvoid main()\r\n{\r\n\tvUv = uv;\r\n\tgl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\r\n}";
 shaders_Clear.fragmentShader = "varying vec2 vUv;\r\n\r\nuniform vec4 clearColor;\r\n\r\nvoid main()\r\n{\r\n\tgl_FragColor = clearColor;\r\n}";
 shaders_Copy.uniforms = { tTexture : { type : "t", value : null}};
 shaders_Copy.vertexShader = "varying vec2 vUv;\r\n\r\nvoid main()\r\n{\r\n\tvUv = uv;\r\n\tgl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\r\n}";
 shaders_Copy.fragmentShader = "varying vec2 vUv;\r\n\r\nuniform sampler2D tTexture;\r\n\r\nvoid main()\r\n{\r\n\tgl_FragColor = texture2D(tTexture, vUv);\r\n}";
-shaders_Life.uniforms = { tUniverse : { type : "t", value : null}};
-shaders_Life.vertexShader = "varying vec2 vUv;\r\n\r\nvoid main()\r\n{\r\n\tvUv = uv;\r\n\tgl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\r\n}";
-shaders_Life.fragmentShader = "varying vec2 vUv;\r\n\r\nuniform sampler2D tUniverse;\r\n\r\nint cell(vec2 offset)\r\n{\r\n\treturn int(texture2D(tUniverse, vUv - (offset / vec2(512, 512))).r); // TODO\r\n}\r\n\r\nvoid main()\r\n{\r\n\tint neighborCount = // Number of live neighboring cells\r\n\t  cell(vec2(-1.0, -1.0))\r\n\t+ cell(vec2(-1.0, 0.0))\r\n\t+ cell(vec2(-1.0, 1.0))\r\n\t+ cell(vec2(0.0, -1.0))\r\n\t+ cell(vec2(0.0, 1.0))\r\n\t+ cell(vec2(1.0, -1.0))\r\n\t+ cell(vec2(1.0, 0.0))\r\n\t+ cell(vec2(1.0, 1.0));\r\n\t\r\n\tif(neighborCount == 3) // Come to life\r\n\t{\r\n\t\tgl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);\r\n\t}\r\n\telse if(neighborCount == 2) // Continue to live\r\n\t{\r\n\t\tfloat current = texture2D(tUniverse, vUv).r;\r\n\t\tgl_FragColor = vec4(current, current, current, 1.0);\r\n\t}\r\n\telse // Die from underpopulation or overpopulation\r\n\t{\r\n\t\tgl_FragColor = vec4(0.9, 0.9, 0.9, 1.0);\r\n\t}\r\n}";
-shaders_Stamp.uniforms = { tLast : { type : "t", value : null}, tStamp : { type : "t", value : null}, offset : { type : "v2", value : new THREE.Vector2(0,0)}};
+shaders_Life.uniforms = { tUniverse : { type : "t", value : null}, texelSize : { type : "v2", value : new THREE.Vector2()}, liveColor : { type : "v4", value : new THREE.Vector4()}, deadColor : { type : "v4", value : new THREE.Vector4()}};
+shaders_Life.vertexShader = "varying vec2 vUv;\r\nvarying vec2 vTexelSize;\r\n\r\nuniform vec2 texelSize;\r\n\r\nvoid main()\r\n{\r\n\tvUv = uv;\r\n\tvTexelSize = texelSize;\r\n\t\r\n\tgl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\r\n}";
+shaders_Life.fragmentShader = "varying vec2 vUv;\r\nvarying vec2 vTexelSize;\r\n\r\nuniform sampler2D tUniverse;\r\n\r\nuniform vec4 liveColor;\r\nuniform vec4 deadColor;\r\n\r\nint cell(vec2 offset)\r\n{\r\n\treturn int(texture2D(tUniverse, vUv - offset).r);\r\n}\r\n\r\nvoid main()\r\n{\r\n\tint neighborCount = // Number of live neighboring cells\r\n\t  cell(vec2(-vTexelSize.x, -vTexelSize.y))\r\n\t+ cell(vec2(-vTexelSize.x, 0.0))\r\n\t+ cell(vec2(-vTexelSize.x, vTexelSize.y))\r\n\t+ cell(vec2(0.0, -vTexelSize.y))\r\n\t+ cell(vec2(0.0, vTexelSize.y))\r\n\t+ cell(vec2(vTexelSize.x, -vTexelSize.y))\r\n\t+ cell(vec2(vTexelSize.x, 0.0))\r\n\t+ cell(vec2(vTexelSize.x, vTexelSize.y));\r\n\t\r\n\tif(neighborCount == 3) // Come to life\r\n\t{\r\n\t\tgl_FragColor = liveColor;\r\n\t}\r\n\telse if(neighborCount == 2) // Continue to live\r\n\t{\r\n\t\tgl_FragColor = texture2D(tUniverse, vUv);\r\n\t}\r\n\telse // Die from underpopulation or overpopulation\r\n\t{\r\n\t\tgl_FragColor = deadColor;\r\n\t}\r\n}";
+shaders_Stamp.uniforms = { tLast : { type : "t", value : null}, tStamp : { type : "t", value : null}, pos : { type : "v2", value : new THREE.Vector2(0,0)}, size : { type : "v2", value : new THREE.Vector2(0,0)}};
 shaders_Stamp.vertexShader = "varying vec2 vUv;\r\n\r\nvoid main()\r\n{\r\n\tvUv = uv;\r\n\tgl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\r\n}";
-shaders_Stamp.fragmentShader = "varying vec2 vUv;\r\n\r\nuniform sampler2D tStamp;\r\nuniform sampler2D tLast;\r\n\r\nuniform vec2 offset;\r\n\r\nvoid main()\r\n{\r\n\tvec4 stampValue = texture2D(tStamp, vUv);\r\n\tvec4 lastValue = texture2D(tLast, vUv);\r\n\t\r\n\tgl_FragColor = vec4(lastValue.rgb + stampValue.rgb, 1.0);\r\n}";
+shaders_Stamp.fragmentShader = "varying vec2 vUv;\r\n\r\nuniform sampler2D tStamp;\r\nuniform sampler2D tLast;\r\n\r\nuniform vec2 pos;\r\nuniform vec2 size;\r\n\r\nvoid main()\r\n{\r\n\tvec4 lastValue = texture2D(tLast, vUv);\r\n\t\r\n\tif(vUv.x < pos.x || vUv.x > pos.x + size.x || vUv.y < pos.y || vUv.y > pos.y + size.y)\r\n\t{\r\n\t\tgl_FragColor = vec4(lastValue.rgb, 1.0); // Stamp texture does not overlap this part of the texture, leave it alone\r\n\t}\r\n\telse\r\n\t{\r\n\t\tgl_FragColor = texture2D(tStamp, (vUv - pos) / size);\r\n\t}\r\n}";
 Main.main();
 })(typeof console != "undefined" ? console : {log:function(){}});
 

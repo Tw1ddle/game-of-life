@@ -3,7 +3,7 @@
 Interactive implementation of **Conway's Game of Life** written in Haxe and three.js. Try it now [in your browser](http://www.samcodes.co.uk/project/game-of-life/).
 
 ## Features
-* Interact with thousands of Game of Life patterns, or create your own.
+* Interact with thousands of Game of Life patterns, or create your own in realtime.
 * Speed up, slow down, step, pause and clear the simulation.
 * Create and share snapshots of the simulation state.
 * Custom visuals, including showing dead cells.
@@ -20,7 +20,7 @@ Try the [demo](http://www.samcodes.co.uk/project/game-of-life/) and simulate Lif
 ## How It Works
 The Game of Life is a cellular automaton invented by John Conway in 1970. The simulation takes place on a two-dimensional orthogonal grid of square cells, each of which can either be dead or alive.
 
-Every time the simulation is updated, each cell interacts with its eight neighboring cells according to these four rules:
+Each time the simulation is updated, every cell interacts with its eight neighboring cells according to these four rules:
 
 * Any live cell with fewer than two living neighbours dies (isolation).
 * Any cell with two or three living neighbours survives until the next generation (survival).
@@ -36,6 +36,6 @@ Conway designed these rules carefully to produce interesting results. Read more 
 
 ## License
 * The pattern files included and embedded in this repository come from the [LifeWiki](http://www.conwaylife.com/wiki/Main_Page) pattern collection, and are by various authors.
-* The Haxe code and webpages in this repository, but not the pattern files, are licensed under the GPLv3 with the exception of CodeCompletion.hx, which is MIT.
+* The Haxe code and webpage code in this repository, but not the pattern files, are licensed under the GPLv3 with the exception of CodeCompletion.hx, which is MIT.
 * The [noUiSlider](https://github.com/leongersen/noUiSlider) settings sliders are WTFPL.
 * The [three.js](https://github.com/mrdoob/three.js/) library is MIT.

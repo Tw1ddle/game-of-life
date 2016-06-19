@@ -1,4 +1,5 @@
 package;
+import three.Texture;
 
 using StringTools;
 
@@ -18,43 +19,6 @@ class PatternReader {
 			trace("Unsupported file in pattern embed folder: " + fileName);
 			return null;
 		}
-	}
-}
-
-/**
- * Expands and converts "plain text" cells format patterns.
- * @see http://www.conwaylife.com/wiki/Plaintext
- */
-class PlaintextCellsReader {
-	public static function expandCells(cells:Array<String>):Array<String> {
-		var expandedLines = [];
-		
-		var width:Int = 0;
-		var height:Int = 0;
-		for (line in cells) {
-			if (line.indexOf("!") != -1) { // Ignore the ! lines
-				continue;
-			}
-			
-			if (line.length > width) {
-				width = line.length;
-			}
-			height++;
-		}
-		
-		for (line in cells) {
-			if (line.indexOf("!") != -1) { // Ignore the ! lines
-				continue;
-			}
-			
-			var expandedLine = line;
-			while (expandedLine.length < width) {
-				expandedLine += ".";
-			}
-			expandedLines.push(expandedLine);
-		}
-		
-		return expandedLines;
 	}
 }
 
@@ -136,6 +100,43 @@ class RLEReader {
 		
 		Sure.sure(result.length > 0);
 		return result;
+	}
+}
+
+/**
+ * Expands and converts "plain text" cells format patterns.
+ * @see http://www.conwaylife.com/wiki/Plaintext
+ */
+class PlaintextCellsReader {
+	public static function expandCells(cells:Array<String>):Array<String> {
+		var expandedLines = [];
+		
+		var width:Int = 0;
+		var height:Int = 0;
+		for (line in cells) {
+			if (line.indexOf("!") != -1) { // Ignore the ! lines
+				continue;
+			}
+			
+			if (line.length > width) {
+				width = line.length;
+			}
+			height++;
+		}
+		
+		for (line in cells) {
+			if (line.indexOf("!") != -1) { // Ignore the ! lines
+				continue;
+			}
+			
+			var expandedLine = line;
+			while (expandedLine.length < width) {
+				expandedLine += ".";
+			}
+			expandedLines.push(expandedLine);
+		}
+		
+		return expandedLines;
 	}
 }
 

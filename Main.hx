@@ -3,9 +3,11 @@ package;
 import js.Browser;
 import js.html.ButtonElement;
 import js.html.DivElement;
+import js.html.Element;
 import js.html.SelectElement;
 import js.html.TextAreaElement;
 import shaders.Copy;
+import three.Color;
 import three.Mesh;
 import three.OrthographicCamera;
 import three.PlaneBufferGeometry;
@@ -26,17 +28,20 @@ using StringTools;
 #end
 class ID {}
 
+// Stores the embedded pattern files from the /embed folder as arrays of strings for use at runtime
 @:build(PatternFileReaderMacro.build("embed"))
 @:keep
 class Patterns {
-	// Stores the embedded pattern files from the /embed folder as arrays of strings for use at runtime
 }
 
 class Main {
 	private static inline var WEBSITE_URL:String = "http://www.samcodes.co.uk/project/game-of-life/"; // Hosted demo URL
 	private static inline var REPO_URL:String = "https://github.com/Tw1ddle/game-of-life/"; // Code repository URL
 	
+	private static inline var DEFAULT_PATTERN_NAME:String = "gosperglidergun_rle"; // Name of the default pattern preset
+	
 	private var renderer:WebGLRenderer; // The WebGL renderer
+	private var clearColor:Color; // The color to clear the Game of Life area to when manually cleared
 	private var scene:Scene;
 	private var camera:OrthographicCamera;
 	private var gameOfLife:GameOfLife;
@@ -50,6 +55,9 @@ class Main {
 	private var lifeClearButtonElement:ButtonElement = cast Browser.document.getElementById(ID.lifeclearbutton);
 	private var lifeStepButtonElement:ButtonElement = cast Browser.document.getElementById(ID.lifestepbutton);
 	private var runPauseButtonElement:ButtonElement = cast Browser.document.getElementById(ID.liferunpausebutton);
+	
+	private var simulationFramerateSlider:Element = cast Browser.document.getElementById(ID.simulationframerateslider);
+	private var worldSizeSlider:Element = cast Browser.document.getElementById(ID.worldsizeslider);
 
 	private static function main():Void {
 		var main = new Main();
@@ -65,9 +73,12 @@ class Main {
 			
 			#if debug // Check that all the embedded patterns are supported, can be read, expanded etc
 			var data = Reflect.field(Patterns, name);
-			//PatternReader.expandToStringArray(name, data);
+			//PatternReader.expandToStringArray(name, data); // TODO uncomment
 			#end
 		}
+		
+		Sure.sure(Reflect.field(Patterns, DEFAULT_PATTERN_NAME));
+		selectedPatternName = DEFAULT_PATTERN_NAME;
 		
 		Browser.window.onload = onWindowLoaded; // Wait for the window to load before creating the input elements, starting the simulation input etc
 	}
@@ -103,6 +114,8 @@ class Main {
 		renderer.autoClear = false;
 		renderer.setPixelRatio(Browser.window.devicePixelRatio);
 		
+		clearColor = new Color(0x000000);
+		
 		// Scene setup
 		scene = new Scene();
 		
@@ -132,15 +145,21 @@ class Main {
 		}, false);
 		
 		lifeClearButtonElement.addEventListener("click", function() {
-			gameOfLife.clear();
+			gameOfLife.clear(clearColor);
 		}, false);
 		
 		lifeStepButtonElement.addEventListener("click", function() {
-			gameOfLife.render(true);
+			if (!gameOfLife.paused) {
+				gameOfLife.togglePaused();
+				onPauseToggled();
+			}
+			
+			gameOfLife.step(true);
 		}, false);
 		
 		runPauseButtonElement.addEventListener("click", function() {
 			gameOfLife.togglePaused();
+			onPauseToggled();
 		}, false);
 		
 		// Window resize event
@@ -155,7 +174,7 @@ class Main {
 			var x = Std.int(e.clientX - rect.left);
 			var y = Std.int(e.clientY - rect.top);
 			
-			onPointerDown(x, y);
+			onPointerDown(x, y); // TODO use % across or the coordinates as % of the render target, not the raw pointer coordinates
 		}, false);
 		
 		renderer.domElement.addEventListener("touchstart", function(e:Dynamic):Void {
@@ -164,6 +183,10 @@ class Main {
 			var rect = renderer.domElement.getBoundingClientRect();
 			var x = Std.int(e.clientX - rect.left);
 			var y = Std.int(e.clientY - rect.top);
+			
+			// TODO fix, use touch stuff properly?
+			trace(x);
+			trace(y);
 			
 			onPointerDown(x, y);
 		}, false);
@@ -180,7 +203,7 @@ class Main {
 	 * @param	time	The time since the last frame of animation.
 	 */
 	private function animate(time:Float):Void {
-		gameOfLife.render();
+		gameOfLife.step();
 		
 		// Render the game of life scene to the screen
 		copyMaterial.uniforms.tTexture.value = gameOfLife.current.texture;
@@ -197,41 +220,87 @@ class Main {
 	}
 	
 	/**
+	 * Call when you pause or unpause the Game of Life simulation.
+	 */
+	private function onPauseToggled():Void {
+		if (gameOfLife.paused) {
+			runPauseButtonElement.innerHTML = "<h2>Run</h2>";
+		} else {
+			runPauseButtonElement.innerHTML = "<h2>Pause</h2>";
+		}
+	}
+	
+	/**
 	 * Called when the user clicks or taps the Game of Life world.
 	 * @param	x	The local x-coordinate of the pointer.
 	 * @param	y	The local y-coordinate of the pointer.
 	 */
 	private function onPointerDown(x:Int, y:Int):Void {
-		var live:Bool = gameOfLife.isCellLive(x, y);
+		var patternGrid = PatternReader.expandToStringArray(selectedPatternName, Reflect.field(Patterns, selectedPatternName));
 		
-		// TODO create the texture for the pattern
-		//var patternGrid = PatternReader.expandToStringArray(selectedPatternName, Reflect.field(Patterns, selectedPatternName));
-		//trace(patternGrid);
+		var maxWidth:Int = 0;
+		for (line in patternGrid) {
+			if (line.length > maxWidth) {
+				maxWidth = line.length;
+			}
+		}
 		
 		var canvas = Browser.document.createCanvasElement();
-		canvas.width = 128;
-		canvas.height = 128;
+		canvas.width = nextPowerOfTwo(maxWidth);
+		canvas.height = nextPowerOfTwo(patternGrid.length);
 		var ctx = canvas.getContext("2d");
 		
-		//gameDiv.appendChild(canvas);
-
 		ctx.beginPath();
-		ctx.rect(0, 0, 128, 128);
-		ctx.fillStyle = "blue";
+		ctx.rect(0, 0, canvas.width, canvas.height);
+		ctx.fillStyle = "black";
 		ctx.fill();
 		
-		ctx.beginPath();
-		ctx.rect(0, 0, 64, 64);
-		ctx.fillStyle = "red";
-		ctx.fill();
+		trace(patternGrid);
+		
+		for (y in 0...patternGrid.length) {
+			for (x in 0...patternGrid[y].length) {
+				if (patternGrid[y].charAt(x) == "o") { // TODO make it work for the other formats, this is RLE specific
+					ctx.beginPath();
+					ctx.rect(x, y, 1, 1);
+					ctx.fillStyle = "white";
+					ctx.fill();
+				}
+			}
+		}
 		
 		var tex = new Texture(canvas);
 		tex.needsUpdate = true;
 		tex.wrapS = Wrapping.ClampToEdgeWrapping;
 		tex.wrapT = Wrapping.ClampToEdgeWrapping;
 		
+		gameDiv.appendChild(canvas);
+		
 		gameOfLife.stampPattern(x, y, tex);
-		gameOfLife.render(true);
+		gameOfLife.step(true);
+	}
+	
+	/**
+	 * Gets a random pattern file from the embedded Patterns class.
+	 * @return	The content of the pattern file.
+	 */
+	private function getRandomPattern():Array<String> {
+		var patterns = Type.getClassFields(Patterns);
+		var randomFieldIndex = Std.int(Math.random() * (patterns.length - 1));
+		return Reflect.field(Patterns, patterns[randomFieldIndex]);
+	}
+	
+	/**
+	 * Gets the next power of 2.
+	 * @param	x	The value to compute the next power of 2 above.
+	 * @return	The next power of 2 above the value x.
+	 */
+	private inline function nextPowerOfTwo(x:Int):Int {
+		var result:Int = 1;
+		while (result < x) {
+			result <<= 1;
+		}
+		
+		return result;
 	}
 	
 	/**
@@ -251,6 +320,10 @@ class Main {
 			content += line + "\r";
 		}
 		patternFileEditElement.value = content;
+		
+		if (patternPresetListElement.value != patternName) {
+			patternPresetListElement.value = patternName;
+		}
 		
 		return selectedPatternName;
 	}

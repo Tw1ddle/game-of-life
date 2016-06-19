@@ -1,35 +1,38 @@
 varying vec2 vUv;
+varying vec2 vTexelSize;
 
 uniform sampler2D tUniverse;
 
+uniform vec4 liveColor;
+uniform vec4 deadColor;
+
 int cell(vec2 offset)
 {
-	return int(texture2D(tUniverse, vUv - (offset / vec2(512, 512))).r); // TODO
+	return int(texture2D(tUniverse, vUv - offset).r);
 }
 
 void main()
 {
 	int neighborCount = // Number of live neighboring cells
-	  cell(vec2(-1.0, -1.0))
-	+ cell(vec2(-1.0, 0.0))
-	+ cell(vec2(-1.0, 1.0))
-	+ cell(vec2(0.0, -1.0))
-	+ cell(vec2(0.0, 1.0))
-	+ cell(vec2(1.0, -1.0))
-	+ cell(vec2(1.0, 0.0))
-	+ cell(vec2(1.0, 1.0));
+	  cell(vec2(-vTexelSize.x, -vTexelSize.y))
+	+ cell(vec2(-vTexelSize.x, 0.0))
+	+ cell(vec2(-vTexelSize.x, vTexelSize.y))
+	+ cell(vec2(0.0, -vTexelSize.y))
+	+ cell(vec2(0.0, vTexelSize.y))
+	+ cell(vec2(vTexelSize.x, -vTexelSize.y))
+	+ cell(vec2(vTexelSize.x, 0.0))
+	+ cell(vec2(vTexelSize.x, vTexelSize.y));
 	
 	if(neighborCount == 3) // Come to life
 	{
-		gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+		gl_FragColor = liveColor;
 	}
 	else if(neighborCount == 2) // Continue to live
 	{
-		float current = texture2D(tUniverse, vUv).r;
-		gl_FragColor = vec4(current, current, current, 1.0);
+		gl_FragColor = texture2D(tUniverse, vUv);
 	}
 	else // Die from underpopulation or overpopulation
 	{
-		gl_FragColor = vec4(0.9, 0.9, 0.9, 1.0);
+		gl_FragColor = deadColor;
 	}
 }
