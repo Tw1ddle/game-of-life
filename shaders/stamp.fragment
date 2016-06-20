@@ -12,7 +12,7 @@ void main()
 	
 	if(vUv.x < pos.x || vUv.x > pos.x + size.x || vUv.y < pos.y || vUv.y > pos.y + size.y)
 	{
-		gl_FragColor = vec4(lastValue.rgb, 1.0); // Stamp texture does not overlap this part of the texture, leave it alone
+		gl_FragColor = lastValue; // Stamp texture does not overlap this part of the texture, leave it alone
 	}
 	else
 	{

@@ -5,11 +5,12 @@ Interactive implementation of **Conway's Game of Life** written in Haxe and thre
 ## Features
 * Interact with thousands of Game of Life patterns, add them to the simulation with a single click.
 * Speed up, slow down, step, pause and clear the simulation.
-* ~~Create and share snapshots of the simulation state.~~
+* ~~Share snapshots of the simulation state.~~
+* ~~Palettes and other visual options.~~
 
 ## Usage
 
-Try the [demo](http://www.samcodes.co.uk/project/game-of-life/) and simulate Life. Open the "Settings" section, select a pattern, and click or tap to add it to the simulation. Here it is in action:
+Run the [demo](http://www.samcodes.co.uk/project/game-of-life/) - open the "Settings" section, select a pattern, and click or tap to add it to the simulation. Here it is in action:
 
 [![Screenshot](screenshots/screenshot_1.gif "Game Of Life WebGL screenshot 1")](http://www.samcodes.co.uk/project/game-of-life/)
 
