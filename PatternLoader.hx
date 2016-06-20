@@ -159,24 +159,74 @@ class LifeReader {
 		formatHeader = formatHeader.replace("#", "");
 		formatHeader.trim();
 		
+		trace(life);
+		
 		if (formatHeader.endsWith("5")) { // 1.05
+			var blockOriginX:Int = 0;
+			var blockOriginY:Int = 0;
+			var cells:Array<{x:Int, y:Int, live:Bool}> = [];
+			var xMin:Int = 0;
+			var yMin:Int = 0;
+			var y:Int = 0;
 			for (line in life) {
-				var xMin:Int = 0;
-				var yMin:Int = 0;
-				var xMax:Int = 0;
-				var yMax:Int = 0;
-				var liveCells:Array<{x:Int, y:Int}> = [];
-				
-				var blockOriginX:Int;
-				var blockOriginY:Int;
-				
 				if (line.length == 0) { // Ignore empty lines
 					continue;
 				} else if (line.indexOf("#p") != -1 || line.indexOf("#P") != -1) { // Get the cell block top left origin
+					var coordinate = line.split(" ");
+					Sure.sure(coordinate.length == 3);
 					
+					y = 0;
+					blockOriginX = Std.parseInt(coordinate[1]);
+					blockOriginY = Std.parseInt(coordinate[2]);
+					if (blockOriginX < xMin) {
+						xMin = blockOriginX;
+					}
+					if (blockOriginY < yMin) {
+						yMin = blockOriginY;
+					}
+					
+					continue;
 				} else if (line.indexOf("#") != -1) { // Ignore any other # lines
 					continue;
 				}
+				
+				// Should be a line of dots and stars
+				for (x in 0...line.length) {
+					if (line.charAt(x) == ".") {
+						cells.push({ x: x + blockOriginX, y: y + blockOriginY, live: false});
+					} else if (line.charAt(x) == "*") {
+						cells.push({ x: x + blockOriginX, y: y + blockOriginY, live: true});
+					}
+				}
+				y++;
+			}
+			
+			var xMax:Int = 0;
+			var yMax:Int = 0;
+			for (i in 0...cells.length) {
+				if (cells[i].x > xMax) {
+					xMax = cells[i].x;
+				}
+				if (cells[i].y > yMax) {
+					yMax = cells[i].y;
+				}
+			}
+			
+			var width:Int = Std.int(Math.abs(xMin - xMax));
+			var height:Int = Std.int(Math.abs(yMin - yMax));
+			
+			// Fill grid with falses
+			for (y in 0...height) {
+				var line = [];
+				for (x in 0...width) {
+					line.push(false);
+				}
+				expandedLines.push(line);
+			}
+			
+			// Fill in the cells
+			for (cell in cells) {
+				expandedLines[cell.y - yMin][cell.x - xMin] = cell.live;
 			}
 		} else if (formatHeader.endsWith("6")) { // 1.06
 			var xMin:Int = 0;

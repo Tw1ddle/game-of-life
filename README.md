@@ -3,9 +3,9 @@
 Interactive implementation of **Conway's Game of Life** written in Haxe and three.js. Try it now [in your browser](http://www.samcodes.co.uk/project/game-of-life/).
 
 ## Features
-* Interact with thousands of Game of Life patterns, or create new ones in realtime.
+* Interact with thousands of Game of Life patterns and create new ones in realtime.
 * Speed up, slow down, step, pause and clear the simulation.
-* Create and share snapshots of the simulation state.
+* ~~Create and share snapshots of the simulation state.~~
 
 ## Usage
 
