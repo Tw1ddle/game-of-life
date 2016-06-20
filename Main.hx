@@ -217,6 +217,24 @@ class Main {
 			updateTooltips(simulationFramerateSlider, handle, Std.int(values[handle]));
 		});
 		
+		// Setup a default world
+		selectedPatternName = "roteightor_cells";
+		onPointerDown(0.1, 0.1);
+		onPointerDown(0.7, 0.15);
+		onPointerDown(0.2, 0.5);
+		onPointerDown(0.65, 0.55);
+		onPointerDown(0.2, 0.8);
+		onPointerDown(0.85, 0.85);
+		selectedPatternName = "ringoffire_rle";
+		onPointerDown(0.35, 0.2);
+		onPointerDown(0.1, 0.3);
+		onPointerDown(0.1, 0.7);
+		onPointerDown(0.85, 0.4);
+		onPointerDown(0.83, 0.7);
+		onPointerDown(0.35, 0.75);
+		onPointerDown(0.65, 0.85);
+		selectedPatternName = DEFAULT_PATTERN_NAME;
+		
 		// Present game and start simulation loop
 		gameDiv.appendChild(renderer.domElement);
 		var gameAttachPoint = Browser.document.getElementById("game");

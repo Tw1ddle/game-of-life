@@ -63,4 +63,4 @@ class CodeCompletion {
 
 		return fields;
 	}
-	}
+}
