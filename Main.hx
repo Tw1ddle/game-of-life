@@ -197,25 +197,25 @@ class Main {
 			onPointerDown(x, y);
 		}, false);
 		
-        NoUiSlider.create(simulationFramerateSlider, {
-            start: [ simulationFramerate ],
-            connect: 'lower',
-            range: {
-                'min': [ 1, 1 ],
-                'max': [ 300 ]
-            },
-            pips: {
-                mode: 'range',
-                density: 10,
-            }
-        });
+		NoUiSlider.create(simulationFramerateSlider, {
+			start: [ simulationFramerate ],
+			connect: 'lower',
+			range: {
+				'min': [ 1, 1 ],
+				'max': [ 300 ]
+			},
+			pips: {
+				mode: 'range',
+				density: 10,
+			}
+		});
 		createTooltips(simulationFramerateSlider);
-        untyped simulationFramerateSlider.noUiSlider.on(UiSliderEvent.CHANGE, function(values:Array<Float>, handle:Int, rawValues:Array<Float>):Void {
-            simulationFramerate = Std.int(values[handle]);
-        });
-        untyped simulationFramerateSlider.noUiSlider.on(UiSliderEvent.UPDATE, function(values:Array<Float>, handle:Int, rawValues:Array<Float>):Void {
-            updateTooltips(simulationFramerateSlider, handle, Std.int(values[handle]));
-        });
+		untyped simulationFramerateSlider.noUiSlider.on(UiSliderEvent.CHANGE, function(values:Array<Float>, handle:Int, rawValues:Array<Float>):Void {
+			simulationFramerate = Std.int(values[handle]);
+		});
+		untyped simulationFramerateSlider.noUiSlider.on(UiSliderEvent.UPDATE, function(values:Array<Float>, handle:Int, rawValues:Array<Float>):Void {
+			updateTooltips(simulationFramerateSlider, handle, Std.int(values[handle]));
+		});
 		
 		// Present game and start simulation loop
 		gameDiv.appendChild(renderer.domElement);
@@ -371,26 +371,26 @@ class Main {
 		return tex;
 	}
 	
-    /*
-     * Helper method to create tooltips on sliders
-     */
-    private function createTooltips(slider:Element):Void {
-        var tipHandles = slider.getElementsByClassName("noUi-handle");
-        for (i in 0...tipHandles.length) {
-            var div = js.Browser.document.createElement('div');
-            div.className += "tooltip";
-            tipHandles[i].appendChild(div);
-            updateTooltips(slider, i, 0);
-        }
-    }
+	/*
+	 * Helper method to create tooltips on sliders
+	 */
+	private function createTooltips(slider:Element):Void {
+		var tipHandles = slider.getElementsByClassName("noUi-handle");
+		for (i in 0...tipHandles.length) {
+			var div = js.Browser.document.createElement('div');
+			div.className += "tooltip";
+			tipHandles[i].appendChild(div);
+			updateTooltips(slider, i, 0);
+		}
+	}
 
-    /*
-     * Helper method to update the tooltips on sliders
-     */
-    private function updateTooltips(slider:Element, handleIdx:Int, value:Float):Void {
-        var tipHandles = slider.getElementsByClassName("noUi-handle");
-        tipHandles[handleIdx].innerHTML = "<span class='tooltip'>" + Std.string(value) + "</span>";
-    }
+	/*
+	 * Helper method to update the tooltips on sliders
+	 */
+	private function updateTooltips(slider:Element, handleIdx:Int, value:Float):Void {
+		var tipHandles = slider.getElementsByClassName("noUi-handle");
+		tipHandles[handleIdx].innerHTML = "<span class='tooltip'>" + Std.string(value) + "</span>";
+	}
 	
 	/**
 	 * Helper function for setting the currently selected pattern. When this updates, so should the content of the pattern file textbox.
