@@ -154,13 +154,14 @@ class GameOfLife {
 	public function isCellLive(x:Int, y:Int):Bool {
 		var buffer = new js.html.Uint8Array(4);
 		renderer.readRenderTargetPixels(current, x, y, 1, 1, buffer);
-		return buffer[3] == 255 ? true : false; // TODO fix
+		return buffer[3] == 255 ? true : false; // TODO fix when adding a feature that uses this (e.g. exporting/drawing with pointer)
 	}
 	
 	/**
 	 * Saves the state of the current render target as a string array, in the run-length encoded format (.rle).
 	 * @return	The .rle file representing the current render target.
 	 */
+	// TODO
 	public function saveStateToRle(?comments:Array<String>, ?name:String, ?author:String, ?rules:String):Array<String> {
 		var width = Std.int(current.width);
 		var height = Std.int(current.height);

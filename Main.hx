@@ -6,17 +6,19 @@ import js.html.DivElement;
 import js.html.Element;
 import js.html.SelectElement;
 import js.html.TextAreaElement;
+import js.nouislider.NoUiSlider;
 import shaders.Copy;
 import three.Color;
+import three.Mapping;
 import three.Mesh;
 import three.OrthographicCamera;
 import three.PlaneBufferGeometry;
 import three.Scene;
 import three.ShaderMaterial;
 import three.Texture;
+import three.TextureFilter;
 import three.WebGLRenderer;
 import three.Wrapping;
-import js.nouislider.NoUiSlider;
 import webgl.Detector;
 
 using StringTools;
@@ -73,9 +75,11 @@ class Main {
 			option.value = name;
 			patternPresetListElement.appendChild(option);
 			
-			#if debug // Check that all the embedded patterns are supported, can be read, expanded etc
-			var data = Reflect.field(Patterns, name);
-			PatternLoader.expandToBoolGrid(name, data);
+			#if debug // Check that all the embedded patterns are supported, can be read, expanded without errors etc
+			var data:Array<String> = Reflect.field(Patterns, name);
+			Sure.sure(data != null && data.length != 0);
+			var grid = PatternLoader.expandToBoolGrid(name, data);
+			Sure.sure(grid.length != 0);
 			#end
 		}
 		
@@ -179,7 +183,7 @@ class Main {
 			var x = (e.clientX - rect.left) / size.width;
 			var y = (e.clientY - rect.top) / size.height;
 			
-			onPointerDown(x, y); // TODO use % across or the coordinates as % of the render target, not the raw pointer coordinates
+			onPointerDown(x, y);
 		}, false);
 		
 		renderer.domElement.addEventListener("touchstart", function(e:Dynamic):Void {
@@ -187,12 +191,8 @@ class Main {
 			
 			var rect = renderer.domElement.getBoundingClientRect();
 			var size = renderer.getSize();
-			var x = (e.clientX - rect.left) / size.width;
-			var y = (e.clientY - rect.top) / size.height;
-			
-			// TODO fix, use touch stuff properly?
-			trace(x);
-			trace(y);
+			var x = (e.touches[0].clientX - rect.left) / size.width;
+			var y = (e.touches[0].clientY - rect.top) / size.height;
 			
 			onPointerDown(x, y);
 		}, false);
@@ -267,45 +267,21 @@ class Main {
 	 */
 	private function onPointerDown(x:Float, y:Float):Void {
 		var patternGrid = PatternLoader.expandToBoolGrid(selectedPatternName, Reflect.field(Patterns, selectedPatternName));
-		
-		var maxWidth:Int = 0;
-		for (line in patternGrid) {
-			if (line.length > maxWidth) {
-				maxWidth = line.length;
-			}
-		}
-		
-		var canvas = Browser.document.createCanvasElement();
-		canvas.width = nextPowerOfTwo(maxWidth);
-		canvas.height = nextPowerOfTwo(patternGrid.length);
-		var ctx = canvas.getContext("2d");
-		
-		ctx.beginPath();
-		ctx.rect(0, 0, canvas.width, canvas.height);
-		ctx.fillStyle = "black";
-		ctx.fill();
-		
-		for (y in 0...patternGrid.length) {
-			for (x in 0...patternGrid[y].length) {
-				if (patternGrid[y][x] == true) { // TODO make it work for the other formats, this is RLE specific
-					ctx.beginPath();
-					ctx.rect(x, y, 1, 1);
-					ctx.fillStyle = "white";
-					ctx.fill();
-				}
-			}
-		}
-		
-		var tex = new Texture(canvas);
-		tex.needsUpdate = true;
-		tex.wrapS = Wrapping.ClampToEdgeWrapping;
-		tex.wrapT = Wrapping.ClampToEdgeWrapping;
-		
-		//gameDiv.appendChild(canvas); // For debug viewing, note need to not dispose the canvas/texture
-		gameOfLife.stampPattern(x, y, tex);
+		var texture = getTextureForPattern(selectedPatternName, patternGrid);
+		gameOfLife.stampPattern(x, y, texture);
 		gameOfLife.step(true);
+		texture.dispose();
 		
-		tex.dispose();
+		/*
+		// Debug code, create all the patterns
+		for (name in Type.getClassFields(Patterns)) {
+			var data = Reflect.field(Patterns, name);
+			var grid = PatternLoader.expandToBoolGrid(name, data);
+			if (grid != null) {
+				var texture = getTextureForPattern(name, grid);
+			}
+		}
+		*/
 	}
 	
 	/**
@@ -342,6 +318,57 @@ class Main {
 			result <<= 1;
 		}
 		return result;
+	}
+	
+	/**
+	 * Gets the texture for the given pattern.
+	 * @param	patternGrid	The array of bools indicating the state of the cells.
+	 * @return	A texture representing the grid.
+	 */
+	private function getTextureForPattern(name:String, patternGrid:Array<Array<Bool>>):Texture {
+		var maxWidth:Int = 0;
+		for (line in patternGrid) {
+			if (line.length > maxWidth) {
+				maxWidth = line.length;
+			}
+		}
+		
+		var canvas = Browser.document.createCanvasElement();
+		canvas.width = nextPowerOfTwo(maxWidth);
+		canvas.height = nextPowerOfTwo(patternGrid.length);
+		var ctx = canvas.getContext("2d");
+		
+		ctx.beginPath();
+		ctx.rect(0, 0, canvas.width, canvas.height);
+		ctx.fillStyle = "black";
+		ctx.fill();
+		
+		for (y in 0...patternGrid.length) {
+			for (x in 0...patternGrid[y].length) {
+				if (patternGrid[y][x] == true) {
+					ctx.beginPath();
+					ctx.rect(x, y, 1, 1);
+					ctx.fillStyle = "white";
+					ctx.fill();
+				}
+			}
+		}
+		
+		// Debug - stamp the name of the pattern on the texture
+		/*
+		ctx.font = "14px Arial";
+		ctx.fillText(name, 10, 15);
+		*/
+		
+		var tex = new Texture(canvas, Mapping.UVMapping, Wrapping.ClampToEdgeWrapping, Wrapping.ClampToEdgeWrapping, TextureFilter.NearestFilter, TextureFilter.NearestFilter);
+		tex.needsUpdate = true;
+		
+		// For debug viewing
+		/*
+		gameDiv.appendChild(canvas);
+		*/
+		
+		return tex;
 	}
 	
     /*

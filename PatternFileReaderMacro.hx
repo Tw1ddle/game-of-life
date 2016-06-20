@@ -27,6 +27,11 @@ class PatternFileReaderMacro {
 					continue; // Skip directories
 				}
 				
+				if (files[i].endsWith(".md")) {
+					//trace("Skipping non-pattern: " + files[i]);
+					continue; // Skip readme
+				}
+				
                 var data = FileReader.loadFileAsString(directoryPath + "/" + files[i]);
 				
 				var file = files[i];

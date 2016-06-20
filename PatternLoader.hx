@@ -159,8 +159,6 @@ class LifeReader {
 		formatHeader = formatHeader.replace("#", "");
 		formatHeader.trim();
 		
-		trace(life);
-		
 		if (formatHeader.endsWith("5")) { // 1.05
 			var blockOriginX:Int = 0;
 			var blockOriginY:Int = 0;
