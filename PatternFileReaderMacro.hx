@@ -23,6 +23,10 @@ class PatternFileReaderMacro {
         try {
             var files = FileSystem.readDirectory(directoryPath);
             for (i in 0...files.length) {
+				if(FileSystem.isDirectory(directoryPath + "/" + files[i])) {
+					continue; // Skip directories
+				}
+				
                 var data = FileReader.loadFileAsString(directoryPath + "/" + files[i]);
 				
 				var file = files[i];
