@@ -352,8 +352,8 @@ class Main {
 		}
 		
 		var canvas = Browser.document.createCanvasElement();
-		canvas.width = nextPowerOfTwo(maxWidth);
-		canvas.height = nextPowerOfTwo(patternGrid.length);
+		canvas.width = maxWidth;
+		canvas.height = patternGrid.length;
 		var ctx = canvas.getContext("2d");
 		
 		ctx.beginPath();
@@ -379,6 +379,7 @@ class Main {
 		*/
 		
 		var tex = new Texture(canvas, Mapping.UVMapping, Wrapping.ClampToEdgeWrapping, Wrapping.ClampToEdgeWrapping, TextureFilter.NearestFilter, TextureFilter.NearestFilter);
+		tex.generateMipmaps = false;
 		tex.needsUpdate = true;
 		
 		// For debug viewing
