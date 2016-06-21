@@ -75,12 +75,14 @@ class Main {
 			option.value = name;
 			patternPresetListElement.appendChild(option);
 			
+			/*
 			#if debug // Check that all the embedded patterns are supported, can be read, expanded without errors etc
 			var data:Array<String> = Reflect.field(Patterns, name);
 			Sure.sure(data != null && data.length != 0);
 			var grid = PatternLoader.expandToBoolGrid(name, data);
 			Sure.sure(grid.length != 0);
 			#end
+			*/
 		}
 		
 		Sure.sure(Reflect.field(Patterns, DEFAULT_PATTERN_NAME));

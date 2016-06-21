@@ -65,12 +65,13 @@ class RLEReader {
 		}
 		
 		var result:Array<Array<Bool>> = [[]];
-		var rleRows:Array<String> = rlePattern.split("$");
+		var rleRows = rlePattern.replace("$", "$-").split("-");
+		trace(rleRows);
 		for (row in rleRows) {
 			var expandedRow:Array<Bool> = [];
 			var number:String = "";
-			for (i in 0...row.length) {
-				var ch = row.charAt(i);
+			for (letter in 0...row.length) {
+				var ch = row.charAt(letter);
 				if (runCountMatcher.match(ch)) {
 					number += ch;
 				} else if (ch == "o") {
@@ -91,10 +92,36 @@ class RLEReader {
 						expandedRow.push(false);
 						number = "";
 					}
+				} else if (ch == "$") {
+					Sure.sure(letter == row.length - 1);
+					result.push(expandedRow);
+					var runCount = 1;
+					if(number.length > 0) {
+						runCount = Std.parseInt(number);
+					}
+					var blankRow = [];
+					for (i in 0...width) {
+						blankRow.push(false);
+					}
+					for (i in 0...runCount - 1) {
+						result.push(blankRow.copy());
+					}
+					number = "";
 				}
 			}
-			result.push(expandedRow);
+			
+			if(row.indexOf("!") != -1 && row.indexOf("#") == -1) {// Catch the final line if it doesn't contain a $
+				result.push(expandedRow);
+			}
 		}
+		
+		for (row in result) {
+			while (row.length < width) {
+				row.push(false);
+			}
+		}
+		
+		trace(result);
 		
 		Sure.sure(result.length > 0);
 		return result;
