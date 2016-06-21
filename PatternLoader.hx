@@ -66,7 +66,6 @@ class RLEReader {
 		
 		var result:Array<Array<Bool>> = [[]];
 		var rleRows = rlePattern.replace("$", "$-").split("-");
-		trace(rleRows);
 		for (row in rleRows) {
 			var expandedRow:Array<Bool> = [];
 			var number:String = "";
@@ -120,8 +119,6 @@ class RLEReader {
 				row.push(false);
 			}
 		}
-		
-		trace(result);
 		
 		Sure.sure(result.length > 0);
 		return result;

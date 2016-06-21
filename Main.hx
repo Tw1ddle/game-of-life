@@ -231,10 +231,11 @@ class Main {
 		onPointerDown(0.35, 0.2);
 		onPointerDown(0.1, 0.3);
 		onPointerDown(0.1, 0.7);
-		onPointerDown(0.85, 0.4);
-		onPointerDown(0.83, 0.7);
+		onPointerDown(0.55, 0.4);
 		onPointerDown(0.35, 0.75);
 		onPointerDown(0.65, 0.85);
+		selectedPatternName = "backrake1_106_lif";
+		onPointerDown(0.83, 0.7);
 		selectedPatternName = DEFAULT_PATTERN_NAME;
 		
 		// Present game and start simulation loop
