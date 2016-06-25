@@ -249,6 +249,7 @@ class Main {
 		selectedPatternName = "roteightor_rle";
 		onPointerDown(0.15, 0.8);
 		onPointerDown(0.80, 0.75);
+		selectedPatternName = "spacefiller1_rle";
 		
 		// Present game and start simulation loop
 		gameDiv.appendChild(renderer.domElement);
