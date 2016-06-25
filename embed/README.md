@@ -7,7 +7,7 @@ Database compiled on: Wed, Jun 15 2016
 Downloaded from: www.conwaylife.com/patterns/all.zip
 ```
 
-The largest patterns have not been included here, in order to save bandwidth.
+I am using the run-length encoded (.rle) files. The largest patterns are also not included here, since they do not fit in the viewport.
 
 # License
 
