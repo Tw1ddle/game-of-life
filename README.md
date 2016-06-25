@@ -1,16 +1,15 @@
 [![Project logo](screenshots/game_of_life_logo.png "Game Of Life WebGL logo")](http://www.samcodes.co.uk/project/game-of-life/)
 
-Interactive implementation of **Conway's Game of Life** written in Haxe and three.js. Try it now [in your browser](http://www.samcodes.co.uk/project/game-of-life/).
+Interactive implementation of Conway's Game of Life written with Haxe and WebGL. Run it [in your browser](http://www.samcodes.co.uk/project/game-of-life/).
 
 ## Features
-* Interact with thousands of Game of Life patterns, add them to the simulation with a single click.
+* Add thousands of Game of Life patterns to the simulation with one click.
 * Speed up, slow down, step, pause and clear the simulation.
-* ~~Share snapshots of the simulation state.~~
-* ~~Palettes and other visual options.~~
+* Easily preview and select your preferred patterns.
 
 ## Usage
 
-Run the [demo](http://www.samcodes.co.uk/project/game-of-life/) - open the "Settings" section, select a pattern, and click or tap to add it to the simulation. Here it is in action:
+Run the [demo](http://www.samcodes.co.uk/project/game-of-life/), select a pattern via the dropdown or clicking in the preview area, and click or tap to add it to the simulation. Here it is in action:
 
 [![Screenshot](screenshots/screenshot_1.gif "Game Of Life WebGL screenshot 1")](http://www.samcodes.co.uk/project/game-of-life/)
 
@@ -26,7 +25,7 @@ Each time the simulation is updated, every cell in the grid interacts with its e
 * Any cell with more than three living neighbours dies (overpopulation).
 * Any dead cell with three living neighbours comes to life (reproduction).
 
-Conway designed these rules to produce interesting results - even self replicating patterns are possible. Read more [here](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
+Conway designed these rules to produce interesting results - even self replicating patterns can be produced. Read more [here](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
 ## Notes
 * The patterns are from the [LifeWiki](http://www.conwaylife.com/wiki/Main_Page) collection. Credit for these goes to the original creators.
