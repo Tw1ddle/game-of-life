@@ -151,10 +151,10 @@ class GameOfLife {
 	 * @param	y	The y-coordinate of the cell.
 	 * @return	True if the cell is alive, false if the cell is dead.
 	 */
-	public function isCellLive(x:Int, y:Int):Bool {
+	public function isCellLive(x:Float, y:Float):Bool {
 		var buffer = new js.html.Uint8Array(4);
-		renderer.readRenderTargetPixels(current, x, y, 1, 1, buffer);
-		return buffer[3] == 255 ? true : false; // TODO fix when adding a feature that uses this (e.g. exporting/drawing with pointer)
+		renderer.readRenderTargetPixels(current, Std.int(x * current.width), current.height - Std.int(y * current.height), 1, 1, buffer);
+		return buffer[0] == 255 ? true : false;
 	}
 	
 	/**

@@ -25,6 +25,7 @@
 	</head>
 	
     <body>
+<div id="container">
 		<section id="header">
 			<div class="inner">
 				<h1><strong>Game of Life Cellular Automaton</strong></h1>
@@ -34,61 +35,62 @@
 					<img class="logo" src="assets/images/logo.png" alt="game of life logo">
 				</a>
 				
-				<p>Interact with <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Conway's Game of Life</a> in this <a href="https://github.com/Tw1ddle/game-of-life" target="_blank">open source</a> implementation, written in <a href="http://haxe.org/" target="_blank">Haxe</a> by <a href="https://twitter.com/Sam_Twidale" target="_blank">Sam Twidale</a>. Made with patterns from <a href="http://www.conwaylife.com/wiki/Main_Page" target="_blank">LifeWiki</a>.</p>
+				<p>Interact with <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Conway's Game of Life</a> in this <a href="https://github.com/Tw1ddle/game-of-life" target="_blank">open source</a> implementation, written in <a href="http://haxe.org/" target="_blank">Haxe</a> by <a href="https://twitter.com/Sam_Twidale" target="_blank">Sam Twidale</a>. Featuring patterns from <a href="http://www.conwaylife.com/wiki/Main_Page" target="_blank">LifeWiki</a>.</p>
 			</div>
 		</section>
-		
-		<section id="accordion">
-			<div>
-				<input type="checkbox" id="check-1">
-				<h2><label for="check-1">Settings</label></h2>
-
-				<div class="settings">
-					
-					<div class="container stitched">
-						<div class="container">
-							<h3>Pattern Preset</h3>
-							<select id="patternpresetlist"></select>
-							
-							<h3>Pattern File</h3>
-							<textarea id="patternfileedit"></textarea>
-						</div>
-					</div>
-					
-					<br/>
-					<br/>
-					
-					<div class="container stitched">
-						<div id="controls">
-							<a class="button" id="liferunpausebutton">
-								<h2>Pause</h2>
-							</a>
-							<a class="button" id="lifestepbutton">
-								<h2>Step</h2>
-							</a>
-							<a class="button" id="lifeclearbutton">
-								<h2>Clear</h2>
-							</a>
-						</div>
-					</div>
-					
-					<br/>
-					<br/>
-					
-					<div class="sliders stitched">
-						<div class="container">
-							<h3>Simulation Framerate</h3>
-							<div id="simulationframerateslider" class="black"></div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</section>
-		
-		<br/>
 		
 		<div id="game" class="container stitched" oncontextmenu="return false;"></div>
+		
+		<br/>
+		<br/>
+		
+		<div class="container stitched">
+			<div id="controls">
+				<a class="button" id="liferunpausebutton">
+					<h2>Pause</h2>
+				</a>
+				<a class="button" id="lifestepbutton">
+					<h2>Step</h2>
+				</a>
+				
+				<div id="simulationframerateslider" class="black"></div>
+				
+				<a class="button" id="lifeclearbutton">
+					<h2>Clear</h2>
+				</a>
+			</div>
+		</div>
+			
+		<br/>
+		<br/>
+			
+		<div class="container stitched">
+			<div class="container">
+				<h3>Current Pattern</h3>
+				<select id="patternpresetlist"></select>
+				
+				<h3>Pattern File</h3>
+				<textarea id="patternfileedit"></textarea>
+			</div>
+		</div>
+		
+		<br/>
+		<br/>
+		
+		<div class="patternpreview stitched">
+			<div class="container">
+				<a class="button" id="randompatternbutton">
+					<h2>Random Pattern</h2>
+				</a>
+				<a class="button" id="clearpreviouspatterns">
+					<h2>Clear Cache</h2>
+				</a>
+			</div>
+			
+			<br/>
+			
+			<div id="usedpatternscontainer"></div>
+		</div>
 		
 		<br/>
 		<br/>
@@ -100,7 +102,7 @@
 			<p>Despite the simple rules, Life patterns exhibit chaotic changes. Conway designed the rules of the game to avoid explosive growth and produce interesting patterns. This formulation provides endless possibilities - the Game of Life is as powerful as a universal Turing machine, so even self-replicating patterns can be created.</p>
 			<p>This implementation uses <a href="https://www.khronos.org/webgl/wiki/Getting_Started" target="_blank">WebGL shaders</a> to run the Game of Life simulation on the graphics card. It uses a <a href="http://gamedev.stackexchange.com/questions/80951/what-is-ping-pong-in-the-context-of-graphics-rendering" target="_blank">ping-pong</a> technique with two render targets - one contains the current simulation step, and the other receives the results of applying the rules, producing the next simulation step.</p>
 			<p>The original Game of Life was not interactive, but this version allows live editing of the world. Simulation parameters and thousands of patterns are in the "Settings" section on this page. Select one of the preset patterns and try tapping on the world.</p>
-			<p>This demo was inspired by <a href="https://sourceforge.net/projects/golly/" target="_blank">Golly</a>, a cross-platform simulator for the Game of Life and other cellular automata. If you have any questions or suggestions then please get in touch or <a href="https://github.com/Tw1ddle/game-of-life" target="_blank">open an issue</a>. For more information about Conway's Game of Life, read the <a href="http://www.conwaylife.com/wiki/Main_Page" target="_blank">Game of Life Wiki.</p>
+			<p>This demo was inspired by <a href="https://sourceforge.net/projects/golly/" target="_blank">Golly</a>, a cross-platform simulator for the Game of Life and other cellular automata. If you have any questions or suggestions then please get in touch or <a href="https://github.com/Tw1ddle/game-of-life" target="_blank">open an issue</a>. For more information about Conway's Game of Life, read the <a href="http://www.conwaylife.com/wiki/Main_Page" target="_blank">Game of Life Wiki</a>.</p>
 		</div>
 		
 		<script type="text/javascript" src="js/wNumb.min.js"></script>
@@ -108,5 +110,7 @@
 		<script type="text/javascript" src="js/three.min.js"></script>
 		<script type="text/javascript" src="js/webgldetector.min.js"></script>
 		<script type="text/javascript" src="js/gameoflife.js"></script>
+			
+		</div>
 	</body>
 </html>

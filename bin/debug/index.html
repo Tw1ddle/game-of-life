@@ -25,6 +25,7 @@
 	</head>
 	
     <body>
+<div id="container">
 		<section id="header">
 			<div class="inner">
 				<h1><strong>Game of Life Cellular Automaton</strong></h1>
@@ -34,61 +35,62 @@
 					<img class="logo" src="assets/images/logo.png" alt="game of life logo">
 				</a>
 				
-				<p>Interact with <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Conway's Game of Life</a> in this <a href="https://github.com/Tw1ddle/game-of-life" target="_blank">open source</a> implementation, written in <a href="http://haxe.org/" target="_blank">Haxe</a> by <a href="https://twitter.com/Sam_Twidale" target="_blank">Sam Twidale</a>. Made with patterns from <a href="http://www.conwaylife.com/wiki/Main_Page" target="_blank">LifeWiki</a>.</p>
+				<p>Interact with <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Conway's Game of Life</a> in this <a href="https://github.com/Tw1ddle/game-of-life" target="_blank">open source</a> implementation, written in <a href="http://haxe.org/" target="_blank">Haxe</a> by <a href="https://twitter.com/Sam_Twidale" target="_blank">Sam Twidale</a>. Featuring patterns from <a href="http://www.conwaylife.com/wiki/Main_Page" target="_blank">LifeWiki</a>.</p>
 			</div>
 		</section>
-		
-		<section id="accordion">
-			<div>
-				<input type="checkbox" id="check-1">
-				<h2><label for="check-1">Settings</label></h2>
-
-				<div class="settings">
-					
-					<div class="container stitched">
-						<div class="container">
-							<h3>Pattern Preset</h3>
-							<select id="patternpresetlist"></select>
-							
-							<h3>Pattern File</h3>
-							<textarea id="patternfileedit"></textarea>
-						</div>
-					</div>
-					
-					<br/>
-					<br/>
-					
-					<div class="container stitched">
-						<div id="controls">
-							<a class="button" id="liferunpausebutton">
-								<h2>Pause</h2>
-							</a>
-							<a class="button" id="lifestepbutton">
-								<h2>Step</h2>
-							</a>
-							<a class="button" id="lifeclearbutton">
-								<h2>Clear</h2>
-							</a>
-						</div>
-					</div>
-					
-					<br/>
-					<br/>
-					
-					<div class="sliders stitched">
-						<div class="container">
-							<h3>Simulation Framerate</h3>
-							<div id="simulationframerateslider" class="black"></div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</section>
-		
-		<br/>
 		
 		<div id="game" class="container stitched" oncontextmenu="return false;"></div>
+		
+		<br/>
+		<br/>
+		
+		<div class="container stitched">
+			<div id="controls">
+				<a class="button" id="liferunpausebutton">
+					<h2>Pause</h2>
+				</a>
+				<a class="button" id="lifestepbutton">
+					<h2>Step</h2>
+				</a>
+				
+				<div id="simulationframerateslider" class="black"></div>
+				
+				<a class="button" id="lifeclearbutton">
+					<h2>Clear</h2>
+				</a>
+			</div>
+		</div>
+			
+		<br/>
+		<br/>
+			
+		<div class="container stitched">
+			<div class="container">
+				<h3>Current Pattern</h3>
+				<select id="patternpresetlist"></select>
+				
+				<h3>Pattern File</h3>
+				<textarea id="patternfileedit"></textarea>
+			</div>
+		</div>
+		
+		<br/>
+		<br/>
+		
+		<div class="patternpreview stitched">
+			<div class="container">
+				<a class="button" id="randompatternbutton">
+					<h2>Random Pattern</h2>
+				</a>
+				<a class="button" id="clearpreviouspatterns">
+					<h2>Clear Cache</h2>
+				</a>
+			</div>
+			
+			<br/>
+			
+			<div id="usedpatternscontainer"></div>
+		</div>
 		
 		<br/>
 		<br/>
@@ -108,5 +110,7 @@
 		<script type="text/javascript" src="js/three.js"></script>
 		<script type="text/javascript" src="js/webgldetector.js"></script>
 		<script type="text/javascript" src="js/gameoflife.js"></script>
+			
+		</div>
 	</body>
 </html>

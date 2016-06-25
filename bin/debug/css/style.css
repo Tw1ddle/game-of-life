@@ -252,8 +252,8 @@ a:hover {
 	text-transform: lowercase;
     resize: none;
     min-width: 80vw;
-    min-height: 300px;
-    max-height: 900px;
+    min-height: 150px;
+    max-height: 400px;
     border: 3px solid #cccccc;
     padding: 5px;
     background-position: bottom right;
@@ -267,4 +267,34 @@ a:hover {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+}
+
+.patternpreviewcontainer {
+	margin: 10px 10px 10px 10px;
+	
+}
+
+.previewcanvas {
+	margin: 10px 10px 10px 10px;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 10px;
+	
+	image-rendering: optimizeSpeed;             /* Older versions of FF          */
+	image-rendering: -moz-crisp-edges;          /* FF 6.0+                       */
+	image-rendering: -webkit-optimize-contrast; /* Safari                        */
+	image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+	image-rendering: pixelated;                 /* Awesome future-browsers       */
+	-ms-interpolation-mode: nearest-neighbor;   /* IE                            */
+}
+
+.previewcanvashighlight {
+	border-color: yellow;
+}
+
+#usedpatternscontainer {
+	display: flex;
+	justify-content:center;
+	flex-flow: row wrap;
+	flex-wrap: wrap;
 }

@@ -1,7 +1,9 @@
 package;
 
+import haxe.ds.StringMap;
 import js.Browser;
 import js.html.ButtonElement;
+import js.html.CanvasElement;
 import js.html.DivElement;
 import js.html.Element;
 import js.html.SelectElement;
@@ -50,9 +52,9 @@ class Main {
 	private var gameOfLife:GameOfLife;
 	private var copyMaterial:ShaderMaterial; // For rendering the final game of life texture to the screen
 	private var gameDiv:DivElement; // The HTML div the Game of Life simulation is nested in
-	
 	private var simulationFramerate:Float; // The simulation/update/tick framerate
 	
+	private var cachedCanvasMap:StringMap<CanvasElement>; // Map that caches references to canvas elements per pattern
 	private var selectedPatternName(default, set):String; // Name of the currently selected pattern file (name of the corresponding member variable in the Patterns class)
 	
 	private var patternPresetListElement:SelectElement = cast Browser.document.getElementById(ID.patternpresetlist);
@@ -62,6 +64,11 @@ class Main {
 	private var runPauseButtonElement:ButtonElement = cast Browser.document.getElementById(ID.liferunpausebutton);
 	
 	private var simulationFramerateSlider:Element = cast Browser.document.getElementById(ID.simulationframerateslider);
+	
+	private var patternPreviewContainer:ButtonElement = cast Browser.document.getElementById(ID.usedpatternscontainer);
+	
+	private var randomPatternButtonElement:ButtonElement = cast Browser.document.getElementById(ID.randompatternbutton);
+	private var clearPreviousPatternsButtonElement:ButtonElement = cast Browser.document.getElementById(ID.clearpreviouspatterns);
 
 	private static function main():Void {
 		var main = new Main();
@@ -74,16 +81,9 @@ class Main {
 			option.appendChild(Browser.document.createTextNode(name));
 			option.value = name;
 			patternPresetListElement.appendChild(option);
-			
-			/*
-			#if debug // Check that all the embedded patterns are supported, can be read, expanded without errors etc
-			var data:Array<String> = Reflect.field(Patterns, name);
-			Sure.sure(data != null && data.length != 0);
-			var grid = PatternLoader.expandToBoolGrid(name, data);
-			Sure.sure(grid.length != 0);
-			#end
-			*/
 		}
+		
+		cachedCanvasMap = new StringMap();
 		
 		Sure.sure(Reflect.field(Patterns, DEFAULT_PATTERN_NAME));
 		selectedPatternName = DEFAULT_PATTERN_NAME;
@@ -154,10 +154,6 @@ class Main {
 			selectedPatternName = patternPresetListElement.value;
 		}, false);
 		
-		lifeClearButtonElement.addEventListener("click", function() {
-			gameOfLife.clear(clearColor);
-		}, false);
-		
 		lifeStepButtonElement.addEventListener("click", function() {
 			if (!gameOfLife.paused) {
 				gameOfLife.togglePaused();
@@ -170,6 +166,24 @@ class Main {
 		runPauseButtonElement.addEventListener("click", function() {
 			gameOfLife.togglePaused();
 			onPauseToggled();
+		}, false);
+		
+		randomPatternButtonElement.addEventListener("click", function() {
+			var fields = Type.getClassFields(Patterns);
+			var randomField = fields[Std.int((fields.length - 1) * Math.random())];
+			var fileContent = Reflect.field(Patterns, randomField);
+			var patternGrid = PatternLoader.expandToBoolGrid(randomField, fileContent);
+			var canvas = getCanvasForPattern(randomField, patternGrid);
+			selectedPatternName = randomField;
+			addCanvasToPreview(randomField, canvas);
+		}, false);
+		
+		lifeClearButtonElement.addEventListener("click", function() {
+			gameOfLife.clear(clearColor);
+		}, false);
+		
+		clearPreviousPatternsButtonElement.addEventListener("click", function() {
+			patternPreviewContainer.innerHTML = "";
 		}, false);
 		
 		// Window resize event
@@ -185,7 +199,11 @@ class Main {
 			var x = (e.clientX - rect.left) / size.width;
 			var y = (e.clientY - rect.top) / size.height;
 			
-			onPointerDown(x, y);
+			if (e.which == 3 || e.button == 2) { // Right click
+				fillPixel(x, y);
+			} else {
+				onPointerDown(x, y);
+			}
 		}, false);
 		
 		renderer.domElement.addEventListener("touchstart", function(e:Dynamic):Void {
@@ -220,23 +238,17 @@ class Main {
 		});
 		
 		// Setup a default world
-		selectedPatternName = "roteightor_cells";
-		onPointerDown(0.1, 0.1);
-		onPointerDown(0.7, 0.15);
-		onPointerDown(0.2, 0.5);
-		onPointerDown(0.65, 0.55);
-		onPointerDown(0.2, 0.8);
-		onPointerDown(0.85, 0.85);
-		selectedPatternName = "ringoffire_rle";
-		onPointerDown(0.35, 0.2);
-		onPointerDown(0.1, 0.3);
-		onPointerDown(0.1, 0.7);
-		onPointerDown(0.55, 0.4);
-		onPointerDown(0.35, 0.75);
-		onPointerDown(0.65, 0.85);
-		selectedPatternName = "backrake1_106_lif";
-		onPointerDown(0.83, 0.7);
-		selectedPatternName = DEFAULT_PATTERN_NAME;
+		selectedPatternName = "lightspeedoscillator1_rle";
+		onPointerDown(0.04, 0.10);
+		selectedPatternName = "lightspeedoscillator3_rle";
+		onPointerDown(0.35, 0.05);
+		selectedPatternName = "lightspeedoscillator2_rle";
+		onPointerDown(0.66, 0.10);
+		selectedPatternName = "linepuffer_rle";
+		onPointerDown(0.2, 0.6);
+		selectedPatternName = "roteightor_rle";
+		onPointerDown(0.15, 0.8);
+		onPointerDown(0.80, 0.75);
 		
 		// Present game and start simulation loop
 		gameDiv.appendChild(renderer.domElement);
@@ -266,7 +278,7 @@ class Main {
 	 * Triggered when the user resizes the browser.
 	 */
 	private function onResize():Void {
-		var size = previousPowerOfTwo(Browser.window.innerWidth);
+		var size = previousPowerOfTwo(Std.int(Math.min(Browser.window.innerWidth, Browser.window.innerHeight)));
 		renderer.setSize(size, size);
 	}
 	
@@ -288,21 +300,34 @@ class Main {
 	 */
 	private function onPointerDown(x:Float, y:Float):Void {
 		var patternGrid = PatternLoader.expandToBoolGrid(selectedPatternName, Reflect.field(Patterns, selectedPatternName));
-		var texture = getTextureForPattern(selectedPatternName, patternGrid);
+		var canvas = getCanvasForPattern(selectedPatternName, patternGrid);
+		addCanvasToPreview(selectedPatternName, canvas);
+		var texture = getTexture(canvas);
 		gameOfLife.stampPattern(x, y, texture);
 		gameOfLife.step(true);
 		texture.dispose();
-		
+	}
+
+	/**
+	 * Bring a pixel to life. Called when the user right clicks the Game of Life world using a mouse.
+	 * @param	x	The percentage distance the pointer was across the renderer view element.
+	 * @param	y	The percentage distance the pointer was up the renderer view element.
+	 */
+	private function fillPixel(x:Float, y:Float):Void {
+		// Could use this to kill live cells too
 		/*
-		// Debug code, create all the patterns
-		for (name in Type.getClassFields(Patterns)) {
-			var data = Reflect.field(Patterns, name);
-			var grid = PatternLoader.expandToBoolGrid(name, data);
-			if (grid != null) {
-				var texture = getTextureForPattern(name, grid);
-			}
+		var pattern = null;
+		if (gameOfLife.isCellLive(x, y)) {
+			pattern = [[false]]; // Kill the cell
+		} else {
+			pattern = [[true]]; // Bring the cell to life
 		}
 		*/
+		
+		var texture = getTexture(getCanvasForPattern("single_pixel_for_mouse_painting", [[true]]));
+		gameOfLife.stampPattern(x, y, texture);
+		gameOfLife.step(true);
+		texture.dispose();
 	}
 	
 	/**
@@ -313,6 +338,157 @@ class Main {
 		var patterns = Type.getClassFields(Patterns);
 		var randomFieldIndex = Std.int(Math.random() * (patterns.length - 1));
 		return Reflect.field(Patterns, patterns[randomFieldIndex]);
+	}
+	
+	/**
+	 * Creates a canvas element for the given name and pattern
+	 * @param	name	The name of the pattern
+	 * @param	patternGrid	The grid of booleans representing the pattern
+	 * @return	The new canvas element representing the pattern
+	 */
+	private inline function getCanvasForPattern(name:String, patternGrid:Array<Array<Bool>>):CanvasElement {
+		if (cachedCanvasMap.exists(name)) {
+			return cachedCanvasMap.get(name);
+		}
+		
+		var maxWidth:Int = 0;
+		for (line in patternGrid) {
+			if (line.length > maxWidth) {
+				maxWidth = line.length;
+			}
+		}
+		
+		var canvas = Browser.document.createCanvasElement();
+		canvas.id = name;
+		canvas.width = maxWidth;
+		canvas.height = patternGrid.length;
+		var ctx = canvas.getContext("2d");
+		
+		ctx.beginPath();
+		ctx.rect(0, 0, canvas.width, canvas.height);
+		ctx.fillStyle = "black";
+		ctx.fill();
+		
+		for (y in 0...patternGrid.length) {
+			for (x in 0...patternGrid[y].length) {
+				if (patternGrid[y][x] == true) {
+					ctx.beginPath();
+					ctx.rect(x, y, 1, 1);
+					ctx.fillStyle = "white";
+					ctx.fill();
+				}
+			}
+		}
+		
+		cachedCanvasMap.set(name, canvas);
+		return canvas;
+	}
+	
+	/**
+	 * Adds the given canvas to the pattern previews pane
+	 * @param	name	The name of the pattern
+	 * @param	canvas	The canvas to add to the pane
+	 */
+	private inline function addCanvasToPreview(name:String, canvas:CanvasElement):Void {
+		// Check if the canvas already exists in the pane
+		if (Browser.document.getElementById(name) != null) {
+			return;
+		}
+		
+		// Create pattern preview element
+		var patternPreviewDiv:DivElement = Browser.document.createDivElement();
+		patternPreviewDiv.className = "patternpreviewcontainer";
+		var patternTitle:Element = Browser.document.createElement("h3");
+		patternTitle.innerHTML = name;
+		patternPreviewDiv.appendChild(canvas);
+		patternPreviewDiv.appendChild(patternTitle);
+		
+		// TODO setup so that the canvases can be clicked, and the last selected one is highlighted
+		canvas.className = "previewcanvas previewcanvashighlight";
+		var width = Math.min(200, canvas.width * 4);
+		canvas.setAttribute("style", "width: " + Std.string(width) + "px");
+		
+		patternPreviewDiv.addEventListener("click", function(e:Dynamic):Void {
+			selectedPatternName = canvas.id;
+		});
+		
+		updateHighlightedPattern(name);
+		patternPreviewContainer.insertBefore(patternPreviewDiv, patternPreviewContainer.firstChild);
+	}
+	
+	/**
+	 * Creates a texture from the given canvas
+	 * @param	canvas	The canvas to create a texture with.
+	 * @return	A texture made using the canvas.
+	 */
+	private function getTexture(canvas:CanvasElement):Texture {
+		var tex = new Texture(canvas, Mapping.UVMapping, Wrapping.ClampToEdgeWrapping, Wrapping.ClampToEdgeWrapping, TextureFilter.NearestFilter, TextureFilter.NearestFilter);
+		tex.generateMipmaps = false;
+		tex.needsUpdate = true;
+		return tex;
+	}
+	
+	/*
+	 * Helper method to create tooltips on sliders
+	 */
+	private function createTooltips(slider:Element):Void {
+		var tipHandles = slider.getElementsByClassName("noUi-handle");
+		for (i in 0...tipHandles.length) {
+			var div = js.Browser.document.createElement('div');
+			div.className += "tooltip";
+			tipHandles[i].appendChild(div);
+			updateTooltips(slider, i, 0);
+		}
+	}
+
+	/*
+	 * Helper method to update the tooltips on sliders
+	 */
+	private function updateTooltips(slider:Element, handleIdx:Int, value:Float):Void {
+		var tipHandles = slider.getElementsByClassName("noUi-handle");
+		tipHandles[handleIdx].innerHTML = "<span class='tooltip'>" + Std.string(value) + "</span>";
+	}
+	
+	/**
+	 * Helper function that highlights the current pattern in the pattern preview area.
+	 */
+	private inline function updateHighlightedPattern(name:String):Void {
+		for (canvas in cachedCanvasMap) {
+			if (canvas.id == name) {
+				canvas.classList.add("previewcanvashighlight");
+			} else {
+				canvas.classList.remove("previewcanvashighlight");
+			}
+		}
+	}
+	
+	/**
+	 * Helper function for setting the currently selected pattern. When this updates, so should the content of the pattern file textbox.
+	 * @param	patternName	The name of the member variable in the Patterns class that corresponds to the file.
+	 * @return	The current pattern name.
+	 */
+	private function set_selectedPatternName(patternName:String):String {
+		updateHighlightedPattern(patternName);
+		
+		selectedPatternName = patternName;
+		
+		
+		
+		var fileContent:Array<String> = Reflect.getProperty(Patterns, patternName);
+		Sure.sure(fileContent.length > 0);
+		
+		// Ensure empty lines count as newlines in the text edit
+		var content = "";
+		for (line in fileContent) {
+			content += line + "\r";
+		}
+		patternFileEditElement.value = content;
+		
+		if (patternPresetListElement.value != patternName) {
+			patternPresetListElement.value = patternName;
+		}
+		
+		return selectedPatternName;
 	}
 	
 	/**
@@ -339,103 +515,5 @@ class Main {
 			result <<= 1;
 		}
 		return result;
-	}
-	
-	/**
-	 * Gets the texture for the given pattern.
-	 * @param	patternGrid	The array of bools indicating the state of the cells.
-	 * @return	A texture representing the grid.
-	 */
-	private function getTextureForPattern(name:String, patternGrid:Array<Array<Bool>>):Texture {
-		var maxWidth:Int = 0;
-		for (line in patternGrid) {
-			if (line.length > maxWidth) {
-				maxWidth = line.length;
-			}
-		}
-		
-		var canvas = Browser.document.createCanvasElement();
-		canvas.width = maxWidth;
-		canvas.height = patternGrid.length;
-		var ctx = canvas.getContext("2d");
-		
-		ctx.beginPath();
-		ctx.rect(0, 0, canvas.width, canvas.height);
-		ctx.fillStyle = "black";
-		ctx.fill();
-		
-		for (y in 0...patternGrid.length) {
-			for (x in 0...patternGrid[y].length) {
-				if (patternGrid[y][x] == true) {
-					ctx.beginPath();
-					ctx.rect(x, y, 1, 1);
-					ctx.fillStyle = "white";
-					ctx.fill();
-				}
-			}
-		}
-		
-		// Debug - stamp the name of the pattern on the texture
-		/*
-		ctx.font = "14px Arial";
-		ctx.fillText(name, 10, 15);
-		*/
-		
-		var tex = new Texture(canvas, Mapping.UVMapping, Wrapping.ClampToEdgeWrapping, Wrapping.ClampToEdgeWrapping, TextureFilter.NearestFilter, TextureFilter.NearestFilter);
-		tex.generateMipmaps = false;
-		tex.needsUpdate = true;
-		
-		// For debug viewing
-		/*
-		gameDiv.appendChild(canvas);
-		*/
-		
-		return tex;
-	}
-	
-	/*
-	 * Helper method to create tooltips on sliders
-	 */
-	private function createTooltips(slider:Element):Void {
-		var tipHandles = slider.getElementsByClassName("noUi-handle");
-		for (i in 0...tipHandles.length) {
-			var div = js.Browser.document.createElement('div');
-			div.className += "tooltip";
-			tipHandles[i].appendChild(div);
-			updateTooltips(slider, i, 0);
-		}
-	}
-
-	/*
-	 * Helper method to update the tooltips on sliders
-	 */
-	private function updateTooltips(slider:Element, handleIdx:Int, value:Float):Void {
-		var tipHandles = slider.getElementsByClassName("noUi-handle");
-		tipHandles[handleIdx].innerHTML = "<span class='tooltip'>" + Std.string(value) + "</span>";
-	}
-	
-	/**
-	 * Helper function for setting the currently selected pattern. When this updates, so should the content of the pattern file textbox.
-	 * @param	patternName	The name of the member variable in the Patterns class that corresponds to the file.
-	 * @return	The current pattern name.
-	 */
-	private function set_selectedPatternName(patternName:String):String {
-		selectedPatternName = patternName;
-		
-		var fileContent:Array<String> = Reflect.getProperty(Patterns, patternName);
-		Sure.sure(fileContent.length > 0);
-		
-		// Ensure empty lines count as newlines in the text edit
-		var content = "";
-		for (line in fileContent) {
-			content += line + "\r";
-		}
-		patternFileEditElement.value = content;
-		
-		if (patternPresetListElement.value != patternName) {
-			patternPresetListElement.value = patternName;
-		}
-		
-		return selectedPatternName;
 	}
 }
