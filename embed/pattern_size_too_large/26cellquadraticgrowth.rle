@@ -1,7 +1,0 @@
-#N 26-cell quadratic growth
-#O Nick Gotts
-#C A 26-cell pattern that exhibits quadratic growth (the smallest known such pattern).
-#C www.conwaylife.com/wiki/index.php?title=26-cell_quadratic_growth
-x = 16193, y = 15089, rule = B3/S23
-b2o$2o$bo29$16bo$15bobo$15bo$14bo15024$16187bo3bo$16188bobo$16189bo2bo
-$16192bo$16192bo21$16159bo$16160bo$16161bo$16160bo$16159bo$16161b3o!
