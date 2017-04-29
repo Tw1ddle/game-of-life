@@ -1,5 +1,7 @@
 [![Project logo](screenshots/game_of_life_logo.png "Game Of Life WebGL logo")](http://www.samcodes.co.uk/project/game-of-life/)
 
+[![Build Status](https://img.shields.io/travis/Tw1ddle/game-of-life.svg?style=flat-square)](https://travis-ci.org/Tw1ddle/game-of-life)
+
 Interactive implementation of Conway's Game of Life written with Haxe and WebGL. Run it [in your browser](http://www.samcodes.co.uk/project/game-of-life/).
 
 ## Features
