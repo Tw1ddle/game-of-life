@@ -1,7 +1,3 @@
 --no-traces
 
--cp lib
-
--lib sure
-
 -js bin/release/js/gameoflife.js
