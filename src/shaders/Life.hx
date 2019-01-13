@@ -1,7 +1,7 @@
 package shaders;
 
-import three.Vector2;
-import three.Vector4;
+import js.three.Vector2;
+import js.three.Vector4;
 import util.FileReader;
 
 class Life {

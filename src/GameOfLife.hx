@@ -1,21 +1,22 @@
 package;
 
+import js.three.Color;
+import js.three.Mesh;
+import js.three.OrthographicCamera;
+import js.three.PixelFormat;
+import js.three.Geometry;
+import js.three.PlaneBufferGeometry;
+import js.three.Scene;
+import js.three.ShaderMaterial;
+import js.three.Texture;
+import js.three.TextureFilter;
+import js.three.WebGLRenderTarget;
+import js.three.WebGLRenderTargetOptions;
+import js.three.WebGLRenderer;
+import js.three.Wrapping;
 import shaders.Clear;
 import shaders.Life;
 import shaders.Stamp;
-import three.Color;
-import three.Mesh;
-import three.OrthographicCamera;
-import three.PixelFormat;
-import three.PlaneBufferGeometry;
-import three.Scene;
-import three.ShaderMaterial;
-import three.Texture;
-import three.TextureFilter;
-import three.WebGLRenderTarget;
-import three.WebGLRenderTargetOptions;
-import three.WebGLRenderer;
-import three.Wrapping;
 
 /**
  * A WebGL/three.js implementation of Conway's Game of Life.
@@ -45,7 +46,7 @@ class GameOfLife {
 		this.renderer = renderer;
 		camera = new OrthographicCamera(-0.5, 0.5, 0.5, -0.5, 0, 1);
 		scene = new Scene();
-		params = { minFilter: TextureFilter.NearestFilter, magFilter: TextureFilter.NearestFilter, format: cast PixelFormat.RGBAFormat, wrapS: Wrapping.RepeatWrapping, wrapT: Wrapping.RepeatWrapping };
+		params = cast { minFilter: cast ThreeVars.NearestFilter, magFilter: cast ThreeVars.NearestFilter, format: cast ThreeVars.RGBAFormat, wrapS: cast ThreeVars.RepeatWrapping, wrapT: cast ThreeVars.RepeatWrapping };
 		ping = new WebGLRenderTarget(width, height, params);
 		pong = new WebGLRenderTarget(width, height, params);
 		current = ping;
@@ -70,7 +71,8 @@ class GameOfLife {
 			uniforms: Clear.uniforms
 		});
 		
-		mesh = new Mesh(new PlaneBufferGeometry(1, 1));
+		var geom = new PlaneBufferGeometry(1, 1);
+		mesh = new Mesh(cast geom);
 		mesh.material = lifeMaterial;
 		scene.add(mesh);
 		
@@ -97,7 +99,7 @@ class GameOfLife {
 		
 		// Render the scene into the non-current render target
 		var nonCurrent = current == ping ? pong : ping;
-		renderer.render(this.scene, this.camera, nonCurrent, true);
+		renderer.render(this.scene, this.camera, cast nonCurrent, true);
 	}
 	
 	/**
@@ -121,7 +123,7 @@ class GameOfLife {
 		
 		// Render the scene into the non-current render target
 		var nonCurrent = current == ping ? pong : ping;
-		renderer.render(this.scene, this.camera, nonCurrent, true);
+		renderer.render(this.scene, this.camera, cast nonCurrent, true);
 		
 		mesh.material = lifeMaterial;
 	}
@@ -135,8 +137,8 @@ class GameOfLife {
 		
 		clearMaterial.uniforms.clearColor.value.set(color.r, color.g, color.b, 1.0);
 		
-		renderer.render(this.scene, this.camera, ping, true);
-		renderer.render(this.scene, this.camera, pong, true);
+		renderer.render(this.scene, this.camera, cast ping, true);
+		renderer.render(this.scene, this.camera, cast pong, true);
 		
 		mesh.material = lifeMaterial;
 	}
@@ -153,7 +155,7 @@ class GameOfLife {
 	 */
 	public function isCellLive(x:Float, y:Float):Bool {
 		var buffer = new js.html.Uint8Array(4);
-		renderer.readRenderTargetPixels(current, Std.int(x * current.width), current.height - Std.int(y * current.height), 1, 1, buffer);
+		renderer.readRenderTargetPixels(cast current, Std.int(x * current.width), current.height - Std.int(y * current.height), 1, 1, buffer);
 		return buffer[0] == 255 ? true : false;
 	}
 	
@@ -167,7 +169,7 @@ class GameOfLife {
 		var height = Std.int(current.height);
 		
 		var pixels = new js.html.Uint8Array(width * height * 4);
-		renderer.readRenderTargetPixels(current, 0, 0, current.width, current.height, pixels);
+		renderer.readRenderTargetPixels(cast current, 0, 0, current.width, current.height, pixels);
 		
 		var state:Array<String> = [];
 		

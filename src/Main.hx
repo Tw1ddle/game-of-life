@@ -9,27 +9,27 @@ import js.html.Element;
 import js.html.SelectElement;
 import js.html.TextAreaElement;
 import js.nouislider.NoUiSlider;
+import js.three.Color;
+import js.three.Mapping;
+import js.three.Mesh;
+import js.three.OrthographicCamera;
+import js.three.PlaneBufferGeometry;
+import js.three.Scene;
+import js.three.ShaderMaterial;
+import js.three.Texture;
+import js.three.TextureFilter;
+import js.three.WebGLRenderer;
+import js.three.Wrapping;
 import shaders.Copy;
-import three.Color;
-import three.Mapping;
-import three.Mesh;
-import three.OrthographicCamera;
-import three.PlaneBufferGeometry;
-import three.Scene;
-import three.ShaderMaterial;
-import three.Texture;
-import three.TextureFilter;
-import three.WebGLRenderer;
-import three.Wrapping;
 import webgl.Detector;
 
 using StringTools;
 
 // Automatic HTML code completion, you need to point these to your debug/release HTML
 #if debug
-@:build(CodeCompletion.buildLocalFile("bin/debug/index.html"))
+@:build(CodeCompletion.buildLocalFile("../bin/debug/index.html"))
 #else
-@:build(CodeCompletion.buildLocalFile("bin/release/index.html"))
+@:build(CodeCompletion.buildLocalFile("../bin/release/index.html"))
 #end
 class ID {}
 
@@ -143,7 +143,7 @@ class Main {
 		copyMaterial.uniforms.tTexture.value = null;
 		
 		// Populate scene
-		var mesh = new Mesh(new PlaneBufferGeometry(1, 1), copyMaterial);
+		var mesh = new Mesh(cast new PlaneBufferGeometry(1, 1), copyMaterial);
 		scene.add(mesh);
 		
 		// Initial renderer setup
@@ -423,7 +423,7 @@ class Main {
 	 * @return	A texture made using the canvas.
 	 */
 	private function getTexture(canvas:CanvasElement):Texture {
-		var tex = new Texture(canvas, Mapping.UVMapping, Wrapping.ClampToEdgeWrapping, Wrapping.ClampToEdgeWrapping, TextureFilter.NearestFilter, TextureFilter.NearestFilter);
+		var tex = new Texture(canvas, cast ThreeVars.UVMapping, cast ThreeVars.ClampToEdgeWrapping, cast ThreeVars.ClampToEdgeWrapping, cast ThreeVars.NearestFilter, cast ThreeVars.NearestFilter);
 		tex.generateMipmaps = false;
 		tex.needsUpdate = true;
 		return tex;

@@ -1,6 +1,6 @@
 package shaders;
 
-import three.Vector2;
+import js.three.Vector2;
 import util.FileReader;
 
 class Stamp {

@@ -14,11 +14,14 @@ haxe:
   - "3.4.2"
 
 install:
+  - haxelib install threejs
   - haxelib install Sure
 
 script:
+  - pushd src
   - haxe GameOfLife.hxml debug.hxml
   - haxe GameOfLife.hxml release.hxml
+  - popd
 
 # Deploy the generated demo using Travis builtin GitHub Pages support
 deploy:

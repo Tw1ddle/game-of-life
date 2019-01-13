@@ -1,6 +1,6 @@
 package shaders;
 
-import three.Vector4;
+import js.three.Vector4;
 import util.FileReader;
 
 class Clear {
