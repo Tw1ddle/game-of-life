@@ -20,15 +20,14 @@ install:
 
 script:
   - pushd src
-  - haxe GameOfLife.hxml debug.hxml
-  - haxe GameOfLife.hxml release.hxml
+  - haxe GameOfLife.hxml
   - popd
 
 # Deploy the generated demo using Travis builtin GitHub Pages support
 deploy:
   provider: pages
   skip_cleanup: true
-  local_dir: bin/release
+  local_dir: bin
   github_token: $GITHUB_API_KEY
   target-branch: gh-pages
   on:

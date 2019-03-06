@@ -1,5 +1,0 @@
---no-traces
-
--lib threejs
-
--js ../bin/release/js/gameoflife.js

@@ -2,4 +2,8 @@
 
 -lib sure
 
+-lib threejs
+
 -cp lib
+
+-js ../bin/js/gameoflife.js

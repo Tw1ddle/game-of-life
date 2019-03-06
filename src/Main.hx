@@ -10,27 +10,20 @@ import js.html.SelectElement;
 import js.html.TextAreaElement;
 import js.nouislider.NoUiSlider;
 import js.three.Color;
-import js.three.Mapping;
 import js.three.Mesh;
 import js.three.OrthographicCamera;
 import js.three.PlaneBufferGeometry;
 import js.three.Scene;
 import js.three.ShaderMaterial;
 import js.three.Texture;
-import js.three.TextureFilter;
 import js.three.WebGLRenderer;
-import js.three.Wrapping;
 import shaders.Copy;
 import webgl.Detector;
 
 using StringTools;
 
-// Automatic HTML code completion, you need to point these to your debug/release HTML
-#if debug
-@:build(CodeCompletion.buildLocalFile("../bin/debug/index.html"))
-#else
-@:build(CodeCompletion.buildLocalFile("../bin/release/index.html"))
-#end
+// Automatic HTML code completion, you need to point these to your HTML
+@:build(CodeCompletion.buildLocalFile("../bin/index.html"))
 class ID {}
 
 // Stores the embedded pattern files from the /embed folder as arrays of strings for use at runtime
@@ -40,7 +33,7 @@ class Patterns {
 }
 
 class Main {
-	private static inline var WEBSITE_URL:String = "http://www.samcodes.co.uk/project/game-of-life/"; // Hosted demo URL
+	private static inline var WEBSITE_URL:String = "https://www.samcodes.co.uk/project/game-of-life/"; // Hosted demo URL
 	private static inline var REPO_URL:String = "https://github.com/Tw1ddle/game-of-life/"; // Code repository URL
 	
 	private static inline var DEFAULT_PATTERN_NAME:String = "gosperglidergun_rle"; // Name of the default pattern preset

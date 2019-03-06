@@ -1,5 +1,0 @@
--debug
-
--lib threejs
-
--js ../bin/debug/js/gameoflife.js
