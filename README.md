@@ -3,16 +3,16 @@
 [![Build Status](https://img.shields.io/travis/Tw1ddle/game-of-life.svg?style=flat-square)](https://travis-ci.org/Tw1ddle/game-of-life)
 [![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat-square)](https://github.com/Tw1ddle/game-of-life/blob/master/LICENSE)
 
-Conway's Game of Life written with Haxe and WebGL. Run it [in your browser](https://www.samcodes.co.uk/project/game-of-life/).
+Conway's Game of Life written using Haxe and WebGL. Run it [in your browser](https://www.samcodes.co.uk/project/game-of-life/).
 
 ## Features
-* Select from thousands of Game of Life patterns, add them with one click.
-* Speed up, slow down, step, pause and clear the game world.
+* Select from thousands of Game of Life patterns, add them to the simulation with one click.
+* Speed up, slow down, frame-step, pause and clear the game world.
 * Preview and choose your preferred patterns interactively.
 
 ## Usage
 
-Run the [demo](https://www.samcodes.co.uk/project/game-of-life/), select a pattern via the dropdown or clicking in the preview area, and click or tap to add it to the simulation. Here it is in action:
+Run the [demo](https://www.samcodes.co.uk/project/game-of-life/), select a pattern via the dropdown or clicking in the preview area, and click or tap on the game canvas to add it to the simulation. Here it is in action:
 
 [![Screenshot](screenshots/screenshot_1.gif "Game Of Life WebGL screenshot 1")](https://www.samcodes.co.uk/project/game-of-life/)
 
