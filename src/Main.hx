@@ -26,12 +26,6 @@ using StringTools;
 @:build(CodeCompletion.buildLocalFile("../bin/index.html"))
 class ID {}
 
-// Stores the embedded pattern files from the /embed folder as arrays of strings for use at runtime
-@:build(PatternFileReaderMacro.build("embed"))
-@:keep
-class Patterns {
-}
-
 class Main {
 	private static inline var WEBSITE_URL:String = "https://www.samcodes.co.uk/project/game-of-life/"; // Hosted demo URL
 	private static inline var REPO_URL:String = "https://github.com/Tw1ddle/game-of-life/"; // Code repository URL
@@ -78,7 +72,7 @@ class Main {
 		
 		cachedCanvasMap = new StringMap();
 		
-		Sure.sure(Reflect.field(Patterns, DEFAULT_PATTERN_NAME));
+		Sure.sure(Reflect.field(Patterns, DEFAULT_PATTERN_NAME) != null);
 		selectedPatternName = DEFAULT_PATTERN_NAME;
 		
 		simulationFramerate = 30;
@@ -247,6 +241,7 @@ class Main {
 		// Present game and start simulation loop
 		gameDiv.appendChild(renderer.domElement);
 		var gameAttachPoint = Browser.document.getElementById("game");
+		gameAttachPoint.innerHTML = "";
 		gameAttachPoint.appendChild(gameDiv);
 		animate();
 	}
@@ -465,8 +460,6 @@ class Main {
 		updateHighlightedPattern(patternName);
 		
 		selectedPatternName = patternName;
-		
-		
 		
 		var fileContent:Array<String> = Reflect.getProperty(Patterns, patternName);
 		Sure.sure(fileContent.length > 0);
