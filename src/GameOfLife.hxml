@@ -1,7 +1,6 @@
 -main Main
 
 -lib sure
-
 -lib threejs
 
 -cp lib

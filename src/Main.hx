@@ -17,6 +17,9 @@ import js.three.Scene;
 import js.three.ShaderMaterial;
 import js.three.Texture;
 import js.three.WebGLRenderer;
+import life.GameOfLife;
+import life.PatternLoader;
+import life.Patterns;
 import shaders.Copy;
 import webgl.Detector;
 
@@ -33,27 +36,24 @@ class Main {
 	private static inline var DEFAULT_PATTERN_NAME:String = "gosperglidergun_rle"; // Name of the default pattern preset
 	
 	private var renderer:WebGLRenderer; // The WebGL renderer
-	private var clearColor:Color; // The color to clear the Game of Life area to when manually cleared
 	private var scene:Scene;
 	private var camera:OrthographicCamera;
 	private var gameOfLife:GameOfLife;
+	private var clearColor:Color; // The color to clear the Game of Life area to when manually cleared
 	private var copyMaterial:ShaderMaterial; // For rendering the final game of life texture to the screen
-	private var gameDiv:DivElement; // The HTML div the Game of Life simulation is nested in
 	private var simulationFramerate:Float; // The simulation/update/tick framerate
 	
 	private var cachedCanvasMap:StringMap<CanvasElement>; // Map that caches references to canvas elements per pattern
 	private var selectedPatternName(default, set):String; // Name of the currently selected pattern file (name of the corresponding member variable in the Patterns class)
 	
+	private var gameDiv:DivElement = null; // The HTML div the Game of Life simulation will be nested in
 	private var patternPresetListElement:SelectElement = cast Browser.document.getElementById(ID.patternpresetlist);
 	private var patternFileEditElement:TextAreaElement = cast Browser.document.getElementById(ID.patternfileedit);
 	private var lifeClearButtonElement:ButtonElement = cast Browser.document.getElementById(ID.lifeclearbutton);
 	private var lifeStepButtonElement:ButtonElement = cast Browser.document.getElementById(ID.lifestepbutton);
 	private var runPauseButtonElement:ButtonElement = cast Browser.document.getElementById(ID.liferunpausebutton);
-	
 	private var simulationFramerateSlider:Element = cast Browser.document.getElementById(ID.simulationframerateslider);
-	
 	private var patternPreviewContainer:ButtonElement = cast Browser.document.getElementById(ID.usedpatternscontainer);
-	
 	private var randomPatternButtonElement:ButtonElement = cast Browser.document.getElementById(ID.randompatternbutton);
 	private var clearPreviousPatternsButtonElement:ButtonElement = cast Browser.document.getElementById(ID.clearpreviouspatterns);
 
@@ -62,7 +62,7 @@ class Main {
 	}
 
 	private inline function new() {
-		for (name in Type.getClassFields(Patterns)) {
+		for (name in Type.getClassFields(life.Patterns)) {
 			// Populate the embedded pattern select dropdown
 			var option = Browser.document.createOptionElement();
 			option.appendChild(Browser.document.createTextNode(name));
@@ -70,9 +70,11 @@ class Main {
 			patternPresetListElement.appendChild(option);
 		}
 		
+		clearColor = new Color(0x000000);
+		
 		cachedCanvasMap = new StringMap();
 		
-		Sure.sure(Reflect.field(Patterns, DEFAULT_PATTERN_NAME) != null);
+		Sure.sure(Reflect.field(life.Patterns, DEFAULT_PATTERN_NAME) != null);
 		selectedPatternName = DEFAULT_PATTERN_NAME;
 		
 		simulationFramerate = 30;
@@ -110,8 +112,6 @@ class Main {
         renderer = new WebGLRenderer( { antialias: true } );
 		renderer.autoClear = false;
 		renderer.setPixelRatio(Browser.window.devicePixelRatio);
-		
-		clearColor = new Color(0x000000);
 		
 		// Scene setup
 		scene = new Scene();
@@ -254,7 +254,7 @@ class Main {
 		gameOfLife.step();
 		
 		// Render the game of life scene to the screen
-		copyMaterial.uniforms.tTexture.value = gameOfLife.current.texture;
+		copyMaterial.uniforms.tTexture.value = gameOfLife.currentTexture;
 		renderer.render(scene, camera);
 		
 		var nextFrameDelay = Std.int((1.0 / this.simulationFramerate) * 1000.0);
@@ -267,8 +267,18 @@ class Main {
 	 * Triggered when the user resizes the browser.
 	 */
 	private function onResize():Void {
-		var size = previousPowerOfTwo(Std.int(Math.min(Browser.window.innerWidth, Browser.window.innerHeight)));
-		renderer.setSize(size, size);
+		var width:Int = Std.int(Math.max(128, previousPowerOfTwo(Std.int(Browser.window.innerWidth))));
+		var height:Int = Std.int(Math.max(128, previousPowerOfTwo(Std.int(Browser.window.innerHeight))));
+		var downscaledWidth:Int = previousPowerOfTwo(width);
+		var downscaledHeight:Int = previousPowerOfTwo(height);
+		
+		// Size has changed enough to trigger a rescale of the render targets
+		if (downscaledWidth != gameOfLife.width || downscaledHeight != gameOfLife.height) {
+			gameOfLife.clear(clearColor);
+			gameOfLife.createRenderTargets(downscaledWidth, downscaledHeight);
+		}
+		
+		renderer.setSize(width, height);
 	}
 	
 	/**
@@ -461,7 +471,7 @@ class Main {
 		
 		selectedPatternName = patternName;
 		
-		var fileContent:Array<String> = Reflect.getProperty(Patterns, patternName);
+		var fileContent:Array<String> = Reflect.getProperty(life.Patterns, patternName);
 		Sure.sure(fileContent.length > 0);
 		
 		// Ensure empty lines count as newlines in the text edit
@@ -483,7 +493,7 @@ class Main {
 	 * @param	x	The value to compute the next power of 2 above.
 	 * @return	The next power of 2 above x.
 	 */
-	private inline function nextPowerOfTwo(x:Int):Int {
+	private static inline function nextPowerOfTwo(x:Int):Int {
 		var result:Int = 1;
 		while (result < x) {
 			result <<= 1;
@@ -496,7 +506,7 @@ class Main {
 	 * @param	x	The value to compute the previous power of 2 below.
 	 * @return	The previous power of 2 below x.
 	 */
-	private inline function previousPowerOfTwo(x:Int):Int {
+	private static inline function previousPowerOfTwo(x:Int):Int {
 		var result:Int = 1;
 		while (result << 1 < x) {
 			result <<= 1;

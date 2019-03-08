@@ -1,19 +1,15 @@
-package;
+package life;
 
 import js.three.Color;
 import js.three.Mesh;
 import js.three.OrthographicCamera;
-import js.three.PixelFormat;
-import js.three.Geometry;
 import js.three.PlaneBufferGeometry;
 import js.three.Scene;
 import js.three.ShaderMaterial;
 import js.three.Texture;
-import js.three.TextureFilter;
 import js.three.WebGLRenderTarget;
 import js.three.WebGLRenderTargetOptions;
 import js.three.WebGLRenderer;
-import js.three.Wrapping;
 import shaders.Clear;
 import shaders.Life;
 import shaders.Stamp;
@@ -24,17 +20,22 @@ import shaders.Stamp;
  */
 class GameOfLife {
 	private var renderer:WebGLRenderer;
-	private var camera:OrthographicCamera;
 	private var scene:Scene;
-	private var params:WebGLRenderTargetOptions; // The ping-pong render target parameters
+	private var camera:OrthographicCamera;
+	private var pingOrPong:Bool; // False means ping should be displayed next, true means pong should be displayed next
 	private var ping:WebGLRenderTarget; // The first render target
 	private var pong:WebGLRenderTarget; // The second render target
-	public var current(default, null):WebGLRenderTarget; // The render target that should be displayed next
+	private var current(get, never):WebGLRenderTarget; // The current render target that will be displayed next
+	private var nonCurrent(get, never):WebGLRenderTarget; // The non-current render target that isn't being displayed 
 	private var lifeMaterial(default, null):ShaderMaterial; // Material used to step the simulation
 	private var stampMaterial(default, null):ShaderMaterial; // Material used to stamp patterns onto the render targets, for seeding/interactive editing of the world
 	private var clearMaterial(default, null):ShaderMaterial; // Material used to clear the world
 	private var mesh:Mesh;
+	
 	public var paused(default, null):Bool; // Whether the simulation is paused or not
+	public var currentTexture(get, never):Texture; // The texture held by the current render target
+	public var width(get, never):Int; // The width of the current render target
+	public var height(get, never):Int; // The height of the current render target
 	
 	/**
 	 * Creates a new Game of Life simulator.
@@ -44,12 +45,11 @@ class GameOfLife {
 	 */
 	public function new(renderer:WebGLRenderer, width:Int, height:Int) {
 		this.renderer = renderer;
-		camera = new OrthographicCamera(-0.5, 0.5, 0.5, -0.5, 0, 1);
 		scene = new Scene();
-		params = cast { minFilter: cast ThreeVars.NearestFilter, magFilter: cast ThreeVars.NearestFilter, format: cast ThreeVars.RGBAFormat, wrapS: cast ThreeVars.RepeatWrapping, wrapT: cast ThreeVars.RepeatWrapping };
-		ping = new WebGLRenderTarget(width, height, params);
-		pong = new WebGLRenderTarget(width, height, params);
-		current = ping;
+		camera = new OrthographicCamera(-0.5, 0.5, 0.5, -0.5, 0, 1);
+		createRenderTargets(width, height);
+		pingOrPong = false;
+		
 		lifeMaterial = new ShaderMaterial( {
 			vertexShader: Life.vertexShader,
 			fragmentShader: Life.fragmentShader,
@@ -89,17 +89,16 @@ class GameOfLife {
 		}
 		
 		// Swap render targets
-		current = current == ping ? pong : ping;
+		pingOrPong = !pingOrPong;
 		
 		// Set uniforms
-		lifeMaterial.uniforms.tUniverse.value = current.texture;
-		lifeMaterial.uniforms.texelSize.value.set(1 / current.width, 1 / current.height);
+		lifeMaterial.uniforms.tUniverse.value = currentTexture;
+		lifeMaterial.uniforms.texelSize.value.set(1 / width, 1 / height);
 		lifeMaterial.uniforms.liveColor.value.set(1.0, 1.0, 1.0, 1.0);
 		lifeMaterial.uniforms.deadColor.value.set(0.0, 0.0, 0.0, 1.0);
 		
 		// Render the scene into the non-current render target
-		var nonCurrent = current == ping ? pong : ping;
-		renderer.render(this.scene, this.camera, cast nonCurrent, true);
+		renderer.render(this.scene, this.camera, cast this.nonCurrent, true);
 	}
 	
 	/**
@@ -112,18 +111,17 @@ class GameOfLife {
 		mesh.material = stampMaterial;
 		
 		// Scale to render target coordinates
-		x = Std.int(x * current.width);
-		y = Std.int(y * current.height);
+		x = Std.int(x * width);
+		y = Std.int(y * height);
 		
 		// Set uniforms
 		stampMaterial.uniforms.tStamp.value = pattern;
-		stampMaterial.uniforms.tLast.value = current.texture;
-		stampMaterial.uniforms.pos.value.set(x / current.width, (current.height - y - pattern.image.height) / current.height);
-		stampMaterial.uniforms.size.value.set(pattern.image.width / current.width, pattern.image.height / current.height);
+		stampMaterial.uniforms.tLast.value = currentTexture;
+		stampMaterial.uniforms.pos.value.set(x / width, (height - y - pattern.image.height) / height);
+		stampMaterial.uniforms.size.value.set(pattern.image.width / width, pattern.image.height / height);
 		
 		// Render the scene into the non-current render target
-		var nonCurrent = current == ping ? pong : ping;
-		renderer.render(this.scene, this.camera, cast nonCurrent, true);
+		renderer.render(this.scene, this.camera, cast this.nonCurrent, true);
 		
 		mesh.material = lifeMaterial;
 	}
@@ -155,57 +153,40 @@ class GameOfLife {
 	 */
 	public function isCellLive(x:Float, y:Float):Bool {
 		var buffer = new js.html.Uint8Array(4);
-		renderer.readRenderTargetPixels(cast current, Std.int(x * current.width), current.height - Std.int(y * current.height), 1, 1, buffer);
+		renderer.readRenderTargetPixels(cast current, Std.int(x * width), height - Std.int(y * height), 1, 1, buffer);
 		return buffer[0] == 255 ? true : false;
 	}
 	
 	/**
-	 * Saves the state of the current render target as a string array, in the run-length encoded format (.rle).
-	 * @return	The .rle file representing the current render target.
+	 * Creates/recreates the ping-pong render targets with the given (power of two) widths and heights.
+	 * @param	width The width of the render targets.
+	 * @param	height The height of the render targets.
 	 */
-	// TODO
-	public function saveStateToRle(?comments:Array<String>, ?name:String, ?author:String, ?rules:String):Array<String> {
-		var width = Std.int(current.width);
-		var height = Std.int(current.height);
-		
-		var pixels = new js.html.Uint8Array(width * height * 4);
-		renderer.readRenderTargetPixels(cast current, 0, 0, current.width, current.height, pixels);
-		
-		var state:Array<String> = [];
-		
-		if (comments != null && comments.length != 0) {
-			for (comment in comments) {
-				state.push("#C " + comment);
-			}
-		}
-		
-		if (name != null && name.length != 0) {
-			state.push("#N " + name);
-		}
-		
-		if (author != null && author.length != 0) {
-			state.push("#O " + author);
-		}
-		
-		// TODO skipping saving a P for now, need to add
-		
-		if (rules != null && rules.length != 0) {
-			state.push("#R " + rules);
-		}
-		
-		// TODO
-		var currentRun:Int = 0;
-		
-		for (y in 0...height) {
-			for (x in 0...width) {
-				// TODO
-			}
-		}
-		
-		// TODO split lines to be 70 chars max (ugh)
-		
-		state[state.length - 1] = state[state.length - 1] + "!";
-		
-		return state;
+	public function createRenderTargets(width:Int, height:Int):Void {
+		var params = cast { minFilter: cast ThreeVars.NearestFilter, magFilter: cast ThreeVars.NearestFilter, format: cast ThreeVars.RGBAFormat, wrapS: cast ThreeVars.RepeatWrapping, wrapT: cast ThreeVars.RepeatWrapping };
+		ping = new WebGLRenderTarget(width, height, params);
+		pong = new WebGLRenderTarget(width, height, params);
+	}
+	
+	private function get_currentTexture():Texture {
+		return current.texture;
+	}
+	
+	private function get_width():Int {
+		Sure.sure(ping.width == pong.width);
+		return Std.int(current.width);
+	}
+	
+	private function get_height():Int {
+		Sure.sure(ping.height == pong.height);
+		return Std.int(current.height);
+	}
+	
+	private function get_current():WebGLRenderTarget {
+		return pingOrPong == false ? ping : pong;
+	}
+	
+	private function get_nonCurrent():WebGLRenderTarget {
+		return pingOrPong == false ? pong : ping;
 	}
 }

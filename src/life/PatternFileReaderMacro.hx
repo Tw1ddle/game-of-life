@@ -1,12 +1,14 @@
-package;
+package life;
+
+#if macro
 
 import haxe.macro.Context;
 import haxe.macro.Expr.Access.APublic;
 import haxe.macro.Expr.Access.AStatic;
 import haxe.macro.Expr.Field;
 import haxe.macro.Expr.FieldType.FVar;
-import sys.FileSystem;
 import util.FileReader;
+import sys.FileSystem;
 
 using StringTools;
 
@@ -64,3 +66,5 @@ class PatternFileReaderMacro {
 		return fields;
 	}
 }
+
+#end
