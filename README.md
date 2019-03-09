@@ -18,7 +18,7 @@ Run the [demo](https://www.samcodes.co.uk/project/game-of-life/), and press anyw
 
 [![Animated Game of Life screenshot 2](screenshots/screenshot_2.gif "Game Of Life WebGL screenshot 2")](https://www.samcodes.co.uk/project/game-of-life/)
 
-Select from thousands of different Life patterns by clicking on the selection dropdown or previews area further down on the page:
+Select from thousands of different Life patterns via the selection dropdown or the pattern previews section:
 
 [![Game of Life pattern selection area screenshot](screenshots/screenshot_4.png "Game of Life WebGL screenshot 4")](https://www.samcodes.co.uk/project/game-of-life/)
 
@@ -38,7 +38,7 @@ Each time the simulation is updated, every cell in the grid interacts with its e
 
 Conway designed these rules to produce interesting results - even self replicating patterns can be produced. Read more [here](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
-In this implementation, the Game of Life rules are applied in a GLSL shader on a graphics card, using a ping-pong technique with two render targets. One render target contains the current simulation step, and the other receives the results of applying the rules of the game, producing the next simulation step. In other words, we use the output of the last simulation step as input to the next one.
+In this [implementation](https://github.com/Tw1ddle/game-of-life/blob/master/src/life/GameOfLife.hx), the Game of Life rules are applied via a GLSL [shader](https://github.com/Tw1ddle/game-of-life/blob/master/src/shaders/life.fragment) that runs on the graphics card. It uses a ping-pong technique with two render targets: one render target contains the current simulation step, and the other receives the results of applying the rules of the game to produce the next simulation step. In other words, we use the output of the last simulation step as input to the next one, alternating between render targets on every step.
 
 ## Notes
 * The patterns are from the [LifeWiki](http://www.conwaylife.com/wiki/Main_Page) collection. Credit for these goes to the original creators.
