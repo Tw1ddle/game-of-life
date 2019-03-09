@@ -8,15 +8,15 @@ Conway's Game of Life written using Haxe and WebGL. Run it [in your browser](htt
 ## Features
 * Select from thousands of Game of Life patterns, add them to the simulation with one click.
 * Speed up, slow down, frame-step, pause and clear the game world.
-* Preview and choose your preferred patterns interactively.
+* Browse, preview and pick the patterns to add interactively.
 
 ## Usage
 
 Run the [demo](https://www.samcodes.co.uk/project/game-of-life/), and press anywhere on the Game of Life canvas to add a pattern to the simulation. Here it is in action:
 
-[![Animated Game of Life screenshot 1](screenshots/screenshot_1.gif "Game Of Life WebGL screenshot 1")](https://www.samcodes.co.uk/project/game-of-life/)
-
-[![Animated Game of Life screenshot 2](screenshots/screenshot_2.gif "Game Of Life WebGL screenshot 2")](https://www.samcodes.co.uk/project/game-of-life/)
+                           |                           
+:-------------------------:|:-------------------------:
+[![Animated Game of Life screenshot 1](screenshots/screenshot_1.gif "Game Of Life WebGL screenshot 1")](https://www.samcodes.co.uk/project/game-of-life/) | [![Animated Game of Life screenshot 2](screenshots/screenshot_2.gif "Game Of Life WebGL screenshot 2")](https://www.samcodes.co.uk/project/game-of-life/)
 
 You can select from thousands of different Life patterns by clicking on the selection dropdown or previews area further down on the page:
 
@@ -44,9 +44,9 @@ In this implementation, the Game of Life rules are applied in a GLSL shader on a
 ## Notes
 * The patterns are from the [LifeWiki](http://www.conwaylife.com/wiki/Main_Page) collection. Credit for these goes to the original creators.
 * This project was inspired by [Golly](https://sourceforge.net/projects/golly/), a cross-platform cellular automaton simulator.
-* If you have any questions or suggestions then [get in touch](https://twitter.com/Sam_Twidale) or open an issue.
+* If you have any questions or suggestions then send Sam a message on [Twitter](https://twitter.com/Sam_Twidale) or open an issue.
 
 ## License
-* The Haxe and webpage code here, but not the pattern files, are licensed under the [GPL](https://www.gnu.org/licenses/quick-guide-gplv3.en.html).
+* The Haxe and webpage code, but not the pattern files, are licensed under the [GPL](https://www.gnu.org/licenses/quick-guide-gplv3.en.html).
 * The [noUiSlider](https://github.com/leongersen/noUiSlider) settings sliders are WTFPL.
 * The [three.js](https://github.com/mrdoob/three.js/) library is MIT.
