@@ -14,18 +14,17 @@ Conway's Game of Life written using Haxe and WebGL. Run it [in your browser](htt
 
 Run the [demo](https://www.samcodes.co.uk/project/game-of-life/), and press anywhere on the Game of Life canvas to add a pattern to the simulation. Here it is in action:
 
-                           |                           
-:-------------------------:|:-------------------------:
-[![Animated Game of Life screenshot 1](screenshots/screenshot_1.gif "Game Of Life WebGL screenshot 1")](https://www.samcodes.co.uk/project/game-of-life/) | [![Animated Game of Life screenshot 2](screenshots/screenshot_2.gif "Game Of Life WebGL screenshot 2")](https://www.samcodes.co.uk/project/game-of-life/)
+[![Animated Game of Life screenshot 1](screenshots/screenshot_1.gif "Game Of Life WebGL screenshot 1")](https://www.samcodes.co.uk/project/game-of-life/)
 
-You can select from thousands of different Life patterns by clicking on the selection dropdown or previews area further down on the page:
+[![Animated Game of Life screenshot 2](screenshots/screenshot_2.gif "Game Of Life WebGL screenshot 2")](https://www.samcodes.co.uk/project/game-of-life/)
+
+Select from thousands of different Life patterns by clicking on the selection dropdown or previews area further down on the page:
 
 [![Game of Life pattern selection area screenshot](screenshots/screenshot_4.png "Game of Life WebGL screenshot 4")](https://www.samcodes.co.uk/project/game-of-life/)
 
-On a high resolution display, the canvas size will be large. The canvas scales by powers of two (1024x512, 1024x1024 etc):
+Resize the browser window to change the simulation size. The canvas scales by powers of two (1024x512, 1024x1024 etc):
 
 [![Game of Life on large canvas screenshot](screenshots/screenshot_3.png "Game Of Life WebGL screenshot 3")](https://www.samcodes.co.uk/project/game-of-life/)
-
 
 ## How It Works
 The [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is a [cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton) invented by [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) in 1970. It is a simulation that takes place on a two-dimensional orthogonal grid of square cells, each of which can either be dead or alive.
