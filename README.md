@@ -30,6 +30,8 @@ Each time the simulation is updated, every cell in the grid interacts with its e
 
 Conway designed these rules to produce interesting results - even self replicating patterns can be produced. Read more [here](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
+In this implementation, the Game of Life rules are applied in a GLSL shader on a graphics card, using a ping-pong technique with two render targets. One render target contains the current simulation step, and the other receives the results of applying the rules of the game, producing the next simulation step. In other words, we use the output of the last simulation step as input to the next one.
+
 ## Notes
 * The patterns are from the [LifeWiki](http://www.conwaylife.com/wiki/Main_Page) collection. Credit for these goes to the original creators.
 * This project was inspired by [Golly](https://sourceforge.net/projects/golly/), a cross-platform cellular automaton simulator.
