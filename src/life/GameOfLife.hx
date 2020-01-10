@@ -152,7 +152,7 @@ class GameOfLife {
 	 * @return	True if the cell is alive, false if the cell is dead.
 	 */
 	public function isCellLive(x:Float, y:Float):Bool {
-		var buffer = new js.html.Uint8Array(4);
+		var buffer = new js.lib.Uint8Array(4);
 		renderer.readRenderTargetPixels(cast current, Std.int(x * width), height - Std.int(y * height), 1, 1, buffer);
 		return buffer[0] == 255 ? true : false;
 	}

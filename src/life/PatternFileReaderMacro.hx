@@ -38,8 +38,9 @@ class PatternFileReaderMacro {
 				
 				var file = files[i];
 				
-				// Take a filename e.g. 1beacon.cells and replace dots with underscores: 1beacon_cells
-				var name = file.replace(".", "_");
+				// Take a filename e.g. 1beacon.cells and replace disallowed characters with underscores: 1beacon_cells
+				// Also remove leading numbers (Haxe field names have restrictions on them)
+				var name = "pattern_" + file.replace(".", "_").replace("+", "_").replace("-", "_");
 				
 				var lines = splitter.split(data);
 				

@@ -33,7 +33,7 @@ class Main {
 	private static inline var WEBSITE_URL:String = "https://www.samcodes.co.uk/project/game-of-life/"; // Hosted demo URL
 	private static inline var REPO_URL:String = "https://github.com/Tw1ddle/game-of-life/"; // Code repository URL
 	
-	private static inline var DEFAULT_PATTERN_NAME:String = "gosperglidergun_rle"; // Name of the default pattern preset
+	private static inline var DEFAULT_PATTERN_NAME:String = "pattern_gosperglidergun_rle"; // Name of the default pattern preset
 	
 	private var renderer:WebGLRenderer; // The WebGL renderer
 	private var scene:Scene;
@@ -225,18 +225,18 @@ class Main {
 		});
 		
 		// Setup a default world
-		selectedPatternName = "lightspeedoscillator1_rle";
+		selectedPatternName = "pattern_lightspeedoscillator1_rle";
 		onPointerDown(0.04, 0.10);
-		selectedPatternName = "lightspeedoscillator3_rle";
+		selectedPatternName = "pattern_lightspeedoscillator3_rle";
 		onPointerDown(0.35, 0.05);
-		selectedPatternName = "lightspeedoscillator2_rle";
+		selectedPatternName = "pattern_lightspeedoscillator2_rle";
 		onPointerDown(0.66, 0.10);
-		selectedPatternName = "linepuffer_rle";
+		selectedPatternName = "pattern_linepuffer_rle";
 		onPointerDown(0.2, 0.6);
-		selectedPatternName = "roteightor_rle";
+		selectedPatternName = "pattern_roteightor_rle";
 		onPointerDown(0.15, 0.8);
 		onPointerDown(0.80, 0.75);
-		selectedPatternName = "spacefiller1_rle";
+		selectedPatternName = "pattern_spacefiller1_rle";
 		
 		// Present game and start simulation loop
 		gameDiv.appendChild(renderer.domElement);
