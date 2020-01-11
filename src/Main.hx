@@ -22,6 +22,8 @@ import life.PatternLoader;
 import life.Patterns;
 import shaders.Copy;
 import webgl.Detector;
+import websocket.PatternImageStream;
+import haxe.io.Bytes;
 
 using StringTools;
 
@@ -243,6 +245,11 @@ class Main {
 		var gameAttachPoint = Browser.document.getElementById("game");
 		gameAttachPoint.innerHTML = "";
 		gameAttachPoint.appendChild(gameDiv);
+
+		// Try connecting to a local WebSocket to receive images from elsewhere
+		// You can connect by adding a parameter to the ip/port
+		tryConnectWebSocket();
+
 		animate();
 	}
 	
@@ -402,7 +409,6 @@ class Main {
 		patternPreviewDiv.appendChild(canvas);
 		patternPreviewDiv.appendChild(patternTitle);
 		
-		// TODO setup so that the canvases can be clicked, and the last selected one is highlighted
 		canvas.className = "previewcanvas previewcanvashighlight";
 		var width = Math.min(200, canvas.width * 4);
 		canvas.setAttribute("style", "width: " + Std.string(width) + "px");
@@ -512,5 +518,112 @@ class Main {
 			result <<= 1;
 		}
 		return result;
+	}
+
+	/*
+	 * Checks if the query string in the browser bar location is empty
+	 */ 
+	 private static inline function isQueryStringEmpty():Bool {
+		var params = Browser.window.location.search.substring(1);
+		if (params == null || params == "") {
+			return true;
+		}
+		return false;
+	}
+
+	/*
+	 * Returns the address/port given in the query string, if one is there
+	 */ 
+	private function getWebSocketHostAndPort():String {
+		if (isQueryStringEmpty()) {
+			return null;
+		}
+		var params = Browser.window.location.search.substring(1);
+		var splitParams = params.split("&");
+		for (param in splitParams) {
+			var kv = param.split("=");
+			if (kv.length < 2) {
+				continue;
+			}
+			var k = kv[0].urlDecode();
+			var v = kv[1].urlDecode();
+
+			if(k == "socket") {
+				return v;
+			}
+		}
+		return null;
+	}
+
+	/**
+	 * Tries to connect to a web socket if an address and port have been supplied in the query string
+	 */
+	private static var imagesReceivedFromWebSocketCount:Int = 0;
+	private inline function tryConnectWebSocket():Void {
+		var hostAndPort:String = getWebSocketHostAndPort();
+		if(hostAndPort == null) {
+			return;
+		}
+
+		var patternImageStream = new PatternImageStream();
+		patternImageStream.onConnected = ()-> {
+			trace("Connect WebSocket to " + hostAndPort);
+		};
+
+		patternImageStream.onMessage = function(data:Bytes) {
+			if(data == null || data.length < 8) {
+				trace("Failed to receive data, message too small");
+				return;
+			}
+			trace("Received data: " + data.length + " bytes");
+
+			// Interpret message as an RGBA8888 image with 4-byte width and height at the start
+
+			var width:Int = data.getInt32(0);
+			var height:Int = data.getInt32(4);
+			if(width * height * 4 != data.length - 8) {
+				trace("Image width and height does not match total length: " + Std.string(width * height * 4) + " vs " + Std.string(data.length - 8));
+				return;
+			}
+
+			var blackAndWhite:Array<Bool> = [];
+			var i = 0;
+			while(i < data.length - 8) {
+				blackAndWhite.push(data.getInt32(i) != 0);
+				i += 4;
+			}
+
+			// TODO fix life/PatternLoader.hx:17: Unsupported file in pattern embed folder: canvas_from_websocket_0 errors
+			// TODO possibly convert image into an RLE file, then add it, and then go through the usual route (file -> pattern grid -> canvas -> texture)
+
+			var patternGrid = [[]];
+			for(h in 0...height) {
+				var row:Array<Bool> = [];
+				for(w in 0...width) {
+					row.push(blackAndWhite[h * width + w]);
+				}
+				patternGrid.push(row);
+			}
+
+			var patternName:String = "canvas_from_websocket_" + imagesReceivedFromWebSocketCount;
+
+			// Image set from WebSocket data doesn't have any associated pattern file/text
+			Reflect.setProperty(life.Patterns, patternName, [ "#n from WebSocket, so no file here" ]);
+
+			var canvas = getCanvasForPattern(patternName, patternGrid);
+			addCanvasToPreview(patternName, canvas);
+
+			// Populate the embedded pattern select dropdown
+			var option = Browser.document.createOptionElement();
+			option.appendChild(Browser.document.createTextNode(patternName));
+			option.value = patternName;
+			patternPresetListElement.appendChild(option);
+
+			selectedPatternName = patternName;
+
+			imagesReceivedFromWebSocketCount++;
+		};
+
+		patternImageStream.connect("ws://" + hostAndPort); // NOTE should be wss for HTTPS
 	}
 }

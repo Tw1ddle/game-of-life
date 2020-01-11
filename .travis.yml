@@ -12,10 +12,11 @@ os:
 
 # see haxe versions: http://haxe.org/website-content/downloads/versions.json
 haxe:
-  - "3.4.2"
+  - "4.0.5"
 
 install:
   - haxelib install Sure
+  - haxelib install hxWebSockets
   - haxelib install threejs
 
 script:

@@ -1,5 +1,6 @@
 -main Main
 
+-lib hxWebSockets
 -lib sure
 -lib threejs
 
