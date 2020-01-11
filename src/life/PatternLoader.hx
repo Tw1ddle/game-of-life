@@ -22,7 +22,7 @@ class PatternLoader {
 
 /**
  * Expands and converts run length encoded patterns.
- * @see http://www.conwaylife.com/wiki/RLE
+ * @see https://www.conwaylife.com/wiki/RLE
  */
 class RLEReader {
 	public static function expandRle(rle:Array<String>):Array<Array<Bool>> {
@@ -127,7 +127,7 @@ class RLEReader {
 
 /**
  * Expands and converts "plain text" cells format patterns.
- * @see http://www.conwaylife.com/wiki/Plaintext
+ * @see https://www.conwaylife.com/wiki/Plaintext
  */
 class PlaintextCellsReader {
 	public static function expandCells(cells:Array<String>):Array<Array<Bool>> {
@@ -170,8 +170,8 @@ class PlaintextCellsReader {
 
 /**
  * Expands and converts ASCII Life 1.0x format patterns.
- * @see http://www.conwaylife.com/wiki/Life_1.05
- * @see http://www.conwaylife.com/wiki/Life_1.06
+ * @see https://www.conwaylife.com/wiki/Life_1.05
+ * @see https://www.conwaylife.com/wiki/Life_1.06
  */
 class LifeReader {
 	public static function expandLife(life:Array<String>):Array<Array<Bool>> {

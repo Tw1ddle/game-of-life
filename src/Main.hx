@@ -19,6 +19,7 @@ import js.three.Texture;
 import js.three.WebGLRenderer;
 import life.GameOfLife;
 import life.PatternLoader;
+import life.PatternSaver;
 import life.Patterns;
 import shaders.Copy;
 import webgl.Detector;
@@ -477,7 +478,7 @@ class Main {
 		
 		selectedPatternName = patternName;
 		
-		var fileContent:Array<String> = Reflect.getProperty(life.Patterns, patternName);
+		var fileContent:Array<String> = Reflect.field(life.Patterns, patternName);
 		Sure.sure(fileContent.length > 0);
 		
 		// Ensure empty lines count as newlines in the text edit
@@ -558,16 +559,18 @@ class Main {
 	/**
 	 * Tries to connect to a web socket if an address and port have been supplied in the query string
 	 */
-	private static var imagesReceivedFromWebSocketCount:Int = 0;
+	private static var imagesReceivedFromWebSocketCount:Int = 0; // Keeps count of the number of images recieved from the socket
 	private inline function tryConnectWebSocket():Void {
 		var hostAndPort:String = getWebSocketHostAndPort();
 		if(hostAndPort == null) {
 			return;
 		}
 
+		trace("Got host and port: " + hostAndPort + ", will try to connect to WebSocket");
+
 		var patternImageStream = new PatternImageStream();
 		patternImageStream.onConnected = ()-> {
-			trace("Connect WebSocket to " + hostAndPort);
+			trace("Connected WebSocket to " + hostAndPort);
 		};
 
 		patternImageStream.onMessage = function(data:Bytes) {
@@ -577,8 +580,7 @@ class Main {
 			}
 			trace("Received data: " + data.length + " bytes");
 
-			// Interpret message as an RGBA8888 image with 4-byte width and height at the start
-
+			// Interpret message as an RGBA8888 image with 4-byte width and height values at the start
 			var width:Int = data.getInt32(0);
 			var height:Int = data.getInt32(4);
 			if(width * height * 4 != data.length - 8) {
@@ -586,42 +588,37 @@ class Main {
 				return;
 			}
 
+			// At this point the data has been validated and is good to use as a life image/pattern
+			imagesReceivedFromWebSocketCount++;
+
+			// Convert the image into a plaintext file and cache it
+			// The pattern is black and white only, so squash the it down to an array of bools
 			var blackAndWhite:Array<Bool> = [];
-			var i = 0;
-			while(i < data.length - 8) {
-				blackAndWhite.push(data.getInt32(i) != 0);
+			var i = 8;
+			while(i < data.length) {
+				blackAndWhite.push(!(data.get(i) == 0 && data.get(i + 1) == 0 && data.get(i + 2) == 0));
 				i += 4;
 			}
 
-			// TODO fix life/PatternLoader.hx:17: Unsupported file in pattern embed folder: canvas_from_websocket_0 errors
-			// TODO possibly convert image into an RLE file, then add it, and then go through the usual route (file -> pattern grid -> canvas -> texture)
+			// NOTE the .cells extension identifies the pattern as a plaintext pattern file,
+			//  hich is needed so the code that loads it up later knows what format to treat it as
+			var patternName:String = "pattern_from_websocket_ " + imagesReceivedFromWebSocketCount + "_cells";
+			var patternPlainText:Array<String> = PlaintextWriter.savePixelsToPlaintext(blackAndWhite, width, height, patternName);
+			Reflect.setField(Patterns, patternName, patternPlainText);
 
-			var patternGrid = [[]];
-			for(h in 0...height) {
-				var row:Array<Bool> = [];
-				for(w in 0...width) {
-					row.push(blackAndWhite[h * width + w]);
-				}
-				patternGrid.push(row);
-			}
-
-			var patternName:String = "canvas_from_websocket_" + imagesReceivedFromWebSocketCount;
-
-			// Image set from WebSocket data doesn't have any associated pattern file/text
-			Reflect.setProperty(life.Patterns, patternName, [ "#n from WebSocket, so no file here" ]);
-
-			var canvas = getCanvasForPattern(patternName, patternGrid);
-			addCanvasToPreview(patternName, canvas);
-
-			// Populate the embedded pattern select dropdown
+			// Add option to the pattern select dropdown
 			var option = Browser.document.createOptionElement();
 			option.appendChild(Browser.document.createTextNode(patternName));
 			option.value = patternName;
 			patternPresetListElement.appendChild(option);
 
-			selectedPatternName = patternName;
+			// Add the newly-received pattern to the preview pane
+			var grid = PatternLoader.expandToBoolGrid(patternName, Reflect.field(Patterns, patternName));
+			var canvas = getCanvasForPattern(patternName, grid);
+			addCanvasToPreview(patternName, canvas);
 
-			imagesReceivedFromWebSocketCount++;
+			// Select the pattern
+			selectedPatternName = patternName;
 		};
 
 		patternImageStream.connect("ws://" + hostAndPort); // NOTE should be wss for HTTPS
