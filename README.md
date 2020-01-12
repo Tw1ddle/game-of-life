@@ -43,6 +43,7 @@ In this [implementation](https://github.com/Tw1ddle/game-of-life/blob/master/src
 ## Notes
 * The patterns are from the [LifeWiki](http://www.conwaylife.com/wiki/Main_Page) collection. Credit for these goes to the original creators.
 * This project was inspired by [Golly](https://sourceforge.net/projects/golly/), a cross-platform cellular automaton simulator.
+* Images can be sent to the software through a binary-mode WebSocket, enabled by appending "?socket=<your_ip>%3A<your_port>" to the URL. It expects messages in the form: width:int32, height:int32, RGBA8888pixels:array<int32>.
 * If you have any questions or suggestions then send Sam a message on [Twitter](https://twitter.com/Sam_Twidale) or open an issue.
 
 ## License
