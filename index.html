@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-GB" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1,maximum-scale=1">
+		<title>The Game of Life - John Conway's cellular automaton simulation in WebGL</title>
+		<meta name="author" content="Sam Twidale">
+        <meta name="description" content="This is an interactive Game of Life cellular automaton written using WebGL (three.js) and Haxe, with gliders and thousands of other Life patterns.">
+        <meta name="keywords" content="Conway's Game of Life,Conway,Game of Life,John Conway,Life,simulation,cellular automaton,automaton,glider gun,glider,still life,loaf,pattern,evolution,oscillator,spaceship,self replication,patterns">
+        <meta name="subject" content="Conway's Game of Life">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://www.samcodes.co.uk/project/game-of-life/" />
+        <meta property="og:title" content="Conway's Game of Life">
+        <meta property="og:description" content="WebGL/three.js implementation of Conway's Game of Life.">
+        <meta property="og:site_name" content="Samcodes">
+        <meta name="twitter:title" content="Conway's Game of Life">
+        <meta name="twitter:description" content="WebGL/three.js implementation of Conway's Game of Life.">
+		<link rel="icon" type="image/x-icon" href="icon/favicon.png">
+		<link rel="apple-touch-icon-precomposed" type="image/x-icon" href="icon/apple-touch-icon-precomposed.png">
+		<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="icon/favicon.ico"><![endif]-->
+		<link rel="stylesheet" type="text/css" href="css/style.min.css">
+		<link rel="stylesheet" type="text/css" href="css/nouislider.min.css">
+		<link rel="stylesheet" type="text/css" href="css/nouislider.pips.css">
+	</head>
+	
+    <body>
+<div id="container">
+		<section id="header">
+			<div class="inner">
+				<h1><strong>Game of Life Cellular Automaton</strong></h1>
+				<h2>The Game of Life, a simulation devised by John Conway</h2>
+				
+				<a href="https://github.com/Tw1ddle/game-of-life" target="_blank">
+					<img class="logo" src="assets/images/logo.png" alt="game of life logo">
+				</a>
+				
+				<p>Interact with <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Conway's Game of Life</a> in this <a href="https://github.com/Tw1ddle/game-of-life" target="_blank">open source</a> implementation, written in <a href="http://haxe.org/" target="_blank">Haxe</a> by <a href="https://twitter.com/Sam_Twidale" target="_blank">Sam Twidale</a>. Featuring patterns from <a href="http://www.conwaylife.com/wiki/Main_Page" target="_blank">LifeWiki</a>. Tap the canvas below to add Life patterns to the simulation.</p>
+			</div>
+		</section>
+		
+		<div id="game" class="container stitched" oncontextmenu="return false;">
+			<p>Loading...</p>
+		</div>
+		
+		<br/>
+		<br/>
+		
+		<div class="container stitched">
+			<p>Hit "Pause" to stop and start the Life simulation, "Step" to advance frame by frame, adjust the slider to change the simulation speed, or hit "Clear" to wipe the game world clean.</p>
+			
+			<div id="controls">
+				<a class="button" id="liferunpausebutton">
+					<h2>Pause</h2>
+				</a>
+				<a class="button" id="lifestepbutton">
+					<h2>Step</h2>
+				</a>
+				
+				<div id="simulationframerateslider" class="black"></div>
+				
+				<a class="button" id="lifeclearbutton">
+					<h2>Clear</h2>
+				</a>
+			</div>
+		</div>
+			
+		<br/>
+		<br/>
+			
+		<div class="container stitched">
+			<p>Use the dropdown below to select life patterns by name. Once a pattern is selected, press the canvas to stamp a copy of the pattern onto it. Remember that some patterns take up a lot of space, so make sure the area you press is unoccupied, or clear the canvas first.</p>
+			
+			<div class="container">
+				<h3>Current Pattern</h3>
+				<select id="patternpresetlist"></select>
+				
+				<h3>Pattern File</h3>
+				<textarea id="patternfileedit"></textarea>
+			</div>
+		</div>
+		
+		<br/>
+		<br/>
+		
+		<div class="patternpreview stitched">
+			<p>Hit the "Random Pattern" button to select a Game of Life pattern at random. A graphical preview of the initial pattern and name is shown in the space below, and the currently selected one is shown highlighted. Press the old preview graphics to quickly select the corresponding pattern again.</p>
+			
+			<div class="container">
+				<a class="button" id="randompatternbutton">
+					<h2>Random Pattern</h2>
+				</a>
+				<a class="button" id="clearpreviouspatterns">
+					<h2>Clear Cache</h2>
+				</a>
+			</div>
+			
+			<br/>
+			
+			<div id="usedpatternscontainer"></div>
+		</div>
+		
+		<br/>
+		<br/>
+		
+		<div class="container stitched">
+			<h2>How It Works</h2>
+			<p><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Conway's Game of Life</a> is a a <a href="https://en.wikipedia.org/wiki/Cellular_automaton" target="_blank">cellular automaton</a> invented by <a href="https://en.wikipedia.org/wiki/John_Horton_Conway" target="_blank">John Horton Conway</a> in 1970. It is not a game in the conventional sense, but rather a simulation that runs on a grid of square cells, each of which can either be considered <i>dead</i> or <i>alive</i>.</p>
+			<p>When the simulation updates, living cells interact with their neighbors according to four rules. Any living cell with fewer than two live neighbors dies due to underpopulation. Living cells with four or more neighbors die through overpopulation. Living cells with two or three live neighbors continue to survive. Dead cells with three living neighbors come to life, as if via reproduction.</p>
+			<p>Despite the simple rules, Life patterns exhibit chaotic changes. Conway designed the rules of the game to avoid explosive growth and produce interesting patterns. This formulation provides endless possibilities - the Game of Life is as powerful as a universal Turing machine, so even self-replicating patterns can be created.</p>
+			<p>This implementation uses <a href="https://www.khronos.org/webgl/wiki/Getting_Started" target="_blank">WebGL shaders</a> to run the Game of Life simulation on the graphics card. It uses a <a href="http://gamedev.stackexchange.com/questions/80951/what-is-ping-pong-in-the-context-of-graphics-rendering" target="_blank">ping-pong</a> technique with two render targets - one contains the current simulation step, and the other receives the results of applying the rules, producing the next simulation step.</p>
+			<p>The original Game of Life was not interactive, but this version allows live editing of the world. Simulation parameters and thousands of patterns are in the "Settings" section on this page. Select one of the preset patterns and try tapping on the world.</p>
+			<p>This demo was inspired by <a href="https://sourceforge.net/projects/golly/" target="_blank">Golly</a>, a cross-platform simulator for the Game of Life and other cellular automata. If you have any questions or suggestions then please get in touch or <a href="https://github.com/Tw1ddle/game-of-life" target="_blank">open an issue</a>. For more information about Conway's Game of Life, read the <a href="http://www.conwaylife.com/wiki/Main_Page" target="_blank">Game of Life Wiki</a>.</p>
+		</div>
+		
+		<script src="js/wNumb.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/three.min.js"></script>
+		<script src="js/webgldetector.min.js"></script>
+		<script src="js/gameoflife.js"></script>
+			
+		</div>
+	</body>
+</html>
