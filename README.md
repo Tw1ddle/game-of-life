@@ -1,7 +1,7 @@
 [![Project logo](screenshots/game_of_life_logo.png "Game Of Life WebGL logo")](https://www.samcodes.co.uk/project/game-of-life/)
 
-[![Build Status](https://img.shields.io/travis/Tw1ddle/game-of-life.svg?style=flat-square)](https://travis-ci.org/Tw1ddle/game-of-life)
 [![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat-square)](https://github.com/Tw1ddle/game-of-life/blob/master/LICENSE)
+[![Build Status Badge](https://ci.appveyor.com/api/projects/status/github/Tw1ddle/game-of-life)](https://ci.appveyor.com/project/Tw1ddle/game-of-life)
 
 Conway's Game of Life written using Haxe and WebGL. Run it [in your browser](https://www.samcodes.co.uk/project/game-of-life/).
 
@@ -41,7 +41,7 @@ Conway designed these rules to produce interesting results - even self replicati
 In this [implementation](https://github.com/Tw1ddle/game-of-life/blob/master/src/life/GameOfLife.hx), the Game of Life rules are applied via a GLSL [shader](https://github.com/Tw1ddle/game-of-life/blob/master/src/shaders/life.fragment) that runs on the graphics card. It uses a ping-pong technique with two render targets: one render target contains the current simulation step, and the other receives the results of applying the rules of the game to produce the next simulation step. In other words, we use the output of the last simulation step as input to the next one, alternating between render targets on every step.
 
 ## Notes
-* The patterns are from the [LifeWiki](http://www.conwaylife.com/wiki/Main_Page) collection. Credit for these goes to the original creators.
+* The patterns are from the [LifeWiki](https://www.conwaylife.com/wiki/Main_Page) collection. Credit for these goes to the original creators.
 * This project was inspired by [Golly](https://sourceforge.net/projects/golly/), a cross-platform cellular automaton simulator.
 * Images can be sent to the software through a binary-mode WebSocket, enabled by appending "?socket=<your_ip>%3A<your_port>" to the URL. It expects messages in the form: width:int32, height:int32, RGBA8888pixels:array<int32>.
 * If you have any questions or suggestions then send Sam a message on [Twitter](https://twitter.com/Sam_Twidale) or open an issue.
