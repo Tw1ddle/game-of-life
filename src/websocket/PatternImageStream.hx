@@ -2,7 +2,7 @@ package websocket;
 
 import haxe.io.Bytes;
 import haxe.io.Encoding;
-import hx.ws.BinaryType;
+import hx.ws.Types;
 import hx.ws.Buffer;
 import hx.ws.WebSocket;
 
