@@ -9,3 +9,4 @@
 *.hash
 *.map
 bin/debug/css/style.min.css
+bin/js/gameoflife.js
